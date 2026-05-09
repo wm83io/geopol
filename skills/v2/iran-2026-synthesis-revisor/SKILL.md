@@ -82,8 +82,8 @@ flagged explicitly and argued, not just substituted.
 | Minor (v2.5 → v2.6) | Updates that preserve central thesis and constraint architecture | Probability drift, new validated assumptions, mechanism additions |
 | Major (v2.x → v3.0) | Reformulation of central thesis, new constraint layer, restructured probability architecture | Constraint layer 4 promoted to permanent; thesis breaks |
 
-- **Internal filename:** `iran-2026-sitrep-synthesis-v{N}.md`
-- **External filename:** `iran-2026-framework-blog.md` (overwrites prior; blog versioning is implicit by post date)
+- **Internal filename:** `synthesis-v{N}.md`
+- **External filename:** `synthesis-v{N}-external.md`
 - Add a **Version Notes** section at the top of the *internal* document (below header block) listing what changed substantively from prior version. 5-8 bullets. Diff summary for readers returning after an absence.
 
 ---
@@ -281,8 +281,8 @@ Stripping is *scaffolding only*. The argument is identical; only the bookkeeping
 
 Two files produced in the same task:
 
-1. `iran-2026-sitrep-synthesis-v{N}.md` — internal anchor
-2. `iran-2026-framework-blog.md` — external blog version
+1. `synthesis-v{N}.md` — internal anchor
+2. `synthesis-v{N}-external.md` — external blog version
 
 After producing both, state:
 
@@ -299,5 +299,5 @@ After producing both, state:
 - Do not quietly drop assumptions that proved wrong. Mark them revised with rationale; the error is as informative as the correction.
 - Do not produce a synthesis longer than the prior version without justification. Accretion without retirement is intellectual hoarding.
 - Do not let the external version drift in substance from the internal. The external is a transform, not a re-write. If you find yourself making a different argument in the blog version, stop — the difference belongs in the next internal revision.
-- Do not version the external blog file (`iran-2026-framework-blog.md`, no `-v{N}`). Blog versioning is implicit by post date.
+- Do not overwrite the external blog file — always use versioned filename `synthesis-v{N}-external.md`. Blog versioning is implicit by post date.
 - Do not skip producing the external version because "the user can do it later." Both outputs are the deliverable.

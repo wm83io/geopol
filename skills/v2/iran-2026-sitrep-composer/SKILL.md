@@ -57,14 +57,14 @@ Priority sources:
 
 ## Document structure
 
-Output filename: `iran-2026-sitrep-day{N}-update.md`
+Output filename: `day-{N}.md`
 
 Header block:
 
 ```
 # Iran 2026 Operational SITREP — Daily Update
 **Day {N} | {Weekday}, {Month} {DD}, {YYYY}**
-*Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report v2.0)*
+*Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report v3.0)*
 ```
 
 ---
@@ -147,7 +147,7 @@ Do not reprint the full matrix unchanged. Deltas only. Ranges, not point estimat
 
 ### Section 6 — Probe Status Table
 
-Pull directly from probe sweep output, formatted per `iran-2026-probe-output-schema.md` sweep summary table. If probes were not run, insert: `*Probe sweep not executed this cycle — see pre-flight note.*`
+Pull directly from probe sweep output, formatted per `D:\claude\geopol\probes\probe-schema.md` sweep summary table. If probes were not run, insert: `*Probe sweep not executed this cycle — see pre-flight note.*`
 
 ---
 

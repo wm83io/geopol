@@ -15,7 +15,7 @@ description: >
 Executes the weekly probe cycle against Appendix B's blind-spot inventory. Produces structured output
 consumed by the SITREP composer and auditor skills.
 
-**Output schema:** `references/probe-output-schema.md` — read before writing any finding card.
+**Output schema:** `D:\claude\geopol\probes\probe-schema.md` — read before writing any finding card.
 
 ---
 
@@ -91,11 +91,11 @@ Assign:
 - **Trigger match:** which Appendix B trigger row fires, if any
 - **Direction:** variable moves `up` / `down` / `no change`
 
-Schema definitions are in `references/probe-output-schema.md`. Read that file before writing cards.
+Schema definitions are in `D:\claude\geopol\probes\probe-schema.md`. Read that file before writing cards.
 
 ### Step 5 — Write finding card
 
-One card per probe. Use the schema in `references/probe-output-schema.md` exactly. No length freelancing.
+One card per probe. Use the schema in `D:\claude\geopol\probes\probe-schema.md` exactly. No length freelancing.
 
 ### Step 6 — Trigger escalation
 
@@ -122,7 +122,7 @@ If a trigger event fires on a skip week, run the probe regardless.
 
 ## Output Artifacts
 
-Produce three artifacts after all probes complete. Formats are defined in `references/probe-output-schema.md`.
+Produce three artifacts after all probes complete. Formats are defined in `D:\claude\geopol\probes\probe-schema.md`.
 
 1. **Probe sweep table** — one row per probe, status/confidence/trigger summary. Goes in the daily SITREP
    under "Appendix B Intelligence Probe Status."
