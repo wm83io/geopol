@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Iran 2026 Probe Sweep",
+  "description": "Structured output contract for probe runner cycles. Consumed by SITREP composer and blind-spot auditor.",
+  "type": "object",
+  "required": ["sweep_metadata", "finding_cards", "sweep_summary", "trigger_digest", "gap_log"],
+  "properties": {
+    "sweep_metadata": {
+      "type": "object",
+      "required": ["cycle_date", "day_number", "framework_version", "probes_run", "synthesis_anchor"],
+      "properties": {
+        "cycle_date": { "type": "string", "format": "date", "description": "YYYY-MM-DD" },
+        "day_number": { "type": "integer", "description": "Day N of the 2026 US-Iran conflict" },
+        "framework_version": { "type": "string", "description": "e.g. v3.0" },
+        "probes_run": { "type": "array", "items": { "type": "string" }, "description": "List of PROBE-N IDs run this cycle" },
+        "synthesis_anchor": { "type": "string", "description": "Synthesis file this sweep was run against" }
+      }
+    },
+    "finding_cards": {
+      "type": "array",
+      "description": "One card per probe per cycle",
+      "items": {
+        "type": "object",
+        "required": ["probe_id", "probe_name", "status", "confidence", "sources", "finding", "trigger_match"],
+        "properties": {
+          "probe_id": { "type": "string", "description": "e.g. PROBE-1" },
+          "probe_name": { "type": "string", "description": "Short descriptive name" },
+          "status": { "type": "string", "enum": ["fired", "partial", "null", "gap"] },
+          "confidence": { "type": "string", "enum": ["H", "M", "L"] },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "tier"],
+              "properties": {
+                "name": { "type": "string" },
+                "tier": { "type": "integer", "minimum": 1, "maximum": 3 },
+                "url": { "type": "string" }
+              }
+            }
+          },
+          "finding": { "type": "string", "description": "2-3 sentences. What surfaced or did not." },
+          "trigger_match": { "type": "boolean" },
+          "trigger_detail": {
+            "type": ["object", "null"],
+            "properties": {
+              "appendix_b_row": { "type": "string" },
+              "framework_variable": { "type": "string" },
+              "direction": { "type": "string" },
+              "gap_to_full_match": { "type": "string" }
+            }
+          },
+          "variable_moved": {
+            "type": ["object", "null"],
+            "properties": {
+              "variable": { "type": "string" },
+              "prior_value": { "type": "string" },
+              "new_value": { "type": "string" },
+              "driver": { "type": "string" }
+            }
+          },
+          "discounts_applied": { "type": "array", "items": { "type": "string" } },
+          "conflict_notes": { "type": "string" }
+        }
+      }
+    },
+    "sweep_summary": {
+      "type": "object",
+      "description": "Aggregated table data for SITREP section",
+      "required": ["rows", "fired_count", "partial_count", "null_count", "gap_count"],
+      "properties": {
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["probe_id", "status", "confidence", "trigger_fired", "variable_moved"],
+            "properties": {
+              "probe_id": { "type": "string" },
+              "status": { "type": "string", "enum": ["fired", "partial", "null", "gap"] },
+              "confidence": { "type": "string", "enum": ["H", "M", "L"] },
+              "trigger_fired": { "type": "boolean" },
+              "variable_moved": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "fired_count": { "type": "integer" },
+        "partial_count": { "type": "integer" },
+        "null_count": { "type": "integer" },
+        "gap_count": { "type": "integer" }
+      }
+    },
+    "trigger_digest": {
+      "type": "array",
+      "description": "Populated only when triggers fire. Feeds SITREP composer immediately; auditor at next audit.",
+      "items": {
+        "type": "object",
+        "required": ["appendix_b_row", "source_probe", "confidence", "proposed_revision", "urgency"],
+        "properties": {
+          "appendix_b_row": { "type": "string" },
+          "source_probe": { "type": "string" },
+          "confidence": { "type": "string", "enum": ["H", "M", "L"] },
+          "proposed_revision": {
+            "type": "object",
+            "required": ["section", "edit"],
+            "properties": {
+              "section": { "type": "string" },
+              "edit": { "type": "string" }
+            }
+          },
+          "urgency": { "type": "string", "enum": ["immediate", "next_cycle", "next_audit"] }
+        }
+      }
+    },
+    "gap_log": {
+      "type": "array",
+      "description": "Gap-status probes. Feeds auditor for source-ladder and BS review.",
+      "items": {
+        "type": "object",
+        "required": ["probe_id", "gap_description", "consecutive_gap_cycles", "sources_tried", "recommendation"],
+        "properties": {
+          "probe_id": { "type": "string" },
+          "gap_description": { "type": "string" },
+          "consecutive_gap_cycles": { "type": "integer" },
+          "sources_tried": { "type": "array", "items": { "type": "string" } },
+          "sources_not_tried": { "type": "array", "items": { "type": "string" } },
+          "recommendation": {
+            "type": "string",
+            "enum": ["add_new_source", "change_frequency", "accept_structural_opacity", "escalate_to_auditor"]
+          }
+        }
+      }
+    }
+  }
+}
