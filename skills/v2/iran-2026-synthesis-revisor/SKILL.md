@@ -40,6 +40,13 @@ Use Filesystem tools directly — do not rely on project_knowledge_search for th
 4. **All probe sweeps since last revision:** read all files in `D:\claude\geopol\probes\sweeps\`
    in chronological order.
 5. **Output schema:** read `D:\claude\geopol\probes\probe-schema.md`
+6. **Staging directory:** check `D:\claude\geopol\synthesis\staging\` for any pending change
+   manifests before drafting. If files exist, read them all in full. These are pre-staged
+   structural revisions that must be incorporated into the new synthesis version — they are
+   not optional inputs. A manifest in staging takes precedence over annex-derived inference
+   for any mechanism or probability it explicitly covers. After a successful synthesis write,
+   move consumed manifests to `D:\claude\geopol\synthesis\staging\archive\` — do not delete them.
+   If staging is empty, proceed normally.
 
 After producing both outputs:
 - Write internal synthesis to `D:\claude\geopol\synthesis\synthesis-v{X-Y}.md`
@@ -59,6 +66,7 @@ Section 4 (Framework Additions) in sequence. Build a running tally:
 | Probability moved >10pts or reversed direction | material | list with drivers |
 | Framework addition in 3+ annexes | structural threshold | promote from provisional |
 | Trigger digest from probe sweep | revision input | primary input |
+| Manifest item in staging | pre-validated | incorporate as settled; do not re-derive |
 
 The annex chain is ground truth. The synthesis is its compression. Do not restate annex content —
 extract the architecture underneath it.
@@ -69,6 +77,7 @@ extract the architecture underneath it.
 - Which probability matrix entries drifted materially (>10 points or direction reversal)
 - Which framework additions are now structural (repeat mechanism) vs still provisional
 - Whether the central thesis held, strengthened, or requires reformulation
+- Which staging manifest items are queued and how they interact with annex-derived findings
 
 If the central thesis held, the revision is an update. If it requires reformulation, that must be
 flagged explicitly and argued, not just substituted.
@@ -119,6 +128,7 @@ Mandatory sections in order:
 - Market levels (Section 4)
 - Time arithmetic in constraint architecture (Layer 3)
 - Most probable outcome architecture
+- Any item explicitly listed in a staging manifest
 
 ### Update only if materially changed
 - Constraint layers 1-2 (military physics, asymmetric-conflict logic) — structural; update only if a new capability or doctrine has been confirmed
@@ -147,6 +157,10 @@ A dynamic qualifies for permanent inclusion if it meets **two of three**:
 
 Provisional dynamics (one or two annex mentions) go in a **Provisional Dynamics** subsection within
 Section 7, clearly flagged. They graduate to permanent on next revision if threshold is met.
+
+**Exception:** a dynamic explicitly listed in a staging manifest with a structural designation bypasses
+the three-annex threshold. The manifest represents pre-validated conclusions from the probe/SITREP
+chain; re-applying the threshold to already-validated findings is redundant.
 
 ---
 
@@ -240,6 +254,7 @@ After writing, state explicitly:
 - Which assumptions changed status
 - Which probability entries moved most materially
 - Whether central thesis was preserved, updated, or reformulated
+- Which staging manifest items were incorporated and archived
 
 ### External (blog) version — derived
 
@@ -286,7 +301,7 @@ Two files produced in the same task:
 
 After producing both, state:
 
-- Internal: version increment + rationale, assumption status changes, biggest probability moves, central thesis disposition
+- Internal: version increment + rationale, assumption status changes, biggest probability moves, central thesis disposition, staging manifest items incorporated
 - External: title chosen, framing note, TL;DR, transform deltas applied (which scaffolding was stripped)
 
 ---
@@ -301,3 +316,5 @@ After producing both, state:
 - Do not let the external version drift in substance from the internal. The external is a transform, not a re-write. If you find yourself making a different argument in the blog version, stop — the difference belongs in the next internal revision.
 - Do not overwrite the external blog file — always use versioned filename `synthesis-v{N}-external.md`. Blog versioning is implicit by post date.
 - Do not skip producing the external version because "the user can do it later." Both outputs are the deliverable.
+- Do not skip the staging directory check. A manifest in staging represents pre-validated structural changes argued through the probe and SITREP chain. Ignoring it forces re-derivation of conclusions that are already settled, and produces a synthesis that is inconsistent with the annex chain that feeds it.
+- Do not leave staging manifests in place after a successful synthesis write. Move them to `D:\claude\geopol\synthesis\staging\archive\` to mark them as consumed. A manifest left in staging after its synthesis version publishes will be re-incorporated on the next revision, corrupting the version chain.
