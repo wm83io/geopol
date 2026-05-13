@@ -1,3 +1,7 @@
+---
+description: Execute the Iran 2026 probe cycle against Appendix B and write a sweep JSON
+---
+
 # Iran 2026 — Probe Runner
 
 Executes the weekly probe cycle against Appendix B's blind-spot inventory. Produces structured output

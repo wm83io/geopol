@@ -1,3 +1,7 @@
+---
+description: Compose the daily Iran 2026 SITREP annex against the base synthesis and most recent probe sweep
+---
+
 # Iran 2026 — Daily SITREP Composer
 
 Composes the daily annex update to the base synthesis. Output is a delta document, not a rewrite.

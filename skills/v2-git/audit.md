@@ -1,3 +1,7 @@
+---
+description: Audit and refresh the Iran 2026 Appendix B blind-spot inventory and probe directives
+---
+
 # Iran 2026 — Blind-Spot Auditor
 
 Refreshes Appendix B's blind-spot inventory and standing probe directives. Comparative job:

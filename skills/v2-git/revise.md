@@ -1,3 +1,7 @@
+---
+description: Version up the Iran 2026 synthesis and produce both internal and external blog versions
+---
+
 # Iran 2026 — Synthesis Revisor
 
 Produces a new versioned synthesis from accumulated SITREP / annex drift. **Always produces two outputs:**
