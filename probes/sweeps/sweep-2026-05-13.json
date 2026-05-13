@@ -1,0 +1,412 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-13",
+    "day_number": 76,
+    "framework_version": "v3.0",
+    "probes_run": ["PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12-prime", "PROBE-13", "PROBE-14", "PROBE-15"],
+    "probes_skipped": ["PROBE-1 (bi-weekly, ran Day 74)", "PROBE-3 (monthly, structurally opaque)", "PROBE-4 (monthly retirement candidate)", "PROBE-5 (weekly, ran Day 74; folded into PROBE-10)", "PROBE-11 (weekly, ran Day 74 null)"],
+    "synthesis_anchor": "synthesis-v3-0.md",
+    "last_sitrep": "day-74.md (May 11)",
+    "calibration_verdict": "material_drift_thesis_reframed_breaking_risk_held"
+  },
+
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Critical Threats / ISW Iran Update May 12 (tier-3, named-source)", "tier": 3},
+        {"name": "Sobh-e No (Ghalibaf-affiliated parliamentary newspaper) reporting Iran 14-point counter (via Iran International)", "tier": 2},
+        {"name": "Ghalibaf X post (tier-1 named principal)", "tier": 1},
+        {"name": "Jafari (former IRGC commander) public articulation May 11 (tier-2)", "tier": 2},
+        {"name": "PressTV / Brigadier General Hassanzadeh statement May 12 (tier-2 state media named-source)", "tier": 2}
+      ],
+      "finding": "IRGC principal-level signals now visible in tier-1/2 channels at unprecedented density. Ghalibaf X post (named, tier-1): 'There is no alternative but to accept the rights of the Iranian people as laid out in the 14-point proposal. Any other approach will be completely inconclusive, nothing but one failure after another. The longer they drag their feet, the more American taxpayers will pay for it.' Sobh-e No (Ghalibaf parliamentary outlet) ran Iran's 14-point counter. Former IRGC commander Major General Mohammad Ali Jafari publicly articulated the 5-precondition demand May 11. ISW (May 12): IRGC consolidating Iran's internal power structure under Commander Major General Ahmad Vahidi and his inner circle. Brigadier General Hassan Hassanzadeh (Tehran IRGC commander) statement on Tehran 5-day drill: 'Enhancing combat capability to confront any movement of the American-Zionist enemy.' BS-12 Iranian-side PA-gap visibility moves from 30-40% (Day 74) to 50-60%: coalition principals are now speaking in their own voices, not just through Araghchi.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian principal-level (Mojtaba/Ghalibaf/Vahidi) named endorsement of MOU terms — INVERTED: principal-level rejection / counter-proposal endorsement publicly stated, not MOU endorsement; A4 (IRGC doctrinal autonomy) hardened",
+        "framework_variable": "BS-12 Iranian-side PA-gap visibility; Fork B durability",
+        "direction": "down (Iran principal-level publicly hard on counter-proposal; not MOU-receptive)",
+        "gap_to_full_match": "No Mojtaba named statement. Vahidi confirmed as IRGC apex but no direct quote — still figure pointed to, not figure speaking."
+      },
+      "variable_moved": {
+        "variable": "BS-12 Iranian-side PA-gap visibility",
+        "prior_value": "30-40% (Day 74) — counter-proposal reveals position; agents delivering",
+        "new_value": "50-60% (Day 76) — Ghalibaf direct X post + Jafari direct + IRGC drill commander direct + Sobh-e No editorial = multiple named-principal-tier signals same position",
+        "driver": "Iran's principal coalition now speaking in own voice, all signals confirm 5-precondition / nuclear-deferral / 14-point counter posture"
+      },
+      "discounts_applied": ["State media discount on Hassanzadeh quote not applied — drill objective consistent with multi-source IRGC posture"],
+      "conflict_notes": "Ghalibaf framing 'the more American taxpayers will pay' is leverage messaging consistent with Iran's strangulation-pressure reading of US position. ISW's Vahidi-consolidation finding is analytical; not yet confirmed by named Vahidi quote. Triangle apex (Vahidi-Zolghadr-Aliabadi) per Day 70 baseline holds."
+    },
+
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Bangor Daily News / AP Trump 'no need for China help on Iran' May 13 (tier-2)", "tier": 2},
+        {"name": "Washington Post 'Trump arriving in China' May 13 (tier-2)", "tier": 2},
+        {"name": "Al Jazeera 'Trump-Xi China's help in Iran may require US concessions' May 13 (tier-2)", "tier": 2},
+        {"name": "CFR 'At Trump-Xi Summit, China Will Have the Upper Hand' (tier-3)", "tier": 3},
+        {"name": "CSIS Trump-Xi summit analysis (tier-3)", "tier": 3},
+        {"name": "OilPrice Trump-Xi Iran/Hormuz/oil deals preview (tier-3)", "tier": 3}
+      ],
+      "finding": "Trump landed Beijing May 13 ahead of May 14-15 summit. Pre-summit framing has shifted materially since Day 74: Trump (May 12, named): 'I don't think we need any help with Iran. We'll win it one way or the other, peacefully or otherwise.' Trump publicly downgraded summit's Iran component — said he would have 'a long talk' with Xi on Iran but main focus is trade. Al Jazeera: weeks of unsuccessful US efforts to persuade China to bring Iran back to negotiations and ease Hormuz tensions. CFR: 'China will have the upper hand'; Xi has shown 'little appetite to apply acute pressure on the regime.' This is the most operative pre-summit signal: Trump is preemptively framing the summit such that Xi delivering Iran movement is not required for US 'win.' Equivalently: Trump is hedging against Xi non-delivery by pre-removing it from the success criteria. The Day 74 thesis that Fork B recovery 'runs entirely through Trump-Xi summit' is now structurally weakened by Trump's own framing — summit is no longer the binding focal point for Fork B because Trump is no longer treating it as such.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump-Xi summit communique Iran content (pre-summit framing as proxy)",
+        "framework_variable": "Chinese commitment-device endorsement for Fork B; summit-as-focal-point status",
+        "direction": "down (summit being demoted as Iran-track focal point pre-arrival; CFR/CSIS pre-summit: limited pressure expected)",
+        "gap_to_full_match": "Summit outcome May 14-15 will close gap. If communique Iran content is generic/process-only, this read confirms."
+      },
+      "variable_moved": {
+        "variable": "Trump-Xi summit Fork B mechanism weight",
+        "prior_value": "Day 74: 'next 72 hours entirely structured by Trump-Xi summit'; Fork B recovery 25-35% conditional on Xi pressing Iran",
+        "new_value": "Day 76: summit demoted by Trump's own framing; Fork B recovery via this channel revised to 15-25% — structurally lower because the US principal has publicly removed Xi-delivery from his success criteria, reducing Xi's leverage to extract concessions",
+        "driver": "Trump May 12 'don't need any help with Iran' + 'we'll win one way or the other' = pre-summit principal-level demotion of the focal point"
+      },
+      "discounts_applied": ["CFR/CSIS analytical pieces tier-3; treated as one analytical source each"],
+      "conflict_notes": "Al Jazeera 'China's help may require US concessions' frames Xi as transactional — China may offer Iran movement in exchange for trade/Taiwan concessions. Trump's pre-summit framing 'we don't need help' may be negotiating posture (Slantchev feigned-weakness inverse: pretending non-need to lower Xi's price). Distinguishing the two reads requires summit outcome data."
+    },
+
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CENTCOM Eisenhower deployment media advisory (tier-1)", "tier": 1},
+        {"name": "IDNFinancials 'US prepares to deploy USS Eisenhower' (tier-2)", "tier": 2},
+        {"name": "Stars and Stripes '3 US aircraft carriers in Middle East' (tier-2)", "tier": 2},
+        {"name": "The Tribune 'CENTCOM redirects 61 vessels' (tier-2)", "tier": 2},
+        {"name": "DefenseScoop 'umbrella defense and tech assets Hormuz' May 4 (tier-2)", "tier": 2},
+        {"name": "Breaking Defense Project Freedom Hormuz analysis (tier-2)", "tier": 2}
+      ],
+      "finding": "USS Eisenhower (CVN-69) completed sea trials April 24 and entered final preparations for Middle East deployment per CENTCOM advisory and IDNFinancials. Sea trials complete + final-prep status = deployment order plausible within days-to-weeks. CENTCOM redirected 61 commercial vessels, disabled 4 as part of persistent Strait of Hormuz maritime siege. Asset concentration: A-10s, F-15s, F-16s, F-18s, F-35s, EA-18 Growlers, RC-135s, KC-46s/KC-135s, multiple destroyers, two CSGs operating, amphibious readiness group, MEU. Project Freedom assessed unlikely to pay off near-term per Breaking Defense. v3.0 / Day 74 finding of THREE CSGs in theater (Lincoln, Bush, CSG-10 since Apr 23) holds. Trump May 11: 'meeting with top military commanders to discuss next steps.' Eisenhower's near-deployment status is a sunk-cost commitment-device signal — preparing the 4th CSG capacity while talks continue is consistent with Schelling commitment-device logic (preserving credible default-to-war if MOU collapses).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "USS Eisenhower deployment order pending; CENTCOM concentration sustained at three-CSG + amphibious posture",
+        "framework_variable": "Fork A sustainment capacity; sunk-cost commitment device for MOU enforcement",
+        "direction": "up (Eisenhower final-prep + Trump 'meeting with commanders' = kinetic-option preservation signal)"
+      },
+      "variable_moved": {
+        "variable": "Force posture as commitment device",
+        "prior_value": "Day 74: THREE CSGs operative; Eisenhower non-deployed treated as restraint",
+        "new_value": "Day 76: THREE CSGs operative + Eisenhower in final prep = 4th-carrier deployment now days-to-weeks-out option, not theoretical reserve — preserves Schelling default-to-war commitment device behind MOU process",
+        "driver": "Eisenhower sea trials completed April 24 + 'final stage of preparations' per IDNFinancials/CENTCOM advisory"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Sen. Kelly (D-AZ) Day 74 finding of 'shocking' munitions depletion stands as material counter-signal to deployment-readiness. Hardware can be deployed; munitions are the binding ceiling on sustained operations. The two signals point opposite directions — posture-for-show plausible if munitions cannot sustain kinetics. Awaiting confirmation either way."
+    },
+
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNBC 'oil tops $104 after Trump life support' May 11 (tier-2)", "tier": 2},
+        {"name": "CNBC 'oil prices today Brent WTI rise Iran tensions escalate' May 12 (tier-2)", "tier": 2},
+        {"name": "Fortune 'current price of oil May 12' (tier-2)", "tier": 2},
+        {"name": "Investing.com / Reuters 'oil little changed as Trump heads to China; US oil stocks fall more than expected' May 13 (tier-2)", "tier": 2},
+        {"name": "TradingEconomics Brent crude data May 13 (tier-2)", "tier": 2},
+        {"name": "Windward commercial shipping Hormuz analysis (tier-2)", "tier": 2}
+      ],
+      "finding": "Brent volatile around three sessions of gains then minor consolidation. Day 74 close ~$103.80; May 11 settle ~$104.21 (+3% on Trump 'life support'); May 12 morning intraday $110.43; May 13 ~$107-108 (Reuters 1503 GMT $107.62, -0.1%); TradingEconomics tick $102.25 (-0.07%). US oil stocks fell more than expected (Reuters). Range is mid-$100s — fork-A repricing without crossing $115 threshold or $130+ scarcity threshold. Windward: 9 commercial tanker transits Hormuz May 11 including dark-fleet-linked LPG/products. Qatar LNG Al Kharaitiyat (May 10) + 2nd Qatari LNG (May 12 per RFE/RL) confirmed via Iran's Tehran-approved northern coastal route. Commercial restoration absent — these are government-to-government Iran-approved transits, not market-rate flow. Brent's compression to mid-$100s with three CSGs + Eisenhower-final-prep + IRGC drills + Iran 5 preconditions + Trump 'one way or the other' = market is pricing 'sustained complication, not collapse' even as substantive negotiating gap is wider than at any point since ceasefire. Strangulation per Day 74 Goldman (101→98 days inventory) continues.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Backwardation deal-pricing vs physical-tightness divergence; Brent fork-indicator below $115 threshold",
+        "framework_variable": "Brent as Fork B/D' vs Fork A indicator; commercial restoration timeline",
+        "direction": "ambiguous (oscillation $102-110 reflects A1 oscillation pricing; no breakout in either direction)"
+      },
+      "variable_moved": {
+        "variable": "Brent oscillation band as indicator of A1 improvisational principal",
+        "prior_value": "Day 74: $103.80 morning, +2.5% on rejection",
+        "new_value": "Day 76: $102-110 band over 48 hours = market unable to commit to direction; high implied volatility tracks Trump's day-to-day position oscillation",
+        "driver": "May 11 'life support' → +3% / May 12 $110 intraday → May 13 $107 / US stocks falling more than expected = combination of supply tightness and uncertainty"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Qatar LNG resumption via Tehran-approved route is structurally important but does not represent commercial restoration — Hapag-Lloyd / Maersk equivalents are not running. The two-track Hormuz (government-to-government open, market-rate closed) is the new equilibrium and may persist independent of MOU outcome. Inventory data (101→98 days) reinforces strangulation timeline 2-3 months."
+    },
+
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Politics / Dispositional Reading",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNN 'Israel is worried Trump will strike bad deal' May 12 (tier-2)", "tier": 2},
+        {"name": "Jerusalem Post 'Israel concerned unwanted concessions may accompany Trump-Iran deal' (tier-2)", "tier": 2},
+        {"name": "Times of Israel liveblog May 13 'Coalition submits bill to dissolve Knesset' (tier-2)", "tier": 2},
+        {"name": "Times of Israel liveblog May 12 'Haredi parties urged not to topple government' (tier-2)", "tier": 2},
+        {"name": "Haaretz 'Top Haredi Leader Orders Coalition Collapse' May 12 (tier-2)", "tier": 2}
+      ],
+      "finding": "Two simultaneous Israeli signals contradict Day 74 read. First (CNN May 12): Israel publicly 'alarmed' about Trump 'bad deal'; Israeli official: 'real concern Trump will reach a bad deal. Israel is trying to influence it as much as it can.' Critical: 'Trump appears reluctant to resume the war, and Netanyahu fears it will end without achieving all of its initial aims.' Israeli source confirms sunset clause has been 'floated' in negotiations — moratorium framework not dead, contrary to Day 74's PA-gap-inversion read. Netanyahu 'relies on his direct communications with Trump, as he does not fully trust Witkoff and Kushner.' Israel pushing two anti-JCPOA clauses: full enrichment prohibition during sunset + Fordow/Pickaxe Mountain dismantlement. Second (Knesset May 13): coalition itself submitted bill to dissolve Knesset and trigger elections within 5 months (by mid-October). Coalition whip Ofir Katz submitted with all coalition parties (UTJ, Shas, New Hope, Religious Zionism, Otzma Yehudit). Maneuver follows Haredi threat to topple government over draft exemption. Election horizon pulled forward from Oct 27 (Appendix B baseline) to potentially earlier (3 months min, 5 months max from passage). Netanyahu spoiler window now closing AND incentive to demonstrate war-achievement before voters rising.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Bennett-Lapid polling beyond 60 seats / coalition collapse path — PARTIAL FIRE (coalition self-terminating, not opposition-displaced); Netanyahu 'regime nature' framing — held but US channel for that framing weakening",
+        "framework_variable": "Israeli spoiler probability; coalition stability; election horizon",
+        "direction": "up on near-term spoiler urgency; down on Trump-Netanyahu alignment durability"
+      },
+      "variable_moved": {
+        "variable": "Israeli unilateral strike probability (14-21 day window)",
+        "prior_value": "Day 74: 20-30%, framed as US-coordinated-or-unilateral on Trump-Netanyahu convergence",
+        "new_value": "Day 76: 20-30% held in magnitude but structurally reframed — Trump has decoupled from Netanyahu's hard line within 48 hours, so the dominant spoiler mechanism is now Netanyahu unilateral pre-emption against an emerging Trump deal, not coordinated extraction. Coalition dissolution pulls election horizon forward, raising Netanyahu's incentive to act before electoral judgment",
+        "driver": "CNN Israeli source 'alarmed' + Netanyahu 'does not fully trust Witkoff/Kushner' + Knesset dissolution May 13 + sunset clause floated = Trump-Israel decoupling visible, election pressure rising"
+      },
+      "discounts_applied": ["CNN single Israeli official source; cross-corroborated by JPost confirms not single-source-discount-applicable"],
+      "conflict_notes": "Day 74 finding of 'Netanyahu Principal-Penetration Pattern' validated AND reversed in same cycle: Netanyahu penetrated Trump May 10, but Trump A1-oscillated back by May 12. The mechanism is real but ephemeral — each Netanyahu call resets Trump toward hard line, then Trump drifts back to deal-preference within 24-48 hours absent new Netanyahu input. This makes the spoiler-pattern duration the binding variable, not just direction."
+    },
+
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Time '3 Republicans Join Democrats in Closest Senate Vote Yet to Halt Iran War' May 13 (tier-1)", "tier": 1},
+        {"name": "Fox News 'Senate Democrats finally crack GOP unity as Murkowski flips' (tier-2)", "tier": 2},
+        {"name": "CBS News 'Senate defeats 7th attempt to limit Trump's Iran war powers, despite new GOP defection' (tier-2)", "tier": 2},
+        {"name": "Jewish Insider 'Murkowski joins Collins, Paul in voting for seventh Democratic war powers effort' (tier-2)", "tier": 2},
+        {"name": "The Hill 'Murkowski push for Iran war resolution faces GOP resistance' (tier-2)", "tier": 2},
+        {"name": "Spectrum News 'Republican resistance to Iran war grows as Murkowski flips' (tier-2)", "tier": 2}
+      ],
+      "finding": "Murkowski FLIPPED on 7th WPR vote May 13: failed 49-50 — ONE vote from passage. Three GOP yes: Collins, Murkowski, Paul. Murkowski statement: after 60-day WPA window passed earlier this month, she expected 'to get more clarity from the administration' but hasn't received it; 'felt it was now time' to support measure 'so we can discuss our responsibilities under the WPR.' Thune ahead of vote: 'I think it would be best if everybody hung together and supported the president.' Thune separately said an AUMF 'is not necessary.' AUMF still non-privileged per Day 74. Structural shift: Day 74 had Murkowski supporting AUMF (separate, restraint-framed); Day 76 Murkowski now supporting WPR (immediate withdrawal). This is a substantive escalation — moving from authorization-conditional to enforcement-immediate. Constitutional crisis probability (30-day) revises up from 50-60% (Day 74) to 60-70% (Day 76) — not because passage is imminent, but because the structural pressure-vector has crossed from authorization-debate (AUMF, never going to 60) into enforcement-debate (WPR, one vote from passage on simple majority). One additional GOP defection (Tillis, Curtis, Young, Hawley in play per Day 74) flips it.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Resumed military operations without new AUMF — falsifying May 5 'concluded' claim; Murkowski AUMF passes Senate or 50+ cosponsors — INVERTED: she flipped to WPR support, not AUMF",
+        "framework_variable": "Constitutional crisis probability; WPR enforcement architecture",
+        "direction": "up significantly"
+      },
+      "variable_moved": {
+        "variable": "Constitutional crisis probability (30-day)",
+        "prior_value": "50-60% (Day 74)",
+        "new_value": "60-70% (Day 76) — WPR vote 49-50, one defection from passage; Murkowski moved from AUMF-conditional to WPR-immediate; structural pressure-vector elevated",
+        "driver": "Murkowski WPR vote May 13 + 'haven't received clarity from administration' + Thune blocking AUMF = both legal pathways (authorization, enforcement) under elevated pressure; one further GOP defection flips WPR"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "ABC: 'Senate again fails to advance war powers resolution' — the technical reality is failure. But structural reading is the closeness of the vote. The 'one vote from' framing is operative: Tillis (NC, retiring), Hawley (MO, restrainer signals Day 74), Young (IN, foreign-policy moderate), Curtis (UT, funding-withhold author). Each of these has cited specific objections; any one could flip on a future WPR vote 8. Trajectory is toward, not away from, passage."
+    },
+
+    {
+      "probe_id": "PROBE-12-prime",
+      "probe_name": "MOU Architecture and Resumed-Operations Trigger",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CGTN/Pravda USA 'Iran sets five preconditions for renewed US talks' May 12-13 (tier-2)", "tier": 2},
+        {"name": "Tehran Times 'Iran sets five conditions for nuclear talks' (tier-2 state media)", "tier": 2},
+        {"name": "Iran International / Al Jazeera 'Iran sets five preconditions' (tier-2)", "tier": 2},
+        {"name": "Time 'Trump says ceasefire on life support' May 11 (tier-1)", "tier": 1},
+        {"name": "CNN 'Israel worried Trump bad deal; sunset clause floated' May 12 (tier-2)", "tier": 2},
+        {"name": "Bangor Daily News 'Trump says no need for China's help on Iran' May 13 (tier-2)", "tier": 2}
+      ],
+      "finding": "Both sides hardened publicly while continuing process. Iran 5 preconditions (Fars May 12, confirmed Tehran Times May 13, Jafari May 11 public articulation): (1) end hostilities all fronts incl Lebanon, (2) lift all sanctions, (3) release frozen assets, (4) compensation for war damage, (5) Hormuz sovereignty recognition. Framed as 'minimum trust-building guarantees' BEFORE any new round. Trump May 11 'life support' / May 12 'we'll win one way or the other peacefully or otherwise' / May 12 'don't need China's help on Iran.' BUT sunset clause floated in negotiations per CNN Israeli source — original 14-point moratorium framework NOT fully dead, contrary to Day 74 read. Israel pushing anti-JCPOA modifications (full enrichment ban during sunset + Fordow/Pickaxe dismantlement). 5th round date still unset (Day 74 finding holds). 4 rounds completed (3 Muscat + 1 Rome). Meta-Negotiation Regression confirmed: parties unable to schedule 5th round despite agreement-to-continue. Trump met 'with top military commanders to discuss next steps' (May 11 statement). New US sanctions May 12 targeting Iranian nuclear research with possible military applications — coercive sequencing while talks 'continue.'",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "MOU formally collapses (principal-level rejection either side) — PARTIAL: hardening on both sides but process not formally collapsed; new US sanctions May 12 = coercion-while-negotiating posture",
+        "framework_variable": "Fork B probability; Fork D' probability; MOU framework status",
+        "direction": "Day 74 thesis 'original MOU dead' requires partial reversal — sunset clause floated proves moratorium framework is being renegotiated, not abandoned; meta-negotiation continues"
+      },
+      "variable_moved": {
+        "variable": "Fork B probability (30-day) and Fork D' probability",
+        "prior_value": "Day 74: Fork B 20-28%; Fork D' 20-25%",
+        "new_value": "Day 76: Fork B 18-26% (slight ↓ as Iran 5 preconditions are more maximalist than May 8 counter; offset by sunset clause floated); Fork D' 25-30% (↑ — Meta-Negotiation Regression confirmed by inability to set 5th round date despite agreement-to-continue)",
+        "driver": "Iran 5 preconditions formalize maximalist position; sunset clause in negotiation = moratorium framework alive but at sunset-clause terms not Day 74 dismantlement terms; 5th round unscheduled = meta-deferral pattern"
+      },
+      "discounts_applied": ["Tehran Times state media discount applied on Iran-side preconditions: confirmed by Iran International (cross-tier) so net discount partial"],
+      "conflict_notes": "Day 74's strong read that original MOU is 'dead' requires nuancing. The 14-point framework is in distress, not dead: sunset clause is being floated (per Israeli source), which is the 2015 JCPOA mechanism. What is dead is the v3.0 specific framing (12-15 year moratorium + HEU removal + Hormuz reopening as concurrent package). What may be alive is a sunset-clause + verification + sanctions-relief structure. The Witkoff dismantlement statement May 10 looks now like negotiating posture, not durable principal position — Trump softened within 48 hours."
+    },
+
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Trump direct statements May 11-12 (Time/CNN/Bangor Daily News tier-1/2 quotes)", "tier": 1},
+        {"name": "CNN 'Israel worried bad deal; Netanyahu does not fully trust Witkoff/Kushner' May 12 (tier-2)", "tier": 2},
+        {"name": "Ghalibaf X post (tier-1 named Iran principal)", "tier": 1},
+        {"name": "Jafari (former IRGC commander) public articulation May 11 (tier-2)", "tier": 2},
+        {"name": "Tehran Times / Iran International Iran 5 preconditions (tier-2)", "tier": 2}
+      ],
+      "finding": "Day 74's central PA-gap finding (US principal aligned with Israel on dismantlement; Iranian principal silent while agent engages) is reframed by Day 76 data. US side: Trump A1-oscillated AGAIN within 48 hours — May 10 'TOTALLY UNACCEPTABLE' / dismantlement-alignment with Netanyahu → May 11 'life support' but ceasefire still active → May 12 'we'll win one way or the other, peacefully or otherwise' + 'I don't think we need any help with Iran.' Net: Trump's hardline May 10 lasted ~48 hours before reverting to A1 oscillation. CNN: 'Trump appears reluctant to resume the war; Netanyahu fears war will end without achieving all initial aims.' Netanyahu 'does not fully trust Witkoff/Kushner.' This is NOT the Day 74 Netanyahu-Penetration durable-shift; this is repeated penetration with rapid decay. Iran side: Ghalibaf direct X post + Jafari direct + Vahidi-led consolidation (per ISW) + IRGC Tehran commander direct quote on drills = Iranian principals NOW speaking in their own voices. Still no Mojtaba named position. Net: Iran-side PA-gap visibility up to 50-60% (from 30-40% Day 74). The two PA-gaps are asymmetric: US-side PA-gap is real but oscillating (per A1); Iran-side PA-gap is closing through public principal-speech (per coalition consolidation). Per Putnam two-level games: agents on both sides now know the principal-level red lines explicitly. Convergence is harder, not easier, because both win-sets are tighter than at MOU drafting.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "IMMEDIATE — PA-gap dynamic reframed: US-side oscillates (A1 binding), Iran-side closes (principals named-speak); both win-sets tighter than at MOU drafting",
+        "framework_variable": "Layer 5 PA-gap binding status; Netanyahu Principal-Penetration durability",
+        "direction": "down on Fork B convergence; up on Fork D' deferral as default; up on near-term Israeli spoiler-against-Trump-deal probability"
+      },
+      "variable_moved": {
+        "variable": "Netanyahu Principal-Penetration Pattern (added Day 74)",
+        "prior_value": "Day 74: 'each Netanyahu-Trump call resets US position toward Israeli framing'",
+        "new_value": "Day 76: mechanism confirmed AND reframed — penetration is real but DECAYS within 24-48 hours absent new Netanyahu contact. The binding variable is penetration *duration*, not direction. Israel now publicly alarmed because Trump's drift back to deal-preference is visible to Israeli decision-makers in real time.",
+        "driver": "Trump May 12 walk-back from May 10 dismantlement alignment + Israeli 'alarm' per CNN = pattern observable from both sides; Israel responding by trying to lock in dismantlement clauses (Fordow/Pickaxe) before Trump's next drift"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Trump's A1 oscillation makes both Fork B AND Fork A more probable than a hardened-principal model. If Trump is in a deal posture at the moment of Iranian counter-acceptance, Fork B; if Trump is in a hardline posture at the moment of Israeli unilateral action or Iranian provocation, Fork A. The principal-state-at-moment-of-decision is now the binding variable. Hatami/Abdollahi public targeting commitments (Iranian dispositional reading) holds — see PROBE-15."
+    },
+
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Euronews 'Iran preparing for renewed war; military assets remain largely intact' May 13 citing ISW (tier-2/3)", "tier": 2},
+        {"name": "ISW Iran Update May 12 evening (tier-3 named)", "tier": 3},
+        {"name": "PressTV / Brigadier General Hassanzadeh Tehran 5-day drill May 12 (tier-2)", "tier": 2},
+        {"name": "Israel Hayom 'IRGC drill simulates US invasion' May 13 (tier-2)", "tier": 2},
+        {"name": "Al-Monitor 'IRGC anti-helicopter drills Tehran' (tier-2)", "tier": 2},
+        {"name": "News.az 'IRGC five-day drill near Tehran' (tier-2)", "tier": 2}
+      ],
+      "finding": "Slantchev feigning-weakness hypothesis now substantially confirmed. ISW (tier-3 named, May 12 evening): Iran 'likely preparing for renewed conflict with the US and Israel, citing military drills and asset repositioning after reports emerged that Tehran remained in possession of significant missile stockpiles.' IRGC Tehran 5-day exercise around the clock simulating American ground invasion: drone strikes, sniper fire, anti-helicopter drills, Basij participation. Mahshahr Port drills scheduled approximately 100km from Bubiyan Island — ISW: 'IRGC Navy could use the drills to prepare for new operations if the ceasefire collapses.' Hassanzadeh statement: 'Enhancing combat capability to confront any movement of the American-Zionist enemy.' Day 70 PM IRGC Navy three-axis demonstration (Day 74 finding) + Mahshahr coastal drills + Tehran ground-invasion simulation = layered demonstration of preserved residual capability across multiple kinetic domains. Iran HEU 'return clause' demand in counter-proposal + 5 preconditions (no enrichment cap acceptance) = capability treated as bargaining asset, not exhausted resource. Day 74 'partial' status upgrades to 'fired' on multi-source ISW + named IRGC commander confirmation.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source IC assessment of higher than estimated Iranian residual capability — ISW analytical (not IC-classified-leak) but multi-source corroborated through IRGC public drill scope",
+        "framework_variable": "Iranian missile/drone/conventional inventory magnitude; Fork A intensity prior; Fork C miscalculation cascade priors",
+        "direction": "up on Iranian capability priors; up on Fork A intensity if MOU collapses; up on Fork C cascade probability (drills + asset repositioning increase exposure surface)"
+      },
+      "variable_moved": {
+        "variable": "Iranian residual capability assessment",
+        "prior_value": "Day 74: feigned-weakness hypothesis 'live, neither confirmed nor denied'; partial status",
+        "new_value": "Day 76: feigned-weakness hypothesis confirmed at H confidence by ISW + IRGC public drill scope + named-commander statements. Iranian missile/drone inventory 'largely intact' per ISW. Fork A intensity prior revised up. Slantchev mechanism explicitly fired.",
+        "driver": "ISW May 12 named-source assessment + IRGC Tehran 5-day drill + Mahshahr coastal drills + Basij integration + Hassanzadeh statement"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Day 74 finding of mine-tracking-loss in Hormuz is materially in tension with 'assets largely intact' — the two may both be true (significant inventory + operational opacity in specific subdomain). No named-IC-source assessment surfaced this cycle; Day 74 trigger row 'named-source IC assessment' technically not fired, but ISW + multi-source IRGC drill scope is collectively the operative signal."
+    },
+
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Trump May 12 'we'll win one way or the other' (tier-1)", "tier": 1},
+        {"name": "CNN Israel 'alarmed' May 12 (tier-2)", "tier": 2},
+        {"name": "Ghalibaf X post (tier-1)", "tier": 1},
+        {"name": "Tehran Times / Iran International 5 preconditions (tier-2)", "tier": 2},
+        {"name": "ISW Iran Update May 12 evening (tier-3)", "tier": 3}
+      ],
+      "finding": "Dispositional readings now operational at all three vertices but with new asymmetry. Israeli (Netanyahu coalition): UNCHANGED from Day 74 — Iran 'committed to destroy America'; dismantlement framing held. Iranian (IRGC coalition): HARDENED — Ghalibaf 'no alternative but accept Iranian people's rights as laid out in 14-point proposal; any other approach completely inconclusive'; Jafari direct articulation of 5 preconditions; IRGC drill commander framing 'American-Zionist enemy' as singular adversary; ISW: Iran preparing for renewed conflict. US (Trump): OSCILLATING — May 10 'TOTALLY UNACCEPTABLE' (dispositional-hard) → May 12 'we'll win one way or the other, peacefully or otherwise' (dispositionally agnostic; outcome-fixated). Trump's dispositional reading is not stable; it's the rotating output of his most recent high-status conversation. Per Weisiger commitment-problem framework: Israeli + Iranian dispositional readings are both at maximum and structurally produce unlimited-aims dynamics. Trump's oscillation creates a structural opening: at any moment of Trump deal-preference, Fork B is briefly viable; at any moment of Trump dispositional-hardness, Fork A risk spikes. This is the 'preference-state-at-decision-moment' problem identified in PROBE-13. Per Powell shifting-power: Israeli decision-makers may read this Trump oscillation as the closing window — if Trump is going to drift to deal-preference, Israel must act before the drift completes (May 13 Knesset bill + alarm signals consistent with this read).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "IMMEDIATE — Israeli unilateral strike during MOU window probability revised up on Trump oscillation + Israeli decoupling; BS-14 fully crystallized with new asymmetry (Israel + Iran dispositional, US oscillating)",
+        "framework_variable": "Israeli unilateral spoiler probability; Fork B collapse mechanism; Fork A entry path",
+        "direction": "up on Israeli-unilateral risk (now structurally distinct from US-coordinated risk per Day 74); up on Fork A medium-term"
+      },
+      "variable_moved": {
+        "variable": "Israeli unilateral strike probability (14-21 day window)",
+        "prior_value": "Day 74: 20-30% framed as US-coordinated-or-unilateral on Trump-Netanyahu convergence",
+        "new_value": "Day 76: 22-32% framed as Israel-unilateral pre-emption against emerging Trump deal-preference + Knesset dissolution incentive to act before electoral judgment. The reframing matters: spoiler mechanism is now Israeli action AGAINST anticipated Trump deal, not coordinated with Trump kinetic resumption",
+        "driver": "CNN Israeli alarm + Netanyahu trust deficit re Witkoff/Kushner + sunset-clause-floated + Knesset dissolution pulling election to ≤ mid-October + ISW Iran asset-repositioning making target visibility window finite"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Counter-read: Israel pushing anti-JCPOA insertions (Fordow/Pickaxe dismantlement during sunset; full enrichment ban) suggests Israel is choosing diplomatic-modification over unilateral-action, at least in current window. Both reads coexist: Israel may pursue diplomatic insertions in parallel with operational preparation, locking in whichever pathway delivers earliest. The dual-track is the unstable equilibrium of Day 76."
+    }
+  ],
+
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-2", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "BS-12 Iranian-side PA-gap visibility 50-60%; named Ghalibaf+Jafari+Hassanzadeh principal-level speech"},
+      {"probe_id": "PROBE-6", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Summit-as-Fork-B-focal-point demoted by Trump pre-summit framing"},
+      {"probe_id": "PROBE-7", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Eisenhower in final-prep; CSG-4 deployment days-to-weeks; sunk-cost commitment device preserved"},
+      {"probe_id": "PROBE-8", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Brent $102-110 oscillation; A1 oscillation pricing visible; strangulation continues"},
+      {"probe_id": "PROBE-9", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Israeli decoupling from Trump visible; Knesset dissolution → election ≤ mid-October; spoiler mechanism reframed"},
+      {"probe_id": "PROBE-10", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "WPR 49-50 Murkowski flipped; constitutional crisis 60-70%"},
+      {"probe_id": "PROBE-12-prime", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Fork B 18-26%; Fork D' 25-30%; sunset clause floated reverses Day 74 'MOU dead' read"},
+      {"probe_id": "PROBE-13", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "PA-gap reframed: US oscillating, Iran-side closing; Netanyahu-Penetration durability ~24-48h"},
+      {"probe_id": "PROBE-14", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Slantchev feigning weakness confirmed; Fork A intensity prior up; IRGC drills + asset repositioning"},
+      {"probe_id": "PROBE-15", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Israeli unilateral strike 22-32%; reframed as Israeli pre-emption against Trump deal, not coordinated extraction"}
+    ],
+    "fired_count": 10,
+    "partial_count": 0,
+    "null_count": 0,
+    "gap_count": 0
+  },
+
+  "trigger_digest": [
+    {
+      "appendix_b_row": "IMMEDIATE: Trump A1 oscillation reverses Day 74 PA-gap inversion finding within 48h (PROBE-13/PROBE-12-prime)",
+      "source_probe": "PROBE-13",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 5 Structural Dynamics / Netanyahu Principal-Penetration Pattern (Day 74 addition)",
+        "edit": "Refine Netanyahu Principal-Penetration Pattern: penetration is real but DECAYS within 24-48 hours absent renewed Netanyahu contact. The binding variable is duration, not direction. Trump's hardline May 10 (post-Netanyahu Sunday call) reverted to A1 deal-oscillation by May 12 ('we'll win one way or the other, peacefully or otherwise'). Day 74 finding that 'original MOU is dead' requires partial reversal: sunset clause floated per Israeli source = moratorium framework is being renegotiated at modified terms, not abandoned. Fork B 18-26%; Fork D' 25-30%."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "IMMEDIATE: Israeli decoupling from Trump + Knesset dissolution → reframed spoiler mechanism (PROBE-9/PROBE-15)",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 8.1 Probability Matrix / Israeli unilateral strike row / BS-3, BS-14",
+        "edit": "Israeli unilateral strike (14-21 day window) revised to 22-32% with structural reframe: spoiler mechanism is now Israel-unilateral pre-emption AGAINST emerging Trump deal-preference, not US-coordinated extraction (Day 74 framing partially reversed). Knesset dissolution bill May 13 pulls election horizon to ≤ mid-October (from Oct 27 baseline), raising Netanyahu's incentive to act before electoral judgment. CNN: Israeli official 'real concern Trump will reach a bad deal.' Netanyahu 'does not fully trust Witkoff/Kushner.' Counter-channel: Israel pushing anti-JCPOA insertions (Fordow/Pickaxe dismantlement + full enrichment ban during sunset) suggests dual-track pursuit of both diplomatic modification AND operational preparation."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "IMMEDIATE: WPR 49-50 Murkowski flipped → constitutional pressure-vector elevated (PROBE-10)",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 8.1 Probability Matrix / Constitutional crisis row; Section 5.3 Constitutional Corrosion",
+        "edit": "Constitutional crisis probability (30-day) revised from 50-60% (Day 74) to 60-70% (Day 76). Substantive change: Murkowski crossed from AUMF-conditional (Day 74) to WPR-immediate (Day 76); 7th WPR vote failed 49-50, one defection from passage. Tillis (retiring), Hawley, Young, Curtis remain in play. The pressure-vector has moved from authorization-debate (AUMF, structurally 60-vote blocked) into enforcement-debate (WPR, simple-majority privileged). Trajectory is toward, not away from, passage."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "IMMEDIATE: Iranian principal-level public speech multi-source confirms 5-precondition / 14-point counter (PROBE-2)",
+      "source_probe": "PROBE-2",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 5.2 Iranian Faction Structure / Layer 5 PA-gap; BS-1a, BS-12",
+        "edit": "BS-12 Iranian-side PA-gap visibility revised 30-40% → 50-60%. Ghalibaf direct X post + former IRGC commander Jafari direct + Tehran IRGC commander Hassanzadeh on drills + Sobh-e No (Ghalibaf parliamentary outlet) editorial = multiple named-principal-tier signals converge on 5-precondition + nuclear-deferral + 14-point counter. ISW: IRGC consolidating power under Commander Vahidi and inner circle. Iran-side PA-gap is closing through public principal speech (asymmetric to US-side which is oscillating). Win-sets explicit on both sides = convergence structurally harder, not easier."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "next_cycle: Slantchev feigning weakness confirmed; Iranian residual capability priors revised up (PROBE-14)",
+      "source_probe": "PROBE-14",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-13 / Section 5 Layer 4 Military Physics / Fork A intensity prior",
+        "edit": "BS-13 visibility upgraded from 20-30% to 35-45% on multi-source confirmation. ISW (named-tier-3): Iran 'preparing for renewed conflict; assets largely intact; significant missile stockpiles.' IRGC Tehran 5-day exercise simulating US ground invasion + Mahshahr coastal drills (100km Bubiyan Island, ISW: IRGC Navy preparing new operations if ceasefire collapses). Fork A intensity prior revised up: if MOU collapses, kinetic exchange floor is higher than Day 70 estimated."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "next_cycle: Trump pre-summit demotion of Iran focal point reduces Fork B recovery probability via this channel (PROBE-6)",
+      "source_probe": "PROBE-6",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 8.1 / Trump-Xi summit row",
+        "edit": "Trump-Xi summit Fork B mechanism weight revised. Day 74: 'Fork B recovery 25-35% conditional on Xi pressing Iran.' Day 76: 15-25% because Trump publicly demoted summit's Iran-component pre-arrival ('don't need any help with Iran'), reducing Xi's leverage to extract substantive concessions. Counter-read: posture may be Slantchev-inverse feigning-non-need to lower Xi's price; distinguishing requires summit outcome data. Awaiting May 14-15 communique."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "next_cycle: Eisenhower in final deployment prep — 4th CSG option live (PROBE-7)",
+      "source_probe": "PROBE-7",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 1.2 Operational Posture",
+        "edit": "Eisenhower (CVN-69) completed sea trials April 24 per CENTCOM advisory; in 'final stage of preparations' per IDNFinancials. 4th-CSG deployment is days-to-weeks option, not theoretical reserve. Preserves Schelling default-to-war commitment device behind MOU process. Day 74's read of Eisenhower-non-deployment as restraint signal further weakens. Munitions ceiling (Kelly 'shocking' Day 74) remains the binding sustainment constraint."
+      },
+      "urgency": "next_cycle"
+    }
+  ],
+
+  "gap_log": [],
+
+  "calibration_check": {
+    "verdict": "material_drift_thesis_reframed_breaking_risk_held",
+    "reasoning": "10 fired, 0 partial, 0 null, 0 gap across 10 probes run. The Day 74 thesis requires PARTIAL REVERSAL, not extension. Day 74 read 'US principal aligned with Israel on dismantlement; original MOU dead' was overweight: Trump's hard line lasted ~48 hours (May 10 'TOTALLY UNACCEPTABLE' → May 12 'we'll win one way or the other, peacefully or otherwise') before A1-reverting to oscillation. Sunset clause floated per CNN Israeli source confirms moratorium framework is being renegotiated, not abandoned. CRITICAL FINDING: Day 74 'Netanyahu Principal-Penetration Pattern' is correct in mechanism but wrong in durability — penetration decays within 24-48 hours absent renewed Netanyahu contact. Israel now publicly 'alarmed' precisely because the penetration is not holding. Three structurally new findings this cycle: (1) Iranian-side PA-gap visibility up to 50-60% on Ghalibaf/Jafari/Hassanzadeh named principal speech; (2) WPR 49-50 Murkowski flip moves constitutional pressure into enforcement-debate (one vote from passage); (3) Knesset dissolution May 13 pulls Israeli election horizon to ≤ mid-October, reframing Israeli spoiler from coordinated-with-Trump to pre-emption-against-Trump. Slantchev feigning-weakness confirmed on multi-source ISW + IRGC drill evidence. Calibration verdict: framework central thesis HOLDS strongly (constraint architecture narrows viable paths; both principals' win-sets now explicit makes convergence structurally harder). Probability matrix requires v3.1 revision but in a different direction than Day 74 anticipated — not 'MOU dead, war returns,' but 'asymmetric PA-gaps + A1-oscillating US principal + sunset-clause-in-negotiation = highly unstable equilibrium with three roughly co-equal forks (B/D'/A) over 30 days and Israeli unilateral spoiler-against-Trump-deal as the dominant tail risk.'",
+    "synthesis_revision_recommendation": "Hold v3.0 through Trump-Xi summit May 14-15 outcome AND first 5th-round-date confirmation. v3.1 warranted post-summit if: (a) Xi delivers no Iranian nuclear movement AND Trump publicly accepts 'no help needed' framing in communique; (b) sunset clause moves from leak-floated to negotiation-substantive; (c) Israeli pre-emption signal hardens. v3.1 should include: (1) Netanyahu-Penetration durability variable (24-48h decay); (2) US-side oscillating PA-gap vs Iran-side closing PA-gap asymmetry; (3) Israeli unilateral-pre-emption (not coordinated extraction) as primary spoiler mechanism; (4) Knesset dissolution → election horizon shortening as Netanyahu incentive variable; (5) WPR-enforcement-debate (vs AUMF-authorization-debate) as constitutional pressure vector; (6) Slantchev feigning weakness confirmed → Fork A intensity prior up; (7) sunset-clause-modified moratorium framework as living MOU architecture (replacing Day 74 'MOU dead' read)."
+  }
+}
