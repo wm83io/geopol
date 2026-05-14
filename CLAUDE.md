@@ -103,6 +103,7 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `eschatology-judaism-v1.0.md` | Jewish eschatological streams; Temple Mount; Christian Zionist alliance | Temple Mount activity; Israeli religious-bloc policy; US Christian Zionist policy vector |
 | `eschatology-islam-v1.0.md` | Sunni/Shia traditions; Mahdism; Axis status; post-Assad Syria | Mojtaba Mahdist invocation; Saudi religious posture; Iraqi/Najaf succession; HTS-Damascus theological signaling; jihadi-Salafi attack with eschatological framing |
 | `eschatology-intersection-matrix.md` | Convergence nodes (Al-Aqsa, Sham, Mecca, Khorasan); mirror-image coalitions; cross-tradition multipliers | Any two-or-more-tradition convergence event; framework constraint-layer revision touching religious-coalition variables |
+| `russia-pole-architecture.md` | Russia-adjacent pole veto-player map; succession candidate roster; military/nuclear posture architecture; diplomatic geometry | Any §9.3 revision; any BS-9.x probe fires; any SITREP touching Russia pole dynamics; any tripolar realignment discussion. Source probe: `probes/structural/2026-05-14-bs9-russia-succession.md` |
 
 ### Reference probe cadence
 
@@ -214,11 +215,17 @@ conflict for reconciliation.
 
 - `v3-1-change-manifest.md` (Day 74 baseline revisions)
 - `v3-1-scope-expansion-manifest.md` (Day 76 scope expansions)
+- `v3-2-russia-pole-revision-manifest.md` (2026-05-14 §9.3 Russia-pole patch; staged,
+  not yet activated)
 
-Both are consumed together at v3.1 activation. When manifests conflict, scope-expansion framing
-wins on structure; sibling-manifest findings populate as instances. After successful synthesis
-write, `git mv` both to `synthesis/staging/archive/`. Never delete; archive preserves the
-provenance chain.
+Both v3-1 manifests are consumed together at v3.1 activation. When manifests conflict,
+scope-expansion framing wins on structure; sibling-manifest findings populate as instances.
+After successful synthesis write, `git mv` both to `synthesis/staging/archive/`. Never delete;
+archive preserves the provenance chain.
+
+v3-2 manifest activates independently of the v3.1 manifests. Do not consume it at v3.1
+activation unless a concurrent /revise is also absorbing v3-2 scope. Default: hold for
+v3.2 or activate early if BS-9.1 or BS-9.3 fires.
 
 ---
 
@@ -227,6 +234,8 @@ provenance chain.
 **Permitted:**
 - Write new SITREP files to `sitreps/`
 - Write new probe sweep JSON to `probes/sweeps/`
+- Write new structural probe markdown to `probes/structural/` (non-routine; single-node
+  deep probes invoked by explicit analyst instruction, not on cadence)
 - Write new synthesis versions to `synthesis/` (always new file; never overwrite)
 - Patch `appendix/appendix-b-blind-spots.md` in-place during `/audit` only
 - Patch `.claude/commands/*.md` when procedure changes (note in commit message)
