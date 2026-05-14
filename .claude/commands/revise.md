@@ -270,6 +270,9 @@ Run the transform table above against the internal. Result is a single coherent 
 - Tables wherever comparison or scannability helps (constraint layers, outcomes, indicators)
 - Bold inline emphasis for the analytical hinges, not headers
 - No "subject to revision" footers, no "companion document" framing
+- No academic citation names without inline definition: named theoretical mechanisms (Fearon-Slantchev, Talmadge, Powell, Weisiger, Reiter-Weisiger, etc.) must be defined parenthetically on first use or replaced with plain-language equivalents. Use the concept; not the citation.
+- No game-theory jargon without definition: "win-set," "joint feasible set," "information rent," "commitment device," "type-revelation" require plain-language equivalents or an inline parenthetical definition on first use.
+- No inherited-mechanism parenthetical lists: when noting that prior-cycle mechanisms continue to operate, name the category ("several structural mechanisms from the prior cycle continue to shape this configuration") not individual mechanism names. External readers lack the context to parse a named-mechanism inventory.
 
 **What NOT to strip from external:**
 
@@ -304,6 +307,8 @@ After producing both, state:
 - Do not let probability ranges creep wider each version as a hedge. Wider ranges mean less analytical work, not more epistemic humility.
 - Do not quietly drop assumptions that proved wrong. Mark them revised with rationale; the error is as informative as the correction.
 - Do not produce a synthesis longer than the prior version without justification. Accretion without retirement is intellectual hoarding.
+- Do not carry academic citation names from the internal into the external without inline definitions. The external tracks the argument, not the literature. If the internal says "Fearon-Slantchev type-revelation without convergence: information rents were exhausted," the external says "the costly kinetics exhausted informational value without converging positions." Named mechanisms (Talmadge, Powell, Weisiger, Reiter-Weisiger) must be defined in the same sentence or replaced with what they mean.
+- Do not enumerate inherited mechanism names in the external. "Several structural mechanisms from the prior cycle continue to operate" is correct external framing; listing twelve named mechanisms by name is not. The list belongs in the internal version.
 - Do not let the external version drift in substance from the internal. The external is a transform, not a re-write. If you find yourself making a different argument in the blog version, stop — the difference belongs in the next internal revision.
 - Do not overwrite the external blog file — always use versioned filename `synthesis-v{N}-external.md`.
 - Do not skip producing the external version because "the user can do it later." Both outputs are the deliverable.
