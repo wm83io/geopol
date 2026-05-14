@@ -81,7 +81,9 @@ INDEX.md                      File manifest for external readers.
 analytical task. Methodology evolves; new reference docs land here and existing ones get patched.
 Stale internal models of methodology produce analysis inconsistent with the current framework.
 
-**Current reference layer (Day 76):**
+**Current reference layer (Day 77).** Two tiers:
+
+### Core (every-task read)
 
 | File | Purpose |
 |---|---|
@@ -94,18 +96,33 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `tools/stage-2-hysteresis.md` | Stage 2 hysteresis tools |
 | `tools/stage-3-phase-transition.md` | Stage 3 phase-transition tools |
 
+### Trigger-read (consulted on activation)
+
+| File | Purpose | Activation condition |
+|---|---|---|
+| `eschatology-judaism-v1.0.md` | Jewish eschatological streams; Temple Mount; Christian Zionist alliance | Temple Mount activity; Israeli religious-bloc policy; US Christian Zionist policy vector |
+| `eschatology-islam-v1.0.md` | Sunni/Shia traditions; Mahdism; Axis status; post-Assad Syria | Mojtaba Mahdist invocation; Saudi religious posture; Iraqi/Najaf succession; HTS-Damascus theological signaling; jihadi-Salafi attack with eschatological framing |
+| `eschatology-intersection-matrix.md` | Convergence nodes (Al-Aqsa, Sham, Mecca, Khorasan); mirror-image coalitions; cross-tradition multipliers | Any two-or-more-tradition convergence event; framework constraint-layer revision touching religious-coalition variables |
+
 ### Reference probe cadence
 
-- **Every task:** list `reference/`. Diff against last touch via `git log -1 --format=%H reference/`.
-  Read new or modified files in full before drafting.
-- **Weekly floor:** read every file in `reference/` once per week even if untouched. Compounding
-  small updates miss the modified-since threshold but still drift methodology.
+- **Every task (Core tier):** list `reference/` Core files. Diff against last touch via
+  `git log -1 --format=%H reference/`. Read new or modified Core files in full before drafting.
+- **Every task (Trigger-read tier):** scan activation conditions in the Trigger-read table.
+  If the current task touches any condition, read the corresponding file before drafting.
+  Otherwise, skip. Default skip; cost of false-negative is captured by the instrumentation check.
+- **Weekly floor:** read every Core file once per week even if untouched. Compounding small
+  updates miss the modified-since threshold but still drift methodology. Trigger-read files
+  read on a monthly floor unless activation conditions fire.
 - **On confusion:** if a finding does not map cleanly to existing analytical lenses, re-read
-  `reference/` before inventing a new lens. The lens probably exists.
+  `reference/` (both tiers) before inventing a new lens. The lens probably exists.
 - **Reference-to-operational instrumentation check:** when synthesis is revised, verify that
-  every reference-layer mechanism has a corresponding probe or blind spot in the operational
-  layer. Gaps are scope-expansion items. (BS-16 eschatological coalition is the canonical case:
-  apparatus existed in `god-and-the-machine.md`; operational layer did not probe it until v3.1.)
+  every reference-layer mechanism (both tiers) has a corresponding probe or blind spot in the
+  operational layer. Gaps are scope-expansion items. (BS-16 eschatological coalition is the
+  canonical case: apparatus existed in `god-and-the-machine.md`; operational layer did not
+  probe it until v3.1. The Day-77 eschatology expansion now adds BS-New-1 and BS-New-2 against
+  the three trigger-read files; both queued in `appendix/staging/bs-additions-2026-05-14.md`
+  for next `/audit`.)
 
 ---
 
