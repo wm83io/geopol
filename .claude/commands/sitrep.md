@@ -60,12 +60,19 @@ Header block:
 
 ### Executive Summary
 
-Written last, placed first. Three to five sentences. Answers four questions:
+Written last, placed first. Three to five sentences plus a composite line. Answers four questions and surfaces one derived headline:
 
 1. Single most important development since last SITREP?
 2. Did the central thesis hold, drift, or break?
 3. Dominant trajectory and probability?
 4. Key trigger to watch in next 48-72 hours?
+5. **Kinetic Escalation Composite (DERIVED)** — one sentence, format below.
+
+Composite line format:
+
+> *Kinetic Escalation Composite: ~X% (30d), ~Y% (12m) — derived from Fork A + Fork C + conflict-leading tails; Fork D' (deferral) excluded. Dominant non-escalation path: [Fork B / Fork D' / other] at Z%.*
+
+The composite is recomputed each SITREP from the then-current synthesis matrix (Fork A primitive + Fork C primitive + conflict-leading tail register entries; Variants A/B absorbed as Fork A trigger paths, not added). It is a communication aid, not an analytical primitive — the analytical text in sections 3, 4, and 7 references primitives, not the composite.
 
 No background. No restating the base framework. A reader dark for 24 hours should know exactly where things stand after this block.
 
@@ -132,6 +139,8 @@ Table format. Include only rows where probability moved this cycle or where a ne
 
 Do not reprint the full matrix unchanged. Deltas only. Ranges, not point estimates.
 
+If a primitive (Fork A, Fork C, or any conflict-leading tail component) moved this cycle, recompute the Kinetic Escalation Composite and report the new value in the Executive Summary composite line. The composite is derived, not a primitive; do not report a composite delta alone without the underlying primitive delta that drove it.
+
 ---
 
 ### Section 6 — Probe Status Table
@@ -173,3 +182,5 @@ Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 - Do not let Section 7 become a news summary. It is forward-looking judgment.
 - Do not omit Section 3 because revisions are uncomfortable. If data broke an assumption, say so.
 - Do not synthesize new probe findings inside the composer. The composer consumes probe output; it does not re-run probes.
+- Do not report the Kinetic Escalation Composite without the underlying primitives. The composite is derived; primitives drive analysis.
+- Do not aggregate Fork D' into the composite. Fork D' is the deferred-kinetic / gray-zone path; aggregating it collapses the framework's most operative distinction.

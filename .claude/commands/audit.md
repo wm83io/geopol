@@ -89,6 +89,16 @@ scores moved, directives should usually move with them:
 | Risk rose | Tighten "what changes the framework" criteria |
 | Priority changed | Reorder the directive list |
 
+### Step 6 — Promote BS and PROBE candidates from archived staging manifests
+
+If a synthesis-revision manifest in `synthesis/staging/archive/` introduced BS or PROBE candidates not yet promoted to operational status in Appendix B, evaluate at this audit:
+
+- **For each BS candidate:** does current probe data support promotion to an operational BS-N entry? If yes, assign the next BS number, write the full inventory entry (visibility, framework risk, sources, revision conditions per the candidate spec), and remove the "candidate" status. If probe data is insufficient, hold the candidate for the next audit with a one-line rationale.
+- **For each PROBE candidate:** does the BS it serves now sit in the operational inventory? If yes, assign the next PROBE number, write the full directive (frequency, target signal, sources, revision conditions per the candidate spec), and add to the Standing Weekly Intelligence Directives section. If the parent BS was deferred, defer the probe in parallel.
+- **Document promotions** in the audit summary so subsequent skills (sweep, sitrep) know the inventory expanded. List promoted-from-candidate items separately from new BSs detected this cycle via Sources A/B/C below.
+
+Candidate evaluation does not bypass the existing audit loop; a candidate must still meet the standard criteria for inventory inclusion. The candidate status only signals that a sibling skill (revise) has pre-validated the dark area worth tracking.
+
 ---
 
 ## New Blind-Spot Detection

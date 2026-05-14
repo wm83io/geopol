@@ -152,6 +152,7 @@ After the table, the prose section walks through each row in 1-3 sentences, nami
 | `Forking Paths` (Section 7.2) | Render as `The 72-Hour Picture` prose |
 | `PROBE-N`, `BS-N`, `A1`/`A4`/`A13` codes | Translate to plain English ("Iran-side principal-agent visibility," "Trump improvisational decision-making," etc.) or drop |
 | `Fork A` / `Fork B` / `Fork C` / `Fork D'` labels | Translate to descriptive names ("full kinetic resumption," "negotiated arrangement at modified terms," "miscalculation cascade," "indefinite deferral") |
+| `Kinetic Escalation Composite (DERIVED)` line in Executive Summary | Transform to external prose framing. Suggested phrasing: "Across the paths that lead to renewed military action — full kinetic resumption, miscalculation cascades, and a register of structural shocks outside the main trajectories — the cumulative probability sits at roughly X% over the next month and Y% over the next year. The non-escalation path that currently carries the most weight is [descriptive non-escalation name] at Z%." Preserve numeric values exactly; replace "Fork A / Fork C / tails / Fork D'" jargon with prose. Drop the "DERIVED" label — the construction is implied by the phrasing. |
 | `TRIGGER FIRED (PROBE-N, IMMEDIATE)` headers | Drop the label, keep the analytical content |
 | `v3.0` / `v3.1` version references | Translate to "the base framework" or "the current synthesis" |
 | `sweep-YYYY-MM-DD.json` references | Drop |

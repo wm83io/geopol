@@ -32,8 +32,16 @@ Load all of the following before writing a single word. All paths are relative t
    manifests before drafting. If files exist, read them all in full. These are pre-staged
    structural revisions that must be incorporated into the new synthesis version — they are
    not optional inputs. A manifest in staging takes precedence over annex-derived inference
-   for any mechanism or probability it explicitly covers. After a successful synthesis write,
-   move consumed manifests to `synthesis/staging/archive/` — do not delete them.
+   for any mechanism or probability it explicitly covers.
+
+   Multiple manifests are common (e.g., a data-driven change manifest plus a scope-expansion
+   companion). Where sibling manifests overlap on a section, the scope-expansion manifest's
+   structural framing takes precedence; the data-driven manifest's specific findings populate
+   that framing as instances. Section letters across sibling manifests reference the same
+   destination sections in the new synthesis; merge accordingly.
+
+   After a successful synthesis write, move consumed manifests to `synthesis/staging/archive/`
+   — do not delete them.
    If staging is empty, proceed normally.
 
 After producing both outputs:
@@ -79,6 +87,8 @@ flagged explicitly and argued, not just substituted.
 | Minor (v2.5 → v2.6) | Updates that preserve central thesis and constraint architecture | Probability drift, new validated assumptions, mechanism additions |
 | Major (v2.x → v3.0) | Reformulation of central thesis, new constraint layer, restructured probability architecture | Constraint layer 4 promoted to permanent; thesis breaks |
 
+Derived elements (composites such as the Kinetic Escalation Composite) and tail-register additions do not by themselves drive a major increment. They are structural in form but additive in effect — they sit alongside existing primitives without replacing them. Major increments require thesis reformulation or constraint-layer change, not new derived headlines.
+
 - **Internal filename:** `synthesis-v{N}.md`
 - **External filename:** `synthesis-v{N}-external.md`
 - Add a **Version Notes** section at the top of the *internal* document (below header block) listing what changed substantively from prior version. 5-8 bullets. Diff summary for readers returning after an absence.
@@ -99,7 +109,7 @@ Mandatory sections in order:
 5. **Constraint Architecture** — three layers (military physics, asymmetric-conflict logic, time arithmetic) plus faction misalignment as Layer 4. Update each layer if data moved it.
 6. **Ideological Currents and Motives** — only update where actor posture has materially shifted
 7. **Structural Dynamics and Mechanisms** — update existing mechanisms; add new ones only if structural threshold met
-8. **Probability Assessment** — full matrix, updated, direction arrows vs prior version
+8. **Probability Assessment** — full matrix, updated, direction arrows vs prior version. Include the Kinetic Escalation Composite as a derived line immediately after the primitive matrix, explicitly labeled "DERIVED" with construction formula (Fork A + Fork C + conflict-leading tail components; Fork D' and Variants A/B excluded). Tail-Risk Residual Register sits as a separate sub-section listing exogenous / actor-replacement events outside the fork architecture. The composite never replaces primitives; it sits alongside them as a communication headline.
 9. **Key Assumptions** — numbered list, each with current validation status
 10. **Most Probable Outcome Architecture** — dominant trajectory + tail branches
 11. **Conclusions** — rewritten each version; must engage central thesis directly
