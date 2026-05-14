@@ -4,6 +4,7 @@
 *Audit revisions: May 3, 2026 | Day 66*
 *Audit revisions: May 7, 2026 | Day 70 (game-theory layer integrated)*
 *Audit revisions: May 13, 2026 | Day 76 (asymmetric PA-gap integrated; first-mover BS added)*
+*Audit revisions: May 14, 2026 | Day 77 (BS-9 elevated from placeholder with 5 sub-probes; BS-16 and BS-17 added per eschatology instrumentation; multi-BS visibility upgrades on Xi delivery, Israeli operational preparation, IRGC apex visibility)*
 *Standing annex — updated when blind spot probes surface material data*
 
 ---
@@ -18,22 +19,24 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 
 **Day 76 audit note:** The Day 74 reading that the PA-gap had inverted in a hawkish US direction was overweight on durability. Day 76 data revealed that the Netanyahu Principal-Penetration mechanism is real but decays within 24-48 hours absent renewed contact, while Iran's PA-gap closed sharply through multi-vertex named-principal speech (Ghalibaf X post, Jafari, Hassanzadeh, Vahidi consolidation per ISW). The two PA-gaps are now asymmetric: US-side oscillates (A1 binding); Iran-side has closed and locked. Joint feasible set narrower than at any point since talks began. The framework's prediction problem has shifted from "which way will principals move" to "which actor breaks first." New BS-15 added to track this. BS-11 and BS-12 downgraded from Critical to High on substantive visibility improvements during the principal-resolution phase. BS-2 retired (Day 75 retirement criteria met).
 
+**Day 77 audit note:** The framework's epistemics shifted along three axes since Day 76. First, BS-9 (Russian siloviki cohesion) graduated from structurally unmodeled placeholder to active monitoring with five sub-probes following the Q4 2025-Q2 2026 signal cluster (serial general assassinations on Russian soil, Tsalikov arrest breaching elite-protection guarantees, EU intelligence dossier on Kremlin coup fears, Putin bunker behavior, Q1 2026 GDP contraction). Source: structural probe at `probes/structural/2026-05-14-bs9-russia-succession.md`. Succession mechanism probabilities now explicitly ranged (M1 managed transit 55-65%, M2 palace action 8-12%, M3 incapacity cascade 20-30%, M4 war-loss <5% over 5 years). Second, BS-16 (Eschatological Multi-Tradition Convergence) and BS-17 (Christian Zionist US Policy Vector Disaggregation) promoted from `appendix/staging/bs-additions-2026-05-14.md` per Day 77 reference-to-operational instrumentation check that added three trigger-read eschatology reference files. Third, existing BS scores moved on multi-cycle convergence and Day 77 substantive signals: BS-1a Iranian decision architecture +5pp (Vahidi-Ghalibaf apex split structurally mapped); BS-3 Israeli internal politics +10pp (CNN/US-intel operational preparation + IDF-coalition uranium-removal asymmetry); BS-4 Chinese active support +10-15pp (Xi summit substantive delivery); BS-11 MOU architecture +5pp (5th round Rome May 23; focal-point structure mapped); BS-15 First-mover architecture +10pp (race-condition mechanics clarified). The framework now reads four critical BSs (BS-1b, BS-9, BS-15, BS-16). Within the five-overextension threshold; one above the three-baseline. The Day 76 reading that Iran's PA-gap was "closing through public principal speech" required correction at the apex: Ghalibaf-Araghchi track is pro-deal; Vahidi (ISW-confirmed apex decision-maker) opposes; BS-12 mechanism reformulated. The audit's central calibration lesson: confirmation bias on the Trump-Xi summit demotion read was correctly tuned for the counter-hypothesis (Slantchev-inverse feigning) by the framework's instrumentation; the recency-bias failure was on Iran-side principal-agent dynamics where 48-hour coalition speech was over-weighted against multi-week ISW analytical evidence.
+
 ---
 
 ## Blind Spot Inventory
 
-### BS-1a: Iranian Decision Architecture — HIGH (visibility upgraded Day 76)
+### BS-1a: Iranian Decision Architecture — HIGH (visibility upgraded Day 77; apex-split now visible)
 
 **What we can't see:**
 
-- *Mojtaba's actual functional status.* **Day 70 resolution (PROBE-1 fired):** Wikipedia multi-source + Time/Azizi + CNN + TASS Putin Apr 27 health-wish confirm Mojtaba alive, injured Feb 28, publicly absent now 78 days through Day 76. Functioning as nominal figurehead used as political-legitimation shield by IRGC-led coalition. ICG/Vaez: "not in a state where he can actually make critical decisions or micromanage the talks" but "the system uses him to get final approval for key broad decisions." Cover exists, weaponized as opacity.
-- *Vahidi-Zolghadr-Aliabadi triangle internal dynamics.* **Day 76 update (PROBE-2 fired):** ISW (May 12, named tier-3): IRGC consolidating Iran's internal power structure under Commander Vahidi and his inner circle. Triangle apex confirmed across Open Magazine + ISW + ICG + Time/Azizi. Vahidi remains figure-pointed-to, not figure-quoted; internal triangulation logic and decision-protocols still opaque. Aliabadi (Khatam al-Anbiya commander) silent across cycles.
+- *Mojtaba's actual functional status.* **Day 70 resolution (PROBE-1 fired):** Wikipedia multi-source + Time/Azizi + CNN + TASS Putin Apr 27 health-wish confirm Mojtaba alive, injured Feb 28, publicly absent now 79 days through Day 77. Functioning as nominal figurehead used as political-legitimation shield by IRGC-led coalition. ICG/Vaez: "not in a state where he can actually make critical decisions or micromanage the talks" but "the system uses him to get final approval for key broad decisions." Cover exists, weaponized as opacity.
+- *Vahidi-Zolghadr-Aliabadi triangle internal dynamics.* **Day 77 update (PROBE-2 partial; cross-reference PROBE-13):** ISW (April 21, named tier-3) documented a "major disagreement" between Vahidi (opposing negotiations) and Ghalibaf (favoring); ISW (May 12) confirms Vahidi is winning the internal power competition and is now Iran's "current decision maker." This revises the Day 76 reading of "triangle in convergent voice on 5-preconditions": Ghalibaf-faction and mid-tier IRGC commanders (Jafari, Hassanzadeh, Sobh-e No editorial) speak in pro-deal voice; Vahidi at apex speaks in anti-deal voice. Single-source quote attributed to Vahidi (discounted -50%, undated): "The supreme leader isn't even buried yet, and yet Qalibaf is already shaking hands with those who killed him." Aliabadi (Khatam al-Anbiya commander) silent across cycles. Apex-split now structurally visible; Aliabadi position still opaque.
 - *Aerospace Force vs Quds Force divergence.* Multiple null cycles. Treated as unified actor; not.
-- *IRGC committee-vs-individual decision authority.* Day 76 multi-vertex named speech (Ghalibaf X, Jafari direct, Hassanzadeh on drills, Sobh-e No editorial) confirms consensus-mode at higher confidence. Threshold between Ghalibaf-Araghchi noise and strategic override now better mapped: principal-tier figures speak in convergent voice when coalition position is settled; Araghchi handles tone management.
+- *IRGC committee-vs-individual decision authority.* Reframed Day 77: not a consensus-mode question but a structural-split question. Ghalibaf-Araghchi track has agency on negotiations; Vahidi has ratification veto; Aliabadi posture unknown. Threshold between mid-tier noise and apex override is now the binding analytical object.
 
-**Confidence we have adequate visibility:** **60-65%.** Coalition mode confirmed at higher confidence; Vahidi consolidation visible; named-principal speech now multi-vertex.
+**Confidence we have adequate visibility:** **65-70%** (Day 77: +5pp from 60-65%). Apex-split structurally mapped; Vahidi opposition framing now visible; Aliabadi remains opaque.
 
-**Framework risk if blind spot breaks:** **HIGH.** Risk shape unchanged from Day 70: no longer about death/incapacitation revelation; now about whether IRGC coalition can ratify MOU terms Araghchi negotiates. Cross-references BS-12 (PA-gap), now downgraded to High.
+**Framework risk if blind spot breaks:** **HIGH.** Risk shape preserved from Day 70-76: no longer about death/incapacitation; now about whether IRGC coalition (specifically Vahidi) ratifies MOU terms Araghchi negotiates. Cross-references BS-12 (PA-gap) Day 77 mechanism revision: Iran-side PA-gap is Vahidi-shaped, not Ghalibaf-shaped.
 
 ---
 
@@ -58,54 +61,55 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 
 ---
 
-### BS-3: Israeli Internal Politics — HIGH (visibility upgraded Day 76)
+### BS-3: Israeli Internal Politics — HIGH (visibility upgraded Day 77; operational preparation visible + IDF-coalition asymmetry surfaced)
 
 **What we can't see:**
 
-- *IDF general staff exhaustion and political dissent.* Bluth (Day 62 baseline) holds. No new fracture signal.
-- *Settler movement as autonomous actor.* No annexation announcement through Day 76; third-front trigger live but unfired.
+- *IDF general staff exhaustion and political dissent.* Bluth (Day 62 baseline) holds. **Day 77 partial fire:** IDF Chief Zamir (mid-April): "every goal the political echelon defined for us regarding the current campaign in Iran and Lebanon has been achieved and even beyond that." Senior unnamed IDF official: "If the uranium is removed from Iran through diplomatic means, we have done our part." Surfaces an IDF-coalition asymmetry on uranium removal: military command accepts diplomatic removal; Netanyahu coalition insists on physical dismantlement. New sub-finding logged at Section 4 of Day 77 SITREP.
+- *Settler movement as autonomous actor.* No annexation announcement through Day 77; third-front trigger live but unfired.
 - *Mossad-IDF inter-agency conflict.* No signal.
-- *Bennett-Lapid Beyachad coalition trajectory.* **Day 76 substantive shift:** coalition itself submitted bill to dissolve Knesset (May 13) following Haredi pressure on ultra-Orthodox draft exemption. Elections within 3-5 months of passage = ≤mid-October. Election horizon pulled forward from Oct 27 baseline. Coalition self-terminating, not opposition-displaced.
-- *Israeli decision-maker dispositional reading of Iran.* **Day 76 substantive shift (CNN, Jerusalem Post):** Israel publicly "alarmed" Trump will reach "bad deal." Netanyahu "does not fully trust Witkoff and Kushner." Israel pushing anti-JCPOA insertions (full enrichment prohibition during sunset + Fordow/Pickaxe dismantlement). Dispositional reading now publicly observable. (See BS-14 cross-reference.)
+- *Bennett-Lapid Beyachad coalition trajectory.* **Day 76 substantive shift (held Day 77):** coalition itself submitted bill to dissolve Knesset (May 13). Preliminary vote not before May 20. Elections within 3-5 months of passage, ≤mid-October. Coalition self-terminating, not opposition-displaced.
+- *Israeli decision-maker dispositional reading of Iran.* **Day 76 baseline confirmed and escalated Day 77 (PROBE-9 fired M):** CNN/US intelligence (multiple US officials): Israel readying to strike Iranian nuclear facilities. Air munitions movements observed; air exercise completed; intercepted Israeli communications. Strike probability "has gone up significantly." -50% discount applied to "final decision" component (US-official-only; US government internally divided on likelihood). Signal moved from diplomatic alarm to operational preparation.
+- *Israeli operational-tempo signals (NEW Day 77).* Air refueling tempo; F-35/F-15 forward positioning; senior officer pre-emption posture vs. coalition framing; visible IDF-coalition friction on uranium-removal pathway. These are now the operative leading indicators.
 
-**Confidence we have adequate visibility:** **40-45%.** Election horizon now public; dispositional reading explicit through CNN-style leaks; trust deficit named.
+**Confidence we have adequate visibility:** **50-55%** (Day 77: +10pp from 40-45%). Operational preparation now visible via US intelligence reporting; IDF-coalition uranium-removal asymmetry surfaced; election horizon public.
 
-**Framework risk if blind spot breaks:** **HIGH.** Israeli spoiler mechanism reframed Day 76 from coordinated-with-Trump to **unilateral pre-emption against an emerging Trump deal**. Knesset dissolution pulls election calendar forward, raising Netanyahu's incentive to act before electoral judgment. Iron Dome operational embedding in UAE air defense (Day 67) holds as commitment that complicates Israeli exit from coalition; this is in tension with the pre-emption incentive.
+**Framework risk if blind spot breaks:** **HIGH.** Israeli spoiler mechanism remains unilateral pre-emption against emerging Trump deal. Day 77 escalation: pre-emption signal at operational-readying level. Per Powell shifting-power: more credible Fork B = stronger Israeli pre-emption incentive. IDF-coalition asymmetry on HEU removal creates phase-dependent pathway: pre-Knesset-dissolution, coalition retains decision authority; post-dissolution, IDF leadership becomes binding decision-maker. Iron Dome UAE embedding holds as commitment friction.
 
 ---
 
-### BS-4: Chinese Active Support Calibration — MED-HIGH (priority downgraded Day 76)
+### BS-4: Chinese Active Support Calibration — MED (visibility upgraded sharply Day 77; near-retirement candidate)
 
 **What we can't see:**
 
 - *Whether China increases active support if MOU collapses.* Day 70 PROBE-6 fired: Beijing external-brake activated; Wang Yi-Araghchi May 6 explicit on Hormuz reopening; anti-coercion law invoked vs OFAC Hengli/Qingdao Haiye designations.
-- *Trump-Xi summit Iran-component leverage architecture.* **Day 76 substantive shift:** Trump publicly pre-demoted the summit's Iran component ("don't need any help with Iran. We'll win one way or the other"). CFR/CSIS pre-summit reads: Xi has "little appetite to apply acute pressure"; China will endorse Iranian peaceful enrichment right. Al Jazeera framing: Chinese delivery requires US trade or Taiwan concessions. Two reads remain live: genuine principal-level demotion of Fork B focal-point thesis, OR Slantchev-inverse feigning of non-need to lower Xi's price. Communique May 14-15 distinguishes.
-- *BeiDou-3 operational contribution.* Multiple null cycles. Structurally opaque.
-- *MizarVision / Jing'an Technology operational output.* Volume, frequency, integration with IRGC planning unknown.
-- *Taiwan calculus adjustment.* No PLA Taiwan Strait spike through Day 76.
-- *Demand response at $120+.* Brent at $107-108 Day 76; below threshold.
+- *Trump-Xi summit Iran-component delivery — RESOLVED Day 77.* **PROBE-6 fired H:** Joint White House readout: Hormuz "must remain open"; Iran "can never have a nuclear weapon"; Xi pledged no military equipment; Xi offered to help make deal; Xi opposed any toll regime; Xi expressed interest in expanded US oil purchases reducing Hormuz dependence. Bessent (CNBC, tier-1 adjacent): China "will be working behind the scenes to the extent anyone has any say over the Iranian leadership." Trump endorsed on Fox/Hannity: "He said he's not going to give military equipment. That's a big statement." Day 76 read of pre-summit demotion confirmed as Slantchev-inverse feigning-non-need. Xi delivered substantive commitment-device endorsement.
+- *BeiDou-3 operational contribution.* Multiple null cycles. Structurally opaque. (Sub-component held.)
+- *MizarVision / Jing'an Technology operational output.* Volume, frequency, integration with IRGC planning unknown. (Sub-component held.)
+- *Taiwan calculus adjustment.* No PLA Taiwan Strait spike through Day 77. Xi extracted Taiwan-restraint signal as price-line for Iran cooperation; future PLA tempo a leading indicator on whether US holds the restraint side.
+- *Demand response at $120+.* Brent $107.82 Day 77; below threshold.
 - *Hengli-cascade to major Chinese banks.* Threshold for OFAC reaching banking sector unknown.
 
-**Confidence we have adequate visibility:** **45-55%.** Pre-summit Chinese posture now substantively visible. Trump-Xi summit communique pending May 14-15 will close gap.
+**Confidence we have adequate visibility:** **60-65%** (Day 77: +15pp from 45-55%). Chinese principal-level posture substantively resolved by Xi summit communique. BeiDou-3 / MizarVision / banking-cascade sub-components remain opaque.
 
-**Framework risk if blind spot breaks:** **MED.** Trump's pre-summit demotion reduces framework dependence on Chinese commitment-device endorsement for Fork B recovery. Residual: post-summit Chinese behavior if Israeli unilateral action triggers Fork A.
+**Framework risk if blind spot breaks:** **MED → LOW-MED.** Xi delivery operationalizes Chinese pressure on Iran; risk asymmetric: principal posture revealed; sub-components matter less under Fork B path. Residual: post-deal-collapse Chinese behavior if Israeli unilateral action triggers Fork A. BS-4 is a near-retirement candidate; hold one more cycle for Trump-Xi summit Day 2 (May 15) communique confirmation.
 
 ---
 
-### BS-5: US Domestic Military and Political Fractures — MED-HIGH (risk upgraded Day 76)
+### BS-5: US Domestic Military and Political Fractures — MED-HIGH (mechanism revised Day 77; Vance partial fire)
 
 **What we can't see:**
 
-- *Active duty morale and retention.* 13 KIA, 300+ wounded over 76 days. Recruitment data, JAG complaint volumes opaque. **Day 74 visibility (Kelly, CBS):** US munitions depletion "shocking" across Tomahawks, ATACMS, SM-3s, THAAD, Patriot. Named-official disclosure; corroborates v3.0 PAC-3 reconstitution-4-year ceiling on Fork A sustainment.
-- *Trump cognitive and physical trajectory.* Unpriceable; A1 oscillation now documented across a tight 72-hour arc (May 10 "TOTALLY UNACCEPTABLE" → May 12 "one way or the other" → May 13 "don't need any help"). Each oscillation tracks the last high-status conversation. Audience costs unreliable; sinking costs (forward forces) more probative.
+- *Active duty morale and retention.* 13 KIA, 300+ wounded over 77 days. Recruitment data, JAG complaint volumes opaque. **Day 74 visibility (Kelly, CBS):** US munitions depletion "shocking" across Tomahawks, ATACMS, SM-3s, THAAD, Patriot. Named-official disclosure; corroborates v3.0 PAC-3 reconstitution-4-year ceiling on Fork A sustainment.
+- *Trump cognitive and physical trajectory.* Unpriceable; A1 oscillation now documented across a tight 96-hour arc Day 73-77 (May 10 "TOTALLY UNACCEPTABLE" → May 12 "one way or the other" → May 13 "don't need any help" → May 14 Fox/Hannity "That's a big statement" endorsing Xi delivery). Each oscillation tracks the last high-status conversation. Day 77 oscillation deal-leaning; 48-hour window applies; A1 binding confirmed at high severity.
 - *FT insider trading investigation.* CFTC aggregated $2.28B across three episodes. Day 70 PM kinetic activation may have created 4th-episode trigger window. No criminal referral yet.
-- *Republican defection coalition trajectory.* **Day 76 substantive shift (PROBE-10 fired):** Murkowski flipped on 7th WPR vote May 13. Vote failed 49-50 — one defection from passage. Murkowski rationale: 60-day WPA window passed without administration providing "clarity." Substantive shift from authorization-debate (AUMF, 60-vote blocked) into enforcement-debate (WPR, simple-majority privileged). Four GOP senators remain in play: Tillis (retiring), Hawley (restrainer signals), Young (foreign-policy moderate), Curtis (funding-withhold author). Any single defection passes the next WPR vote.
-- *Vance succession architecture.* Day 67-76: Vance not visible in decision chain.
+- *Republican defection coalition trajectory — MECHANISM REVISED Day 77 (PROBE-10 fired H):* Day 76 7th-vote roll call shows all four Day 76 "in-play" senators (Tillis, Hawley, Young, Curtis) voted NO. Vote failed 49-50. Fetterman (D-PA) voted with Republicans; without Fetterman the resolution passes 50-49. **Operative stabilizing variable is Fetterman, not Republican cohesion.** Passage path: Fetterman returns to Dem caucus position (significant base pressure as Democrat voting with Republicans on war powers) OR a named Republican flips (harder path; all four held once). 8th vote not scheduled. Murkowski rationale (60-day WPA window without administration "clarity") established the substantive shift from authorization-debate (AUMF, 60-vote blocked) to enforcement-debate (WPR, simple-majority privileged).
+- *Vance succession architecture — PARTIAL FIRE Day 77.* Vance (May 13, named): "progress made in talks." First visible Vance Iran statement since Day 67 framework rotation. Not explicit de-escalation framing; silence-break with pro-talks framing. Faction architecture: deal-faction reinforced; accelerationist veto path weakened.
 - *State National Guard deployment tensions.* Below tracking threshold.
 
-**Confidence we have adequate visibility:** **55-65%** on public political signals; **5-15%** on military internal signals.
+**Confidence we have adequate visibility:** **60-70%** on public political signals (Day 77: +5pp from 55-65% on Fetterman-swing mechanism clarification); **5-15%** on military internal signals (unchanged).
 
-**Framework risk if blind spot breaks:** **MED-HIGH.** Constitutional crisis probability now 60-70% (30-day). Privileged-resolution path active and one seat from passage. Stage 2 hysteresis trigger accumulating: "hostilities terminated" certification + ceasefire-tolling doctrine + operation-rebranding mechanism approaching lock-in absent judicial challenge by July 1.
+**Framework risk if blind spot breaks:** **MED-HIGH.** Constitutional crisis probability holds at 60-70% (30-day). Privileged-resolution path active; Fetterman is the operative swing. Stage 2 hysteresis trigger accumulating: "hostilities terminated" certification + ceasefire-tolling doctrine + operation-rebranding mechanism approaching lock-in absent judicial challenge by July 1.
 
 ---
 
@@ -158,107 +162,200 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 
 ---
 
-### BS-9: Russian Siloviki Cohesion Under Sustained Pressure — MED (held)
+### BS-9: Russian Siloviki Cohesion and Succession Architecture — HIGH (ELEVATED Day 77 from unmodeled placeholder)
 
-**What we can't see:** Personalized power structures (Putin's siloviki network) under sustained pressure plus information operations plus elite defection risk.
+*Status: Active monitoring with five sub-probes. Source: structural probe at `probes/structural/2026-05-14-bs9-russia-succession.md`. Reference node: `reference/russia-pole-architecture.md`.*
 
-**Specific gaps:**
+**What we can't see:** The capacity of Russian security factions to coordinate post-Putin succession is the single largest unmodeled fragility in the tripolar framework. A signal cluster in Q4 2025–Q2 2026 moved this from speculation to observable systemic drift:
 
-- Defense-industrial elite hedging signals
+- **S1 Serial general assassinations on Russian soil.** Three senior officers killed inside Moscow since Dec 2024 (Kirillov Dec 17 2024; Moskalik April 2025; Sarvarov Dec 22 2025). Dec 25 2025 restricted Security Council meeting produced inter-agency blame-trading, no consolidation.
+- **S2 Tsalikov arrest, March 5 2026.** Fourth Shoigu-era deputy arrested; charged under "criminal organization" theory creating legal predicate applicable to Shoigu directly. Tsalikov is the first charged as organizer rather than participant. Presidential Administration blocked Federation Council candidacy in early 2025 on security-service recommendation; kompromat held in reserve, deployed at politically convenient moment.
+- **S3 EU intelligence dossier, May 4 2026** (Important Stories / OCCRP, corroborated CNN, New Voice of Ukraine). Kremlin on "high alert since beginning of March 2026" about coup/plot risk; Putin fears drone assassination "by members of the Russian political elite"; Shoigu identified as "potential destabilizing actor"; Tsalikov arrest characterized as "violation of informal guarantees of safety for elites"; FSO mandate extended to 10 senior generals including 3 deputy chiefs of General Staff at Gerasimov's request.
+- **S4 Putin behavioral signals.** Public appearances ≥17 in 2025; 2 by late April 2026. Extended stays in Krasnodar bunkers. Staff surveillance escalated (cooks, bodyguards, photographers monitored). Maduro capture Jan 3 2026 reported as specific escalation trigger.
+- **S5 Economic structural break.** Q1 2026 GDP -0.3%; full-year forecast revised to 0.4% (from 1.3%); oil/gas revenues -47.1% YoY Jan-Feb; NWF ~50% depleted; VAT raised 20→22%; budget deficit 91% of full-year target in first two months.
+
+**Succession mechanism probabilities (5-year):**
+
+| Mechanism | Probability | Key constraint |
+|---|---|---|
+| M1: Managed transit | 55-65% | No designated successor; window narrows with age |
+| M2: Palace action | 8-12% | No focal point; Zolotov as loyalist reaction force; asymmetric punishment deterrent decaying |
+| M3: Incapacity cascade | 20-30% | Age 73; behavioral isolation; constitutional 90-day window too short |
+| M4: War-loss cascade | <5% | Battlefield ceiling prevents conventional defeat; tail not zero |
+
+**Sub-probes active (Day 77):**
+
+- **BS-9.1 — Shoigu legal trajectory.** Criminal charges filed against Shoigu directly (not just deputies) = escalation trigger. Status preservation through 2026 Duma elections = dampener.
+- **BS-9.2 — Dyumin operational footprint.** Additional portfolios, military oversight expansion, State Council activity frequency. Increasing footprint = M1 consolidating. Flatline or position loss = M1 weakening.
+- **BS-9.3 — Putin public appearance frequency.** ≥3 consecutive months at <2 appearances/month = BS-9 hard escalation trigger; flag for emergency synthesis review.
+- **BS-9.4 — Kovalchuk-Tikhonova-Dmitriev axis.** RDIF mandate expansion; Innopraktika sponsorship; Dmitriev portfolio additions. Leading indicator on business-faction succession positioning.
+- **BS-9.5 — Kadyrov health and Chechen succession.** Kadyrov incapacity = independent fragility node. Watch eldest-son positioning and Kadyrovtsy deployment patterns.
+
+**Additional residual gaps (carried over from prior BS-9 placeholder):**
+
+- Defense-industrial elite hedging signals beyond Shoigu clan
 - FSB/GRU operational confidence indicators
 - Oligarch capital flow patterns post-2026 sanctions wave
 - Dugin-tracked civilizational/operational pragmatism splits
-- Regional governor / silovik provincial chief loyalty patterns
-- Successor-vacuum awareness
 
-**Confidence we have adequate visibility:** **15-20%.** Unchanged.
+**Confidence we have adequate visibility:** **30-40%** (Day 77: +15pp from 15-20%; signal cluster substantively mapped; succession mechanisms ranged; sub-probes identified).
 
-**Framework risk if blind spot breaks:** **MED.** Russia path ≤5% reduces framework dependence; even if siloviki cohesion breaks, framework move is smaller.
+**Framework risk if blind spot breaks:** **MED-HIGH** (Day 77: upgraded from MED). Russia path Fork B ≤5% reduces direct Iran-2026 fork dependence. But Russian succession-mechanism resolution under any non-M1 path accelerates China-pole absorption trajectory and degrades Russia's role as supportive secondary pole. Per structural probe §3.6: a weakening or transitioning Russia is net-negative for Iran; Fork B-Russia approaches zero under M3; PROBE-6 reading reinforced.
+
+**Falsification criteria (downward revision):** Putin public appearances normalize to >10/month for 3+ consecutive months; Shoigu rehabilitation; credible managed handover announcement with institutional backing; Brent sustained $80+ for 2+ quarters; new strategic arms agreement.
+
+**Falsification criteria (upward revision):** Additional general assassinations inside Russia; Shoigu criminal prosecution formally initiated; second inter-siloviki blame episode; Kadyrov incapacity confirmed; Ukraine battlefield reversal of significant territory.
 
 ---
 
-### BS-11: MOU Architecture and Schelling Focal Point Coordination — HIGH (downgraded from Critical Day 76)
+### BS-11: MOU Architecture and Schelling Focal Point Coordination — HIGH (visibility upgraded Day 77; Meta-Negotiation Regression interrupted)
 
 **What we can't see:**
 
-- *MOU text — substantively visible now.* **Day 76 update:** sunset clause confirmed floated per CNN Israeli source. Iran 5 preconditions formalized via Fars/Tehran Times/Iran International (end hostilities all fronts, lift sanctions, release frozen assets, war damage compensation, Hormuz sovereignty recognition). Israeli anti-JCPOA insertions named: full enrichment prohibition during sunset, Fordow/Pickaxe dismantlement. Witkoff dismantlement language Day 74 reads in retrospect as negotiating posture during brief hardline window, not durable position.
+- *MOU text — substantively visible.* Sunset clause confirmed floated (CNN Israeli source). Iran 5 preconditions formalized via Fars/Tehran Times/Iran International (end hostilities all fronts, lift sanctions, release frozen assets, war damage compensation, Hormuz sovereignty recognition). Israeli anti-JCPOA insertions named: full enrichment prohibition during sunset, Fordow/Pickaxe dismantlement. Witkoff dismantlement language reads as negotiating posture, not durable position.
 - *Default-if-collapsed clause structure.* Still opaque. War-as-default-clause not confirmed.
 - *Verification milestones.* Still opaque. Days 7/14/21/30 focal-point structure not confirmed.
-- *Schelling focal point coordination — failure pattern visible now.* **Day 76 finding (Meta-Negotiation Regression confirmed):** May 8 Iranian response window, May 11 4th Oman round, May 13 WPR vote, May 14-15 Trump-Xi summit, ~May 25 Hajj — focal points being consumed without producing convergence. 5th Oman round still unscheduled across two cycles despite agreement-to-continue. **Coordination optimism bias identified Day 76 audit:** dense focal points are necessary but not sufficient for convergence; they can fail in coordination as readily as competing.
-- *Mediator architecture.* Pakistan (Sharif/Munir) channel functioning. Beijing demoted by Trump pre-summit framing. Pakistan-Oman dyad now operative; Beijing prospective only.
+- *Schelling focal point coordination — Meta-Negotiation Regression interrupted Day 77 (PROBE-12' fired H).* Oman Foreign Ministry officially announced 5th round in Rome on May 23. Day 76 multi-cycle deferral pattern reversed. Compressed focal-point structure now: Trump-Xi communique (May 14-15) → 5th round Rome (May 23) → Hajj (~May 25). Three focal points in 11 days. Provisional caveat: source aggregation partially overlaps with the 2025 Rome pre-war 5th round; Oman FM official-page sourcing supports 2026 attribution; confirm Day 78. The Day 76 audit coordination-optimism-bias correction continues to apply: scheduled focal point is not the same as substantive convergence.
+- *Two-track Hormuz arrangement (NEW Day 76, sustained Day 77).* Iran-approved transits (Qatar LNG cadence; northern coastal corridor for selected commercial) coexist with standard commercial closure. Iranian Araghchi public framing (Day 77): "Strait of Hormuz remained open to commercial vessels cooperating with Iran." Structurally exploitable in any sunset-clause arrangement as interim transit regime.
+- *Mediator architecture.* Pakistan (Sharif/Munir) channel functioning. **Day 77 update:** Beijing re-elevated to co-primary mediator following Xi substantive delivery (see BS-4 PROBE-6). Pakistan-Oman-Beijing trilateral now operative.
 
-**Confidence we have adequate visibility:** **40-50%.** Substantially improved on text content; coordination mechanics now negatively confirmed (failing).
+**Confidence we have adequate visibility:** **50-55%** (Day 77: +5-10pp from 40-50%). Focal-point structure substantively mapped; mediator architecture clarified; default-clause and verification-milestone gaps remain.
 
-**Framework risk if blind spot breaks:** **HIGH** (downgraded from Critical). Drives Fork B vs Fork D' direction. Sunset-clause-modified moratorium framework is alive but unscheduled — Hamas/Hezbollah deferral pattern operative. Critical opacity that previously drove this BS has been replaced by the BS-15 first-mover question.
+**Framework risk if blind spot breaks:** **HIGH** (held). Drives Fork B vs Fork D' direction. Sunset-clause-modified framework is alive and scheduled; the question is whether Rome delivers substantive convergence. Critical opacity that previously drove this BS continues to be displaced by the BS-15 first-mover question.
 
 ---
 
-### BS-12: Principal-Level Ratification Capacity (Asymmetric PA-Gap) — HIGH (downgraded from Critical Day 76)
+### BS-12: Principal-Level Ratification Capacity (Asymmetric PA-Gap) — HIGH (mechanism revised Day 77; gap is Vahidi-shaped, not Ghalibaf-shaped)
 
 **What we can't see:**
 
-- *US side — oscillation now visible.* **Day 76 finding:** Trump A1 oscillation across May 10-13 arc documented. The Netanyahu Principal-Penetration mechanism (Day 74 framework addition) is real but **decays within 24-48 hours absent renewed Netanyahu contact**. Israeli alarm (CNN) is the response to that decay, observed from the outside. Trump's negotiating position depends on his last high-status contact; window of stability ~48h.
-- *Iran side — closed through public principal speech.* **Day 76 finding:** Ghalibaf direct X post + Jafari public articulation + Hassanzadeh (IRGC Tehran) statement + Sobh-e No editorial + Vahidi-led consolidation (ISW) = multiple named-principal-tier signals converge on 5-precondition + nuclear-deferral position. Iran's audience-cost structure now tighter than the US's. Win-set explicit.
-- *Senate ratification path — partial visibility.* WPR enforcement-vote one defection from passage (PROBE-10). AUMF blocked. Any Senate-passed WPR materially constrains US Fork A activation; raises Israeli incentive to pre-empt.
+- *US side — oscillation extended Day 77.* Trump A1 oscillation now documented across 96-hour arc Day 73-77 (May 10 hardline → May 12 "one way or the other" → May 13 "don't need any help" → May 14 Fox/Hannity "That's a big statement" endorsing Xi delivery). Netanyahu Principal-Penetration decays within 24-48 hours absent renewed contact. The Day 77 oscillation is deal-leaning; whether the deal-direction holds beyond 48 hours post-Beijing is the binding test (PROBE-13 watch-signal).
+- *Iran side — APEX vs MID-TIER ASYMMETRY (Day 77 mechanism revision).* The Day 76 reading that "Iran-side PA-gap is closing through public principal speech" was directionally right at the mid-tier but imprecise at the apex. Ghalibaf direct X post + Jafari + Hassanzadeh + Sobh-e No = mid-tier IRGC and Ghalibaf-faction speech, pro-deal track. Vahidi (ISW-confirmed apex decision-maker per April 21 + May 12 updates) is publicly opposed to negotiations. Iranian ratification gap is therefore Vahidi-shaped: Ghalibaf negotiates, Araghchi delivers, Vahidi ratifies, Vahidi opposes. Day 76 "closing" framing requires correction at the level that controls ratification.
+- *Senate ratification path — mechanism revised Day 77.* WPR enforcement-vote 49-50 against. All four Day 76 "in-play" GOP senators held. Fetterman (D-PA) crossed to vote with Republicans. Mechanism revised: Fetterman is operative swing, not Republican cohesion. Any Senate-passed WPR materially constrains US Fork A activation; raises Israeli pre-emption incentive.
 - *Iranian Majlis ratification trajectory.* Not surfaced this cycle.
-- *Asymmetric audience-cost lock-in (NEW Day 76).* Iran's audience cost for retreat now larger than US's. Joint feasible set narrower than at any point since talks began. Cross-reference BS-15.
+- *Asymmetric audience-cost lock-in (mechanism extended Day 77).* The US win-set is wide but volatile (Trump oscillating, current state deal-leaning); the Iranian win-set is narrow at mid-tier (Ghalibaf publicly committed to 5 preconditions) but the apex (Vahidi) is opposed. Joint feasible set requires Trump deal-direction held past 48h AND Vahidi ratification. Both conditions are unlikely simultaneously absent external commitment-device pressure.
 
-**Confidence we have adequate visibility:** **40-50%.** Both PA-gaps now mechanistically modeled. Asymmetric lock-in is the new operative structure.
+**Confidence we have adequate visibility:** **40-50%** (held; mechanism better understood but apex visibility still partial). Iran-side opacity has shifted to Vahidi specifically rather than coalition broadly.
 
-**Framework risk if blind spot breaks:** **HIGH** (downgraded from Critical). The framework now sees the mechanism. The framework still cannot predict which actor breaks first under asymmetric pressure — that is BS-15 territory.
+**Framework risk if blind spot breaks:** **HIGH** (held). The framework now sees the mechanism: US oscillates on terms; Iran's apex opposes. The framework cannot predict whether Vahidi will be over-ruled, ratify under duress, or hold the veto — that is BS-15 territory.
 
 ---
 
-### BS-13: Iranian Residual Capability / Feigned Weakness — HIGH (visibility upgraded Day 76)
+### BS-13: Iranian Residual Capability / Feigned Weakness — HIGH (visibility upgraded Day 77 on multi-cycle convergence)
 
 **What we can't see:**
 
-- *True magnitude of Iranian missile/drone/cyber inventory* after Twelve-Day War (June 2025) and Day 67 strikes. **Day 76 confirmed (PROBE-14 H):** ISW (named tier-3, May 12 evening): Iran "preparing for renewed conflict; military assets remain largely intact; significant missile stockpiles." Slantchev feigning-weakness hypothesis confirmed. Iran HEU "return clause" demand + 5 preconditions = capability treated as bargaining asset, not exhausted resource.
-- *Iranian operational tempo and target visibility window.* IRGC Tehran 5-day exercise simulating American ground invasion (drone strikes, sniper fire, anti-helicopter drills, Basij participation); Mahshahr coastal drills ~100km from Kuwait's Bubiyan Island; ISW: "IRGC Navy could use the drills to prepare for new operations if the ceasefire collapses." Asset repositioning making target visibility windows finite for any Israeli pre-emption planning.
+- *True magnitude of Iranian missile/drone/cyber inventory* after Twelve-Day War (June 2025) and Day 67 strikes. **Day 76-77 confirmed (PROBE-14 H multi-cycle):** ISW/Critical Threats/EuroNews convergence: Iran "preparing for renewed conflict; military assets remain largely intact; significant missile stockpiles." Slantchev feigning-weakness confirmed at H confidence across two cycles. Iran HEU "return clause" demand + 5 preconditions = capability treated as bargaining asset, not exhausted resource.
+- *Iranian operational tempo and target visibility window.* IRGC Tehran 5-day exercise "Martyred Leader Imam Khamenei" (anti-helicopter, urban combat, rapid-response, Basij integration); Mahshahr coastal drills ~100km from Kuwait's Bubiyan Island. Per ISW, Iranian asset repositioning narrows Israeli target visibility window — creates structural compression on Israeli strike timing (Israel must act sooner or accept harder strike).
 - *Day 67 small-craft losses (~6 boats per CBS) operational maximum or partial commitment.* Day 70 PM three-axis attack suggests partial.
-- *Houthi residual missile/drone capacity* after coalition strikes. No mass-launch event detected through Day 76.
+- *Houthi residual missile/drone capacity* after coalition strikes. No mass-launch event detected through Day 77.
 - *Hezbollah missile inventory* under post-2024 ceasefire conditions.
 - *Cyber Stage 3 (mass-casualty hospital) capability vs intent unknown.* Stage 1+2 demonstrated; Stage 3 latent.
 
-**Confidence we have adequate visibility:** **35-45%.**
+**Confidence we have adequate visibility:** **40-50%** (Day 77: +5pp from 35-45% on multi-cycle multi-source convergence).
 
-**Framework risk if blind spot breaks:** **HIGH.** Slantchev feigning weakness now confirmed; Fork A intensity prior revised up. If MOU collapses via Israeli pre-emption (BS-3, BS-14, BS-15), Iranian counter-strike floor is higher than Day 70 estimated.
-
----
-
-### BS-14: Mutual Dispositional Reading and Power-Shift Perception — HIGH (visibility upgraded Day 76)
-
-**What we can't see:**
-
-- *Israeli decision-maker reading.* **Day 76 substantive shift (PROBE-15 H):** Netanyahu/coalition Iran-disposition framing UNCHANGED from Day 74 max (Iran "committed to destroy America"; dismantlement framing; regime toppling "possible"); but US-side decoupling now visible as Israeli alarm. Smotrich/Ben-Gvir explicitly dispositional; Gantz/Mossad/IDF chiefs unclear but Bennett-Lapid not the operative variable (coalition self-dissolving via Knesset bill, not opposition-displaced).
-- *Iranian principal reading.* **Day 76 HARDENED:** Ghalibaf "no alternative but accept Iranian people's rights as laid out in 14-point proposal"; Jafari direct 5 preconditions; IRGC drill commander framing "American-Zionist enemy" as singular adversary; ISW: Iran preparing for renewed conflict. Dispositional reading on Iranian side at maximum.
-- *US dispositional reading — newly modeled as OSCILLATING.* **Day 76 finding:** Trump May 10 ("TOTALLY UNACCEPTABLE", dispositional-hard) → May 12 ("one way or the other, peacefully or otherwise," dispositionally agnostic outcome-fixated) → May 13 ("don't need any help with Iran," pre-summit demotion). The dispositional reading is not stable; it's the rotating output of his most recent high-status conversation. Per A1: principal-state-at-decision-moment is the binding variable.
-- *US/Israeli power-shift perception.* Per Powell shifting-power: Israeli decision-makers may read Trump's oscillation as "closing window" — if Trump drifts to deal-preference, Israel must act before drift completes. Knesset dissolution + ISW asset-repositioning + sunset-clause-floated consistent with this read.
-
-Per Weisiger (2013): commitment-problem wars driven by dispositional readings produce *unlimited* outcomes regardless of information revealed. Israeli + Iranian dispositional readings both at max produce unlimited-aims dynamics independent of Trump's oscillation.
-
-**Confidence we have adequate visibility:** **35-45%.** Three-vertex asymmetry now mapped (Israel max, Iran max, US oscillating).
-
-**Framework risk if blind spot breaks:** **HIGH.** Drives spoiler-probability for Fork B. The asymmetry means Israeli incentive to convert penetration into binding diplomatic insertions or operational action rises whenever Trump's oscillation drifts toward deal-preference. Spoiler probability now reframed (PROBE-15 / PROBE-9) as Israeli unilateral pre-emption against emerging Trump deal, not coordinated extraction.
+**Framework risk if blind spot breaks:** **HIGH.** Slantchev feigning weakness confirmed; Fork A intensity prior revised up. If MOU collapses via Israeli pre-emption (BS-3, BS-14, BS-15), Iranian counter-strike floor is higher than Day 70 estimated. Asset-repositioning sub-finding adds structural pressure on Israeli timing.
 
 ---
 
-### BS-15: First-Mover Architecture Under Asymmetric Lock-In — CRITICAL (NEW Day 76)
+### BS-14: Mutual Dispositional Reading and Power-Shift Perception — HIGH (three-vertex asymmetry sharpening Day 77; Powell mechanism activating)
 
 **What we can't see:**
 
-- *Which actor breaks first under asymmetric audience-cost pressure.* The Day 76 finding that PA-gaps are asymmetric (US oscillating, Iran closed) implies convergence requires a forcing function. The framework cannot identify which actor breaks first or at what threshold.
-- *Iranian coalition cohesion threshold under retreat pressure.* What level of strangulation / Bazaari/Bonyad rupture (BS-1b) / Khatam al-Anbiya capital flight produces coalition retreat from the 5 preconditions. Cross-references BS-1b (structurally opaque) and BS-8.
-- *Trump A1-binding decision threshold.* What sequence of stimuli (Netanyahu calls + media reaction + Xi delivery + WPR passage + Brent breakout) produces a Trump decision that does not oscillate back within 48 hours. The framework now sees the oscillation pattern but cannot predict when it terminates.
-- *Israeli operational graduation threshold.* Israel is observably preparing dual-track (diplomatic insertions + operational preparation). The threshold at which the operational track delivers before the diplomatic track is unknown. Plausible triggers: Trump-Xi communique with peaceful-enrichment-right language; further Trump A1 drift to deal-preference; ISW reporting Iranian asset-repositioning reducing target visibility window.
-- *WPR-as-forcing-function threshold.* Whether any of Tillis, Hawley, Young, Curtis flip on the next WPR vote, and whether passage acts as a forcing function on Trump's calculus (push toward sunset-clause acceptance) or as a forcing function on Israeli action (Israeli incentive to act before US legal architecture forecloses Fork A).
-- *Strangulation timeline transmission to first-mover decision.* Goldman 2-3 month timeline gives a far horizon; the framework cannot map the transmission from external economic pressure to coalition decision-making (BS-1b binding).
+- *Israeli decision-maker reading.* Day 76 max baseline holds: Netanyahu/coalition Iran-disposition framing at maximum (Iran "committed to destroy America"; dismantlement framing). **Day 77 escalation (PROBE-15 H + PROBE-9):** US-decoupling visible via CNN/US-intel reporting on operational preparations; Israeli alarm has graduated to operational readying. New sub-finding: IDF-coalition asymmetry on uranium removal (Zamir "all goals achieved"; senior IDF "diplomatic removal acceptable") surfaces an internal Israeli dispositional split between military command and political coalition.
+- *Iranian principal reading.* Day 76-77 sustained: IRGC drill named for assassinated supreme leader; "American-Zionist enemy" framing in Hassanzadeh and Jafari speech; Vahidi opposition to negotiations per ISW. Dispositional reading on Iranian side at maximum. Apex (Vahidi) is the binding voice; Ghalibaf-faction pro-deal voice is mid-tier.
+- *US dispositional reading — OSCILLATING (extended Day 77).* Trump arc: May 10 hardline → May 12 outcome-agnostic → May 13 pre-summit demotion → May 14 Fox/Hannity endorsement of Xi delivery ("That's a big statement"). Day 77 oscillation deal-leaning; 48h window applies. Per A1: principal-state-at-decision-moment is the binding variable.
+- *US/Israeli power-shift perception — Powell mechanism activating Day 77.* The more credible Fork B becomes (Xi delivery + 5th round Rome), the stronger Israeli pre-emption incentive (Powell shifting-power: Israeli decision-makers read Trump's deal-direction as "closing window," must act before drift completes). PROBE-6 + PROBE-12' + PROBE-9 compound this mechanism. Fork B strengthening and Israeli spoiler-risk rising are not contradictory; they are the framework's predicted race-condition.
 
-**Confidence we have adequate visibility:** **15-25%.** Mechanism understood; specific thresholds opaque.
+Per Weisiger (2013): commitment-problem wars driven by dispositional readings produce *unlimited* outcomes regardless of information revealed. Israeli + Iranian dispositional readings both at max produce unlimited-aims dynamics independent of Trump's oscillation. The IDF-coalition asymmetry on HEU removal is a partial relief mechanism IF Knesset dissolution passes before any operational decision (caretaker-period IDF authority).
 
-**Framework risk if blind spot breaks:** **CRITICAL.** The asymmetric lock-in finding is the framework's most operative Day 76 insight. Without first-mover identification, the framework cannot predict which of three co-equal forks (D'/A/B) consolidates in the 30-day window. BS-15 is the new dominant opacity, replacing the principal-resolution opacity that was BS-11 and BS-12.
+**Confidence we have adequate visibility:** **40-50%** (Day 77: +5pp from 35-45%; Powell mechanism now operationally visible; IDF-coalition asymmetry mapped).
 
-**Day 76 audit note:** BS-15 is partially decomposable into other BSs but the integration is itself the analytical object. Iranian coalition rupture threshold = BS-1b; Trump decision threshold = BS-5 + BS-14; Israeli action threshold = BS-3 + BS-14; WPR threshold = BS-5. The first-mover question is the joint distribution of these thresholds, which no single BS captures. BS-15 tracks the joint.
+**Framework risk if blind spot breaks:** **HIGH.** Drives spoiler-probability for Fork B. The Day 77 sharpening: as Trump deal-direction holds, Israeli pre-emption incentive escalates per Powell. Spoiler probability framed (PROBE-15 / PROBE-9) as Israeli unilateral pre-emption against emerging Trump deal.
+
+---
+
+### BS-15: First-Mover Architecture Under Asymmetric Lock-In — CRITICAL (race-condition mechanics clarified Day 77)
+
+**What we can't see:**
+
+- *Which actor breaks first under asymmetric audience-cost pressure.* Day 76 finding holds with Day 77 refinement: the asymmetric PA-gap (US oscillating; Iranian apex Vahidi opposed; Iranian mid-tier pro-deal) implies convergence requires a forcing function. Day 77 race-condition mechanics clarified: Fork B window (summit → 5th round Rome May 23 → Hajj May 25, 11 days) vs Israeli preparation window (operational readying per US intelligence, days-to-weeks). The framework cannot determine which fires first within the 11-day window.
+- *Iranian coalition cohesion threshold under retreat pressure.* What level of strangulation / Bazaari/Bonyad rupture (BS-1b) / Khatam al-Anbiya capital flight / Vahidi pressure produces coalition retreat from the 5 preconditions. Day 77: Vahidi-Ghalibaf split visible (BS-1a) but rupture distant. Cross-references BS-1b (structurally opaque).
+- *Trump A1-binding decision threshold.* Day 77: oscillation pattern extended to 96-hour arc; current state deal-leaning. The 48-hour post-summit window is the live test. The framework now sees oscillation pattern but cannot predict when it terminates.
+- *Israeli operational graduation threshold — most advanced threshold Day 77.* US intelligence reports operational preparation (air munitions movements, completed exercise). Knesset dissolution preliminary vote on or after May 20 compresses Netanyahu's window. IDF-coalition asymmetry on HEU may slow operational decision if dissolution passes before strike order; during caretaker period, Netanyahu retains operational authority. The Israeli threshold is the leading edge of framework collapse risk.
+- *WPR-as-forcing-function threshold — mechanism revised Day 77.* All four Day 76 "in-play" GOP held; Fetterman is the operative swing. Whether Fetterman returns to Dem caucus position on next vote, and whether passage acts as a forcing function on Trump's calculus (push toward sunset-clause acceptance) or on Israeli action (incentive to act before US legal foreclosure of Fork A).
+- *Strangulation timeline transmission to first-mover decision.* Goldman 2-3 month timeline gives far horizon; framework cannot map transmission from external economic pressure to coalition decision-making (BS-1b binding).
+
+**Confidence we have adequate visibility:** **25-35%** (Day 77: +10pp from 15-25%). Race-condition mechanics clarified; Israeli threshold most advanced; Iranian rupture threshold distant; Trump A1 deal-leaning state with 48h window; WPR mechanism shifted to Fetterman.
+
+**Framework risk if blind spot breaks:** **CRITICAL** (held). The asymmetric lock-in finding remains the framework's most operative insight. Without first-mover identification, framework cannot predict which of three co-equal forks (D'/A/B) consolidates in the 30-day window. BS-15 remains the dominant opacity.
+
+**Day 76 audit note:** BS-15 is partially decomposable into other BSs but the integration is itself the analytical object. Iranian coalition rupture threshold = BS-1b; Trump decision threshold = BS-5 + BS-14; Israeli action threshold = BS-3 + BS-14; WPR threshold = BS-5. The first-mover question is the joint distribution of these thresholds. BS-15 tracks the joint.
+
+**Day 77 audit note:** The eleven-day window between Trump-Xi summit Day 1 (May 14) and Hajj (May 25) is the operative race-condition window. Three concurrent forces operate: Fork B window opens (Xi delivery + 5th round Rome); Israeli pre-emption window opens (operational readying per US intel; Powell shifting-power activating as Fork B becomes more credible); WPR-as-forcing-function pending Fetterman flip. The architecture is selecting the actor that acts first; framework instrumentation cannot select between them but can track the threshold approaches.
+
+---
+
+### BS-16: Eschatological Multi-Tradition Convergence — CRITICAL (NEW Day 77; promoted from staging)
+
+*Source: `appendix/staging/bs-additions-2026-05-14.md` (BS-New-1), promoted per Day 77 reference-to-operational instrumentation check. Reference linkage: `reference/eschatology-judaism-v1.0.md`, `reference/eschatology-islam-v1.0.md`, `reference/eschatology-intersection-matrix.md`.*
+
+**What we can't see:** Existing trigger architecture treats sacred-site provocation events as Israel-specific or Israel-Arab bilateral activations. The convergence matrix (`eschatology-intersection-matrix.md` §3-§6) establishes that Al-Aqsa, Greater Sham, Mecca, and Khorasan are multi-tradition convergence nodes where the same trigger event simultaneously activates Jewish Religious Zionist, Christian Dispensationalist, Sunni mainstream, Sunni Salafi-jihadi, and Twelver Shia vanguards. The framework under-prices these events by ignoring the convergence multiplier (single-tradition activation 1x vs. 4+-tradition activation 5-10x per `eschatology-intersection-matrix.md` §9).
+
+**Why this is structural, not news-driven:** Religious vanguard activation logic is stable across months and shifts only on Tier-1 trigger events. The risk is treating each event as standalone rather than activation node within an architecture.
+
+**Specific gaps:**
+
+- *Convergence vs single-tradition activation classification.* For each Tier-1 or Tier-2 event, which traditions activate? Convergence multiplier from `eschatology-intersection-matrix.md` §9 applied to event significance.
+- *Multi-tradition activation cascade tracking.* When 3+ traditions activate on the same event, whether second-order activations cross from non-state vanguard to state policy (four-characteristic test in convergence matrix §2). State-policy crossover is the discontinuity distinguishing flashpoint from strategic trigger.
+- *Vanguard mobilization vs mainstream condemnation ratio.* Internal-to-tradition contestation is the brake on escalation. A collapsing ratio precedes coordinated action.
+- *Tier-1 trigger event monitoring (any single event firing requires synthesis-revision candidate per CLAUDE.md instrumentation discipline):*
+  - Red heifer ceremony executed (not practice) with rabbinical permission
+  - Knesset legislation formalizing Jewish prayer rights on Temple Mount
+  - Cornerstone of Third Temple laid
+  - Attack on Dome of the Rock (any vanguard)
+  - Mojtaba public Mahdist invocation in major speech
+  - Major Hajj attack with sectarian framing
+  - Sharaa formal caliphate or Mahdist declaration
+  - Hashemite succession crisis in Jordan with regime instability
+
+**Confidence we have adequate visibility:** **20-30%.** Tier-1 trigger inventory and convergence matrix now mapped; tier-3 background indicators trackable. Vanguard-mobilization-vs-mainstream-condemnation ratio not yet operationalized as quantitative metric.
+
+**Framework risk if blind spot breaks:** **CRITICAL.** A Tier-1 multi-tradition convergence event activates a coalition-stack that no individual actor can contain. The framework's Iran-2026 forks do not currently price these events; under a Tier-1 firing the probability matrix requires resynchronization. The Israeli pre-emption pathway (BS-3, BS-14) becomes inseparable from the Temple Mount infrastructure track; the Iranian regime succession pathway (BS-1a, BS-9) becomes inseparable from Mahdist invocation; the US Christian Zionist policy vector (BS-17) becomes inseparable from Israeli operational decisions.
+
+**Relationship to existing BSs:**
+- Cross-references BS-3 (Israeli internal politics; Temple Mount activity directly relevant).
+- Cross-references BS-17 (Christian Zionist policy vector; Coalition I mirror-image structure per convergence matrix §8).
+- Cross-references BS-1a (Iranian regime; Mojtaba Mahdist invocation is Tier-1).
+
+---
+
+### BS-17: Christian Zionist US Policy Vector Disaggregation — HIGH (NEW Day 77; promoted from staging)
+
+*Source: `appendix/staging/bs-additions-2026-05-14.md` (BS-New-2), promoted per Day 77 reference-to-operational instrumentation check. Reference linkage: `reference/eschatology-judaism-v1.0.md` §6-§7, `reference/eschatology-intersection-matrix.md` §8, `reference/god-and-the-machine.md`.*
+
+**What we can't see:** Existing US constraint modeling treats Trump 2.0 as "maximalist on Israel" — a monolithic frame. This collapses an internally fractured coalition. The Christian Zionist policy vector (CUFI infrastructure, Huckabee ambassadorship, Project Esther, Heritage Foundation Christian-nationalist task force) operates as one faction within the Trump coalition. The Vance-Bannon-Carlson "America First" disengagement faction operates against it, particularly post-Gaza. Treating the US-Israel constraint as monolithic misses live intra-Republican variance.
+
+Secondary dimension: structural decline of Christian Zionist political potency past 2028. Inbari-Bumin / Barna polling shows 18-29 evangelical Israel support fell from 68.9% (2018) to 33.6% (2021). White evangelical share of US population in structural decline (PRRI: 7% of 18-29-year-old Americans vs 22% of 65+). Framework projections past 2028 assuming durable Christian Zionist-Republican fusion are mispriced.
+
+**Why this is structural, not news-driven:** Coalition composition shifts on multi-year timescales. The framework lacks visibility into the maximalist-vs-disengagement intra-Republican fracture as a constraint variable. Day-to-day news flow (Huckabee statement, CUFI press release) cannot resolve this without a structural baseline.
+
+**Specific gaps:**
+
+- *Intra-Republican fracture intensity index.* Public statement divergence on (a) Iran posture (maximum pressure vs negotiated arrangement), (b) Israel posture (Greater Israel rhetoric vs status-quo), (c) Gaza policy (unconditional support vs conditioning aid), (d) West Bank annexation (Smotrich-aligned support vs opposition). Tracked quarterly.
+- *Christian Zionist policy delivery success rate.* Project Esther stated proposals vs implementation status. NYT May 2025: >50% implemented or called for. Quarterly delta is a leading indicator on coalition operational coherence.
+- *Evangelical generational replacement trajectory.* Annual update on 18-29 cohort Israel support. Crossing 25% threshold downward eliminates the demographic mass base; crossing 50% upward (unlikely) would restore it. Either crossing is a framework-revision event.
+- *Counter-vector strength.* Mainline Protestant, Catholic, Orthodox positioning on Israel. Holy Land Patriarchs' Jan 2026 critique and 14-nation diplomatic objection to Huckabee Feb 2026 "Nile to Euphrates" comments are baseline data points.
+- *Day 77 partial-fire on Vance (BS-5):* Vance's "progress in talks" silence-break is the first visible disengagement-faction signal in the MOU decision chain. Provides initial calibration point for fracture-intensity tracking.
+
+**Confidence we have adequate visibility:** **30-40%.** Faction architecture mapped; quantitative intensity index not yet operational; counter-vector data sparse.
+
+**Framework risk if blind spot breaks:** **HIGH.** Mispriced US-Israel constraint produces mispriced spoiler-mechanism (BS-3, BS-14) and mispriced US Iran-posture under faction-level shifts. Vance breaking silence Day 77 in pro-talks framing is the first observable that the disengagement faction is competing with the maximalist faction inside the administration in real time.
+
+**Relationship to existing BSs:**
+- Cross-references BS-5 (US domestic; Vance trajectory is the live intra-coalition variable).
+- Cross-references BS-3 / BS-14 (Israeli posture; Christian Zionist veto vs accelerationist disengagement is the operative US-side bracket on Israeli pre-emption).
+- Cross-references BS-16 (eschatological convergence; Coalition I mirror-image structure per `eschatology-intersection-matrix.md` §8).
 
 ---
 
@@ -457,17 +554,16 @@ Per Weisiger (2013): commitment-problem wars driven by dispositional readings pr
 
 ---
 
-### PROBE-11: Russian Settlement Window and Dugin Leading Indicator
+### PROBE-11: Russian Settlement Window and Dugin Leading Indicator (BS-6)
 
-**Frequency:** Bi-weekly (downgraded from weekly Day 76 — sustained null yield)
+**Frequency:** Bi-weekly (downgraded from weekly Day 76; held Day 77)
 
-**Target signal:** Dugin Telegram/Katehon/RT-byline (4-6 week leading indicator). Belousov public appearances and Talaei follow-on meetings. Russian central bank reserves. Oligarch movement. FSB/GRU signaling. Putin readouts from Trump calls. Ukraine negotiation stance correlated with Iran developments.
+**Target signal:** Dugin Telegram/Katehon/RT-byline (4-6 week leading indicator). Belousov public appearances and Talaei follow-on meetings. Russian central bank reserves. Putin readouts from Trump calls. Ukraine negotiation stance correlated with Iran developments. *Note Day 77: PROBE-11 now covers BS-6 (Russian domestic constraints / Dugin ideological closure). PROBE-17 covers BS-9 (siloviki cohesion / succession architecture) separately.*
 
 **What changes the framework:**
 - Dugin shift toward explicit deterrence/nuclear posture: Kremlin posture hardening expected 4-6 weeks later.
 - Putin Ukraine settlement push timed to Iran developments: settlement-window correlation.
 - Belousov-Talaei content disclosure: A5 calibration refined.
-- Russian siloviki defection signal (oligarch capital flight, governor friction, FSB/GRU divergence): BS-9 activates.
 - Putin explicit HEU custody offer renewal: Russia-brokered path under altered counterparty.
 
 **Sources:** Dugin Telegram, Katehon, RT op-eds, Kommersant, Vedomosti, Forbes Russia, OCCRP Russian desk, Reuters Moscow, FT Moscow.
@@ -603,6 +699,76 @@ Per Weisiger (2013): commitment-problem wars driven by dispositional readings pr
 
 ---
 
+### PROBE-17: Russian Siloviki Cohesion (BS-9 composite — NEW Day 77)
+
+**Frequency:** Bi-weekly minimum; weekly when any sub-probe trigger fires. Composite reading consumes outputs from sub-probes BS-9.1 through BS-9.5 plus PROBE-11.
+
+**Target signal:** Joint reading of five sub-probes:
+
+- **BS-9.1 Shoigu legal trajectory:** Investigative Committee statements; named criminal charges against Shoigu directly. Sources: Investigative Committee press, Moscow Times, Meduza, Jamestown Foundation.
+- **BS-9.2 Dyumin operational footprint:** Additional portfolios, military oversight, State Council activity. Sources: Kremlin readouts, RBK, Vedomosti, FPRI / Atlantic Council analysis.
+- **BS-9.3 Putin public appearance frequency:** Monthly count of public appearances vs ≥3 consecutive months at <2/month threshold. Sources: Kremlin.ru calendar, FT, CNN.
+- **BS-9.4 Kovalchuk-Tikhonova-Dmitriev axis:** RDIF mandate expansion; Innopraktika sponsorship list; Dmitriev portfolio additions. Sources: RDIF disclosures, OCCRP, FT Moscow.
+- **BS-9.5 Kadyrov health and Chechen succession:** Kadyrov public appearances; eldest-son positioning; Kadyrovtsy deployment patterns. Sources: Chechen state media, North Caucasus analysts at RFE/RL, FPRI.
+
+**What changes the framework:**
+- BS-9.1 fires (Shoigu direct criminal charges): synthesis revision candidate; M2/M3 probabilities elevated; Russia pole stability assessment requires §9.3 update per `synthesis/staging/v3-2-russia-pole-revision-manifest.md`.
+- BS-9.3 fires (3+ months <2 Putin appearances/month): emergency synthesis review; M3 incapacity cascade probability elevated above 30%.
+- Multiple sub-probes firing concurrently: cascade risk; v3.2 manifest activation triggered.
+- Falsification triggers (downward revision): Putin appearances normalize >10/month for 3+ months; Shoigu rehabilitation; credible managed-handover announcement; Brent sustained $80+ for 2+ quarters; new strategic arms agreement.
+
+**Sources:** Beyond per-sub-probe sources above: EU intelligence dossier publication monitoring (Important Stories, OCCRP partners); Carnegie Russia Eurasia Center (Stanovaya); Nest Centre; Chatham House Russia program.
+
+**Cross-reference:** `reference/russia-pole-architecture.md` §4 (succession mechanisms), §7 (monitoring framework).
+
+---
+
+### PROBE-18: Eschatological Multi-Tradition Convergence (BS-16 — NEW Day 77)
+
+**Frequency:** Monthly background (Tier 3 indicators); ad-hoc sweep on Tier-2 events; framework patch on Tier-1 events.
+
+**Target signal:** Tiered indicator architecture per `appendix/staging/archive/bs-additions-2026-05-14.md` (staging file post-archive):
+
+- **Tier 1 (synthesis-revision candidate on any single firing):** Red heifer ceremony executed with rabbinical permission; Knesset legislation formalizing Jewish prayer rights on Temple Mount; Cornerstone of Third Temple laid; Attack on Dome of the Rock; Mojtaba public Mahdist invocation in major speech; Major Hajj attack with sectarian framing; Sharaa formal caliphate or Mahdist declaration; Hashemite succession crisis in Jordan with regime instability.
+- **Tier 2 (ad-hoc probe sweep on firing):** Sanhedrin ruling with operational implications; Saudi-Iran sectarian incident at Hajj (non-major); ISKP attack with explicit Khorasan-eschatological branding; Major Alawi/Christian massacre in Syria with HTS complicity; Ben-Gvir announcement of synagogue construction on Mount; MBS major Wahhabi-rollback or rollback-reversal announcement; Sistani succession event.
+- **Tier 3 (monthly background):** Beyadenu monthly Temple Mount ascent numbers; Boneh Israel red heifer status updates; CUFI lobbying disclosures; Project Esther implementation progress; ISKP claims-of-responsibility frequency; Mojtaba speech corpus Mahdist invocation frequency.
+
+**What changes the framework:**
+- Any Tier-1 firing: synthesis revision candidate per CLAUDE.md instrumentation discipline.
+- 3+ traditions activating on the same event: state-policy crossover test (`eschatology-intersection-matrix.md` §2); if crossover confirmed, BS-16 promoted from CRITICAL-monitored to active framework constraint.
+- Vanguard-mobilization-to-mainstream-condemnation ratio collapsing on any single tradition: precedes coordinated action; raises Tier-2 event probability.
+
+**Sources:**
+- *Jewish-tradition:* Boneh Israel, Temple Institute, Knesset legislative tracker, Beyadenu, Friends of the Sanhedrin (thesanhedrin.net).
+- *Islamic-tradition:* Iran International speech corpus, IRGC media monitoring, Saudi Hajj Ministry, Najaf hawza channels (İRAM Center), UN Sanctions Monitoring Team (ISKP), SITE Intelligence, HTS official channels, Damascus state media.
+- *Christian Zionist:* OpenSecrets (CUFI lobbying disclosures), NYT / Religion Dispatches / IMEU (Project Esther tracking).
+- *Counter-vector:* Holy Land Patriarchs statements, USCCB, Orthodox synods.
+
+**Cross-reference:** `reference/eschatology-judaism-v1.0.md`, `reference/eschatology-islam-v1.0.md`, `reference/eschatology-intersection-matrix.md`.
+
+---
+
+### PROBE-19: Christian Zionist US Policy Vector Disaggregation (BS-17 — NEW Day 77)
+
+**Frequency:** Quarterly background; ad-hoc sweep on Tier-2 events; framework patch on Tier-1 events.
+
+**Target signal:**
+
+- **Tier 1:** Major intra-Republican public split on Israel policy (Huckabee/Hagee axis vs Vance/Bannon/Carlson); Project Esther implementation milestone (EO, deportation case, university funding action); Huckabee policy statement contradicting State/DoD posture; CUFI lobbying surge tied to specific legislation (Iran, Saudi normalization, West Bank annexation).
+- **Tier 2:** Generational evangelical polling update (Barna, Pew, LifeWay); Republican primary cycle dynamics on Israel position; Christian Zionist donor network shift; Huckabee public statement on Greater Israel rhetoric.
+- **Tier 3:** CUFI lobbying disclosure cycles; white evangelical share-of-electorate updates (Census, Pew, PRRI); generational Israel-support polling (18-29 cohort); Mainline Protestant / Catholic / Orthodox positioning.
+
+**What changes the framework:**
+- Intra-Republican fracture intensity index rising past calibration baseline: Vance-disengagement faction gains operational weight; BS-3 / BS-14 Israeli spoiler-probability under reassessment.
+- Project Esther implementation milestone: Christian Zionist policy delivery confirmed; BS-3 / BS-17 cross-reference activates.
+- Evangelical 18-29 Israel-support crossing 25% downward: framework projection past 2028 requires revision.
+
+**Sources:** OpenSecrets (lobbying disclosures), NYT (Religion Dispatches, IMEU on Project Esther), Barna / Pew / PRRI (polling), Reuters / Forward / Crux (Huckabee statements), Little Sis (donor networks), Census Bureau (demographic baseline).
+
+**Cross-reference:** `reference/eschatology-judaism-v1.0.md` §6-§7, `reference/eschatology-intersection-matrix.md` §8, `reference/god-and-the-machine.md`.
+
+---
+
 ## Framework Revision Triggers
 
 The following events, if confirmed by two or more independent sources, require immediate Synthesis revision regardless of the weekly cycle:
@@ -643,74 +809,101 @@ The following events, if confirmed by two or more independent sources, require i
 | Houthi mass-launch event during MOU window | BS-13 fires; Iranian residual capability confirmed |
 | **Product-scarcity riots / rationing in South Africa / India / Thailand / Taiwan** | **Strangulation regional disruption visible; BS-15 transmission threshold breached** |
 | **Commercial Hormuz restoration (Hapag-Lloyd/Maersk-equivalent announcement)** | **Two-track equilibrium converging; Fork B credibility validated** |
+| **BS-9.1 fires: Shoigu criminal charges formally filed** | **v3.2 manifest activation; §9.3 revision triggered; Russia pole stability reassessed; M2/M3 elevated** |
+| **BS-9.3 fires: Putin <2 public appearances/month for 3+ consecutive months** | **Emergency synthesis review; M3 incapacity cascade elevated above 30%; framework dependence on Russia-pole stability re-priced** |
+| **Multiple BS-9 sub-probes firing concurrently** | **Russia-pole succession cascade; v3.2 manifest activation; Fork B-Russia collapses to near-zero under M3** |
+| **BS-16 Tier-1 event: any single firing (red heifer ceremony executed; Temple Mount prayer law; Dome of Rock attack; Mojtaba Mahdist invocation; Sharaa caliphate; major Hajj attack; Hashemite succession crisis; Third Temple cornerstone)** | **Synthesis revision candidate per CLAUDE.md instrumentation discipline; multi-tradition convergence multiplier (5-10x) applied to event significance; coalition-stack activation may render Iran-2026 forks resynchronized** |
+| **BS-17 Tier-1 event: Huckabee policy statement contradicting State/DoD posture; major intra-Republican Israel split; Project Esther implementation milestone; CUFI lobbying surge on Iran/normalization/annexation** | **Intra-Republican fracture intensity recalibrated; US-Israel constraint disaggregation forces; BS-3/BS-14 spoiler-probability under reassessment** |
+| **Vance explicit public de-escalation statement (full BS-5 firing; goes beyond Day 77 "progress" partial)** | **Faction architecture revised; accelerationist veto path foreclosed; BS-17 fracture-intensity index updated** |
+| **Vahidi confirmed direct named statement on MOU/5-preconditions/Xi-framed arrangement** | **BS-1a apex visibility +20-30pp; BS-12 Vahidi-shaped PA-gap resolved either direction; Fork B durability reassessed** |
 
 ---
 
-## Confidence Architecture Summary (Day 76)
+## Confidence Architecture Summary (Day 77)
 
 | Blind Spot | Visibility | Framework Risk | Priority |
 |---|---|---|---|
-| BS-1a Iranian decision architecture | 60-65% | High | High |
+| BS-1a Iranian decision architecture | 65-70% | High | High |
 | **BS-1b Iranian political-economic transmission** | **10-15%** *(structurally opaque)* | **High-Critical** | **Critical** |
-| BS-3 Israeli internal politics | 40-45% | High | High |
-| BS-4 Chinese active support | 45-55% | Med | Med-High |
-| BS-5 US domestic | 55-65% / 5-15% | Med-High | High |
+| BS-3 Israeli internal politics | 50-55% | High | High |
+| BS-4 Chinese active support | 60-65% | Low-Med | Med (near-retirement candidate) |
+| BS-5 US domestic | 60-70% / 5-15% | Med-High | High |
 | BS-6 Russian domestic constraints | 30-35% | Med-High | Med-High |
 | BS-7 Energy markets | 35-50% | High | High |
-| BS-8 IRGC factional structure | 50-55% | Med-High | High |
-| BS-9 Russian siloviki cohesion | 15-20% | Med | High |
-| BS-11 MOU architecture and focal points | 40-50% | High | High |
-| BS-12 Principal-level ratification (asymmetric PA-gap) | 40-50% | High | High |
-| BS-13 Iranian residual capability | 35-45% | High | High |
-| BS-14 Dispositional reading & power-shift perception | 35-45% | High | High |
-| **BS-15 First-mover under asymmetric lock-in** *(NEW)* | **15-25%** | **Critical** | **Critical** |
+| BS-8 IRGC factional structure | 55-60% | Med-High | High |
+| **BS-9 Russian siloviki cohesion and succession** *(ELEVATED)* | **30-40%** | **Med-High** | **Critical** |
+| BS-11 MOU architecture and focal points | 50-55% | High | High |
+| BS-12 Principal-level ratification (asymmetric PA-gap; Vahidi-shaped) | 40-50% | High | High |
+| BS-13 Iranian residual capability | 40-50% | High | High |
+| BS-14 Dispositional reading & power-shift perception | 40-50% | High | High |
+| **BS-15 First-mover under asymmetric lock-in** | **25-35%** | **Critical** | **Critical** |
+| **BS-16 Eschatological multi-tradition convergence** *(NEW Day 77)* | **20-30%** | **Critical** | **Critical** |
+| **BS-17 Christian Zionist US policy vector disaggregation** *(NEW Day 77)* | **30-40%** | **High** | **High** |
 
-**Critical BSs: 2 (BS-1b, BS-15).** Below skill baseline of 3. The reduction reflects genuine visibility improvements on BS-11 and BS-12 during the principal-resolution phase: deal architecture is now substantively visible (sunset clause floated, 5 preconditions formalized, anti-JCPOA insertions named), and the PA-gap is now mechanistically modeled (asymmetric: US oscillating, Iran closed). The new opacity is BS-15: which actor breaks first under the now-visible asymmetric lock-in.
+**Critical BSs: 4 (BS-1b, BS-9, BS-15, BS-16).** One above the three-baseline; within the five-overextension threshold. The Day 77 audit cycle elevated BS-9 from unmodeled-placeholder to active monitoring on signal-cluster evidence; promoted BS-16 (multi-tradition convergence) from queued staging on reference-instrumentation discipline. These two additions reflect the framework's expansion into the Russia-pole and eschatological-coalition apparatus surfaces that prior cycles under-instrumented.
 
-**Common property of the two critical BSs:**
+**Common property of the four critical BSs:**
 - BS-1b: opacity about *internal economic transmission to Iranian decision-making* (binding on Iranian first-mover threshold).
+- BS-9: opacity about *Russian succession architecture stability* (binding on tripolar pole-stability under any Putin-departure mechanism).
 - BS-15: opacity about *which actor's break-threshold trips first under asymmetric pressure*.
+- BS-16: opacity about *multi-tradition trigger-event convergence multipliers* (binding on coalition-stack activation that current Iran-2026 forks do not price).
 
-These two are tightly coupled. BS-1b is the dominant component of the Iranian first-mover sub-threshold within BS-15. BS-15 is partially decomposable into BS-1b + BS-5 + BS-3 + BS-14 components, but the joint distribution is itself the analytical object.
+BS-1b and BS-15 are tightly coupled: BS-1b is the dominant component of the Iranian first-mover sub-threshold within BS-15. BS-9 and BS-16 are weakly coupled to BS-15 but operate on different time-horizons (BS-9 5-year succession; BS-16 event-driven Tier-1 firings).
 
-The framework's central thesis — constraint architecture narrows viable paths; players choose from what remains — operates most acutely at the first-mover phase now that the deal architecture is visible. The two critical BSs correspond to the two structural failure modes of the current asymmetric-lock-in equilibrium: (a) Iranian coalition cohesion ruptures from within (BS-1b transmission); (b) one of US / Israel / Senate acts before Iran ruptures (BS-15 joint). The first triggers a Fork B path; the second triggers Fork A through an Israeli or US first-mover.
+The framework's central thesis — constraint architecture narrows viable paths; players choose from what remains — operates most acutely at the first-mover phase now that the deal architecture is visible. The four critical BSs correspond to the framework's structural failure modes:
+- (a) Iranian coalition rupture from within (BS-1b transmission)
+- (b) one of US / Israel / Senate acts before Iran ruptures (BS-15 joint)
+- (c) Russian pole instability accelerates China-pole absorption regardless of Iran 2026 resolution (BS-9)
+- (d) multi-tradition Tier-1 trigger event activates coalition-stack that current forks do not price (BS-16)
+
+Paths (a) and (b) drive Iran 2026 fork resolution. Paths (c) and (d) operate as longer-horizon framework constraints that any synthesis revision must address.
 
 ---
 
-## Game-Theoretical Coverage Map (Day 76 audit cross-check)
+## Game-Theoretical Coverage Map (Day 77 audit cross-check)
 
 | Game-theory mechanism | Covered by | Notes |
 |---|---|---|
-| Fearon costly signaling / type-revelation | BS-13, PROBE-2, PROBE-7 | Information rents now exhausted per Day 74-76 |
-| Schelling focal points | BS-11 | Coordination optimism bias surfaced Day 76 — focal points can fail to converge |
-| Commitment device design | BS-11 | War-as-default clause structure still opaque |
-| Asymmetric Putnam PA-gap | BS-12, BS-15 | NEW formulation: PA-gaps asymmetric in kind, not just degree |
-| Slantchev convergence (info exhaustion) | Implicit in BS-13 + framework thesis | Convergence failed despite info exhaustion (Meta-Negotiation Regression) |
-| Slantchev feigning weakness | BS-13 | Confirmed Day 76 multi-source |
-| Weisiger dispositional vs informational | BS-14 | Three-vertex asymmetry confirmed (Israel max, Iran max, US oscillating) |
-| Powell shifting power | BS-14, BS-15 | Israeli "closing window" read drives pre-emption incentive |
-| Mercer/Yarhi-Milo behavioral signaling | BS-5 + BS-12 | A1 oscillation now modeled as ~48h window |
-| Putnam/Leventoglu-Tarar two-level games | BS-12 | Both win-sets now mapped; asymmetric audience costs |
-| Kydd third-party guarantor trust | BS-11 (Pakistan/Oman role) | Beijing demoted by US principal; Pakistan-Oman dyad operative |
-| **First-mover under asymmetric lock-in** | **BS-15 (NEW)** | **Joint distribution of break-thresholds across actors** |
+| Fearon costly signaling / type-revelation | BS-13, PROBE-2, PROBE-7 | Information rents exhausted per Day 74-77 |
+| Schelling focal points | BS-11 | Day 77: Meta-Negotiation Regression interrupted by Rome May 23 scheduling; coordination optimism bias correction continues to apply |
+| Commitment device design | BS-11 | War-as-default clause structure still opaque; Day 77 Xi summit Hormuz/no-mil-equipment is commitment-device endorsement |
+| Asymmetric Putnam PA-gap | BS-12, BS-15 | Day 77 mechanism revision: gap is Vahidi-shaped at apex, not Ghalibaf-shaped at mid-tier |
+| Slantchev convergence (info exhaustion) | Implicit in BS-13 + framework thesis | Convergence requires Schelling focal point coordination, currently in progress |
+| Slantchev feigning weakness | BS-13 | Day 77: confirmed at H multi-cycle multi-source |
+| Slantchev-inverse feigning non-need | BS-4, A1 | Day 77 NEW formulation: Trump pre-summit "don't need any help" was lowering Xi's price; Xi delivered |
+| Weisiger dispositional vs informational | BS-14 | Three-vertex asymmetry sharpening (Israel max + IDF-coalition split, Iran max + Vahidi-Ghalibaf split, US oscillating deal-leaning) |
+| Powell shifting power | BS-14, BS-15 | Day 77 activation: Israeli "closing window" read drives pre-emption incentive as Fork B becomes more credible |
+| Mercer/Yarhi-Milo behavioral signaling | BS-5 + BS-12 | A1 oscillation 96-hour arc Day 73-77 |
+| Putnam/Leventoglu-Tarar two-level games | BS-12 | Both win-sets now mapped; asymmetric audience costs; Iran apex (Vahidi) opposed, mid-tier (Ghalibaf) pro |
+| Kydd third-party guarantor trust | BS-11 (Pakistan/Oman/Beijing) | Day 77: Beijing re-elevated to co-primary mediator on Xi delivery |
+| First-mover under asymmetric lock-in | BS-15 | Day 77: race-condition mechanics clarified; 11-day window summit→Rome→Hajj |
+| **Coalition-stack activation under eschatological convergence** | **BS-16 (NEW Day 77)** | **Multi-tradition trigger events activate non-state vanguards in coalition-stack; current forks do not price** |
+| **Intra-coalition fracture as constraint variable** | **BS-17 (NEW Day 77)** | **US Christian Zionist policy vector disaggregated from monolithic maximalist frame** |
+| **Personalist-regime succession architecture** | **BS-9 (ELEVATED Day 77)** | **Russian siloviki cohesion under Wild Putinism cycle; M1/M2/M3/M4 mechanism probabilities ranged** |
 
-Coverage complete. No game-theory mechanism left unmapped.
+Coverage complete. Three additions Day 77 (coalition-stack activation; intra-coalition fracture; personalist-regime succession).
 
 ---
 
-## Calibration Notes (Day 76 Audit)
+## Calibration Notes (Day 77 Audit)
 
-**Western source bias:** Bit hardest on BS-1b (8th consecutive null cycle). Persian-language primary source ladder remains aspirational. Per skill protocol: declared structurally opaque; framework risk explicit. Mitigation Day 76: Iran-side principal speech (Ghalibaf X, Sobh-e No, Jafari, Hassanzadeh) is partially English-readable and improves BS-1a/BS-8 visibility — but BS-1b transmission to coalition decision-making remains dark.
+**Western source bias:** Bit hardest on BS-1b (9th consecutive null cycle). Persian-language primary source ladder remains aspirational. Per skill protocol: declared structurally opaque; framework risk explicit. Day 77: Iran-side principal speech (Ghalibaf X, Sobh-e No, Jafari, Hassanzadeh) continues partially English-readable and supports BS-1a apex-split mapping. BS-1b transmission to coalition decision-making remains dark.
 
-**Recency bias:** Bit on Day 74 SITREP read. The Netanyahu Principal-Penetration mechanism was treated as durable when it was actually a 24-48h decay pattern. Audit corrected by adding duration as binding variable per Day 76 PROBE-13 finding. Cumulative pattern matters more than any single Netanyahu-Trump contact.
+**Western source bias on BS-9 (Day 77 escalation):** The Russian siloviki cohesion BS elevation depended on EU intelligence dossier sources (Important Stories / OCCRP, corroborated by CNN). T1 Russian primary sources (Kremlin self-reporting) were not relied upon for analytical conclusions. The dependency on European-intelligence-with-Western-corroboration is a structural bias in the BS-9 evidence base; the Stanovaya / Carnegie Russia Eurasia analytical layer is T3 academic but consistent with the signal cluster. Mitigation: BS-9 sub-probes BS-9.1 through BS-9.5 are anchored to observable signals (Shoigu charges; Dyumin portfolios; Putin appearance counts; RDIF mandate; Kadyrov health) that do not require T1 Russian self-reporting.
 
-**Confirmation bias check:** Day 74 framework expected sustained Netanyahu-Trump alignment after May 10 hardline. Trump's A1 oscillation contradicted within 48h. The PROBE-13 instrument was correctly tuned for this counter-hypothesis (test was "does Trump distance from Witkoff output" — answer was "yes, in opposite direction from prior expectation"). Audit instrumentation passed.
+**Recency bias (Day 77 cycle hit):** The Day 76 reading of "Iran-side PA-gap closing through public principal speech" over-weighted 48-hour coalition-speech evidence against cumulative multi-week ISW analytical evidence (April 21 Vahidi-Ghalibaf disagreement). Day 77 audit corrected by reading the cumulative pattern: Ghalibaf-Araghchi pro-deal track + Vahidi apex anti-deal = structural split, not closing gap. Lesson: when single-cycle data appears to resolve a multi-week opacity, the audit should privilege the longer baseline before declaring the gap closed.
 
-**New structural bias surfaced Day 76 — coordination optimism:** The Day 70 audit integrated Schelling focal-point coordination as if dense focal points naturally produce convergence under sufficient density. Day 74-76 data shows the opposite: focal points being consumed without producing convergence. May 8 Iranian response window, May 11 Oman, May 13 WPR vote, May 14-15 Trump-Xi summit, ~May 25 Hajj — each consumed without producing convergence. The framework should track focal-point consumption patterns explicitly. PROBE-16 includes a focal-point-consumption sub-indicator implicitly via the first-mover thresholds.
+**Confirmation bias (Day 77 cycle pass):** Day 76 framework treated Trump's pre-summit "don't need any help" as principal-level demotion of Xi summit, with a counter-hypothesis (Slantchev-inverse feigning non-need) preserved as alternative read. Day 77 Xi delivery confirmed the counter-hypothesis. Audit instrumentation passed: the framework was correctly tuned to test against its primary read rather than to confirm it.
 
-**Determinism creep check (Day 70 bias, still relevant Day 76):** Framework language continues to risk "the architecture chose" / "the architecture innovated." Correct formulation: constraint set narrows viable paths; principals choose from what remains. Day 76 audit preserves this discipline; the asymmetric PA-gap finding emphasizes that *principals* hold positions, *agents* deliver them, and *the constraint architecture narrows the joint feasible set within which they choose*. The architecture does not choose; it constrains.
+**Coordination optimism (Day 76 bias, partially relieved Day 77):** Day 76 audit identified focal-point-coordination optimism as a Day 70 audit bias. Day 77: the 5th round Rome May 23 scheduling interrupts the Day 76 Meta-Negotiation Regression. The Day 76 correction continues to apply: scheduled focal-point ≠ substantive convergence. Day 78 will test whether Rome produces convergence or "constructive but no agreement" framing.
 
-**Method note on BS-15 construction:** BS-15 is the first explicitly composite BS in the inventory. Component thresholds are tracked in BS-1b (Iranian), BS-5 (US Senate / Trump A1), BS-3 + BS-14 (Israeli operational), BS-7 (transmission). The composite is the joint pattern. Decomposing BS-15 into its components for tracking purposes would lose the analytical object; the relationship between component thresholds (correlation, sequencing, mutual triggering) is itself opaque and is the analytical content of BS-15.
+**Determinism creep check (Day 70 bias, still relevant Day 77):** Framework language continues to risk "the architecture chose" / "the architecture innovated." Correct formulation: constraint set narrows viable paths; principals choose from what remains. Day 77 audit preserves this discipline: the eleven-day race condition is constraint-architecture output of prior moves, not architecture-as-agent.
+
+**Method note on BS-15 construction:** BS-15 is the first explicitly composite BS in the inventory. Component thresholds are tracked in BS-1b (Iranian), BS-5 (US Senate / Trump A1), BS-3 + BS-14 (Israeli operational), BS-7 (transmission). The composite is the joint pattern. Day 77 race-condition mechanics clarified but the composite remains operative.
+
+**Method note on BS-9 elevation (NEW Day 77):** BS-9 graduated from unmodeled placeholder to active monitoring on the strength of a signal cluster, not on direct ratification by a single tier-1 event. The audit standard for elevation: 5+ corroborated signals across at least 3 source-tiers, structural probe documenting succession-mechanism probability ranges, falsification criteria specified in both directions. This standard should be applied to future BS elevations from placeholder status. Sub-probes BS-9.1 through BS-9.5 are the operational decomposition; PROBE-17 is the composite directive.
+
+**Method note on BS candidate promotion from staging (NEW Day 77):** BS-16 and BS-17 were promoted from `appendix/staging/bs-additions-2026-05-14.md` (queued for /audit per the file's operator checklist). The staging file's analytical content was incorporated; numbering assigned in sequence (BS-16 and BS-17 as next two after BS-15); cross-references to existing BSs verified. The file is to be moved to `appendix/staging/archive/` post-incorporation per its own checklist. The BS-9 elevation was incorporated separately on the structural-probe basis at `probes/structural/2026-05-14-bs9-russia-succession.md`; that probe memo did not require staging-archive treatment since it was a single-node deep probe, not a multi-BS staging batch.
 
 ---
 
@@ -734,6 +927,7 @@ The variable BS-10 tracked (operation-rename to escalate, with WPA reset archite
 
 ---
 
-*End of Appendix B Day 76 update | Subject to revision as intelligence probes surface material data*
-*Next scheduled blind-spot sweep: June 13, 2026 (monthly cadence per skill spec) or earlier on Trump-Xi summit communique, WPR passage, Israeli unilateral strike, sunset-clause text confirmation, Vahidi direct named statement, Iranian named-principal coalition defection, Eisenhower deployment order, or Knesset dissolution bill passage*
-*Next scheduled probe sweep: May 14-15 (Trump-Xi summit window); rolling daily through 5th Oman round date confirmation*
+*End of Appendix B Day 77 update | Subject to revision as intelligence probes surface material data*
+*Next scheduled blind-spot sweep: June 14, 2026 (monthly cadence per skill spec) or earlier on: confirmed Israeli strike on Iranian nuclear facility, Vahidi confirmed direct named statement, BS-9.1 firing (Shoigu charges), BS-16 Tier-1 firing (any), Eisenhower deployment order, Trump A1 oscillation back to hardline with summit characterized as "no help needed", 8th WPR vote passage, or Knesset dissolution bill passage*
+*Next scheduled probe sweep: May 15 (Trump-Xi summit Day 2 communique); rolling daily through 5th Oman round Rome May 23*
+*Day 77 audit revisions: +2 adds (BS-16 multi-tradition convergence, BS-17 Christian Zionist disaggregation); +1 elevation (BS-9 from placeholder with 5 sub-probes BS-9.1 to BS-9.5); +3 new probe directives (PROBE-17 Russia siloviki composite, PROBE-18 eschatological convergence, PROBE-19 Christian Zionist disaggregation); 0 retires; multi-BS visibility upgrades on Xi summit delivery, Israeli operational preparation, IRGC apex-split mapping, Fetterman-swing WPR mechanism revision*
