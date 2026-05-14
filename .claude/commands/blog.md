@@ -49,8 +49,10 @@ Draw the title from the SITREP's own title field if it follows the same conventi
 ```toml
 +++
 date = '{YYYY-MM-DDTHH:MM:SS-04:00}'
-draft = false
+draft = true
 title = 'Iran Day N - [Clause One]; [Clause Two]'
+description = 'Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)'
+tags = ["iran", "geopolitics", "war", "sitrep", "diplomacy"]
 [cover]
     image = "posts/iran/day-N.png"
     relative = false
@@ -59,53 +61,61 @@ title = 'Iran Day N - [Clause One]; [Clause Two]'
 
 - Date: today's date in ISO format with America/Toronto offset (-04:00 EDT, -05:00 EST). Use a plausible compose-time hour, not midnight.
 - Title: see above.
+- Description: `Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)` — fill in the current synthesis version number.
+- Tags: base set is `["iran", "geopolitics", "war", "sitrep", "diplomacy"]`. The last 1-2 tags may be swapped for cycle-specific focus (e.g., `"nuclear"`, `"markets"`, `"escalation"`) if a different domain dominates the cycle.
 - Cover path: `posts/iran/day-N.png` matching the filename of the blog file.
-- `draft = false` so the post publishes on next Hugo build.
+- `draft = true` so the post goes through a publish review before going live.
 
 ---
 
-## Body Structure (mirror the SITREP)
+## Body Structure
 
-The blog mirrors the SITREP skeleton with cleaned section headers. Keep section numbering only at the top level; drop the SITREP's deep numeric structure (1.1, 1.2, etc.) for cleaner subsection headers.
+The blog opens with the executive summary as plain prose — no section header. Main sections use `#` (h1); subsections use `##` (h2). No numbered sections anywhere. A `---` horizontal rule separates every major section.
 
 ```
-# Iran 2026 Operational SITREP. Daily Update
-**Day N | {Weekday}, {Month} {DD}, {YYYY}**
-
-*Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)*
-*Supersedes Day {N-2} annex ({date}). Day N probe sweep executed this cycle: {fired count}, {immediate trigger count} immediate triggers.*
-
----
-
-## Executive Summary
-{3-6 sentences. Identical analytical content to SITREP's exec summary, prose-form.}
+{Executive summary. No header. 3-5 paragraphs. Opens with the cycle's single most important
+development. Closes with the kinetic composite sentence: "Across paths to renewed military
+action, cumulative probability sits at roughly X to Y percent over the next month and Y to Z
+percent over the next year. The non-escalation path carrying most weight is [descriptive name]
+at X to Y percent."}
 
 ---
 
-## 1. Operational Update
+# Operational Update
 
-### 1.1 Diplomatic Track
-### 1.2 Maritime and Military Posture
-### 1.3 [Country] Internal Picture
-### 1.4 [Country] Internal Picture
-### 1.5 Markets {include the table from the SITREP, scrubbed for em-dashes}
-### 1.6 US Domestic
-### 1.7 International
-
----
-
-## 2. What Held This Week     {= SITREP "Framework Validation"}
-## 3. What Changed             {= SITREP "Framework Revisions Required"}
-## 4. What's New               {= SITREP "Framework Additions"}
-## 5. The Probability Picture  {= SITREP "Revised Probability Matrix": compact 4-column summary table, then prose. Both required.}
+## Diplomatic Track
+## Maritime and Military Posture
+## [Actor] Internal Picture    {name the actor explicitly: "Iran's Internal Picture",
+                                "Israel's Internal Picture"; add a second block if warranted}
+## Markets                     {include the table from the SITREP, scrubbed for em-dashes}
+## US Domestic
+## International
 
 ---
 
-## 6. Conclusion and What Comes Next
+# What Held This Week          {= SITREP "Framework Validation"}
 
-### 6.1 Central Thesis Check
-### 6.2 The 72-Hour Picture     {= SITREP forking paths, prose}
-### 6.3 The Operative Judgment
+---
+
+# What Changed                 {= SITREP "Framework Revisions Required"}
+
+---
+
+# What's New                   {= SITREP "Framework Additions"; omit section if nothing new
+                                meets the structural threshold}
+
+---
+
+# The Probability Picture      {= SITREP "Revised Probability Matrix": compact 4-column
+                                summary table first, then prose. Both required.}
+
+---
+
+# Conclusion and What Comes Next
+
+## Central Thesis Check
+## The 72-Hour Picture          {= SITREP forking paths, prose}
+## The Operative Judgment
 
 ---
 
@@ -118,7 +128,7 @@ The probe status table is **omitted** from the blog. It is internal bookkeeping.
 
 ### Probability Picture section
 
-Section 5 opens with a compact summary table, then expands in prose. The table is scannable for returning readers; the prose carries the analytical weight. Both are required.
+The `# The Probability Picture` section opens with a compact summary table, then expands in prose. The table is scannable for returning readers; the prose carries the analytical weight. Both are required.
 
 Table spec (4 columns, 5-8 rows):
 
@@ -142,8 +152,8 @@ After the table, the prose section walks through each row in 1-3 sentences, nami
 
 | SITREP element | Blog treatment |
 |---|---|
-| Header line with em-dash | Period or comma. `# Iran 2026 Operational SITREP. Daily Update` |
-| `## Title: {clause}` block | Drop. Title is in the frontmatter only |
+| SITREP header block (day/date line, annex/supersedes metadata) | Drop entirely. No header above the executive summary. |
+| `## Title: {clause}` block | Drop. Title is in the frontmatter only. |
 | `Framework Validation` section | Rename `What Held This Week` |
 | `Framework Revisions Required` section | Rename `What Changed` |
 | `Framework Additions` section | Rename `What's New` |
