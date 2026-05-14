@@ -1,0 +1,389 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-14",
+    "day_number": 77,
+    "framework_version": "v3.0",
+    "probes_run": ["PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16"],
+    "synthesis_anchor": "synthesis/synthesis-v3-0.md"
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "ISW Iran Update May 12 2026", "tier": 3},
+        {"name": "ISW Iran Update April 21 2026 — Vahidi-Ghalibaf disagreement", "tier": 3},
+        {"name": "EuroNews Iran IRGC power shift April 22 2026", "tier": 2},
+        {"name": "Critical Threats Evening Special May 12 2026", "tier": 3}
+      ],
+      "finding": "No Vahidi direct named statement this cycle. ISW (April 21) documented a 'major disagreement' between Vahidi (opposing negotiations) and Ghalibaf (favoring); ISW (May 12) confirmed IRGC consolidating under Vahidi and inner circle — Vahidi is winning the internal power competition. Single-source report (no confirmed outlet, no date) attributes to Vahidi: 'The supreme leader isn't even buried yet, and yet Qalibaf is already shaking hands with those who killed him' — applied -50% discount pending corroboration. Triangle internal dynamics now partially visible: Ghalibaf-Araghchi track is pro-deal; Vahidi apex track appears anti-deal.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5 preconditions",
+        "framework_variable": "BS-1a Iranian-side principal-resolution; BS-12 Iranian PA-gap",
+        "direction": "Vahidi opposition emerging; PA-gap larger at apex level than Day 76 modeled",
+        "gap_to_full_match": "Confirmed Vahidi direct named statement via tier-1 or tier-2 source"
+      },
+      "variable_moved": {
+        "variable": "Vahidi-Ghalibaf split visibility / Iranian PA-gap apex architecture",
+        "prior_value": "Day 76: triangle in convergent voice on 5-preconditions; Iran-side PA-gap 'closing'",
+        "new_value": "Structural split: Ghalibaf/Araghchi favor deal; Vahidi apex opposes. Day 76 'closing' read was Ghalibaf-faction speech, not Vahidi apex endorsement. PA-gap larger at the level that actually controls ratification.",
+        "driver": "ISW April 21 'major disagreement'; ISW May 12 Vahidi-consolidation (Vahidi winning power competition); single-source attributed quote consistent with opposition framing"
+      },
+      "discounts_applied": ["-50% on attributed Vahidi quote (single-source, no confirmed outlet, undated)"],
+      "conflict_notes": "Day 76 read Ghalibaf X post + Jafari + Hassanzadeh as 'Iran-side PA-gap closing.' These are Ghalibaf-faction and mid-tier IRGC, not Vahidi. ISW identifies Vahidi as 'current decision maker' — his opposition (if confirmed) renders Day 76 'closing' imprecise at the apex level that controls ratification."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "White House readout Trump-Xi summit May 14 2026", "tier": 1},
+        {"name": "CNBC Bessent interview May 14 2026", "tier": 1},
+        {"name": "CBS News live updates Trump-Xi Hormuz May 14 2026", "tier": 2},
+        {"name": "Times of Israel White House readout Hormuz May 14 2026", "tier": 2},
+        {"name": "India TV News Trump-Xi key takeaways May 14 2026", "tier": 3}
+      ],
+      "finding": "Trump-Xi summit Day 1 produced a substantive joint statement: Hormuz 'must remain open,' Iran 'can never have a nuclear weapon,' Xi will not supply military equipment to Iran, Xi offered to help make a deal, Xi explicitly opposed militarization of Hormuz and any toll regime on its use. Bessent (CNBC, tier-1 adjacent): China 'will be working behind the scenes... to help reopen the Strait.' Xi expressed interest in purchasing US oil to reduce Hormuz dependence. This is the most substantive Chinese commitment-device endorsement since conflict began. Trump's pre-summit 'don't need any help with Iran' (Day 76 read as principal demotion) is confirmed Slantchev-inverse feigning — Xi's price was lowered; Xi delivered.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump-Xi summit communique Iran-specific content — Chinese commitment-device endorsement or absence; Fork B-via-summit dispositive",
+        "framework_variable": "Fork B-via-summit recovery channel; Chinese pressure on Iran operationalized; Hormuz toll-regime hysteresis variable",
+        "direction": "up — substantive endorsement confirmed; not generic process language; Bessent operationalizes Chinese pressure",
+        "gap_to_full_match": null
+      },
+      "variable_moved": {
+        "variable": "Fork B-via-summit recovery channel (30d); Fork B 30d overall",
+        "prior_value": "Fork B-via-summit 15-25% (Day 76 demoted by Trump pre-arrival framing); Fork B overall 18-26%",
+        "new_value": "Fork B-via-summit 30-40%; Fork B overall 25-35% (compounding with PROBE-12' 5th-round scheduled). Xi anti-toll language directly targets §9.3 Hormuz-toll hysteresis variable — Chinese pressure now operationalized against that lock-in.",
+        "driver": "White House readout (tier-1) + Bessent CNBC interview (tier-1); Slantchev pre-demotion confirmed as negotiating posture not genuine principal demotion"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Al Jazeera frames Chinese Hormuz demand as pressure on Iran; White House frames it as joint statement. Both analytically consistent. Xi's Taiwan warning to Trump ('mishandling will cause clashes and conflicts') is in tension with the cooperative Iran frame — Xi extracted a price (Taiwan restraint signal) for the Iran delivery. This is not discounted but noted as the exchange architecture."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "IDNFinancials Eisenhower final prep May 13 2026", "tier": 4},
+        {"name": "War Zone carrier positions May 11 2026", "tier": 2},
+        {"name": "Army Recognition Eisenhower sea trials", "tier": 3}
+      ],
+      "finding": "No Eisenhower deployment order issued this cycle. Eisenhower remains on US East Coast in final-prep posture; Navy has not announced next mission. War Zone (May 11) reports 'two carriers' enforcing blockade — potential discrepancy with Day 76 three-CSG claim; likely reflects carrier rotation (Ford departed v3.0 baseline) rather than structural change. No new ROE change, no Dark Eagle deployment, no DOE/SOF nuclear-expertise forward deployment. CENTCOM posture unchanged; 4th-CSG option real but unordered.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "War Zone 'two carriers' vs. Day 76 'three CSG': likely Ford rotation (v3.0 baseline notes Ford departed). If correct, two-CSG operative posture is a subtle restraint signal vs. Day 76 assumption. Flag for PROBE-7 next cycle clarification."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Fortune oil price May 14 2026", "tier": 2},
+        {"name": "CNBC WTI/Brent Iran war May 12 2026", "tier": 2},
+        {"name": "CBS News live updates Trump-Xi Hormuz May 14 2026", "tier": 2}
+      ],
+      "finding": "Brent $107.82 at 0830 ET May 14, down $3.05 from prior morning. Mild downward pressure on summit-day deal-pricing; no decisive breakout below $100. Counter-pressure: 'Iranian export shipments recently stalled' per reporting — first sustained export interruption since conflict start, adding physical tightness. Brent remains within Day 76 $102-110 oscillation band. CBS News live update references 'seized ship taken toward Iran' during summit day — unverified maritime incident; could be Iranian seizure of commercial vessel or coalition enforcement action. Requires follow-up next cycle.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout above $115 (Fork A repricing) or below $95 (Fork B credibility); commercial Hormuz restoration announcement",
+        "framework_variable": "Brent price as fork-signaling indicator",
+        "direction": "no change — mid-band; mild deal-pricing on summit, offset by export stall",
+        "gap_to_full_match": "Sustained Brent move outside $100-112 band; or commercial Hormuz restoration announcement (Hapag-Lloyd/Maersk equivalent)"
+      },
+      "variable_moved": {
+        "variable": "Brent fork-signaling direction",
+        "prior_value": "$102-110 A1-oscillation pricing band (Day 76)",
+        "new_value": "$107.82 on summit day; slight downward; no structural band change. Export stall physical tightness is a new supply factor not in prior model.",
+        "driver": "Summit optimism applies mild downward pressure; export stall partially offsets; unverified ship seizure flagged"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "CBS ship-seizure reference unverified. If Iranian seizure of commercial vessel confirmed: Brent would spike and trigger PROBE-8 fork-signaling framework revision. Monitor Day 78."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN US intelligence — multiple US officials (May 2026)", "tier": 2},
+        {"name": "Times of Israel — Israel readying to strike Iranian nuclear sites if talks fail", "tier": 2},
+        {"name": "Newsweek — Israel prepares strike on Iran amid US tensions", "tier": 3},
+        {"name": "Times of Israel — Knesset dissolution bill submitted May 13 2026", "tier": 2}
+      ],
+      "finding": "US intelligence (CNN, multiple US officials): Israel is readying to strike Iranian nuclear facilities — air munitions movements observed, air exercise completed, senior Israeli officials' public and private messaging, intercepted Israeli communications. Probability of strike 'has gone up significantly.' Officials caution no final decision confirmed; 'deep disagreement within US government about likelihood.' Strike more likely if US reaches a deal not requiring full uranium removal. Knesset dissolution bill submitted May 13 by coalition; preliminary vote not before May 20; passage all but assured (coalition + opposition both support); election ≤mid-October at earliest. Electoral compression elevates Netanyahu's incentive to demonstrate war-achievement before voters.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Israeli pre-emption signal hardens beyond current alarm baseline: BS-15 Israeli first-mover threshold approaches",
+        "framework_variable": "Israeli unilateral strike probability (14-21d); BS-15 Israeli first-mover threshold",
+        "direction": "up — signal moved from diplomatic alarm (Day 76) to operational preparation (US intel on air munitions, completed exercise)",
+        "gap_to_full_match": "Israeli official confirmation of final decision or confirmed operational movement beyond preparation phase"
+      },
+      "variable_moved": {
+        "variable": "Israeli unilateral strike during MOU window (14-21d)",
+        "prior_value": "22-32% (Day 76)",
+        "new_value": "28-38% — preparation signal materially elevated above Day 76 alarm baseline; Knesset dissolution compresses Netanyahu's decision window",
+        "driver": "US intel on air munitions movement + exercise completion; CNN multi-US-official sourcing; Knesset dissolution electoral compression"
+      },
+      "discounts_applied": ["-50% on 'final decision' component (US-official-only sourcing; no Israeli official confirmation; US government internally divided on likelihood)"],
+      "conflict_notes": "CNN intelligence report may partially overlap with May 2025 pre-war warnings; Times of Israel 2026 'readying to quickly strike if talks fail' framing is current. Treating as M confidence given source-dating ambiguity and no Israeli official confirmation."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "The Hill Senate WPR 7th vote May 13 2026", "tier": 2},
+        {"name": "Time Magazine Senate WPR closest vote yet May 13 2026", "tier": 2},
+        {"name": "CBS News Senate Iran war powers May 13 2026", "tier": 2},
+        {"name": "WaPo Senate rejects Iran WPR May 13 2026", "tier": 2}
+      ],
+      "finding": "Day 76 7th WPR vote confirmed at 49-50 against. Three Republicans yes (Murkowski, Collins, Paul). Critically: all four Day 76 'in-play' senators (Tillis, Hawley, Young, Curtis) voted NO. Fetterman (D-PA) voted with Republicans — his cross-party vote produced the 49-50 margin. Without Fetterman, resolution would have passed 50-49. Fetterman is now the operative stabilizing variable for Trump, not Republican cohesion. 8th vote not yet scheduled. This structurally revises the Day 76 mechanism: passage path is through Fetterman returning to Democratic caucus position (likely under base pressure) or any one named Republican flipping (less likely after all four held once).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority — Stage 2 hysteresis interrupted; acts as Fork A constraint AND Israeli first-mover accelerant simultaneously",
+        "framework_variable": "Constitutional crisis probability; WPR passage mechanism; BS-15 WPR-as-forcing-function",
+        "direction": "mechanism revised — Fetterman is operative swing, not named-4 Republicans",
+        "gap_to_full_match": "Fetterman publicly signals return to Dem caucus position on WPR, or 8th vote scheduled with flip signal"
+      },
+      "variable_moved": {
+        "variable": "Constitutional crisis 30-day mechanism",
+        "prior_value": "60-70% (Day 76); passage mechanism: any one of Tillis/Hawley/Young/Curtis flips",
+        "new_value": "60-70% (held); mechanism revised: Fetterman is operative swing. Fetterman under significant base pressure as Democrat voting with Republicans on war powers. Tillis/Hawley/Young/Curtis path to flip harder after all four held once.",
+        "driver": "Day 76 7th-vote roll call multi-source confirmed: all four named GOP held; Fetterman voted no with Republicans"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "None. Roll-call data is multi-source H confidence."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Oman FM official website fm.gov.om — 5th round date announcement", "tier": 1},
+        {"name": "Times of Israel 5th round nuclear talks 'complicated'", "tier": 2},
+        {"name": "Wikipedia 2025-2026 Iran-US negotiations", "tier": 3}
+      ],
+      "finding": "Oman's Foreign Ministry officially announced the date for the next round of US-Iran talks: Rome, May 23. This interrupts the multi-cycle Meta-Negotiation Regression (Day 76 finding). Venue shift to Rome from Oman may indicate E3 involvement or a neutral technical setting. May 23 falls before the Hajj (~May 25) deadline, compressing the convergence window to 11 days: Trump-Xi communique (May 14-15) → 5th round Rome (May 23) → Hajj (May 25). Note: source may partially conflate with the 2025 pre-war 5th Rome round; treated as 2026 based on Oman FM search context and current-negotiation framing.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "5th Oman round scheduled with technical negotiators — Meta-Negotiation Regression interrupted; Fork D' trajectory revised",
+        "framework_variable": "Fork D' probability; Fork B operative pathway; focal-point structure",
+        "direction": "Fork D' down; Fork B up; focal-point structure compressed to 11-day window",
+        "gap_to_full_match": null
+      },
+      "variable_moved": {
+        "variable": "Fork D' 30-day probability; Meta-Negotiation Regression status; focal-point architecture",
+        "prior_value": "Fork D' 25-30% (Day 76); Meta-Negotiation Regression confirmed as default trajectory; 5th round unscheduled across two cycles",
+        "new_value": "Fork D' 20-25%; Meta-Negotiation Regression interrupted; Fork B 30-day compounding PROBE-6 finding: revised to 25-35%. Focal point compression: 11 days from summit to Hajj with 5th round between.",
+        "driver": "Oman FM official (tier-1) announcement of Rome May 23; date before Hajj deadline"
+      },
+      "discounts_applied": ["-10% confidence on 2026 attribution — possible partial conflation with 2025 pre-war 5th Rome round; Oman FM official source mitigates"],
+      "conflict_notes": "If Rome May 23 is the 2025 pre-war round resurfaced in search results, this finding is null and Meta-Negotiation Regression continues. Treat as provisional positive pending Day 78 confirmation."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap)",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "ISW Iran Update April 21 2026 — Vahidi-Ghalibaf disagreement on negotiations", "tier": 3},
+        {"name": "ISW Iran Update May 12 2026 — IRGC consolidating under Vahidi", "tier": 3},
+        {"name": "PROBE-6 Trump-Xi summit communique", "tier": 1}
+      ],
+      "finding": "No new Trump statement on Iran post-summit Day 1 content yet (summit ongoing). Structural revision required on Iranian-side PA-gap: ISW (April 21) documented Vahidi explicitly opposing negotiations while Ghalibaf favors — the Day 76 'Iran-side PA-gap closing' read was Ghalibaf-faction and mid-tier IRGC speech, not Vahidi apex endorsement. ISW (May 12) confirms Vahidi is winning the internal power competition. Iranian ratification requires Vahidi; Vahidi appears to oppose deal terms. The asymmetric PA-gap is therefore asymmetric in a different dimension than Day 76 modeled: US oscillates on terms; Iran is locked but the locked position at the apex is opposition (Vahidi), not support.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5 preconditions",
+        "framework_variable": "BS-12 Iranian-side PA-gap; Fork B durability via Iranian ratification",
+        "direction": "Iranian PA-gap larger at apex level; Day 76 'closing' requires revision",
+        "gap_to_full_match": "Vahidi direct named statement confirming or denying deal endorsement via tier-1/2 source"
+      },
+      "variable_moved": {
+        "variable": "Iranian-side PA-gap architecture",
+        "prior_value": "Day 76: PA-gap 'closing through public principal speech'; 50-60% visibility; Ghalibaf/Jafari/Hassanzadeh multi-vertex",
+        "new_value": "Revised: Ghalibaf-faction and Araghchi-agent = pro-deal track; Vahidi apex = anti-deal. Ratification requires Vahidi; Vahidi opposes. PA-gap is not closing at the apex that controls ratification. This is a structural revision to Day 76 Iranian-side PA-gap finding.",
+        "driver": "ISW April 21 'major disagreement'; ISW May 12 Vahidi-consolidation wins power competition; consistent with PROBE-2 partial finding"
+      },
+      "discounts_applied": ["-30% on ISW analytical claim (tier-3, not primary source); -50% on attributed Vahidi quote (see PROBE-2)"],
+      "conflict_notes": "Day 76 read was not wrong about Ghalibaf-faction multi-vertex speech; it was imprecise about which principal controls ratification. ISW designates Vahidi as apex decision-maker; his opposition (if confirmed) is the binding variable. This is the framework's most important structural revision this cycle."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "ISW / Critical Threats Evening Special May 12 2026", "tier": 3},
+        {"name": "EuroNews Iran preparing renewed war May 13 2026", "tier": 2},
+        {"name": "GlobalSecurity/PressTV Tehran IRGC drill May 12 2026", "tier": 3},
+        {"name": "Athens Times IRGC Tehran drills", "tier": 3}
+      ],
+      "finding": "IRGC Tehran 5-day drill codenamed 'Martyred Leader Imam Khamenei' confirmed: anti-helicopter warfare, urban combat readiness, rapid-response, Basij integration. ISW/EuroNews (May 12-13): Iran 'preparing for renewed conflict; military assets remain largely intact; significant missile stockpiles.' Mahshahr coastal drills ~100km from Kuwait's Bubiyan Island confirmed. Multi-source convergence sustains Slantchev feigning-weakness at H confidence. Per ISW, Iranian asset repositioning is making target visibility window finite for Israeli pre-emption planning — this is a structural compressor on Israeli strike timing.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source assessment of higher-than-estimated Iranian residual inventory: Slantchev feigning weakness re-confirmed",
+        "framework_variable": "BS-13 Iranian residual capability; Fork A intensity prior; Israeli pre-emption window timeline",
+        "direction": "up — capability confirmed intact; Israeli target window narrowing from asset repositioning",
+        "gap_to_full_match": "IC-tier (WaPo/NYT named-source) corroboration would upgrade to highest confidence"
+      },
+      "variable_moved": {
+        "variable": "BS-13 Iranian residual capability visibility; Israeli pre-emption target window",
+        "prior_value": "35-45% visibility (Day 76); Slantchev feigning-weakness H confirmed",
+        "new_value": "40-50% visibility; H confidence sustained multi-cycle. Israeli target window narrowing per ISW asset repositioning — compresses Israeli decision timeline (must act sooner if repositioning continues).",
+        "driver": "Multi-source convergence ISW/EuroNews/Critical Threats; 5-day Tehran drill scope; coastal Mahshahr drills"
+      },
+      "discounts_applied": ["-20% for tier-3 dominance in source stack; no IC-level primary confirmation"],
+      "conflict_notes": "None. Multiple analytical sources converge on both capability and repositioning signals."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNN US intelligence Israeli preparations", "tier": 2},
+        {"name": "White House readout Trump-Xi May 14 2026", "tier": 1},
+        {"name": "Times of Israel Netanyahu alarm at Trump deal", "tier": 2},
+        {"name": "ISW Iran consolidation Vahidi May 12 2026", "tier": 3}
+      ],
+      "finding": "Three-vertex asymmetry sharpens post-summit. Israeli dispositional reading: US intel on operational preparations signals Israeli decision-makers are reading Trump-Xi deal-direction as closing window for unilateral action (Powell shifting-power); alarm escalating to operational preparation. Iranian dispositional reading: IRGC drill named 'Martyred Leader Imam Khamenei' + Vahidi opposition to negotiations = maximum dispositional framing stable. US dispositional reading: Trump summit position appears deal-leaning (Xi delivered substantive commitment-device; no contradictory Trump statement yet); A1 oscillation means 48h window applies post-summit. If Trump holds deal-preference post-summit, Israeli pre-emption incentive rises sharply — the more credible Fork B becomes, the more urgently Israel must pre-empt it.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Israeli pre-emption signal escalation beyond current alarm baseline: BS-15 Israeli first-mover threshold approaches",
+        "framework_variable": "BS-14 dispositional asymmetry; BS-15 Israeli first-mover threshold; Fork B spoiler risk",
+        "direction": "Israeli pre-emption incentive rising as Trump deal-leans; three-vertex asymmetry sharpening",
+        "gap_to_full_match": "Israeli official statement, or confirmed operational movement beyond preparation"
+      },
+      "variable_moved": {
+        "variable": "Israeli pre-emption incentive; Fork B existential spoiler risk",
+        "prior_value": "Day 76: pre-emption against Trump deal as dominant spoiler mechanism; 22-32%; alarm-level signal",
+        "new_value": "28-38% elevated spoiler risk; PROBE-15 and PROBE-9 compounding; Powell mechanism now operative: Trump post-summit deal-lean directly activates Israeli closing-window logic. Fork B strengthening (PROBE-6, PROBE-12') and Israeli spoiler risk rising are not contradictory — they are the framework's race condition.",
+        "driver": "Xi summit communique confirms Trump deal-lean; US intel on Israeli operational preparations; Knesset dissolution compresses Netanyahu decision window"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The PROBE-6 (Xi delivery strengthens Fork B) and PROBE-15 (Israeli pre-emption incentive rising) findings are structurally coupled, not contradictory: the more credible Fork B becomes, the stronger the Israeli Powell-mechanism pressure to pre-empt before it closes."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "composite: PROBE-2, PROBE-6, PROBE-9, PROBE-10, PROBE-12', PROBE-13, PROBE-14, PROBE-15", "tier": 2}
+      ],
+      "finding": "Joint threshold distribution revised since Day 76. (1) Iranian coalition rupture: no signal; Vahidi-Ghalibaf split is new structural visibility, not rupture. (2) Trump A1-binding decision: summit direction deal-leaning; 48h window applies; post-summit Trump statement is the key test. (3) Israeli operational graduation: moved from alarm to readying — most materially changed threshold this cycle; US intel on air munitions movements and exercise completion. (4) WPR-as-forcing-function: Fetterman is operative swing (all 4 named GOP held); 8th vote not scheduled. (5) Strangulation transmission: no new signal. Net: Israeli first-mover threshold is the most advanced. Race condition: Fork B window (summit → 5th round Rome May 23 → Hajj May 25, 11 days) vs Israeli preparation window (operational readying per US intel, potentially days-to-weeks). Framework cannot determine which fires first within 11-day window.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds shifting in parallel: cascade risk; Fork C miscalculation probability up",
+        "framework_variable": "BS-15 joint first-mover distribution; dominant fork convergence",
+        "direction": "Israeli threshold most advanced and accelerating; Fork B window opening simultaneously — race condition",
+        "gap_to_full_match": "Single first-mover threshold breach converts three co-equal forks to dominant single fork"
+      },
+      "variable_moved": {
+        "variable": "BS-15 first-mover joint distribution; Fork resolution dominant path",
+        "prior_value": "Day 76: Israeli threshold most advanced; WPR threshold at one-defection distance; Iranian rupture threshold distant; three co-equal forks",
+        "new_value": "Israeli threshold further advanced (US intel operational preparation); WPR mechanism revised (Fetterman operative swing); Iranian apex PA-gap larger than modeled (Vahidi opposes); Fork B window simultaneously opened by Xi delivery + 5th round. Race condition in 11-day window is the operative analytical object.",
+        "driver": "Compound of all Day 77 probe findings"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The dominant analytical tension this cycle: Fork B mechanism materially strengthened (PROBE-6 + PROBE-12') while Israeli spoiler mechanism simultaneously hardened (PROBE-9 + PROBE-15). Both are real and operating in the same 11-day window. The framework surfaces the race condition; it cannot resolve which fires first."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": "skipped — bi-weekly, ran Day 74; weaponized opacity holds, Day 77 = 79 days absence"},
+      {"probe_id": "PROBE-2", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Vahidi-Ghalibaf structural split visible; Iranian PA-gap larger at apex than Day 76 modeled"},
+      {"probe_id": "PROBE-3", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": "skipped — monthly, structurally opaque; 9th consecutive gap cycle"},
+      {"probe_id": "PROBE-4", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": "retired (active vector, dormant)"},
+      {"probe_id": "PROBE-6", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Fork B-via-summit 15-25% → 30-40%; Xi delivered substantive joint statement; Bessent behind-the-scenes pressure; pre-demotion confirmed Slantchev-inverse"},
+      {"probe_id": "PROBE-7", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": "Eisenhower no deployment order; War Zone two-carrier count may signal Ford rotation; no ROE change"},
+      {"probe_id": "PROBE-8", "status": "fired", "confidence": "H", "trigger_fired": false, "variable_moved": "Brent $107.82 on summit day — mild deal-pricing; no band breakout; export stall physical tightness; unverified ship seizure flagged"},
+      {"probe_id": "PROBE-9", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Israeli unilateral 22-32% → 28-38%; operational preparation confirmed by US intel; Knesset dissolution election ≤mid-Oct"},
+      {"probe_id": "PROBE-10", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Constitutional crisis 60-70% held; mechanism revised: Fetterman is operative swing, not 4 named GOP"},
+      {"probe_id": "PROBE-11", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": "skipped — bi-weekly, null Day 74; Russia path ≤5% unchanged"},
+      {"probe_id": "PROBE-12'", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "5th round Rome May 23 official (provisional); Meta-Negotiation Regression interrupted; Fork D' 25-30% → 20-25%"},
+      {"probe_id": "PROBE-13", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Iranian PA-gap revised larger at apex (Vahidi opposes deal); Day 76 'closing' read imprecise at ratification level"},
+      {"probe_id": "PROBE-14", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "BS-13 visibility 35-45% → 40-50%; Slantchev feigning-weakness H multi-cycle; Israeli target window narrowing from repositioning"},
+      {"probe_id": "PROBE-15", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Three-vertex asymmetry sharpening; Israeli pre-emption incentive rising as Trump deal-leans; Powell mechanism operative"},
+      {"probe_id": "PROBE-16", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Israeli first-mover threshold most advanced; 11-day race condition: Fork B window (summit → May 23 → Hajj) vs Israeli preparation window"}
+    ],
+    "fired_count": 8,
+    "partial_count": 2,
+    "null_count": 1,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "Trump-Xi summit communique Iran-specific content — Chinese commitment-device endorsement confirmed",
+      "source_probe": "PROBE-6",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§8.1 Probability Matrix; §8.5 Fork B path; §5.8 Mediator Exhaustion",
+        "edit": "Fork B 30-day: 18-26% (Day 76) → 25-35%. Fork D' 30-day: 25-30% → 20-25%. Fork B-via-summit recovery channel: 15-25% (Day 76 demoted) → 30-40%. Xi delivered substantive joint statement: Hormuz must remain open; Iran never nukes; no military equipment; offered to help make deal; Bessent confirms behind-the-scenes Chinese pressure. §5.8: Beijing re-elevated to co-primary mediator with Pakistan-Oman dyad. §9.3: Xi anti-toll language directly targets Hormuz-toll-regime hysteresis variable — Chinese pressure now operationalized against that lock-in."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "5th round scheduled with technical negotiators — Meta-Negotiation Regression interrupted; Fork D' trajectory revised",
+      "source_probe": "PROBE-12'",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§6.4 Schelling Focal Points; §8.5 Fork D' path; BS-11 MOU Architecture",
+        "edit": "5th round officially scheduled: Rome, May 23 (Oman FM tier-1; provisional — confirm Day 78). Focal point structure: Trump-Xi communique (May 14-15) → 5th round Rome (May 23) → Hajj (May 25) = three compression points in 11 days. Fork D' reduced from 25-30% to 20-25%. BS-11: from multi-cycle meta-deferral as default to active-but-contested. Combined with PROBE-6, Fork B 30-day revised to 25-35%. Flag: May 23 provisional — if source conflates 2025 Rome round, Meta-Negotiation Regression status reverts."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Israeli pre-emption signal hardens beyond current alarm baseline",
+      "source_probe": "PROBE-9",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§8.1 Israeli unilateral probability; §8.5 Israeli unilateral forking path; BS-3; BS-14; BS-15",
+        "edit": "Israeli unilateral strike (14-21d): 22-32% (Day 76) → 28-38%. Signal moved from diplomatic alarm to operational preparation (US intel on air munitions movements, completed air exercise, intercepted communications). Knesset dissolution election ≤mid-October compresses Netanyahu decision window. Per Powell shifting-power: the more credible Fork B becomes post-summit, the stronger Israeli incentive to pre-empt before deal closes. Race condition: 11-day Fork B window vs days-to-weeks Israeli preparation window. This is the framework's dominant collapse risk this cycle."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Iranian residual capability — Slantchev feigning weakness multi-source confirmed; Israeli target window narrowing",
+      "source_probe": "PROBE-14",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§3.1 Layer 1 Military Physics; BS-13",
+        "edit": "Fork A intensity prior revised up: multi-source confirmation (ISW, EuroNews, Critical Threats) that Iranian assets 'largely intact; significant missile stockpiles.' IRGC drill scope (Tehran + Mahshahr coastal) confirms operational readiness. Israeli target window narrowing per ISW asset repositioning — Israeli pre-emption planning has finite window before repositioning makes strike harder. BS-13 visibility: 35-45% → 40-50%."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "WPR vote mechanism revised — Fetterman as operative swing variable",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-5 US Domestic; §5.3 Constitutional Corrosion; §8.1 Constitutional crisis probability",
+        "edit": "WPR passage mechanism revised: Day 76 named Tillis/Hawley/Young/Curtis as in-play defectors; Day 76 7th-vote roll call shows all four held. Fetterman (D-PA) voted no with Republicans — his cross-party vote produced the 49-50 margin. Without Fetterman: 50-49 FOR the resolution. Fetterman is the operative stabilizing variable for Trump, not Republican cohesion. Constitutional crisis 30-day probability held at 60-70%; mechanism updated. Next WPR passage: Fetterman returns to Dem caucus, or any one Republican flips. Fetterman under significant base pressure — arguably easier path to passage than prior Republican-defection model."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Iranian-side PA-gap revised larger — Vahidi apex opposes deal; Day 76 'closing' imprecise",
+      "source_probe": "PROBE-13",
+      "confidence": "L",
+      "proposed_revision": {
+        "section": "§3.5 Layer 5 Principal-Agent Ratification; BS-12; §10 Conclusions",
+        "edit": "Day 76 'Iran-side PA-gap closing through public principal speech' requires revision at apex level. Ghalibaf-faction (X post) and Araghchi-agent are pro-deal track; Vahidi (ISW-confirmed apex principal, 'current decision maker') per ISW April 21 explicitly opposed to negotiations. Vahidi is winning the internal power competition (ISW May 12). Fork B ratification requires Vahidi; Vahidi appears to oppose. The asymmetric PA-gap is therefore: US oscillates on terms (volatile, no audience cost lock-in); Iran's Ghalibaf-Araghchi track supports deal but Vahidi apex does not — ratification gap is Vahidi-shaped. Provisional pending Vahidi confirmed direct statement (L confidence single-source; see PROBE-2)."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+  "gap_log": []
+}
