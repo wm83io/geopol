@@ -38,8 +38,12 @@ Priority sources:
 - CENTCOM operational announcements
 - Iranian government statements (Araghchi, Ghalibaf, Vahidi, Pezeshkian)
 - Oil tape (Brent, WTI, backwardation curve)
-- War Powers / congressional developments
+- War Powers / congressional developments (Lawfare, Vladeck/One First for constitutional track)
 - ISW, ICG/Vaez, HCR Letters from an American (daily)
+- Haaretz/Harel (Israeli operational and IDF institutional signals)
+- Meduza (Russian internal — BS-9 siloviki dynamics)
+- Iran Wire (Iranian civil society and economic-pressure transmission — BS-1b)
+- Sinocism/Bishop (Chinese policy signals — 24-48h ahead of international press)
 - logicofwar.com, mind-war.com, foreignaffairs.com, foreignpolicy.com for structural framing
 
 ---
