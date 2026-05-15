@@ -49,15 +49,18 @@ Kremlin readouts, Treasury/OFAC, court filings.
 specialist reporting.
 
 **Tier 3 (analytical):** ISW, ICG/Vaez, Foreign Affairs, Foreign Policy, Chatham House, CSIS, Lawfare, HCR,
-Anders Puck Nielsen.
+Anders Puck Nielsen, Sinocism (Bishop — Chinese signals), The War Zone (defense operational).
 
-**Tier 4 (specialist data):** Kpler/Vortexa (tanker tracking), USNI News (fleet), Bonbast (rial parallel rate),
-ACLED (incidents), Polymarket (prediction markets), CISA advisories.
+**Tier 4 (specialist data):** Kpler/Vortexa (tanker tracking), S&P Global/Platts (oil-flow and Hormuz throughput),
+USNI News (fleet), Bonbast (rial parallel rate), ACLED (incidents), Polymarket (prediction markets), CISA advisories.
 
 **Iranian internal:** Iran International, IranWire, Radio Farda, BBC Persian, Al-Monitor Iran desk,
 Tasnim (read against the grain).
 
 **Israeli internal:** Haaretz, Times of Israel, Channel 12, Jerusalem Post.
+
+**Russian internal:** Meduza (siloviki dynamics, BS-9 primary), iStories/OCCRP (security-service investigative),
+The Insider (GRU attribution).
 
 ### Step 3 — Apply discount rules
 
