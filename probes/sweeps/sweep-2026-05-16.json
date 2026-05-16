@@ -1,0 +1,292 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-16",
+    "day_number": 79,
+    "framework_version": "v3.1",
+    "probes_run": ["PROBE-2", "PROBE-7", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-16"],
+    "probes_skipped": {
+      "PROBE-1": "bi-weekly; no trigger signal; Mojtaba status unchanged from Day 77 baseline",
+      "PROBE-3": "monthly cadence; 10th consecutive gap cycle; structural opacity confirmed",
+      "PROBE-6": "weekly; ran Day 78 (summit close); summit now concluded; return to weekly cadence; 48h window tracked via PROBE-13",
+      "PROBE-8": "weekly; ran Day 78; no significant oil-market signal expected intraday; no breakout",
+      "PROBE-11": "bi-weekly; no new Putin-Trump readout; Russia settlement window unchanged",
+      "PROBE-15": "weekly; null Day 78; no new dispositional trigger signal surfaced",
+      "PROBE-17": "bi-weekly; ran Day 78; no new sub-probe trigger fires",
+      "PROBE-18": "monthly cadence; no Tier-1 or Tier-2 eschatological trigger event detected",
+      "PROBE-19": "quarterly cadence; no Tier-1 Christian Zionist policy signal"
+    },
+    "synthesis_anchor": "synthesis/synthesis-v3-1.md",
+    "notes": "Day 79 priority scope: (1) Trump 48h post-summit window close — the Day 77 deal-direction durability test expires today (May 16); (2) Vahidi targeting Tier-2 corroboration — Day 78 carry; (3) USS George Washington destination — Day 78 open flag; (4) Knesset dissolution advancement; (5) Iranian capability confirmation. Daily-cadence probes (PROBE-10, PROBE-12', PROBE-13) run per cadence. Weekly probes due since last run: PROBE-9, PROBE-14. PROBE-16 composite synthesizes all outputs."
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "cycle": "2026-05-16",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN Politics — 'US military developing plans to target Iran's Strait of Hormuz defenses if ceasefire fails' April 23 2026", "tier": 2},
+        {"name": "OSINTtechnical on X — citing CNN: 'US military planners developing options to strike Iranian military leaders and other obstructionists... Ahmad Vahidi on the list'", "tier": 3},
+        {"name": "A_M_R_M1 on X — citing CNN: 'US considering targeting IRGC commander Ahmad Vahidi; plans include targeting military leaders obstructing negotiations'", "tier": 3},
+        {"name": "Fox News — 'IRGC commander Ahmad Vahidi may decide Iran ceasefire, analysts say'", "tier": 3},
+        {"name": "Critical Threats on X — 'Vahidi appears willing to risk US military response; prepared to resume war if needed; holds most influential position'", "tier": 3},
+        {"name": "Al Jazeera — 'Who is Ahmad Vahidi, the IRGC new commander?' March 6 2026", "tier": 2}
+      ],
+      "finding": "CNN (April 23, Tier 2) reported US military developing options including targeting individual Iranian military leaders and 'obstructionists' undermining negotiations; Ahmad Vahidi specifically named on the list. This upgrades the Day 78 T4-only (thedefensenews.com) finding to CNN Tier-2 corroborated. The CNN report appears within the April 23 article on US military plans against Hormuz defenses if ceasefire fails, corroborated by OSINTtechnical and A_M_R_M1 X accounts citing CNN directly. No Vahidi direct named statement on MOU, 5 preconditions, or Xi-framed arrangement confirmed Day 79. Fox News and analyst framing: Vahidi 'deciding whether Tehran resumes fighting or continues talks'; 'even more influential than Ghalibaf'; 'primary person meeting with Iran's new supreme leader.' Vahidi appears willing to risk a US military response to assert Iranian Strait control per Critical Threats. No Aliabadi signal. No Aerospace Force vs Quds Force divergence signal.",
+      "trigger_match": "partial",
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5 preconditions (Appendix B full trigger, not yet fired); Day 78 trigger digest: Tier-2 corroboration of targeting consideration required before synthesis revision",
+        "framework_variable": "Fork A entry mechanisms; BS-1a Iranian-side ratification; BS-12 PA-gap",
+        "direction": "up — Vahidi targeting CNN-corroborated; new PA-gap-elimination-by-force pathway now Tier-2 confirmed; Vahidi ratification-veto entrenchment further confirmed across multiple analytical sources",
+        "gap_to_full_match": "Vahidi direct named statement via Tier-2 source (full BS-1a trigger). Targeting consideration is now T2-confirmed but operational status (under consideration vs ordered) still unclear."
+      },
+      "variable_moved": {
+        "variable": "Fork A entry mechanisms; Vahidi-targeting confidence; PA-gap architecture",
+        "prior_value": "Day 78: T4-only (thedefensenews.com); Vahidi targeting 'unconfirmed pending Tier-2 corroboration'; probability matrix not revised",
+        "new_value": "Day 79: CNN (T2) corroborated via OSINTtechnical/A_M_R_M1 citing CNN April 23 article. New Fork A entry mechanism now Tier-2 confirmed: PA-gap-elimination-by-force (Vahidi decapitation would simultaneously resolve Iranian ratification gap AND constitute kinetic resumption). Per Day 78 trigger digest: probability matrix revision warranted — Variant A/B probability increment +3-5pp; new mechanism note required in §5 and §8.",
+        "driver": "CNN April 23 article (US military plans targeting Hormuz defenses + individual Iranian military leaders/obstructionists) — OSINTtechnical and A_M_R_M1 citing CNN confirm Vahidi by name"
+      },
+      "discounts_applied": ["-50% on operational status (under consideration vs ordered; CNN confirms planning option, not execution order)"],
+      "conflict_notes": "Fox News analyst framing (Vahidi 'may decide' ceasefire) consistent with ISW 'current decision maker' baseline. No source conflict. CNN (T2) report predates Day 78 T4 thedefensenews.com report; the T4 aggregated the CNN finding without citation clarity, producing the Day 78 single-source discount."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "cycle": "2026-05-16",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "The War Zone — 'Where Are The Carriers As Of May 11, 2026: 20 Warships Including Two Carriers Enforce Iran Blockade' May 11 2026", "tier": 3},
+        {"name": "19FortyFive — 'USS Harry S. Truman Out of Action for 5 Years' March 2026", "tier": 3},
+        {"name": "Kurdistan24 — 'USS George H.W. Bush CSG to deploy to CENTCOM Region' — sourced", "tier": 3}
+      ],
+      "finding": "USS George Washington CSG: WESTPAC confirmed. War Zone May 11 confirms GW departed Yokosuka May 10 and is conducting training operations in the Philippine Sea (field carrier landing practice near Iwo Jima). Not CENTCOM-bound. Day 78 open flag closed. CENTCOM carrier posture discrepancy: War Zone May 11 explicitly states 'two carriers enforce Iran blockade' (USS Abraham Lincoln + USS George H.W. Bush). This contradicts the synthesis v3.1 Day 77 baseline of 'THREE carrier strike groups in CENTCOM AOR since April 23 (Lincoln, Bush, CSG-10).' Truman (CSG-10): Departed Norfolk March 31 2026 for CENTCOM deployment; beginning Refueling and Complex Overhaul (RCOH) in June 2026. Truman may have departed the CENTCOM blockade zone by May 11 — either en route home for RCOH or in a different CENTCOM sub-theater. TWO-CSG blockade posture (Lincoln, Bush) appears operative as of May 11. No Eisenhower deployment order. No ROE change. No Dark Eagle or DOE/SOF forward deployment signal.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "USS Eisenhower deployment ORDER (not fired); force posture change (discrepancy flagged)",
+        "framework_variable": "CENTCOM force posture; kinetic capacity signal",
+        "direction": "potential down — two-CSG posture vs three-CSG baseline if Truman departed blockade zone",
+        "gap_to_full_match": "USNI News Fleet and Marine Tracker May 11+ confirmation of Truman location (USNI paywalled; 403 on fetch). War Zone is authoritative source but single-source on two-carrier count; full confirmation requires USNI or CENTCOM press release."
+      },
+      "variable_moved": {
+        "variable": "CENTCOM carrier posture; USS George Washington destination",
+        "prior_value": "Day 78: THREE CSGs in AOR (Lincoln, Bush, CSG-10); GW departure Yokosuka flagged as potential 4th CSG (unconfirmed destination)",
+        "new_value": "Day 79: GW = WESTPAC training (Day 78 open flag resolved). TWO-CSG blockade posture likely operative as of May 11 (Lincoln, Bush). Truman (CSG-10) probable departure from blockade zone for RCOH preparation. Synthesis v3.1 three-CSG baseline requires verification against USNI tracker. If Truman has departed: CENTCOM posture corrected to two-CSG; Eisenhower non-deployment retains restraint-signal value at equal or higher weight than in three-CSG baseline.",
+        "driver": "War Zone May 11 authoritative fleet tracker; GW Wikipedia and WESTPAC reporting"
+      },
+      "discounts_applied": ["-25% on two-CSG posture (War Zone is authoritative but USNI paywalled for cross-check; single-source confirmation)"],
+      "conflict_notes": "Day 78 synthesis baseline says three CSGs; War Zone May 11 says two carriers in blockade. No direct conflict — Truman may still be in CENTCOM AOR but no longer in the Hormuz blockade force (e.g., positioned elsewhere in CENTCOM). Discrepancy warrants next audit flag rather than immediate synthesis revision."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "cycle": "2026-05-16",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Times of Israel — liveblog coverage May 12-15 2026", "tier": 2},
+        {"name": "Israel Hayom — IDF Chief Zamir: 'on high alert to return to intense and broad campaign' May 6 2026", "tier": 3},
+        {"name": "Haaretz — 'Coalition parties move to dissolve Knesset' May 13 2026", "tier": 2},
+        {"name": "Washington Post — 'Netanyahu coalition takes first step toward new elections' May 13 2026", "tier": 2},
+        {"name": "Cryptobriefing — Knesset dissolution vote looms", "tier": 4}
+      ],
+      "finding": "Knesset dissolution advancing on schedule. Coalition dissolution bill filed May 13; four plenum votes required (preliminary + three readings); preliminary vote expected week of May 18; ultra-Orthodox support confirmed (Degel HaTorah spiritual leader Dov Lando called on members to support dissolution after Netanyahu lacked votes for Haredi draft exemption bill). Election calendar locked to late August–October 27 upon passage. No new Netanyahu-Trump contact documented May 15-16. NEW sub-finding (Day 79): IDF Chief Zamir May 6 statement (Israel Hayom, T3): 'on high alert to return to an intense and broad campaign that will allow us to deepen our achievements and further weaken the Iranian regime'; IDF has 'a further series of targets ready for attack.' This is a harder posture than the mid-April 'every goal achieved' statement in the synthesis v3.1 baseline — indicating operational readiness has been explicitly upgraded to a forward-looking campaign posture, not a retrospective achievement frame. Gaza-track: Israel struck Hamas-affiliated target Haddad May 15 (ToI liveblog headline; 'undermining Trump's Gaza plan' framing) — Gaza-track strike, not Iran nuclear facility. Day 77 US intelligence operational-readying baseline (air munitions movements, completed exercise, intercepted communications) holds without escalation or deescalation at Day 79.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Knesset dissolution bill passes (preliminary vote not yet occurred); Israeli pre-emption signal escalation beyond current alarm baseline",
+        "framework_variable": "BS-3 Israeli pre-emption window; BS-15 Israeli first-mover threshold",
+        "direction": "up — IDF chief language escalated to forward-looking campaign posture; dissolution advancing on schedule",
+        "gap_to_full_match": "Preliminary Knesset dissolution vote (week of May 18) passes = trigger fires. IDF operational signal hardening beyond current alarm baseline requires additional US intelligence or IDF source."
+      },
+      "variable_moved": {
+        "variable": "IDF posture framing; Knesset dissolution timeline",
+        "prior_value": "Day 78: dissolution preliminary vote 'week of May 18'; ultra-Orthodox support confirmed; Day 77 US intelligence 'has gone up significantly' baseline held",
+        "new_value": "Day 79: dissolution advancing (Day 78 baseline unchanged). IDF chief language harder: 'on high alert to return to an intense and broad campaign' (May 6) vs. synthesis mid-April 'every goal achieved' retrospective frame. Framework implication: IDF command has shifted from after-action to forward-preparation framing. This is consistent with Day 77 US intelligence operational readying but adds a named IDF source framing. No change to Israeli unilateral pre-emption probability (28-38% within 14-21d) — this reinforces rather than moves the estimate.",
+        "driver": "Israel Hayom reporting Zamir May 6 visit to southern Lebanon; ToI dissolution liveblog"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Zamir May 6 'on high alert' (forward-campaign framing) vs Zamir mid-April 'every goal achieved' (retrospective framing) — not contradictory; represent two moments in the same commander's evolution of posture. Senior IDF official 'diplomatic removal acceptable' (Day 77) remains the operative IDF-coalition asymmetry; it has not been retracted by Zamir's stronger language."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "cycle": "2026-05-16",
+      "status": "null",
+      "confidence": "H",
+      "sources": [
+        {"name": "The Hill — '3 GOP senators break with leadership' May 14 2026", "tier": 2},
+        {"name": "Time — '3 Republicans join Democrats in closest vote yet' May 14 2026", "tier": 2},
+        {"name": "Al Jazeera — 'Three Republicans break ranks but Senate fails to curb Trump war powers' May 13 2026", "tier": 2}
+      ],
+      "finding": "No new WPR vote Day 79. 7th vote baseline (49-50 against; Fetterman decisive; Murkowski, Collins, Paul in yes coalition) confirmed across multiple Tier-2 sources — consistent with Day 78 fired-H finding. No 8th vote scheduled as of May 16. No new Republican defection signal. Stage 2 hysteresis accumulating: 'hostilities terminated' precedent; Day 60 WPA deadline (May 1) passed without judicial challenge. Rand Paul libertarian-non-interventionist bloc confirmed; structurally distinct from Collins/Murkowski institutionalist bloc. No SCOTUS WPA standing case. No federal court WPA challenge accepted.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Day 78 fired finding holds without new development. Probe null this cycle."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "cycle": "2026-05-16",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Axios — 'US, Iran closing in on one-page memo to end war' May 6 2026", "tier": 2},
+        {"name": "CNN Politics — 'US and Iran closing in on agreement aimed at ending war' May 6 2026", "tier": 2},
+        {"name": "Times of Israel — 'US, Iran said closing in on framework for permanent deal' date unclear (403 forbidden)", "tier": 2},
+        {"name": "Wikipedia — 2025-2026 Iran-United States negotiations (timeline ends mid-April 2026 for ceasefire article)", "tier": 4}
+      ],
+      "finding": "No new post-war US-Iran round scheduled as of Day 79. No Witkoff, Kushner, or Araghchi May 16 statement found. No new Oman FM announcement of a 2026 post-war round. The Axios (May 6) and CNN (May 6) 'closing in' reporting is from Day 69 — the same window that produced the sunset-clause successor framework now in the synthesis. No sunset clause text confirmation in negotiating draft. No default-if-collapsed clause language surfaced. No resumed-operations triggers (Eisenhower deployment, new operation name, offensive ROE). Meta-Negotiation Regression is confirmed as operative default. Hajj (~May 24-29) is the next focal-point forcing function. Day 78 PROBE-12' correction (Rome 2026 unconfirmed) stands.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "5th Oman round scheduled with technical negotiators; sunset clause text confirmed in negotiating draft",
+        "framework_variable": "Meta-Negotiation Regression interruption; Fork B vs Fork D' direction",
+        "direction": "no change — Meta-Regression operative; focal-point window summit (closed) + Hajj",
+        "gap_to_full_match": "Oman FM or State Dept announcement of a new post-war round; or Araghchi/Witkoff naming a date and location for 2026 post-war talks"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Axios/CNN May 6 'closing in' reporting is real but predates the Day 70 PM Iranian counter-maximalism, Day 73 Netanyahu-Trump dismantlement reset, and Day 78 Rome misfire. Those reports described the pre-MOU-collapse optimism. The Day 78 correction (Meta-Regression operative) is consistent with the Day 69-77 trajectory."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "cycle": "2026-05-16",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CBS News — Trump post-summit: 'fantastic trade deals' with China May 15 2026", "tier": 2},
+        {"name": "NBC News live blog — summit ended 'cordial note but no breakthroughs' May 15 2026", "tier": 2},
+        {"name": "Times of Israel — no Netanyahu-Trump contact documented May 15-16 2026", "tier": 2},
+        {"name": "CNN Politics — Vahidi targeting consideration (US military/intelligence officials) April 23 2026", "tier": 2},
+        {"name": "MSNBC/Maddow — 'Trump leaves China empty-handed, no better off than before' May 15 2026", "tier": 3}
+      ],
+      "finding": "Trump 48h post-summit window CLOSED (May 16 = Day 2). No documented Netanyahu-Trump contact May 14-16. This is the most significant Day 79 PA-gap finding: the 48h window has closed without a Netanyahu rebroadcast. Last documented Netanyahu-Trump contact: May 10 (Sunday, pre-summit). Gap since May 10 = 6 days without documented principal-access channel reset. This is the longest documented gap in the Netanyahu Principal-Penetration mechanism since Day 74 established the pattern. Under Appendix B trigger logic: 'Trump statement holding direction beyond 48h without Netanyahu rebroadcast → Netanyahu Principal-Penetration weakening; Fork B durability ↑.' Window has now closed. Trump post-summit framing (May 15): 'fantastic trade deals' with China; focus on energy, Boeing orders, not Iran settlement. Deal-direction cooling from Xi-delivery peak (May 14 'That's a big statement') toward business framing. Not a reversal; not a deepening. Vahidi targeting: CNN (T2) confirmed (see PROBE-2). If targeting ordered (currently planning option only): PA-gap elimination by force rather than negotiation — new Fork A entry mechanism. No Vahidi direct statement on MOU/5 preconditions. Iran-side ratification gap (Vahidi apex anti-deal) unchanged.",
+      "trigger_match": "partial",
+      "trigger_detail": {
+        "appendix_b_row": "Trump statement holding direction beyond 48h without Netanyahu rebroadcast — Netanyahu Principal-Penetration weakening; Fork B durability ↑",
+        "framework_variable": "BS-12 asymmetric PA-gap; Trump 48h decay window; Fork B durability",
+        "direction": "up (Fork B durability) — 48h window closed without Netanyahu reset; Penetration mechanism has not activated since May 10 (6-day gap); Trump deal-direction cooling but not reversed",
+        "gap_to_full_match": "Trump explicit Iran-specific deal-direction statement in post-summit period (vs trade-framing). Current state: direction held by absence of reversal, not by positive signal. Vahidi targeting: operational order rather than planning consideration."
+      },
+      "variable_moved": {
+        "variable": "Netanyahu Principal-Penetration decay status; Fork B durability; Fork A entry mechanisms",
+        "prior_value": "Day 78: 48h window Day 1 held; no Netanyahu contact; Trump deal-leaning from Fox/Hannity 'That's a big statement'",
+        "new_value": "Day 79: 48h window CLOSED without Netanyahu rebroadcast. Six-day gap since last documented Netanyahu-Trump contact (May 10). Netanyahu Principal-Penetration mechanism has not reset. Trump post-summit framing: trade/energy dominant; Iran-specific urgency cooling. Penetration mechanism weakening on evidence (6-day gap); Fork B durability marginally improved by absence of hardline reset. Vahidi targeting CNN-confirmed: new Fork A entry mechanism (PA-gap-elimination-by-force) now T2-substantiated.",
+        "driver": "CBS/NBC summit close coverage; ToI tracking absence of Netanyahu contact; CNN April 23 Vahidi targeting confirmation"
+      },
+      "discounts_applied": ["-50% on Vahidi targeting operational status (planning vs ordered)"],
+      "conflict_notes": "MSNBC 'empty-handed' frame vs CBS 'fantastic trade deals' frame — not contradictory; MSNBC is scoring against geopolitical expectations (no Iran breakthrough); CBS is scoring the trade wins (which are real). Iran track: both consistent — no new Iran-specific agreement. The absence of Netanyahu contact is not confirmed as 'absence of all contact'; it reflects absence of documented contact in reporting. Undocumented contact remains possible."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "cycle": "2026-05-16",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Semafor — 'Iran reportedly maintains access to missile sites along Hormuz' May 13 2026", "tier": 2},
+        {"name": "Times of Israel liveblog — 'Iran said to retain access to 30 missile sites along the Strait of Hormuz'", "tier": 2},
+        {"name": "GlobalSecurity — IRGC repositioning launcher systems beyond effective range of US Precision Strike Missiles", "tier": 3},
+        {"name": "IranWarLive — Hormuz live status", "tier": 4}
+      ],
+      "finding": "No new Day 79 Iranian capability signal. Day 78 baseline holds: 30 of 33 Hormuz missile sites operational per NYT (Tier 2; -50% discount on US official attribution); now multi-source corroborated by Semafor (T2) May 13 and ToI liveblog entry. Slantchev feigning-weakness confirmed at H across multi-source multi-cycle convergence. New sub-finding (Day 79): IRGC repositioning launcher systems beyond effective range of US Precision Strike Missiles (PSMs) — this deepens the PROBE-14 picture. If Iranian launchers are repositioning beyond PSM range, Israeli and US strike planning faces an extending reach problem: capability reconstitution + range extension = Israeli targeting window under increasing time pressure. No Houthi mass-launch event. No Hezbollah missile readiness signal. No cyber Stage 3 indicator. Two-track Hormuz equilibrium holds.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source IC assessment of higher-than-estimated Iranian residual inventory; Iranian asset-repositioning accelerates",
+        "framework_variable": "BS-13 Iranian residual capability; Israeli first-mover threshold (BS-15)",
+        "direction": "up (stable from Day 78 baseline; sub-finding deepens picture) — launcher repositioning beyond PSM range adds new targeting-complexity layer",
+        "gap_to_full_match": "Named-source IC assessment of specific inventory numbers beyond 30/33 Hormuz sites. Confirmed Houthi mass-launch would demonstrate proxy capability preservation."
+      },
+      "variable_moved": {
+        "variable": "Iranian residual capability confidence; Israeli targeting-window compression",
+        "prior_value": "Day 78: 30/33 missile sites operational (NYT, Tier 2 -50%); Slantchev feigning-weakness H multi-cycle",
+        "new_value": "Day 79: 30/33 sites now multi-source corroborated (Semafor T2, ToI T2). Sub-finding: IRGC repositioning launchers beyond US PSM range — extends the reach problem for Israeli pre-emption planning; reinforces BS-15 Israeli-threshold compression mechanism. Capability picture stable; confidence upgraded from single-NYT-source to multi-T2-source.",
+        "driver": "Semafor May 13 T2 corroboration; GlobalSecurity IRGC launcher repositioning"
+      },
+      "discounts_applied": ["-50% on original NYT attribution (US officials unnamed); Semafor corroboration reduces effective discount to -25%"],
+      "conflict_notes": "No source conflict. Consistent across Semafor, ToI, GlobalSecurity, and Day 76-77 ISW/EuroNews analytical baseline."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "cycle": "2026-05-16",
+      "status": "partial",
+      "confidence": "M",
+      "sources": ["Synthetic composite from PROBE-2, PROBE-7, PROBE-9, PROBE-10, PROBE-12', PROBE-13, PROBE-14 Day 79 outputs"],
+      "finding": "No single first-mover threshold definitively breached Day 79. Race condition architecture holding with notable developments on two axes. IRANIAN COALITION RUPTURE (BS-1b): no signal; structural opacity holds. TRUMP A1-BINDING (BS-5/BS-14): 48h post-summit window CLOSED without Netanyahu rebroadcast — deal-direction held by absence of reversal; cooling to trade framing; 6-day gap since last Netanyahu-Trump contact. This is the longest Penetration-mechanism dormancy since Day 74 pattern establishment. US principal-state-at-decision: deal-leaning cooling toward trade, not toward hardline. ISRAELI OPERATIONAL GRADUATION (BS-3/BS-14): IDF Chief Zamir May 6 'on high alert to return to intense campaign' adds forward-campaign framing beyond mid-April retrospective. Day 77 US intelligence operational readying (air munitions movements, exercise completed, intercepted communications) unchanged. Knesset dissolution preliminary vote week of May 18 — passage will compress Netanyahu's decision-maker window. WPR-AS-FORCING-FUNCTION (BS-5): 7th vote confirmed 49-50; no 8th vote; Fetterman mechanism operative. STRANGULATION TRANSMISSION (BS-1b/BS-7): Brent mid-band (~$105-107); no Kharg saturation; export stall continuing. STRUCTURAL NOTE: Vahidi targeting CNN-confirmed introduces a new first-mover variable — US may act against the PA-gap rather than waiting for Iranian ratification. This changes the first-mover problem from three-actor (Iran/US/Israel) to four-pathway (Iranian rupture / Trump hardline / Israeli pre-emption / US Vahidi strike). The Vahidi-targeting pathway, if ordered, would simultaneously breach the Iranian-first-mover threshold and the US-action threshold.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Any single first-mover threshold breached",
+        "framework_variable": "Joint distribution of break-thresholds; which actor moves first",
+        "direction": "stable — no threshold breached; Trump 48h window closed clean (positive for Fork B) but cooling; Israeli graduation most advanced; Vahidi targeting introduces new US-action pathway",
+        "gap_to_full_match": null
+      },
+      "variable_moved": {
+        "variable": "First-mover pathway count; Trump A1 decay state; Israeli operational graduation framing",
+        "prior_value": "Day 78: 48h window Day 1 holding; no single threshold breached; three focal points corrected to two (summit + Hajj); focal-point window shorter",
+        "new_value": "Day 79: 48h window CLOSED without Netanyahu reset (6-day gap). Positive for Fork B durability. IDF chief language escalated to forward-campaign framing. Vahidi targeting CNN-confirmed introduces US-initiated PA-gap-elimination pathway. Hajj (~May 24-29) is the next structural forcing function. Architecture now has four first-mover pathways: (1) Iranian coalition rupture (structurally opaque, distant); (2) Trump hardline reversal under Netanyahu reset (Penetration mechanism dormant 6 days); (3) Israeli unilateral pre-emption (most advanced threshold; Knesset dissolution imminent; IDF forward-campaign framing); (4) US Vahidi decapitation (new; CNN-confirmed at planning stage).",
+        "driver": "PROBE-13: 48h window closed clean; PROBE-2: CNN Vahidi targeting; PROBE-9: Zamir May 6 forward framing"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The Vahidi-targeting US-action pathway is confirmed at planning stage only; probability mass should not be revised until operational order is confirmed or Tier-1 corroboration arrives. The four-pathway architecture is a qualitative addition to the analytical frame, not a probability revision."
+    }
+  ],
+  "sweep_summary_table": [
+    {"probe": "PROBE-2", "probe_name": "IRGC Factional", "status": "partial", "confidence": "M", "trigger_fired": "partial — Vahidi targeting CNN-corroborated (T2 upgrade from Day 78 T4); no Vahidi direct statement", "variable_moved": "Fork A entry mechanisms: PA-gap-elimination-by-force now T2-confirmed; probability matrix revision warranted"},
+    {"probe": "PROBE-7", "probe_name": "CENTCOM Posture", "status": "partial", "confidence": "M", "trigger_fired": "no — USS GW WESTPAC resolved; TWO-CSG posture flagged (discrepancy with synthesis three-CSG baseline)", "variable_moved": "USS GW Day 78 open flag closed (WESTPAC); potential Truman RCOH rotation reduces blockade posture to two-CSG"},
+    {"probe": "PROBE-9", "probe_name": "Israeli Internal", "status": "partial", "confidence": "M", "trigger_fired": "no — Knesset preliminary vote not yet occurred (week of May 18); IDF chief language escalated to forward-campaign", "variable_moved": "IDF posture framing hardened (May 6 'on high alert' vs mid-April 'every goal achieved'); dissolution advancing on schedule"},
+    {"probe": "PROBE-10", "probe_name": "War Powers/Constitutional", "status": "null", "confidence": "H", "trigger_fired": "no", "variable_moved": "none — 7th vote baseline confirmed; no 8th vote; Stage 2 hysteresis accumulating"},
+    {"probe": "PROBE-12'", "probe_name": "MOU Framework", "status": "null", "confidence": "M", "trigger_fired": "no — Meta-Regression confirmed operative; no new round scheduled; Hajj next focal point", "variable_moved": "none"},
+    {"probe": "PROBE-13", "probe_name": "PA-Gap / Ratification", "status": "partial", "confidence": "M", "trigger_fired": "partial — 48h window closed without Netanyahu rebroadcast (6-day contact gap); Fork B durability marginally improved; Vahidi targeting T2-confirmed", "variable_moved": "Netanyahu Principal-Penetration dormant 6 days; Trump deal-direction cooling not reversed; new Fork A entry mechanism confirmed"},
+    {"probe": "PROBE-14", "probe_name": "Iranian Residual Capability", "status": "null", "confidence": "M", "trigger_fired": "no", "variable_moved": "30/33 Hormuz sites now multi-T2 corroborated (Semafor); launcher repositioning beyond PSM range (sub-finding)"},
+    {"probe": "PROBE-16", "probe_name": "First-Mover Composite", "status": "partial", "confidence": "M", "trigger_fired": "no single threshold breached", "variable_moved": "Vahidi targeting adds 4th first-mover pathway; 48h window closed clean positive for Fork B; Israeli graduation most advanced; Hajj is next forcing function"}
+  ],
+  "trigger_digest": [
+    {
+      "trigger": "PROBE-2 / PROBE-13: Vahidi targeting CNN-corroborated (T2 upgrade) — probability matrix revision warranted per Day 78 trigger digest condition",
+      "source_probe": "PROBE-2, PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 5 Structural Dynamics (new mechanism §5.23 or sub-paragraph within §5.19); Section 8 Probability Matrix (Fork A entry mechanisms); BS-12 PA-gap architecture",
+        "edit": "CNN (April 23, T2) confirmed US military developing plans to target Iranian military leaders including Vahidi as 'obstructionists' undermining negotiations. Per Day 78 trigger digest condition: add Fork A entry mechanism (3) PA-gap-elimination-by-force — Vahidi decapitation would simultaneously resolve Iranian ratification gap AND constitute kinetic resumption trigger. Probability matrix: Variant A/B probability increment +3-5pp (conditional on planning becoming operational order; flag as provisional). Note in §5.19 PA-gap architecture: asymmetric channel structure may be supplemented by US-initiated decapitation as PA-gap workaround — structurally novel; does not require Iranian principal ratification; bypasses the mechanism BS-15 has been tracking."
+      },
+      "urgency": "next cycle — T2 confirmed; synthesis revision candidate. Do not revise probability matrix from sweep runner; flag for SITREP composer and next /revise cycle. If Tier-1 (CENTCOM named official or White House readout) confirms operational order vs planning stage: immediate synthesis revision."
+    },
+    {
+      "trigger": "PROBE-13: Trump 48h window closed without Netanyahu rebroadcast — Penetration mechanism weakening signal per Appendix B trigger",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-12 PA-gap; Section 8 probability matrix (Fork B durability)",
+        "edit": "Appendix B trigger: 'Trump statement holding direction beyond 48h without Netanyahu rebroadcast → Netanyahu Principal-Penetration weakening; Fork B durability ↑.' 48h window closed May 16 without documented Netanyahu-Trump contact (6-day gap since May 10). SITREP should note: Fork B durability marginally improved (Penetration mechanism dormant); Fork B 30d range may tick upward from 15-22% toward 17-23% if no Netanyahu contact Day 80. Caveat: Trump post-summit framing (trade/energy) is cooling from Xi-delivery peak; absence of reversal ≠ deal-direction deepening. Hajj (~May 24-29) is the next binding test."
+      },
+      "urgency": "next cycle — SITREP composer should note Fork B durability positive signal from 48h window close; probability revision modest and conditional on Hajj outcome"
+    },
+    {
+      "trigger": "PROBE-7: Potential TWO-CSG blockade posture (Truman RCOH rotation) — discrepancy with synthesis v3.1 three-CSG baseline",
+      "source_probe": "PROBE-7",
+      "confidence": "L",
+      "proposed_revision": {
+        "section": "Section 1.2 Current Operational Posture; Section 3.1 Layer One Military Physics",
+        "edit": "War Zone May 11 says 'two carriers' in CENTCOM blockade (Lincoln, Bush). Synthesis v3.1 says 'THREE carrier strike groups in CENTCOM AOR since April 23.' Truman (CSG-10) likely en route home for June 2026 RCOH start. If confirmed: CENTCOM posture corrected to two-CSG; Eisenhower non-deployment retains or slightly increases restraint-signal value (two-CSG posture is less committed than three-CSG). Kinetic capacity marginally reduced for sustained blockade. Awaiting USNI or CENTCOM press release for confirmation."
+      },
+      "urgency": "next audit — L-confidence; single War Zone source for two-CSG; requires USNI or CENTCOM press release for synthesis revision. Flag for auditor."
+    }
+  ],
+  "gap_log": [],
+  "calibration_check": {
+    "thesis_status": "holding",
+    "assessment": "Central thesis holding. Day 79's most material findings: (1) Vahidi targeting CNN-corroborated — a qualitative new Fork A entry mechanism is now T2-confirmed, adding PA-gap-elimination-by-force as the fourth first-mover pathway. This does not break the thesis; it extends the mechanism space. (2) Trump 48h window closed without Netanyahu rebroadcast — the Netanyahu Principal-Penetration mechanism has not activated in 6 days; this is the longest dormancy in the pattern. Positive for Fork B durability, though Trump framing is cooling to trade. (3) CENTCOM posture may have shifted from three-CSG to two-CSG (Truman RCOH rotation) — marginal force reduction, does not change the strategic calculus. The constraint architecture continues to bind: Meta-Regression operative; Hajj is the next focal point; Vahidi apex remains anti-deal; Israeli operational graduation most advanced of the first-mover thresholds.",
+    "dominant_uncertainty": "Whether Hajj (May 24-29) produces any Iranian-Saudi backchannel signal or a new US-Iran round scheduling announcement. If Hajj passes without signal, Meta-Regression re-entrenches and Fork D' extends into June. The Vahidi targeting operational status (planning vs ordered) is the second dominant uncertainty — if it moves from consideration to order, it is a framework-breaking event.",
+    "next_cycle_priority": [
+      "Vahidi targeting: any Tier-1 corroboration (CENTCOM named official, White House readout, DOD press release) — if confirmed operational, immediate synthesis revision",
+      "Knesset dissolution preliminary vote (week of May 18): passage triggers formal Israeli electoral compression and IDF decision-maker transition mechanism",
+      "Any new post-war US-Iran round scheduling announcement via Oman FM, State Dept, or Araghchi/Witkoff",
+      "Trump Iran-specific statement post-summit (distinguishable from trade framing) — does deal-direction cool further or hold",
+      "CENTCOM carrier posture: USNI May 11-16 tracker for Truman location (two-CSG vs three-CSG confirmation)"
+    ]
+  }
+}
