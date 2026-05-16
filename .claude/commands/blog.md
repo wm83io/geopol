@@ -4,11 +4,12 @@ description: Transform the latest daily SITREP into a published blog annex with 
 
 # Iran 2026 — Daily Annex Blog Composer
 
-Transforms a daily SITREP into a publishable Hugo blog post under `posts/iran/day-N.md`. Produces **three artifacts** in one task:
+Transforms a daily SITREP into a publishable Hugo blog post under `posts/iran/day-N.md`. Produces **two local artifacts**, validates them, then copies both to the published inbox:
 
 1. The blog markdown with Hugo frontmatter, written to `output/blog/day-N.md`
 2. A Nano Banana image prompt for the cover, written to `output/blog/day-N-image-prompt.md`
-3. A copy of the blog markdown placed at `/run/media/winterdev/Data/myblog/content/posts/iran/day-N.md`
+
+After all validation passes, both files are copied to `/run/media/winterdev/Data/myblog/content/posts/iran/`. The copy happens last — never before validation.
 
 The blog is a **deterministic transform of the SITREP**, not a separate analysis. Analytical content is identical; only scaffolding and vocabulary change. If you find yourself making a different argument than the SITREP, stop. The difference belongs in the next SITREP, not in the blog rewrite.
 
@@ -27,7 +28,7 @@ Load all of the following before drafting a single line.
 
 If `output/blog/` does not exist, create it. If the destination `/run/media/winterdev/Data/myblog/content/posts/iran/` does not exist, stop and ask the user.
 
-After writing, confirm all three files exist and report the paths.
+After writing both local files and passing all validation, confirm all four paths exist and report them.
 
 ---
 
@@ -343,15 +344,15 @@ Day 74: strait, slate-blue and ochre, broken chain and sealed scroll, eye-level 
 
 ## Output
 
-Three files in one task:
+### Step 1 — Write local artifacts
+
+Write two files:
 
 1. `/run/media/winterdev/Data/claude/geopol/output/blog/day-N.md` — the blog post
 2. `/run/media/winterdev/Data/claude/geopol/output/blog/day-N-image-prompt.md` — the Nano Banana sidecar
-3. `/run/media/winterdev/Data/myblog/content/posts/iran/day-N.md` — published copy (use the Bash `cp` tool)
 
-After producing all three:
+### Step 2 — Validate (all checks must pass before any copy)
 
-- Confirm each path exists
 - Report blog word count and ratio to SITREP word count
 - Run `grep -c "—" <blog file>` to confirm zero em-dashes (the description, body, and footer all share this rule; the deltas chips are token strings and exempt)
 - Run a regex check for stray internal vocabulary in the **body only** (the frontmatter `[[deltas]]` blocks legitimately contain Fork letters): extract the body with `awk '/^\+\+\+$/{c++;next}c==2' <blog file> | grep -nE "PROBE-[0-9]|BS-[0-9]|Fork [A-D]|v[0-9]\.[0-9]|sweep-[0-9]"` and confirm empty
@@ -359,7 +360,19 @@ After producing all three:
 - Confirm the title has no `Day N -` prefix: `grep -E "^title = '?Day [0-9]" <blog file>` should return empty
 - Confirm the description is not the old boilerplate: `grep -F "Annex/Update to Iran 2026 Operational SITREP" <blog file>` should return empty (that string belongs in the footer, not the description)
 - State the title chosen and the `supersedes` slug
-- Remind the user the PNG must be generated separately and dropped at `posts/iran/day-N.png` to complete the post
+
+If any check fails, stop, fix the local file, re-run the failing check, and do not proceed to Step 3 until all checks are clean.
+
+### Step 3 — Publish (only after all Step 2 checks pass)
+
+Copy both artifacts to the myblog inbox:
+
+```bash
+cp output/blog/day-N.md /run/media/winterdev/Data/myblog/content/posts/iran/day-N.md
+cp output/blog/day-N-image-prompt.md /run/media/winterdev/Data/myblog/content/posts/iran/day-N-image-prompt.md
+```
+
+Confirm all four paths exist and report them. Remind the user the PNG must be generated separately and dropped at `posts/iran/day-N.png` to complete the post.
 
 ---
 
@@ -393,3 +406,5 @@ After producing all three:
 - Do not point `supersedes` at the prior SITREP day if that day was not published. The slug must reference the prior *published* post. If Day 78 was internal-only and you are publishing Day 79, `supersedes = "day-77"` (not `"day-78"`).
 - Do not strip Fork letters or PROBE codes from the `[[deltas]]` blocks. The deltas are structured chips and Fork-vocabulary is permitted there. The internal-vocabulary ban applies only to the body.
 - Do not invent a fifth or sixth `[[deltas]]` block to capture every move. Cap at 4; pick the most operative. More than 4 deltas overcrowds the card.
+- Do not copy to the published inbox before all validation checks pass. The copy step is Step 3; it runs only after Step 2 is clean. A flawed draft must never land in the myblog tree.
+- Do not copy only the blog post to the inbox. The image prompt sidecar (`day-N-image-prompt.md`) must be copied alongside `day-N.md` in the same Step 3 operation.
