@@ -33,14 +33,17 @@ After writing, confirm all three files exist and report the paths.
 
 ## Title Convention
 
-Title format: `Iran Day N - [Clause One]; [Clause Two]`
+Title format: `[Clause One]; [Clause Two]`
 
-Two short clauses separated by a semicolon. The two clauses should be in tension or paradox, naming the cycle's central reframe. Examples from the canon:
+Two short clauses separated by a semicolon. The two clauses should be in tension or paradox, naming the cycle's central reframe. **The day number is NOT in the title** — it lives in the `series_day` frontmatter field. The Hugo theme renders day-number context from `series_day`; duplicating it in the title is redundant and breaks the card layout.
 
-- Day 74: `Iran Day 74 - The MOU Is Dead; The Negotiation Continues`
-- Day 76: `Iran Day 76 - The Hardline Decayed; The Asymmetry Locked`
+Examples from the canon:
 
-Draw the title from the SITREP's own title field if it follows the same convention; otherwise compose from the Executive Summary's central reframe. The title is the post's analytical hook; spend the cognitive effort to get it right.
+- Day 74: `The MOU Is Dead; The Negotiation Continues`
+- Day 76: `The Hardline Decayed; The Asymmetry Locked`
+- Day 77: `Beijing Delivered; The Spoiler Readied`
+
+Draw the title from the SITREP's own title field, stripping any `Day N -` prefix and any trailing operational scaffolding. If the SITREP title is more than two clauses or three semicolons, compress to the two most operative clauses for the blog. The title is the post's analytical hook; spend the cognitive effort to get it right.
 
 ---
 
@@ -50,21 +53,122 @@ Draw the title from the SITREP's own title field if it follows the same conventi
 +++
 date = '{YYYY-MM-DDTHH:MM:SS-04:00}'
 draft = true
-title = 'Iran Day N - [Clause One]; [Clause Two]'
-description = 'Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)'
+title = '[Clause One]; [Clause Two]'
+description = '[50-80 word substantive dek summarizing the cycle. See Description guidance below.]'
 tags = ["iran", "geopolitics", "war", "sitrep", "diplomacy"]
+series = ["iran-2026"]
+series_day = N
+supersedes = "day-{prior-published-N}"
+
+[[deltas]]
+  metric = "{metric name}"
+  dir = "{up|down|stable}"
+
+[[deltas]]
+  metric = "{metric name}"
+  dir = "{up|down|stable}"
+
 [cover]
     image = "posts/iran/day-N.png"
     relative = false
 +++
 ```
 
-- Date: today's date in ISO format with America/Toronto offset (-04:00 EDT, -05:00 EST). Use a plausible compose-time hour, not midnight.
-- Title: see above.
-- Description: `Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)` — fill in the current synthesis version number.
-- Tags: base set is `["iran", "geopolitics", "war", "sitrep", "diplomacy"]`. The last 1-2 tags may be swapped for cycle-specific focus (e.g., `"nuclear"`, `"markets"`, `"escalation"`) if a different domain dominates the cycle.
-- Cover path: `posts/iran/day-N.png` matching the filename of the blog file.
-- `draft = true` so the post goes through a publish review before going live.
+Field-by-field:
+
+- **`date`**: today's date in ISO format with America/Toronto offset (`-04:00` EDT, `-05:00` EST). Use a plausible compose-time hour, not midnight.
+- **`draft = true`**: the post goes through a publish review before going live. The user flips to `false` at publish. Do not change this default.
+- **`title`**: two-clause format, no day-number prefix. See Title Convention above.
+- **`description`**: 50-80 word substantive dek. See Description guidance below.
+- **`tags`**: base set is `["iran", "geopolitics", "war", "sitrep", "diplomacy"]`. The last 1-2 tags may be swapped for cycle-specific focus (`"nuclear"`, `"markets"`, `"escalation"`, `"decapitation"`, `"constitutional"`) if a different domain dominates the cycle. Keep `"iran"` and `"sitrep"` always.
+- **`series = ["iran-2026"]`**: required. Opts the post into the Iran 2026 series for series-page rendering and homepage chip display.
+- **`series_day = N`**: required integer. The day number. This is how the day is exposed in the URL, card chip, and series page.
+- **`supersedes = "day-{prior-published-N}"`**: required slug of the prior *published* post, not the prior SITREP. If you are publishing Day 79 today and Day 77 was the last published post (Day 78 was internal-only), `supersedes = "day-77"`. If the prior post is a split-day annex, include the variant: `"day-70-pm"`.
+- **`series_variant`** (optional): `"am"` or `"pm"` only for split-day annexes. Omit otherwise.
+- **`framework_version`** (optional): `"v3.1"` etc. Include when the post is the first to operate on a new synthesis version, or when explicitly anchoring against a specific version. Otherwise omit.
+- **`[[deltas]]`**: 2-4 blocks per post. See Deltas guidance below.
+- **`[cover]`**: image path matches the blog filename (`day-N.md` → `day-N.png`). `relative = false` is required for the Hugo theme to resolve correctly.
+
+### Description guidance
+
+The description is the homepage card dek, the OpenGraph snippet for social shares, and the Google search snippet. Empty or boilerplate descriptions starve the card of context. Target 50-80 words. Structure:
+
+1. **First sentence:** name the cycle's central event with at least one named-source datum (an Araghchi statement, a CNN report, a Senate vote count, a Brent number). Avoid generic phrasing.
+2. **Second sentence:** name the analytical reframe or the operative tension the cycle introduces.
+
+Examples from the canon:
+
+- Day 74: `"Trump rejects Iran's counter-proposal as \"TOTALLY UNACCEPTABLE\" and Witkoff escalates to full dismantlement of Natanz, Fordow, and Isfahan, killing the 14-point framework while the 4th Oman round preserves process without convergence. The negotiating structure has fully regressed to the pre-war (May 2025) baseline; 74 days of kinetics produced no structural advance on sequencing."`
+- Day 76: `"Trump softens to \"we'll win one way or the other\" and a sunset clause re-enters the negotiating text 48 hours after Day 74's \"MOU dead\" reading; three Iranian principal-tier voices (Ghalibaf, Jafari, Hassanzadeh) emerge publicly and the Senate's seventh war-powers vote fails by one seat. Israeli unilateral pre-emption of an emerging US deal is now the largest tail risk."`
+- Day 77: `"Xi pledges at the Beijing summit not to supply Iran with military equipment and joins Trump on Hormuz openness and nuclear non-acquisition; in parallel, US intelligence reports Israeli strike preparations advancing. The next eleven days frame a race between the most credible negotiated window since the war began and an Israeli pre-emption that closes it."`
+
+Quoting rules:
+
+- Use **double quotes** to wrap the description if it contains apostrophes (Iran's, Trump's), escaping any inner double quotes with `\"`. Example: `description = "Iran's response to Trump's \"TOTALLY UNACCEPTABLE\" framing..."`.
+- Use **single quotes** to wrap the description if it has no apostrophes and no inner double quotes. Example: `description = 'Beijing summit produces substantive Iran content...'`.
+- TOML does not allow escaping inside single-quoted strings, so single quotes do not work if the description contains an apostrophe.
+
+Em-dash rule applies to the description as it does to the body: zero em-dashes. Use commas, semicolons, periods, or restructure.
+
+### Deltas guidance
+
+Each `[[deltas]]` block declares one probability move. The Hugo card renders these as chips. Pick the 2-4 most operative moves of the cycle. Rules:
+
+- **`metric` values**: Fork labels (`"Fork A"`, `"Fork B"`, `"Fork B*"`, `"Fork C"`, `"Fork D'"`) AND descriptive names (`"Pre-emption"`, `"Decapitation"`, `"Constitutional"`) are both allowed in the frontmatter. The internal-vocabulary ban applies to the *body*, not the deltas. The deltas are structured chips that signal direction to returning readers; Fork letters are the framework's primitive vocabulary and belong here.
+- **`dir` values**: `"up"`, `"down"`, or `"stable"`. Direction is relative to the prior *published* post (the one named in `supersedes`), not the prior SITREP.
+- **Pick which deltas to show**:
+  - Always include any Fork that moved by at least 3 percentage points at the 30-day horizon
+  - Always include any new outcome introduced this cycle (e.g., a new Fork variant or pathway gets a delta block with `dir = "up"`)
+  - Include the largest tail-risk move if a tail moved materially
+  - Cap at 4 blocks. If more than 4 moved, pick the 4 with the largest absolute change.
+- **Naming convention for new pathways**: use a short descriptive name, not a synthesis section number. Examples: `"Decapitation"` (not `"§5.23"`), `"Pre-emption"` (not `"Variant A+B"`), `"Snapback"` (not `"Fork B-multilateral"`).
+
+Examples from the canon:
+
+```toml
+# Day 74 (Fork B down, Fork D' up)
+[[deltas]]
+  metric = "Fork B"
+  dir = "down"
+
+[[deltas]]
+  metric = "Fork D'"
+  dir = "up"
+```
+
+```toml
+# Day 77 (Fork B up, Pre-emption up, Fork D' down)
+[[deltas]]
+  metric = "Fork B"
+  dir = "up"
+
+[[deltas]]
+  metric = "Pre-emption"
+  dir = "up"
+
+[[deltas]]
+  metric = "Fork D'"
+  dir = "down"
+```
+
+### TOML ordering
+
+Hugo does not enforce field order, but the canonical order used in the existing posts is:
+
+1. `date`
+2. `draft`
+3. `title`
+4. `description`
+5. `tags`
+6. `series`
+7. `series_day`
+8. `series_variant` (if used)
+9. `framework_version` (if used)
+10. `supersedes`
+11. `[[deltas]]` blocks
+12. `[cover]` table
+
+Match this order so the existing audit script and theme stay aligned.
 
 ---
 
@@ -249,9 +353,12 @@ After producing all three:
 
 - Confirm each path exists
 - Report blog word count and ratio to SITREP word count
-- Run `grep -c "—" <blog file>` to confirm zero em-dashes
-- Run a regex check for stray internal vocabulary: `grep -nE "PROBE-[0-9]|BS-[0-9]|Fork [A-D]|v[0-9]\.[0-9]|sweep-[0-9]" <blog file>` and confirm empty
-- State the title chosen
+- Run `grep -c "—" <blog file>` to confirm zero em-dashes (the description, body, and footer all share this rule; the deltas chips are token strings and exempt)
+- Run a regex check for stray internal vocabulary in the **body only** (the frontmatter `[[deltas]]` blocks legitimately contain Fork letters): extract the body with `awk '/^\+\+\+$/{c++;next}c==2' <blog file> | grep -nE "PROBE-[0-9]|BS-[0-9]|Fork [A-D]|v[0-9]\.[0-9]|sweep-[0-9]"` and confirm empty
+- Confirm the required new frontmatter fields are present: `grep -E "^(series|series_day|supersedes|\[\[deltas\]\])" <blog file>` should return at least 4 lines (one for each of `series`, `series_day`, `supersedes`, and at least one `[[deltas]]` block)
+- Confirm the title has no `Day N -` prefix: `grep -E "^title = '?Day [0-9]" <blog file>` should return empty
+- Confirm the description is not the old boilerplate: `grep -F "Annex/Update to Iran 2026 Operational SITREP" <blog file>` should return empty (that string belongs in the footer, not the description)
+- State the title chosen and the `supersedes` slug
 - Remind the user the PNG must be generated separately and dropped at `posts/iran/day-N.png` to complete the post
 
 ---
@@ -280,3 +387,9 @@ After producing all three:
 - Do not silently leave em-dashes in. Always run the post-write `grep -c "—"` and fix any hits before reporting completion.
 - Do not let the word count creep above 90 percent of the SITREP. The transform should compress.
 - Do not default the cover to the same strait-and-slate composition as the prior post. The durable thread is allegory and painterly finish; everything else rotates. If you find yourself writing "rocky strait" and "slate-blue" for a third consecutive cycle without a strong analytical reason, stop and pick a different setting or palette.
+- Do not prefix the title with `Day N -` or `Iran Day N -`. The day number lives in `series_day`; duplicating it in the title breaks the homepage card layout.
+- Do not use the old boilerplate description (`Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report vX.Y)`). That string is the body footer, not the description. The description is a substantive 50-80 word dek with named-source content; empty cards are a regression.
+- Do not omit `series`, `series_day`, or `supersedes`. The audit script (`python3 scripts/audit-frontmatter.py`) will fail loudly on missing series tags; the post will also drop out of the series-page render.
+- Do not point `supersedes` at the prior SITREP day if that day was not published. The slug must reference the prior *published* post. If Day 78 was internal-only and you are publishing Day 79, `supersedes = "day-77"` (not `"day-78"`).
+- Do not strip Fork letters or PROBE codes from the `[[deltas]]` blocks. The deltas are structured chips and Fork-vocabulary is permitted there. The internal-vocabulary ban applies only to the body.
+- Do not invent a fifth or sixth `[[deltas]]` block to capture every move. Cap at 4; pick the most operative. More than 4 deltas overcrowds the card.
