@@ -9,7 +9,7 @@ Transforms a daily SITREP into a publishable Hugo blog post under `posts/iran/da
 1. The blog markdown with Hugo frontmatter, written to `output/blog/day-N.md`
 2. A Nano Banana image prompt for the cover, written to `output/blog/day-N-image-prompt.md`
 
-After all validation passes, both files are copied to `/run/media/winterdev/Data/myblog/content/posts/iran/`. The copy happens last — never before validation.
+After all validation passes, both files are copied to `/run/media/winterdev/Data/myblog/inbox/`. The copy happens last — never before validation.
 
 The blog is a **deterministic transform of the SITREP**, not a separate analysis. Analytical content is identical; only scaffolding and vocabulary change. If you find yourself making a different argument than the SITREP, stop. The difference belongs in the next SITREP, not in the blog rewrite.
 
@@ -26,7 +26,7 @@ Load all of the following before drafting a single line.
 3. **Prior cover image:** read the image file alongside the prior blog (e.g. `day-74.png`) using the Read tool. Build a one-paragraph visual style inventory: palette, composition, illustration style, recurring symbolic elements. This becomes the anchor for the new image prompt.
 4. **Anchor synthesis:** highest-versioned file in `synthesis/` for thesis check.
 
-If `output/blog/` does not exist, create it. If the destination `/run/media/winterdev/Data/myblog/content/posts/iran/` does not exist, stop and ask the user.
+If `output/blog/` does not exist, create it. If the destination `/run/media/winterdev/Data/myblog/inbox/` does not exist, stop and ask the user.
 
 After writing both local files and passing all validation, confirm all four paths exist and report them.
 
@@ -368,8 +368,8 @@ If any check fails, stop, fix the local file, re-run the failing check, and do n
 Copy both artifacts to the myblog inbox:
 
 ```bash
-cp output/blog/day-N.md /run/media/winterdev/Data/myblog/content/posts/iran/day-N.md
-cp output/blog/day-N-image-prompt.md /run/media/winterdev/Data/myblog/content/posts/iran/day-N-image-prompt.md
+cp output/blog/day-N.md /run/media/winterdev/Data/myblog/inbox/day-N.md
+cp output/blog/day-N-image-prompt.md /run/media/winterdev/Data/myblog/inbox/day-N-image-prompt.md
 ```
 
 Confirm all four paths exist and report them. Remind the user the PNG must be generated separately and dropped at `posts/iran/day-N.png` to complete the post.
