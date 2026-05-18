@@ -57,45 +57,113 @@ Header block:
 ```
 # Iran 2026 Operational SITREP — Daily Update
 **Day {N} | {Weekday}, {Month} {DD}, {YYYY}**
-*Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report v3.0)*
+*Annex/Update to Iran 2026 Operational SITREP and Strategic Synthesis (base report v{X.Y})*
 ```
 
 ---
 
 ### Executive Summary
 
-Written last, placed first. Three to five sentences plus a composite line. Answers four questions and surfaces one derived headline:
+Written last, placed first. New format (DELTASITREP-2026-05): one tight lede paragraph plus a **Cycle at a Glance** table plus a one-line cumulative-escalation read. No multi-paragraph framing. No background. No restating the base framework. A reader dark for 24 hours should know exactly where things stand after this block.
 
-1. Single most important development since last SITREP?
-2. Did the central thesis hold, drift, or break?
-3. Dominant trajectory and probability?
-4. Key trigger to watch in next 48-72 hours?
-5. **Kinetic Escalation Composite (DERIVED)** — one sentence, format below.
+**Lede paragraph.** 4-6 sentences max. Covers the cycle's defining finding and ends with the supersede line on a new line:
 
-Composite line format:
+```
+Supersedes `day-{N-2}` · {top-2-or-3 vectors with direction, e.g. Decapitation ↑ · Fork A ↑ · Fork B ↓}
+```
 
-> *Kinetic Escalation Composite: ~X% (30d), ~Y% (12m) — derived from Fork A + Fork C + conflict-leading tails; Fork D' (deferral) excluded. Dominant non-escalation path: [Fork B / Fork D' / other] at Z%.*
+**Cycle at a Glance table.** Mandatory. Placed immediately after the supersede line. Schema:
 
-The composite is recomputed each SITREP from the then-current synthesis matrix (Fork A primitive + Fork C primitive + conflict-leading tail register entries; Variants A/B absorbed as Fork A trigger paths, not added). It is a communication aid, not an analytical primitive — the analytical text in sections 3, 4, and 7 references primitives, not the composite.
+```
+| Vector | Direction | Driver |
+```
 
-No background. No restating the base framework. A reader dark for 24 hours should know exactly where things stand after this block.
+Rows: 6-10. One row per dimension that moved this cycle. Direction column uses `NEW`, `↑`, `↓`, `HELD`, `stable`, or specific numeric ranges (e.g. `18-25% → 10-18%`). Driver column ≤ 12 words.
+
+**Cumulative-escalation read.** One line immediately after the table. Carries the Kinetic Escalation Composite plus the dominant non-escalation path. Format:
+
+> Cumulative escalation: X-Y% over 30 days, X-Y% over 12 months. Dominant non-escalation path is {Fork B / Fork D' / other} at Z-W%, {one short qualifier on direction since last cycle}.
+
+The composite is recomputed each SITREP from the then-current synthesis matrix (Fork A primitive + Fork C primitive + conflict-leading tail register entries; Variants A/B absorbed as Fork A trigger paths, not added; Fork D' deferral excluded). It is a communication aid, not an analytical primitive; the analytical text in sections 3, 4, and 7 references primitives, not the composite.
+
+No prose section between the cumulative-escalation read and Section 1.
 
 ---
 
 ### Section 1 — Operational Update
 
-Developments since the last SITREP. Subsections by domain:
+Developments since the last SITREP. **Bold-lead bullet pattern only.** No `##` or `###` subsection headers inside Section 1. Each domain item opens with a single bold sentence stating the finding, ending in a period (not a colon); 2-4 short sentences follow. Domain order preserved:
 
 - **Diplomatic track** — proposals, rejections, mediator activity
-- **Maritime / CENTCOM** — vessel counts, ROE changes, carrier posture
+- **Trump posture** — statements, framing, principal-access signal
+- **Maritime / Military / CENTCOM** — vessel counts, ROE changes, carrier posture
 - **Iranian internal** — Vahidi/Mojtaba/Ghalibaf signals, rial, inflation
-- **Lebanon / proxy fronts** — IDF, Hezbollah, Houthi posture
-- **Cyber** — CISA advisories, stage progression, attribution
-- **Markets** — Brent, WTI, S&P, VIX, gold, 10Y, gas price. Table format.
+- **Israel** — IDF, Knesset, religious-bloc, operational tempo
+- **Lebanon / proxy fronts** — Hezbollah, Houthi posture (if active this cycle)
+- **Cyber** — CISA advisories, stage progression, attribution (if active this cycle)
+- **Markets** — Brent, WTI, S&P, VIX, gold, 10Y, gas price. Table format (existing schema, unchanged).
 - **US domestic** — polling, War Powers, congressional, supplemental
 - **International** — Russia, China, Gulf, European coalition
 
 Factual, source-attributed. No editorializing. Flag confidence (H/M/L) for contested claims. Distinguish tape action from statement.
+
+**Maritime / Military posture table required.** Schema:
+
+```
+| Asset / signal | Day {N-2} baseline | Day {N} read | Implication |
+```
+
+Rows as needed (carriers, ROE, missile sites, launcher posture, proxy connectivity, C2 state, IDF readiness, etc.). The table is the section; the surrounding prose contextualizes contested or bivalent readings only.
+
+**Markets table** keeps the existing schema unchanged.
+
+---
+
+### Mandatory Visualizations (apply across sections)
+
+Three mermaid chart classes. Generate each when the underlying condition is present; omit when not. If a chart would be empty or single-node, omit it. Quality over completeness. Use ` ```mermaid ` fence (not bare ` ``` `) so Hugo renders correctly.
+
+**Chart A — Forcing functions timeline.** Generate when at least two distinct forcing functions are operative in a ≤ 30-day window. Place after Operational Update, before Section 2 (Framework Validation). Format:
+
+```mermaid
+timeline
+    title Forcing Function Convergence ({date} → {date})
+    {date} : event
+           : event
+    {date} : event
+```
+
+**Chart B — Entry mechanism / pathway flowchart.** Generate when Section 3 (Revisions) or Section 4 (Additions) introduces a new structural pathway, mechanism, or actor. Place inside the relevant section. Use `flowchart TD`. Show: parent concept → child mechanisms → constraints / properties → cluster signals. Use dotted arrows (`-.->`) for "dominant under joint constraints" or "drives" relationships. Do not use these arrows to attribute selection to the substrate; they connect signals to dominance reads, not architectures to outcomes.
+
+**Chart C — Forking decision tree.** Always generate in Section 7 (Conclusion). Place between "Central Thesis Check" and "Operative Judgment" sub-blocks. Use `flowchart TD` with `{Question}` nodes (curly braces) for decision points and `[Outcome]` nodes for terminal states. Include probabilities on terminal nodes. Forks should name the actor whose selection is contingent at each branch.
+
+---
+
+### Compression target
+
+Output word count: target 2,000-2,800 words. Hard ceiling 3,200. Compression is achieved by:
+
+- Replacing prose enumeration with tables (decapitation properties, lock-in stack, military posture, decap properties all become tables).
+- Single-paragraph bold-lead findings instead of three-paragraph elaborations.
+- Removing analytical restatement that already appears in the anchor synthesis.
+- Pulling structural arguments into mermaid where the structure is the argument.
+
+Where prose still earns its place: Central Thesis Check, Operative Judgment, downside-risk enumeration when not naturally tabular. The compression range is a ceiling, not a floor; a low-signal cycle can produce a shorter annex.
+
+---
+
+### Tables required where applicable
+
+| Section | Table required when |
+|---|---|
+| Executive Summary (lede) | Always (Cycle at a Glance) |
+| Section 1 — Maritime / Military | Always (posture table) |
+| Section 1 — Markets | Always (existing schema) |
+| Section 4 — Framework Additions | When new mechanism has ≥ 4 enumerable properties |
+| Section 4 — Framework Additions | When lock-in stack updated this cycle |
+| Section 5 — Probability Matrix | Always (existing delta schema) |
+
+Tables start at 3+ rows. A 2-row "table" is a sentence with bad formatting.
 
 ---
 
@@ -155,13 +223,19 @@ Pull directly from probe sweep output, formatted per `probes/probe-schema.md` sw
 
 ### Section 7 — Conclusion and Forking Analysis
 
-Three parts:
+Four H3 sub-blocks, in fixed order:
 
-1. **Central thesis check** — one sentence on whether the base report's central thesis (faction misalignment producing emergent escalation within constraint architecture) is holding, drifting, or breaking.
+```
+### Central Thesis Check
+### Forking Tree (72-Hour Decision Path)
+### Operative Judgment
+### Signals That Force Immediate Revision
+```
 
-2. **Forking paths** — update the dominant trajectory and tail branches. Each fork: label, probability, one-paragraph driver, key indicator. No more than four forks. Dominant trajectory first.
-
-3. **Key operative judgment** — one paragraph. Single most important thing the framework says about the next 48-72 hours. What signal would force immediate revision?
+- **Central Thesis Check.** One short paragraph on whether the v4.0 central thesis (materialist bargaining model: layered constraints conditioning principals' decision sets; Bayesian updates over signal clusters tightening priors on dominant strategies) is holding, holding with structural elaboration, drifting, or breaking. Constrained-agent voice only.
+- **Forking Tree (72-Hour Decision Path).** The mermaid Chart C. Decision-point nodes use `{Question}`; terminal-outcome nodes use `[Outcome]` with probabilities. Each fork names the actor whose selection is contingent.
+- **Operative Judgment.** Prose. 2-4 paragraphs. This is where prose earns its place; do not compress it to bullets. Single most important thing the framework reads about the next 48-72 hours: which signal clusters tightened or loosened which priors, and which option moved from sub-dominant to dominant for which named actor under which joint constraints.
+- **Signals That Force Immediate Revision.** Bulleted list, terminal. 5-10 named signals (specific events, not categories) that would force the next SITREP to materially revise the matrix.
 
 Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 
@@ -174,7 +248,45 @@ Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 - Distinguish tape action from statement in market references.
 - When sources conflict, name both sides and adjudicate. Do not average.
 - No section longer than it needs to be. Compress or omit empty sections.
-- Avoid em-dashes; use commas, semicolons, or restructure.
+- **No em-dashes.** No `—` character anywhere in output. Use comma, semicolon, colon, or sentence break.
+- Bold-lead findings open paragraphs in Sections 1-4. Lead sentence ends with a period before continuation, not a colon.
+- Mermaid code blocks use ` ```mermaid ` fence (not bare ` ``` `) so Hugo renders correctly.
+- Direction arrows in tables: use `↑ ↓ → ←` literals, not ASCII (`->`).
+- En-dash (`–`) only inside probability ranges (`28–38%`) and date ranges (`May 24–29`).
+
+### Methodological discipline (from DELTASITREP, 2026-05)
+
+**This is a correction, not a refinement.** Prior outputs drifted into teleological framing where the constraint architecture itself becomes the subject of choice verbs. This is psychohistory voice and it falsifies the model. The framework is a materialist substrate that imposes constraints and weights decision pathways via Bayesian priors in a game-theoretic setting. Agents under the framework remain choosers. The framework predicts the relative ranking of options under the constraint surface; it does not predict selection. Selection remains an event.
+
+**Forbidden constructions (substrate-as-agent / psychohistory voice):**
+
+- "The architecture selected / composed / innovated / closed / opened / chose..."
+- "The constraint set composed / produced / engineered..."
+- "No principal chose this; X did it instead..."
+- "The framework constructs / builds / resolves..."
+- "The architecture is composing toward..."
+- "What the architecture selected as resolution mechanism..."
+- Any verb of intention or agency whose subject is the substrate, the architecture, the constraint set, the framework, or the system.
+
+**Required constructions (constrained-agent / game-theoretic voice):**
+
+- "Under constraint X, the relative cost-benefit of pathway Y improves against Z..."
+- "Constraints compress the principal choice set; principals select within it..."
+- "Pathway Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent..."
+- "The framework predicts the ranking of options under the constraint surface; it does not predict selection."
+- "Option Y moves from sub-dominant to dominant when constraint Z binds..."
+- "Signal cluster X tightens the prior that selection of Y is being weighted..."
+
+**Distinguishing valid from invalid uses of "architecture":**
+
+- Valid (noun, describing a structure): "the alliance architecture," "the principal-access architecture," "the constraint architecture is reinforced."
+- Invalid (subject of intention verb): "the architecture selected," "the architecture composes," "the architecture innovates exits."
+
+**Valid epistemic verbs whose subject is the framework:** `reads`, `predicts`, `ranks`, `weights`, `names`, `maps`. Never choice verbs.
+
+**Invalid:** "The framework reads as the architecture composing..." (smuggles agency back into the substrate via the indirect clause).
+
+When in doubt: can the sentence be rewritten with the agent (Trump executive, Vahidi, Netanyahu, IDF leadership) as the subject and the constraint as the modifier? If yes, that rewrite is required. The framework names the choice set and its weights; the actor selects.
 
 ---
 
@@ -188,3 +300,14 @@ Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 - Do not synthesize new probe findings inside the composer. The composer consumes probe output; it does not re-run probes.
 - Do not report the Kinetic Escalation Composite without the underlying primitives. The composite is derived; primitives drive analysis.
 - Do not aggregate Fork D' into the composite. Fork D' is the deferred-kinetic / gray-zone path; aggregating it collapses the framework's most operative distinction.
+
+### Methodological discipline (from DELTASITREP, 2026-05)
+
+1. Do not generate mermaid for decoration. A chart that only restates a sentence is noise.
+2. Do not over-table. If a finding has 2 properties, write a sentence. Tables start at 3+ rows.
+3. Do not move analytical depth into bullets. Operative Judgment stays prose.
+4. Do not break the seven-section skeleton (Exec → Op → Validation → Revisions → Additions → Probability → Conclusion; Probe Status is integrated where probes ran). Format changes inside sections; section count is fixed.
+5. Do not import the redrafted format wholesale on a low-signal day. If the cycle has minimal movement, the annex can be shorter than 2,000 words. The compression range is a ceiling, not a floor.
+6. **Do not make the substrate the subject of a choice verb.** The architecture does not select, compose, innovate, close paths, or open them. Actors do, under constraints the framework maps. Falling into this voice is the single highest-priority failure mode in this directive; it falsifies the methodological frame.
+7. **Do not predict selection.** The framework ranks options under the constraint surface and identifies dominant strategies. It does not say "X will be selected." It says "Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent and tightens / loosens conditional on signal cluster Z."
+8. **Do not use "convergence" or "cluster" as causal verbs.** Signal clusters tighten priors. They do not cause outcomes. The grammar of probabilistic updating, not the grammar of teleology, governs.

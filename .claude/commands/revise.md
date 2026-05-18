@@ -104,9 +104,10 @@ Mandatory sections in order:
 
 1. **Version Notes** — what changed from prior version
 2. **Executive Summary** — central thesis, dominant trajectory, key constraints, probability headline. 4-6 paragraphs. Rewritten each version.
+2a. **Methodological Note** — mandatory paragraph placed immediately after Executive Summary in the internal synthesis only. 70-110 words. Names the framework's intellectual provenance: bargaining model (Fearon 1995; Powell 1999); two-level games (Putnam 1988); system-effects emergence (Jervis 1997); path dependence (Pierson 2000); neoclassical realism (Rose 1998). Engels-register materialist substrate, not vulgar-materialist. Cross-references `reference/costly-signaling-framework.md` and `appendix/appendix-c-methodology.md`. Closes by stating: the framework predicts dominant strategies under joint constraints; it does not predict selection. Treat as boilerplate after first revision (rewrite only if a new tradition is added or a citation is retired). Stripped from external version (see Transform table).
 3. **Conflict Timeline and Operational Status** — key events to current day; current posture
 4. **Market Snapshot** — table format, updated levels
-5. **Constraint Architecture** — three layers (military physics, asymmetric-conflict logic, time arithmetic) plus faction misalignment as Layer 4. Update each layer if data moved it.
+5. **Constraint Architecture** — five layers (L1 military physics, L2 asymmetric-conflict logic, L3 time arithmetic, L4 faction misalignment, L5 principal-agent gap). Update each layer if data moved it.
 6. **Ideological Currents and Motives** — only update where actor posture has materially shifted
 7. **Structural Dynamics and Mechanisms** — update existing mechanisms; add new ones only if structural threshold met
 8. **Probability Assessment** — full matrix, updated, direction arrows vs prior version. Include the Kinetic Escalation Composite as a derived line immediately after the primitive matrix, explicitly labeled "DERIVED" with construction formula (Fork A + Fork C + conflict-leading tail components; Fork D' and Variants A/B excluded). Tail-Risk Residual Register sits as a separate sub-section listing exogenous / actor-replacement events outside the fork architecture. The composite never replaces primitives; it sits alongside them as a communication headline.
@@ -137,8 +138,8 @@ Mandatory sections in order:
 - Central thesis
 - Faction misalignment model
 - July 1914 historical analog
-- "Reordering nobody is choosing" formulation
-- Constraint architecture's three-layer structure
+- "Nobody chooses the reordering" formulation, game-theoretic version (per DELTASYNTHESIS §1)
+- Constraint architecture's five-layer structure (L1 military physics, L2 asymmetric-conflict logic, L3 time arithmetic, L4 faction misalignment, L5 principal-agent gap)
 
 If any of the above require modification, argue it explicitly in Version Notes and Executive Summary.
 Do not quietly rewrite them.
@@ -174,13 +175,9 @@ chain; re-applying the threshold to already-validated findings is redundant.
 
 ## Central Thesis Handling
 
-The current central thesis (v3.x):
+The current central thesis (v4.0):
 
-> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the international
-> system. Three constraint layers operate prior to faction decision-making — military physics,
-> asymmetric-conflict logic, and time arithmetic. Faction misalignment determines style and timing
-> within these constraints; it does not determine the trajectory. The reordering nobody is choosing is
-> the architecture choosing for them.
+> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the international system. The framework operates as a materialist bargaining model: five layers of material substrate (military physics, asymmetric-conflict logic, time arithmetic, faction misalignment, and the principal-agent gap) condition each principal's decision set; faction misalignment and PA-gap dynamics determine form and timing within those sets; Bayesian updates on correlated signal clusters tighten or loosen priors on which option becomes the dominant strategy for each principal at each cycle. Nobody designs the reordering. It is the joint equilibrium of constrained choices when no actor controls the constraint surface. The framework ranks options under the surface; the actors select.
 
 | Incoming data | Action |
 |---|---|
@@ -201,6 +198,41 @@ The current central thesis (v3.x):
 - The synthesis is the anchor document; it must be self-contained
 - Every probability range must be defensible from the text; do not assert numbers that have no mechanism backing them
 
+### Methodological discipline (from DELTASYNTHESIS, 2026-05)
+
+**Forbidden constructions (substrate-as-agent voice):**
+
+- "The architecture selected / composed / innovated / closed / opened / chose..."
+- "The constraint set composed / produced / engineered..."
+- "No principal chose this; X did it instead..."
+- "The framework constructs / builds / resolves..."
+- "The architecture is composing toward..."
+- "What the architecture selected as resolution mechanism..."
+- "The reordering is the architecture choosing for them"
+- Any verb of intention or agency whose subject is the substrate, the architecture, the constraint set, the framework, or the system.
+
+**Required constructions (constrained-agent / game-theoretic voice):**
+
+- "Under constraint X, the relative cost-benefit of pathway Y improves against Z; selection by {named actor} remains contingent..."
+- "Constraints compress the principal choice set; principals select within it..."
+- "Pathway Y is the dominant strategy under joint constraints (A, B, C)..."
+- "Option Y moves from sub-dominant to dominant when constraint Z binds..."
+- "Signal cluster X tightens the prior that selection of Y is being weighted..."
+- "The trajectory emerges as the equilibrium of constrained choices when no actor controls the constraint surface..."
+
+**Distinguishing valid from invalid uses of "architecture":**
+
+- Valid (noun, structure): "the alliance architecture," "the constraint architecture is reinforced," "the principal-access architecture."
+- Invalid (subject of intention verb): "the architecture selected," "the architecture composes."
+
+When the framework appears as subject: only epistemic verbs (`reads`, `predicts`, `ranks`, `weights`, `names`, `maps`). Never choice verbs.
+
+**Additional rules:**
+
+- Substrate-as-agent constructions are the highest-priority style failure. They falsify the methodological frame. Treat them as factual errors, not style preferences.
+- When a sentence about a new mechanism, pathway, or option does not name the human or institutional actor whose selection is contingent, the sentence is incomplete. Add the actor.
+- Predictions are of the form "Y becomes the dominant strategy / tightens the prior on Z," never "Y will happen / Y is the outcome the architecture is selecting."
+
 ---
 
 ## Dual Output Architecture
@@ -214,6 +246,7 @@ Internal (project anchor)              External (blog publication)
 synthesis-v{N}.md                      synthesis-v{N}-external.md
 
 Version Notes section            →     stripped
+Methodological Note paragraph    →     stripped
 "v2.5 supersedes v2.0"           →     stripped
 PROBE-N references               →     stripped
 BS-N / Appendix B references     →     stripped
@@ -254,13 +287,29 @@ Run the transform table above against the internal. Result is a single coherent 
 
 **Required structure:**
 
-1. **Title** — substantive, evocative, no version number (e.g. "Iran 2026: The Architecture Chooses the Exit")
+1. **Title** — substantive, evocative, no version number. Pick from acceptable patterns; do not generate variants of forbidden patterns.
+
+   Acceptable patterns:
+
+   | Pattern | Why it works |
+   |---|---|
+   | "Iran 2026: The Equilibrium Nobody Designed" | Game-theoretic emergence frame; preserves the surprise move |
+   | "Iran 2026: Constraints Compress the Choice Set" | Names what the framework actually does; agent voice retained |
+   | "Iran 2026: When the Dominant Strategy Is Surgical" | Names the move at the current cycle; actor implicit (US executive) |
+   | "Iran 2026: The Constraint Surface and the Compressed Game" | Structure + game-theoretic frame; no agency to substrate |
+
+   Forbidden patterns (do not use, do not generate variants of):
+
+   - Anything with `architecture chooses / selects / decides / picks / composes`
+   - Anything with `the system wants / the framework engineers / the substrate produces`
+   - Anything with `constraints choose / constraints engineer outcomes`
+
 2. **Italicized framing note** — date, day count, one-sentence framing of what this is
 3. **TL;DR** (blockquote) — central thesis + dominant trajectory + key shift since prior post, ~3-5 sentences
 4. **Body** — natural section headers, narrative arc: Frame → Operational → Markets → Constraint Architecture → External Players → Structural Mechanisms → Outcome Table → Forking Analysis → Synthesis → Indicators
 5. **Outcome architecture table** — full matrix with `vs prior` direction column
 6. **Forking analysis** — dominant trajectory + tail branches, with conditional probability structure where applicable
-7. **Italicized closing line** — single sentence stating the architectural conclusion
+7. **Italicized closing line** — single sentence stating the equilibrium under current constraints, with the actor whose selection remains contingent named or implicit. Substrate-as-agent failures here propagate widely because the post is shared and quoted; treat with the same discipline as the central thesis.
 
 **Style guardrails:**
 
@@ -314,3 +363,12 @@ After producing both, state:
 - Do not skip producing the external version because "the user can do it later." Both outputs are the deliverable.
 - Do not skip the staging directory check. A manifest in staging represents pre-validated structural changes argued through the probe and SITREP chain. Ignoring it forces re-derivation of conclusions that are already settled.
 - Do not leave staging manifests in place after a successful synthesis write. Move them to `synthesis/staging/archive/` to mark them as consumed.
+
+### Methodological discipline (from DELTASYNTHESIS, 2026-05)
+
+1. **Do not preserve the old thesis sentence "as a courtesy to readers familiar with it."** The old formulation is the source of the drift. Quoting it in the new version, even framed as "the prior formulation said X, now corrected to Y," reintroduces the construction into the synthesis text and into future model context. Make the correction in Version Notes; do not quote the old sentence.
+2. **Do not let the external version drift back to teleological voice for "narrative flow."** The external is a transform of the internal. If the internal is methodologically tight, the external is too. Stylistic concessions that reintroduce substrate-as-agent voice for readability are exactly the drift this directive corrects.
+3. **Do not predict selection.** The framework ranks options under the constraint surface and identifies dominant strategies under specified joint constraints. It does not say "X will be selected." It says "Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent and tightens / loosens conditional on signal cluster Z."
+4. **Do not use "convergence" or "cluster" as causal verbs.** Signal clusters tighten priors. They do not cause outcomes. The grammar of probabilistic updating, not the grammar of teleology, governs.
+5. **Do not invoke the July 1914 analog as substrate-determinism.** The analog is valid as a structural-constraint comparison (mobilization timetables, bargaining-geometry compression, principal-agent ratification failures). It is invalid as "1914 chose itself / the system chose war." If the analog is invoked, the historical actors stay as subjects of intention verbs (the German General Staff, Sazonov, Berchtold), not the war itself.
+6. **Do not let "emergence" do the work "architecture chose" used to do.** Emergence is a valid concept in game theory and complex-systems analysis when an aggregate outcome is the equilibrium of individual constrained choices. It is invalid when it smuggles intention back in ("the system emerges toward war" is teleology dressed as physics). Test: can you specify the individual decision rules and the constraint surface that produces the equilibrium? If yes, emergence is doing real work. If no, it is rhetorical filler covering the same teleological pattern.

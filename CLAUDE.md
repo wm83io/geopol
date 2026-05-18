@@ -127,14 +127,9 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 
 ---
 
-## Central Thesis (v3.0)
+## Central Thesis (v4.0)
 
-> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the
-> international system. Five constraint layers operate prior to faction decision-making:
-> military physics, asymmetric-conflict logic, time arithmetic, faction misalignment, and the
-> principal-agent gap. Faction misalignment determines style and timing within these constraints;
-> it does not determine the trajectory. The reordering nobody is choosing is the architecture
-> choosing for them.
+> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the international system. The framework operates as a materialist bargaining model: five layers of material substrate (military physics, asymmetric-conflict logic, time arithmetic, faction misalignment, and the principal-agent gap) condition each principal's decision set; faction misalignment and PA-gap dynamics determine form and timing within those sets; Bayesian updates on correlated signal clusters tighten or loosen priors on which option becomes the dominant strategy for each principal at each cycle. Nobody designs the reordering. It is the joint equilibrium of constrained choices when no actor controls the constraint surface. The framework ranks options under the surface; the actors select.
 
 Do not quietly revise. If data breaks the thesis, flag explicitly, argue in Version Notes and
 Executive Summary, increment major version via `/revise`.
@@ -309,6 +304,7 @@ Conventions:
 | v2.6 | May 4 2026 | Operational-doctrine level innovation; Fork A leading |
 | v3.0 | May 8 2026 | Fearon-Slantchev integrated; Fork B leading; Layer 5 PA-gap |
 | v3.1 | pending | Trump-Xi trigger; Netanyahu Principal-Penetration; eschatological-coalition; HEU physical-state; multilateral E3/IAEA; Kinetic Escalation Composite |
+| v4.0 | pending (staged 2026-05-18) | Methodology correction: substrate-as-agent voice retired; central thesis reformulated as materialist bargaining model with Bayesian updates over signal clusters; Methodological Note paragraph added; appendix-c-methodology.md placed |
 
 ---
 
