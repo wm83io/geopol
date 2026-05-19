@@ -5,6 +5,7 @@
 *Audit revisions: May 7, 2026 | Day 70 (game-theory layer integrated)*
 *Audit revisions: May 13, 2026 | Day 76 (asymmetric PA-gap integrated; first-mover BS added)*
 *Audit revisions: May 14, 2026 | Day 77 (BS-9 elevated from placeholder with 5 sub-probes; BS-16 and BS-17 added per eschatology instrumentation; multi-BS visibility upgrades on Xi delivery, Israeli operational preparation, IRGC apex visibility)*
+*Audit revisions: May 19, 2026 | Day 82 (BS-18 added: Gulf state troika / unaligned-middle pivot capacity, promoted from Day 81 §5.25 synthesis addition per reference-to-operational instrumentation check; 8 BS visibility/risk deltas on Day 81 convergent probe fires; PROBE-20 directive added; Cooper Tier-1 operational-contradiction methodology note for sweep skill)*
 *Standing annex — updated when blind spot probes surface material data*
 
 ---
@@ -21,6 +22,8 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 
 **Day 77 audit note:** The framework's epistemics shifted along three axes since Day 76. First, BS-9 (Russian siloviki cohesion) graduated from structurally unmodeled placeholder to active monitoring with five sub-probes following the Q4 2025-Q2 2026 signal cluster (serial general assassinations on Russian soil, Tsalikov arrest breaching elite-protection guarantees, EU intelligence dossier on Kremlin coup fears, Putin bunker behavior, Q1 2026 GDP contraction). Source: structural probe at `probes/structural/2026-05-14-bs9-russia-succession.md`. Succession mechanism probabilities now explicitly ranged (M1 managed transit 55-65%, M2 palace action 8-12%, M3 incapacity cascade 20-30%, M4 war-loss <5% over 5 years). Second, BS-16 (Eschatological Multi-Tradition Convergence) and BS-17 (Christian Zionist US Policy Vector Disaggregation) promoted from `appendix/staging/bs-additions-2026-05-14.md` per Day 77 reference-to-operational instrumentation check that added three trigger-read eschatology reference files. Third, existing BS scores moved on multi-cycle convergence and Day 77 substantive signals: BS-1a Iranian decision architecture +5pp (Vahidi-Ghalibaf apex split structurally mapped); BS-3 Israeli internal politics +10pp (CNN/US-intel operational preparation + IDF-coalition uranium-removal asymmetry); BS-4 Chinese active support +10-15pp (Xi summit substantive delivery); BS-11 MOU architecture +5pp (5th round Rome May 23; focal-point structure mapped); BS-15 First-mover architecture +10pp (race-condition mechanics clarified). The framework now reads four critical BSs (BS-1b, BS-9, BS-15, BS-16). Within the five-overextension threshold; one above the three-baseline. The Day 76 reading that Iran's PA-gap was "closing through public principal speech" required correction at the apex: Ghalibaf-Araghchi track is pro-deal; Vahidi (ISW-confirmed apex decision-maker) opposes; BS-12 mechanism reformulated. The audit's central calibration lesson: confirmation bias on the Trump-Xi summit demotion read was correctly tuned for the counter-hypothesis (Slantchev-inverse feigning) by the framework's instrumentation; the recency-bias failure was on Iran-side principal-agent dynamics where 48-hour coalition speech was over-weighted against multi-week ISW analytical evidence.
 
+**Day 82 audit note:** Sub-monthly audit triggered by Day 81 convergent probe fires (4 fired probes including PROBE-13 firing multiple framework-revision triggers) and the §5.25 Gulf State Troika Brake mechanism added to synthesis v4.0 without corresponding operational instrumentation. Reference-to-operational instrumentation check identified the gap: tripolar-realignment-whitepaper.md §3.1 carried the structurally-significant-unaligned-middle thesis for months, but no BS instrumented unaligned-middle principal-level autonomy as constraint on US action. Day 81 made the gap operationally legible (MBS+MBZ+Tamim joint appeal halting scheduled May 19 US strike). BS-18 promoted to CRITICAL with PROBE-20 directive. Existing BS movements: BS-15 First-mover +10pp (US-side threshold operationally observed); BS-3, BS-8, BS-11, BS-13, BS-17 +5pp each on convergent Day 81 signals; BS-7 risk + on Gulf nuclear-adjacent infrastructure threshold; BS-1a held with framework-risk treatment elevated (Vahidi as kinetic target). Critical-BS count post-add: BS-1b, BS-15, BS-16, BS-18 (4 critical; within 5-overextension threshold). Source-ladder note: Cooper Tier-1 SASC claim ("Houthis cut off from Iran's weapons") operationally contradicted within 72 hours by Barakah; recommend `/sweep` discount-rule extension for "Tier-1 named-official operational claim contradicted within 72h." Calibration lesson: the bipolar-misreading risk identified in the tripolar whitepaper §3 was structurally correct; Day 81 supplied operational evidence that unaligned-middle pivot capacity is now an active constraint variable, not theoretical background. Confirmation-bias check this cycle: low, because Day 81 partially contradicted Day 79 framework reads (Gulf state brake was unmodeled; revealed itself via outcome, not via prior).
+
 ---
 
 ## Blind Spot Inventory
@@ -34,9 +37,9 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Aerospace Force vs Quds Force divergence.* Multiple null cycles. Treated as unified actor; not.
 - *IRGC committee-vs-individual decision authority.* Reframed Day 77: not a consensus-mode question but a structural-split question. Ghalibaf-Araghchi track has agency on negotiations; Vahidi has ratification veto; Aliabadi posture unknown. Threshold between mid-tier noise and apex override is now the binding analytical object.
 
-**Confidence we have adequate visibility:** **65-70%** (Day 77: +5pp from 60-65%). Apex-split structurally mapped; Vahidi opposition framing now visible; Aliabadi remains opaque.
+**Confidence we have adequate visibility:** **65-70%** (Day 82: held from Day 77). Apex-split structurally mapped; Vahidi opposition framing now visible; Aliabadi remains opaque. Day 81 revised 14-point text submission via Pakistan confirms Ghalibaf-Araghchi diplomatic agency active; Vahidi silence persists through that move.
 
-**Framework risk if blind spot breaks:** **HIGH.** Risk shape preserved from Day 70-76: no longer about death/incapacitation; now about whether IRGC coalition (specifically Vahidi) ratifies MOU terms Araghchi negotiates. Cross-references BS-12 (PA-gap) Day 77 mechanism revision: Iran-side PA-gap is Vahidi-shaped, not Ghalibaf-shaped.
+**Framework risk if blind spot breaks:** **HIGH** (Day 82: framework-risk treatment elevated). Risk shape preserved from Day 70-76: no longer about death/incapacitation; now about whether IRGC coalition (specifically Vahidi) ratifies MOU terms Araghchi negotiates. Day 82 addition: Vahidi is now a named kinetic target per v4.0 §5.23 (decapitation pathway) and CNN T2 reporting; the binding constraint Appendix B has been tracking is identified as a structurally-resolvable variable via force. The dark area is now load-bearing for both Fork B-bilateral durability AND Fork A entry-mechanism selection. Cross-references BS-12 (PA-gap) Day 77 mechanism revision: Iran-side PA-gap is Vahidi-shaped, not Ghalibaf-shaped.
 
 ---
 
@@ -72,9 +75,9 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Israeli decision-maker dispositional reading of Iran.* **Day 76 baseline confirmed and escalated Day 77 (PROBE-9 fired M):** CNN/US intelligence (multiple US officials): Israel readying to strike Iranian nuclear facilities. Air munitions movements observed; air exercise completed; intercepted Israeli communications. Strike probability "has gone up significantly." -50% discount applied to "final decision" component (US-official-only; US government internally divided on likelihood). Signal moved from diplomatic alarm to operational preparation.
 - *Israeli operational-tempo signals (NEW Day 77).* Air refueling tempo; F-35/F-15 forward positioning; senior officer pre-emption posture vs. coalition framing; visible IDF-coalition friction on uranium-removal pathway. These are now the operative leading indicators.
 
-**Confidence we have adequate visibility:** **50-55%** (Day 77: +10pp from 40-45%). Operational preparation now visible via US intelligence reporting; IDF-coalition uranium-removal asymmetry surfaced; election horizon public.
+**Confidence we have adequate visibility:** **55-60%** (Day 82: +5pp from 50-55%). Day 79 Sulfur-and-Fire IDF exercise (theological-naming operational planning visible); Day 81 Netanyahu-Trump call reactivated Penetration mechanism after 7-day dormancy; trilateral Trump+Netanyahu+Qatar PM call adds Qatar diplomatic-bridge architecture. Operational preparation now visible via US intelligence reporting; IDF-coalition uranium-removal asymmetry surfaced; election horizon public. Knesset dissolution preliminary vote pending May 20-21.
 
-**Framework risk if blind spot breaks:** **HIGH.** Israeli spoiler mechanism remains unilateral pre-emption against emerging Trump deal. Day 77 escalation: pre-emption signal at operational-readying level. Per Powell shifting-power: more credible Fork B = stronger Israeli pre-emption incentive. IDF-coalition asymmetry on HEU removal creates phase-dependent pathway: pre-Knesset-dissolution, coalition retains decision authority; post-dissolution, IDF leadership becomes binding decision-maker. Iron Dome UAE embedding holds as commitment friction.
+**Framework risk if blind spot breaks:** **HIGH.** Israeli spoiler mechanism remains unilateral pre-emption against emerging Trump deal. Day 77 escalation: pre-emption signal at operational-readying level. Per Powell shifting-power: more credible Fork B = stronger Israeli pre-emption incentive. IDF-coalition asymmetry on HEU removal creates phase-dependent pathway: pre-Knesset-dissolution, coalition retains decision authority; post-dissolution, IDF leadership becomes binding decision-maker. Iron Dome UAE embedding holds as commitment friction. Day 82 sub-finding: trilateral Qatar PM bridge is the first documented case in this conflict of Qatar brokering direct US-Israel coordination; novel diplomatic-architecture node.
 
 ---
 
@@ -140,9 +143,9 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Backwardation deal-pricing vs physical-tightness divergence.* **Day 76 update:** Brent traded $102-110 over 48 hours, settling $107-108. Implied vol high; realized trend none. Market reading US principal as binding source of uncertainty. A1-oscillation pricing visible.
 - *Two-track Hormuz equilibrium (NEW Day 76).* Iran-approved government-to-government transits (Qatar LNG x2) coexist with commercial closure. Per Windward, 9 commercial tankers transited May 11 via Tehran-approved northern coastal corridor (dark-fleet-linked LPG/products). Standard commercial shipping (Hapag-Lloyd, Maersk) remains halted. Pattern decouples "Hormuz reopening" from "Hormuz settlement"; may become retroactive interim arrangement under sunset-clause MOU.
 
-**Confidence we have adequate visibility:** **35-50%.**
+**Confidence we have adequate visibility:** **35-50%** (Day 82: held).
 
-**Framework risk if blind spot breaks:** **HIGH.** Two-track Hormuz pattern, if durable, becomes structurally important as off-ramp instrument. MOU progress confirmed would produce material Brent selloff. Israeli unilateral pre-emption (BS-3, BS-14, BS-15) would spike toward $130+.
+**Framework risk if blind spot breaks:** **HIGH** (Day 82: scope extension on Gulf nuclear-adjacent infrastructure). Two-track Hormuz pattern, if durable, becomes structurally important as off-ramp instrument. MOU progress confirmed would produce material Brent selloff. Israeli unilateral pre-emption (BS-3, BS-14, BS-15) would spike toward $130+. Day 82 addition: Barakah nuclear plant drone strike (May 17) crossed a Gulf nuclear-adjacent infrastructure-vulnerability threshold previously unmodeled. Energy-market signal interaction is bivalent: physical-coercion layer (Hormuz enforcement maintained per Zolfaghari) and deal-signal layer (Brent reversal from $111+ to ~$102) decoupled in active negotiation phase. Subsequent Gulf-state infrastructure attack would compound rather than substitute for Hormuz pricing.
 
 ---
 
@@ -156,7 +159,7 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Named IRGC commanders making public statements beyond official line.* **Day 76 fired (PROBE-2 H):** Hassanzadeh (Tehran Guard commander) statement on 5-day drill objective. Jafari (former IRGC commander) public articulation of 5 preconditions May 11. Multiple named-commander signals same direction.
 - *Ghalibaf parliamentary channel.* **Day 76 fired:** Direct X post articulating coalition's 14-point counter; Sobh-e No (Ghalibaf-affiliated outlet) ran the counter prominently.
 
-**Confidence we have adequate visibility:** **50-55%.** Multi-vertex named-principal speech sharply increases visibility on coalition position. Triangle internal dissent: no signal — all visible voices aligned.
+**Confidence we have adequate visibility:** **55-60%** (Day 82: +5pp from 50-55%). Multi-vertex named-principal speech sharply increases visibility on coalition position. Day 82 addition: IRGC spokesperson Zolfaghari Day 81 (T2 named): "All US military bases in southern Persian Gulf will be deactivated"; "IRGC Navy did not allow any vessel to pass through Strait of Hormuz in past 24 hours." Adds Zolfaghari as new operational-planning-disclosure vertex alongside Hassanzadeh, Jafari, Ghalibaf, Vahidi. Triangle internal dissent: no signal; all visible voices aligned on hardline-threat-during-diplomatic-exchange two-level pattern.
 
 **Framework risk if blind spot breaks:** **MED-HIGH.** Aerospace/Quds divergence would test horizontal escalation coherence. Cross-references BS-12 (Iranian principal capacity, now substantively closed) and BS-15 (first-mover question).
 
@@ -219,9 +222,9 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Two-track Hormuz arrangement (NEW Day 76, sustained Day 77).* Iran-approved transits (Qatar LNG cadence; northern coastal corridor for selected commercial) coexist with standard commercial closure. Iranian Araghchi public framing (Day 77): "Strait of Hormuz remained open to commercial vessels cooperating with Iran." Structurally exploitable in any sunset-clause arrangement as interim transit regime.
 - *Mediator architecture.* Pakistan (Sharif/Munir) channel functioning. **Day 77 update:** Beijing re-elevated to co-primary mediator following Xi substantive delivery (see BS-4 PROBE-6). Pakistan-Oman-Beijing trilateral now operative.
 
-**Confidence we have adequate visibility:** **50-55%** (Day 77: +5-10pp from 40-50%). Focal-point structure substantively mapped; mediator architecture clarified; default-clause and verification-milestone gaps remain.
+**Confidence we have adequate visibility:** **55-60%** (Day 82: +5pp from 50-55%). Focal-point structure substantively mapped; mediator architecture clarified; default-clause and verification-milestone gaps remain. Day 82 additions: (a) Iran's revised 14-point text submitted via Pakistan Day 81 (Tasnim T3 + Xinhua T3); content visible (HEU dilution plus third-country transfer; enrichment-suspension shorter than US 20-year moratorium; 30-day timeline retained); (b) Pakistan elevated as active mediating channel this round, Oman dormant; (c) US oil sanctions waiver proposal floated (Iranian-sourced; US unconfirmed; M-L confidence); (d) trilateral Trump+Netanyahu+Qatar PM call adds Qatar diplomatic-bridge node to existing Pakistan-Oman-Beijing mediator architecture.
 
-**Framework risk if blind spot breaks:** **HIGH** (held). Drives Fork B vs Fork D' direction. Sunset-clause-modified framework is alive and scheduled; the question is whether Rome delivers substantive convergence. Critical opacity that previously drove this BS continues to be displaced by the BS-15 first-mover question.
+**Framework risk if blind spot breaks:** **HIGH** (held). Drives Fork B vs Fork D' direction. The Day 78 Rome misfire correction (Meta-Negotiation Regression operative default) was interrupted Day 81 by active Pakistan-channel exchange within the Gulf state troika 2-3 day window. Critical opacity that previously drove this BS continues to be displaced by the BS-15 first-mover question and now the BS-18 Gulf state brake decay-threshold question.
 
 ---
 
@@ -252,9 +255,9 @@ The directives are not news-monitoring tasks. They are targeted intelligence pro
 - *Hezbollah missile inventory* under post-2024 ceasefire conditions.
 - *Cyber Stage 3 (mass-casualty hospital) capability vs intent unknown.* Stage 1+2 demonstrated; Stage 3 latent.
 
-**Confidence we have adequate visibility:** **40-50%** (Day 77: +5pp from 35-45% on multi-cycle multi-source convergence).
+**Confidence we have adequate visibility:** **45-55%** (Day 82: +5pp from 40-50%). Day 81 Barakah operational demonstration provides direct evidence of Iranian extended-deterrent network active despite Cooper Tier-1 SASC "Houthis cut off" claim. Distinguishes weapons-supply-flow severance (Cooper potentially accurate as of May 14) from operational delivery capability (sustained by Houthi indigenous manufacturing per FP March 2026 plus partial Iranian channel persistence). Cooper claim discounted to M on operational delivery; held T1 on supply-flow.
 
-**Framework risk if blind spot breaks:** **HIGH.** Slantchev feigning weakness confirmed; Fork A intensity prior revised up. If MOU collapses via Israeli pre-emption (BS-3, BS-14, BS-15), Iranian counter-strike floor is higher than Day 70 estimated. Asset-repositioning sub-finding adds structural pressure on Israeli timing.
+**Framework risk if blind spot breaks:** **HIGH.** Slantchev feigning weakness confirmed; Fork A intensity prior revised up. If MOU collapses via Israeli pre-emption (BS-3, BS-14, BS-15), Iranian counter-strike floor is higher than Day 70 estimated. Asset-repositioning sub-finding adds structural pressure on Israeli timing. Day 82 addition: Barakah crossed nuclear-adjacent infrastructure threshold; Iranian horizontal escalation ladder now demonstrated one step below direct reactor-strike. Successor attack on Saudi or Kuwaiti Gulf infrastructure within 14 days would compound the threshold to a sustained-targeting pattern.
 
 ---
 
@@ -286,13 +289,15 @@ Per Weisiger (2013): commitment-problem wars driven by dispositional readings pr
 - *WPR-as-forcing-function threshold — mechanism revised Day 77.* All four Day 76 "in-play" GOP held; Fetterman is the operative swing. Whether Fetterman returns to Dem caucus position on next vote, and whether passage acts as a forcing function on Trump's calculus (push toward sunset-clause acceptance) or on Israeli action (incentive to act before US legal foreclosure of Fork A).
 - *Strangulation timeline transmission to first-mover decision.* Goldman 2-3 month timeline gives far horizon; framework cannot map transmission from external economic pressure to coalition decision-making (BS-1b binding).
 
-**Confidence we have adequate visibility:** **25-35%** (Day 77: +10pp from 15-25%). Race-condition mechanics clarified; Israeli threshold most advanced; Iranian rupture threshold distant; Trump A1 deal-leaning state with 48h window; WPR mechanism shifted to Fetterman.
+**Confidence we have adequate visibility:** **35-45%** (Day 82: +10pp from 25-35%). Day 81 produced the framework's first instance of an operationally-observable first-mover threshold reaching: the US-side threshold was REACHED (Trump scheduled May 19 strike) then BRAKED externally (Gulf state troika appeal halted execution). Race-condition mechanics now have empirical anchoring rather than only threshold-approach inference. Five-actor architecture legible: Iran, US, Israel, Gulf state troika (new), Pakistan mediator (new).
 
-**Framework risk if blind spot breaks:** **CRITICAL** (held). The asymmetric lock-in finding remains the framework's most operative insight. Without first-mover identification, framework cannot predict which of three co-equal forks (D'/A/B) consolidates in the 30-day window. BS-15 remains the dominant opacity.
+**Framework risk if blind spot breaks:** **CRITICAL** (held). The asymmetric lock-in finding remains the framework's most operative insight. Without first-mover identification, framework cannot predict which of multiple Fork pathways consolidates in the 30-day window. BS-15 remains the dominant opacity; the addition of two new actors (Gulf troika via BS-18; Pakistan mediator within BS-11 scope) reshapes the joint-distribution problem rather than resolving it.
 
 **Day 76 audit note:** BS-15 is partially decomposable into other BSs but the integration is itself the analytical object. Iranian coalition rupture threshold = BS-1b; Trump decision threshold = BS-5 + BS-14; Israeli action threshold = BS-3 + BS-14; WPR threshold = BS-5. The first-mover question is the joint distribution of these thresholds. BS-15 tracks the joint.
 
-**Day 77 audit note:** The eleven-day window between Trump-Xi summit Day 1 (May 14) and Hajj (May 25) is the operative race-condition window. Three concurrent forces operate: Fork B window opens (Xi delivery + 5th round Rome); Israeli pre-emption window opens (operational readying per US intel; Powell shifting-power activating as Fork B becomes more credible); WPR-as-forcing-function pending Fetterman flip. The architecture is selecting the actor that acts first; framework instrumentation cannot select between them but can track the threshold approaches.
+**Day 77 audit note:** The eleven-day window between Trump-Xi summit Day 1 (May 14) and Hajj (May 25) is the operative race-condition window. Three concurrent forces operate: Fork B window opens (Xi delivery + 5th round Rome); Israeli pre-emption window opens (operational readying per US intel; Powell shifting-power activating as Fork B becomes more credible); WPR-as-forcing-function pending Fetterman flip. Framework instrumentation cannot rank between them but can track the threshold approaches; principals select.
+
+**Day 82 audit note:** The Day 81 US-side threshold reaching-and-braking event reveals first-mover dynamics include external-brake mechanisms (Gulf troika) operating on principal A1 oscillation, not only internal-faction-resolution mechanisms. Threshold-decomposition update: US-action threshold now has Gulf-state-brake decay-condition as additional input variable (cross-reference BS-18). Joint distribution complexity increases; visibility of any single threshold improves while joint-distribution opacity holds CRITICAL. The May 20-21 window concentrates Trump 2-3 day expiration + Knesset preliminary vote + pre-Hajj posture in a single 48h interval; the most compressed first-mover-decision interval the framework has observed.
 
 ---
 
@@ -348,14 +353,50 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 - *Counter-vector strength.* Mainline Protestant, Catholic, Orthodox positioning on Israel. Holy Land Patriarchs' Jan 2026 critique and 14-nation diplomatic objection to Huckabee Feb 2026 "Nile to Euphrates" comments are baseline data points.
 - *Day 77 partial-fire on Vance (BS-5):* Vance's "progress in talks" silence-break is the first visible disengagement-faction signal in the MOU decision chain. Provides initial calibration point for fracture-intensity tracking.
 
-**Confidence we have adequate visibility:** **30-40%.** Faction architecture mapped; quantitative intensity index not yet operational; counter-vector data sparse.
+**Confidence we have adequate visibility:** **35-40%** (Day 82: +5pp from 30-40%). Faction architecture mapped; quantitative intensity index not yet operational; counter-vector data sparse. Day 82 addition: Day 81 produced operational evidence of §5.20 eschatological-coalition driver contested by Gulf state troika brake mechanism (cross-reference BS-18); the §5.20 internal-executive pressure pulled toward attack execution while Gulf state economic-interest pressure pulled toward postponement; Trump A1 selected postpone. Demonstrates the intra-Republican faction dynamics extend beyond party-internal variance to include external-coalition pressure interactions.
 
-**Framework risk if blind spot breaks:** **HIGH.** Mispriced US-Israel constraint produces mispriced spoiler-mechanism (BS-3, BS-14) and mispriced US Iran-posture under faction-level shifts. Vance breaking silence Day 77 in pro-talks framing is the first observable that the disengagement faction is competing with the maximalist faction inside the administration in real time.
+**Framework risk if blind spot breaks:** **HIGH.** Mispriced US-Israel constraint produces mispriced spoiler-mechanism (BS-3, BS-14) and mispriced US Iran-posture under faction-level shifts. Vance breaking silence Day 77 in pro-talks framing is the first observable that the disengagement faction is competing with the maximalist faction inside the administration in real time. Day 82 addition: the disengagement-vs-maximalist faction dynamic now interacts with external Gulf state brake (BS-18); maximalist faction strength on a given decision cycle depends partly on whether Gulf state external pressure is active or dormant.
 
 **Relationship to existing BSs:**
 - Cross-references BS-5 (US domestic; Vance trajectory is the live intra-coalition variable).
 - Cross-references BS-3 / BS-14 (Israeli posture; Christian Zionist veto vs accelerationist disengagement is the operative US-side bracket on Israeli pre-emption).
 - Cross-references BS-16 (eschatological convergence; Coalition I mirror-image structure per `eschatology-intersection-matrix.md` §8).
+- Cross-references BS-18 (Gulf state troika; §5.20 driver was contested by Gulf brake mechanism Day 81).
+
+---
+
+### BS-18: Gulf State Troika / Unaligned-Middle Pivot Capacity — CRITICAL (NEW Day 82; promoted from §5.25 instrumentation gap)
+
+*Source: Day 81 §5.25 synthesis addition (Gulf State Troika Brake Mechanism), promoted per Day 82 reference-to-operational instrumentation check. Reference linkage: `reference/tripolar-realignment-whitepaper.md` §3.1 (tripolar plus structurally-significant-unaligned middle), §3.3 (US-pole internal contradiction), §5.1 (Saudi Red Sea pivot capex commitments).*
+
+**What we cannot see:** Existing US-faction constraint modeling treats Gulf state actors as passive recipients of conflict spillover (Iron Dome embedding, Saudi coordination posture unresolved, Hajj-logistics backchannel). The Day 81 event demonstrated otherwise: Saudi Crown Prince Mohammed bin Salman, UAE President Mohammed bin Zayed, and Qatar Emir Tamim bin Hamad jointly intervened in the US military decision cycle on a 24-hour interval, with documented success (postponement of a US strike scheduled for May 19). This is the first confirmed case in this conflict of Gulf state principals halting US military timing through direct appeal. The mechanism is unmodeled in existing BS inventory.
+
+**Specific gaps:**
+
+- *MBS-MBZ-Tamim trilateral coordination dynamics.* The joint appeal revealed coordinated capacity; internal mechanics of the troika's decision process (initiation order, counter-offers preceding the Trump call, role distribution among the three principals) are opaque.
+- *Decay threshold of the brake mechanism.* Trump framed the holdoff as "2-3 days" conditional on deal-progress signal. The specific conditions under which the troika withdraws or extends the brake (deal-failure threshold, second Barakah-class attack, Iranian principal-level intransigence, US executive frustration threshold, intra-Gulf divergence) are not specified.
+- *Split conditions.* Saudi-UAE divergence on Israel normalization track; Qatar's dual role (Gulf brake actor + US-Israel diplomatic bridge via PM Mohammed bin Abdulrahman Al Thani); UAE-as-target asymmetric exposure post-Barakah. Which actor defects first if the troika fractures.
+- *Pakistan-Saudi-UAE-Qatar collective mediation architecture.* The Pakistan channel (active for Iranian revised text) and the trilateral Qatar bridge (active for US-Israel coordination) operate concurrently; their division of labor and overlap are unclear. Whether other unaligned-middle states (Turkey, India, Indonesia) participate or could participate in similar interventions.
+- *Counter-coalition under Gulf state activation.* Whether Israeli right-wing coalition (Smotrich, Ben-Gvir) or US §5.20 eschatological-coalition will counter-mobilize against the Gulf state brake on subsequent decision cycles, and what counter-instruments they retain.
+- *Iran-Gulf state direct interaction.* Whether the troika's joint appeal was preceded by or coordinated with any Iranian principal-level signal; whether Iran is using the Hajj backchannel (~30,000 Iranian pilgrims on Saudi soil) to coordinate with Saudi Arabia on the Pakistan-channel revised text content.
+- *Economic-exposure leverage thresholds.* The proximate motivation for the troika appeared to be Gulf state economic and infrastructure exposure (Barakah attack on UAE plus oil-price impact on MBS fiscal trajectory). The thresholds at which Gulf state economic exposure overrides their preference for US security partnership are not mapped.
+
+**Confidence we have adequate visibility:** **25-35%** (new BS; Day 82 baseline; Day 81 first operational observation; subsequent decision cycles will reveal whether the mechanism is recurring or one-off).
+
+**Framework risk if blind spot breaks:** **CRITICAL.** Gulf state troika is now the framework's operative external brake on US Iran military timing; framework cannot predict its decay or split without instrumentation. If the brake decays, Fork A operationalization probability re-elevates within 24-48h. If the brake holds and expands across multiple decision cycles, Fork B-multilateral via Gulf state pathway becomes structurally substantive rather than contingent. The mechanism's existence is also operational evidence for the tripolar-with-structurally-significant-unaligned-middle thesis (`tripolar-realignment-whitepaper.md` §3) and a falsification test for bipolar-system readings; visibility on troika dynamics has implications for the multi-year structural-realignment forecast beyond the immediate Iran 2026 window.
+
+**Standing probe directive:** PROBE-20 (see Standing Weekly Intelligence Directives section).
+
+**Relationship to existing BSs:**
+- Cross-references BS-4 (Chinese support; Beijing's mediating role is partially substituted by the Gulf state pathway this cycle; future cycles may show competition or coordination).
+- Cross-references BS-5 (US domestic; Gulf state external pressure interacts with the maximalist-vs-disengagement intra-Republican faction dynamic).
+- Cross-references BS-7 (energy markets; Gulf state economic exposure to conflict via oil-price impact and infrastructure vulnerability is the proximate leverage).
+- Cross-references BS-11 (MOU architecture; Pakistan-channel mediation concurrent with trilateral Qatar bridge as part of Gulf-aligned mediator architecture).
+- Cross-references BS-12 (PA-gap; Gulf state brake is a new external constraint on Trump A1 oscillation not previously modeled).
+- Cross-references BS-15 (first-mover architecture; Gulf state troika is now a five-actor architecture component, the first external-brake mechanism observed).
+- Cross-references BS-17 (Christian Zionist vector; Gulf state brake operated against §5.20 driver Day 81; future cycles will reveal whether this is recurring counter-vector).
+
+**Day 82 audit note:** Promoted from §5.25 synthesis addition. Existing BS inventory had no instrumentation for unaligned-middle principal autonomy; the reference layer (`tripolar-realignment-whitepaper.md`) carried the thesis but the operational layer (Appendix B) did not. This is the BS-16/BS-17 promotion pattern from Day 77 repeating at a sub-monthly cadence; reference-to-operational instrumentation gaps surface when synthesis adds a §5.x mechanism without simultaneous probe directive. Audit discipline strengthened: subsequent /revise operations should explicitly flag instrumentation gaps for next /audit consumption rather than deferring to staging.
 
 ---
 
@@ -769,6 +810,52 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 
 ---
 
+### PROBE-20: Gulf State Troika and Unaligned-Middle Pivot Capacity (BS-18 — NEW Day 82)
+
+**Frequency:** Weekly minimum; daily when Gulf state troika brake mechanism is active (currently active through May 20-21 window expiration); ad-hoc on Tier-1 events.
+
+**Target signal:**
+
+- **MBS-MBZ-Tamim joint public actions or statements.** Coordinated trilateral signaling (joint statements, simultaneous press conferences, shared talking points) on Iran, US, Israel, or regional security. Distinguish coordinated from coincidental.
+- **Saudi state media (SPA, Al Arabiya English) framing of US Iran posture.** Editorial line on Trump statements, US strike threats, deal progress. Tone shifts (supportive, conditional, critical).
+- **UAE state media (WAM, The National, Khaleej Times) framing.** Post-Barakah security posture; references to US protection adequacy; Iron Dome operational disclosure level.
+- **Qatari Al-Jazeera English editorial line on Iran 2026 negotiations.** Qatar's dual role (Gulf brake + US-Israel diplomatic bridge) creates two distinct editorial registers; track both.
+- **White House readouts of MBS/MBZ/Tamim calls.** Frequency, framing (consultation vs request vs warning), proximity to US military decision moments.
+- **State Department readouts of Gulf state engagement.** Substantive content vs ceremonial framing.
+- **Saudi-Iran direct or backchannel signals.** Hajj-logistics coordination (~30,000 Iranian pilgrims on Saudi soil through May 29); pilgrim-channel intelligence; any Araghchi-Saudi FM sideline contact.
+- **UAE-Iran direct or backchannel signals.** Post-Barakah attribution determinations; UAE willingness to identify (or not identify) Iranian responsibility; UAE-Iran economic re-engagement signals.
+- **Intra-Gulf divergence indicators.** Saudi-UAE divergence on Israel normalization (Saudi tied to Palestinian-state condition; UAE Abraham Accords participant); Saudi-Qatar relationship trajectory (post-Al-Ula reset; Qatar's mediating independence); UAE-Qatar competitive vs cooperative dynamics.
+- **Pakistan-Saudi-UAE-Qatar mediation architecture.** Division of labor between Pakistan (channel for Iranian texts), Qatar (US-Israel trilateral bridge), Saudi (Hajj-context backchannel host), UAE (Barakah-exposed sender of urgency signal). Whether other unaligned-middle states (Turkey, Indonesia, India) participate.
+- **Counter-vector mobilization.** Israeli right-wing coalition statements on Gulf state appeals; US §5.20 eschatological-coalition responses (Hegseth, Huckabee, CUFI) to Gulf state brake; Smotrich/Ben-Gvir reactions; whether maximalist-faction inside US executive counter-mobilizes against Gulf pressure.
+- **Brake-decay signals.** Trump statements on Gulf state expiration of patience; Gulf state public statements signaling brake withdrawal; second Barakah-class attack on Gulf infrastructure; intra-Iranian principal-level intransigence visible to Gulf interlocutors.
+
+**What changes the framework:**
+
+- MBS or MBZ public statement supporting US military action against Iran: Gulf state brake fractures; Fork A operationalization probability re-elevates; BS-18 status revision (brake mechanism is conditional, not durable).
+- Qatar formal mediation role announced (named diplomatic process, not ad-hoc trilateral call): Qatar diplomatic-bridge node formalizes; mediator architecture stabilizes; Fork B-multilateral via Gulf state pathway durability ↑.
+- Saudi-Iran direct meeting at principal level during Hajj window: backchannel formalization; structurally significant signal; cross-references BS-1a (Iranian decision architecture).
+- UAE official attribution of Barakah attack to Iran: escalation pathway opens; Gulf state brake mechanism stressed (UAE may become harder-line); BS-18 + BS-13 cross-reference activates.
+- Pakistan formal mediator status (named, not implicit): mediator architecture shift; Oman channel further degraded; cross-references BS-11.
+- Intra-troika split (any of MBS/MBZ/Tamim publicly diverging from joint position): brake mechanism fragility confirmed; threshold-decay indicator.
+- Second Trump-troika appeal scenario (recurring brake): mechanism is durable rather than one-off; BS-18 framework risk recalibration.
+- Other unaligned-middle state (Turkey, India, Indonesia) joins mediation or brake architecture: unaligned-middle pivot capacity broader than Gulf-specific; tripolar framework re-anchoring.
+- §5.20 eschatological-coalition explicit counter-mobilization against Gulf state brake (Huckabee, Hegseth, CUFI joint statement): maximalist faction defending against Gulf pressure; intra-Republican fracture intensity ↑ (cross-reference BS-17).
+
+**Sources:**
+
+- *Saudi:* SPA (Saudi Press Agency), Al Arabiya English, Arab News, Reuters Riyadh, FT Gulf desk, Brookings Gulf program.
+- *UAE:* WAM (Emirates News Agency), The National, Khaleej Times, Gulf News, Reuters Abu Dhabi, IISS Gulf analyses.
+- *Qatar:* Al Jazeera English, Qatar News Agency, The Peninsula, Brookings Doha Center.
+- *Israeli on Gulf:* Times of Israel, Haaretz, Jerusalem Post (Gulf desk coverage); Israel Hayom (right-wing framing of Gulf states).
+- *US official:* White House readouts (whitehouse.gov), State Department press briefings, Pentagon briefings on Gulf coordination.
+- *Iranian on Gulf:* Iran International (Saudi-Iran), Iran Wire (Hajj backchannel coverage), Press TV (Iranian state framing of Gulf positions).
+- *Analytical:* Brookings (Gulf program), IISS (Manama Dialogue tracking), CSIS Middle East, Atlantic Council Middle East, RUSI Gulf programs, Sinocism (Chinese signals on Gulf), Carnegie Middle East.
+- *Pakistani mediator track:* Pakistan PM and FM offices, Dawn (Pakistani daily), The News International, Munir (Army Chief) statements.
+
+**Cross-reference:** `reference/tripolar-realignment-whitepaper.md` §3.1 (tripolar plus unaligned-middle), §3.3 (US-pole internal contradiction), §5.1 (Saudi Red Sea pivot capex commitments and yuan-toll regime). Operational-layer companion to whitepaper's structurally-significant-unaligned-middle thesis.
+
+---
+
 ## Framework Revision Triggers
 
 The following events, if confirmed by two or more independent sources, require immediate Synthesis revision regardless of the weekly cycle:
@@ -816,47 +903,56 @@ The following events, if confirmed by two or more independent sources, require i
 | **BS-17 Tier-1 event: Huckabee policy statement contradicting State/DoD posture; major intra-Republican Israel split; Project Esther implementation milestone; CUFI lobbying surge on Iran/normalization/annexation** | **Intra-Republican fracture intensity recalibrated; US-Israel constraint disaggregation forces; BS-3/BS-14 spoiler-probability under reassessment** |
 | **Vance explicit public de-escalation statement (full BS-5 firing; goes beyond Day 77 "progress" partial)** | **Faction architecture revised; accelerationist veto path foreclosed; BS-17 fracture-intensity index updated** |
 | **Vahidi confirmed direct named statement on MOU/5-preconditions/Xi-framed arrangement** | **BS-1a apex visibility +20-30pp; BS-12 Vahidi-shaped PA-gap resolved either direction; Fork B durability reassessed** |
+| **Gulf state troika joint public statement supporting US military action against Iran** | **BS-18 brake mechanism fractures; Fork A operationalization re-elevates within 24-48h; Fork B-multilateral via Gulf pathway collapses to <5%** |
+| **Intra-troika split: MBS, MBZ, or Tamim publicly diverges from joint position** | **BS-18 fragility confirmed; brake decay threshold lower than current pricing; framework re-priced on Gulf state coordination ceiling** |
+| **Second Gulf state appeal to halt US military action (recurring brake)** | **BS-18 brake mechanism durable rather than one-off; Fork B-multilateral via Gulf pathway structural rather than contingent** |
+| **Qatar formal mediation role announced (named diplomatic process)** | **Qatar bridge node formalizes; mediator architecture stabilizes; BS-11 + BS-18 cross-reference; Pakistan-Oman-Beijing-Qatar quadrilateral** |
+| **Saudi-Iran principal-level meeting during Hajj window** | **Backchannel formalization; BS-1a + BS-18 cross-reference; cross-pole Saudi-Iran diplomatic geometry shift** |
+| **UAE official attribution of Barakah attack to Iran** | **BS-13 + BS-18 escalation pathway; Gulf state brake mechanism stressed under attribution pressure; Houthi-vs-Iran-direct attribution distinction operative** |
+| **Trump statement explicitly extending or rejecting Gulf state 2-3 day appeal beyond May 21** | **BS-18 brake decay observable; framework convergence on Fork A-vs-Fork B-multilateral resolution** |
+| **Other unaligned-middle state (Turkey, India, Indonesia) joins Iran 2026 mediation** | **BS-18 scope expansion; unaligned-middle pivot capacity broader than Gulf-specific; tripolar framework operational evidence accumulates** |
 
 ---
 
-## Confidence Architecture Summary (Day 77)
+## Confidence Architecture Summary (Day 82)
 
 | Blind Spot | Visibility | Framework Risk | Priority |
 |---|---|---|---|
 | BS-1a Iranian decision architecture | 65-70% | High | High |
-| **BS-1b Iranian political-economic transmission** | **10-15%** *(structurally opaque)* | **High-Critical** | **Critical** |
-| BS-3 Israeli internal politics | 50-55% | High | High |
-| BS-4 Chinese active support | 60-65% | Low-Med | Med (near-retirement candidate) |
+| **BS-1b Iranian political-economic transmission** | **10-15%** *(structurally opaque; 12 cycles dark)* | **High-Critical** | **Critical** |
+| **BS-3 Israeli internal politics** | **55-60%** *(↑5pp Day 82)* | **High** | **High** |
+| BS-4 Chinese active support | 60-65% | Low-Med | Med (near-retirement candidate; hold one more cycle) |
 | BS-5 US domestic | 60-70% / 5-15% | Med-High | High |
 | BS-6 Russian domestic constraints | 30-35% | Med-High | Med-High |
-| BS-7 Energy markets | 35-50% | High | High |
-| BS-8 IRGC factional structure | 55-60% | Med-High | High |
-| **BS-9 Russian siloviki cohesion and succession** *(ELEVATED)* | **30-40%** | **Med-High** | **Critical** |
-| BS-11 MOU architecture and focal points | 50-55% | High | High |
+| **BS-7 Energy markets** | **35-50%** | **High+** *(Day 82: Gulf nuclear-adjacent scope extension)* | **High** |
+| **BS-8 IRGC factional structure** | **55-60%** *(↑5pp Day 82; Zolfaghari vertex)* | **Med-High** | **High** |
+| **BS-9 Russian siloviki cohesion and succession** *(ELEVATED Day 77)* | **30-40%** | **Med-High** | **Critical** |
+| **BS-11 MOU architecture and focal points** | **55-60%** *(↑5pp Day 82; Pakistan channel + revised text)* | **High** | **High** |
 | BS-12 Principal-level ratification (asymmetric PA-gap; Vahidi-shaped) | 40-50% | High | High |
-| BS-13 Iranian residual capability | 40-50% | High | High |
+| **BS-13 Iranian residual capability** | **45-55%** *(↑5pp Day 82; Barakah operational evidence; Cooper T1 discount)* | **High** | **High** |
 | BS-14 Dispositional reading & power-shift perception | 40-50% | High | High |
-| **BS-15 First-mover under asymmetric lock-in** | **25-35%** | **Critical** | **Critical** |
+| **BS-15 First-mover under asymmetric lock-in** | **35-45%** *(↑10pp Day 82; US-side threshold operationally observed)* | **Critical** | **Critical** |
 | **BS-16 Eschatological multi-tradition convergence** *(NEW Day 77)* | **20-30%** | **Critical** | **Critical** |
-| **BS-17 Christian Zionist US policy vector disaggregation** *(NEW Day 77)* | **30-40%** | **High** | **High** |
+| **BS-17 Christian Zionist US policy vector disaggregation** *(NEW Day 77)* | **35-40%** *(↑5pp Day 82; §5.20 vs Gulf brake dynamic visible)* | **High** | **High** |
+| **BS-18 Gulf state troika / unaligned-middle pivot capacity** *(NEW Day 82)* | **25-35%** | **Critical** | **Critical** |
 
-**Critical BSs: 4 (BS-1b, BS-9, BS-15, BS-16).** One above the three-baseline; within the five-overextension threshold. The Day 77 audit cycle elevated BS-9 from unmodeled-placeholder to active monitoring on signal-cluster evidence; promoted BS-16 (multi-tradition convergence) from queued staging on reference-instrumentation discipline. These two additions reflect the framework's expansion into the Russia-pole and eschatological-coalition apparatus surfaces that prior cycles under-instrumented.
+**Critical BSs: 4 (BS-1b, BS-15, BS-16, BS-18).** Day 82 update: BS-9 reclassified from "Critical" framing (Day 77 audit text) to High priority per its actual Med-High framework-risk rating (table-row consistency correction; succession risk is real but operates on 5-year horizon, not driving CRITICAL-immediate scoring). BS-18 promoted to Critical on Day 82 §5.25 instrumentation gap. Critical count holds at 4, within the five-overextension threshold; one above the three-baseline. The Day 82 audit cycle promoted BS-18 (Gulf state troika) from §5.25 synthesis addition per reference-to-operational instrumentation check, following the BS-16/BS-17 promotion pattern established Day 77.
 
 **Common property of the four critical BSs:**
 - BS-1b: opacity about *internal economic transmission to Iranian decision-making* (binding on Iranian first-mover threshold).
-- BS-9: opacity about *Russian succession architecture stability* (binding on tripolar pole-stability under any Putin-departure mechanism).
-- BS-15: opacity about *which actor's break-threshold trips first under asymmetric pressure*.
+- BS-15: opacity about *which actor's break-threshold trips first under asymmetric pressure* (now extended to five-actor architecture post-Day 81).
 - BS-16: opacity about *multi-tradition trigger-event convergence multipliers* (binding on coalition-stack activation that current Iran-2026 forks do not price).
+- BS-18: opacity about *unaligned-middle pivot capacity as constraint on US military action timing* (binding on Fork A operationalization and Fork B-multilateral availability via Gulf state pathway).
 
-BS-1b and BS-15 are tightly coupled: BS-1b is the dominant component of the Iranian first-mover sub-threshold within BS-15. BS-9 and BS-16 are weakly coupled to BS-15 but operate on different time-horizons (BS-9 5-year succession; BS-16 event-driven Tier-1 firings).
+BS-1b and BS-15 are tightly coupled: BS-1b is the dominant component of the Iranian first-mover sub-threshold within BS-15. BS-18 is newly coupled to BS-15: the Gulf state troika brake operates as an external constraint on the US-side first-mover threshold inside the BS-15 joint distribution. BS-16 is weakly coupled to BS-15 but operates on event-driven timescale. BS-9 (now High not Critical) operates on the 5-year succession horizon and is structurally distinct.
 
-The framework's central thesis — constraint architecture narrows viable paths; players choose from what remains — operates most acutely at the first-mover phase now that the deal architecture is visible. The four critical BSs correspond to the framework's structural failure modes:
+The framework's central thesis (per `appendix/appendix-c-methodology.md`: materialist bargaining model with Bayesian updates over signal clusters; framework ranks options under constraint surface; actors select) operates most acutely at the first-mover phase now that the deal architecture and the Gulf state brake mechanism are both visible. The four critical BSs correspond to the framework's structural failure modes:
 - (a) Iranian coalition rupture from within (BS-1b transmission)
 - (b) one of US / Israel / Senate acts before Iran ruptures (BS-15 joint)
-- (c) Russian pole instability accelerates China-pole absorption regardless of Iran 2026 resolution (BS-9)
-- (d) multi-tradition Tier-1 trigger event activates coalition-stack that current forks do not price (BS-16)
+- (c) multi-tradition Tier-1 trigger event activates coalition-stack that current forks do not price (BS-16)
+- (d) Gulf state troika brake decays or fractures, removing the operative external constraint on US Fork A operationalization (BS-18)
 
-Paths (a) and (b) drive Iran 2026 fork resolution. Paths (c) and (d) operate as longer-horizon framework constraints that any synthesis revision must address.
+Paths (a), (b), and (d) drive Iran 2026 fork resolution within the immediate 30-day window. Path (c) operates as event-driven discontinuity that any synthesis revision must address. The longer-horizon BS-9 (Russian pole succession) operates on 5-year horizon and is not coupled to immediate Iran 2026 fork resolution but to the broader tripolar realignment trajectory.
 
 ---
 
