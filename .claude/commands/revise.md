@@ -16,6 +16,68 @@ deterministic transform of the internal, not a separate analysis.
 
 ---
 
+## Trigger Architecture
+
+Synthesis revision is **trend-driven by default**. Operational events feed annexes and audits; they do
+not by themselves justify a synthesis version increment. The trend tracker
+(`reference/strategic-trends.md`) is the multi-cycle anchor against which revision conditions are
+evaluated. This discipline exists to prevent recency bias from driving synthesis version creep; the
+canonical failure mode is the Day 77 BS-12 over-read (logged in the trend tracker's Drift Log
+2026-05-20), in which single-cycle operational evidence drove a mechanism revision that contradicted a
+VALIDATED trend.
+
+### Triggers (any one is sufficient to justify revision)
+
+| Trigger | Description |
+|---|---|
+| **Trend state transition** | Any active trend in `strategic-trends.md` moves between VALIDATED, CONTESTED, DISCONFIRMED, or PENDING since the last synthesis version |
+| **Pending trend promoted to VALIDATED with framework-shape implications** | A new structural prediction the current synthesis hasn't articulated (T8/T9 Day 84 were this category) |
+| **Reference apparatus change** | New whitepaper added to `reference/`; existing reference doc substantively revised; methodology correction in `appendix/appendix-c-methodology.md` |
+| **Reference-to-operational instrumentation gap closure** | Operational evidence reveals an unanchored reference prediction. Canonical pattern: BS-16/17 Day 77; BS-18 Day 82; T10/T11 Day 84. These are *trend-derived* even when surfaced by operational events, because the reference apparatus already carried the prediction |
+| **Genuinely novel structural-variable introduction** | A new Layer-4/Layer-5 mechanism or new actor class that has no home in existing trends or reference. Apply sparingly; default is to log as trend candidate first and defer one cycle |
+| **Staged manifest** | Any pending change manifest in `synthesis/staging/` represents a pre-validated structural revision queued for absorption |
+
+### Anti-triggers (do NOT justify revision on their own)
+
+| Anti-trigger | Why |
+|---|---|
+| Annex count alone (5+ SITREPs accumulated) | Count is not a structural threshold; produces version creep without architectural justification |
+| Single-cycle big event without trend implication | Annex/audit material; not synthesis-weight |
+| BS visibility deltas without trend movement | The audit owns these via `appendix/appendix-b-blind-spots.md` |
+| Probability-matrix shifts within existing forks | SITREPs handle this in their Section 5 / matrix table |
+| Operational-mechanism revisions that don't change reference predictions | Recency-bias risk; the Day 77 BS-12 apex-veto over-read is the canonical failure case |
+
+### Trigger evaluation (mandatory pre-flight gate)
+
+Before doing any other work, evaluate the triggers above against the period since the last synthesis
+version:
+
+1. Read `reference/strategic-trends.md`.
+2. Read the current synthesis's Version Notes.
+3. Read `synthesis/staging/` directory listing.
+4. Diff trend states since the last synthesis version; identify any transitions, promotions, or new
+   PENDING trends added.
+5. Identify any new reference files or substantive reference revisions since last synthesis (use
+   `git log --since=<last-synthesis-date> reference/`).
+
+**Decision rule:**
+
+- **One or more triggers met:** proceed to Pre-flight and draft. Document which triggers fired in
+  Version Notes.
+- **Zero triggers met, only anti-triggers present:** **defer revision.** State explicitly which
+  triggers were evaluated and why none fired. Annex accumulation continues; the next /audit cycle is
+  the next opportunity for a trigger to fire.
+- **Ambiguous case (novel mechanism that might be a trend candidate):** record the candidate in
+  `strategic-trends.md` Pending Trend Candidates table and defer one cycle; promote to active trend
+  or absorb into synthesis on next cycle when evidence cumulates.
+
+The discipline this enforces: synthesis revision **lags** the audit layer; audit owns trend-state
+maintenance; revision absorbs validated transitions. This protects against the recency-bias failure
+mode that the trend tracker exists to prevent at the audit level, and applies the same protection one
+level up at the synthesis level.
+
+---
+
 ## Pre-flight
 
 Load all of the following before writing a single word. All paths are relative to the repo root.
@@ -79,7 +141,9 @@ Confirm both writes succeeded. Never overwrite an existing synthesis file.
 
 ### Annex chain scan — do this before drafting
 
-Read each annex's Section 2 (Framework Validation), Section 3 (Framework Revisions Required), and
+These thresholds govern what to **extract** from the annex chain once revision is triggered; they do
+not by themselves trigger revision (see Trigger Architecture above). Once a valid trigger has fired,
+read each annex's Section 2 (Framework Validation), Section 3 (Framework Revisions Required), and
 Section 4 (Framework Additions) in sequence. Build a running tally:
 
 | Signal | Threshold | Treatment |

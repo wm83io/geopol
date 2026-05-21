@@ -350,8 +350,10 @@ Conventions:
 1. `/sweep` → `probes/sweeps/sweep-YYYY-MM-DD.json`
 2. `/sitrep` → `sitreps/day-N.md` (consumes the day's sweep)
 3. `/audit` → patch `appendix/appendix-b-blind-spots.md` (monthly or on trigger)
-4. `/revise` → `synthesis/synthesis-vX-Y.md` + external (on framework rotation, 5+ annex
-   accumulation, or staging-manifest trigger condition met)
+4. `/revise` → `synthesis/synthesis-vX-Y.md` + external (trend-driven; see `.claude/commands/revise.md`
+   Trigger Architecture for evaluation rules; common triggers: trend state transition, pending-trend
+   promotion with framework-shape implications, reference apparatus change, reference-to-operational
+   instrumentation gap closure, staged manifest. Annex count alone is **not** a trigger.)
 5. `/blog` → external transform (paired with `/revise`, or standalone for republication)
 
 Target: 0800 ET daily SITREP.

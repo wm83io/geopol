@@ -15,7 +15,7 @@ The trend tracker is not a prediction market. It is a calibration anchor.
 - **`/sweep`:** read at pre-flight. For each fired trigger, identify which trend the finding advances, holds, or contradicts. Contradictions of a VALIDATED trend on single-cycle evidence alone are flagged but do not propose mechanism revision; multi-cycle confirmation required (defined as 2+ independent cycles or 2+ independent source clusters within one cycle).
 - **`/sitrep`:** read at pre-flight. The Central Thesis Check sub-block must cite which trends moved this cycle and the direction. If no trend moved, state so explicitly.
 - **`/audit`:** read at pre-flight. Update trend states based on cumulative probe/SITREP data since last audit. Log any new drift events. Promote pending trends to validated when threshold is met.
-- **`/revise`:** read at pre-flight. Major synthesis-version increment requires re-validation of every trend state.
+- **`/revise`:** trend transitions are themselves the **primary trigger** for synthesis revision; operational accumulation alone is insufficient (see `.claude/commands/revise.md` Trigger Architecture). Read at pre-flight to evaluate which triggers fired since the last synthesis version. Major synthesis-version increment requires re-validation of every trend state.
 
 ---
 
