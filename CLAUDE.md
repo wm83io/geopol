@@ -87,6 +87,7 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 
 | File | Purpose |
 |---|---|
+| `strategic-trends.md` | **Trend baseline anchor.** Long-term thesis vectors with VALIDATED/CONTESTED/DISCONFIRMED/PENDING state. Cross-checked at every slash command. Read FIRST; every operational finding must be classified against current trend states |
 | `costly-signaling-framework.md` | Fearon-Slantchev theoretical apparatus |
 | `quality-sources.md` | Tiered source ladder (authoritative on conflict) |
 | `tripolar-realignment-whitepaper.md` | Structural-reordering thesis |
@@ -95,6 +96,8 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `tools/stage-1-forecasting.md` | Stage 1 analytical tools |
 | `tools/stage-2-hysteresis.md` | Stage 2 hysteresis tools |
 | `tools/stage-3-phase-transition.md` | Stage 3 phase-transition tools |
+
+**Appendix C methodology** (`appendix/appendix-c-methodology.md`) is the synthesis-level authority on the framework's methodological provenance (Fearon, Powell, Putnam, Jervis, Pierson, Engels/Cox/Polanyi/Kindleberger, Schelling, McAdam-Tarrow-Tilly). Read on synthesis revisions and whenever voice discipline is in question. Cross-cutting voice rule: the framework predicts dominant strategies under joint constraints; it does not predict selection. Substrate-as-agent voice is a falsification of the model. T7 in `strategic-trends.md` tracks methodology-discipline state.
 
 ### Trigger-read (consulted on activation)
 
@@ -107,6 +110,14 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 
 ### Reference probe cadence
 
+- **Every task (Trend baseline FIRST):** read `reference/strategic-trends.md` in full. The trend
+  state table is the multi-week anchor against which single-cycle operational findings are
+  classified. For each finding the task generates, name the trend it advances, holds, or
+  contradicts. A trend contradiction on single-cycle evidence alone is flagged but does NOT
+  justify a BS mechanism revision; multi-cycle confirmation is required (defined as 2+
+  independent cycles or 2+ independent source clusters within one cycle). This rule exists
+  because the Day 77 → Day 83 sequence demonstrated that single-cycle ISW analytical evidence
+  can produce mechanism over-reads that the reference apparatus already predicted against.
 - **Every task (Core tier):** list `reference/` Core files. Diff against last touch via
   `git log -1 --format=%H reference/`. Read new or modified Core files in full before drafting.
 - **Every task (Trigger-read tier):** scan activation conditions in the Trigger-read table.
@@ -114,16 +125,26 @@ Stale internal models of methodology produce analysis inconsistent with the curr
   Otherwise, skip. Default skip; cost of false-negative is captured by the instrumentation check.
 - **Weekly floor:** read every Core file once per week even if untouched. Compounding small
   updates miss the modified-since threshold but still drift methodology. Trigger-read files
-  read on a monthly floor unless activation conditions fire.
+  read on a monthly floor unless activation conditions fire. `strategic-trends.md` is updated
+  quarterly minimum plus on every reference-layer revision or trend-state transition.
 - **On confusion:** if a finding does not map cleanly to existing analytical lenses, re-read
   `reference/` (both tiers) before inventing a new lens. The lens probably exists.
 - **Reference-to-operational instrumentation check:** when synthesis is revised, verify that
   every reference-layer mechanism (both tiers) has a corresponding probe or blind spot in the
-  operational layer. Gaps are scope-expansion items. (BS-16 eschatological coalition is the
-  canonical case: apparatus existed in `god-and-the-machine.md`; operational layer did not
-  probe it until v3.1. The Day-77 eschatology expansion now adds BS-New-1 and BS-New-2 against
-  the three trigger-read files; both queued in `appendix/staging/bs-additions-2026-05-14.md`
-  for next `/audit`.)
+  operational layer AND a trend entry in `strategic-trends.md`. Gaps are scope-expansion items.
+  (BS-16 eschatological coalition is the canonical case: apparatus existed in
+  `god-and-the-machine.md`; operational layer did not probe it until v3.1. BS-18 unaligned-middle
+  is the second case: apparatus existed in `tripolar-realignment-whitepaper.md` for months
+  before Day 82 promoted it. The trend tracker prevents future occurrences by surfacing the
+  reference-to-operational gap as an audit-cadence visibility item rather than a reactive
+  promotion after a forcing event.)
+- **Trend-vs-operational drift discipline:** when an operational-layer finding contradicts a
+  VALIDATED trend, the cost-benefit favors holding the trend baseline absent multi-cycle
+  confirmation. Recency bias on single-cycle empirical evidence systematically over-weights
+  against multi-week reference baselines. The Day 77 BS-12 "apex-veto" mechanism revision was
+  the canonical instance: ISW analytical evidence (single-source tier-3) was promoted to
+  mechanism revision against T3 Fearon-Slantchev prediction; Day 83 Vahidi silence-break
+  confirmed the trend, not the revision. Drift events are logged in `strategic-trends.md`.
 
 ---
 
@@ -282,6 +303,22 @@ Conventions:
 - Do not aggregate Fork D' into a kinetic-escalation composite.
 - Do not report a derived composite without the underlying primitives.
 - Do not let derived composites become analytical objects. They are headlines, not drivers.
+- **Do not declare a BS mechanism revised when the proposed reading contradicts a VALIDATED trend
+  in `reference/strategic-trends.md` on single-cycle evidence alone.** Multi-cycle confirmation
+  required (2+ independent cycles or 2+ independent source clusters in one cycle). Prefer the
+  trend baseline; the operational divergence is noise until proven otherwise. The Day 77 BS-12
+  apex-veto over-read against T3 is the canonical failure case; Day 83 corrected it. Log every
+  drift event in the trend tracker.
+- **Do not let recency bias drive mechanism revisions.** Single-cycle ISW analytical evidence
+  (tier-3 single-source) cannot override reference-apparatus predictions without multi-cycle
+  empirical confirmation. The bar for declaring a trend DISCONFIRMED is high; the bar for
+  declaring it CONTESTED is multi-cycle pattern, not 48-hour news.
+- **Do not use substrate-as-agent voice.** Per Appendix C, the framework predicts dominant
+  strategies under joint constraints; it does not predict selection. Forbidden subjects of
+  choice verbs: "the architecture," "the constraint set," "the framework" (when paired with
+  intention-verbs), "the substrate." Required: actors (Trump executive, Vahidi, Netanyahu, IDF
+  leadership) as subjects of choice verbs; constraints as modifiers. T7 in `strategic-trends.md`
+  tracks this discipline.
 
 **Operational:**
 - Do not skip the `reference/` probe at task start. Methodology drift is silent.

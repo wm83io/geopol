@@ -20,15 +20,28 @@ deterministic transform of the internal, not a separate analysis.
 
 Load all of the following before writing a single word. All paths are relative to the repo root.
 
-1. **Current synthesis:** read highest-versioned file in `synthesis/`
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` FIRST. A revision is a
+   re-validation event: every active trend must be re-assessed against the cumulative
+   SITREP/sweep evidence since last revision. Trend states feed both Version Notes (which
+   trends moved across this revision interval) and the Methodological Note (which trends
+   anchor the framework's voice discipline). For a major-version increment, every trend
+   state must be re-validated explicitly; for a minor-version increment, only trends touching
+   the manifest-listed mechanisms.
+2. **Appendix C methodology:** read `appendix/appendix-c-methodology.md` in full. The synthesis's
+   Methodological Note paragraph is a deterministic transform of Appendix C; voice discipline
+   throughout the revision is governed by it. If a candidate revision drifts toward
+   substrate-as-agent voice, the candidate is wrong; rewrite with agent as subject and
+   constraint as modifier.
+3. **Current synthesis:** read highest-versioned file in `synthesis/`
    This is the version being superseded.
-2. **All SITREPs since last synthesis revision:** read all files in `sitreps/`
+4. **All SITREPs since last synthesis revision:** read all files in `sitreps/`
    in chronological order. The annex chain is the authoritative record of framework drift.
-3. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
-4. **All probe sweeps since last revision:** read all files in `probes/sweeps/`
-   in chronological order.
-5. **Output schema:** read `probes/probe-schema.md`
-6. **Staging directory:** check `synthesis/staging/` for any pending change
+5. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
+6. **All probe sweeps since last revision:** read all files in `probes/sweeps/`
+   in chronological order. The `reference_trends` field of each sweep is the trend-cross-check
+   record; aggregate across the revision interval to identify trends that moved or held.
+7. **Output schema:** read `probes/probe-schema.md`
+8. **Staging directory:** check `synthesis/staging/` for any pending change
    manifests before drafting. If files exist, read them all in full. These are pre-staged
    structural revisions that must be incorporated into the new synthesis version — they are
    not optional inputs. A manifest in staging takes precedence over annex-derived inference
@@ -43,6 +56,21 @@ Load all of the following before writing a single word. All paths are relative t
    After a successful synthesis write, move consumed manifests to `synthesis/staging/archive/`
    — do not delete them.
    If staging is empty, proceed normally.
+
+### Trend re-validation discipline at revision
+
+For every active trend in `strategic-trends.md`:
+
+- Cite the cumulative evidence across the revision interval (SITREPs + sweeps).
+- Confirm or transition the state per the rules in the trend tracker.
+- If state transitions, the synthesis's Version Notes must mention the transition explicitly.
+- If a reference-to-operational instrumentation gap exists (trend has no BS or PROBE), flag for
+  the next /audit and note in Version Notes.
+- If voice-discipline drift occurred in any SITREP since last revision, log in the trend
+  tracker's drift log and address in Version Notes.
+
+A revision is the only place trend states transition at synthesis-level scope. Audit-level
+transitions are tactical; revision-level are confirmatory.
 
 After producing both outputs:
 - Write internal synthesis to `synthesis/synthesis-v{X-Y}.md`

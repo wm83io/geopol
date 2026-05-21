@@ -12,16 +12,21 @@ Composes the daily annex update to the base synthesis. Output is a delta documen
 
 Load in order before drafting. All paths are relative to the repo root.
 
-1. **Anchor:** read highest-versioned file in `synthesis/`
-   (e.g. `synthesis-v3-0.md`). This is the delta target. Do not rewrite.
-2. **Last annex:** read highest day-number file in `sitreps/`
-   (e.g. `day-70-pm.md`). Establishes rolling baseline.
-3. **Probe sweep:** read most recent file in `probes/sweeps/`
-   (e.g. `sweep-2026-05-09.json`). Primary input for sections 2-4.
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` FIRST. The trend state table
+   anchors the SITREP's Central Thesis Check sub-block and disciplines every Section-3 mechanism
+   revision claim against the multi-week reference baseline.
+2. **Anchor:** read highest-versioned file in `synthesis/`
+   (e.g. `synthesis-v4-0.md`). This is the delta target. Do not rewrite.
+3. **Last annex:** read highest day-number file in `sitreps/`
+   (e.g. `day-81.md`). Establishes rolling baseline.
+4. **Probe sweep:** read most recent file in `probes/sweeps/`
+   (e.g. `sweep-2026-05-20.json`). Primary input for sections 2-4. The sweep's
+   `reference_trends` field carries trend cross-check results from the sweep step; consume those
+   directly rather than re-classifying.
    If no sweep exists for current cycle, flag at top of SITREP and proceed with reduced confidence. Do not silently skip.
-4. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
+5. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
    for section 6 probe status.
-5. **Output schema:** read `probes/probe-schema.md`
+6. **Output schema:** read `probes/probe-schema.md`
    for probe-to-framework variable mapping.
 
 After drafting, write output directly to `sitreps/day-{N}.md` using the Write tool.
@@ -184,8 +189,13 @@ Where data forced changes. For each revision:
 - Prior assumption/probability
 - What data broke it
 - Revised position
+- **Trend cross-check (MANDATORY):** name which trend in `reference/strategic-trends.md` the
+  revision aligns with or contradicts. If a proposed mechanism revision contradicts a VALIDATED
+  trend on single-cycle evidence alone, downgrade to "FLAG (NEXT AUDIT)" pending multi-cycle
+  confirmation; do not flag as TRIGGER FIRED. The Day 77 BS-12 apex-veto over-read against T3 is
+  the canonical failure case; this rule blocks recurrence.
 
-If the probe trigger digest contains immediate-urgency items, they go here, flagged **TRIGGER FIRED** with probe source.
+If the probe trigger digest contains immediate-urgency items, they go here, flagged **TRIGGER FIRED** with probe source. The sweep step 7 will have already classified each trigger against the trend table; carry that classification forward.
 
 If nothing requires revision, state so explicitly. Do not invent revisions.
 
@@ -232,7 +242,7 @@ Four H3 sub-blocks, in fixed order:
 ### Signals That Force Immediate Revision
 ```
 
-- **Central Thesis Check.** One short paragraph on whether the v4.0 central thesis (materialist bargaining model: layered constraints conditioning principals' decision sets; Bayesian updates over signal clusters tightening priors on dominant strategies) is holding, holding with structural elaboration, drifting, or breaking. Constrained-agent voice only.
+- **Central Thesis Check.** One short paragraph on whether the v4.0 central thesis (materialist bargaining model: layered constraints conditioning principals' decision sets; Bayesian updates over signal clusters tightening priors on dominant strategies) is holding, holding with structural elaboration, drifting, or breaking. Constrained-agent voice only. **MANDATORY trend-state lines:** name which trends in `reference/strategic-trends.md` this cycle advanced, held, contradicted, or closed-as-pending-gap. If no trend moved, state so explicitly. Cite trend by ID (T1-T7) and direction; the sweep's `reference_trends` field carries the per-trigger classifications and aggregates to the SITREP-level summary here.
 - **Forking Tree (72-Hour Decision Path).** The mermaid Chart C. Decision-point nodes use `{Question}`; terminal-outcome nodes use `[Outcome]` with probabilities. Each fork names the actor whose selection is contingent.
 - **Operative Judgment.** Prose. 2-4 paragraphs. This is where prose earns its place; do not compress it to bullets. Single most important thing the framework reads about the next 48-72 hours: which signal clusters tightened or loosened which priors, and which option moved from sub-dominant to dominant for which named actor under which joint constraints.
 - **Signals That Force Immediate Revision.** Bulleted list, terminal. 5-10 named signals (specific events, not categories) that would force the next SITREP to materially revise the matrix.

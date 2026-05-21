@@ -15,13 +15,16 @@ consumed by the SITREP composer and auditor skills.
 
 Load into working context before any probe runs. All paths are relative to the repo root.
 
-1. **Anchor synthesis:** read highest-versioned file in `synthesis/`
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` in full FIRST. The trend
+   state table is the multi-week anchor for this cycle's findings. Each fired trigger this
+   sweep produces must be classified against current trend states at Step 6.
+2. **Anchor synthesis:** read highest-versioned file in `synthesis/`
    Record current probability values and assumption states — probes are deltas against this baseline.
-2. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
+3. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
    This is the authoritative probe spec. Execute only probes listed here.
-3. **Last SITREP:** read highest day-number file in `sitreps/`
+4. **Last SITREP:** read highest day-number file in `sitreps/`
    Establishes current operational baseline.
-4. **Output schema:** read `probes/probe-schema.md`
+5. **Output schema:** read `probes/probe-schema.md`
    and `probes/probe-schema-json.json` — governs output format.
 
 After completing the sweep, write output to `probes/sweeps/sweep-{YYYY-MM-DD}.json` using the Write tool.
@@ -96,6 +99,36 @@ If a probe fires a framework revision trigger: flag immediately, do not defer. R
 Appendix A revision and assign urgency (`immediate` / `next cycle` / `next audit`). The auditor skill
 consumes this via the trigger digest.
 
+### Step 7 — Reference-trend cross-check (MANDATORY for every fired trigger)
+
+For every probe that fires (status `fired` or trigger digest entry generated), name which trend in
+`reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply the discipline:
+
+- **Finding advances a VALIDATED trend:** standard trigger digest entry; no special handling.
+- **Finding holds a VALIDATED trend:** standard trigger digest entry; note the consistency in the
+  finding card's `conflict_notes` field if surprise was high or counter-hypothesis was live.
+- **Finding contradicts a VALIDATED trend on single-cycle evidence:** flag in trigger digest as
+  `urgency: next_audit` regardless of operational urgency; require multi-cycle confirmation before
+  proposing the BS mechanism revision the contradiction would imply. Log the divergence in the
+  finding card's `conflict_notes` with a one-line citation of which trend and which reference
+  source predicted the opposite. Do NOT propose mechanism revisions to Appendix A on the basis
+  of single-cycle contradiction of a VALIDATED trend.
+- **Finding contradicts a VALIDATED trend on multi-cycle evidence (this cycle + at least one prior
+  cycle):** elevate to `urgency: immediate`; propose the trend-state transition (VALIDATED →
+  CONTESTED) in the trigger digest; this becomes an audit-cycle item that may also justify a BS
+  mechanism revision.
+- **Finding closes a PENDING-trend instrumentation gap:** flag in trigger digest for audit
+  promotion of the trend to VALIDATED.
+
+The rule exists because the Day 77 → Day 83 sequence demonstrated that single-cycle ISW analytical
+evidence (tier-3 single-source) produced a BS-12 "apex-veto" mechanism revision against T3
+Fearon-Slantchev prediction; Day 83 Vahidi silence-break confirmed the trend, not the revision.
+Six cycles of mis-stated PA-gap mechanism resulted. This step blocks the failure mode.
+
+Add a `reference_trends` array to the sweep JSON's `sweep_metadata` block listing the trends
+relevant to this cycle and the cycle's net effect on each (`advance` / `hold` / `contradict_single`
+/ `contradict_multi` / `close_pending_gap`).
+
 ---
 
 ## Probe Rotation and Frequency
@@ -140,10 +173,22 @@ Produce three artifacts after all probes complete. Formats are defined in `probe
 
 ## Calibration Check
 
-After all cards are written, ask: does the aggregate probe output suggest the framework's central thesis
-is **holding**, **drifting**, or **breaking**?
+After all cards are written, ask two questions in order:
+
+1. **Trend-state question:** does the aggregate sweep output suggest any trend in
+   `reference/strategic-trends.md` should transition state (VALIDATED ↔ CONTESTED ↔ DISCONFIRMED,
+   or PENDING → VALIDATED)? Single-cycle evidence does not justify transitions; multi-cycle
+   pattern does. If a transition is warranted, flag for the next /audit run, do not enact it
+   inside the sweep.
+2. **Thesis question:** does the aggregate probe output suggest the framework's central thesis
+   is **holding**, **drifting**, or **breaking**?
 
 - **Holding / drifting:** proceed to output artifacts.
 - **Breaking:** do not overwrite the framework from within the runner. Flag the break, produce the
   trigger digest, and escalate to a synthesis revision request. The runner surfaces signal; it does not
   rewrite the framework.
+
+The trend-state question precedes the thesis question because trend states are the multi-week
+anchors against which thesis-level "drift" or "break" claims must be measured. A single-cycle
+break read that contradicts every VALIDATED trend is almost certainly recency bias, not a thesis
+break.
