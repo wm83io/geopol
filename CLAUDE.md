@@ -90,8 +90,8 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `strategic-trends.md` | **Trend baseline anchor.** Long-term thesis vectors with VALIDATED/CONTESTED/DISCONFIRMED/PENDING state. Cross-checked at every slash command. Read FIRST; every operational finding must be classified against current trend states |
 | `costly-signaling-framework.md` | Fearon-Slantchev theoretical apparatus |
 | `quality-sources.md` | Tiered source ladder (authoritative on conflict) |
-| `tripolar-realignment-whitepaper.md` | Structural-reordering thesis |
-| `mosaic-and-octopus-doctrine-whitepaper.md` | Iranian deterrence/posture doctrine |
+| `summaries/tripolar-realignment-summary.md` | Structural-reordering thesis (distilled). Full whitepaper is trigger-read |
+| `summaries/mosaic-octopus-summary.md` | Iranian / Israeli doctrine (distilled). Full whitepaper is trigger-read |
 | `god-and-the-machine.md` | US eschatological-coalition apparatus (BS-16 source) |
 | `tools/stage-1-forecasting.md` | Stage 1 analytical tools |
 | `tools/stage-2-hysteresis.md` | Stage 2 hysteresis tools |
@@ -107,6 +107,8 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `eschatology-islam-v1.0.md` | Mahdist invocation; Saudi religious posture; Najaf succession; HTS theological signaling; jihadi-Salafi attack with eschatological framing |
 | `eschatology-intersection-matrix.md` | 2+ tradition convergence event; constraint-layer revision touching religious-coalition variables |
 | `russia-pole-architecture.md` | §9.3 revision; any BS-9.x fire; SITREP touching Russia pole; tripolar realignment discussion |
+| `tripolar-realignment-whitepaper.md` | Major-version synthesis touching §5/§6 structural-trends architecture; pole-architecture revisions; Trajectory-C trigger events; deep prose work on aggregation theory or polycrisis. Summary covers operational reads |
+| `mosaic-and-octopus-doctrine-whitepaper.md` | Doctrinal-revision events; faction-level decision-making analysis (Quds/Aerospace/Artesh divergence); post-conflict doctrinal-trajectory work; BS-15 first-mover deep resolution. Summary covers operational reads |
 
 ### Reference probe cadence
 
