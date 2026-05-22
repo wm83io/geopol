@@ -354,9 +354,18 @@ synthesis-v{N}.md                      synthesis-v{N}-external.md
 
 Version Notes section            →     stripped
   (includes "Triggers Fired"
-   blockquote header)
+   blockquote header — Triggers
+   are procedural; trends are
+   substantive and surface
+   separately as cornerstone)
 Methodological Note paragraph    →     stripped
-Trend State Snapshot table       →     stripped
+Trend State Snapshot table       →     translated to
+                                       "Structural Trends" section,
+                                       positioned cornerstone (between
+                                       TL;DR and Body). T-N labels
+                                       stripped; states translated
+                                       to plain-language; Δ column
+                                       preserved as substance
 "v2.5 supersedes v2.0"           →     stripped
 PROBE-N references               →     stripped
 BS-N / Appendix B references     →     stripped
@@ -415,16 +424,17 @@ Run the transform table above against the internal. Result is a single coherent 
    - Anything with `constraints choose / constraints engineer outcomes`
 
 2. **Italicized framing note** — date, day count, one-sentence framing of what this is
-3. **TL;DR** (blockquote) — central thesis + dominant trajectory + key shift since prior post, ~3-5 sentences
-4. **Body** — natural section headers, narrative arc: Frame → Operational → Markets → Constraint Architecture → External Players → Structural Mechanisms → Outcome Table → Forking Analysis → Synthesis → Indicators
-5. **Outcome architecture table** — full matrix with `vs prior` direction column
-6. **Forking analysis** — dominant trajectory + tail branches, with conditional probability structure where applicable
-7. **Italicized closing line** — single sentence stating the equilibrium under current constraints, with the actor whose selection remains contingent named or implicit. Substrate-as-agent failures here propagate widely because the post is shared and quoted; treat with the same discipline as the central thesis.
+3. **TL;DR** (blockquote) — central thesis + dominant trajectory + key shift since prior post, ~3-5 sentences. **Required: TL;DR must reference the structural-trends architecture explicitly** (one sentence positioning the trends as the framework's cornerstone, e.g., "The framework operates around a small set of multi-cycle structural predictions; this cycle's reading is anchored in the following trend states.").
+4. **Structural Trends** — **cornerstone section**, positioned immediately after TL;DR and before the main Body. Translated from the internal §2b Trend State Snapshot. Brief framing paragraph (2-3 sentences) explaining that trends are the multi-cycle structural predictions anchoring the framework, then a table with three columns: **Trend** (plain-language statement; no T-N label, no academic-citation shorthand), **Direction** (plain-language state: "Holding" = VALIDATED held; "New, validated" = pending-to-VALIDATED promotion this cycle; "Contested" = CONTESTED; "Pending" = PENDING; "Pending-near" = approaching promotion threshold; "Disconfirmed" = rare), **Δ since last update** (one-line substantive movement: what happened, what cumulated, what was promoted or added). T-N labels and internal jargon stripped per Transform table; substance preserved. Acceptable label-translation pattern: T1 → "Tripolar reordering with a structurally significant unaligned middle"; T3 → "Apex public-maximalism plus mid-tier private negotiation (two-level structure)"; T8 → "Israeli pre-emption incentive amplifies as deal becomes more credible"; T9 → "Stage-2 lock-in of executive-bypass mechanisms"; T10 → "Russia degrades from independent secondary pole to China-junior"; T11 → "International-order phase-transition (multiplex vs bipolar vs tripolar)". The substantive prediction is what readers must see; the internal label is not. Pending Trend Candidates near promotion threshold may appear as italicized footnote below the table.
+5. **Body** — natural section headers, narrative arc: Frame → Operational → Markets → Constraint Architecture → External Players → Structural Mechanisms → Outcome Table → Forking Analysis → Synthesis → Indicators. **The Body should cross-reference Structural Trends substantively** (e.g., when discussing Israeli pre-emption probability, name the amplifier-trend in plain language; when discussing Iranian apex position, name the two-level structure trend in plain language). Trends are the analytical scaffolding; sections cite the scaffolding.
+6. **Outcome architecture table** — full matrix with `vs prior` direction column
+7. **Forking analysis** — dominant trajectory + tail branches, with conditional probability structure where applicable
+8. **Italicized closing line** — single sentence stating the equilibrium under current constraints, with the actor whose selection remains contingent named or implicit. **Encouraged: closing line names one or more active trends in plain language as the cornerstone the equilibrium is read against.** Substrate-as-agent failures here propagate widely because the post is shared and quoted; treat with the same discipline as the central thesis.
 
 **Style guardrails:**
 
 - No em-dashes anywhere. Use hyphens, semicolons, colons. (Non-negotiable.)
-- No internal jargon: no "PROBE-N," "BS-N," "Appendix A," "Appendix B," "v2.5," "Validated/Revisions/Additions"
+- No internal jargon: no "PROBE-N," "BS-N," "T-N" (trend labels), "Appendix A," "Appendix B," "v2.5," "Validated/Revisions/Additions." Trend labels are stripped; trend substance is preserved in the Structural Trends section in translated plain-language form per Required structure §4.
 - Self-contained: a reader who never saw the prior version should follow the argument fully
 - Tables wherever comparison or scannability helps (constraint layers, outcomes, indicators)
 - Bold inline emphasis for the analytical hinges, not headers
@@ -440,6 +450,7 @@ Run the transform table above against the internal. Result is a single coherent 
 - The central thesis in its current formulation
 - Quotations and named-source citations
 - Specific numerical claims ($118 Brent, $25B war cost, etc.)
+- **Structural trends as substance.** Trend labels (T1, T8, etc.) are stripped; the underlying multi-cycle structural predictions are preserved in plain-language form in the cornerstone Structural Trends section. The cornerstone positioning is itself part of the substance: the external version communicates that the framework operates around a small set of multi-cycle structural predictions, not just around cycle-by-cycle operational events.
 
 Stripping is *scaffolding only*. The argument is identical; only the bookkeeping is removed.
 
