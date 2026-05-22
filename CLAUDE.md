@@ -111,6 +111,7 @@ Stale internal models of methodology produce analysis inconsistent with the curr
 | `tripolar-realignment-whitepaper.md` | Major-version synthesis touching §5/§6 structural-trends architecture; pole-architecture revisions; Trajectory-C trigger events; deep prose work on aggregation theory or polycrisis. Summary covers operational reads |
 | `mosaic-and-octopus-doctrine-whitepaper.md` | Doctrinal-revision events; faction-level decision-making analysis (Quds/Aerospace/Artesh divergence); post-conflict doctrinal-trajectory work; BS-15 first-mover deep resolution. Summary covers operational reads |
 | `oil-price-geostrategy.md` | Brent/WTI as geostrategic variable. Oil-price mechanics, actor transmission table, S/O/T prediction framework (Colgan petro-aggression, Kilian decomposition, Hamilton approval mechanism). Activate on: Brent >$90 or <$65; SPR draw rate; Brent-WTI spread; Urals price; Chinese SPR drawdown; ECB path; OPEC+ signaling; Lloyd's Hormuz insurance; shadow-fleet volume; tanker AIS |
+| `paine-doctrine-iran-application.md` | Death-ground / war-termination mechanics (Paine). Activate on: US targeting of named Iranian principals (P-DG); Iranian terms hardening post-strike (P-DG2); PA-gap information-pathology signals — purges near apex, accurate-advisor removal (P-INFO); proxy network drawdown (P-OVEX); US strategy shift from peripheral to ground-force commitment (P-CHEMO); aim-class determination (limited vs unlimited Iranian demands, P-AIM) |
 
 ### Reference probe cadence
 

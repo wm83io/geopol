@@ -7,6 +7,7 @@
 *Audit revisions: May 14, 2026 | Day 77 (BS-9 elevated from placeholder with 5 sub-probes; BS-16 and BS-17 added per eschatology instrumentation; multi-BS visibility upgrades on Xi delivery, Israeli operational preparation, IRGC apex visibility)*
 *Audit revisions: May 19, 2026 | Day 82 (BS-18 added: Gulf state troika / unaligned-middle pivot capacity, promoted from Day 81 §5.25 synthesis addition per reference-to-operational instrumentation check; 8 BS visibility/risk deltas on Day 81 convergent probe fires; PROBE-20 directive added; Cooper Tier-1 operational-contradiction methodology note for sweep skill)*
 *Audit revisions: May 21, 2026 | Day 84 (apex Iranian position on a specific MOU element now visible per Mojtaba HEU-stays directive; Slantchev feigning-weakness graduates from multi-cycle-analytical to US-IC-confirmed at H per CNN T2 reconstitution-faster-than-IC-timelines; Gulf troika brake re-characterized as coalition of different interests with asymmetric decay profile; 0 adds, 0 retires, 9 BS visibility/risk deltas; T8 Powell shifting-power and T9 Stage-2 hysteresis lock-in promoted from pending to VALIDATED in `reference/strategic-trends.md`)*
+*Reference ingest: May 22, 2026 | Day 85 (Paine doctrine white paper ingested to `reference/paine-doctrine-iran-application.md`; PROBE-21 added covering death-ground/aim-class/P-DG/P-DG2/P-AIM/P-DG2/P-OVEX/P-INFO/P-CHEMO; game-theory coverage map updated; 2 framework revision triggers added; out-of-audit patch — ingest-triggered, not monthly cadence)*
 *Standing annex — updated when blind spot probes surface material data*
 
 ---
@@ -870,6 +871,32 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 
 ---
 
+### PROBE-21: Paine Death-Ground / War-Termination Aim-Class (NEW Day 85 — Paine ingest)
+
+**Frequency:** Weekly baseline; elevated to daily on any P-DG signal (US targeting of named Iranian principals). Reference: `reference/paine-doctrine-iran-application.md` §5.
+
+**Target signal:**
+
+- **P-AIM (aim-class determination):** Iranian official demand-set bounded at sanctions-relief-plus-deterrence (limited) vs escalating to order-revisionist terms (unlimited). Watch specifically for drift triggered by the death-ground dynamic itself: targeting may push a limited actor toward unlimited resistance as the bargaining range closes. Source tier: T1 (Araghchi/Ghalibaf/Vahidi direct), T3 (ICG/Vaez).
+- **P-DG (death-ground entrenchment):** Confirmed US targeting or strikes against named Iranian principals. Mechanism: converts bargaining problem into personal-survival problem for the apex decision-maker; lowers P(negotiated exit), raises P(protraction). Overlaps PROBE-7 (CENTCOM posture) and PROBE-15 (dispositional reading) — those probes carry the signal; this probe tracks the Paine causal interpretation. Source tier: T1 (CENTCOM), T2 (named-source).
+- **P-DG2 (limited-to-unlimited feedback loop — the dangerous path):** Evidence that the bargaining range is closing *because* of targeting — Iranian terms hardening or demand-ceiling escalating post-strike. Confirms the Paine death-ground inversion: a targeting action chosen to shorten the conflict instead prevents it from ending. This sub-signal has no prior home in the probe inventory; existing probes track demand-state but not demand-hardening-as-post-strike-causal-result. Source tier: T1, T3.
+- **P-OVEX (proxy network self-amputation clock):** Houthi/Hezbollah/PMU financing stress, operational tempo decline, IRGC-QF budget drawdown signals. Mechanism: proxy network is a liability under sustained pressure, not pure leverage; strengthens L3 cost-accumulation clock. Cross-reference PROBE-14. Source tier: T3 (ISW), T4 (ACLED).
+- **P-INFO (information-pathology activation):** Purges, accurate-advisor removal, or sycophant elevation near Khamenei-successor or Vahidi apex. Mechanism: Paine's qualitative engine under L5 PA-gap — the gap is not merely structural distance but actively manufactured by survival-driven information monopoly; apex decisions run on degraded data. Cross-reference PROBE-2. Source tier: T3 (ICG/Vaez, Iran International read against grain).
+- **P-CHEMO (US strategy posture check):** Shift from peripheral/sanctions/airpower (maritime counter — Paine's predicted effective strategy) toward ground-force buildup (continental error — Paine predicts US self-damage). Cross-reference PROBE-7. Source tier: T1 (CENTCOM, DoD), T2.
+
+**What changes the framework:**
+- P-AIM scores unlimited (order-revisionist demands confirmed): war-termination math shifts to Fork A/C territory; re-price probability matrix at all horizons.
+- P-DG fires without P-DG2 following: death-ground raised, bargaining range may survive; monitor demand trajectory closely next cycle.
+- P-DG2 fires (post-strike demand escalation confirmed at T2): limited-to-unlimited feedback loop activating; most dangerous path per Paine; synthesis revision candidate. Tentative: Fork B 5-10pp down, Fork A/C 3-7pp up.
+- P-INFO fires (accurate-critic purge or named sycophant elevation at apex confirmed): L5 PA-gap mechanism activation; correlated failure mode with Fearon information-pathology; strengthen Vahidi-gap weighting in BS-12.
+- P-CHEMO fires (US ground-force buildup beyond air/naval): reweight US cost-clock in L3; Fork C (miscalculation) probability ↑.
+
+**Sources:** Per P-AIM: Araghchi/Ghalibaf T1 statements, ICG/Vaez T3. Per P-DG/P-DG2: CENTCOM T1, FT/Reuters/WaPo T2, ISW T3. Per P-OVEX: ISW, ACLED, FDD proxy-tracking. Per P-INFO: ICG/Vaez, Iran International, IranWire (read against grain). Per P-CHEMO: CENTCOM and DoD T1, Congressional Armed Services hearings.
+
+**Cross-reference:** `reference/paine-doctrine-iran-application.md` §5 (trigger directives); `reference/costly-signaling-framework.md` (death-ground as Fearon-Slantchev boundary condition — see cross-reference section at end of file).
+
+---
+
 ## Framework Revision Triggers
 
 The following events, if confirmed by two or more independent sources, require immediate Synthesis revision regardless of the weekly cycle:
@@ -934,6 +961,8 @@ The following events, if confirmed by two or more independent sources, require i
 | **Federal court accepts standing on WPA challenge** | **T9 Stage-2 hysteresis lock-in path breaks; constitutional-architecture re-acutifies; cross-references BS-5 Stage-2 indicators** |
 | **Senate WPR on-merits passes (Fetterman pivot OR 3+ additional GOP defectors)** | **T9 challenged; BS-5 mechanism revision; Fork A entry mechanism foreclosed unless new AUMF** |
 | **House WPR passes (2+ additional GOP defectors on next attempt)** | **T9 challenged; bicameral constraint on Fork A; cross-references BS-5** |
+| **P-DG2 fires: Iranian official demand-set escalates post-strike (T2 confirmed, post-strike causal framing)** | **Paine limited-to-unlimited feedback loop activating; Fearon-Slantchev boundary condition firing; synthesis revision candidate; Fork B 5-10pp down, Fork A/C 3-7pp up; PROBE-21 cross-reference** |
+| **P-AIM scores unlimited: Iranian official demands cross to order-revisionist (expulsion of US from Gulf, elimination of Israel, order-overthrow terms — sustained across 2+ cycles)** | **War-termination math shifts decisively to Fork A/C territory; probability matrix re-priced at 30d and 6/12m horizons; PROBE-21 cross-reference** |
 
 ---
 
@@ -999,8 +1028,11 @@ Paths (a), (b), and (d) drive Iran 2026 fork resolution within the immediate 30-
 | **Coalition-stack activation under eschatological convergence** | **BS-16 (NEW Day 77)** | **Multi-tradition trigger events activate non-state vanguards in coalition-stack; current forks do not price** |
 | **Intra-coalition fracture as constraint variable** | **BS-17 (NEW Day 77)** | **US Christian Zionist policy vector disaggregated from monolithic maximalist frame** |
 | **Personalist-regime succession architecture** | **BS-9 (ELEVATED Day 77)** | **Russian siloviki cohesion under Wild Putinism cycle; M1/M2/M3/M4 mechanism probabilities ranged** |
+| **Paine death-ground (L4/L5 cross-layer)** | **PROBE-21 (NEW Day 85)** | **When leadership faces personal annihilation for backing down, bargaining range may be empty regardless of information revealed; Fearon-Slantchev boundary condition; US targeting of named principals is the operative test signal (P-DG/P-DG2)** |
+| **Paine information pathology (PA-gap mechanism)** | **PROBE-21, BS-12 (NEW Day 85 sub-mechanism)** | **Survival-driven information monopoly actively manufactures L5 PA-gap; promotes L5 from structural distance to causal mechanism (P-INFO signal)** |
+| **Paine limited/unlimited aims axis** | **PROBE-21 (NEW Day 85)** | **Aim-class determines war-termination math; limited = Fork B/D' territory, unlimited = Fork A/C; P-AIM signal tracks official demand-set; aim-class can drift under death-ground feedback** |
 
-Coverage complete. Three additions Day 77 (coalition-stack activation; intra-coalition fracture; personalist-regime succession).
+Coverage: three Paine additions Day 85 (death-ground as Fearon-Slantchev boundary condition; information-pathology mechanism; limited/unlimited aims axis). Prior total: three additions Day 77.
 
 ---
 
@@ -1046,7 +1078,7 @@ The variable BS-10 tracked (operation-rename to escalate, with WPA reset archite
 
 ---
 
-*End of Appendix B Day 84 update | Subject to revision as intelligence probes surface material data*
+*End of Appendix B Day 85 update | Subject to revision as intelligence probes surface material data*
 *Next scheduled blind-spot sweep: June 21, 2026 (monthly cadence per skill spec) or earlier on any framework-revision trigger above; immediate triggers in the current 7-day window: Iranian principal acceptance/rejection of LOI, Munir Tehran-visit named output, second Trump deal-window extension, Knesset subsequent reading passage, second Barakah-class attack, Vahidi/Mojtaba direct named statement on LOI/HEU, Senate WPR on-merits result.*
 *Next scheduled probe sweep: May 22, 2026 (daily through LOI window and Hajj opening; PROBE-11 due bi-weekly; PROBE-1 due bi-weekly).*
 *Day 84 audit revisions: 0 adds; 0 retires; 9 BS visibility/risk deltas (BS-1a +13pp, BS-3 +10pp, BS-5 +5pp, BS-11 +10pp, BS-12 +10pp, BS-13 +10pp, BS-14 +10pp, BS-15 +5pp, BS-17 +5pp, BS-18 +10pp); BS-4 retirement deferred one cycle; trend promotions in `reference/strategic-trends.md` (T8 Powell shifting-power amplifier + T9 Stage-2 hysteresis lock-in promoted from pending to VALIDATED; Putnam two-level games folded into T3; reconstitution-speed-as-Powell-amplifier and cross-pole Saudi-Iran-Hajj-backchannel and intra-troika-asymmetric-decay added to pending candidates); 10 new framework-revision-triggers added (LOI architecture, two-axis apex statement, second extension, Munir named output, Saudi-Iran principal Hajj-window meeting, second Barakah-class attack, Federal court WPA standing, Senate/House WPR passage paths).*

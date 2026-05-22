@@ -26,6 +26,7 @@ The tier ladder below rates *outlet quality*, not *source independence*. Multi-o
 - **Logic of War**: https://www.logicofwar.com/
 - **Mind-War**: https://www.mind-war.com/
 - **The War Zone (The Drive)**: https://www.thedrive.com/the-war-zone/
+- **S.C.M. Paine — Grand Strategy Corpus** — continental/maritime power, war-termination, limited/unlimited aims, information pathology, dictator-miscalculation. Primary nodes: "By Land or by Sea," *Foreign Affairs* Sep/Oct 2025; "Concepts to Navigate the Second Cold War," Federation of Norwegian Industries, May 2026; Noahpinion interview Jan 2024; Dwarkesh lecture series 2025. **Discount rule:** use Paine for *mechanism* (death ground, info pathology, overextension, aim-class); quarantine the democracy/autocracy teleology ("no non-military solution to dictators") — it would hard-code Fork A and suppress Fork D'. See `reference/paine-doctrine-iran-application.md`.
 
 ### 2. Structural Power & Realpolitik (Vexler Lens)
 - **GZero Media (Ian Bremmer)**: https://www.gzeromedia.com/
