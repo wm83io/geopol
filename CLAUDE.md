@@ -82,7 +82,7 @@ INDEX.md                      File manifest for external readers.
 analytical task. Methodology evolves; new reference docs land here and existing ones get patched.
 Stale internal models of methodology produce analysis inconsistent with the current framework.
 
-**Current reference layer (Day 77).** Two tiers:
+**Current reference layer (Day 85).** Two tiers:
 
 ### Core (every-task read)
 
