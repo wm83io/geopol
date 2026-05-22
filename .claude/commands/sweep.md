@@ -79,22 +79,15 @@ Apply before scoring. When sources conflict, report the conflict explicitly — 
 | Anonymous "sources familiar" (outlet without track record) | −50% confidence |
 | Polymarket / prediction market | signal, not gospel — weight as one analytical source |
 
-### Step 3b — Source-provenance trace (MANDATORY for every multi-outlet anonymous claim)
+### Step 3b — Source-provenance trace (mandatory for every multi-outlet anonymous claim)
 
-The tier ladder rates outlet quality, not source independence. Multi-outlet pickup of the same originating reporter or anonymous-source cluster is cluster-laundering, not independent confirmation.
+Tier ladder rates outlet quality, not source independence. Multi-outlet pickup of one anonymous cluster = one source. Record in `discounts_applied`:
 
-For each finding sourced to "multiple outlets" with anonymous attribution, record in the finding card's `discounts_applied` field:
+1. **Originating reporter/outlet.** Who broke it; which are wire-pickups.
+2. **Cluster identity.** "Anonymous senior X sources" across 5 outlets = 1 cluster.
+3. **Independence test.** Genuinely distinct anonymous clusters (different sourcing language, different outlet ecosystems) → partial mitigation of -50% discount. Same cluster → full discount applies regardless of outlet count.
 
-1. **Originating reporter / outlet.** Who broke the story? Which other outlets are wire-pickups or cite the originator?
-2. **Source-cluster identity.** "Anonymous senior Iranian sources" across 5 outlets = 1 source cluster, not 5 sources.
-3. **Independence test.** Are there genuinely independent anonymous clusters (different sourcing language, different outlet ecosystems) reporting the same finding? If yes, partial mitigation of the standing -50% discount. If no, full discount applies regardless of outlet count.
-
-Examples of cluster-laundering to watch for:
-- Haaretz lead → Reuters wire → geo.tv / Al Arabiya / Daily Sabah / Times of Israel pickup = 1 cluster
-- CNN US-officials report → Axios corroboration "from same call" = 1 cluster
-- ISW assessment → multiple T3 outlets summarizing ISW = 1 cluster
-
-When the same originating cluster appears in 3+ cycles without a distinct corroborating cluster, flag for `/premortem` source-cluster-collapse review.
+Same originating cluster in 3+ cycles without distinct corroboration → flag for `/premortem` source-cluster-collapse review. Canonical near-miss: D84 Mojtaba HEU (5 outlets, 1 cluster).
 
 ### Step 4 — Score the finding
 
@@ -116,50 +109,31 @@ If a probe fires a framework revision trigger: flag immediately, do not defer. R
 Appendix A revision and assign urgency (`immediate` / `next cycle` / `next audit`). The auditor skill
 consumes this via the trigger digest.
 
-### Step 7 — Reference-trend cross-check (MANDATORY for every fired trigger)
+### Step 7 — Reference-trend cross-check (mandatory for every fired trigger)
 
-For every probe that fires (status `fired` or trigger digest entry generated), name which trend in
-`reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply the discipline:
+Name which trend in `reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply:
 
-- **Finding advances a VALIDATED trend:** standard trigger digest entry; no special handling.
-- **Finding holds a VALIDATED trend:** standard trigger digest entry; note the consistency in the
-  finding card's `conflict_notes` field if surprise was high or counter-hypothesis was live.
-- **Finding contradicts a VALIDATED trend on single-cycle evidence:** flag in trigger digest as
-  `urgency: next_audit` regardless of operational urgency; require multi-cycle confirmation before
-  proposing the BS mechanism revision the contradiction would imply. Log the divergence in the
-  finding card's `conflict_notes` with a one-line citation of which trend and which reference
-  source predicted the opposite. Do NOT propose mechanism revisions to Appendix A on the basis
-  of single-cycle contradiction of a VALIDATED trend.
-- **Finding contradicts a VALIDATED trend on multi-cycle evidence (this cycle + at least one prior
-  cycle):** elevate to `urgency: immediate`; propose the trend-state transition (VALIDATED →
-  CONTESTED) in the trigger digest; this becomes an audit-cycle item that may also justify a BS
-  mechanism revision.
-- **Finding closes a PENDING-trend instrumentation gap:** flag in trigger digest for audit
-  promotion of the trend to VALIDATED.
+| Finding type | Action |
+|---|---|
+| Advances VALIDATED | Standard trigger digest entry |
+| Holds VALIDATED | Standard entry; note consistency in `conflict_notes` if counter-hypothesis was live |
+| Contradicts VALIDATED, single-cycle | `urgency: next_audit` regardless of operational urgency; cite trend + reference source in `conflict_notes`; do NOT propose BS revision |
+| Contradicts VALIDATED, multi-cycle (this cycle + ≥1 prior, or 2+ independent clusters in one cycle) | `urgency: immediate`; propose trend-state transition (VALIDATED → CONTESTED) |
+| Closes PENDING-trend instrumentation gap | Flag for audit promotion of trend to VALIDATED |
 
-The rule exists because the Day 77 → Day 83 sequence demonstrated that single-cycle ISW analytical
-evidence (tier-3 single-source) produced a BS-12 "apex-veto" mechanism revision against T3
-Fearon-Slantchev prediction; Day 83 Vahidi silence-break confirmed the trend, not the revision.
-Six cycles of mis-stated PA-gap mechanism resulted. This step blocks the failure mode.
+Canonical failure case the rule prevents: D77 BS-12 "apex-veto" revision against T3 on single-cycle ISW tier-3 evidence; corrected D83. Six cycles of mis-stated PA-gap mechanism resulted.
 
-Add a `reference_trends` array to the sweep JSON's `sweep_metadata` block listing the trends
-relevant to this cycle and the cycle's net effect on each (`advance` / `hold` / `contradict_single`
-/ `contradict_multi` / `close_pending_gap`).
+Add `reference_trends` array to sweep JSON `sweep_metadata` listing relevant trends and net effect (`advance` / `hold` / `contradict_single` / `contradict_multi` / `close_pending_gap`).
 
-### Step 7b — Principal-validation cross-check (MANDATORY for every fired trigger involving a named principal)
+### Step 7b — Principal-validation cross-check (mandatory for fired triggers involving named principals)
 
-The framework treats specific named individuals as principals (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin). Each principal identification was inherited from early media framing; the discipline of "actors as subjects of choice verbs" makes principal-misidentification more dangerous, not less, because the model commits to the named agent.
+Principal IDs (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin) are inherited from media framing. For each fired trigger attributing a decision to a named principal, record in `conflict_notes`:
 
-For every fired trigger where a named principal is the subject of a choice or decision claim, record in the finding card's `conflict_notes` field:
+1. **Alternative principal hypothesis.** Who else could be deciding? Examples: Mojtaba HEU → SNSC / Ali Khamenei / IRGC vertex; Trump A1 → unmodeled driver (financial exposure, family, classified intel); Netanyahu Penetration → IDF chief Zamir / Mossad.
+2. **Discriminating evidence.** What signal distinguishes the named principal from the alternative? "Behavior consistent with X having decided" = curve-fitting, not validation.
+3. **Confidence note.** No discriminating evidence this cycle → mark as `inherited, not validated this cycle`. 4+ consecutive such cycles on a load-bearing principal → flag `/premortem` wrong-principal review.
 
-1. **Alternative principal hypothesis.** Who else could be making this decision? Examples:
-   - Mojtaba HEU directive: alternative = SNSC consensus body; alternative = Ali Khamenei (if not incapacitated); alternative = IRGC vertex (Salami).
-   - Trump A1 oscillation: alternative = unmodeled driver (financial exposure, family member, classified intel we don't have).
-   - Netanyahu Penetration mechanism: alternative = IDF chief Zamir; alternative = Mossad chief.
-2. **Discriminating evidence.** What signal in the cycle distinguishes the named principal from the alternative? If "behavior is consistent with the named principal having decided," that is curve-fitting, not validation.
-3. **Confidence note.** If no discriminating evidence exists this cycle, mark the principal identification as `inherited, not validated this cycle`. After 4+ consecutive cycles without discriminating evidence on a load-bearing principal, flag for `/premortem` wrong-principal review.
-
-This step blocks the failure mode where the framework treats a named principal as the apex / decision-maker on the basis of media framing alone. It does not require resolving the principal question every cycle; it requires not pretending the question is settled when discriminating evidence is absent.
+The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent.
 
 Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
 

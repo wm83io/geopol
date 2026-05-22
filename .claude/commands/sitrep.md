@@ -211,31 +211,25 @@ If nothing new meets the threshold, omit this section.
 
 ### Section 5 — Revised Probability Matrix
 
-Two matrices, separately maintained on different cadences. The discipline is added 2026-05-22 via /premortem to prevent long-horizon drift via cycle-level updating.
+Two matrices, separate cadences (v4.2 split).
 
-**5a. 30-day matrix (cycle-Bayesian; updates every SITREP).** Table format. Include only rows where probability moved this cycle or where a new outcome was added. Always include a delta column.
+**5a. 30-day matrix (cycle-Bayesian; every SITREP).** Deltas only — rows that moved this cycle or new outcomes.
 
 ```
 | Outcome | 30 days | vs. last SITREP | Driver |
-|---------|---------|-----------------|--------|
-| ...     | X-Y%    | up/down/stable  | one line |
 ```
 
-**5b. 6/12-month matrix (structural-prior-driven; updates only on trend-state transitions or constraint-layer shifts).** Do NOT update on operational events. Reprint the most recent values unchanged with a footnote stating the date of last structural update. Update conditions: (a) any trend in `reference/strategic-trends.md` transitions state; (b) any L1-L5 constraint mechanism shifts; (c) any synthesis major-version increment.
+**5b. 6/12-month matrix (structural-prior; updates only on trend-state transitions, L1-L5 constraint shifts, or major-version increments — never on operational events).** Reprint unchanged with last-updated date.
 
 ```
 | Outcome | 6 months | 12 months | Last updated | Driver |
-|---------|----------|-----------|--------------|--------|
-| ...     | X-Y%     | X-Y%      | YYYY-MM-DD   | one line |
 ```
 
-**Range-width discipline.** Probability ranges in either matrix are hard-capped at 15 percentage points width (e.g., 20-35%, not 18-40%). A range wider than 15pp is either undecomposed (the fork contains multiple distinguishable sub-outcomes that should each carry their own range) or a hedge. Either tighten the range or split the row. The widening-as-epistemic-humility anti-pattern is not permitted.
-
-**"None of the above" row.** Every probability matrix carries a mandatory row labeled "None of the above (unmodeled outcome space)" with a non-zero floor (5-10% on 30-day; 10-15% on 6/12-month). The framework's named forks do not span the outcome space; this row enforces acknowledgment of the gap.
-
-**Fork D' decomposition rule.** If Fork D' (structured deferral / gray zone) exceeds 30% on the 30-day matrix sustained over 4+ cycles, decompose at the next SITREP. "Deferral" is not a primitive at that probability mass; the question is "deferred how, by whom, for how long, with what mechanism." Each named variant gets its own row with its own range. The fork retires as an analytical primitive when decomposed; it remains as a category label only.
-
-**Composite reporting.** If a primitive (Fork A, Fork C, or any conflict-leading tail component) moved this cycle, recompute the Kinetic Escalation Composite. **The composite no longer leads the Executive Summary.** It is reported as a footnote line at the end of Section 5, prefixed `[DERIVED]`, with the construction formula. Primitives lead; composites trail. Do not aggregate Fork D' into the composite; the framework's most operative distinction is preserved by exclusion.
+**Rules:**
+- **15pp range cap.** Wider = undecompose (split row) or hedge (tighten). No widening as epistemic humility.
+- **"None of the above" row mandatory.** Non-zero floor: 5-10% on 30d; 10-15% on 6/12m.
+- **Fork D' decomposition.** If >30% on 30d sustained 4+ cycles, decompose into named variants at next SITREP. "Deferral" is not a primitive at that mass.
+- **KEC = Section-5 footnote**, never Executive Summary headline. Prefix `[DERIVED]` + construction formula. Never aggregate Fork D' into KEC.
 
 ---
 
@@ -278,64 +272,30 @@ Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 - Direction arrows in tables: use `↑ ↓ → ←` literals, not ASCII (`->`).
 - En-dash (`–`) only inside probability ranges (`28–38%`) and date ranges (`May 24–29`).
 
-### Methodological discipline (from DELTASITREP, 2026-05)
+### Methodological voice discipline
 
-**This is a correction, not a refinement.** Prior outputs drifted into teleological framing where the constraint architecture itself becomes the subject of choice verbs. This is psychohistory voice and it falsifies the model. The framework is a materialist substrate that imposes constraints and weights decision pathways via Bayesian priors in a game-theoretic setting. Agents under the framework remain choosers. The framework predicts the relative ranking of options under the constraint surface; it does not predict selection. Selection remains an event.
+The framework is a materialist substrate that ranks options under constraints; actors select. Substrate-as-agent voice (the architecture / constraint set / framework / substrate as subject of choice verbs) falsifies the model. The framework does NOT predict selection.
 
-**Forbidden constructions (substrate-as-agent / psychohistory voice):**
+**Forbidden:** "the architecture selected/composed/innovated/closed/opened/chose"; "the constraint set produced/engineered"; "the framework constructs/builds/resolves"; "no principal chose this; X did it instead"; any verb of intention/agency where subject = substrate/architecture/constraint set/framework/system.
 
-- "The architecture selected / composed / innovated / closed / opened / chose..."
-- "The constraint set composed / produced / engineered..."
-- "No principal chose this; X did it instead..."
-- "The framework constructs / builds / resolves..."
-- "The architecture is composing toward..."
-- "What the architecture selected as resolution mechanism..."
-- Any verb of intention or agency whose subject is the substrate, the architecture, the constraint set, the framework, or the system.
+**Required:** "Under constraint X, the relative cost-benefit of pathway Y improves..."; "Constraints compress the choice set; {actor} selects within it"; "Y becomes dominant under joint constraints (A, B, C); selection by {actor} remains contingent"; "Signal cluster X tightens the prior on Y."
 
-**Required constructions (constrained-agent / game-theoretic voice):**
+**"Architecture" as noun is valid** ("alliance architecture," "principal-access architecture"). As subject of intention verb is forbidden.
 
-- "Under constraint X, the relative cost-benefit of pathway Y improves against Z..."
-- "Constraints compress the principal choice set; principals select within it..."
-- "Pathway Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent..."
-- "The framework predicts the ranking of options under the constraint surface; it does not predict selection."
-- "Option Y moves from sub-dominant to dominant when constraint Z binds..."
-- "Signal cluster X tightens the prior that selection of Y is being weighted..."
+**Valid framework verbs:** `reads`, `predicts`, `ranks`, `weights`, `names`, `maps`. Never choice verbs. Watch indirect clauses: "the framework reads as the architecture composing..." smuggles agency back in.
 
-**Distinguishing valid from invalid uses of "architecture":**
-
-- Valid (noun, describing a structure): "the alliance architecture," "the principal-access architecture," "the constraint architecture is reinforced."
-- Invalid (subject of intention verb): "the architecture selected," "the architecture composes," "the architecture innovates exits."
-
-**Valid epistemic verbs whose subject is the framework:** `reads`, `predicts`, `ranks`, `weights`, `names`, `maps`. Never choice verbs.
-
-**Invalid:** "The framework reads as the architecture composing..." (smuggles agency back into the substrate via the indirect clause).
-
-When in doubt: can the sentence be rewritten with the agent (Trump executive, Vahidi, Netanyahu, IDF leadership) as the subject and the constraint as the modifier? If yes, that rewrite is required. The framework names the choice set and its weights; the actor selects.
+**Test:** can the sentence be rewritten with a named actor (Trump, Vahidi, Netanyahu, IDF) as subject and constraint as modifier? If yes, the rewrite is required.
 
 ---
 
 ## Anti-patterns
 
-- Do not rewrite the base synthesis. Annex equals delta.
-- Do not pad Sections 2-4 by repeating Section 1 data.
-- Do not produce probability point estimates. Ranges only.
-- Do not let Section 7 become a news summary. It is forward-looking judgment.
-- Do not omit Section 3 because revisions are uncomfortable. If data broke an assumption, say so.
-- Do not synthesize new probe findings inside the composer. The composer consumes probe output; it does not re-run probes.
-- Do not report the Kinetic Escalation Composite without the underlying primitives. The composite is derived; primitives drive analysis.
-- Do not aggregate Fork D' into the composite. Fork D' is the deferred-kinetic / gray-zone path; aggregating it collapses the framework's most operative distinction.
-- **Do not update the 6/12-month matrix on operational events.** The long-horizon matrix updates only on trend-state transitions, constraint-layer shifts, or synthesis major-version increments. Cycle-Bayesian updating produces sharp short-horizon estimates and miscalibrated long-horizon ones. Daily SITREPs touch 5a only.
-- **Do not let probability ranges exceed 15pp width.** Wider ranges are either undecomposed (split the row) or hedge (tighten with justification). Widening as epistemic humility is not permitted.
-- **Do not omit the "None of the above" row.** The named forks do not span the outcome space; the row enforces acknowledgment of the gap with a non-zero floor.
-- **Do not lead the Executive Summary with the Kinetic Escalation Composite.** The composite is a Section-5 footnote, not a headline. Primitives lead.
+**Structure & content.** Don't rewrite the base synthesis (annex = delta). Don't pad Sections 2-4 by repeating Section 1. Don't omit Section 3 because revisions are uncomfortable. Don't let Section 7 become a news summary; it is forward-looking judgment. Don't break the seven-section skeleton. Don't synthesize new probe findings inside the composer.
 
-### Methodological discipline (from DELTASITREP, 2026-05)
+**Format discipline.** Don't generate mermaid for decoration (charts that restate a sentence are noise). Don't over-table (2-row "tables" are sentences with bad formatting; tables start at 3+ rows). Don't move analytical depth into bullets; Operative Judgment stays prose. Don't import the redrafted format on a low-signal day; the compression range is a ceiling, not a floor.
 
-1. Do not generate mermaid for decoration. A chart that only restates a sentence is noise.
-2. Do not over-table. If a finding has 2 properties, write a sentence. Tables start at 3+ rows.
-3. Do not move analytical depth into bullets. Operative Judgment stays prose.
-4. Do not break the seven-section skeleton (Exec → Op → Validation → Revisions → Additions → Probability → Conclusion; Probe Status is integrated where probes ran). Format changes inside sections; section count is fixed.
-5. Do not import the redrafted format wholesale on a low-signal day. If the cycle has minimal movement, the annex can be shorter than 2,000 words. The compression range is a ceiling, not a floor.
-6. **Do not make the substrate the subject of a choice verb.** The architecture does not select, compose, innovate, close paths, or open them. Actors do, under constraints the framework maps. Falling into this voice is the single highest-priority failure mode in this directive; it falsifies the methodological frame.
+**Probability discipline.** Ranges only, never point estimates. 15pp range cap (wider = decompose or tighten). "None of the above" row mandatory with non-zero floor. KEC is a Section-5 footnote, never the Executive Summary headline; report primitives, not the composite alone. Never aggregate Fork D' into KEC. Don't update the 6/12-month matrix on operational events (only on trend transitions, constraint shifts, or major-version increments).
+
+**Voice (highest-priority failure mode).** Don't make the substrate the subject of a choice verb. The architecture does not select/compose/innovate/close/open. Actors do, under constraints the framework maps. See Methodological voice discipline above.
 7. **Do not predict selection.** The framework ranks options under the constraint surface and identifies dominant strategies. It does not say "X will be selected." It says "Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent and tightens / loosens conditional on signal cluster Z."
 8. **Do not use "convergence" or "cluster" as causal verbs.** Signal clusters tighten priors. They do not cause outcomes. The grammar of probabilistic updating, not the grammar of teleology, governs.
