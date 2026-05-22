@@ -12,9 +12,10 @@ Multi-week structural thesis vectors the framework tracks across cycles. Anchors
 
 The trend tracker is not a prediction market. It is a calibration anchor.
 
-- **`/sweep`:** read at pre-flight. For each fired trigger, identify which trend the finding advances, holds, or contradicts. Contradictions of a VALIDATED trend on single-cycle evidence alone are flagged but do not propose mechanism revision; multi-cycle confirmation required (defined as 2+ independent cycles or 2+ independent source clusters within one cycle).
+- **`/sweep`:** read at pre-flight. For each fired trigger, identify which trend the finding advances, holds, or contradicts. Contradictions of a VALIDATED trend on single-cycle evidence alone are flagged but do not propose mechanism revision; multi-cycle confirmation required (defined as 2+ independent cycles or 2+ independent source clusters within one cycle). Increment the trend's evidence-asymmetry counter when contradicting evidence is discounted.
 - **`/sitrep`:** read at pre-flight. The Central Thesis Check sub-block must cite which trends moved this cycle and the direction. If no trend moved, state so explicitly.
-- **`/audit`:** read at pre-flight. Update trend states based on cumulative probe/SITREP data since last audit. Log any new drift events. Promote pending trends to validated when threshold is met.
+- **`/audit`:** read at pre-flight. Update trend states based on cumulative probe/SITREP data since last audit. Log any new drift events. Promote pending trends to validated when threshold is met. **Apply demotion symmetry**: any VALIDATED trend with 2+ cycles of contradicting evidence since last audit demotes to CONTESTED. **Apply decay clause**: any VALIDATED trend with no re-verifying signal in 30+ days demotes to CONTESTED.
+- **`/premortem`:** read at pre-flight. Audit the evidence-asymmetry log for each VALIDATED trend; any trend with ratio of discounted-contradicting to supporting evidence exceeding 1:3 across the prior 12 cycles is a candidate failure mode for the trend-rigidity required category.
 - **`/revise`:** trend transitions are themselves the **primary trigger** for synthesis revision; operational accumulation alone is insufficient (see `.claude/commands/revise.md` Trigger Architecture). Read at pre-flight to evaluate which triggers fired since the last synthesis version. Major synthesis-version increment requires re-validation of every trend state.
 
 ---
@@ -29,6 +30,20 @@ The trend tracker is not a prediction market. It is a calibration anchor.
 | PENDING | Insufficient cycles to assess; cannot be VALIDATED or DISCONFIRMED yet |
 
 State transitions are conservative. Single-cycle evidence does not transition VALIDATED → CONTESTED. Cumulative pattern across 2+ cycles or 2+ independent source clusters within one cycle does.
+
+---
+
+## Trend State Transition Symmetry (added 2026-05-22 via /premortem)
+
+The multi-cycle-confirmation rule was originally written one-directional: promotion to VALIDATED required 2+ cycles; demotion to CONTESTED implicitly required more. The asymmetry produced commitment bias dressed as discipline — a VALIDATED trend could absorb contradicting evidence as "single-cycle noise" indefinitely while confirmatory evidence routinely got logged as "trend advances."
+
+**Demotion symmetry.** A VALIDATED trend demotes to CONTESTED on the same evidence threshold that promoted it: 2+ independent cycles of contradicting evidence, or 2+ independent source clusters within one cycle. CONTESTED demotes to DISCONFIRMED on a third independent cycle of the same direction.
+
+**Promotion path remains:** PENDING → VALIDATED on 2+ supporting cycles or one synthesis revision activating the prediction.
+
+**Decay clause.** A VALIDATED trend that has not received any re-verifying signal in 30 calendar days auto-demotes to CONTESTED at the next `/audit` or `/sweep` Calibration Check. The state remains demoted until a new supporting cycle restores VALIDATED status. Continuity is evidence; absence-of-disconfirmation is not.
+
+**Evidence asymmetry log.** Each VALIDATED trend carries a running count of (a) cycles supporting and (b) cycles where contradicting evidence was discounted. When the ratio of (b) to (a) exceeds 1:3 across the most recent 12 cycles touching the trend, the next `/premortem` is required to re-examine whether the discount pattern reflects discipline or commitment bias. Track the count in each trend's entry below.
 
 ---
 

@@ -1,3 +1,20 @@
+## Source-Independence Discipline (added 2026-05-22 via /premortem)
+
+The tier ladder below rates *outlet quality*, not *source independence*. Multi-outlet pickup of the same originating reporter or the same anonymous source cluster is not independent confirmation; it is cluster-laundering. The Day 84 Mojtaba HEU-stays directive was the canonical near-miss: Haaretz lead, Reuters via geo.tv / Al Arabiya / Daily Sabah / Times of Israel — all T2 outlets, all picking up the same "senior Iranian sources" reporting cluster. Five outlets, one source cluster, M confidence at best.
+
+**Provenance rules:**
+
+1. **Originating reporter / outlet identification.** For each multi-source claim, identify the originating reporter and outlet. If all downstream T2 pickups cite the same originating reporter, count as one source for confidence purposes, regardless of outlet count.
+2. **Anonymous-source identity.** "Anonymous senior Iranian sources," "two US officials," "senior Israeli officials" are treated as a single source until at least two outlets independently produce distinct named or distinct-cluster anonymous attribution. Multi-outlet pickup of the same anonymous cluster does not satisfy this.
+3. **Standing discount on anonymous T2 clusters.** Apply -50% confidence on the originating claim regardless of how many outlets pick it up. The discount mitigates partially on (a) two genuinely independent anonymous clusters reporting the same finding, or (b) at least one named-source corroboration.
+4. **Source-cluster log.** Sweeps must record the originating reporter/outlet for each anonymous claim in the `discounts_applied` field. When the same originating cluster appears in 3+ cycles, flag for `/premortem` source-cluster-collapse review.
+
+**Persian-language source priority elevation.** The English-language ladder systematically under-instruments Iranian internal politics. PROBE-3's 14+ consecutive gap cycles is a structural failure surface, not "accept opacity." Where English-language sources are silent on Iranian internal dynamics, attempt Persian-language acquisition via Radio Farda Persian service, IRNA, Tasnim, Fars (read against the grain), and alanchand.com for rial parallel rates before declaring `gap`. Note translation provenance in the finding card.
+
+**Quality-tier coverage for Iranian internal:** Iran International, IranWire, Radio Farda, Persian-language primary sources (IRNA, Tasnim, Fars, alanchand.com), Karim Sadjadpour, Afshon Ostovar. Single-source claims from any one of these still carry -50% discount; cross-source confirmation across exile + diaspora + state-aligned sources required for H confidence.
+
+---
+
 ### 1. Kinetic Strategy & OSINT (Nielsen Lens)
 - **War on the Rocks**: https://warontherocks.com/
 - **Institute for the Study of War (ISW)**: https://www.understandingwar.org/

@@ -175,8 +175,24 @@ Executive Summary, increment major version via `/revise`.
   evidence.
 - **Derived:** Composites (e.g. Kinetic Escalation Composite) are functions of primitives. They
   carry an explicit "DERIVED" label and their construction formula. They sit alongside the
-  primitive matrix, never instead of it.
+  primitive matrix, never instead of it. **Composites do not lead the Executive Summary**; they
+  trail as Section-5 footnotes. (Added 2026-05-22 via /premortem; the composite was becoming the
+  analytical object and obscuring primitive movement.)
 - **Ranges only.** No point estimates.
+- **Range-width cap.** Probability ranges are hard-capped at 15 percentage points width. Wider
+  ranges are either undecomposed (split the row into sub-outcomes) or hedge (tighten with
+  justification). Widening as epistemic humility is not permitted.
+- **"None of the above" row.** Every probability matrix carries a mandatory row labeled "None of
+  the above (unmodeled outcome space)" with a non-zero floor (5-10% on 30-day; 10-15% on
+  6/12-month). The framework's named forks do not span the outcome space; this enforces
+  acknowledgment of the gap.
+- **Fork D' decomposition rule.** If Fork D' (structured deferral / gray zone) exceeds 30% on the
+  30-day matrix sustained over 4+ cycles, decompose at the next SITREP. "Deferral" is not a
+  primitive at that probability mass.
+- **Two matrices, two cadences.** The 30-day matrix updates every SITREP (cycle-Bayesian). The
+  6/12-month matrix updates only on trend-state transitions, constraint-layer shifts, or
+  synthesis major-version increments — not on operational events. Cycle-level updating produces
+  sharp short-horizon estimates and miscalibrated long-horizon ones.
 - Probability ranges that creep wider over time = less analytical work, not more epistemic
   humility. Tighten or justify.
 - Fork D' (deferral / gray zone) is **never** aggregated into a kinetic-escalation composite.
@@ -217,6 +233,7 @@ their content here.
 | `/revise` | Synthesis version-up (Opus task) | `synthesis/synthesis-vX-Y.md` + `-external.md` |
 | `/audit` | Blind-spot inventory refresh | Patch to `appendix/appendix-b-blind-spots.md` |
 | `/blog` | External (blog-publishable) transform | `synthesis-vX-Y-external.md` |
+| `/premortem` | Monthly adversarial-review against framework discipline | `premortems/premortem-YYYY-MM-DD.md` |
 
 Slash command files are operational interface; they update when procedure changes, independent
 of synthesis version. Read the relevant command file before invoking. If a procedural rule in
@@ -319,6 +336,25 @@ Conventions:
   intention-verbs), "the substrate." Required: actors (Trump executive, Vahidi, Netanyahu, IDF
   leadership) as subjects of choice verbs; constraints as modifiers. T7 in `strategic-trends.md`
   tracks this discipline.
+- **Do not let VALIDATED trends become commitment bias.** Trend-state demotion is symmetric with
+  promotion (2+ cycles of contradicting evidence triggers VALIDATED → CONTESTED, matching the
+  promotion threshold). VALIDATED trends carry a 30-day decay clause: any trend without a
+  re-verifying signal in 30+ calendar days auto-demotes at the next /audit or /sweep Calibration
+  Check. The multi-cycle-confirmation rule was originally one-directional and produced commitment
+  bias dressed as discipline; the symmetric rule corrects this. See `reference/strategic-trends.md`
+  Trend State Transition Symmetry. (Added 2026-05-22 via /premortem.)
+- **Do not treat multi-outlet anonymous pickup as independent confirmation.** Cluster-laundering
+  (one originating reporter, multiple downstream pickups citing the same anonymous-source cluster)
+  is not multi-source. The -50% anonymous-source discount applies to the originating cluster
+  regardless of outlet count. The Day 84 Mojtaba HEU directive (5 outlets, 1 source cluster) is
+  the canonical near-miss. See `reference/quality-sources.md` Source-Independence Discipline.
+  (Added 2026-05-22 via /premortem.)
+- **Do not treat principal identification as settled on inherited framing alone.** Every fired
+  trigger that attributes a decision to a named principal requires an alternative-principal
+  hypothesis and a discriminating-evidence note. "Behavior is consistent with the named principal
+  having decided" is curve-fitting, not validation. After 4+ consecutive cycles without
+  discriminating evidence on a load-bearing principal, flag for /premortem wrong-principal review.
+  See `.claude/commands/sweep.md` Step 7b. (Added 2026-05-22 via /premortem.)
 
 **Operational:**
 - Do not skip the `reference/` probe at task start. Methodology drift is silent.
@@ -342,6 +378,7 @@ Conventions:
 | v3.0 | May 8 2026 | Fearon-Slantchev integrated; Fork B leading; Layer 5 PA-gap |
 | v3.1 | pending | Trump-Xi trigger; Netanyahu Principal-Penetration; eschatological-coalition; HEU physical-state; multilateral E3/IAEA; Kinetic Escalation Composite |
 | v4.0 | pending (staged 2026-05-18) | Methodology correction: substrate-as-agent voice retired; central thesis reformulated as materialist bargaining model with Bayesian updates over signal clusters; Methodological Note paragraph added; appendix-c-methodology.md placed |
+| v4.2 | pending (staged 2026-05-22) | Discipline correction via /premortem: symmetric trend demotion + 30-day decay clause; source-independence (cluster-laundering) check; principal-validation alternative-hypothesis probe; probability range-width cap; mandatory "None of the above" row; Fork D' decomposition rule; 30-day vs 6/12-month matrix separation; KEC demoted from headline to Section-5 footnote; /premortem monthly cadence introduced |
 
 ---
 
@@ -355,5 +392,8 @@ Conventions:
    promotion with framework-shape implications, reference apparatus change, reference-to-operational
    instrumentation gap closure, staged manifest. Annex count alone is **not** a trigger.)
 5. `/blog` → external transform (paired with `/revise`, or standalone for republication)
+6. `/premortem` → `premortems/premortem-YYYY-MM-DD.md` (monthly floor on the 1st; on-trigger after
+   synthesis major-version increment, logged trend-vs-operational drift event, or manual invocation;
+   skip if last run within 14 days unless manual override).
 
 Target: 0800 ET daily SITREP.

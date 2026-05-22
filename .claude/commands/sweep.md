@@ -79,6 +79,23 @@ Apply before scoring. When sources conflict, report the conflict explicitly — 
 | Anonymous "sources familiar" (outlet without track record) | −50% confidence |
 | Polymarket / prediction market | signal, not gospel — weight as one analytical source |
 
+### Step 3b — Source-provenance trace (MANDATORY for every multi-outlet anonymous claim)
+
+The tier ladder rates outlet quality, not source independence. Multi-outlet pickup of the same originating reporter or anonymous-source cluster is cluster-laundering, not independent confirmation.
+
+For each finding sourced to "multiple outlets" with anonymous attribution, record in the finding card's `discounts_applied` field:
+
+1. **Originating reporter / outlet.** Who broke the story? Which other outlets are wire-pickups or cite the originator?
+2. **Source-cluster identity.** "Anonymous senior Iranian sources" across 5 outlets = 1 source cluster, not 5 sources.
+3. **Independence test.** Are there genuinely independent anonymous clusters (different sourcing language, different outlet ecosystems) reporting the same finding? If yes, partial mitigation of the standing -50% discount. If no, full discount applies regardless of outlet count.
+
+Examples of cluster-laundering to watch for:
+- Haaretz lead → Reuters wire → geo.tv / Al Arabiya / Daily Sabah / Times of Israel pickup = 1 cluster
+- CNN US-officials report → Axios corroboration "from same call" = 1 cluster
+- ISW assessment → multiple T3 outlets summarizing ISW = 1 cluster
+
+When the same originating cluster appears in 3+ cycles without a distinct corroborating cluster, flag for `/premortem` source-cluster-collapse review.
+
 ### Step 4 — Score the finding
 
 Assign:
@@ -129,9 +146,20 @@ Add a `reference_trends` array to the sweep JSON's `sweep_metadata` block listin
 relevant to this cycle and the cycle's net effect on each (`advance` / `hold` / `contradict_single`
 / `contradict_multi` / `close_pending_gap`).
 
----
+### Step 7b — Principal-validation cross-check (MANDATORY for every fired trigger involving a named principal)
 
-## Probe Rotation and Frequency
+The framework treats specific named individuals as principals (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin). Each principal identification was inherited from early media framing; the discipline of "actors as subjects of choice verbs" makes principal-misidentification more dangerous, not less, because the model commits to the named agent.
+
+For every fired trigger where a named principal is the subject of a choice or decision claim, record in the finding card's `conflict_notes` field:
+
+1. **Alternative principal hypothesis.** Who else could be making this decision? Examples:
+   - Mojtaba HEU directive: alternative = SNSC consensus body; alternative = Ali Khamenei (if not incapacitated); alternative = IRGC vertex (Salami).
+   - Trump A1 oscillation: alternative = unmodeled driver (financial exposure, family member, classified intel we don't have).
+   - Netanyahu Penetration mechanism: alternative = IDF chief Zamir; alternative = Mossad chief.
+2. **Discriminating evidence.** What signal in the cycle distinguishes the named principal from the alternative? If "behavior is consistent with the named principal having decided," that is curve-fitting, not validation.
+3. **Confidence note.** If no discriminating evidence exists this cycle, mark the principal identification as `inherited, not validated this cycle`. After 4+ consecutive cycles without discriminating evidence on a load-bearing principal, flag for `/premortem` wrong-principal review.
+
+This step blocks the failure mode where the framework treats a named principal as the apex / decision-maker on the basis of media framing alone. It does not require resolving the principal question every cycle; it requires not pretending the question is settled when discriminating evidence is absent.
 
 Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
 
@@ -168,6 +196,12 @@ Produce three artifacts after all probes complete. Formats are defined in `probe
 - Do not exceed 5 search calls per probe. If signal is not found, log `gap` and move on.
 - Do not let probe runs become news summaries. Stay keyed to the specific framework variable. If
   unrelated big news surfaces, note it for the auditor and continue.
+- **Do not treat multi-outlet pickup as independent confirmation without provenance.** Cluster-laundering
+  (one originating reporter, multiple downstream pickups) is not multi-source. The discount applies
+  to the originating cluster, regardless of outlet count. See Step 3b.
+- **Do not treat principal identification as settled on inherited framing alone.** When a fired trigger
+  attributes a decision to a named principal, the alternative-principal hypothesis is required in the
+  finding card's conflict_notes. See Step 7b.
 
 ---
 

@@ -85,13 +85,13 @@ Supersedes `day-{N-2}` · {top-2-or-3 vectors with direction, e.g. Decapitation 
 
 Rows: 6-10. One row per dimension that moved this cycle. Direction column uses `NEW`, `↑`, `↓`, `HELD`, `stable`, or specific numeric ranges (e.g. `18-25% → 10-18%`). Driver column ≤ 12 words.
 
-**Cumulative-escalation read.** One line immediately after the table. Carries the Kinetic Escalation Composite plus the dominant non-escalation path. Format:
+**Leading-primitive read.** One line immediately after the table. Carries the two highest-probability primitives by direction (escalation-leading and non-escalation-leading), not a composite. Format:
 
-> Cumulative escalation: X-Y% over 30 days, X-Y% over 12 months. Dominant non-escalation path is {Fork B / Fork D' / other} at Z-W%, {one short qualifier on direction since last cycle}.
+> Leading primitives: Fork A {X-Y% / 30d}, Fork D' {X-Y% / 30d}. Highest-delta this cycle: {fork name} {direction}. None-of-above floor: {Z%}.
 
-The composite is recomputed each SITREP from the then-current synthesis matrix (Fork A primitive + Fork C primitive + conflict-leading tail register entries; Variants A/B absorbed as Fork A trigger paths, not added; Fork D' deferral excluded). It is a communication aid, not an analytical primitive; the analytical text in sections 3, 4, and 7 references primitives, not the composite.
+The Kinetic Escalation Composite is no longer reported in the Executive Summary (added 2026-05-22 via /premortem; composite was becoming the analytical object and obscuring primitive movement). The composite is computed in Section 5 as a footnote line for continuity with prior SITREPs.
 
-No prose section between the cumulative-escalation read and Section 1.
+No prose section between the leading-primitive read and Section 1.
 
 ---
 
@@ -211,17 +211,31 @@ If nothing new meets the threshold, omit this section.
 
 ### Section 5 — Revised Probability Matrix
 
-Table format. Include only rows where probability moved this cycle or where a new outcome was added. Always include a delta column.
+Two matrices, separately maintained on different cadences. The discipline is added 2026-05-22 via /premortem to prevent long-horizon drift via cycle-level updating.
+
+**5a. 30-day matrix (cycle-Bayesian; updates every SITREP).** Table format. Include only rows where probability moved this cycle or where a new outcome was added. Always include a delta column.
 
 ```
-| Outcome | 30 days | 12 months | vs. last SITREP | Driver |
-|---------|---------|-----------|-----------------|--------|
-| ...     | X-Y%    | X-Y%      | up/down/stable  | one line |
+| Outcome | 30 days | vs. last SITREP | Driver |
+|---------|---------|-----------------|--------|
+| ...     | X-Y%    | up/down/stable  | one line |
 ```
 
-Do not reprint the full matrix unchanged. Deltas only. Ranges, not point estimates.
+**5b. 6/12-month matrix (structural-prior-driven; updates only on trend-state transitions or constraint-layer shifts).** Do NOT update on operational events. Reprint the most recent values unchanged with a footnote stating the date of last structural update. Update conditions: (a) any trend in `reference/strategic-trends.md` transitions state; (b) any L1-L5 constraint mechanism shifts; (c) any synthesis major-version increment.
 
-If a primitive (Fork A, Fork C, or any conflict-leading tail component) moved this cycle, recompute the Kinetic Escalation Composite and report the new value in the Executive Summary composite line. The composite is derived, not a primitive; do not report a composite delta alone without the underlying primitive delta that drove it.
+```
+| Outcome | 6 months | 12 months | Last updated | Driver |
+|---------|----------|-----------|--------------|--------|
+| ...     | X-Y%     | X-Y%      | YYYY-MM-DD   | one line |
+```
+
+**Range-width discipline.** Probability ranges in either matrix are hard-capped at 15 percentage points width (e.g., 20-35%, not 18-40%). A range wider than 15pp is either undecomposed (the fork contains multiple distinguishable sub-outcomes that should each carry their own range) or a hedge. Either tighten the range or split the row. The widening-as-epistemic-humility anti-pattern is not permitted.
+
+**"None of the above" row.** Every probability matrix carries a mandatory row labeled "None of the above (unmodeled outcome space)" with a non-zero floor (5-10% on 30-day; 10-15% on 6/12-month). The framework's named forks do not span the outcome space; this row enforces acknowledgment of the gap.
+
+**Fork D' decomposition rule.** If Fork D' (structured deferral / gray zone) exceeds 30% on the 30-day matrix sustained over 4+ cycles, decompose at the next SITREP. "Deferral" is not a primitive at that probability mass; the question is "deferred how, by whom, for how long, with what mechanism." Each named variant gets its own row with its own range. The fork retires as an analytical primitive when decomposed; it remains as a category label only.
+
+**Composite reporting.** If a primitive (Fork A, Fork C, or any conflict-leading tail component) moved this cycle, recompute the Kinetic Escalation Composite. **The composite no longer leads the Executive Summary.** It is reported as a footnote line at the end of Section 5, prefixed `[DERIVED]`, with the construction formula. Primitives lead; composites trail. Do not aggregate Fork D' into the composite; the framework's most operative distinction is preserved by exclusion.
 
 ---
 
@@ -310,6 +324,10 @@ When in doubt: can the sentence be rewritten with the agent (Trump executive, Va
 - Do not synthesize new probe findings inside the composer. The composer consumes probe output; it does not re-run probes.
 - Do not report the Kinetic Escalation Composite without the underlying primitives. The composite is derived; primitives drive analysis.
 - Do not aggregate Fork D' into the composite. Fork D' is the deferred-kinetic / gray-zone path; aggregating it collapses the framework's most operative distinction.
+- **Do not update the 6/12-month matrix on operational events.** The long-horizon matrix updates only on trend-state transitions, constraint-layer shifts, or synthesis major-version increments. Cycle-Bayesian updating produces sharp short-horizon estimates and miscalibrated long-horizon ones. Daily SITREPs touch 5a only.
+- **Do not let probability ranges exceed 15pp width.** Wider ranges are either undecomposed (split the row) or hedge (tighten with justification). Widening as epistemic humility is not permitted.
+- **Do not omit the "None of the above" row.** The named forks do not span the outcome space; the row enforces acknowledgment of the gap with a non-zero floor.
+- **Do not lead the Executive Summary with the Kinetic Escalation Composite.** The composite is a Section-5 footnote, not a headline. Primitives lead.
 
 ### Methodological discipline (from DELTASITREP, 2026-05)
 
