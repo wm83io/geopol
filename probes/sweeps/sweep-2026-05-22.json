@@ -1,0 +1,532 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-22",
+    "day_number": 85,
+    "framework_version": "v4-1",
+    "synthesis_anchor": "synthesis-v4-1.md",
+    "probes_run": [
+      "PROBE-1", "PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8",
+      "PROBE-9", "PROBE-10", "PROBE-11", "PROBE-12'", "PROBE-13",
+      "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-20", "PROBE-21"
+    ],
+    "probes_skipped": [
+      "PROBE-3 (monthly; 15th gap cycle)",
+      "PROBE-17 (bi-weekly; skip this cycle)",
+      "PROBE-18 (monthly; skip)",
+      "PROBE-19 (quarterly; skip)"
+    ],
+    "preflight_notes": [
+      "Strategic trends read: T1-T11 current. T8+T9 promoted Day 84; T10+T11 PENDING.",
+      "Synthesis anchor: synthesis-v4-1.md (latest internal; v4-1-external.md paired).",
+      "Appendix B: Day 85 (Paine ingest; PROBE-21 added). Reference layer: Day 85.",
+      "Last SITREP: day-84.md (May 21, 2026)."
+    ],
+    "reference_trends": [
+      {"trend": "T1", "effect": "advance", "note": "Qatar formal mediator + Egypt/Turkey peripheral + Pakistan active = unaligned-middle pivot capacity confirmed broader than Gulf-specific"},
+      {"trend": "T2", "effect": "hold", "note": "Kataib arrest shows proxy pressure; no capability signals beyond Day 84 CNN T2 baseline"},
+      {"trend": "T3", "effect": "advance", "note": "Vahidi receiving US negotiation messages via Naqvi while Baghaei maintains public sequencing demand: two-level pattern confirmed Day 85"},
+      {"trend": "T4", "effect": "hold", "note": "Rubio ambiguous; deal-faction active; no maximalist counter-mobilization visible"},
+      {"trend": "T5", "effect": "hold", "note": "Hajj window opens May 24; no Tier-1 fires Day 85; PENDING unchanged"},
+      {"trend": "T6", "effect": "hold", "note": "No new BS-9 sub-probe fires; M1 baseline holds"},
+      {"trend": "T7", "effect": "hold", "note": "Methodology discipline maintained throughout sweep"},
+      {"trend": "T8", "effect": "hold", "note": "No new Israeli pre-emption signal Day 85; mechanism loads but no threshold crossing"},
+      {"trend": "T9", "effect": "contradict_single", "note": "House WPR vote pulled because majority existed = Stage-2 hysteresis lock-in under accelerating parliamentary challenge; single-cycle, not multi-cycle; flag for auditor but do not transition T9 to CONTESTED"},
+      {"trend": "T10", "effect": "hold", "note": "Putin-Xi pillar signal; no new absorption-pathway evidence"},
+      {"trend": "T11", "effect": "hold", "note": "Qatar formalization = multiplex advancing; no configuration-specific threshold crossed"}
+    ]
+  },
+
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Euronews - Iranian president says he met Mojtaba Khamenei (May 7)", "tier": 2},
+        {"name": "Polymarket Mojtaba Khamenei public appearance market (active)", "tier": 4},
+        {"name": "Iran International - unseen leader, no visual", "tier": 2}
+      ],
+      "finding": "No verified public visual appearance through Day 85 (87+ days absent). President Pezeshkian stated on approximately May 7 that he had met Mojtaba in person and spoken with him for 2.5 hours — the first public confirmation by a senior official of a face-to-face meeting since Mojtaba's appointment as Supreme Leader following Khamenei Sr.'s assassination on Feb 28. The claim is single-source (Pezeshkian; T2 by rank), unverified by independent corroboration, and carries no visual or audio documentation. Framework characterization of functional-figurehead operating under IRGC legitimation-shield remains operative: Pezeshkian's claimed meeting is consistent with either genuine function or legitimation-theater.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Single-source senior-official claim: no independent corroboration; -50% on functional-activity inference"
+      ],
+      "conflict_notes": "No second-source death confirmation; no visual appearance; Pezeshkian claim is the only Day 85 data point. Functional-figurehead hypothesis and active-but-isolated hypothesis cannot be discriminated by this signal."
+    },
+
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "IndexBox / Euronews - Vahidi as Iran's back-channel figure (May 21)", "tier": 3},
+        {"name": "Al Arabiya - Pakistan interior minister meets Iran FM Araghchi (May 22)", "tier": 2},
+        {"name": "The Week India - Munir trip cancelled; Naqvi went instead (May 22)", "tier": 3}
+      ],
+      "finding": "Vahidi met Pakistani Interior Minister Naqvi on May 21 to receive a message from Washington — placing the apex IRGC decision-maker in direct receipt of US negotiation traffic via the Pakistan channel, not just in deterrent-floor broadcast mode. Euronews (T3 analytical tier) characterizes Vahidi as Iran's primary strategy-setter, with strategy framed as two pillars: Hormuz control and HEU retention. No direct named Vahidi statement on MOU terms or HEU sub-element found this cycle. Aliabadi (Khatam al-Anbiya) silent across all cycles. Ghalibaf X-channel and Sobh-e No: no new signals found Day 85. Aerospace-Quds divergence: still null.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5-preconditions — NOT fired; meeting with Pakistan messenger is not a statement on terms",
+        "framework_variable": "BS-12 PA-gap / BS-1a Iranian decision architecture",
+        "direction": "partial — apex engaging PROCESS of negotiation while substantive position (HEU stays + Hormuz control) unchanged",
+        "gap_to_full_match": "Vahidi direct named statement on MOU sub-elements OR named Vahidi concession/rejection of LOI concept"
+      },
+      "variable_moved": {
+        "variable": "BS-12 apex-engagement-with-process vs apex-engagement-with-terms distinction",
+        "prior_value": "Vahidi characterized as apex-deterrent-floor holder, not directly engaging negotiation channel",
+        "new_value": "Vahidi receiving US messages via Pakistan Interior Minister: apex in process-engagement, not terms-engagement",
+        "driver": "Vahidi-Naqvi meeting May 21; Euronews analytical characterization"
+      },
+      "discounts_applied": [
+        "IndexBox/Euronews T3 analytical characterization of Vahidi as 'back-channel negotiator' discounted: meeting with messenger ≠ acting as negotiator; -30%",
+        "No Vahidi direct quote on MOU terms found; Euronews strategy-framing is inferred from actions, not named statement"
+      ],
+      "conflict_notes": "IndexBox characterization of Vahidi as 'back-channel negotiator' (T3) conflicts with ISW Day 83 (T3) and Day 77 (T3) multi-cycle characterization of Vahidi as apex deterrent-holder opposing negotiations. Vahidi receiving a message from the US is categorically different from Vahidi being a negotiator. Hold ISW multi-cycle read as the stronger baseline; IndexBox is single-cycle inference from a single meeting. Vahidi-Naqvi meeting is new process data, not terms data."
+    },
+
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Global Times - Putin calls China-Russia cooperation pillar of global stability (May 2026)", "tier": 3},
+        {"name": "CNBC - oil prices and Chinese supertankers (May 20 carry)", "tier": 2}
+      ],
+      "finding": "No new Chinese active-support signals Day 85. Putin previewed an upcoming Beijing visit, characterizing China-Russia ties as a pillar of global stability — consistent with the T10 absorption trajectory and with no reversal of BeiDou/MizarVision or Chinese-components-to-Iran signal. Chinese supertankers exiting Hormuz reported Day 83 (Al Jazeera May 20 carry). No new OFAC designations or Chinese bank cascade signals found. BeiDou-3 and MizarVision sub-components remain structurally opaque.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Day 84 CNN T2 Chinese-components-flowing baseline carries. No new cycle data."
+    },
+
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "null",
+      "confidence": "H",
+      "sources": [
+        {"name": "The War Zone - Where are the carriers as of May 11: two CSGs enforce Iran blockade", "tier": 2},
+        {"name": "CENTCOM SASC hearing May 14: 6,000 drones + 1,500 ballistic missiles intercepted (Cooper T1)", "tier": 1}
+      ],
+      "finding": "Two-CSG posture stable (USS Abraham Lincoln + USS George H.W. Bush in theater). USS Eisenhower working up on East Coast with AIS on; no deployment order. Operation Sledgehammer remains pre-named but unexecuted per Day 84 baseline. No ROE shift, no Dark Eagle deployment, no new CENTCOM operational statement found Day 85. Cooper SASC May 14 baseline carries: 6,000+ one-way drones and 1,500+ ballistic missiles intercepted across the conflict. No new munitions-depletion disclosure.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Two-CSG posture appears stable. Eisenhower non-deployment is a restraint signal per Day 84 analysis; continues to hold."
+    },
+
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC - US Iran signal progress but at odds over enriched uranium Hormuz tolls (May 22)", "tier": 2},
+        {"name": "CNBC / IEA - Oil market red zone by July (May 21)", "tier": 2},
+        {"name": "The Hill / Yahoo Finance - Iran in talks with Oman over permanent Hormuz toll (May 21-22)", "tier": 2},
+        {"name": "CNBC - Brent settled $102.58 May 21; rose above $107 May 22 on mixed signals", "tier": 2}
+      ],
+      "finding": "Iran is in discussions with Oman on a permanent toll system for Hormuz that would formalize Iranian control over maritime traffic and create a revenue mechanism. Trump explicitly rejected this May 22: 'We want it open, we want it free, we don't want tolls.' Rubio: 'It would be unacceptable.' This represents a structural Hormuz sovereignty claim that goes beyond the two-track equilibrium (Iran-approved transits vs commercial closure) modeled in Day 76-84 and adds a second major collision point alongside HEU in any LOI or MOU framework. IEA chief warned oil markets could enter a 'red zone' by July if Hormuz does not reopen; 14 mb/d shut in; 250 million barrels inventory drawdown in March-April alone. Brent oscillating $102-107, driven by deal-signal vs. structural-tightness decoupling.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "BS-7 energy markets structural breaks — two-track Hormuz equilibrium",
+        "framework_variable": "BS-7 + BS-11: Hormuz architecture now has permanent-toll dimension that Trump/Rubio have explicitly rejected; IEA red-zone warning elevates BS-7 risk trajectory",
+        "direction": "up — framework risk escalates; Hormuz sovereignty collision adds second irreconcilable pre-condition alongside HEU",
+        "gap_to_full_match": "Full trigger is BS-7 'Saudi peg under public pressure' or 'Kharg saturation event'; today's finding is a pre-threshold structural shift on the Hormuz-sovereignty axis"
+      },
+      "variable_moved": {
+        "variable": "BS-11 MOU architecture / Hormuz sub-element; BS-7 framework risk",
+        "prior_value": "Two-track Hormuz (Iran-approved selective transits vs commercial closure) as interim arrangement; Hormuz reopening as deal component",
+        "new_value": "Iran-Oman permanent toll system proposal adds a sovereignty-monetization dimension: Iran treating Hormuz as revenue-generating infrastructure, not just leverage. Trump/Rubio explicit rejection = second major US-Iran collision point alongside HEU.",
+        "driver": "Iran ambassador to France (T1 adjacent) framing plus Oman working group; Trump/Rubio Day 85 explicit rejection (T1)"
+      },
+      "discounts_applied": [
+        "Iran-Oman toll discussions: Iranian ambassador characterization discounted 25% (advocacy framing); working-group discussions vs finalized proposal"
+      ],
+      "conflict_notes": "IEA red zone warning is structurally significant: 250mb inventory drawdown March-April at record pace; developing Asia/Africa supply pressure mounting (Goldman 4-6 week window entering its zone). No product-scarcity riots in named country yet; threshold not crossed but trajectory acceleration is a BS-15 pre-threshold signal."
+    },
+
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Haaretz - Knesset dissolution preliminary reading passed May 20 (carry)", "tier": 2},
+        {"name": "Times of Israel - dissolution bill mechanics (carry)", "tier": 2}
+      ],
+      "finding": "No new Israeli developments Day 85. Knesset dissolution remains at preliminary reading stage (passed May 20); subsequent readings (committee + three plenum readings) not yet scheduled or begun. No Israeli unilateral strike. No new IDF senior-officer public dissent. No Smotrich West Bank annexation announcement. Netanyahu still in pre-caretaker operational authority window. Israeli operational signals: no new air-refueling tempo, F-35/F-15 forward-positioning, or deep-strike aerial movements surfaced this cycle beyond Day 84 baseline.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The distinction between preliminary reading (fired Day 83) and subsequent readings (not yet scheduled) is methodologically important. The framework-revision trigger 'Knesset dissolution bill passes' references the FULL dissolution passage requiring 61+ votes across three subsequent readings. The preliminary reading fire (Day 83) already logged in Day 84 SITREP. No new trigger Day 85."
+    },
+
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "NPR - Republicans call off vote on Iran war resolution on verge of passing (May 22)", "tier": 2},
+        {"name": "CNN - GOP leaders abruptly cancel House vote on Iran war powers (May 21)", "tier": 2},
+        {"name": "Common Dreams / Newsweek - House GOP cancels Iran war powers vote for second straight day (May 22)", "tier": 3},
+        {"name": "PBS News - Senate resolution to limit Trump war powers; vote expected", "tier": 2},
+        {"name": "CBS News - House Republicans pull Iran war resolution vote (May 22)", "tier": 2}
+      ],
+      "finding": "House GOP leadership cancelled the Iran war powers vote FOR THE SECOND CONSECUTIVE DAY (May 21 and May 22) because vote counts showed the resolution would PASS. House Democratic Leader Jeffries, Whip Clark, and Caucus Chair Aguilar issued joint statement: 'Republicans cowardly pulled a scheduled vote — legislation that would have passed with bipartisan support.' Rep. Meeks: 'We had the votes to pass it today.' GOP leadership plans to bring it back after Memorial Day recess. Simultaneously, Senate leadership also called off its scheduled war-powers vote that was 'on the verge of passing.' Both chambers have now confirmed de facto majority support for war-powers constraint on Iran operations, with leadership using parliamentary procedure to prevent the vote. This is qualitatively stronger than the Day 84 213-214 House failure: the majority condition has been confirmed by both partisan leadership assessments, not just a one-vote margin.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "BS-5 WPR mechanism / T9 Stage-2 hysteresis lock-in challenge",
+        "framework_variable": "T9 Stage-2 hysteresis challenged; BS-5 House WPR de facto majority confirmed",
+        "direction": "up — WPR challenge to T9 is stronger than Day 84; T9 lock-in still operative but parliamentary defense is thinning",
+        "gap_to_full_match": "Full trigger 'House WPR passes (2+ additional GOP defectors on next attempt)' not technically fired because vote was not held; but majority condition confirmed by leadership of both parties"
+      },
+      "variable_moved": {
+        "variable": "T9 Stage-2 hysteresis lock-in / BS-5 House WPR trajectory",
+        "prior_value": "House WPR failed 213-214 (Day 84); three GOP defectors; Senate at on-merits vote pending",
+        "new_value": "House WPR vote pulled because majority existed (Day 85); Senate WPR also pulled; both chambers have de facto majority for constraint; GOP leadership using parliamentary delay, not substantive opposition, as the only remaining blocker",
+        "driver": "Bipartisan leadership assessments + two consecutive vote cancellations; GOP going to bring it back post-Memorial Day recess"
+      },
+      "discounts_applied": [
+        "Common Dreams (T3 left-leaning): characterization discounted 20% for framing; NPR/CNN/CBS T2 confirmation anchors the finding"
+      ],
+      "conflict_notes": "T9 Stage-2 hysteresis single-cycle contradiction flag: vote-pull-to-prevent-passage is NOT the same as T9 breaking (resumed operations under Stage-2 architecture have not occurred and Stage-2 certification remains in force). The lock-in mechanism (hostilities terminated certification, operation Sledgehammer pre-naming, WPA day-60 elapsed) is not disrupted by a vote that was prevented from occurring. Flag for auditor: if House WPR is scheduled and passes after Memorial Day recess, T9 transitions to CONTESTED. Single-cycle evidence only; per sweep protocol, logged as contradict_single in reference_trends for T9; do not propose T9 demotion this cycle."
+    },
+
+    {
+      "probe_id": "PROBE-11",
+      "probe_name": "Russian Settlement Window and Dugin Leading Indicator",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera - Putin hints Ukraine war ending, ready for Zelensky talks (May 10)", "tier": 2},
+        {"name": "CNN - Russia scaled-down Victory Day parade; three-day ceasefire May 9-11 (May 9)", "tier": 2},
+        {"name": "Dugin Wikipedia / RT - Dugin expressing Trump disillusionment (2026 background)", "tier": 3}
+      ],
+      "finding": "No new Russia-Iran settlement correlation signals Day 85. Russia-Ukraine three-day ceasefire (May 9-11) has ended; Putin hinted at readiness for direct Zelensky talks but no substantive progress. Putin previewed Beijing visit, characterizing China-Russia as pillar of stability. Dugin expressing disillusionment with Trump as a 'neoconservative' — not a shift toward nuclear posture hardening but a civilizational-disappointment framing. No Belousov-Talaei follow-on signals found. BS-9 sub-probes (PROBE-17 skip this cycle): no new Shoigu legal trajectory signals; no Putin appearance count update for May 2026; no Dyumin portfolio expansion signals. Russia's Iran involvement consistent with ≤5% Fork B-Russia baseline.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Dugin 'Trump-as-neoconservative' framing is NOT a Kremlin-posture shift; Dugin's public commentary is a leading indicator for ideological direction, not operational policy. No Dugin nuclear-posture hardening found this cycle; baseline holds."
+    },
+
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CBS News / CNBC - Trump willing to wait 'a couple of days' for Iranian response (May 21-22)", "tier": 2},
+        {"name": "JP / Modern Diplomacy / BusinessToday - Qatar negotiating team in Tehran (May 22)", "tier": 2},
+        {"name": "Axios / Washington Times - Pakistani mediators stepping up (May 22)", "tier": 2},
+        {"name": "The Week India - Munir trip cancelled; Naqvi went instead (May 22)", "tier": 3},
+        {"name": "WaPo / PBS - Rubio 'slight progress'; uncertainty about whether war resumes (May 22)", "tier": 2}
+      ],
+      "finding": "Three new structural developments: (1) Qatar sent a formal negotiating team to Tehran on May 22, formalizing Qatar's mediator role beyond the ad-hoc trilateral call architecture; mediator architecture now: Pakistan (primary, Naqvi-Araghchi contact); Qatar (formal team in Tehran); Egypt and Turkey mentioned as peripheral participants by Rubio. (2) Trump extended the deal window by a 'couple of days' beyond May 21-22, confirming a second extension from the Day 84 'early next week' framing. (3) Munir trip cancelled — Army Chief did not travel to Tehran because no breakthrough was reached; Pakistan Interior Minister Naqvi went instead for a second meeting this week carrying US message to Araghchi. The Pakistan channel has been downgraded from principal-tier (Army Chief) to agent-tier (Interior Minister) for this cycle, though this is conditioned on breakthrough-attainment, not permanent. Rubio: 'slight progress'; also: 'I'm not sure you can reach a deal with these guys' — internal US executive contradiction persisting.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Qatar formal mediation role announced (named diplomatic process); Second Trump deal-window extension past May 25",
+        "framework_variable": "BS-11 mediator architecture + BS-18 Gulf brake durability",
+        "direction": "up — Qatar formalization strengthens Fork B-multilateral via Gulf-Qatar pathway; second extension advances BS-18 brake-durable finding",
+        "gap_to_full_match": "Qatar formal mediator full condition met. Second extension condition met. Pakistan downgrade is a partial counter-signal (principal-tier not sustained this cycle)."
+      },
+      "variable_moved": {
+        "variable": "BS-11 mediator architecture / BS-18 brake durability",
+        "prior_value": "Pakistan primary mediator (Munir-Araghchi direct at principal tier); Qatar bridge node in ad-hoc trilateral role; Trump window May 22-25",
+        "new_value": "Qatar formal negotiating team in Tehran (bridge node formalizes); Munir trip cancelled (Pakistan downgraded to agent-tier this cycle); Egypt + Turkey acknowledged peripheral; Trump second extension 'couple of days' past May 22; mediator architecture is now Pakistan-Qatar-Egypt/Turkey quadrilateral",
+        "driver": "Qatar negotiating team confirmed by JP + Modern Diplomacy + BusinessToday (T2 convergence); Munir cancellation confirmed by The Week India + Axios context"
+      },
+      "discounts_applied": [
+        "Munir trip cancellation sourced from The Week India (T3 regional): corroborated by context from Axios and Al Arabiya on Naqvi meeting; confidence M",
+        "Rubio 'slight progress' + 'not sure we can reach a deal' in same cycle: internal contradiction; discount both individually; net signal is negotiation-ongoing with US-side ambivalence"
+      ],
+      "conflict_notes": "Pakistan channel downgrade (Munir cancelled; Naqvi went instead) is a COUNTER-SIGNAL against the Day 84 Pakistan-at-principal-tier finding. Per Appendix B trigger: 'Munir public characterization of Tehran meetings describing LOI framework as accepted-in-principle or rejected' — this cannot fire if Munir did not travel. The downgrade to Interior Minister contact may indicate: (a) Iran did not signal sufficient progress to warrant principal-level visit, or (b) Pakistan is conserving Munir contact for a breakthrough moment. The Naqvi second visit within one week (Al Arabiya) suggests channel remains active."
+    },
+
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap)",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "The Tribune India / Geo.tv / Times of Israel - Mojtaba HEU-stays directive (May 21, carry with extension)", "tier": 2},
+        {"name": "Euronews / IndexBox - Vahidi meeting Naqvi; strategy framing (May 21)", "tier": 3},
+        {"name": "Geo.tv / Reuters source - HEU position hardened from pre-war 50% offer to 0% (May 21)", "tier": 2},
+        {"name": "CBS News / CNBC - Baghaei 'deep and significant differences'; 'will not reach conclusion on HEU details' (May 21-22)", "tier": 2}
+      ],
+      "finding": "Iran's PA-gap is now visible on a new dimension: the HEU position has hardened relative to the PRE-WAR baseline. Before the Twelve-Day War (Feb 28 - March 2026), Iran had signaled willingness to ship out half of its 60% enriched uranium stockpile. Per Reuters sourcing (May 21), that position changed 'after repeated threats from Trump to strike Iran' — Iran now insists the FULL stockpile stays in-country. This is a P-DG2-adjacent dynamic (strikes pushing limited-actor position toward maximum resistance), though the initial strikes predate the current ceasefire. Vahidi meeting Naqvi to receive the US message (Day 84-85 boundary) is the apex in PROCESS engagement without any substantive concession; Baghaei's 'differences deep and significant' (T1) and 'will not reach conclusion if we delve into HEU details' (T2) operationalize the apex position at the MFA communication layer. Trump A1 oscillation: 'couple of days' extension + 'pretty impressed by Iran's negotiators' vs Rubio's counter-signal — deal-direction holding but with noise.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi confirmed direct named statement on MOU/5-preconditions — NOT fired",
+        "framework_variable": "BS-12 PA-gap; BS-1a HEU position",
+        "direction": "down — HEU negotiating floor has HARDENED from pre-war (50% out) to post-war (0% out); second structural collision alongside Hormuz toll",
+        "gap_to_full_match": "Vahidi named direct statement on LOI or HEU sub-element; Araghchi or Baghaei T1 acceptance or rejection of LOI concept"
+      },
+      "variable_moved": {
+        "variable": "BS-12 Iranian HEU floor / Fork B-bilateral deal space",
+        "prior_value": "Mojtaba HEU-stays at 0% confirmed Day 84; pre-war position not characterized",
+        "new_value": "HEU position moved from pre-war 50%-out-willing to post-war 0%-out-mandatory; Iran-side deal space on HEU contracted 100% of prior flexibility since start of conflict",
+        "driver": "Reuters sourcing via Geo.tv: 'the position changed after repeated threats from Trump to strike Iran'"
+      },
+      "discounts_applied": [
+        "HEU hardening attribution ('after threats') is anonymous senior Iranian sources; -50% standard discount; multi-outlet convergence mitigates to M confidence overall"
+      ],
+      "conflict_notes": "The pre-war 50% HEU offer was associated with JCPOA-adjacent signaling; whether Iran would have honored it is unknown. Post-war 0% position is now confirmed by Mojtaba directive + Baghaei public framing + Vahidi strategy characterization across three tiers. No source contradicts the 0% position. T3 (Fearon-Slantchev): apex maintaining maximum public floor while mid-tier (Naqvi channel active) continues process engagement = two-level pattern holds."
+    },
+
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Soufan Center IntelBrief - US arrest of Kataib Hezbollah leader (May 19)", "tier": 3},
+        {"name": "Al Jazeera / CNN - Kataib Hezbollah leader al-Saadi arrested (May 15-16)", "tier": 2},
+        {"name": "Foreign Policy - Iran proxies out for themselves; Hezbollah terminal decline (March 2026, carry)", "tier": 3},
+        {"name": "Stimson Center - Houthi conserving arsenal stockpiles (2026, carry)", "tier": 3}
+      ],
+      "finding": "US-Turkey joint operation arrested Kataib Hezbollah (Iraq PMF) leader Mohammad Baqer Saad Dawood al-Saadi, charged with coordinating 18+ attacks in the US, Canada, and Europe (London, Amsterdam, Toronto, New York, California, Arizona, France) during the Iran war. This is P-OVEX partial: a proxy network leadership node under US prosecution is a degradation signal for the Kataib Hezbollah channel specifically. Hezbollah: 'terminal decline' per Foreign Policy; Lebanese government prohibiting all military/security activity post-March 2026 intervention. Houthis: conserving stockpiles, reduced operational tempo during ceasefire. Iranian core capability: Day 84 CNN T2 US-IC baseline carries (50% drone capability intact; production resumed; 6-month full reconstitution). No new capability updates Day 85.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "PROBE-21 P-OVEX partial — proxy network degradation signal; BS-13 sustained at Day 84 baseline",
+        "framework_variable": "T2 Mosaic-Octopus multi-channel deterrent; P-OVEX proxy-network self-amputation clock",
+        "direction": "partial down — Kataib Hezbollah leadership arrested; Hezbollah terminal; Houthis conserving; CORE Iranian capability stable at Day 84 baseline",
+        "gap_to_full_match": "Houthi mass-launch event (would confirm channel not cut); Hezbollah missile readiness signal; Cyber Stage 3 activation"
+      },
+      "variable_moved": {
+        "variable": "P-OVEX proxy-network self-amputation clock (Paine mechanism)",
+        "prior_value": "Proxy pressure observed but not named-leader-level prosecution confirmed",
+        "new_value": "Kataib Hezbollah leader arrested; Western-capital attacks attributed to IRGC-proxy network confirmed operational; per Paine, sustained proxy pressure without replacement strengthens L3 cost-accumulation for Iran",
+        "driver": "Al Jazeera / CNN T2 federal prosecution charges; Soufan Center T3 analytical significance assessment"
+      },
+      "discounts_applied": [
+        "al-Saadi arrest: single-leader arrest is not network collapse; -30% on network-degradation inference"
+      ],
+      "conflict_notes": "The Kataib Hezbollah arrest also touches BS-2 (retired London/Western-Capital attribution): al-Saadi directed attacks in London and multiple European/North American cities, meeting the resurrection criterion of 'Iran-linked operationally-directed Western-capital kinetic incident.' However, this is Kataib Hezbollah (Iraqi PMF) rather than Hezbollah Unit 910, which BS-2 specifically named. Flag for auditor: evaluate whether al-Saadi prosecution satisfies BS-2 resurrection criteria or requires a separate BS-New entry for IRGC-proxy-directed Western-capital attacks."
+    },
+
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "WaPo / PBS - Rubio 'slight progress'; uncertain whether war will resume (May 22)", "tier": 2},
+        {"name": "CNBC - Rubio 'not sure you can reach a deal with these guys' (May 22)", "tier": 2},
+        {"name": "CBS News - Trump 'pretty impressed by Iran's negotiators'; willing to wait 'couple of days' (May 22)", "tier": 2},
+        {"name": "Al Jazeera / NBC - Vance 'no agreement after 21 hours of talks'; Day 83 carry (May 20)", "tier": 2}
+      ],
+      "finding": "US executive dispositional signals are internally contradictory Day 85: Rubio said 'slight progress' AND 'I'm not sure you can reach a deal with these guys' in the same cycle (WaPo + CNBC). Trump characterized Iranian negotiators as 'pretty impressive' while maintaining attack readiness framing. Vance 'no agreement' framing from Day 83-84 carries but Vance has not issued new Day 85 statement. No new Israeli dispositional signals found (Netanyahu-Trump tense call from Day 84 carries). Iranian dispositional signals: Baghaei 'deep and significant differences' (T1) = maximum public-bargaining framing. The US executive's internal contradiction (Rubio ambivalent; Trump impressed-but-ready-to-strike; Vance prior pro-deal) is a new data point: the deal-faction is not monolithic within the US executive itself.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Rubio 'not sure we can reach a deal' and 'slight progress' in same cycle: discount both as negotiation-management messaging; net value = deal-ongoing-with-ambivalence"
+      ],
+      "conflict_notes": "Rubio's dual-message may be a deliberate good-cop/bad-cop framing designed to maintain pressure while signaling deal-openness. However, it also introduces noise into the US dispositional reading: the deal-faction is not presenting a unified optimistic front. Per Weisiger, dispositional readings on BOTH sides at maximum produce unlimited-aims dynamics; the Iranian side reads Rubio's ambivalence as a potential hardening signal."
+    },
+
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Composite: PROBE-2, PROBE-10, PROBE-12', PROBE-13, PROBE-20 outputs this cycle", "tier": 2}
+      ],
+      "finding": "Joint distribution of first-mover thresholds shifted Day 85 across five axes: (1) IRANIAN COALITION: HEU floor hardened vs pre-war; Baghaei 'deep differences'; no coalition rupture signals; direction: away from deal. (2) TRUMP THRESHOLD: second extension 'couple of days' = deal-direction held; A1 oscillation with Rubio counter-signal; direction: deal-leaning under noise. (3) ISRAELI THRESHOLD: no unilateral strike Day 85; Knesset at preliminary reading only; pre-caretaker window still operative; direction: not breached. (4) WPR THRESHOLD: vote pulled twice because majority existed = de facto passage condition met but not activated; Fork A constraint not yet forced; direction: approaching but not breached. (5) STRANGULATION: IEA 'red zone' by July; product scarcity in developing Asia/Africa mounting; Goldman timeline entering its zone. New: Munir trip cancelled (Pakistan channel conditioned on breakthrough; breakthrough not reached) and Qatar formal team in Tehran (mediation architecture expanding without breakthrough) together define a gap between diplomatic-process expansion and substantive convergence.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "BS-15 first-mover joint distribution composite",
+        "framework_variable": "Joint threshold distribution: strangulation approaching; WPR de facto majority; LOI not yet signed; Iranian floor hardened",
+        "direction": "toward resolution via Iranian intransigence: the dominant first-mover signal is Iran hardening (HEU 0% + Hormuz toll) rather than any single actor reaching their threshold",
+        "gap_to_full_match": "Any single threshold breach: Iranian coalition rupture; Trump ordering Sledgehammer; Israeli unilateral strike; WPR on-merits passage"
+      },
+      "variable_moved": {
+        "variable": "BS-15 joint first-mover distribution",
+        "prior_value": "Six-actor architecture; LOI as suspension mechanism dominant variable; Israeli threshold approaching most acutely (Day 84)",
+        "new_value": "LOI suspension mechanism under strain: two structural collisions (HEU + Hormuz toll) making LOI signing harder; Iran HARDENING posture while US EXTENDING window creates asymmetric directional pressure; Qatar formalization expands process without producing substance",
+        "driver": "Composite Day 85 probe outputs"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The Munir trip cancellation is significant for BS-15: the Pakistan principal-tier contact was conditioned on breakthrough. Absence of breakthrough = Army Chief stayed home. This is an observable signal of negotiating-distance, not just process activity. The gap between diplomatic-process expansion (Qatar formal; Naqvi second visit; Egypt/Turkey named) and substantive convergence absence (Baghaei 'deep differences'; Munir stayed home) is the Day 85 defining tension."
+    },
+
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Jerusalem Post / Modern Diplomacy / BusinessToday - Qatari negotiating team in Tehran (May 22)", "tier": 2},
+        {"name": "CBS News / CNBC - Trump second extension 'couple of days' (May 22)", "tier": 2},
+        {"name": "House of Saud / Wego - Hajj window May 24-29; 30,000 Iranian pilgrims in Saudi (carry)", "tier": 3},
+        {"name": "Pakistan Shafaqna - US-Iran talks to resume in Islamabad after Hajj (background)", "tier": 3}
+      ],
+      "finding": "Two framework-revision triggers confirmed Day 85: (1) Qatar sent a formal negotiating team to Tehran — Qatar's role formally transitions from ad-hoc trilateral bridge to named diplomatic process with deployed team. This fires the BS-18/BS-11 trigger: Qatar bridge node formalizes; mediator architecture stabilizes for Fork B-multilateral pathway. (2) Trump's second extension 'a couple of days' past the Day 84 'early next week' framing fires the second-extension trigger: BS-18 brake mechanism confirmed durable across two extension cycles. No second Barakah-class attack found. No intra-troika split signals. MBS-Hajj pathway: Hajj opens May 24; Iranian pilgrims present (~30,000); Saudi-Iran backchannel through Hajj window is live but no principal-level meeting confirmed Day 85. Egypt and Turkey added to mediation periphery per Rubio statement, expanding unaligned-middle pivot capacity beyond Gulf-specific.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "(1) Qatar formal mediation role announced; (2) Second Trump deal-window extension past May 25; (3) Other unaligned-middle state (Egypt, Turkey) joins mediation",
+        "framework_variable": "BS-18 brake durability; BS-11 mediator architecture; T1 unaligned-middle pivot capacity",
+        "direction": "up — brake mechanism durable across two extension cycles; mediator architecture broader than Gulf-specific; T1 advances",
+        "gap_to_full_match": "Saudi-Iran principal-level meeting during Hajj window (not yet confirmed); MBS or MBZ public brake reaffirmation; Qatar formal-process named output"
+      },
+      "variable_moved": {
+        "variable": "BS-18 Gulf brake durability; BS-11 mediator architecture breadth",
+        "prior_value": "Brake confirmed durable across one extension (Day 84); Qatar in ad-hoc bridge role; Pakistan primary",
+        "new_value": "Brake confirmed durable across two extensions; Qatar formally deployed mediator team to Tehran; Egypt and Turkey peripherally confirmed; unaligned-middle mediation architecture is now Pakistan + Qatar + Egypt + Turkey (+ Saudi Hajj channel live but unconfirmed at principal tier)",
+        "driver": "Qatar team confirmed T2 multi-outlet; Trump extension CBS/CNBC T2; Rubio Egypt/Turkey mention T1-adjacent"
+      },
+      "discounts_applied": [
+        "Egypt + Turkey peripheral status: Rubio mention T1-adjacent; no named diplomatic output from either; -30% on full mediation-participant characterization",
+        "Hajj backchannel: present but unconfirmed principal-level; monthly cadence holds as context, not confirmed trigger"
+      ],
+      "conflict_notes": "Rubio's Egypt/Turkey mention is significant: if confirmed operational, it extends the T1 unaligned-middle thesis to two additional state actors beyond the Gulf troika and Pakistan. No counter-mobilization by Huckabee/Hegseth/CUFI against the Gulf brake or Qatar mediation found Day 85."
+    },
+
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Soufan Center - Kataib Hezbollah leader arrest signals proxy model shift (May 19)", "tier": 3},
+        {"name": "Al Jazeera / CNN - Kataib Hezbollah al-Saadi charges (May 15-16)", "tier": 2},
+        {"name": "Geo.tv / Reuters - HEU hardened post-war from 50% out to 0% out (May 21)", "tier": 2},
+        {"name": "CNBC - Hormuz toll proposal (Iran-Oman); Trump rejection (May 22)", "tier": 2}
+      ],
+      "finding": "P-AIM: Iranian official demand-set remains formally limited (sanctions relief + Hormuz sovereignty + reparations + frozen assets — NOT expulsion of US from Gulf, NOT elimination of Israel, NOT order-overthrow terms). However, the Hormuz permanent toll proposal introduces a sovereignty-institutionalization element that approaches the order-revisionist threshold: a permanent IRANIAN toll on international shipping would constitute a structural revision to freedom-of-navigation norms predating the conflict. Trump/Rubio explicitly rejected at T1. P-DG: No confirmed US targeting of named Iranian principals since ceasefire; P-DG null. P-DG2: HEU position hardened from pre-war 50%-out offer to post-war 0%-out — Geo.tv/Reuters attribute this change to 'repeated US threats'; this is consistent with P-DG2 mechanism (earlier-cycle US targeting shifts limited position toward maximum resistance) but the causal attribution is speculative (anonymous source). Log as P-DG2 partial; single-cycle and single-source; do not escalate. P-OVEX partial: Kataib Hezbollah leader arrested (al-Saadi, 18+ attacks across Western cities) — proxy network under US prosecution pressure; per Paine, proxy self-amputation reduces leverage option and increases L3 cost-accumulation clock pressure on Iran. P-INFO: No purge signals, no accurate-advisor-removal signal; null. P-CHEMO: US strategy remains air/naval/sanctions/blockade; no ground-force buildup; null.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "PROBE-21 P-DG2 partial (HEU hardening attributed to prior strikes); P-OVEX partial (Kataib arrest)",
+        "framework_variable": "Paine aim-class + proxy-network self-amputation clock",
+        "direction": "partial — P-AIM holding limited; P-DG2 weak partial signal; P-OVEX partial signal",
+        "gap_to_full_match": "P-DG: US targeting named Iranian principals (apex or Vahidi-tier); P-DG2: post-strike demand escalation at T2 with causal framing; P-AIM: Iran demand-set explicitly crossing to order-revisionist terms across 2+ cycles"
+      },
+      "variable_moved": {
+        "variable": "P-OVEX proxy-network self-amputation clock; P-DG2 limited-to-unlimited feedback partial",
+        "prior_value": "P-OVEX not yet signaled at named-leader prosecution level; P-DG2 not characterized",
+        "new_value": "P-OVEX partial: Kataib Hezbollah leadership (IRGC-linked Iraqi PMF) under US prosecution; per Paine, proxy pressure without replacement strengthens cost-accumulation clock. P-DG2 partial: HEU floor hardening attributed to prior strike threats consistent with limited-to-unlimited feedback mechanism, though pre-dates current ceasefire period.",
+        "driver": "al-Saadi prosecution (T2); Reuters/Geo.tv HEU sourcing (T2 anonymous)"
+      },
+      "discounts_applied": [
+        "P-DG2 attribution: anonymous senior Iranian sources attributing HEU change to threats; -50% standard; single-cycle",
+        "P-OVEX: single arrested leader is not network collapse; -30% on self-amputation inference"
+      ],
+      "conflict_notes": "The Hormuz toll proposal deserves a P-AIM classification note: permanent institutional control over international shipping revenue could be read as an order-revisionist demand by some analysts. The framework's P-AIM criteria requires 'order-revisionist terms sustained across 2+ cycles'; this is first cycle and the toll is Iran's stated position, not a formal negotiating demand delivered via official channel. Hold P-AIM = limited; flag the Hormuz toll as a potential P-AIM escalation marker for next cycle monitoring."
+    }
+  ],
+
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1 Mojtaba", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "A4 mechanism: Pezeshkian meeting claim (partial)"},
+      {"probe_id": "PROBE-2 IRGC Factional", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "BS-12 apex process-engagement (partial); no terms statement"},
+      {"probe_id": "PROBE-6 Chinese Support", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-7 CENTCOM Posture", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-8 Oil Markets", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "BS-7/BS-11: Iran-Oman permanent Hormuz toll + IEA red-zone warning"},
+      {"probe_id": "PROBE-9 Israeli Internal", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-10 War Powers", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "T9 contradict_single: House/Senate WPR votes pulled because majority existed"},
+      {"probe_id": "PROBE-11 Russian Settlement", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-12' MOU Framework", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "BS-11 + BS-18: Qatar formal team; second extension; Munir cancelled (downgrade)"},
+      {"probe_id": "PROBE-13 PA-Gap", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "BS-12 HEU floor: 50% out pre-war → 0% out post-war (hardening confirmed)"},
+      {"probe_id": "PROBE-14 Iranian Residual", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "P-OVEX partial: Kataib Hezbollah leadership arrested"},
+      {"probe_id": "PROBE-15 Dispositional", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Rubio internal contradiction; deal-faction noise ↑"},
+      {"probe_id": "PROBE-16 First-Mover", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Joint distribution: Iran hardening dominant signal; process-substance gap widens"},
+      {"probe_id": "PROBE-20 Gulf Troika", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Qatar formal mediator + second extension: BS-18 durable; T1 advances (Egypt/Turkey)"},
+      {"probe_id": "PROBE-21 Paine Death-Ground", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "P-OVEX partial; P-DG2 weak partial; P-AIM holds limited"}
+    ],
+    "fired_count": 5,
+    "partial_count": 6,
+    "null_count": 4,
+    "gap_count": 0
+  },
+
+  "trigger_digest": [
+    {
+      "appendix_b_row": "Qatar formal mediation role announced (named diplomatic process, not ad-hoc trilateral call)",
+      "source_probe": "PROBE-12' / PROBE-20",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-11 MOU Architecture / BS-18 Gulf State Troika",
+        "edit": "BS-11: Qatar bridge node formalized as deployed negotiating team in Tehran (Day 85). Mediator architecture update: Pakistan (primary; Naqvi-Araghchi contact this cycle; Munir conditioned on breakthrough); Qatar (formal team in Tehran); Egypt + Turkey (peripheral, Rubio-acknowledged). BS-18: Qatar formal participation confirms Gulf-state diplomatic architecture broader than bilateral-brake function; Fork B-multilateral via Gulf-Qatar pathway durability ↑. Cross-reference T1 unaligned-middle: Egypt + Turkey addition expands the actor set beyond Gulf-specific."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Second Trump deal-window extension past current 'early next week' framing (extension beyond May 25)",
+      "source_probe": "PROBE-20 / PROBE-12'",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-18 Gulf state troika brake durability",
+        "edit": "Brake mechanism confirmed durable across two extension cycles (Day 84 'early next week' → Day 85 'couple of days' additional). Per trigger criteria: Fork B-multilateral via Gulf-Pakistan pathway becomes structural rather than contingent. T1 unaligned-middle thesis reinforced with multi-extension evidence. Proposed BS-18 visibility: 35-45% → 40-50% on two-extension confirmation."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Iran-Oman permanent Hormuz toll proposal — new structural collision point (not in prior trigger catalog)",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-7 Energy Markets / BS-11 MOU Architecture (Hormuz sub-element)",
+        "edit": "Iran-Oman permanent toll system for Hormuz (T2-confirmed Day 85) is a new framework variable. Trump T1 explicit rejection: 'open, free, no tolls.' Rubio T1: 'unacceptable.' This creates a SECOND structural collision in the LOI architecture alongside HEU disposition: (1) HEU: Mojtaba stays vs Trump out; (2) Hormuz: Iran permanent toll vs US free/open. The LOI concept must defer BOTH collisions into the 30-day negotiation period to be viable. BS-7 framework risk ↑: the Hormuz sovereignty question is no longer just about reopening timing but about the permanent institutional arrangement governing Hormuz — a structurally harder problem than transit fees. Auditor to evaluate: (a) whether BS-11 Hormuz sub-element needs explicit permanent-toll tracking mechanism added to probe directive; (b) whether P-AIM monitoring for Hormuz should be elevated given toll proposal approaches order-revisionist threshold."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "House WPR de facto majority confirmed (vote pulled twice to prevent passage)",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-5 US domestic / T9 Stage-2 hysteresis",
+        "edit": "T9 single-cycle contradiction flag (per sweep protocol): House and Senate WPR votes were cancelled because majority support for passage existed in both chambers. Democratic leadership confirmed 'we had the votes.' This does not technically fire the T9-challenging trigger (resolution was not passed) but represents the strongest challenge to T9 lock-in since Day 60. T9 remains VALIDATED this cycle: Stage-2 architecture (hostilities-terminated certification + Sledgehammer pre-naming + WPA day-60 elapsed + no judicial challenge) is not disrupted by a prevented vote. However, the post-Memorial Day recess scheduled return of the vote means T9 will face a direct test within ~10 days. Flag for auditor: if WPR passes both chambers after recess, T9 → CONTESTED. Update disc-ratio for T9 (one discounted-contradicting cycle)."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "IEA 'red zone' warning; 250mb inventory drawdown March-April; product scarcity approaching developing Asia/Africa",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-7 Energy Markets",
+        "edit": "IEA chief (T1-adjacent, named): 'red zone by July' if Hormuz remains closed. 250 million barrel inventory drawdown in March-April alone; 14 mb/d shut in; product scarcity onset in developing Asia/Africa (not yet named-country riots/rationing per Goldman threshold). Goldman's 4-6 week South Africa/India/Thailand/Taiwan window is entering its zone; the July 'red zone' is 5-6 weeks out. BS-7 framework risk elevated; approach to product-scarcity trigger threshold. Next cycle: monitor named-country scarcity events per BS-15 strangulation-transmission sub-threshold."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "P-OVEX partial: Kataib Hezbollah leadership prosecuted; BS-2 resurrection evaluation needed",
+      "source_probe": "PROBE-21 / PROBE-14",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "PROBE-21 P-OVEX / BS-2 retired (resurrection evaluation)",
+        "edit": "al-Saadi (Kataib Hezbollah, IRGC-linked Iraqi PMF) prosecution covers 18+ attacks on US, Canada, European cities including London, Amsterdam, Toronto — confirming Iran-proxy operationally-directed Western-capital attacks. Auditor evaluation required: (a) Does al-Saadi prosecution meet BS-2 resurrection criteria ('any second confirmed Iran-linked Western-capital kinetic incident; MI5/Met operationally-directed-vs-inspired chain confirmation')? The prosecution establishes directed (not inspired) Iran-linked attacks across multiple Western capitals. Kataib Hezbollah is not Hezbollah Unit 910 per the original BS-2 scope. Recommend auditor create a new BS entry for 'IRGC-proxy-directed Western-capital attack infrastructure' rather than resurrecting the narrower BS-2. (b) P-OVEX: add al-Saadi arrest as first named-node prosecution; evaluate whether other Kataib Hezbollah leadership or Iranian state officials face near-term prosecution risk."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+
+  "gap_log": [
+    {
+      "probe_id": "PROBE-3",
+      "gap_description": "Bazaari / Bonyad economic signals: structurally opaque; monthly cadence skip Day 85",
+      "consecutive_gap_cycles": 15,
+      "sources_tried": ["cadence skip — not attempted this cycle per monthly schedule"],
+      "sources_not_tried": ["IranWire", "Iran International Persian", "alanchand.com", "BBC Persian"],
+      "recommendation": "accept_structural_opacity"
+    }
+  ],
+
+  "calibration_check": {
+    "trend_state_question": "No trend-state transitions warranted on Day 85 single-cycle evidence. T9 (Stage-2 hysteresis) logged as contradict_single: House/Senate WPR de facto majority without passage does not constitute multi-cycle contradicting evidence; T9 remains VALIDATED. T1 advances on Qatar + Egypt + Turkey mediation participation (consistent with VALIDATED). T3 advances on Vahidi-Naqvi process engagement (consistent with VALIDATED). No PENDING trends cross promotion threshold. Disc-ratio update: T9 gets one discounted-contradicting-cycle entry (WPR vote pulled because majority existed = T9 challenged but not broken).",
+    "thesis_question": "HOLDING with structural elaboration on two new collision points. The materialist bargaining thesis holds: the joint equilibrium of constrained choices produces LOI-window-extension as the dominant ranked option for Trump at Day 85 under joint constraints (Gulf brake; faster reconstitution; Munir conditioned on breakthrough; WPR approaching). The framework's Day 84 central tension (Mojtaba HEU-stays vs Trump HEU-out) has been joined by a SECOND irreconcilable collision: Iran-Oman permanent Hormuz toll vs Trump/Rubio explicit 'open and free.' Two structural collisions now loaded into the LOI architecture simultaneously. The LOI's face-saving function (defer, not resolve) is under compounding strain. The Day 85 defining tension: diplomatic-process expansion (Qatar formal; Naqvi second visit; Egypt/Turkey; Hajj window opening) is occurring WITHOUT substantive convergence (Baghaei 'deep differences'; Munir stayed home; HEU hardened). The Paine death-ground framework predicts this: under sustained pressure, limited actors may entrench rather than retreat, and the accumulating constraint set narrows the bargaining range further. The thesis is holding; the clock (IEA red zone July; strangulation approaching Goldman threshold; reconstitution advancing) is tightening."
+  }
+}
