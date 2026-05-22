@@ -183,7 +183,21 @@ Derived elements (composites such as the Kinetic Escalation Composite) and tail-
 
 - **Internal filename:** `synthesis-v{N}.md`
 - **External filename:** `synthesis-v{N}-external.md`
-- Add a **Version Notes** section at the top of the *internal* document (below header block) listing what changed substantively from prior version. 5-8 bullets. Diff summary for readers returning after an absence.
+- Add a **Version Notes** section at the top of the *internal* document (below header block) listing what changed substantively from prior version. 5-8 bullets, preceded by the mandatory **Triggers Fired** italic blockquote header (see Internal Document Structure §1). Diff summary for readers returning after an absence.
+
+### Major-Version Reserved Changes
+
+The following document-structure changes are **staged for the next major-version increment** (v4.x → v5.0). They are deliberate deferrals: each is justified analytically but is a structural reorganization that would obscure version-to-version comparison if applied mid-minor-cycle. When the next major increment is triggered (thesis reformulation or new constraint layer per Versioning Rules), absorb these as part of the major version's structural reorganization.
+
+**MV-Reserved-1: Restructure §5 Structural Dynamics around trend instrumentation rather than chronological mechanism enumeration.** §5 currently has 24+ sub-sections accreting since v1.0 (§5.1 Double Bind, §5.2 Manufactured Consent, ..., §5.25 Gulf State Troika Brake). Many mechanisms now map to active trends: §5.18 Meta-Negotiation Regression ↔ T3; §5.19 Principal-Access Channel ↔ T3/T4; §5.20 Eschatological-Coalition ↔ T4; §5.23 Vahidi Decapitation Pathway ↔ T3 + T8; §5.24 NATO Alliance Fragmentation ↔ T9; §5.25 Gulf State Troika Brake ↔ T1 + T11. Restructured §5 would organize mechanisms by trend-anchor (one sub-section per active trend, mechanisms within trend grouped) rather than chronological accretion order. Benefit: trend-driven framework's structural prediction architecture becomes visible in §5; redundancy between §5 mechanism narratives and §2b Trend State Snapshot is collapsed. Cost: breaks the §5.x numbering convention used in 80+ SITREP cross-references and prior synthesis versions; requires explicit mapping table for legacy references. Defer until thesis-reformulation-scope revision.
+
+**MV-Reserved-2: Consolidate §6 Bargaining Theory with the Methodological Note (§2a).** §6 currently lists bargaining-theory mechanisms (Slantchev convergence, Reiter-Weisiger, Powell shifting-power, Putnam two-level games, Schelling commitment, Weisiger dispositional reading) preserved across versions for theoretical grounding. Under the new trend architecture these mechanisms are now formalized as active trends or trend components: Slantchev convergence ↔ T2; Powell shifting-power ↔ T8; Putnam two-level games folded into T3 per Day 84 trend tracker. §6 partially duplicates trend-tracker content and §2a Methodological Note's apparatus citation. Consolidated §2a would absorb the theoretical-mechanism inventory; §6 would be removed. Cost: removes a dedicated theoretical-grounding section that helps new readers; breaks §6 cross-references in prior versions. Defer until major-version increment where the theoretical apparatus has visibly stabilized through 2+ minor-version cycles without §6-specific revision.
+
+**Staging discipline for MV-Reserved items:**
+
+- Do NOT apply MV-Reserved changes mid-minor-cycle. Even if a minor-version revision touches §5 or §6 substantively, restructure in-place around the existing section architecture; do not partially restructure toward the MV-Reserved target.
+- When the next major-version increment is triggered, the MV-Reserved items become part of the revision scope. The Version Notes for that major version must list MV-Reserved-N items absorbed and what was deferred (if any).
+- New MV-Reserved items may be added here over time as the framework identifies additional document-structure improvements that are major-version-scope only. Each entry should specify: (a) what changes; (b) benefit; (c) cost; (d) defer condition.
 
 ---
 
@@ -194,16 +208,17 @@ structurally required. Do not reorganize for aesthetics.
 
 Mandatory sections in order:
 
-1. **Version Notes** — what changed from prior version
+1. **Version Notes** — what changed from prior version. **First line is mandatory: "Triggers Fired" italic blockquote** explicitly listing which Trigger Architecture conditions justified this revision (e.g., "Triggers fired: (a) T8 promoted to VALIDATED Day 84; (b) reference-to-operational instrumentation gap closure via T10/T11 additions; (c) novel structural-variable LOI architecture"). Each enumerated trigger maps to a row in the Trigger Architecture tables (`revise.md`). After the triggers-fired header, the remaining Version Notes content follows the existing 5-8-bullet diff-summary format. Stripped from external version (see Transform table).
 2. **Executive Summary** — central thesis, dominant trajectory, key constraints, probability headline. 4-6 paragraphs. Rewritten each version.
 2a. **Methodological Note** — mandatory paragraph placed immediately after Executive Summary in the internal synthesis only. 70-110 words. Names the framework's intellectual provenance: bargaining model (Fearon 1995; Powell 1999); two-level games (Putnam 1988); system-effects emergence (Jervis 1997); path dependence (Pierson 2000); neoclassical realism (Rose 1998). Engels-register materialist substrate, not vulgar-materialist. Cross-references `reference/costly-signaling-framework.md` and `appendix/appendix-c-methodology.md`. Closes by stating: the framework predicts dominant strategies under joint constraints; it does not predict selection. Treat as boilerplate after first revision (rewrite only if a new tradition is added or a citation is retired). Stripped from external version (see Transform table).
+2b. **Trend State Snapshot** — mandatory table placed immediately after Methodological Note in the internal synthesis only. Mirrors the trend tracker's Active Trends at the moment of version freeze. One row per active trend (T1, T2, ... T-N) with four columns: **Trend**, **State** (VALIDATED / CONTESTED / DISCONFIRMED / PENDING), **Last review**, **Δ since prior synthesis version**. The Δ column is the operationally-visible link between the version increment and trend-state movement: state transitions, pending-to-validated promotions, new PENDING additions, drift events, and instrumentation-gap closures all appear here. Pending Trend Candidates near promotion threshold (within 1 cycle of the criteria) may be listed in an optional sub-row with state "PENDING-NEAR" for early visibility. Cross-references `reference/strategic-trends.md` as authoritative source. The snapshot is a frozen-at-version-freeze view; updates between revisions occur in the trend tracker, not in the synthesis. Stripped from external version (see Transform table).
 3. **Conflict Timeline and Operational Status** — key events to current day; current posture
 4. **Market Snapshot** — table format, updated levels
 5. **Constraint Architecture** — five layers (L1 military physics, L2 asymmetric-conflict logic, L3 time arithmetic, L4 faction misalignment, L5 principal-agent gap). Update each layer if data moved it.
 6. **Ideological Currents and Motives** — only update where actor posture has materially shifted
 7. **Structural Dynamics and Mechanisms** — update existing mechanisms; add new ones only if structural threshold met
-8. **Probability Assessment** — full matrix, updated, direction arrows vs prior version. Include the Kinetic Escalation Composite as a derived line immediately after the primitive matrix, explicitly labeled "DERIVED" with construction formula (Fork A + Fork C + conflict-leading tail components; Fork D' and Variants A/B excluded). Tail-Risk Residual Register sits as a separate sub-section listing exogenous / actor-replacement events outside the fork architecture. The composite never replaces primitives; it sits alongside them as a communication headline.
-9. **Key Assumptions** — numbered list, each with current validation status
+8. **Probability Assessment** — full matrix, updated, direction arrows vs prior version. Include the Kinetic Escalation Composite as a derived line immediately after the primitive matrix, explicitly labeled "DERIVED" with construction formula (Fork A + Fork C + conflict-leading tail components; Fork D' and Variants A/B excluded). Tail-Risk Residual Register sits as a separate sub-section listing exogenous / actor-replacement events outside the fork architecture. The composite never replaces primitives; it sits alongside them as a communication headline. **Soft requirement (encouraged, not gating): trend-anchor footnotes per fork row.** Each fork's probability range depends on specific trends (Fork B durability on T3 + T8; Fork A on T1 + T8 + T9; Fork D' on T1 + T3). Inline `(anchors: Tx, Ty)` tags per row or a Trend Dependencies footnote block after the matrix makes the trend-driven probability architecture explicit. Apply when row count permits without clutter.
+9. **Key Assumptions** — numbered list, each with current validation status. **Soft requirement (encouraged, not gating): inline trend cross-references per assumption.** Each Ax assumption maps to one or more active trends (A1 Trump-oscillation → T4; A4 Iranian-apex → T3; A10 Slantchev → T2; A14 Stage-2 hysteresis → T9; A18 eschatological-coalition → T4; A20 PA-gap-weaponizability → T3 + T8). Append `(T-anchor: Tx, Ty)` tag per assumption. Low-cost; makes the dependency graph readable; useful for trend-driven re-validation at next revision.
 10. **Most Probable Outcome Architecture** — dominant trajectory + tail branches
 11. **Conclusions** — rewritten each version; must engage central thesis directly
 12. **Key Indicators to Monitor** — updated watchlist
@@ -338,7 +353,10 @@ Internal (project anchor)              External (blog publication)
 synthesis-v{N}.md                      synthesis-v{N}-external.md
 
 Version Notes section            →     stripped
+  (includes "Triggers Fired"
+   blockquote header)
 Methodological Note paragraph    →     stripped
+Trend State Snapshot table       →     stripped
 "v2.5 supersedes v2.0"           →     stripped
 PROBE-N references               →     stripped
 BS-N / Appendix B references     →     stripped
