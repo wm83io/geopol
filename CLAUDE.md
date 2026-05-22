@@ -53,9 +53,10 @@ density over prose length. No hedging.
 ## Repo Orientation
 
 ```
-synthesis/                    Base framework. Versioned synthesis-vX-Y.md. Current: v3-0.
+synthesis/                    Base framework. Current operative: synthesis-v4-1.md (+ -external.md).
 synthesis/staging/            Pre-revision change manifests. Consumed by /revise.
 synthesis/staging/archive/    Manifests already incorporated into a synthesis version.
+synthesis/archive/            Historical synthesis versions (v1 through v4-0). Not read operationally; git preserves.
 sitreps/                      Daily annexes. day-N.md or day-N-am.md / day-N-pm.md.
 probes/sweeps/                JSON probe sweep outputs. sweep-YYYY-MM-DD.json.
 probes/probe-schema.md        Probe output contract. Markdown spec.
