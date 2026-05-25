@@ -4,7 +4,7 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 **Update cadence:** quarterly floor; on synthesis major-version increment; on any reference-layer revision; on any trend state transition; on any logged drift event.
 
-**Last review:** 2026-05-21 (Day 84).
+**Last review:** 2026-05-25 (Day 88 audit).
 
 ---
 
@@ -12,17 +12,18 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 | ID | Name | State | Last review | Disc-ratio* |
 |---|---|---|---|---|
-| T1 | Tripolar realignment + unaligned middle | VALIDATED | 2026-05-21 | 0:n |
-| T2 | Mosaic-Octopus multi-channel deterrent | VALIDATED | 2026-05-21 | 0:n |
-| T3 | Fearon-Slantchev apex-deterrent floor | VALIDATED | 2026-05-21 | 1:6 (D77→83 corrected) |
-| T4 | US eschatological-coalition disaggregation | VALIDATED | 2026-05-21 | 0:n |
-| T5 | Multi-tradition eschatological convergence | PENDING | 2026-05-21 | n/a |
+| T1 | Tripolar realignment + unaligned middle | VALIDATED | 2026-05-25 | 0:n |
+| T2 | Mosaic-Octopus multi-channel deterrent | VALIDATED | 2026-05-25 | 0:n |
+| T3 | Fearon-Slantchev apex-deterrent floor | VALIDATED | 2026-05-25 | 1:6 (D77→83 corrected) |
+| T4 | US eschatological-coalition disaggregation | VALIDATED | 2026-05-25 | 0:n |
+| T5 | Multi-tradition eschatological convergence | PENDING | 2026-05-25 | n/a |
 | T6 | Russian siloviki succession (M1-M4) | VALIDATED | 2026-05-14 | 0:n |
-| T7 | Materialist bargaining methodology | VALIDATED (discipline) | 2026-05-21 | n/a |
-| T8 | Powell shifting-power Israeli pre-emption | VALIDATED | 2026-05-21 | 0:n |
-| T9 | Stage-2 hysteresis lock-in (WPA) | VALIDATED | 2026-05-21 | 0:n |
-| T10 | Russia-pole China-absorption (junior) | PENDING | 2026-05-21 | n/a |
-| T11 | Stage-3 international-order phase-transition | PENDING | 2026-05-21 | n/a |
+| T7 | Materialist bargaining methodology | VALIDATED (discipline) | 2026-05-25 | n/a |
+| T8 | Powell shifting-power Israeli pre-emption | VALIDATED | 2026-05-25 | 0:n |
+| T9 | Stage-2 hysteresis lock-in (WPA) | VALIDATED | 2026-05-25 | 1:8 (D85 WPR de facto majority; not demoted) |
+| T10 | Russia-pole China-absorption (junior) | PENDING | 2026-05-25 | n/a |
+| T11 | Stage-3 international-order phase-transition | PENDING | 2026-05-25 | n/a |
+| T12 | Reconstitution-speed Powell amplifier (standalone) | VALIDATED | 2026-05-25 | 0:n |
 
 *Disc-ratio: (cycles with discounted contradicting evidence) : (cycles supporting). Exceeds 1:3 across 12 cycles triggers /premortem trend-rigidity review.
 
@@ -155,11 +156,29 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 - **Promotion:** Stage-3 Decision Triggers when 4+ configuration-specific indicators cross threshold by 2028.
 - **Falsification:** N/A in standard sense. DISCONFIRMED only if third-order shock (climate displacement, AI restructuring, pandemic) overrides Iran-2026 trajectory; in that case Stage-3 catalog itself requires revision.
 
+### T12 — Reconstitution-speed as standalone Powell amplifier
+
+- **Reference:** `costly-signaling-framework.md` (Powell §); `mosaic-and-octopus-doctrine-whitepaper.md`. Coupled to T8 as the independent capability-recovery driver, distinct from Fork B credibility.
+- **Prediction:** Iranian capability-recovery rate is an independent driver of Israeli pre-emption incentive, additive to Fork B deal-credibility (T8). Each cycle of reconstitution compounds the future-strike cost, raising the Israeli "window closing" perception even when deal-direction state is unchanged or holding.
+- **Instrumentation:** BS-13; PROBE-14 (reconstitution-faster IC assessments); cross-ref BS-3, BS-14, PROBE-9, PROBE-15.
+- **State:** **VALIDATED (promoted Day 88 from pending candidate).** Two independent intelligence-ecosystem clusters: D84 CNN T2 US-IC ("exceeded all timelines the IC had for reconstitution"; 50% drone capability; six-month full reconstitution) and D88 Times of Israel T2 Israeli-IC ("rebuilding missile production faster than expected"). D88 discriminating condition met: Israeli pre-emption pressure rose via the Lebanon-clause spoiler while Trump deal-direction HELD, i.e. the amplifier operated independent of Fork B credibility state. Promotion threshold (1 cycle with 2+ independent source clusters, per /audit Step 5b.2) met.
+- **Falsification:** IC assessment revising reconstitution downward; 30+ days of Israeli pre-emption pressure flat or declining while reconstitution evidence accumulates (severs the amplifier link); Israeli decision-maker statement that reconstitution speed is not a strike driver.
+- **Relationship to T8:** T8 is the Fork-B-credibility amplifier (more credible deal → stronger pre-emption); T12 is the capability-recovery amplifier (faster reconstitution → stronger pre-emption), operative independent of deal-direction state. Both load the same Israeli pre-emption variable; tracked separately so the 6/12m Fork A driver decomposes into deal-credibility and capability-recovery components.
+
 ---
 
 ## Trend-vs-Operational Drift Log
 
 When operational-layer reading contradicts a VALIDATED or PENDING trend's prediction on single-cycle evidence, log here.
+
+### 2026-05-25 / Day 88 — A4 Mojtaba apex-attribution corrected to IRGC military council (principal-validation discipline)
+
+- **Trend:** T3 (apex principal identification within the two-level structure).
+- **Divergence:** D84-D87 the framework attributed the HEU-stays directive to Mojtaba Khamenei as the deciding apex, inherited from multi-outlet anonymous senior-Iranian-source framing (the 5-outlets-1-cluster near-miss).
+- **Reference prediction NOT contradicted:** T3 (apex reserves deterrent/maximalist floor; mid-tier negotiates) held throughout; the error was WHICH principal occupies the apex node, not the two-level structure.
+- **Resolution:** D88 Iran International (T3) reporting that an IRGC military council of senior officers controls all access to Mojtaba (blocking Pezeshkian) re-identified the functional apex as Vahidi + the IRGC council; Mojtaba incapacitated/nominal. The HEU-stays directive's content stands; its attribution is corrected to IRGC origination. Discriminating signal shifts to Vahidi-direct named statements. Absorbed into synthesis v4.2 (A4 re-identification).
+- **Lesson:** the failure mode the v4.2 principal-validation discipline (manifest S7) was created to catch — a named-principal commitment inherited from media framing, carried at M confidence, re-validated against discriminating evidence and corrected on the first cycle that produced it. Distinct from the D77 BS-12 case (single-cycle tier-3 over-read); here the error was inherited-framing over-commitment.
+- **Cost:** ~4 cycles (D84-D88) of apex-attribution to the wrong principal; operationally low-cost (directive content unaffected; two-level structure held).
 
 ### 2026-05-20 / Day 83 — BS-12 over-read on Vahidi-as-veto, corrected
 
@@ -186,7 +205,7 @@ Reference-apparatus-derived predictions not yet promoted. Promote on 2+ cycles o
 
 | Candidate | Reference | Promotion condition |
 |---|---|---|
-| Reconstitution-speed as Powell-amplifier (Iranian capability-recovery rate as independent driver of Israeli pre-emption, distinct from Fork B credibility) | `costly-signaling-framework.md` Powell §; `mosaic-and-octopus-doctrine-whitepaper.md` | **PROMOTION THRESHOLD MET (2026-05-25, Day 88).** D84 CNN T2 US-IC (first cycle) + D88 ToI Israeli-IC (second independent cluster) = two independent intelligence-ecosystem clusters; D88 Israeli pre-emption pressure rose via the Lebanon-clause spoiler while Trump deal-direction HELD, i.e. amplifier operating independent of Fork B credibility state. **Flagged for /audit promotion to standalone VALIDATED trend** (next available ID; tightly coupled to T8). Surfaced at v4.2 /revise; not promoted at synthesis scope per discipline (trend-tracker maintenance is the /audit function). |
+| Reconstitution-speed as Powell-amplifier (Iranian capability-recovery rate as independent driver of Israeli pre-emption, distinct from Fork B credibility) | `costly-signaling-framework.md` Powell §; `mosaic-and-octopus-doctrine-whitepaper.md` | **PROMOTED to T12 VALIDATED (2026-05-25, Day 88 /audit).** Threshold met: D84 CNN T2 US-IC + D88 ToI Israeli-IC = two independent intelligence-ecosystem clusters; D88 discriminating condition met (Israeli pre-emption pressure rose via Lebanon-clause spoiler while Trump deal-direction HELD). See Active Trends T12. Surfaced at v4.2 /revise; promoted at this /audit per Step 5b.2. |
 | Cross-pole Saudi-Iran diplomatic geometry via Hajj backchannel | `tripolar-realignment-whitepaper.md` §3.1 (T1 sub) | **PROMOTION CONDITION NOT MET; PILGRIM-CONDUIT MECHANISM DISCONFIRMED (2026-05-25, Day 88).** Hajj window (May 24-29; Day of Arafah May 26) closing without a Saudi-Iran principal-level meeting; Iranian pilgrims largely absent through the window (visas suspended, flights cancelled), so the ~30k-pilgrim-facilitated conduit did not materialize. The official-to-official channel (Saudi interior minister-Iranian Hajj head, May 20) stands. **Flagged for /audit mechanism revision, not promotion:** narrow the candidate to "official-level Saudi-Iran contact during Hajj period," with promotion requiring a named Saudi-Iranian meeting at FM level or above. |
 | Intra-troika asymmetric decay (MBS accommodation durable; MBZ Barakah-exposure fragile to second attack) | `tripolar-realignment-whitepaper.md` §3.1; BS-18 elaboration | D84 first cycle of explicit asymmetric-decay framing. Sub-component of T1; promote standalone on MBS-MBZ divergence on a specific decision point or second Barakah-class attack testing MBZ pathway. |
 
@@ -207,8 +226,9 @@ Reference-apparatus-derived predictions not yet promoted. Promote on 2+ cycles o
 | T9 | `tools/stage-2-hysteresis.md` | BS-5 | PROBE-10 |
 | T10 | `russia-pole-architecture.md` §6.1/§8.3; `tripolar-realignment-whitepaper.md` §9.3 | BS-4, BS-6, BS-9 | PROBE-6, PROBE-11, PROBE-17 |
 | T11 | `tools/stage-3-phase-transition.md`; `tripolar-realignment-whitepaper.md` §10 | Cross-trend aggregate (T1+T4+T6+T10) + BS-4/6/9/16/17/18 | Component probes (6/11/17/18/19/20); PROBE-21 composite recommended |
+| T12 | `costly-signaling-framework.md` Powell §; `mosaic-and-octopus-doctrine-whitepaper.md` | BS-13 (+ cross-ref BS-3, BS-14) | PROBE-14 (+ cross-ref PROBE-9, PROBE-15) |
 
-T10 and T11 added D84 from reference-to-operational instrumentation gap check (both PENDING on multi-year horizon). T8 and T9 promoted D84 from pending.
+T10 and T11 added D84 from reference-to-operational instrumentation gap check (both PENDING on multi-year horizon). T8 and T9 promoted D84 from pending. T12 promoted D88 from pending candidate (reconstitution-speed amplifier; two independent clusters); instrumentation pre-existing under BS-13/PROBE-14.
 
 ---
 
@@ -232,4 +252,4 @@ ongoing cross-check at every slash command
 
 ---
 
-*Updated 2026-05-25 (Pending Trend Candidates: reconstitution-speed amplifier marked promotion-threshold-met and Hajj-backchannel pilgrim-conduit marked disconfirmed / for-mechanism-revision, both flagged for /audit; prior update 2026-05-22 /premortem cleanup). Next floor review: 2026-08-21 (quarterly), earlier on any trigger condition above.*
+*Updated 2026-05-25 (Day 88 /audit: T12 reconstitution-speed amplifier promoted PENDING→VALIDATED; Hajj-backchannel candidate revised to official-level criterion; T9 disc-ratio incremented for D85 WPR de facto majority, not demoted; Mojtaba apex-attribution correction logged as drift event; T1/T2/T3/T4/T8 advance within VALIDATED; prior update 2026-05-22 /premortem cleanup). Next floor review: 2026-08-21 (quarterly), earlier on any trigger condition above.*
