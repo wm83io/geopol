@@ -186,7 +186,7 @@ Reference-apparatus-derived predictions not yet promoted. Promote on 2+ cycles o
 
 | Candidate | Reference | Promotion condition |
 |---|---|---|
-| Reconstitution-speed as Powell-amplifier (Iranian capability-recovery rate as independent driver of Israeli pre-emption, distinct from Fork B credibility) | `costly-signaling-framework.md` Powell §; `mosaic-and-octopus-doctrine-whitepaper.md` | D84 CNN T2 US IC fires first cycle. Sub-component of T8 for now; promote standalone if D85+ shows Israeli pre-emption rising on reconstitution evidence independent of Trump deal-direction state. |
+| Reconstitution-speed as Powell-amplifier (Iranian capability-recovery rate as independent driver of Israeli pre-emption, distinct from Fork B credibility) | `costly-signaling-framework.md` Powell §; `mosaic-and-octopus-doctrine-whitepaper.md` | **PROMOTION THRESHOLD MET (2026-05-25, Day 88).** D84 CNN T2 US-IC (first cycle) + D88 ToI Israeli-IC (second independent cluster) = two independent intelligence-ecosystem clusters; D88 Israeli pre-emption pressure rose via the Lebanon-clause spoiler while Trump deal-direction HELD, i.e. amplifier operating independent of Fork B credibility state. **Flagged for /audit promotion to standalone VALIDATED trend** (next available ID; tightly coupled to T8). Surfaced at v4.2 /revise; not promoted at synthesis scope per discipline (trend-tracker maintenance is the /audit function). |
 | Cross-pole Saudi-Iran diplomatic geometry via Hajj backchannel | `tripolar-realignment-whitepaper.md` §3.1 (T1 sub) | D84 Saudi MoI-Iranian Hajj head meeting + Hajj window opening = first cycle. Promote standalone if Saudi-Iran principal-level meeting occurs during Hajj window (May 24-29) or backchannel produces named diplomatic output. |
 | Intra-troika asymmetric decay (MBS accommodation durable; MBZ Barakah-exposure fragile to second attack) | `tripolar-realignment-whitepaper.md` §3.1; BS-18 elaboration | D84 first cycle of explicit asymmetric-decay framing. Sub-component of T1; promote standalone on MBS-MBZ divergence on a specific decision point or second Barakah-class attack testing MBZ pathway. |
 
@@ -232,4 +232,4 @@ ongoing cross-check at every slash command
 
 ---
 
-*Updated 2026-05-22 (compressed via /premortem cleanup). Next floor review: 2026-08-21 (quarterly), earlier on any trigger condition above.*
+*Updated 2026-05-25 (Pending Trend Candidates: reconstitution-speed amplifier marked promotion-threshold-met, flagged for /audit promotion; prior update 2026-05-22 /premortem cleanup). Next floor review: 2026-08-21 (quarterly), earlier on any trigger condition above.*
