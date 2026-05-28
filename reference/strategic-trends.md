@@ -12,7 +12,7 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 | ID | Name | State | Last review | Disc-ratio* |
 |---|---|---|---|---|
-| T1 | Tripolar realignment + unaligned middle | VALIDATED | 2026-05-25 | 0:n |
+| T1 | Tripolar realignment + unaligned middle | VALIDATED | 2026-05-25 | 0:n (rs 1:n)* |
 | T2 | Mosaic-Octopus multi-channel deterrent | VALIDATED | 2026-05-25 | 0:n |
 | T3 | Fearon-Slantchev apex-deterrent floor | VALIDATED | 2026-05-25 | 1:6 (D77→83 corrected) |
 | T4 | US eschatological-coalition disaggregation | VALIDATED | 2026-05-25 | 0:n |
@@ -25,7 +25,7 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 | T11 | Stage-3 international-order phase-transition | PENDING | 2026-05-25 | n/a |
 | T12 | Reconstitution-speed Powell amplifier (standalone) | VALIDATED | 2026-05-25 | 0:n |
 
-*Disc-ratio: (cycles with discounted contradicting evidence) : (cycles supporting). Exceeds 1:3 across 12 cycles triggers /premortem trend-rigidity review.
+*Disc-ratio: (cycles with discounted contradicting evidence) : (cycles supporting). Exceeds 1:3 across 12 cycles triggers /premortem trend-rigidity review. **rs = reading-swing count** (added 2026-05-27 via /premortem): operational-implication reversals across consecutive cycles without trend-state change; > 1:6 across last 12 cycles triggers the same review.
 
 ---
 
@@ -58,7 +58,9 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 **Evidence asymmetry log.** Each VALIDATED trend tracks (a) supporting cycles vs (b) discounted-contradicting cycles. Ratio (b):(a) > 1:3 across last 12 cycles fires `/premortem` review for commitment bias dressed as discipline.
 
-**Rationale:** the original multi-cycle-confirmation rule was one-directional and produced commitment bias. The symmetric rule corrects this without surrendering the recency-bias protection that motivated it.
+**Reading-swing counter (added 2026-05-27 via /premortem; Mitigation 3).** The disc-ratio rule counts only cycles where contradicting evidence is *explicitly discounted*. It under-counts a different failure mode: the framework's own *operational reading* on a VALIDATED trend reverses across consecutive cycles while the trend state itself holds. A reading-swing fires when the operational implication asserted on a trend in cycle N is materially reversed in cycle N+1 or N+2 without a trend-state change (e.g., "Day 88 read silence as strain on T1 brake → Day 90 reread silence as calendar-structural, no strain"; both reads preserve the trend; the swing is the absorbed contradiction). Track each VALIDATED trend's reading-swing count alongside the disc-ratio. **Reading-swing ratio (swings : supporting cycles) > 1:6 across last 12 cycles fires `/premortem` trend-rigidity review, same routing as disc-ratio > 1:3.** Reading swings are epistemically equivalent to discounted contradictions; both preserve the trend by moving the framework's commitment rather than the trend state.
+
+**Rationale:** the original multi-cycle-confirmation rule was one-directional and produced commitment bias. The symmetric rule corrects this. The reading-swing counter corrects a related blind spot: a commitment-bias pattern in which trend state stays VALIDATED while the operational reading swings to absorb each contradiction. Disc-ratio + reading-swing together catch both explicit-discount and implicit-absorption commitment bias.
 
 ---
 
@@ -169,7 +171,18 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 ## Trend-vs-Operational Drift Log
 
-When operational-layer reading contradicts a VALIDATED or PENDING trend's prediction on single-cycle evidence, log here.
+When operational-layer reading contradicts a VALIDATED or PENDING trend's prediction on single-cycle evidence, log here. Reading-swings (Mitigation 3 of 2026-05-27 /premortem) are logged here as well — they are an operational-implication reversal that preserves the trend state.
+
+### 2026-05-27 / Day 90 — T1 reading-swing: Abraham Accords silence (Day 88 → Day 90)
+
+- **Trend:** T1 (tripolar realignment; Gulf brake durability).
+- **Swing.** Day 88 SITREP and synthesis v4.2 read Gulf-leader silence on the Trump "mandatory" Abraham Accords demand as **structural strain on the MBS accommodation pathway** (Day 88 Version Notes: "Day 88 Trump's Abraham Accords 'mandatory' demand inverts the MBS accommodation-reciprocity logic, introducing a structural strain on the most durable brake actor"). Day 90 SITREP reread the same silence as **calendar-structural, not strain** (Hajj 96h no-escalation window May 24-27 + Saudi Eid government holiday May 27-31 prevent any public Saudi response; Day 90 PROBE-20: "the silence is forced quiet, not refusal, and the Day 88 'strain' read should be held back").
+- **Reference prediction NOT contradicted:** T1 (Gulf brake durable; unaligned-middle pivot capacity) held throughout; the swing was on the *operational implication* of MBS silence, not on T1's structural prediction.
+- **Resolution:** Day 90 read is the more parsimonious explanation given the calendar facts; held as the working reading. Logged here as the first reading-swing instance under the Mitigation 3 counter. T1 reading-swing ratio increments from 0 to 1.
+- **Lesson:** the disc-ratio counter would not have caught this because no T1 contradiction was explicitly discounted; instead the framework moved its own reading. The reading-swing counter is the discipline rule designed to catch exactly this absorption pattern. Apply at every `/audit` and `/premortem`: if a VALIDATED trend has accumulated reading-swings approaching the 1:6 threshold, the trend itself may be holding because the operational reading is doing the work of preservation.
+- **Cost:** ~2 cycles (Day 88-90) of mis-read MBS-pathway strain; downstream probability effect was small (Fork B-multilateral 11-18% held at v4.2 release, also held at Day 90; no probability cascade).
+
+
 
 ### 2026-05-25 / Day 88 — A4 Mojtaba apex-attribution corrected to IRGC military council (principal-validation discipline)
 
