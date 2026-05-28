@@ -4,7 +4,7 @@ Multi-week structural thesis vectors anchored against the reference apparatus. *
 
 **Update cadence:** quarterly floor; on synthesis major-version increment; on any reference-layer revision; on any trend state transition; on any logged drift event.
 
-**Last review:** 2026-05-25 (Day 88 audit).
+**Last review:** 2026-05-27 (Day 90 trigger-cadence micro-audit; no state transitions; +1 cycle since Day 88).
 
 ---
 
@@ -252,4 +252,5 @@ ongoing cross-check at every slash command
 
 ---
 
+*Updated 2026-05-27 (Day 90 /audit trigger-cadence micro-audit, +1 cycle since Day 88: NO state transitions. Day 90 sweep cross-checks: T1/T2/T3/T4/T8/T12 advance within state, T5/T6/T7/T9/T10/T11 hold. T12 first post-promotion cross-check holds VALIDATED (capability-recovery demonstrated through use: IRGC mine-laying + multi-domain launches near Hormuz provoked CENTCOM self-defense strikes). NO new drift events: the CENTCOM self-defense strikes did NOT contradict any VALIDATED trend (consistent with kinetic-discipline ceasefire + inadvertent-escalation pathway), and the PROBE-1 written-not-visual Mojtaba statement was correctly NOT over-read as an A4 reversion (discipline success, not drift). Two principal-validation items at the 5th-cycle /premortem wrong-principal threshold: A2 Netanyahu-relayed Trump maximalist assurance (no White House corroboration) and A4 Vahidi-direct-HEU absence (IRGC-council apex attribution "inherited, not validated"); both flagged for the next /premortem. BS-18 recency-correction: MBS Accords silence is calendar-structural (Hajj + Eid), not accommodation-pathway strain. Hajj-backchannel candidate stays at official-level criterion (Hajj closed, no principal-level Saudi-Iran meeting).*
 *Updated 2026-05-25 (Day 88 /audit: T12 reconstitution-speed amplifier promoted PENDING→VALIDATED; Hajj-backchannel candidate revised to official-level criterion; T9 disc-ratio incremented for D85 WPR de facto majority, not demoted; Mojtaba apex-attribution correction logged as drift event; T1/T2/T3/T4/T8 advance within VALIDATED; prior update 2026-05-22 /premortem cleanup). Next floor review: 2026-08-21 (quarterly), earlier on any trigger condition above.*
