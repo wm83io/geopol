@@ -117,6 +117,7 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 - [`sitreps/day-86.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/sitreps/day-86.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/sitreps/day-86.md)
 - [`sitreps/day-87.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/sitreps/day-87.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/sitreps/day-87.md)
 - [`sitreps/day-88.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/sitreps/day-88.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/sitreps/day-88.md)
+- [`sitreps/day-90.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/sitreps/day-90.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/sitreps/day-90.md)
 
 ## `skills/`
 
@@ -155,5 +156,5 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 
 ---
 
-*Total tracked files: 96*
+*Total tracked files: 97*
 *Branch: `trendyrevisions`*
