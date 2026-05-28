@@ -154,6 +154,7 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 - [`synthesis/staging/archive/v3-1-scope-expansion-manifest.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/staging/archive/v3-1-scope-expansion-manifest.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/staging/archive/v3-1-scope-expansion-manifest.md)
 - [`synthesis/staging/archive/v3-2-russia-pole-revision-manifest.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/staging/archive/v3-2-russia-pole-revision-manifest.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/staging/archive/v3-2-russia-pole-revision-manifest.md)
 - [`synthesis/staging/archive/v4-2-discipline-correction-manifest.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/staging/archive/v4-2-discipline-correction-manifest.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/staging/archive/v4-2-discipline-correction-manifest.md)
+- [`synthesis/staging/v4-3-principal-validation-manifest.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/staging/v4-3-principal-validation-manifest.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/staging/v4-3-principal-validation-manifest.md)
 - [`synthesis/synthesis-v4-1-external.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/synthesis-v4-1-external.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/synthesis-v4-1-external.md)
 - [`synthesis/synthesis-v4-1.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/synthesis-v4-1.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/synthesis-v4-1.md)
 - [`synthesis/synthesis-v4-2-external.md`](https://raw.githubusercontent.com/wm83io/geopol/trendyrevisions/synthesis/synthesis-v4-2-external.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/trendyrevisions/synthesis/synthesis-v4-2-external.md)
@@ -161,5 +162,5 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 
 ---
 
-*Total tracked files: 99*
+*Total tracked files: 100*
 *Branch: `trendyrevisions`*
