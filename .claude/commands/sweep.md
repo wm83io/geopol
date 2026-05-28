@@ -132,8 +132,9 @@ Principal IDs (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin) are inh
 1. **Alternative principal hypothesis.** Who else could be deciding? Examples: Mojtaba HEU → SNSC / Ali Khamenei / IRGC vertex; Trump A1 → unmodeled driver (financial exposure, family, classified intel); Netanyahu Penetration → IDF chief Zamir / Mossad.
 2. **Discriminating evidence.** What signal distinguishes the named principal from the alternative? "Behavior consistent with X having decided" = curve-fitting, not validation.
 3. **Confidence note.** No discriminating evidence this cycle → mark as `inherited, not validated this cycle`. 4+ consecutive such cycles on a load-bearing principal → flag `/premortem` wrong-principal review.
+4. **Action-routing on 5th consecutive cycle (added 2026-05-27 via /premortem; Mitigation 1).** When the same principal-validation flag reaches its 5th consecutive cycle without discriminating evidence, the sweep must produce, in the same finding card's `conflict_notes`, an explicit **discriminating-evidence forcing question for the next cycle**: "What signal in the next cycle would falsify the current attribution?" Concrete and named, not "more evidence." The next `/audit` must then stage a synthesis manifest demoting the attribution to provisional, not re-flag for a 6th cycle. "Flagged for /premortem" is not an indefinite holding state; the 5th-cycle threshold converts the flag to a routed action (forcing question this cycle + manifest at next audit). Canonical case: A2 Netanyahu-relay and A4 Vahidi-direct-HEU absence reached this threshold on Day 90 and were staged at `synthesis/staging/v4-3-principal-validation-manifest.md`.
 
-The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent.
+The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent, and it requires routing the absence into structural change once the 5th-cycle threshold trips.
 
 Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
 

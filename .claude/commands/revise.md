@@ -134,6 +134,39 @@ For every active trend in `strategic-trends.md`:
 A revision is the only place trend states transition at synthesis-level scope. Audit-level
 transitions are tactical; revision-level are confirmatory.
 
+### 6/12-month matrix explicit-reasoning per trend transition (added 2026-05-27 via /premortem; Mitigation 5)
+
+The two-matrix discipline (manifest S1-S2, v4.2) restricts 6/12-month matrix updates to trend-state
+transitions, L1-L5 constraint shifts, or major-version increments. The discipline correctly insulates
+the structural prior from cycle noise; it has a failure surface when a stated trigger (trend
+transition) fires but the structural prior is held without explicit reasoning. Held priors then
+calcify across cycles as "canonically frozen" when in fact each holding is a decision that bears
+re-examination.
+
+**Mandatory at every revision:** the §8.1b 6/12-month matrix Version Notes line must enumerate
+*every* trend-state transition logged in `reference/strategic-trends.md` since the previous synthesis
+version and state, per transition, whether the structural prior moved and **why or why not**. One
+sentence per transition. Acceptable forms:
+
+- "T12 PENDING → VALIDATED (Day 88): 12m Fork A held at 43-53% because the v4.1 baseline already
+  priced the reconstitution amplifier as pending candidate in the Fork A driver column; formal
+  promotion adds confidence to the existing prior, not magnitude."
+- "T8 PENDING → VALIDATED (Day 84): 12m Israeli first nuclear use upper bound raised from X% to Y%
+  because Powell shifting-power was not yet load-bearing on the 12m horizon in the prior baseline;
+  promotion reweights the 12m driver."
+- "T9 unchanged across the interval; no structural prior reasoning required."
+
+The reasoning may justify a held number; it may not produce silence. Silence is the failure mode the
+rule corrects. If a transition fired and the held-number reasoning would be "the prior trend state
+already anticipated this," write that down. If a transition fired and the structural prior should
+move but the analyst is choosing not to move it this cycle (for evidence-staging reasons), state
+that and name the next-revision re-evaluation condition.
+
+**Routing for L1-L5 constraint shifts:** the same rule applies. A constraint-layer revision logged
+in the Version Notes that does not move the 6/12m structural prior must explain why. The default
+expectation is that constraint-layer revisions either move the structural prior or have a stated
+reason for not doing so; held without reasoning is not an acceptable default.
+
 After producing both outputs:
 - Write internal synthesis to `synthesis/synthesis-v{X-Y}.md`
 - Write blog version to `synthesis/synthesis-v{X-Y}-external.md`
