@@ -1,0 +1,643 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-30",
+    "day_number": 93,
+    "framework_version": "v4.2",
+    "prior_sweep": "2026-05-27",
+    "probes_run": ["PROBE-1", "PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-11", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-17", "PROBE-18", "PROBE-20", "PROBE-21"],
+    "probes_skipped": [
+      "PROBE-3 (monthly; structurally opaque; 19th+ consecutive gap cycle; 3 days since last run — not yet monthly cadence)",
+      "PROBE-19 (quarterly; standard skip)"
+    ],
+    "synthesis_anchor": "synthesis-v4-2.md",
+    "reference_trends": [
+      {
+        "trend": "T1",
+        "net_effect": "advance",
+        "note": "MBS confirmed Palestinian-state-first position post-Eid as a structural Saudi constraint on Accords accession — Slantchev-inverse leverage reading weakened, but the BRAKE itself is intact (MBS refusing a side-demand is not the same as supporting US military action). Pakistan (Munir) continuously active at principal-mediator tier; tentative deal briefed through Pakistan-Qatar-China channels. Gulf brake survived the Abraham Accords demand cycle without fracturing. Unaligned-middle pivot capacity holding."
+      },
+      {
+        "trend": "T2",
+        "net_effect": "advance",
+        "note": "IRGC demonstrated ballistic missile capability against a US military base (Ali Al Salem Air Base, Kuwait; May 28) — graduating Iranian network kinetic capacity from Hormuz edge-attrition (Day 90) to direct-strike against US assets. Hezbollah continues under attrition in Lebanon under IDF pressure (degraded-not-eliminated). Multi-channel deterrent operationally alive; direct-strike capability now use-confirmed."
+      },
+      {
+        "trend": "T3",
+        "net_effect": "advance",
+        "note": "Vahidi direct named statement (May 29): 'We will break the blockade through negotiations. If not, through direct action' — first Vahidi-named public statement on the deal/negotiations track, confirming apex decision-making role. Two-level structure operationally visible: Vahidi/council at apex projects deterrent floor ('direct action' if negotiations fail) while IRGC-authorized mid-tier (Ghalibaf-Araghchi) negotiated the tentative 60-day MOU. A4 apex re-identification (IRGC-council) gains supporting evidence from multiple T2/T3 sources calling Vahidi the 'key power broker.'"
+      },
+      {
+        "trend": "T4",
+        "net_effect": "advance",
+        "note": "Deal-faction (Trump/Rubio/Vance) held through the IRGC ballistic missile strike on Kuwait (May 28): Trump pursued a 'final determination' Situation Room meeting rather than pivoting to Fork A rhetoric (behavioral hold, stronger than Day 90). Vance: 'still TBD' rather than reversal — consistent with deal-faction ambiguity at decision threshold, not a break. No Huckabee/Hegseth/CUFI counter-mobilization for 7th+ consecutive cycle."
+      },
+      {
+        "trend": "T5",
+        "net_effect": "hold",
+        "note": "Hajj concluded (full cycle); Eid al-Adha underway May 27-31. No Tier-1 eschatological trigger. Mojtaba's written statement ('eliminate Israel within 15 years') is doctrinal, not Mahdist-invocation. PENDING baseline holds."
+      },
+      {
+        "trend": "T6",
+        "net_effect": "hold",
+        "note": "Only confirmed May 2026 Putin appearance: May 9 Victory Parade (pared-down, 45 minutes). No appearances found May 10-30. BS-9.3 approaching the 3-consecutive-month <2/month threshold — need April full count. M1 baseline holds; Russia inert on Iran across all cycles."
+      },
+      {
+        "trend": "T7",
+        "net_effect": "hold",
+        "note": "Voice discipline maintained. The Kuwait ballistic missile strike and the Situation Room non-decision are read as named-actor selections under constraint (IRGC ROE; Trump decision-pending on deal terms), not architecture-as-agent. CALIBRATION GUARD applied to the Kuwait strike: NOT scored as Fork A resumption."
+      },
+      {
+        "trend": "T8",
+        "net_effect": "advance",
+        "note": "Powell mechanism operationally visible: the more credible the deal ('tentative agreement'), the more acute the Israeli and Iranian escalatory behaviors. Israel-Lebanon bilateral advancing (4th round June 2-3 in Washington; 45-day extension May 15) — parallel track that partially bridges Iran's 'all fronts' Lebanon-clause demand. Lebanon clause remains binding in the Iran deal (Iran demands all-fronts coverage; Israel insists on operational freedom). T12 (reconstitution-speed amplifier) reinforced by the ballistic missile strike — Iranian capability confirmed at higher severity than Day 90 mine-laying."
+      },
+      {
+        "trend": "T9",
+        "net_effect": "hold",
+        "note": "House WPR delayed to early June (post-Memorial Day recess). Meeks: 'We had the votes; procedurally must happen when lawmakers return.' The IRGC ballistic missile on Kuwait (5 Americans injured) may strengthen the on-merits WPR case; the House's early-June return is the CONTESTED test event. T9 VALIDATED holds; lock-in advancing absent judicial challenge."
+      },
+      {
+        "trend": "T10",
+        "net_effect": "hold",
+        "note": "Chinese banks partially freezing new loans to Hengli-linked refineries (NFRA directive; Vision Times May 12) — a partial, controlled Chinese compliance with OFAC that falls short of a full cascade. MOFCOM blocking order in force simultaneously. T1-vs-T1 standoff holds without threshold crossing. Russia inert. PENDING."
+      },
+      {
+        "trend": "T11",
+        "net_effect": "advance",
+        "note": "UK/France joint Hormuz mine-clearing architecture carries (HMS Dragon deployed; Charles de Gaulle). Three US CSGs in CENTCOM AOR (Bush, Lincoln, Ford — per TWZ May 11), not two; first time since 2003 CENTCOM has confirmed three simultaneous carriers in AOR. Multiplex-configuration indicator: multi-actor Hormuz coordination (US blockade + UK/France mine-clearing + Iranian maritime-denial) now involves six-plus state actors."
+      },
+      {
+        "trend": "T12",
+        "net_effect": "advance",
+        "note": "IRGC launched a ballistic missile against Ali Al Salem Air Base (Kuwait, May 28) after firing five drones — capability demonstrated at higher severity than Day 90 (mine-laying boats). This is the strongest T12 use-confirmed datapoint in the window: Iranian ballistic-missile capability operationally exercised against a US military base. Reconstitution-speed amplifier confirmed through use; Israeli closing-window perception loading. Instrumented under BS-13/PROBE-14."
+      }
+    ]
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (T3 — 'Iran's unseen new leader issues first message in writing,' Day 90 carry)", "tier": 3},
+        {"name": "PBS / Al Jazeera search results (T2 — 'Mojtaba Khamenei has approved the broad framework,' attribution unclear)", "tier": 2},
+        {"name": "IRGC-controlled media / HotAir (T4 — Vahidi/IRGC statements confirm council decision-making), May 29", "tier": 4}
+      ],
+      "finding": "No new Mojtaba public visual appearance and no second-source death confirmation this cycle. A4 re-identification (IRGC-council functional apex) carries from Day 90 and is further supported by T2/T3 sources calling Vahidi the 'key power broker' as Iran-US talks approach signature. One new claim surfaced: PBS/unnamed sources reference 'Mojtaba Khamenei has approved the broad framework' — consistent with the A4 model (nominal legitimacy-shield approval) but sourced at the indirect-T2 level, insufficient to revise the re-identification. Discriminating evidence still pending: authenticated visual appearance (→ revise) or Vahidi-direct HEU statement (→ confirm council). Day 93 = 91+ days of continuous public absence with no authenticated visual.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Mojtaba public visual appearance OR second-source death confirmation",
+        "framework_variable": "A4 apex re-identification; BS-1a apex visibility",
+        "direction": "no revision — legitimacy-shield model reinforced by Vahidi 'key power broker' framing across T2/T3; 'approved the broad framework' attribution consistent with council-authorship under nominal authority",
+        "gap_to_full_match": "No authenticated visual Mojtaba appearance; no second-source death confirmation; 'approved framework' claim is indirect-T2"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "'Mojtaba approved the broad framework' claim from PBS search is indirect-sourced; full -50% discount until corroborated by named-source T2 specific to this event",
+        "Vahidi 'key power broker' (Al Arabiya/Euronews May 21, T2) is pre-Day-90 but not captured in prior sweeps; treated as new T2 corroboration this cycle"
+      ],
+      "conflict_notes": "Step 7b: the 'Mojtaba approved the broad framework' claim, if corroborated, would confirm rather than revise the v4.2 re-identification (he provides nominal approval; council/Vahidi did the functional negotiation work). A4 remains 'inherited, not validated' on the specific HEU-disposition axis. No reversion to functional-Mojtaba-apex evident; the written-only modality persists."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "HotAir/IranWire (May 29, T4/T3 — Vahidi: 'We will break the blockade through negotiations. If not, through direct action'; 'utter ruin')", "tier": 3},
+        {"name": "WANA/Rezaei (May 29, T3 — 'break maritime blockade via talks or direct action'; attributed to Rezaei, not Vahidi in this source)", "tier": 3},
+        {"name": "Al Arabiya (May 21, T2 — 'IRGC chief Ahmad Vahidi emerges as key power broker as Iran-US talks hang in balance')", "tier": 2},
+        {"name": "Euronews (May 21, T2 — 'Who is Ahmad Vahidi, Interpol-wanted IRGC general and key Iranian war strategist?')", "tier": 2},
+        {"name": "Middle East Forum / IndexBox (T3 — fragmented decision-making structure; Vahidi as back-channel negotiator)", "tier": 3}
+      ],
+      "finding": "Vahidi-named direct statement on negotiations and the blockade surfaced May 29: 'We will break the blockade through negotiations. If not, through direct action' (attributed to Vahidi/IRGC; 'utter ruin' threat). CONFLICT: the WANA source attributes the 'break blockade via talks or direct action' phrasing to Mohsen Rezaei (military advisor), not Vahidi directly; HotAir attributes the 'utter ruin' threat to Vahidi. Both are IRGC-apex-adjacent figures. Al Arabiya (May 21, T2) and Euronews (May 21, T2) both independently profile Vahidi as the 'key power broker' and 'key Iranian war strategist' as the talks approach signature — the most explicit T2 public confirmation of the A4 re-identification to date. The A4 discriminating evidence (Vahidi-direct NAMED statement on HEU disposition specifically) is not yet met on HEU; the statement is on the blockade/negotiations broadly. Aliabadi (Khatam al-Anbiya) silent all cycles.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement (partially met — on negotiations/blockade, not specifically HEU disposition); T2 A4 re-identification corroboration",
+        "framework_variable": "A4 apex re-identification; BS-1a apex visibility; BS-8 IRGC factional; T3 two-level; PROBE-2 Vahidi-direct trigger",
+        "direction": "A4 re-identification further corroborated at T2 level (Al Arabiya/Euronews); partial Vahidi-direct signal on negotiations track; HEU-specific discriminating evidence still pending",
+        "gap_to_full_match": "Vahidi-direct HEU statement (the synthesis-level discriminating evidence) still absent; blockade/negotiations statement is broader; Rezaei/Vahidi source-attribution conflict on the specific phrasing"
+      },
+      "variable_moved": {
+        "variable": "A4 apex re-identification confidence; BS-1a apex visibility",
+        "prior_value": "72-80% (Day 88/90); 'inherited, not validated' on HEU axis; Vahidi-direct HEU absent ~5th cycle",
+        "new_value": "BS-1a +5pp to 77-85% (proposed) on A4 re-identification T2 corroboration: Al Arabiya and Euronews independently profiling Vahidi as 'key power broker' at the decision-moment constitutes genuine T2 corroboration of the IRGC-council-functional-apex reading (distinct from the Day 88 Iran International T3 re-identification). The Vahidi blockade/negotiations statement confirms apex decision-making agency on the deal track broadly, even if not HEU-specific. 'Inherited, not validated' flag on HEU axis retained pending Vahidi-direct HEU statement.",
+        "driver": "Al Arabiya (T2, May 21) + Euronews (T2, May 21) independent profiling of Vahidi as apex power broker; Vahidi-named statement on negotiations/blockade (May 29)"
+      },
+      "discounts_applied": [
+        "Vahidi 'direct action' / 'utter ruin' statement: HotAir is T4 aggregator; the underlying sourcing is IRGC-controlled media (T3 range); treat as M",
+        "WANA / Rezaei attribution conflict: if the 'direct action' quote is Rezaei, not Vahidi, the Vahidi-direct trigger is partially met (apex-adjacent, not apex-direct); discount applies — treat as partial, not full, Vahidi-direct fire",
+        "Al Arabiya and Euronews May 21 profiles are pre-Day-90 but not captured in prior sweeps; legitimate new T2 input this cycle"
+      ],
+      "conflict_notes": "Step 7b: source conflict on whether the 'break blockade via talks or direct action' quote is Vahidi (HotAir) or Rezaei (WANA). This matters for the discriminating-evidence question. Treat as partial: even if the specific phrasing is Rezaei, the Vahidi 'utter ruin' attribution and the T2 'key power broker' profiling together constitute corroboration of A4 without fully resolving the HEU-specific discriminating question. Alternative principal: if Rezaei is the negotiating-signal originator rather than Vahidi, the IRGC-council apex is still confirmed (Rezaei operates within the same council/inner-circle structure). The meaningful discriminating evidence for the synthesis-level question remains a Vahidi-direct named statement on HEU terms (not just the blockade/negotiations track)."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Vision Times (May 12, T4 — 'China's Major Banks Freeze Loans to Iran-Linked Refineries')", "tier": 4},
+        {"name": "Stephenson Harwood / Asia Times (T3 — NFRA directive; China Blocking Rules analysis; partial compliance)", "tier": 3},
+        {"name": "OFAC / US Treasury (T1 — GL-V expired May 24; Hengli fully sanctioned)", "tier": 1},
+        {"name": "MOFCOM blocking order (T1 — May 2, in force)", "tier": 1}
+      ],
+      "finding": "Chinese banking partial compliance emerging: China's National Financial Regulatory Administration (NFRA) directed banks to reassess commercial exposure to sanctioned Hengli and four other teapot refineries, and Chinese major banks have privately been withholding NEW yuan-denominated loans to those entities (not demanding repayment of existing credit). This is a partial, controlled compliance — caught between OFAC (GL-V expired May 24) and the MOFCOM blocking order (May 2). China used the Blocking Rules for the first time in five years (May 2), while banks are quietly partially complying — a T1-vs-T1 compliance-hedge. No formal OFAC action against Chinese financial institutions confirmed. US Treasury Secretary Bessent sent warning letters to two unnamed Chinese banks. The Hengli-to-major-banks cascade is now partially firing at the loan-origination level but not at the existing-exposure level.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Hengli-style cascade to major Chinese banks (NOT fully met — partial loan freeze, not full cascade)",
+        "framework_variable": "BS-4 Chinese support calibration; T10 absorption pathway",
+        "direction": "partial cascade advance — Chinese banks reducing new exposure; existing exposure protected; MOFCOM blocking order still active",
+        "gap_to_full_match": "Full cascade requires OFAC action against Chinese financial institutions processing Hengli transactions; what occurred is voluntary/directed partial compliance under NFRA guidance, not an OFAC enforcement action against banks"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Vision Times is T4; underlying NFRA directive is plausible (corroborated by Stephenson Harwood T3 analysis) but Vision Times sourcing insufficient for a framework-revision trigger",
+        "The partial compliance is directionally significant but falls short of the 'Hengli-cascade-to-Chinese-banks' formal trigger"
+      ],
+      "conflict_notes": "BS-4 retirement continues to be deferred (was contingent on absence of a cascade; partial cascade is now occurring). Reassess at next /audit: if new OFAC designations against Chinese banks follow the Bessent warning letters, BS-4 re-elevates and retirement is foreclosed. The BS-4 partial cascade is a T10 indicator: Chinese institutions feeling secondary-sanctions pressure while the MOFCOM blocking order is cosmetic compliance; the dependency-asymmetry deepens. Partial compliance direction is net-negative for Iranian reconstitution financing without being decisive."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CENTCOM via NBC / CNN (May 28, T1 — ballistic missile attack on Ali Al Salem Air Base intercepted; five Iranian drones intercepted; Bandar Abbas drone-launch site struck)", "tier": 1},
+        {"name": "OANN / GlobalSecurity (May 28-29, T2 — 'egregious ceasefire violation'; Kuwait Foreign Ministry condemnation)", "tier": 2},
+        {"name": "Kuwait MOD / WION News (May 28, T2 — Kuwait air defenses intercept IRGC missiles and drones)", "tier": 2},
+        {"name": "PressTV / Iranian state media (May 30, T1 — five Americans injured; MQ-9 Reapers damaged)", "tier": 1},
+        {"name": "TWZ (May 11, T2 — three CSGs in CENTCOM AOR: Bush, Lincoln, Ford; first since 2003)", "tier": 2}
+      ],
+      "finding": "IRGC executed its 'reciprocal response' at a higher severity level than mine-laying: Iran launched a ballistic missile at Ali Al Salem Air Base (Kuwait), a key US forward base, which Kuwaiti air defenses intercepted. Separately, five Iranian one-way attack drones threatened US forces and commercial shipping in the Strait; CENTCOM intercepted four and struck the Bandar Abbas drone-launch site preparing to launch the fifth. Confirmed casualties: five Americans (US service members and contractors) injured at Ali Al Salem; two MQ-9 Reaper drones damaged/destroyed. CENTCOM called the ballistic missile attack 'egregious ceasefire violation.' No new operation name. No Eisenhower deployment order. No offensive ROE shift. Trump pursued 'final determination' Situation Room meeting RATHER THAN pivoting to Fork A framing (deal-direction held through the strike cycle, per PROBE-13). THREE CSGs now confirmed in CENTCOM AOR (Bush CVN-77, Lincoln CVN-72, Ford CVN-78 — per TWZ May 11 reporting; synthesis v4.2 had two), marking the first three-carrier CENTCOM concurrent deployment since 2003 — an L1 force-posture update not captured in prior sweeps.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "IRGC executes 'reciprocal response' against a US military asset (PARTIAL: intercepted, injuries but no KIA; deal-direction held — does NOT fully meet 'KIA spike forces Trump A1 direction' threshold from Day 90 SITREP); Fork C re-elevated on bidirectional escalation; three-CSG L1 update",
+        "framework_variable": "Fork C miscalculation cascade (30d); L1 military physics (carrier posture); A11 inadvertent escalation; T12",
+        "direction": "Fork C materially up on IRGC ballistic missile vs Kuwait US base (Americans injured) — more severe than Day 90 mine-laying context; L1 three-CSG posture is an upward force-availability update",
+        "gap_to_full_match": "Ballistic missile intercepted (no KIA); Trump did not pivot to Fork A; no new operation name; no offensive ROE shift; Eisenhower still not deployed — these hold the self-defense/inadvertent-escalation framing per the PROBE-7 Day 90 discriminator. DOES NOT meet the resumed-operations trigger."
+      },
+      "variable_moved": {
+        "variable": "Fork C miscalculation cascade (30d); L1 military physics (CSG posture)",
+        "prior_value": "Fork C 18-25% (Day 90); two CSGs in CENTCOM AOR (Lincoln, Bush)",
+        "new_value": "Fork C 22-30% (proposed ↑) — IRGC ballistic missile on Kuwait US base (5 Americans injured; CENTCOM 'egregious ceasefire violation') is a material escalation beyond Day 90 mine-laying-and-drone context. The inadvertent-escalation pathway (A11/§5.15 Talmadge) is wider, deeper, and more bidirectional. The step from 'mine-laying boats destroyed' (Day 90) to 'ballistic missile on a US forward base with American casualties' (Day 93) is structurally significant for the Fork C cascade risk, even though the ballistic missile was intercepted. L1 update: three CSGs in AOR (Bush + Lincoln + Ford) — not two (v4.2 baseline); the force-projection posture is higher than synthesis recorded.",
+        "driver": "IRGC ballistic missile vs Ali Al Salem Air Base (Kuwait, May 28); 5 Americans injured; CENTCOM 'egregious ceasefire violation'"
+      },
+      "discounts_applied": [
+        "PressTV (Iranian state media, T1-class but adversarially framed) on US casualties; treat the 'five Americans injured' figure as confirmed given CENTCOM implicit acknowledgment via OANN reporting",
+        "Three-CSG data is TWZ (T2) from May 11 — may not reflect exact Day 93 posture but represents a material L1 departure from v4.2's two-CSG baseline; treat as directionally confirmed"
+      ],
+      "conflict_notes": "Step 7b: CENTCOM self-defense discriminator applies. The IRGC ballistic missile was a retaliation for the Day 90 CENTCOM strikes on mine-laying boats; the US Bandar Abbas drone-site strike was a response to the drones. The chain is: Day 90 CENTCOM strikes → Day 93 IRGC ballistic missile → Day 93 US drone-site strike. No new operation name in any leg; Trump held deal-direction throughout; no offensive ROE shift → per the PROBE-7 Day 90 discriminator, this is STILL scored as Fork C inadvertent-escalation, NOT Fork A resumption. BUT the severity escalated: the Day 90 discriminator was written for 'mine-laying boats' level; a ballistic missile on a US base with American injuries tests the discriminator's outer boundary. IF IRGC conducts a second ballistic-missile strike (particularly one that produces KIA), the 'KIA spike forces Trump A1 direction' sub-trigger from Day 90 SITREP §7 fires. MONITOR: next IRGC kinetic action after Day 93 is the critical discriminating event."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC (May 29, T2 — 'Oil drops 20% from 2026 peak on optimism over US-Iran ceasefire talks'; 'biggest monthly loss in six years')", "tier": 2},
+        {"name": "CNBC (May 29, T2 — Brent ~$92.56; WTI ~$85-86; worst monthly loss since March 2020)", "tier": 2},
+        {"name": "CNBC (May 26, T2 — Brent briefly below $91 on tentative deal reports)", "tier": 2},
+        {"name": "AlanChand (May 30, T4 — rial parallel/remittance ~1,709,000 IRR/USD)", "tier": 4}
+      ],
+      "finding": "Brent crude ~$92.56 as of May 29-30, down nearly 19% for the month of May (worst monthly loss since March 2020 COVID shutdown). Brent briefly fell below $91 on the tentative deal reports (May 28) before recovering slightly. The PROBE-8 trigger 'Brent breakout below $95: Fork B credibility' has now clearly fired — Brent is in sustained sub-$95 territory on deal-pricing, with analysts seeing the $90-100 range as stable 'for at least a couple months' pending clarity on a lasting agreement. Iranian rial parallel/remittance ~1,709,000 IRR/USD (back to the Day 88 appreciation level, reversing the Day 90 re-depreciation to 1,726,000) — deal-pricing dominant again as the tentative agreement news landed. Brent backwardation (~$29/bbl Jul26-Jul27) holds; structural tightness independent of the deal-premium oscillation. IEA June-Hormuz-resumption assumption carries (3.9 mb/d shortfall path absent deal signing).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout below $95: Fork B credibility signal",
+        "framework_variable": "BS-7 energy market structural breaks; L3 time arithmetic; A6 market mispricing",
+        "direction": "Brent below $95 fired — deal-pricing dominant; rial appreciating toward Day 88 level; cross-asset confirmation strongest since the crisis began",
+        "gap_to_full_match": "Brent below $95 is a Fork B credibility SIGNAL, not confirmation — no commercial restoration announcement; no signed deal; backwardation holds (structural tightness persists)"
+      },
+      "variable_moved": {
+        "variable": "Brent crude price; rial parallel rate; oil-market deal-pricing regime",
+        "prior_value": "Brent ~$99.58 (Day 90); rial 1,726,000 IRR/USD; deal-pricing partially reversed on Day 90 kinetic exchange",
+        "new_value": "Brent ~$92.56 (May 29-30), down 19% in May; rial ~1,709,000 (appreciating back toward Day 88 level); deal-pricing dominant. Markets pricing a high probability of Hormuz reopening without fully pricing a signed deal (backwardation holding). The sub-$95 Brent is the most sustained market signal in the framework's window that a deal is probable.",
+        "driver": "US-Iran tentative agreement (May 28) + Trump Situation Room 'final determination' language; Brent worst monthly loss since COVID"
+      },
+      "discounts_applied": [
+        "AlanChand T4 for rial: best-available proxy; single-point reading",
+        "CNBC $92.56 is the May 29 close; May 30 intraday movement not yet in results — hold at May 29 level"
+      ],
+      "conflict_notes": "Brent sub-$95 is the Fork B credibility signal per PROBE-8 spec. It fires as a credibility/pricing signal, NOT as a Fork B confirmation. The persistent $29/bbl backwardation (Jul26-Jul27) remains the structural tightness indicator — it collapses only on actual Hormuz reopening under a signed deal, which has not occurred. The market correctly prices the bifurcation: tentative deal probable (Brent below $95) but not yet signed (backwardation holds). A signed deal would see backwardation collapse toward $5-10/bbl within days; that is the highest-confidence Fork B market trigger."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "PBS NewsHour / CNBC (May 15, T2 — Israel and Lebanon agree to 45-day ceasefire extension; State Dept announcement)", "tier": 2},
+        {"name": "Bloomberg (May 15, T2 — 'Israel, Lebanon Extend Ceasefire 45 Days After Washington Talks')", "tier": 2},
+        {"name": "The National News / CGTN (May 15-16, T2 — ceasefire extended; deadly strikes continue; 657+ killed)", "tier": 2},
+        {"name": "PBS / State Dept (T2 — fourth round negotiations June 2-3 Washington; security track May 29 Pentagon)", "tier": 2},
+        {"name": "Times of Israel (May 20, T2 — Knesset preliminary dissolution 110-0, Netanyahu absent)", "tier": 2}
+      ],
+      "finding": "Israel and Lebanon agreed to a 45-day ceasefire extension (announced May 15 by State Dept — pre-Day 90, not captured in prior sweeps). This is a SEPARATE bilateral track from the Iran deal. Framework significance: the Lebanon-Israel bilateral process (4th round June 2-3 in Washington; separate security track Pentagon May 29) provides a potential bridging mechanism for Iran's 'all fronts' Lebanon-clause demand in the Iran deal — if the Israel-Lebanon bilateral track produces durable progress, Iran's insistence on a 'sustainable Lebanon ceasefire' may be partially satisfied through the bilateral process. 657+ killed in Lebanon since the ceasefire (violations both sides). Knesset: preliminary dissolution at 110-0 (May 20) carries from Day 90 — no further readings scheduled; still at first reading only. Netanyahu retains operational authority. No F-35/F-15 forward positioning toward Iran; no air-refueling tempo escalation.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Lebanon clause bridged (Netanyahu accepts sustainable Lebanon ceasefire); Knesset dissolution bill passes subsequent readings",
+        "framework_variable": "BS-3 Israeli internal politics; BS-15 first-mover; Lebanon clause mechanism (§5.27); Israeli unilateral pre-emption",
+        "direction": "bilateral Lebanon-Israel track advancing (extension + June 2-3 talks) — partial Lebanon-clause bridge candidate; Knesset at preliminary reading only",
+        "gap_to_full_match": "Lebanon clause in the IRAN DEAL is not bridged (Iran 'all fronts'; Netanyahu 'freedom of action'); bilateral Lebanon-Israel extension is a necessary but not sufficient condition for resolving the Iran deal Lebanon clause"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "45-day extension (May 15) is pre-Day-90 and missed in prior sweeps; treat as new input this cycle",
+        "657+ killed since ceasefire = violations ongoing despite formal extension; bilateral track 'advancing' does not mean 'stable'"
+      ],
+      "conflict_notes": "The bilateral Lebanon-Israel ceasefire extension (May 15) and June 2-3 4th round negotiations are STRUCTURALLY RELEVANT to the Iran deal Lebanon clause: Iran's 'all fronts' insistence could be partially satisfied if the bilateral Israel-Lebanon process produces enough diplomatic progress to allow Iran to claim a 'sustainable ceasefire' in Lebanon. This is a potential bridging pathway that was not visible in the Day 88/90 sweeps. Flag for SITREP: the bilateral Lebanon track advancing at the same time as the Iran deal nears signature may be the actual Lebanon-clause bridge mechanism, not a direct Israel-Iran negotiation on Lebanon terms. Step 7b on Knesset: Netanyahu remains the named principal controlling the Lebanon clause; the preliminary dissolution (May 20) has not advanced to committee stage — the 'Netanyahu pre-caretaker authority vs Zamir post-caretaker authority' phasing has NOT changed."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "NPR (May 22, T2 — Republicans call off vote; delayed to June; Meeks 'we had the votes')", "tier": 2},
+        {"name": "CBS News live (May 29-30, T2 — Vance 'still TBD'; House returns after Memorial Day)", "tier": 2},
+        {"name": "Congress.gov H.Con.Res.38 (T1 — bill status)", "tier": 1}
+      ],
+      "finding": "House WPR delayed past Memorial Day recess into early June (House returned May 27). Republicans confirmed they lacked numbers to defeat the resolution. Rep. Meeks: 'We had the votes; procedurally must happen when lawmakers return in early June.' The IRGC ballistic missile on Kuwait (5 Americans injured, 2 MQ-9s damaged) is a potential political accelerant for additional Republican defectors under a 'undeclared resumed operations' framing — though Trump is simultaneously pursuing a deal, complicating the WPR political dynamic. No new AUMF. No federal court WPA challenge filed. T9 lock-in advancing. House early-June WPR vote is the most consequential T9 CONTESTED test event in the window.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority; Resumed operations without new AUMF",
+        "framework_variable": "T9 Stage-2 hysteresis; Fork A constitutional constraint; BS-5",
+        "direction": "WPR approaching but not yet passed; Kuwait ballistic missile may harden GOP defector math; early-June vote is the test",
+        "gap_to_full_match": "WPR not yet voted on; Kuwait strike + tentative deal create a mixed political dynamic for GOP fence-sitters"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The Kuwait ballistic missile strike (5 Americans injured) creates a paradox for WPR politics: it strengthens the 'undeclared ongoing hostilities' case for WPR passage BUT may rally GOP members around the president in a national-security moment. Whether it produces net defections or net rallying is a political-judgment call that the framework cannot determine from T1/T2 sourcing alone. The deal-track simultaneously running means some GOP members may vote AGAINST the WPR to let Trump close the deal without constraint. T9 lock-in continues advancing absent passage."
+    },
+    {
+      "probe_id": "PROBE-11",
+      "probe_name": "Russian Settlement Window and Dugin Leading Indicator",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Kremlin.ru (T1 — events/president/news; only May 9 Victory Parade confirmed this month)", "tier": 1},
+        {"name": "Time (May 9, T2 — 'Putin Marks Pared-Down Victory Day Parade'; 45-minute ceremony, no tanks)", "tier": 2}
+      ],
+      "finding": "No Dugin signal this cycle. No new confirmed Putin public appearance beyond the May 9 Victory Parade. The Kremlin.ru events page shows the May 9 parade as the last publicly documented event in May 2026. Russia entirely absent from the Iran deal architecture (Munir routes through Beijing, not Moscow). BS-9.3 sub-probe: May 2026 on track for ≤1 confirmed public appearance; need April 2026 full count to determine if the 3-consecutive-month threshold is approaching. The pared-down nature of the Victory Day ceremony (45 minutes, no tanks or missiles) is itself a behavioral signal consistent with the M3 incapacity cascade concern.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-9.3: ≥3 consecutive months at <2 appearances/month",
+        "framework_variable": "BS-9 Russian siloviki cohesion; T6 succession architecture; M1-M4 probabilities",
+        "direction": "BS-9.3 watch continues — May at ≤1 confirmed appearance; need April full count",
+        "gap_to_full_match": "Need April 2026 and March 2026 full Kremlin.ru documented-event counts to assess 3-consecutive-month threshold"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Kremlin.ru may under-document non-public meetings; threshold uses formally documented public events only"
+      ],
+      "conflict_notes": "BS-9.3 watch carries: compile April + March + May Kremlin.ru counts at next PROBE-17 run. If March-April-May each register ≤1 documented public appearance, the hard escalation trigger fires (M3 probability elevated above 30%; emergency synthesis review). The pared-down Victory Day ceremony is directionally consistent with the concern but insufficient to trigger the threshold on its own. T6 holds VALIDATED; M1 baseline (55-65%) preserved."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Axios (May 28, T2 — 'US and Iran reach deal but need Trump's final approval'; 60-day MOU terms)', \"tier\": 2}", "tier": 2},
+        {"name": "CNN live (May 28, T2 — 'US and Iran reach tentative agreement though Trump hasn't signed off')", "tier": 2},
+        {"name": "Euronews / Al Jazeera (May 28, T2 — 60-day MOU: blockade lift, Hormuz open, nuclear phase 2)", "tier": 2},
+        {"name": "CNBC (May 29, T2 — 'Trump ends Iran meeting without announcing final determination on deal')", "tier": 2},
+        {"name": "CBS News / Vance (May 30, T2 — 'still TBD' whether Trump will sign)", "tier": 2},
+        {"name": "Newsweek (May 29, T2 — Trump: 'final determination' on Iran pending)", "tier": 2}
+      ],
+      "finding": "US-Iran tentative agreement reached (May 28): both sides agreed on a 60-day MOU extending the ceasefire, lifting the US naval blockade, reopening the Strait of Hormuz (no tolls), and deferring Iran's nuclear program to a phase-2 negotiation. Iran verbally committed (per US officials) to never pursuing nuclear weapons plus snap inspections, and to discuss HEU suspension/removal in phase 2. Iran-side conflict: Fars News Agency insists 'Iran has made no commitments on nuclear stockpiles, removing equipment, closing facilities' — the US and Iran sides are publicly contradicting each other on HEU terms even as the tentative agreement was reached. CRITICAL DEVELOPMENT: Trump convened a Situation Room meeting on May 29 to make a 'final determination' — and concluded the meeting WITHOUT announcing a decision. Vance (May 30, CBS): 'still TBD.' Ships reportedly preparing to move in Hormuz on Trump's instructions, but no formal deal announcement. The deal is at the signature threshold but suspended pending Trump's final call.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian official accepts/rejects LOI in named statement (NOT fully met — Iran verbal commitments per US officials, Iran-side contradicts); Trump 'final determination' pending; Lebanon clause and HEU still binding obstacles",
+        "framework_variable": "Fork D' structured deferral; Fork B; BS-11 MOU architecture; §5.26/§5.27",
+        "direction": "Fork D' strongly elevated — tentative agreement reached, Trump Situation Room meeting held — but Trump has NOT signed; Fork D' activation is at the threshold, suspended",
+        "gap_to_full_match": "Trump's 'final determination' not announced; Iran-side formal acceptance of the MOU text not confirmed; HEU disposal terms contradicted by Iran-side public statements; Lebanon clause still operative"
+      },
+      "variable_moved": {
+        "variable": "Fork D' structured deferral (30d); Probability architecture",
+        "prior_value": "28-36% (Day 90 hold)",
+        "new_value": "30-38% (proposed ↑) — tentative agreement reached, Trump Situation Room meeting, Hormuz ships being cleared — the deal is at the activation threshold. BUT Trump's non-signing means Fork D' has not yet actualized. The midpoint rises to ~34%, the 3rd consecutive cycle above 30% (Day 88: ~32%, Day 90: ~32%, Day 93: ~34%). DECOMPOSITION RULE MONITOR: three consecutive cycles above 30% midpoint; one more above-30% cycle triggers mandatory decomposition at the next SITREP. Iran-side contradiction on HEU terms (Fars vs US officials) prevents a clean Fork D' confirmation.",
+        "driver": "US-Iran tentative 60-day MOU agreement (Axios/CNN/Euronews May 28); Trump Situation Room non-announcement (CNBC May 29); Vance 'still TBD' (CBS May 30)"
+      },
+      "discounts_applied": [
+        "US officials' claims about Iran verbal commitments on HEU suspension/removal: -50% discount pending Iran-side named confirmation; Fars direct contradiction applied; treat HEU-commitment component as contested",
+        "Trump Situation Room 'final determination' language near-zero informational value absent tape action on the decision itself; the load-bearing signal is the BEHAVIORAL non-announcement (he convened the meeting and left without signing)",
+        "-25% on overall MOU terms from US officials (likely 1-2 US officials via Axios, carried across outlets; source-independence discipline applies)"
+      ],
+      "conflict_notes": "Source conflict on HEU: US officials claim Iran gave verbal commitments on HEU suspension and yielding stockpiles; Fars says no such commitments. This is NOT averaged — it is a direct T1-adjacent contradiction on the most load-bearing term. The parsimonious read: the US side is characterizing what was discussed in negotiations as commitments; the Iranian side (via state media) is managing domestic audience costs by denying commitments not yet formalized in text. This is the dual-collision LOI architecture (§5.26) operating as designed: both sides read the text as non-pre-committing on the most sensitive terms. Step 7b: is Trump's non-signing a reflection of his own judgment or Netanyahu influence? The Lebanon clause remains the named blocking obstacle in public Iranian statements — if the Israel-Lebanon bilateral track (June 2-3 talks) advances, the Lebanon clause gap may narrow without a direct Netanyahu concession."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC (May 29, T2 — Trump ends Situation Room meeting without decision; 'final determination' pending)", "tier": 2},
+        {"name": "CBS News / Vance (May 30, T2 — 'still TBD' whether Trump will sign)", "tier": 2},
+        {"name": "Washington Times / Newsweek (May 29, T2 — Trump says Iran 'must agree they will never have a nuclear weapon'; Hormuz 'must be immediately open')", "tier": 2}
+      ],
+      "finding": "Trump held deal-direction through the IRGC ballistic missile strike on Kuwait (5 Americans injured, May 28) — he convened a Situation Room 'final determination' meeting rather than pivoting to Fork A, a stronger behavioral durability datapoint than any prior cycle. However, Trump left the Situation Room WITHOUT announcing a decision — the deal is at the threshold but Trump has not signed. Vance (May 30): 'still TBD.' Trump's stated conditions: Iran must 'never have a nuclear weapon or bomb' and Hormuz 'must be immediately open' — consistent with the dual-collision LOI frame (deferring HEU specifics to phase 2). The asymmetric PA-gap persists: US win-set wide and deal-leaning (Trump at decision threshold); Iranian apex maintaining maximalism via Vahidi 'direct action' deterrent floor with IRGC-authorized mid-tier having negotiated the tentative MOU. Penetration mechanism: Lebanon clause remains operative — the Israel-Lebanon bilateral track advancing (June 2-3) may partially deactivate the Lebanon clause as a blocking obstacle.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump A1 non-reversing through kinetic cycle; 'final determination' at signature threshold; A2 5th+ cycle",
+        "framework_variable": "BS-12 PA-gap; A1 Trump deal-direction; Netanyahu Penetration state; A2 principal-validation",
+        "direction": "A1 strongest behavioral durability yet (held through ballistic missile attack); but non-signing = decision-suspended, not commitment",
+        "gap_to_full_match": "Trump has not signed the MOU; 'final determination' pending; Iran-side formal acceptance not named-publicly-confirmed"
+      },
+      "variable_moved": {
+        "variable": "Trump A1 deal-direction state; A2 principal-validation cycle count",
+        "prior_value": "Deal-direction held through Day 90 kinetic exchange (behavioral durability established); A2 at 5th+ cycle",
+        "new_value": "Deal-direction held through a ballistic missile attack on a US base (Ali Al Salem) — the strongest A1 durability test in the framework window. Trump's 'final determination' language is the closest to a decision signal observed. However, the non-announcement is itself a signal: Trump is weighing conditions, not rubber-stamping. A2: the Netanyahu-relayed 'full dismantlement / all HEU removed' private-assurance claim is now in its 6th+ consecutive cycle without a White House readout using that language. Per sweep.md Step 7b action-routing: the 5th-cycle threshold has passed and this sweep must produce the discriminating-evidence forcing question. FORCING QUESTION for A2 (next cycle): 'Would Trump sign a 60-day MOU that defers HEU to phase 2, rather than requiring upfront removal?' If YES (he signs the tentative deal as described), the Netanyahu-relayed maximalist assurance is CONFIRMED as Netanyahu's projection, not Trump's commitment — A2 demoted to 'Netanyahu-coalition-projected, not Trump-committed.' If NO (Trump refuses to sign absent explicit Iranian HEU-out commitment), the relay may have more substance than the framework prices.",
+        "driver": "Trump Situation Room meeting without decision (May 29); Vance 'still TBD'; ballistic missile attack not reverting Trump to Fork A framing"
+      },
+      "discounts_applied": [
+        "Trump Truth Social statements near-zero absent tape action; the load-bearing signal is the behavioral non-reversal through Kuwait strike + Situation Room non-signing",
+        "A2: Netanyahu-maximalist-relay at -50% discount for 6th+ consecutive cycle without White House corroboration"
+      ],
+      "conflict_notes": "Step 7b A2 action-routing (5th-cycle threshold met, Day 90): This sweep produces the required discriminating-evidence forcing question per sweep.md mitigation. The next /audit must stage a synthesis manifest demoting A2 from 'provisional' to 'Netanyahu-coalition-projected, not Trump-committed' UNLESS the White House uses 'full dismantlement / all HEU removed' language in its formal deal documentation. The forcing question is binary and observable within the next cycle: Trump's signing decision resolves A2's principal attribution in either direction. This is the first forcing-question under the Mitigation 1 action-routing pathway established by the v4.2 premortem."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CENTCOM via NBC/OANN (May 28, T1 — IRGC ballistic missile on Ali Al Salem Air Base; drones; Bandar Abbas site struck)", "tier": 1},
+        {"name": "WION / CNN (May 28, T2 — Kuwait air defenses intercept IRGC missile; MQ-9s damaged)", "tier": 2}
+      ],
+      "finding": "IRGC demonstrated ballistic missile capability against a US military base (Ali Al Salem, Kuwait, May 28) — the most severe Iranian kinetic action since the ceasefire began. This is a qualitative escalation from the Day 90 maritime-denial/mine-laying demonstration: Iran exercised strategic offensive strike capability (ballistic missile, not just anti-ship/mine assets) against US personnel on a foreign ally's soil. Five one-way attack drones additionally demonstrated sustained targeting capacity. Capability is now use-confirmed at the ballistic-missile-against-US-base level. T12 (reconstitution-speed amplifier) reinforced: the weapons used (ballistic missiles, drones) are the same categories the Day 84 CNN and Day 88 ToI intel clusters assessed as faster-than-expected reconstitution. No Houthi mass-launch; cyber Stage 3 latent; the demonstration is a direct-strike against US assets, not a strategic salvo against Iran-tier targets.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source assessment / operational demonstration of higher-than-estimated Iranian residual capability; ballistic missile use confirmed",
+        "framework_variable": "BS-13 Iranian residual capability; T2 Mosaic-Octopus; T12 reconstitution-speed amplifier",
+        "direction": "up — ballistic missile use against US base graduates capability demonstration to the highest severity observed in this window",
+        "gap_to_full_match": "No Houthi mass-launch; cyber Stage 3 latent; the demonstration is qualitatively significant (ballistic missile vs US base) but isolated (intercepted; no mass salvo)"
+      },
+      "variable_moved": {
+        "variable": "BS-13 Iranian residual capability; T12 confidence",
+        "prior_value": "Use-confirmed at mine-laying/drone/SAM level (Day 90); T12 VALIDATED",
+        "new_value": "Use-confirmed at BALLISTIC MISSILE vs US base level (Day 93) — a qualitative escalation of the use-confirmation. The capability-recovery amplifier (T12) is now demonstrated at the level directly feeding the Israeli 'closing-window' perception: an Iran capable of striking US forward bases with ballistic missiles is a structurally more threatening reconstitution signal than mine-laying boats. No Israeli air-refueling tempo escalation yet, but the Powell amplifier loading intensifies.",
+        "driver": "IRGC ballistic missile on Ali Al Salem Air Base (Kuwait); five drones; CENTCOM T1 confirmation"
+      },
+      "discounts_applied": [
+        "Iran-side attribution of the strikes as 'retaliatory' does not change the capability-use-confirmation assessment; the ballistic missile fired is the relevant fact"
+      ],
+      "conflict_notes": "P-DG cross-reference (PROBE-21): the ballistic missile targeted the BASE, not NAMED PRINCIPALS — P-DG does not fire. But the escalatory direction (from mine-laying boats to a US forward base with American injuries) tests the P-DG2 boundary: if Iranian demand-sets escalate post-strike, P-DG2 would activate. No demand-set escalation observed this cycle (Vahidi 'direct action' is deterrent floor, not new demands); P-DG2 non-fire holds."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC / CBS (May 29-30, T2 — Trump non-announcement; Vance 'still TBD')", "tier": 2},
+        {"name": "OANN / CNBC (May 28, T2 — CENTCOM 'egregious ceasefire violation'; Iran ballistic missile)", "tier": 2},
+        {"name": "Al Arabiya / Euronews (May 21, T2 — Vahidi 'key power broker'; Iran war strategist)", "tier": 2}
+      ],
+      "finding": "US dispositional: deal-direction held through the ballistic missile attack — Trump pursued a 'final determination' rather than a Fork A pivot. This is the strongest single behavioral durability signal in the framework window. Iranian dispositional: Vahidi 'direct action' threat (blockade/negotiations) confirms IRGC apex maximalism on the deterrent axis while the tentative MOU was negotiated by the IRGC-authorized mid-tier — the predicted T3 two-level structure. Israeli dispositional: IDF-coalition asymmetry persists (Zamir baseline vs Netanyahu Lebanon-clause requirement); Lebanon-Israel bilateral advancing (June 2-3) may partially shift the coalition's blocking calculation. The Powell mechanism (T8) is operating at maximum: the tentative deal ('a word' from signing) coexists with the IRGC ballistic missile against a US base — the Powell-predicted race condition is now at its most acute.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "US/Israeli 'window closing' operationalized; T8 advancing; dispositional asymmetry at maximum",
+        "framework_variable": "BS-14 dispositional reading; T8 Powell shifting-power; A1 deal-direction durability",
+        "direction": "T8 advancing — Powell mechanism at maximum loading (deal 'a word' from signing simultaneously with IRGC ballistic missile on US base)",
+        "gap_to_full_match": "No Israeli strike on Iranian soil; no US Fork A decision despite Kuwait strike"
+      },
+      "variable_moved": {
+        "variable": "T8 Powell mechanism loading; dispositional-reading framing",
+        "prior_value": "T8 advancing (Day 90); managed US-Israel gap; Lebanon clause kinetically active",
+        "new_value": "T8 at maximum loading in the framework window: the tentative MOU simultaneously with the IRGC ballistic missile on Kuwait US base is the most acute expression of the race-condition T8 predicts. The 'closing window' perception for Israel is intensified by: (a) Iran demonstrating ballistic-missile capability against US assets while (b) a deal that would lock in Iranian capability is 'one word' from signing. The Lebanon-Israel bilateral (June 2-3) is the one new variable that could partially deactivate the Lebanon clause and allow the deal to close without a complete Netanyahu concession.",
+        "driver": "Tentative deal simultaneously with ballistic missile on US base; Lebanon-Israel bilateral advancing"
+      },
+      "discounts_applied": [
+        "Israeli dispositional sourcing is relatively thin this cycle — no new IDF/coalition public statement on Iran posture"
+      ],
+      "conflict_notes": "The Kuwait ballistic missile attack has a paradoxical dispositional effect: it raises the Israeli 'closing window' urgency (Iran can strike US bases) while simultaneously confirming that the US has absorbed the strike without pivoting to Fork A (lowering Netanyahu's confidence in persuading Trump to resume). The net: T8 loads both directions — Israel's pre-emption incentive rises on capability fear while the US-Israel gap on deal-vs-strike widens. The June 2-3 Israel-Lebanon talks are the most proximate potential Lebanon-clause bridge."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In (Composite)",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Composite of PROBE-7, 8, 9, 12', 13, 14, 15, 20 this cycle", "tier": 2}
+      ],
+      "finding": "Joint-distribution update at the sharpest decision-threshold in the framework window. The cycle is defined by three converging forces: (1) DEAL AT SIGNATURE THRESHOLD: US-Iran tentative 60-day MOU agreed (May 28), Trump Situation Room meeting (May 29) without decision, Vance 'still TBD' — Fork D' is at activation threshold but suspended; (2) IRANIAN BALLISTIC MISSILE ON US BASE: IRGC struck Ali Al Salem Air Base (Kuwait), 5 Americans injured, CENTCOM 'egregious ceasefire violation' — Fork C materially elevated and the 'KIA spike forces A1 direction' trigger within reach if IRGC fires again; (3) LEBANON-ISRAEL BILATERAL ADVANCING: 4th round June 2-3 in Washington — potential Lebanon-clause bridge that could enable the deal to close without a direct Netanyahu concession. The race condition has tightened: the deal is days from Trump's signature AND the IRGC has demonstrated it can strike US personnel. Trump's decision in the next 24-96 hours is the most consequential observable in the framework window.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump 'final determination' as the most acute US first-mover threshold in the window; IRGC escalation approaching the 'KIA spike' Fork C→Fork A trigger",
+        "framework_variable": "BS-15 first-mover joint distribution; Fork D' vs Fork C race condition; A1 decision threshold",
+        "direction": "converging — Fork D' at activation threshold (Trump non-signing = decision pending); Fork C elevated on Kuwait ballistic missile; the JOINT distribution's dominant uncertainty is now TRUMP'S SIGNATURE DECISION",
+        "gap_to_full_match": "Trump has not signed; Iran has not formally accepted; Lebanon clause not bridged; Kuwait strike is intercepted (no KIA) so the Fork C→Fork A cascade trigger has not fired"
+      },
+      "variable_moved": {
+        "variable": "BS-15 first-mover joint distribution; primary risk framing",
+        "prior_value": "Day 90: primary risk = Fork C inadvertent escalation from live Hormuz exchange; deal 'a word' away",
+        "new_value": "Day 93: primary observable is TRUMP'S SIGNATURE DECISION. The Fork D' path (deal signed in days) and the Fork C path (Kuwait strike → second round → KIA spike → A1 reversal) are both live within a 24-96 hour window. Secondary shift: Lebanon-Israel bilateral (June 2-3) has emerged as a potential Lebanon-clause bridge that neither the Day 88 nor Day 90 sweeps captured — it restructures the Lebanon-clause blocking analysis.",
+        "driver": "Tentative MOU reached + Situation Room non-decision; Kuwait ballistic missile + CENTCOM 'egregious violation'; Lebanon-Israel bilateral 4th round June 2-3"
+      },
+      "discounts_applied": [
+        "All component-probe discounts apply by reference"
+      ],
+      "conflict_notes": "CALIBRATION GUARD: the Kuwait ballistic missile is NOT scored as Fork A resumption (CENTCOM self-defense framing; Trump deal-direction held; no new operation name; no KIA yet). Over-reading the Kuwait strike as a Fork A pivot would be the recency-bias failure mode. The discriminating signals for the next 24-96 hours: (a) Trump signs the 60-day MOU → Fork D' activates, 60-day clock begins; (b) IRGC executes a second strike that produces US KIA → 'KIA spike forces A1 direction' trigger fires, Fork C resolves into Fork A; (c) Lebanon-Israel 4th round (June 2-3) produces tangible ceasefire language → Lebanon clause may be bridged, clearing the path to (a). The framework cannot predict selection; it names the constraint surface and the actors select."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion (BS-9 composite)",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Kremlin.ru (T1 — only May 9 Victory Parade documented in May 2026)", "tier": 1},
+        {"name": "Time (May 9, T2 — pared-down parade, 45 minutes, no tanks/missiles)", "tier": 2}
+      ],
+      "finding": "No new confirmed Putin public appearance after May 9. The Victory Parade itself was pared-down (45 minutes, no tanks or missile carriers on Red Square) — Zelensky reportedly gave 'permission' for the parade in an ironic framing (Time); the scaled-back format is itself a behavioral signal worth flagging for BS-9.3. No new Shoigu criminal charges. Dyumin position unchanged. Russia inert on Iran across all cycles. BS-9.3 approaching threshold: May 2026 at ≤1 confirmed documented public event; need March and April full Kremlin.ru counts for the 3-consecutive-month assessment.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-9.3: <2 appearances/month for 3+ consecutive months",
+        "framework_variable": "BS-9; T6",
+        "direction": "watch continues; not yet triggered",
+        "gap_to_full_match": "Need 3-month consecutive count; pared-down parade format noted as behavioral signal"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The pared-down Victory Parade format (no tanks, no missile carriers, 45 minutes) should be logged as a BS-9.3-adjacent behavioral signal alongside the appearance-count metric. Victory Day is Putin's highest-visibility annual public event; a scaled-back version is inconsistent with the M1-managed-transit path at its most consolidated form. Compile March-April full Kremlin.ru counts at next PROBE-17 — if all three months show ≤1 documented appearance, the emergency synthesis review trigger fires."
+    },
+    {
+      "probe_id": "PROBE-18",
+      "probe_name": "Eschatological Multi-Tradition Convergence",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Standard Eid al-Adha news cycle (May 27-31, T2 — no Tier-1 trigger)", "tier": 2}
+      ],
+      "finding": "No Tier-1 or Tier-2 eschatological trigger this cycle. Eid al-Adha ongoing (May 27-31). Hajj closed without incident. No red-heifer ceremony, Temple Mount legislation, caliphate declaration, Mahdist invocation, or Dome of the Rock event. T5 holds PENDING.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Tier-1 eschatological firing",
+        "framework_variable": "BS-16; T5",
+        "direction": "no change",
+        "gap_to_full_match": "No Tier-1 event"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Null finding. PENDING baseline holds. No Tier-1 convergence event in this window."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Axios (May 24, T2 — leaders 'appeared stunned'; Saudi, Qatar, Pakistan 'silence on the line')", "tier": 2},
+        {"name": "RFERL (T2 — 'Fear Of Iran And Public Backlash Stall Trump's Push For Abraham Accords')", "tier": 2},
+        {"name": "Time (May 26, T2 — MBS Palestinian-state-first position; 'irreversible pathway' condition)", "tier": 2},
+        {"name": "House of Saud (T3 — Hajj 96h + Eid holiday May 27-31 as structural diplomatic buffers preventing MBS public response)", "tier": 3}
+      ],
+      "finding": "Saudi Eid government holiday ends May 31 (today). MBS's structural position on the Abraham Accords is now publicly on record: normalization with Israel requires a credible, irreversible pathway to Palestinian statehood (reaffirmed Nov 2025 to Trump; consistent across all reporting). RFERL: 'Fear of Iran and public backlash stall Trump's push for Abraham Accords.' The Accords demand has landed in a Saudi domestic political environment where MBS has ACTIVELY CULTIVATED a harder public line on Israel (anti-Zionist sentiment, Palestinian statehood championing) to neutralize rivals — making Accords accession structurally harder than it might appear from the top-down. The Slantchev-inverse leverage reading (B) is weakened but not eliminated: Rubio's continued non-echo of 'mandatory' and the structural infeasibility of Saudi Accords accession without Palestinian statehood both favor reading B (Accords demand as leverage, not ultimatum). Gulf brake itself (strike-prevention/deal-shaping) remains intact — MBS opposing a side-demand is not the same as supporting US military action against Iran.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "MBS public rejection of Accords demand (NOT formally occurred yet — Eid holiday just ended); Rubio/State 'mandatory' echo (NOT occurred); intra-troika split (NOT occurred)",
+        "framework_variable": "BS-18 Gulf troika brake; Fork B-multilateral; T1 unaligned-middle pivot capacity",
+        "direction": "partial resolution — MBS's Palestinian-state-first position confirmed as the structural Saudi constraint; brake intact; Fork B-multilateral slight reduction warranted",
+        "gap_to_full_match": "Formal public MBS rejection of the Accords demand has not occurred (holiday just ended); the two-reading ambiguity is resolved at the structural level but not yet publicly enacted"
+      },
+      "variable_moved": {
+        "variable": "Fork B-multilateral via Gulf pathway (30d); Abraham Accords two-reading resolution",
+        "prior_value": "11-18% (Day 88/90 held); two-reading ambiguity unresolved",
+        "new_value": "10-15% (proposed ↓ slight from 11-18%) — MBS's Palestinian-state-first position is structurally confirmed (T2 multiple sources; consistent across Nov 2025-May 2026), meaning the Abraham Accords demand is unlikely to produce Saudi Accords accession without Palestinian state progress. However, the brake itself (strike-prevention) is unaffected; Saudi Arabia opposing a US demand on Accords is not the same as Saudi Arabia supporting US military action. Reading A (sincere ultimatum) is now the better-supported structural read; Rubio's non-echo slightly sustains reading B as live.",
+        "driver": "MBS Palestinian-state-first position publicly confirmed (T2 multiple sources); RFERL domestic-political analysis; Eid holiday ending May 31"
+      },
+      "discounts_applied": [
+        "MBS formal public rejection has not been stated — reading A is inferred from his structural position, not from a new explicit rejection statement",
+        "Rubio non-echo still weakly sustains reading B; treat the two-reading resolution as 70-30 toward A, not conclusive"
+      ],
+      "conflict_notes": "The Gulf brake's DEAL-SHAPING function (Day 86, 8-leader consultation upstream of Trump announcement) is unaffected by MBS's Accords position. The brake mechanism (MBS + MBZ + Tamim collectively preventing US military action against Iran) operates on a different axis from the Accords normalization question. Fork B-multilateral via Gulf pathway is the sub-mechanism affected, not the brake itself. The BS-18 brake-fracture test (MBS public statement supporting US military action against Iran) has NOT fired. The MBS-rejection tail (3-6% 30d) remains live but not confirmed. T1 unaligned-middle pivot capacity: Saudi refusal to join Accords without Palestinian state IS an expression of unaligned-middle autonomous position-taking that T1 predicts — advance within state."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Newsweek / Axios (May 29, T2 — Trump conditions: 'never have a nuclear weapon'; Hormuz 'immediately open'; 60-day MOU)", "tier": 2},
+        {"name": "OANN / CENTCOM (May 28, T1 — ballistic missile on US base; assets not named principals)", "tier": 1},
+        {"name": "HotAir / WANA (May 29, T3/T4 — Vahidi 'direct action' / Rezaei 'break blockade'; deterrent floor, not demand escalation)", "tier": 3}
+      ],
+      "finding": "P-AIM: Iranian operational demand-set remains LIMITED (war-end, sanctions relief, Hormuz management, frozen funds, no-nuclear-weapons assurance) — the tentative MOU accepted by the Iranian negotiating side is itself a limited-aims architecture (phase-2 nuclear deferral, not rejection of all nuclear negotiations). LIMITED-AIMS CLASSIFICATION HOLDS at the operational level. Vahidi's 'direct action' threat is a deterrent floor on the negotiations track, NOT an expansion to order-revisionist demands. P-DG: IRGC ballistic missile on Ali Al Salem Air Base hit US ASSETS (not named principals) → P-DG non-fire. P-DG2: Iran's stated demands have NOT escalated post-strike (the tentative MOU was agreed on the same day as the ballistic missile strike) — P-DG2 non-fire. P-OVEX: Hezbollah attrition in Lebanon continues under IDF pressure (degraded; proxy-network self-amputation clock advancing). P-INFO: No purge or accurate-advisor removal signals this cycle. P-CHEMO: US posture remains air/naval/maritime (3 CSGs, blockade); no ground-force buildup.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "P-DG fires (US targeting of named principals); P-DG2 fires (post-strike demand escalation); P-AIM unlimited",
+        "framework_variable": "Aim-class; death-ground; proxy drawdown; information pathology",
+        "direction": "no change — limited aims hold; P-DG and P-DG2 non-fires; P-OVEX advancing",
+        "gap_to_full_match": "P-DG requires named-principal targeting (not met); P-AIM unlimited requires order-revisionist demands sustained 2+ cycles (not met); P-DG2 requires post-strike demand escalation (not met — Iran agreed to tentative MOU same day as strike)"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Vahidi 'direct action' is deterrent floor rhetoric (consistent with Fearon/T3 apex-reserves-deterrent-floor); not an operational demand escalation"
+      ],
+      "conflict_notes": "The most important Paine read this cycle: the IRGC agreed to the tentative 60-day MOU ON THE SAME DAY it fired a ballistic missile at a US base (May 28). This is a near-perfect illustration of the Paine death-ground/limited-war distinction: an actor demonstrating military capability (to preserve deterrence and face) WHILE simultaneously negotiating a deal (to achieve limited aims) is operating in the limited-aims register throughout. P-DG2 non-fire is the critical confirmation: Iranian demands did NOT expand post-strike; they advanced toward MOU signature. The aim-class is limited, not unlimited, and the death-ground mechanism has not been activated by US targeting of named principals."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "A4 re-identification further corroborated by T2 Vahidi 'key power broker' framing; 'approved broad framework' claim at indirect-T2 (hold); no visual appearance; BS-1a +0pp (framework reinforced, not revised)"},
+      {"probe_id": "PROBE-2",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Vahidi-named statement on negotiations/blockade ('direct action'); A4 partial discriminating evidence — apex role confirmed, HEU-specific statement still absent; BS-1a +5pp to 77-85%; 'key power broker' T2 corroboration"},
+      {"probe_id": "PROBE-6",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-7",   "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "IRGC ballistic missile on Ali Al Salem Air Base (Kuwait); 5 Americans injured; CENTCOM 'egregious ceasefire violation'; Fork C 18-25% → 22-30%; NOT Fork A (no KIA, no new operation name, Trump deal-direction held); L1 update: 3 CSGs in AOR (not 2)"},
+      {"probe_id": "PROBE-8",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Brent ~$92.56, -19% in May (worst since COVID March 2020); below $95 Fork B credibility signal fired; rial ~1,709k (appreciating back to Day 88 level); deal-pricing dominant"},
+      {"probe_id": "PROBE-9",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Lebanon-Israel 45-day extension (May 15, missed in prior sweeps) + June 2-3 4th round — potential Lebanon-clause bridge mechanism for Iran deal; Knesset at preliminary reading only (no change)"},
+      {"probe_id": "PROBE-10",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-11",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-12'", "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Tentative 60-day MOU reached (May 28); Trump Situation Room non-signing (May 29); Vance 'still TBD'; Fork D' 28-36% → 30-38% (3rd consecutive cycle above 30% midpoint — decomposition monitor)"},
+      {"probe_id": "PROBE-13",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Trump held deal-direction through Kuwait ballistic missile attack (A1 strongest durability test); Situation Room non-signing = decision-suspended; A2 6th+ cycle without WH corroboration → FORCING QUESTION generated this sweep per Step 7b action-routing"},
+      {"probe_id": "PROBE-14",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "IRGC ballistic missile on US base = T12 use-confirmed at highest severity in the window; capability-recovery demonstrated at ballistic-missile-vs-US-assets level"},
+      {"probe_id": "PROBE-15",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "T8 Powell at maximum loading — tentative deal simultaneously with Kuwait ballistic missile; Lebanon-Israel bilateral (June 2-3) potential Lebanon-clause bridge; managed US-Israel gap"},
+      {"probe_id": "PROBE-16",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Trump signature decision = most acute first-mover threshold in the window; Fork D' activation vs Fork C 'KIA spike' trigger both live within 24-96h; Lebanon-Israel bilateral a new potential bridge variable"},
+      {"probe_id": "PROBE-17",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-18",  "status": "null",    "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20",  "status": "fired",   "confidence": "M", "trigger_fired": false, "variable_moved": "MBS Palestinian-state-first position confirmed as structural Saudi constraint; Fork B-multilateral 11-18% → 10-15% (slight ↓); brake intact; reading A marginally dominant; Rubio non-echo sustains reading B weakly"},
+      {"probe_id": "PROBE-21",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null}
+    ],
+    "fired_count": 10,
+    "partial_count": 6,
+    "null_count": 1,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "PROBE-7: IRGC ballistic missile on Ali Al Salem Air Base (Kuwait); 5 Americans injured; CENTCOM 'egregious ceasefire violation' — material escalation beyond Day 90 mine-laying context",
+      "source_probe": "PROBE-7",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§8.1a 30-Day Matrix (Fork C); §3.1/§3.2 Layers 1-2; §1.2 Operational Posture",
+        "edit": "Fork C miscalculation cascade 18-25% → 22-30% (proposed ↑, 30d). IRGC escalated from maritime-denial/mine-laying (Day 90) to ballistic missile against Ali Al Salem Air Base (Kuwait, May 28): 5 Americans injured, 2 MQ-9 Reapers damaged. CENTCOM: 'egregious ceasefire violation.' The Fork C inadvertent-escalation pathway is materially wider at Day 93 than Day 90. CALIBRATION: per the PROBE-7 Day 90 discriminator, this remains Fork C (self-defense framing, no new operation name, no KIA, Trump deal-direction non-reversing) and does NOT reset the probability matrix as Fork A resumption. However, the escalatory severity has increased: the Day 90 discriminator was designed for mine-laying-boats level; a ballistic missile on a US base with American injuries tests the outer boundary. The 'KIA spike forces Trump A1 direction' trigger from Day 90 SITREP §7 is within reach if a second IRGC strike produces US fatalities. L1 update: three CSGs now in CENTCOM AOR (Bush, Lincoln, Ford per TWZ May 11 — v4.2 had only two); update §1.2 operational posture."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-12': Tentative US-Iran 60-day MOU agreed (May 28); Trump Situation Room non-signing (May 29); Fork D' at activation threshold — midpoint entering 4th-cycle-approaching decomposition zone",
+      "source_probe": "PROBE-12'",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§8.1a 30-Day Matrix (Fork D'); §5.26 LOI + 30-day framework; §8.5 Forking Paths; §1.2 Operational Posture",
+        "edit": "Fork D' structured deferral 28-36% → 30-38% (proposed ↑, 30d). The MOU terms: 60-day ceasefire extension, US blockade lifted, Hormuz reopened (no tolls), nuclear deferred to phase-2 negotiation, Iran verbal commitments on HEU discussion (disputed by Iran-side public statements). Trump Situation Room 'final determination' meeting concluded WITHOUT announcement (May 29); Vance 'still TBD' (May 30). Update §8.1a: Fork D' midpoint ~34% = 3rd consecutive cycle above 30% (Day 88: ~32%, Day 90: ~32%, Day 93: ~34%). DECOMPOSITION RULE MONITOR: one more above-30%-midpoint cycle triggers mandatory decomposition into named variants ('deferred how, by whom, for how long, with what mechanism') at the next SITREP. CONFLICT ON HEU TERMS: US officials claim Iran gave verbal HEU commitments; Fars contradicts — do NOT resolve this as Fork B confirmation; the LOI is designed to defer the HEU collision, not resolve it."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-13/A2: Step 7b action-routing — A2 Netanyahu-relay at 6th+ consecutive cycle without WH corroboration; discriminating-evidence forcing question generated",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "A2 (Netanyahu Principal-Access Channel); sweep.md Step 7b action-routing; next /audit manifest requirement",
+        "edit": "Per sweep.md Step 7b (added 2026-05-27 via /premortem Mitigation 1): the A2 Netanyahu-relay flag has reached its 5th-plus consecutive cycle without discriminating evidence. This sweep produces the required FORCING QUESTION: 'What signal in the next cycle would falsify the Netanyahu-relay principal attribution? If Trump signs the 60-day MOU (which defers HEU to phase 2, NOT requiring upfront HEU removal), this CONFIRMS A2 as Netanyahu-coalition-projected, not Trump-committed — the 'full dismantlement / all HEU removed' relay was Netanyahu's framing, not a Trump commitment. If Trump refuses to sign absent explicit Iranian HEU-out commitment, the relay carries more substance.' The NEXT /AUDIT must stage a synthesis manifest demoting A2 to 'Netanyahu-coalition-projected, not Trump-committed' pending the signing decision. 'Flagged for /premortem' is not an indefinite holding state; this forcing question is the routed action."
+      },
+      "urgency": "next_audit"
+    },
+    {
+      "appendix_b_row": "PROBE-8: Brent below $95 threshold; Fork B credibility signal fired; worst monthly loss since March 2020",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§2.1 Market Snapshot; §8.6 Key Operative Judgment; A6",
+        "edit": "PROBE-8 Fork-B-credibility trigger fired: Brent ~$92.56 (May 29-30), sustained below $95, down ~19% in May — the market is pricing a high deal-probability without pricing a signed deal (backwardation at $29/bbl holds). Update §2.1 market snapshot. Note: sub-$95 Brent is a credibility SIGNAL, not a Fork B confirmation — no commercial restoration, no signed deal, backwardation holds. The discriminating market signal for Fork B confirmation is Brent backwardation collapse (currently $29/bbl → would fall to $5-10/bbl within days of a signed deal)."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-9: Lebanon-Israel 45-day ceasefire extension (May 15) + June 2-3 4th round negotiations — potential Lebanon-clause bridge for Iran deal; not captured in prior sweeps",
+      "source_probe": "PROBE-9",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§5.27 Provisional Dynamics (Lebanon clause); §1.1 Conflict Timeline; BS-3; §8.6 Key Operative Judgment",
+        "edit": "Add to §1.1 timeline: Lebanon-Israel 45-day ceasefire extension agreed May 15 (State Dept announcement; Israel + Lebanon; post-Washington talks); 4th round Israel-Lebanon peace negotiations June 2-3 Washington; Pentagon security track May 29. FRAMEWORK SIGNIFICANCE: the bilateral Lebanon-Israel peace process provides a potential bridging mechanism for the Iran deal's Lebanon clause. Iran's 'all fronts' insistence demands a 'sustainable Lebanon ceasefire' — if the Israel-Lebanon bilateral process advances substantively (June 2-3 talks), Iran may be able to claim the Lebanon-front ceasefire condition is being addressed through the bilateral process, without requiring a direct concession on Israeli operational freedom in the Iran deal text. Flag as a Lebanon-clause bridge candidate for the next cycle. This was missed in prior sweeps; backfill to Day 78 (May 15) in the timeline."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-2/A4: Vahidi-direct named statement on negotiations/blockade ('direct action'); A4 partial discriminating evidence — BS-1a +5pp on T2 'key power broker' corroboration",
+      "source_probe": "PROBE-2",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "A4 (Iranian apex); BS-1a; §3.5 Layer 5",
+        "edit": "BS-1a: upgrade to 77-85% (from 72-80%) on A4 re-identification T2 corroboration: Al Arabiya (T2) and Euronews (T2), both May 21, independently profiled Vahidi as the 'key power broker' and 'key Iranian war strategist' as talks approach signature — the first genuine T2-level confirmation of the IRGC-council-functional-apex re-identification from a non-Iran-International T3 base. A4 apex attribution CONFIRMED at the functional level; HEU-specific discriminating evidence (Vahidi-direct statement on HEU disposition) still pending. Retain 'inherited, not validated' flag on the HEU axis specifically. Update A4 state: 'Functional apex identity confirmed (IRGC-council; Vahidi apex principal) by T2 corroboration; HEU-disposition attribution still provisional pending Vahidi-direct HEU statement.' Source conflict on blockade/negotiations quote (Vahidi vs Rezaei) noted; do not fully trigger the BS-1a framework-revision-trigger row on this partial."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-20: MBS Palestinian-state-first position confirmed as structural Saudi constraint on Accords accession; Fork B-multilateral slight reduction",
+      "source_probe": "PROBE-20",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§5.25 Gulf State Troika Brake (Abraham Accords two-reading); §8.1a (Fork B-multilateral)",
+        "edit": "Fork B-multilateral via Gulf pathway 11-18% → 10-15% (slight ↓): MBS's Palestinian-state-first structural position is confirmed by T2 multiple sources and his domestic political cultivation of anti-normalization credibility makes Accords accession without Palestinian statehood structurally very hard. Reading A (sincere ultimatum) is now the better-supported structural read; Rubio non-echo weakly sustains reading B. The Gulf brake itself (strike-prevention) is unaffected — Saudi Arabia opposing an Accords demand does not reverse its strike-prevention function. Clarify §5.25: the 'two-reading ambiguity' (sincere vs leverage) is now approximately 70-30 toward sincere, with Rubio non-echo maintaining a live leverage component. The FORK B-MULTILATERAL reduction is specific to the MBS accommodation pathway; Qatar and Pakistan mediation tracks are unaffected."
+      },
+      "urgency": "next_cycle"
+    }
+  ],
+  "gap_log": [],
+  "calibration_check": {
+    "trend_state_question": "No VALIDATED-trend-state transitions warranted on single-cycle evidence. T1 advance: MBS Palestinian-state-first position confirms autonomous pivot capacity (T1 prediction holds); Gulf brake intact; Pakistan-mediation active; Saudi refusing an Accords demand is exactly the unaligned-middle autonomous-constraint prediction. T2 advance: IRGC ballistic missile on US base = multi-channel deterrent network exercising direct-strike capability; qualitative escalation from Day 90 maritime-denial. T3 advance: Vahidi direct statement on negotiations/blockade ('direct action' threat) confirms apex decision-making role independently of the deal track; A4 re-identification further corroborated at T2 (Al Arabiya/Euronews). T4 advance: Trump held deal-direction through Kuwait ballistic missile attack; Vance 'still TBD' rather than reversal; 7th+ consecutive cycle of no maximalist counter-mobilization. T5 hold PENDING: Eid ongoing, no Tier-1 fire. T6 hold: May 2026 at ≤1 confirmed Putin appearance; BS-9.3 approaching threshold. T7 hold: voice discipline. T8 advance: deal-at-threshold simultaneously with ballistic missile on US base is the maximum Powell loading; Lebanon-Israel bilateral (June 2-3) potential Lebanon-clause bridge. T9 hold: WPR approaching early-June test; Kuwait strike potential political accelerant. T10 hold PENDING: Chinese banks partial compliance (directional but not cascading). T11 advance: three CSGs (not two) confirmed in AOR; UK/France mine-clearing carries; multiplex-configuration indicator. T12 advance: ballistic missile on US base = capability-recovery demonstrated at highest severity level. NO contradiction of any VALIDATED trend. A2 principal-validation: Step 7b forcing question generated (6th+ cycle; discriminating question is Trump signature decision). A4 partial resolution: T2 corroboration of IRGC-council-functional-apex (Al Arabiya/Euronews); HEU-specific discriminating signal still pending. Lebanon-Israel 45-day extension (May 15) retroactively noted as a missed SITREP input.",
+    "thesis_question": "HOLDING under maximum stress at the signature threshold. Day 93 is the highest-tension bifurcation cycle in the framework window: the US-Iran tentative 60-day MOU has been reached (May 28) while the IRGC fired a ballistic missile at a US forward base with American casualties (same day). This is not a contradiction of the central thesis — it is its most acute expression. The materialist bargaining model predicts exactly this conjunction: under L1 (IRGC demonstrates ballistic-missile capability — capability-use serves the deterrence function alongside the deal track), L2 (Iranian network prosecutes its full asymmetric toolkit while mid-tier negotiates), L3 (the deal-finalization clock and the strangulation clock are running simultaneously), L4 (Trump pursues the deal from the deal-faction while Netanyahu channels closing-window pressure into Lebanon escalation and Iran channels deterrence through ballistic demonstrations), and L5 (IRGC council authorized the tentative MOU AND the ballistic missile — both are products of the same decision center, confirming A4), each named actor selected its dominant strategy. The framework predicted the ranking: both LOI-extension and deterrence-demonstration are simultaneously dominant strategies for the IRGC-council under its constraint set. The actors selected both simultaneously. No thesis break. The headline probability movement: Fork C 18-25% → 22-30% (Kuwait ballistic missile); Fork D' 28-36% → 30-38% (tentative MOU reached). The dominant observable for the next 24-96 hours remains Trump's signature decision — the most consequential first-mover observable in the framework window. The framework ranks the options under the constraint surface; the actors select."
+  }
+}
