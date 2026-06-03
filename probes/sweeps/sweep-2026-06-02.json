@@ -1,0 +1,546 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-02",
+    "day_number": 96,
+    "framework_version": "v4.2",
+    "probes_run": [
+      "PROBE-1", "PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9",
+      "PROBE-10", "PROBE-12p", "PROBE-13", "PROBE-14", "PROBE-15",
+      "PROBE-16", "PROBE-17", "PROBE-20", "PROBE-21"
+    ],
+    "synthesis_anchor": "synthesis-v4-2.md (Day 88 baseline); Day 95 SITREP last annex (June 1, 2026)",
+    "probes_skipped": [
+      "PROBE-3 (monthly; structurally opaque; no trigger)",
+      "PROBE-11 (bi-weekly; no sub-probe trigger; ran Day 93)",
+      "PROBE-18 (monthly background; no Tier-1 eschatological fire)",
+      "PROBE-19 (quarterly; no trigger)"
+    ],
+    "probe_1_cadence_note": "PROBE-1 bi-weekly but run today as trigger exception: Rubio T1 Senate testimony (June 2) explicitly named Mojtaba Khamenei as 'alive and increasingly engaging' — qualifies as a Tier-1 PROBE-1 target signal under the 'trigger event fires on skip week' rule",
+    "probe_10_cadence_note": "PROBE-10 switched to monthly after June 1 per frequency override, but June 2 forced privileged WPR vote is a named framework-revision trigger event requiring run regardless of cadence",
+    "reference_trends": [
+      {"trend": "T1", "net_effect": "advance", "note": "Gulf brake scope limit confirmed: brake does NOT extend to Israeli Lebanon operations (Gulf states silent on IDF past-Litani escalation); Pakistan channel active (Rubio-Dar June 2 meeting; Rubio thanked Pakistan for 'constructive role'); unaligned-middle pivot capacity confirmed operational but scope-bounded"},
+      {"trend": "T2", "net_effect": "advance", "note": "IRGC Navy struck MSC Sariska V (commercial vessel in Um-Qasr port, Iraq) with cruise missile in retaliation for US Hellfire strike on Iranian bulk carrier Lian Star — Mosaic-Octopus extended-deterrent network operating in commercial-maritime targeting mode; Qaani (Quds Force) named Bab al-Mandab threat; multi-channel deterrent at 3rd kinetic cycle in window"},
+      {"trend": "T3", "net_effect": "advance", "note": "IRGC executing maritime retaliatory kinetics while simultaneously reworking MOU text = apex-reserves-deterrent-floor + mid-tier-holds-text confirmed; Rubio T1: Mojtaba 'alive and increasingly engaging' through writing/intermediaries — two-level structure confirmed; apex identity refinement pending (see A4 note)"},
+      {"trend": "T4", "net_effect": "advance", "note": "Trump held deal-direction at Senate via Rubio June 2 testimony; 'talks ongoing despite state media claims'; Lebanon dial-back order issued; Rubio defending deal-faction at Senate level while Netanyahu Lebanon operations continue autonomous from US direction — deal-faction vs maximalist gap widening"},
+      {"trend": "T5", "net_effect": "hold", "note": "No Tier-1 eschatological fire; PENDING holds"},
+      {"trend": "T6", "net_effect": "hold", "note": "No new sub-probe fires; BS-9.3 approaching threshold; Russia inert across all Iran 2026 cycles"},
+      {"trend": "T7", "net_effect": "hold", "note": "Voice discipline maintained throughout; no drift events"},
+      {"trend": "T8", "net_effect": "advance", "note": "§A23 Lebanon clause still operative June 2: IDF operations past Litani continuing (IDF warns Hezbollah in Tyre Christian area); Israeli delegation at State Dept June 2 talks said Hezbollah violated Trump's ceasefire; Lebanon clause blocking MOU resumption; Powell mechanism at maximum loading"},
+      {"trend": "T9", "net_effect": "advance", "note": "June 2 forced privileged WPR vote held and likely defeated narrowly (NBC: 'fails by one vote'; PBS: 'rejected in narrow vote'; The Hill: 'fails in House') — lock-in compounding; forced vote failed without breaking T9 path; disc-ratio increment"},
+      {"trend": "T10", "net_effect": "hold", "note": "China dual-track (NFRA private loan-freeze vs MOFCOM blocking order) unchanged; no banking cascade; Russia inert; PENDING holds"},
+      {"trend": "T11", "net_effect": "hold", "note": "UK/France Hormuz architecture carry; Qaani Bab al-Mandab threat adds new chokepoint scope to multiplex stress indicators; PENDING holds"},
+      {"trend": "T12", "net_effect": "advance", "note": "IRGC Navy cruise missile on MSC Sariska V (retaliatory commercial-vessel targeting) + Qaani Bab al-Mandab named threat = capability use at 3rd successive cycle; Rubio testimony confirms Iran discussing nuclear aspects 'they refused to mention a month ago' — consistent with reconstitution-leverage argument (Iran bargaining from capability recovery, not desperation)"}
+    ]
+  },
+
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera (T2, June 2, reporting Rubio Senate testimony)", "tier": 2},
+        {"name": "The National (T2, June 2, Rubio testimony)", "tier": 2},
+        {"name": "CNBC (T2, June 2, Rubio Senate hearing)", "tier": 2},
+        {"name": "ANI / India Blooms (T2, corroborating Rubio statement)", "tier": 2},
+        {"name": "Vanguard News (T2, corroborating Rubio statement)", "tier": 2}
+      ],
+      "finding": "Secretary of State Rubio (T1) testified before the Senate Foreign Relations Committee on June 2: 'There are indications that [Mojtaba Khamenei] is increasingly engaging at some level, although all of his communications have been in writing and through intermediaries.' Multiple T2 outlets confirmed Rubio's characterization of Mojtaba as 'alive and increasingly engaging.' Rubio also noted that negotiations 'have been made difficult by the instability of Iran's leadership.' No public visual appearance by Mojtaba was reported; the PROBE-1 framework revision trigger ('public visual appearance with named verification') has NOT fired.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Public visual appearance with named verification: Mojtaba reverts to active figurehead; A4 revised toward functional model",
+        "framework_variable": "A4 Iranian apex principal identification",
+        "direction": "no change on formal trigger; qualitative update on Mojtaba status characterization",
+        "gap_to_full_match": "Full PROBE-1 trigger requires public visual appearance OR second-source death confirmation; Rubio's 'increasingly engaging' through writing/intermediaries is significant but does not meet the visual-appearance bar"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Rubio's characterization is T1 US government assessment but carries the limitation that US IC knowledge of Mojtaba's internal functioning is mediated by interlocutor communications — not direct observation"
+      ],
+      "conflict_notes": "The Day 88 re-identification characterized Mojtaba as 'incapacitated or nominal, serving as legitimacy shield.' Rubio's 'increasingly engaging' suggests a shift toward more active (but still not functional decision-maker) status. The two framings are reconcilable: Mojtaba is 'increasingly engaging' through IRGC-mediated written communications, which is consistent with the legitimacy-shield function becoming more active without indicating independent decision-making capacity. The 'instability of Iran's leadership' comment reinforces rather than contradicts the A4 IRGC-council-as-functional-apex reading — instability implies contested rather than settled apex authority. Flag for /revise: A4 language should be updated from 'incapacitated or nominal' to 'nominally active through written communications via intermediaries; IRGC council remains functional apex for operational decisions.' The two-level structure (T3) is unaffected. Step 7b: principal identification has now been partially validated by a T1 US government source (Rubio) who confirms Mojtaba is alive and engaging through writing — the complete attribution to IRGC-council-as-sole-apex may need nuancing, but the discriminating-evidence standard (visual appearance) has not been met."
+    },
+
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Tasnim News Agency (T1 Iranian state media, June 2, Qaani statement)", "tier": 1},
+        {"name": "Middle East Monitor (T2, June 2, Qaani Bab al-Mandab)", "tier": 2},
+        {"name": "GlobalSecurity.org (T2, June 2, Qaani PressTV mirror)", "tier": 2},
+        {"name": "Rubio Senate testimony (T1 US, June 2, 'leadership instability')", "tier": 1}
+      ],
+      "finding": "Brigadier General Esmail Qa'ani (IRGC Quds Force commander) issued a named public warning June 2: the Bab al-Mandab Strait will be 'subjected to the same traffic restrictions as the Strait of Hormuz' if Israeli operations in Lebanon and Gaza continue. This is the most specific named-principal IRGC statement on the dual-chokepoint threat to date. Vahidi-direct named HEU statement remains absent for a 9th+ consecutive cycle. Rubio's Senate testimony (T1 June 2) cited 'instability of Iran's leadership' as a complicating factor in negotiations. No Aliabadi public posture, no Aerospace Force signals, no IRGC triangle fracture.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Tasnim (T1 Iranian state media): read against grain; -30% discount on operational probability of Bab al-Mandab closure vs stated intent; Qaani's warning is calibrated deterrence posture, not an operational order",
+        "Qaani is Quds Force commander, not the apex (Vahidi); the A4 discriminating-evidence requirement is a Vahidi-direct named statement on HEU — Qaani's maritime threat does not satisfy this"
+      ],
+      "conflict_notes": "Step 7b principal-validation (A4, 9th+ cycle): Vahidi-direct HEU statement absent. Action-routing: the 5th-cycle /premortem threshold was triggered at Day 90; manifest staged at synthesis/staging/v4-3-principal-validation-manifest.md. No new action-routing required this cycle — the manifest exists and awaits consumption at next /revise. Qaani's Bab al-Mandab statement is a new named-principal signal but does not resolve the A4 (HEU-specific apex attribution) question. Rubio's 'instability of Iran's leadership' is consistent with the contested-apex reading."
+    },
+
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Bloomberg / IDNFinancials (T2, NFRA directive carry)", "tier": 2},
+        {"name": "Stephenson Harwood legal analysis (T3, MOFCOM blocking rules)", "tier": 3}
+      ],
+      "finding": "No new Chinese banking cascade signal this cycle. The NFRA private loan-freeze directive (May 1) and MOFCOM public blocking order (May 2) dual-track pattern holds unchanged. GL-V (Hengli wind-down) expired May 24; no OFAC action against major Chinese financial institutions (ICBC/BOC/CCB/ABC tier) confirmed. China dormant in Iran 2026 mediation architecture; Russia inert. HEU-facilitation claim (single-outlet T4, Day 95 carry) remains at L confidence and not elevated.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Hengli-style OFAC cascade to major Chinese banks (framework revision trigger)",
+        "framework_variable": "BS-4 Chinese active support calibration",
+        "direction": "no change",
+        "gap_to_full_match": "Full cascade requires OFAC action against ICBC/BOC/CCB/ABC tier; not yet confirmed; GL-V expiration window still live"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "MOFCOM blocking order (public defiance) vs NFRA private loan-freeze (partial compliance) dual-track continues. BS-4 retirement deferred: GL-V expiration May 24 created the live cascade window; no cascade confirmed as of June 2. Retire at next audit if no OFAC action against major Chinese bank by end of June."
+    },
+
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "MSC Shipping Statement (corporate T1 equivalent, June 2026)", "tier": 2},
+        {"name": "IndexBox / Marine Log (T2, MSC Sariska V incident)", "tier": 2},
+        {"name": "Army Recognition (T2, US Hellfire on Lian Star)", "tier": 2},
+        {"name": "PressTV / GlobalSecurity mirror (T1 Iranian state, IRGC claim)", "tier": 1},
+        {"name": "Middle East Monitor (T2, June 2, Qaani Bab al-Mandab)", "tier": 2},
+        {"name": "Tasnim News Agency (T1 Iranian state, June 2, Qaani statement)", "tier": 1},
+        {"name": "Iran announces 'retaliatory operation in Sea of Oman' (T1 state media, June 2)", "tier": 1}
+      ],
+      "finding": "A third US-IRGC kinetic exchange cycle, distinct from the Day 93 and Day 95 cycles, occurred around June 1-2: US forces struck Iranian bulk carrier M/V Lian Star with a Hellfire missile (Gulf of Oman; vessel violated blockade after 20+ warnings) → IRGC Navy struck MSC Sariska V (Panama-flagged, MSC-operated container ship) with a cruise missile in Um-Qasr port, Iraq. Two projectiles hit MSC Sariska V; all crew confirmed safe; no casualties reported in either incident. Iran separately announced a 'retaliatory operation in the Sea of Oman' (June 2 T1 state media). Qaani (IRGC Quds Force commander, T1 state media June 2): Bab al-Mandab Strait will be 'treated like the Strait of Hormuz' if Israeli Lebanon/Gaza operations continue. CENTCOM posture: 3 CSGs in AOR (Lincoln, Bush, Ford); Eisenhower no deployment order. Per the PROBE-7 self-defense-vs-resumed-operations discriminator: the Lian Star strike (blockade enforcement on Iranian commercial vessel) scored as a new MODALITY — not self-defense reactive to an IRGC provocation but a proactive blockade enforcement action. This is outside the prior discriminator framing (which covered self-defense against IRGC military strikes).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "CENTCOM self-defense strikes inside Iran (reactive; no new operation name; deal-direction non-reversing) — Fork C inadvertent-escalation signal; ALSO Bab el-Mandab new structural variable added per Day 95 trigger digest",
+        "framework_variable": "Fork C miscalculation cascade (30d); new modality: commercial-vessel cross-targeting",
+        "direction": "up — escalation compounding; new modality introduced",
+        "gap_to_full_match": "Full Fork A resumption requires new operation name OR offensive ROE shift; neither confirmed. US KIA threshold not reached (all crew safe in both incidents). However, the Lian Star strike represents US proactive blockade enforcement (targeting Iranian commercial vessel) rather than reactive self-defense — a new modality outside prior discriminator scope"
+      },
+      "variable_moved": {
+        "variable": "Fork C miscalculation cascade (30d)",
+        "prior_value": "25-33% (Day 95)",
+        "new_value": "25-33% (held at upper range; new modality widening the accident surface but KIA threshold not crossed; Qaani Bab al-Mandab named warning elevates scope without operationalizing it)",
+        "driver": "3rd kinetic cycle (Lian Star Hellfire → MSC Sariska cruise missile); commercial-vessel cross-targeting is a new escalation modality; Qaani named Bab al-Mandab threat upgrades the dual-chokepoint from anonymous IRGC to named Quds Force commander; Iran 'retaliatory operation in Sea of Oman' signals expanding operational envelope"
+      },
+      "discounts_applied": [
+        "PressTV / IRGC claim on MSC Sariska: T1 Iranian state (read against grain); MSC corporate statement corroborates the incident occurred, reducing the Iranian-self-reporting discount; scored at H",
+        "Qaani Bab al-Mandab: T1 Iranian state (Tasnim); -30% discount on operational probability of closure vs stated intent; named-principal statement at higher confidence than anonymous June 1 IRGC claim"
+      ],
+      "conflict_notes": "The PROBE-7 discriminator (Day 90) was designed for IRGC strikes on US military assets followed by US self-defense reactions. The Lian Star incident reverses the sequence (US strikes Iranian commercial vessel first; IRGC retaliates on commercial MSC vessel). This is a different escalation pattern: blockade enforcement extending to commercial vessels carrying goods to Iran. The commercial-vessel cross-targeting modality is NOT covered by the existing 'self-defense-vs-resumed-operations' discriminator. Flag for /audit: add 'US proactive blockade enforcement against commercial vessels en route to Iranian ports — new modality; IRGC commercial-vessel retaliation pattern' as a separate PROBE-7 target signal and framework revision trigger category. The existing discriminator holds for IRGC-strikes-on-US-military; it does not govern this new commercial-vessel exchange pattern. Score as Fork C inadvertent-escalation advance (new modality) without resetting to Fork A (no US military casualties; no operation name change)."
+    },
+
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Fortune / EIA spot price (T2, June 2 morning)", "tier": 2},
+        {"name": "Trading Economics Brent (T2)", "tier": 2},
+        {"name": "CNBC (T2, Rubio Senate hearing Iran talks ongoing)", "tier": 2}
+      ],
+      "finding": "Brent at ~$96.65 as of June 2 morning, slipping toward $91 per some estimates on deal-signal ambiguity. Above the $95 threshold (day 93 print was $92.56 below $95; June 2 recovered above). $29/bbl backwardation (Jul26-Jul27) persists — market prices deal as possible but not locked in. No structural Brent trigger fires: $95 threshold did not hold as a durable Fork B credibility signal (reversed within 48h; scored as transient); $115 Fork A repricing trigger not approached. Dual-chokepoint threat (Hormuz complete closure + Bab al-Mandab) remains state-media posture; no operational execution confirmed. Qaani's named statement adds marginal upside pressure but insufficient to break the $115 threshold.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout above $115: Fork A repricing; Brent below $95: Fork B credibility signal",
+        "framework_variable": "Brent spot price as Fork A/B credibility indicator",
+        "direction": "no change (oscillating within deal-uncertainty band)",
+        "gap_to_full_match": "Fork A repricing requires Brent sustained above $115; current $96.65 is well within the A1-oscillation band. The below-$95 print on May 29-30 reversed quickly, confirming it was a transient deal-optimism signal not a durable Fork B confirmation"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Dual-chokepoint threat: state-media posture signal; -40% discount on operational probability of both straits being simultaneously closed; market is correctly pricing this as threat posture ($96 not $130+)"
+      ],
+      "conflict_notes": "The Brent price oscillation (Day 93: $92.56; Day 95: $94.98; Day 96: $96.65 slipping toward $91) confirms the market is treating the deal window as alive but volatile. The dual-chokepoint threat has not caused a breakout above $115, suggesting either: (a) market treats it as signaling posture, not operational commitment, OR (b) the Lebanon-clause suspension is seen as recoverable. Flag for /audit (from Day 95 trigger digest still pending): add Bab al-Mandab full-closure trigger to PROBE-8 target signals and framework revision trigger table."
+    },
+
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Times of Israel liveblog June 2 (T2)", "tier": 2},
+        {"name": "Al Jazeera (T2, June 2 Lebanon ceasefire violations)", "tier": 2},
+        {"name": "Jerusalem Post (T2, Israel-Lebanon talks resume, Hezbollah violations)", "tier": 2},
+        {"name": "Washington Post (T2, Trump Lebanon ceasefire announcement)", "tier": 2},
+        {"name": "CFR (T3, Israel-Lebanon ceasefire extended)", "tier": 3}
+      ],
+      "finding": "Lebanon ceasefire status as of June 2 is contested and partially operative. Trump announced June 1 that Hezbollah agreed to a 'full and immediate ceasefire' and Israel was calling off Beirut strikes. However: (a) Israeli Defense Minister Katz initially denied a ceasefire existed; (b) Netanyahu said IDF would continue striking southern Lebanon 'as planned'; (c) Israeli delegation at June 2 State Department talks (4th round Lebanon-Israel) stated Hezbollah DID NOT stop fighting and violated the Trump agreement; (d) Hezbollah publicly rejected the equation of southern Lebanon ceasefire in exchange for a ceasefire in northern Israel. IDF June 2: warning Hezbollah members hiding in Christian areas of Tyre, implying continuing operations north of Litani. Lebanon-Israel 4th round talks at State Department June 2-3 are ongoing. An aide to Lebanese Parliament Speaker Berri stated Berri will guarantee Hezbollah adherence to a 'global ceasefire' — but only IF a global ceasefire deal is reached, which it has not been. Iran's talks-resumption condition (full Israeli withdrawal from Lebanon + halt all attacks in Lebanon AND Gaza) remains unmet.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Lebanon clause: Netanyahu demands freedom to operate militarily in Lebanon; Iran insists on sustainable ceasefire and will not sign until all clauses agreed",
+        "framework_variable": "§A23 Lebanon-clause mechanism; Iran talks resumption condition; Fork D' recovery path",
+        "direction": "Lebanon clause remains operative and blocking MOU talks resumption; IDF operations continuing June 2 despite Trump announcement",
+        "gap_to_full_match": "MOU talks resumption requires IDF operational halt in Lebanon + Gaza or a ceasefire text Iran accepts as satisfying 'all fronts' condition; neither confirmed as of June 2"
+      },
+      "variable_moved": {
+        "variable": "Lebanon clause operative status",
+        "prior_value": "Operative (§5.27 promoted to permanent at Day 95; §A23 confirmed through IDF operations)",
+        "new_value": "Contested ceasefire: Trump announced, IDF delegation disputed at State Dept talks, IDF operations continuing June 2 — the Lebanon clause is NOT yet bridged. Iran's resumption condition unmet. Partial positive: June 2-3 bilateral talks ongoing (bridge candidate active)",
+        "driver": "Israeli delegation at State Dept talks confirmed Hezbollah non-compliance; IDF warning Hezbollah in Tyre (continuing operations); no formal Lebanon withdrawal or Gaza halt confirmed"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Step 7b principal-validation (A23): Netanyahu's ordering of IDF operations past the Litani and Beirut strikes (Day 95) was attributed to Netanyahu by multiple named T2 sources + Netanyahu's own named statements. Alternative principal: IDF Chief Zamir. Discriminating evidence from June 2: Israeli delegation at State Dept (attributed to senior Israeli officials, T2) stated Hezbollah violated the ceasefire — this is IDF/diplomatic delegation framing, not Netanyahu-coalition-political framing. The IDF delegation's hardline stance on Hezbollah violations is consistent with BOTH Netanyahu-coalition (continuing operations) AND IDF-command (ceasefire enforcement) interests; attribution to Netanyahu's political agenda vs IDF military assessment is not yet discriminated by this cycle's evidence. Pre-caretaker status holds: Netanyahu retains operational authority; Knesset dissolution still at preliminary reading."
+    },
+
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "NBC News (T2, 'House effort to end Trump's war with Iran fails by one vote')", "tier": 2},
+        {"name": "PBS News (T2, 'House rejects Iran war powers resolution in narrow vote')", "tier": 2},
+        {"name": "The Hill (T2, 'Democrats' Iran war powers resolution fails in House')", "tier": 2},
+        {"name": "Time (T2, 'House Rejects War Powers Resolution on Iran')", "tier": 2}
+      ],
+      "finding": "The June 2 forced privileged WPR vote (H.Con.Res.38) appears to have been held and defeated narrowly. Multiple T2 outlets report 'fails by one vote' and 'rejected in narrow vote' language consistent with the prior 213-214 defeat pattern or a similarly narrow margin. The forced privileged vote mechanism (Meeks' offering triggered the legislative clock) meant this vote could not be canceled by GOP leadership as the May 22 vote was — it had to go to the floor. The defeat compounds the T9 Stage-2 hysteresis lock-in: Congress voted and lost again, raising the path-dependence of the current legal architecture. IRGC Kuwait base strikes (Day 95) as a potential political accelerant for GOP defections did not appear to shift enough votes.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Resumed military operations without new AUMF: Constitutional crisis re-acute; legal architecture collapses; also: House WPR passes (2+ additional GOP defectors) — T9 challenged",
+        "framework_variable": "T9 Stage-2 hysteresis lock-in; disc-ratio",
+        "direction": "T9 advance (WPR defeated again; lock-in compounding); NOT a T9 CONTESTED event",
+        "gap_to_full_match": "T9 CONTESTED requires: WPR passes both chambers with veto-override, OR federal court accepts WPA standing, OR Trump repudiates 'hostilities terminated' — none of these confirmed"
+      },
+      "variable_moved": {
+        "variable": "T9 Stage-2 hysteresis disc-ratio",
+        "prior_value": "2:9 (two discounted-contradicting cycles; Day 85 de facto bicameral majority + Day 95 WPR canceled when about to pass)",
+        "new_value": "3:10 (third near-pass: forced privileged WPR voted and defeated; the forced vote mechanism demonstrated Congress can be compelled to vote but still loses — confirms lock-in functioning at the vote level, not only the cancellation level)",
+        "driver": "June 2 forced privileged vote (could not be canceled) held and failed narrowly; T9 lock-in mechanism is confirmed operable even when Congress is compelled to vote"
+      },
+      "discounts_applied": [
+        "June 2 vote outcome sourced from headline characterizations (T2), not roll-call confirmation; scored M confidence pending clerk.house.gov roll-call verification; characterization ('fails by one vote,' 'narrow vote') consistent with prior patterns"
+      ],
+      "conflict_notes": "The forced privileged mechanism (Meeks' legislative clock) is structurally distinct from prior cancellations — this vote could not be pulled by GOP leadership. The failure of a forced vote is more dispositive for T9 than a canceled vote: it confirms the lock-in operates even under maximum legislative pressure. T9 disc-ratio incremented to 3:10 (3 discounted-contradicting cycles: Day 85 de facto bicameral majority, Day 95 cancellation-when-about-to-pass, Day 96 forced defeat). Ratio 3:10 does not yet trigger /premortem trend-rigidity review (threshold is >1:3 across 12 cycles)."
+    },
+
+    {
+      "probe_id": "PROBE-12p",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNBC (T2, June 2, Rubio 'talks ongoing')", "tier": 2},
+        {"name": "The National (T2, June 2, Rubio 'severe nuclear limits'; 'talks could take months')", "tier": 2},
+        {"name": "Boston Globe (T2, June 2, Rubio 'optimistic on eventual nuclear talks')", "tier": 2},
+        {"name": "Soufan Center IntelBrief (T3, June 1, 'US-Iran distrust holds up agreement')", "tier": 3},
+        {"name": "North Denver Tribune / Axios (T2, 'Trump sends revised deal back to Tehran')", "tier": 2},
+        {"name": "Outlook India (T2, 'Iran revises US peace deal draft')", "tier": 2},
+        {"name": "Tasnim / Fars (T1 Iranian state, read against grain, 'stopped exchanging messages')", "tier": 1}
+      ],
+      "finding": "Rubio (T1, Senate Foreign Relations Committee, June 2): 'The US remains in negotiations with Iran despite claims to the contrary by Iranian state media.' Key new signal: 'Iran has agreed to negotiate aspects of their nuclear program that just a month ago, just a year ago, they were refusing to even mention, much less enter into discussions about.' This is a major positive scope expansion — Iran is now willing to discuss previously taboo nuclear programme elements as part of Phase 2. Rubio framed Phase 2 as: Hormuz reopens under MOU → then negotiate HEU disposition AND 'severe and long-term limitations and/or cancellation of enrichment activity.' Technical talks 'could take months' (30-60-90 day expert team). Trump revised MOU demands sent back to Iran: (a) specify timing and extent of Iran's nuclear commitments, (b) stipulate that Iran ends Hormuz control immediately upon signing. Iran is reworking the draft. Source conflict: Tasnim/Fars say Iran stopped exchanging messages; Rubio (T1 US) says talks ongoing — adjudicated as: Iran suspended mediated exchanges (per Day 95 confirmed) but direct or back-channel communication continues; both can be true simultaneously.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian official accepts or rejects 'letter of intent' + 30-day framework in named public statement",
+        "framework_variable": "Fork D' structured deferral; MOU scope expansion (Iran willing to discuss nuclear aspects previously taboo)",
+        "direction": "mixed: Fork D' held at 22-30% (Lebanon suspension not lifted); MOU scope positively expanded (Iran discussing previously taboo nuclear topics)",
+        "gap_to_full_match": "Full LOI signed trigger requires Iranian Tier-1 named acceptance; not yet reached — Lebanon clause still blocking, Trump amendments still being negotiated"
+      },
+      "variable_moved": {
+        "variable": "MOU negotiating scope (Iran nuclear willingness) and Fork D' (30d)",
+        "prior_value": "Fork D' 22-30%; Iran position: HEU stays per IRGC floor; nuclear scope limited to the original 5 preconditions",
+        "new_value": "Fork D' 22-30% (held — Lebanon suspension ongoing; trump amendments not yet accepted); Iran nuclear scope expanded: Iran now willing to discuss 'aspects of nuclear programme they refused to mention a month ago' per Rubio T1 — this is a positive signal for Phase 2 negotiations but does not immediately move Fork D' while Lebanon clause blocks resumption",
+        "driver": "Rubio T1 Senate testimony: Iran willing to discuss HEU disposition + severe nuclear limitations + enrichment cancellation as negotiating scope, not just war-end preconditions; this goes beyond the 5 preconditions framing"
+      },
+      "discounts_applied": [
+        "Tasnim/Fars 'stopped exchanging messages': T1 Iranian state media read against grain; -30% discount on definitive talks-collapse read; adjudicated against Rubio's direct T1 testimony",
+        "Trump-revised MOU demands (timing + immediate Hormuz control): sourced from multiple T2 outlets; not White House official readout; -20% discount on specific text characterization"
+      ],
+      "conflict_notes": "Source conflict on MOU status: US (Rubio T1) says ongoing; Iran state media says stopped. Per discipline: adjudicate rather than average. The Soufan Center (T3 June 1) reads it as 'distrust holding up agreement' — consistent with both sides communicating while the formal mediator-channel is suspended. The distinction between 'suspended mediator-channel exchanges' (Day 95 Iran statement) and 'ongoing negotiations' (Rubio June 2) reflects a real structural difference in negotiating format. Rubio's framing — 'direct communication continues outside the formal mediator channel' — is consistent with both claims. The Iran-willing-to-discuss-nuclear-topics signal is the most significant positive development in the MOU track since the Day 88 highest-level delegation. Flag for /revise: update §5.26 LOI architecture to reflect expanded Phase 2 scope (Iran now publicly willing to negotiate HEU disposition + severe nuclear limitations + enrichment under Rubio's T1 framing). This may require A22 (structured deferral as Trump dominant strategy) elaboration — the Phase 2 is now more substantive than previously characterized."
+    },
+
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNBC (T1 adjacent, Rubio Senate testimony June 2)", "tier": 2},
+        {"name": "The National (T2, June 2, Rubio testimony)", "tier": 2},
+        {"name": "Al Jazeera (T2, June 2, Rubio Mojtaba statement)", "tier": 2},
+        {"name": "Fox News (T2, Trump 'not a simple thing' direct quote)", "tier": 2},
+        {"name": "Daily Pakistan (T2, Dar-Rubio meeting June 2)", "tier": 2},
+        {"name": "Business Recorder (T2, Rubio thanked Dar)", "tier": 2}
+      ],
+      "finding": "Rubio (T1, Senate Foreign Relations Committee, June 2): Three new principal-level signals. (1) On Mojtaba: 'alive and increasingly engaging' through writing and intermediaries — first T1 US government confirmation of Mojtaba's functional status; (2) Iran 'agreed to negotiate aspects of nuclear programme that just a month ago, just a year ago, they were refusing to even mention' — Iranian win-set appears widening on nuclear scope; (3) 'talks could take months' but Rubio 'optimistic.' Trump (Fox News, June 2): deal is 'not a simple thing' — A1 holding deal-direction but tempering expectations. A2 principal-validation: no White House corroboration of Netanyahu's 'full dismantlement' relay in 8th+ consecutive cycle. Rubio-Dar meeting June 2: Rubio thanked Pakistan FM for 'constructive role'; Pakistan optimistic about mediation. Iran-side: no new Vahidi-direct statement. Iran PA-gap: IRGC executing kinetics (Day 95-96 MSC Sariska) while mid-tier holding MOU text — two-level confirmed.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Mojtaba or Vahidi named endorsement of any concession: Iranian win-set widens; Fork B durability up. ALSO: Trump statement holding direction beyond 48h: Penetration mechanism weakening",
+        "framework_variable": "A4 Mojtaba status; Iranian win-set on nuclear scope; A1 durability; A2 forcing question",
+        "direction": "A4 partial positive (Mojtaba confirmed alive/engaging, not fully incapacitated); Iranian win-set expanding on nuclear scope (positive for Fork D'/B); A1 held (deal-direction through Rubio); A2 8th+ cycle without WH corroboration (manifest staged, unchanged)",
+        "gap_to_full_match": "Full Iranian win-set widening trigger requires Mojtaba or Vahidi named endorsement of a specific concession — Iran discussing nuclear topics more broadly is directionally positive but does not constitute a named endorsement of a specific concession"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Rubio's Mojtaba characterization ('increasingly engaging') is T1 but reflects US government inference from indirect signals (writing via intermediaries), not direct observation — partial T1 confidence",
+        "Trump 'not a simple thing': Fox News T2 direct quote; A1 oscillation pattern applies (disposition at moment, not durable commitment); not discounted to near-zero (not Truth Social; direct interview)"
+      ],
+      "conflict_notes": "Step 7b principal-validation — A4 (9th+ cycle): The Rubio confirmation of Mojtaba 'alive and increasingly engaging' is partial validating evidence: it confirms Mojtaba is alive (eliminates the death hypothesis) and increasingly active (complicates the 'incapacitated' characterization) while confirming he still communicates only through writing/intermediaries (preserves IRGC-council-as-functional-apex reading for operational decisions). The manifest (v4-3-principal-validation-manifest.md) should be updated at next /revise to reflect: Mojtaba confirmed alive; A4 functional apex remains Vahidi + IRGC council for operational decisions; Mojtaba increasingly engaging through written channels = legitimacy-shield function becoming more active, not a reversion to functional decision-maker status. Step 7b — A2 (8th+ cycle): manifest staged; no new action required this cycle. The Rubio testimony that Iran is discussing 'aspects of nuclear programme they refused to mention' is more consistent with the A2-demotion hypothesis (Netanyahu's maximalist relay is his projection, not Trump's commitment) than with the relay-is-substantive hypothesis, because Iran's willingness to engage on nuclear aspects suggests the US-side constraint is negotiating flexibility rather than fixed dismantlement demand."
+    },
+
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "MSC Shipping corporate statement (T1 equivalent, June 2026)", "tier": 2},
+        {"name": "Army Recognition (T2, US Hellfire on Lian Star)", "tier": 2},
+        {"name": "Marine Log (T2, MSC Sariska V incident in Um-Qasr)", "tier": 2},
+        {"name": "Tasnim / PressTV (T1 Iranian state, IRGC Navy cruise missile claim)", "tier": 1},
+        {"name": "Middle East Monitor (T2, Qaani Bab al-Mandab June 2)", "tier": 2},
+        {"name": "India TV News (T2, Bab al-Mandab explainer June 2)", "tier": 2}
+      ],
+      "finding": "Third kinetic cycle: IRGC Navy struck MSC Sariska V (Panama-flagged, container ship in Um-Qasr port, Iraq) with a cruise missile in direct retaliation for the US Hellfire strike on the Iranian bulk carrier Lian Star. All crew safe; no casualties. Cruise missile use against a commercial vessel in port marks a new IRGC operational modality — not a military-on-military exchange but a commercial-vessel cross-targeting cycle. Qaani (Quds Force commander, T1 state media June 2): Bab al-Mandab will be treated like the Strait of Hormuz if Israeli Lebanon/Gaza operations continue. Iran's retaliatory capacity and willingness to target commercial-maritime assets is demonstrated operationally. Rubio June 2: Iran discussing nuclear aspects 'previously refused' — consistent with the reconstitution-leverage hypothesis (Iran's capability recovery gives it negotiating confidence, not desperation).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "T12 reconstitution-speed Powell amplifier cross-check; Houthi mass-launch event; Iranian asset-repositioning (target-window shortening)",
+        "framework_variable": "BS-13 Iranian residual capability visibility; T12 advance; Fork C inadvertent-escalation",
+        "direction": "up — 3rd kinetic cycle; commercial-vessel targeting modality; T12 advancing through demonstrated use",
+        "gap_to_full_match": "Full T12 standalone discrimination requires Israeli pre-emption pressure observable independent of Fork B credibility state; the Qaani Bab al-Mandab warning is a capability/willingness signal but the independent-amplifier condition is the primary T12 tracker"
+      },
+      "variable_moved": {
+        "variable": "BS-13 Iranian residual capability visibility",
+        "prior_value": "65-70% (Day 95: dual-chokepoint threat + June 1 Kuwait strikes)",
+        "new_value": "65-70% (held; cruise missile on commercial vessel is use-confirmed at commercial-maritime level; Qaani named Bab al-Mandab threat more specific than Day 95 anonymous IRGC statement; but magnitude of true inventory remains dark — score held per conservative single-cycle rule)",
+        "driver": "IRGC Navy operationally demonstrated cruise-missile capability in commercial-maritime targeting mode; Qaani named as dual-chokepoint threat principal (Quds Force level, not apex)"
+      },
+      "discounts_applied": [
+        "PressTV IRGC cruise missile claim: T1 Iranian state (read against grain); MSC corporate statement corroborates the incident (crew safe, hit by projectiles in Um-Qasr); confidence elevated to H despite Iranian state source",
+        "Qaani Bab al-Mandab: T1 Iranian state (Tasnim); -30% operational probability discount"
+      ],
+      "conflict_notes": "The simultaneous commercial-vessel cross-targeting (IRGC strikes on MSC Sariska in retaliation for US strike on Iranian Lian Star) and deal-track engagement (Rubio: Iran discussing nuclear topics) confirms A9 at its sharpest resolution yet: deterrence-maintenance and deal-engagement are SIMULTANEOUSLY dominant strategies under joint constraints. The IRGC can retaliate against commercial shipping and engage in nuclear talks within the same 24-48 hour window because those are operations from different parts of the constraint surface. This is the materialist bargaining model at maximum clarity: different constraint layers produce different dominant strategies for different decision functions, and they execute in parallel rather than sequentially."
+    },
+
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Rubio Senate testimony (T1, June 2)", "tier": 2},
+        {"name": "Times of Israel liveblog June 2 (T2, IDF operations)", "tier": 2},
+        {"name": "Al Jazeera (T2, June 2, Lebanon ceasefire violations)", "tier": 2},
+        {"name": "Fox News (T2, Trump 'not a simple thing')", "tier": 2}
+      ],
+      "finding": "Three dispositional readings June 2. US: Rubio testifying deal is possible ('optimistic on eventual nuclear talks'); Iran willing to discuss previously taboo nuclear aspects; deal-faction consolidating at Senate level; Trump 'not a simple thing' but holding deal-direction. Israel: IDF operations continuing past Litani (June 2 warning Hezbollah in Tyre Christian area); delegation at State Dept talks stating Hezbollah violated the ceasefire agreement; §A23 operative. Iran: IRGC executing cruise missile strikes while MOU text is reworked; Qaani named Bab al-Mandab threat; but Mojtaba 'increasingly engaging' on deal dimension. P-AIM update: Rubio noted Iran 'agreed to negotiate aspects of nuclear programme previously off-limits' — this is a POSITIVE P-AIM signal, suggesting the Iranian demand-set may be moderating in nuclear scope (not expanding to unlimited-aims territory). The Lebanon/Gaza conditions from Day 95 remain as Iran's talks-resumption precondition, but these are ceasefire-compliance demands (limited aims), not order-revisionist terms.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "IRGC explicit 'regime change is US objective regardless of MOU'; US/Israeli 'window closing' pieces multiply",
+        "framework_variable": "BS-14 dispositional reading; P-AIM aim-class; US-Israeli dispositional gap",
+        "direction": "mixed: P-AIM moderating (positive for Fork D'/B); Lebanon dispositional gap widening (IDF contested ceasefire); US-Iran nuclear willingness gap narrowing",
+        "gap_to_full_match": "Full P-AIM unlimited trigger requires Iranian demands escalating to order-revisionist terms (expulsion of US from Gulf, elimination of Israel) — not met; the nuclear scope expansion is movement in the opposite direction (moderating, not escalating)"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "P-AIM assessment: Iran's June 2 posture is structurally contradictory in a way the feigning-weakness mechanism predicts — simultaneously threatening Bab al-Mandab (escalation signal) and agreeing to discuss nuclear topics previously taboo (moderation signal). This is not incoherence; it is the two-level structure (T3) operating across different issue domains. The Bab al-Mandab threat is on the kinetic/deterrence axis (apex deterrent floor); the nuclear scope expansion is on the deal-terms axis (mid-tier negotiation range). The two operate in parallel. P-AIM remains 'limited' — no order-revisionist demands confirmed."
+    },
+
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "All component-probe sources (synthetic indicator)", "tier": 2}
+      ],
+      "finding": "Composite first-mover threshold assessment Day 96. (1) Israeli-operational: IDF operations continuing past Litani as of June 2; delegation at State Dept June 2 talks confirmed Hezbollah non-compliance — Lebanon theater operations not halted. Israel threshold fired in Lebanon theater (Day 95 confirmed); nuclear-theater threshold not yet fired. (2) Trump A1-binding: deal-direction held through Senate testimony (Rubio, June 2); Trump 'not a simple thing' but structurally deal-leaning. (3) Iranian-side: IRGC kinetics + MOU reworking + nuclear scope expansion all occurring simultaneously — Iran threshold not broken; conditional suspension (not rupture). (4) WPR-as-forcing-function: June 2 forced vote held and defeated narrowly — WPR path compressing toward CONTESTED but not yet crossed. (5) Strangulation: IEA June Hormuz-resumption assumption now past its temporal trigger without a signed deal — strangulation timeline advancing. Joint distribution: narrower than Day 95 on several axes (WPR forced and lost; Lebanon ceasefire contested; 3rd kinetic cycle). But the deal track is MORE substantive than Day 95 (Rubio: Iran discussing taboo nuclear topics; Phase 2 scope confirmed).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds breached in parallel: cascade risk; Fork C miscalculation probability up",
+        "framework_variable": "BS-15 first-mover architecture; joint distribution of break-thresholds",
+        "direction": "joint distribution narrowing on kinetic/WPR axes; widening on deal/negotiating-scope axis",
+        "gap_to_full_match": "Nuclear-theater first-mover threshold not yet fired: no Eisenhower deployment order, no CENTCOM named-principal strike, no Israeli nuclear-facility strike"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The joint distribution has two simultaneous dynamics that the first-mover architecture must track: (a) kinetic escalation compounding (3rd cycle; Bab al-Mandab threat; Lebanon operations continuing) — narrows the joint distribution toward Fork C, and (b) nuclear-scope widening in negotiations (Iran discussing taboo topics; Rubio optimistic; Phase 2 more substantive) — widens the Fork D' pathway. These are not contradictory; they are simultaneous dominant strategies under different constraint layers. The framework's task is to track whether the kinetic escalation breaks a threshold (US KIA; Eisenhower deployment; nuclear facility strike) BEFORE the nuclear negotiation scope can be operationalized into a signed MOU. The June 2-3 Lebanon-Israel bilateral talks are the operative bridge candidate — if they produce a Lebanon ceasefire text Iran accepts as satisfying 'all fronts,' the deal track reopens while the kinetic pressure continues but below threshold."
+    },
+
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion (BS-9 composite)",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Scripps News (T2, 'Putin makes first public appearance after 10-day absence')", "tier": 2},
+        {"name": "GB News (T2, 'Putin not seen for TWO WEEKS')", "tier": 2},
+        {"name": "Kremlin.ru events calendar (T1, limited accessibility)", "tier": 1}
+      ],
+      "finding": "No confirmed Putin public appearances in June 2026 (Day 1 = June 2). Scripps News reports 'Putin Makes First Public Appearance After 10-Day Absence' and GB News 'Putin not seen for TWO WEEKS' — these appear to reference a recent absence period followed by a return, but precise dates in June are not confirmed by these sources. The CIA director has stated no intelligence supports cancer claims, though observers note changes in Putin's public demeanor. May 2026 confirmed appearance: 1 (Victory Day May 9). April 2026 appearance count remains unconfirmed from this sweep. BS-9.1 (Shoigu charges): no new signal. BS-9.2 (Dyumin footprint): no signal. BS-9.4 (Kovalchuk axis): no signal. BS-9.5 (Kadyrov): no signal. Russia inert across all Iran 2026 cycles; absent from Doha and State Dept architectures.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-9.3 fires: Putin <2 public appearances/month for 3+ consecutive months: Emergency synthesis review",
+        "framework_variable": "BS-9.3 Putin public appearance frequency; M3 incapacity cascade probability",
+        "direction": "approaching threshold (May = 1; June = 0 so far; April unconfirmed)",
+        "gap_to_full_match": "3-month threshold requires confirmed <2 appearances in 3 consecutive months (April + May + June); April count not confirmed this cycle; threshold fires at end of June if June also has <2 AND April is confirmed <2"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "GB News '2 weeks' absence: tabloid-adjacent outlet; -50% confidence on specific timing claims; logged as corroborating signal only",
+        "Scripps News '10-day absence + return': T2; specific dates not confirmed in search results; logged as pattern-level evidence"
+      ],
+      "conflict_notes": "BS-9.3 watch intensifying. The pattern from the available evidence: Putin had a recent absence period (10-14 days per T2 sources), followed by a return appearance. If the return appearance was in late May (prior to Victory Day May 9?) and the absence was May 10-23 roughly, then May would have 1 appearance (Victory Day) and the 'return after 10-14 days' would resolve to late May. Alternatively, if there was a new June absence, June would have 0. Critical gap: April 2026 appearance count remains unconfirmed. Flag for next PROBE-17: retrieve April 2026 Kremlin.ru calendar appearance count. If April had <2 appearances, the 3-month threshold fires if June also has <2. Elevate this to the highest priority Russia probe signal."
+    },
+
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Business Recorder / Daily Times (T2, Rubio-Dar meeting June 2)", "tier": 2},
+        {"name": "Aaj English TV (T2, Pakistan optimistic post-Dar-Rubio)", "tier": 2},
+        {"name": "House of Saud analysis (T3, Gulf brake scope limit; Iran escalation targeting Senate)", "tier": 3},
+        {"name": "Al Jazeera (T3, GCC reaction to ceasefire; Day 85-88 carry)", "tier": 2}
+      ],
+      "finding": "No new Gulf state (MBS/MBZ/Tamim) public statements on Lebanon operations or MOU resumption as of June 2. Saudi MFA remained silent after the June 1 escalation and talks suspension (consistent with the Day 95 finding that Gulf brake does NOT extend to Israeli Lebanon operations). Gulf states appear to be treating Lebanon as outside the brake's operational scope. Pakistan channel active: Rubio met Pakistan FM Ishaq Dar (June 2); Rubio thanked Dar for Pakistan's 'constructive role' in US-Iran mediation; Pakistan 'optimistic about mediation efforts.' Abraham Accords demand: resolved as Slantchev-inverse (per Day 95 sweep; White House 'complement' language confirmed, Rubio non-echo confirmed). No new Accords-demand pressure this cycle. The Gulf-broker-as-deal-shaper function (§5.25) is structurally intact but not actively deployed this cycle.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "House of Saud T3 analytical piece ('Iran's June 1 Triple Escalation Targeted the Senate'): third-party analysis, not a primary signal; logged as strategic framing, not operational data"
+      ],
+      "conflict_notes": "Gulf brake scope limit is now confirmed across two consecutive cycles (Day 95: Lebanon escalation; Day 96: Lebanon operations continuing, Gulf states silent). This is the discriminating evidence the Day 95 sweep flagged for /audit: 'Gulf brake scope: does not extend to Israeli Lebanon operations.' BS-18 should be updated at next /audit to formally codify this scope limit. The Pakistan channel continues as the operative mediation track while Gulf states focus on the Hormuz/oil dimensions rather than the Lebanon dimension. Flag for /audit: Abraham Accords two-reading resolution (Slantchev-inverse confirmed) should be formally incorporated into BS-18 mechanism description, updating the Day 88 'two-reading treatment required' status to 'resolved as leverage play.'"
+    },
+
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Rubio Senate testimony (T1, June 2, Iran nuclear scope expansion)", "tier": 2},
+        {"name": "Tasnim (T1 Iranian state, June 2, Qaani Bab al-Mandab)", "tier": 1},
+        {"name": "MSC Sariska / Lian Star incident (T2, IRGC commercial retaliation)", "tier": 2}
+      ],
+      "finding": "P-AIM (aim-class): Iran's Rubio-confirmed nuclear scope expansion is a POSITIVE P-AIM signal — Iran willing to negotiate 'severe and long-term limitations and/or cancellation of enrichment activity' is movement toward limited-aims framing, not unlimited-aims escalation. The Lebanon/Gaza suspension conditions (Day 95) remain ceasefire-compliance demands (limited). P-AIM remains scored 'limited' with a mixed signal: positive on nuclear scope, negative on dual-chokepoint threat posture. P-DG: No US strikes on named Iranian principals this cycle (MSC Sariska context: US struck a commercial vessel Lian Star, not a named principal). P-DG NOT fired. P-DG2: not applicable (P-DG not fired; Lebanon-trigger Iranian demand hardening was scored as P-DG2-partial in Day 95 sweep). P-OVEX: IRGC retaliating via commercial-vessel targeting while the MSC Sariska modality is new — proxy network draw-down clock advancing (IDF degrading Hezbollah in Lebanon; Iraqi PMU Kataib leader arrest carries). P-INFO: no new signal. P-CHEMO: no US ground-force buildup signal.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "P-AIM scores unlimited: Iranian official demands cross to order-revisionist terms",
+        "framework_variable": "P-AIM aim-class; P-DG death-ground entrenchment",
+        "direction": "P-AIM partial positive (nuclear scope moderating); P-DG not fired",
+        "gap_to_full_match": "P-AIM unlimited trigger requires: sustained Iranian demands for expulsion of US from Gulf, elimination of Israel, or order-overthrow terms across 2+ cycles — clearly not met; Iran explicitly opened nuclear discussion scope"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The IRGC cruise missile strike on MSC Sariska (commercial vessel) retaliation for the US Hellfire on Lian Star (commercial vessel) is P-OVEX advancing — IRGC is willing to use offensive maritime capability in commercial-targeting mode, indicating proxy-network-substitution: as Hezbollah is degraded in Lebanon and Iraqi PMU Kataib leadership is arrested, the IRGC itself is taking on the direct-retaliation function previously delegated to proxies. This is consistent with P-OVEX advancing (proxy drawdown clock) and Mosaic-Octopus network adapting (T2 advance). The Paine framework would read this as IRGC pulling functions back from proxies under sustained pressure — an early signal of network self-amputation beginning, not yet at the structural collapse threshold."
+    }
+  ],
+
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-2",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-6",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-7",   "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Fork C held 25-33% (upper range); commercial-vessel targeting modality new; Qaani Bab al-Mandab named warning"},
+      {"probe_id": "PROBE-8",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-9",   "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Lebanon clause remains operative; ceasefire contested (IDF continuing June 2; Hezbollah violations at State Dept talks)"},
+      {"probe_id": "PROBE-10",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "T9 disc-ratio 2:9 → 3:10; forced WPR voted and defeated (lock-in compounding at vote level, not only cancellation level)"},
+      {"probe_id": "PROBE-12p", "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "MOU nuclear scope expanded (Iran discussing taboo topics per Rubio T1); Fork D' held 22-30%; Lebanon suspension pending"},
+      {"probe_id": "PROBE-13",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "A4 partial update (Mojtaba confirmed alive, 'increasingly engaging' via writing/intermediaries); A2 8th+ cycle without WH corroboration (manifest exists); Iranian win-set expanding on nuclear scope"},
+      {"probe_id": "PROBE-14",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "BS-13 held 65-70%; 3rd kinetic cycle (Lian Star → MSC Sariska cruise missile); T12 advance; no US KIA"},
+      {"probe_id": "PROBE-15",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "P-AIM moderating (Iran nuclear scope expanding); US-Iran nuclear gap narrowing; Lebanon dispositional gap widening"},
+      {"probe_id": "PROBE-16",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Joint distribution narrowing on kinetic/WPR axes; widening on deal-scope axis; multiple thresholds active simultaneously"},
+      {"probe_id": "PROBE-17",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-21",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null}
+    ],
+    "fired_count": 8,
+    "partial_count": 7,
+    "null_count": 0,
+    "gap_count": 0
+  },
+
+  "trigger_digest": [
+    {
+      "appendix_b_row": "CENTCOM self-defense strikes inside Iran / commercial-vessel cross-targeting new modality; Fork C inadvertent-escalation compounding",
+      "source_probe": "PROBE-7",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "PROBE-7 probe directive — add new modality; Framework Revision Triggers — add commercial-vessel cross-targeting category",
+        "edit": "Add to PROBE-7 target signals: 'US proactive blockade enforcement against commercial vessels en route to Iranian ports AND IRGC commercial-vessel retaliation pattern — new escalation modality (Lian Star Hellfire → MSC Sariska cruise missile, June 1). Discriminator: this is outside the existing self-defense-vs-resumed-operations framework (US struck first on a commercial vessel; IRGC retaliated on a commercial vessel). No US KIA in either vessel; scored Fork C inadvertent-escalation advance, not Fork A resumption. Add to Framework Revision Triggers: commercial-vessel cross-targeting producing US naval personnel casualty OR commercial-shipping market panic (Lloyd's suspension of Hormuz coverage, Hapag-Lloyd/Maersk Gulf suspension renewal) = new structural trigger category beyond the existing self-defense discriminator.'"
+      },
+      "urgency": "next_audit"
+    },
+    {
+      "appendix_b_row": "Lebanon clause: IDF operations continuing June 2 after Trump ceasefire announcement; Iran talks-resumption condition unmet; §A23 Lebanon-clause still operative",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§5.x Lebanon clause (permanent mechanism per Day 95 promotion); §A23 assumption state",
+        "edit": "Update Lebanon clause mechanism in next /revise: the Trump June 1 ceasefire announcement produced a CONTESTED ceasefire — Israeli delegation confirmed Hezbollah non-compliance at State Dept June 2 talks; IDF operations continued June 2 past Litani; the 'agreed' ceasefire has not produced an Iranian talks-resumption signal. The Lebanon-clause bridge candidate is the State Dept June 2-3 bilateral talks (Lebanon-Israel) — if these produce a ceasefire text Iran can invoke as satisfying 'all fronts,' Fork D' could recover toward 28-36%. §A23 remains operative: Netanyahu coalition's operational authority is constraining Trump's ceasefire announcement from translating into a de-facto halt. IDF-coalition asymmetry relevant: Zamir baseline ('if uranium removed diplomatically, we have done our part') is being tested against the Netanyahu coalition's Lebanon operational posture."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Iranian official accepts or rejects LOI; MOU scope expansion — Iran willing to negotiate previously taboo nuclear aspects",
+      "source_probe": "PROBE-12p",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§5.26 LOI architecture; §7 Key Assumptions A22; §8.1a 30-day matrix Fork D'",
+        "edit": "Update §5.26 to reflect expanded Phase 2 scope: Rubio T1 Senate testimony (June 2) states Iran now willing to negotiate 'severe and long-term limitations and/or cancellation of enrichment activity' — this is broader than the prior Phase 2 framing (HEU disposition only). Phase 2 now encompasses: (a) HEU disposition, (b) enrichment-rate severe limitations, (c) enrichment cancellation as a negotiating item. This materially expands what a successful Fork D'/Fork B outcome could achieve. Rubio's framing ('30-60-90 day team of experts') is consistent with the LOI 30-day-period-extension architecture (§5.26). Fork D' 22-30% held this cycle: Lebanon suspension not yet lifted; Trump MOU amendments not yet accepted; but the positive nuclear-scope signal is a partial offset. If Lebanon de-escalates via June 2-3 bilateral talks + Iran resumes exchanges + Trump accepts revised text, Fork D' could recover to 25-33% or higher."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Mojtaba public visual appearance OR second-source death confirmation (A4 revision trigger)",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§7 Key Assumptions A4; synthesis v4-3 principal-validation manifest",
+        "edit": "A4 language update required at next /revise: Day 88 characterized Mojtaba as 'incapacitated or nominal.' Rubio T1 (June 2): Mojtaba 'alive and increasingly engaging' through writing and intermediaries. A4 should be updated to: 'Mojtaba confirmed alive; increasingly engaging through written communications via intermediaries; no camera/visual appearance. Functional apex remains Vahidi + IRGC military council for operational decisions; Mojtaba's written engagement = legitimacy-shield function becoming more active, not a reversion to full operational control. IRGC council continues to structure operational decisions; Mojtaba's written authorizations serve as formal imprimatur.' The v4-3-principal-validation-manifest.md should absorb this characterization update. The two-level structure (T3) is unaffected — Mojtaba's increasingly-written-engagement is consistent with the IRGC council operating through Mojtaba's nominal authority rather than Mojtaba independently deciding."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "House WPR passes (2+ additional GOP defectors on next attempt); T9 Stage-2 hysteresis CONTESTED test",
+      "source_probe": "PROBE-10",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "reference/strategic-trends.md — T9 disc-ratio update; BS-5 WPR mechanism",
+        "edit": "T9 disc-ratio update: 2:9 → 3:10 (third near-pass without breaking lock-in; forced privileged WPR voted and defeated on June 2). The forced-vote mechanism is the most dispositive T9 confirming event yet: even when Congress cannot cancel the vote (it was a forced privileged resolution), the WPR still failed. This confirms T9's core prediction — path-dependence locks in regardless of Congressional action short of actual passage. BS-5 WPR mechanism update: the Fetterman/GOP-defector count remains the operative variable; the June 2 narrow defeat re-sets the baseline for the next attempt (when and if another privileged resolution is offered). House WPR CONTESTED test: not met by June 2 defeat; T9 remains VALIDATED."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "BS-9.3 fires: Putin <2 public appearances/month for 3+ consecutive months: Emergency synthesis review",
+      "source_probe": "PROBE-17",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-9 — BS-9.3 sub-probe watch level escalation",
+        "edit": "Elevate BS-9.3 watch in Appendix B from 'approaching threshold' to 'HIGH ALERT — threshold determination pending April count.' May 2026 = 1 confirmed appearance; June 2026 = 0 confirmed as of Day 1. If April also had <2 appearances (unconfirmed), the 3-month threshold fires at end of June. Next PROBE-17 run MUST retrieve April 2026 Kremlin.ru calendar count as the single most important sub-probe task. Putin's recent '10-14 day absence' followed by return (T2 pattern-level evidence) is consistent with M3 incapacity cascade early signals — confirm or deny April count next cycle."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Gulf brake scope: does not extend to Israeli Lebanon operations (BS-18 mechanism elaboration); Abraham Accords resolved as Slantchev-inverse",
+      "source_probe": "PROBE-20",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-18 Gulf state troika mechanism description",
+        "edit": "Formally codify BS-18 scope limit in Appendix B: 'Gulf brake operates on US military-action timing (strike-prevention, deal-shaping) and does NOT extend to Israeli Lebanon operations. Confirmed across Day 95 (Lebanon escalation; Gulf silent) and Day 96 (Lebanon operations continuing; Gulf silent). Scope is driven by Gulf economic/infrastructure exposure calculus (Hormuz logistics, Barakah-class attacks, oil revenue) — NOT generalized Israel-restraint.' Also update: Abraham Accords two-reading resolved as Slantchev-inverse (Day 95 White House 'complement' language; Rubio non-echo confirmed). Add to PROBE-20 standing target signals: 'Gulf state public response to Israeli Lebanon operations (coordinated or silent)' — the silence has now been confirmed as a structural pattern, not a single-cycle absence."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+
+  "gap_log": [],
+
+  "calibration_check": {
+    "trend_state_question": "No VALIDATED trend transition warranted this cycle. T9 disc-ratio now 3:10 (below the >1:3 triggering threshold across 12 cycles). T1 scope-limit finding (Gulf brake excludes Lebanon operations) is a mechanism elaboration, not a trend contradiction. T3 advance (Mojtaba increasingly engaging + IRGC kinetics + MOU reworking = two-level confirmed). All 12 trends within state. Single-cycle evidence on any dimension insufficient for promotion or demotion under the symmetric transition rule.",
+    "thesis_question": "HOLDING. The v4.0 central thesis is confirmed at its sharpest resolution yet by the June 2 evidence cluster. Under joint constraints: (L1) IRGC can use cruise missiles on commercial vessels while (L4/L5) the IRGC council simultaneously reworks the MOU text — deterrence and deal-engagement are simultaneously dominant strategies under different constraint-surface layers. (L4) Netanyahu coalition continues Lebanon operations autonomous from US direction. (L1) Trump holds deal-direction through Senate testimony. Five constraint layers are each producing constraint-consistent actor behavior; no actor is choosing outside its constraint set; the reordering emerges from these choices without design. The Rubio testimony's revelation that Iran is now discussing 'aspects of nuclear programme previously taboo' is the single most important positive development for the thesis's Fork D' pathway since Day 88. The Lebanon clause and the kinetic escalation are the countervailing forces that keep the thesis in tension rather than resolving into Fork B. Central thesis: holding."
+  }
+}
