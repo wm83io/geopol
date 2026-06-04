@@ -1,0 +1,533 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-03",
+    "day_number": 97,
+    "framework_version": "v4.2",
+    "probes_run": [
+      "PROBE-1", "PROBE-2", "PROBE-3", "PROBE-6", "PROBE-7", "PROBE-8",
+      "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15",
+      "PROBE-16", "PROBE-17", "PROBE-18", "PROBE-20", "PROBE-21"
+    ],
+    "synthesis_anchor": "synthesis-v4-2.md",
+    "notes": "17 probes; 7 fired. Major cycle: House WPR passed 215-208 (first time); Knesset dissolution first reading 106-0; Lebanon-Israel ceasefire framework text (US State Dept T1); Iran bazaar closures (BS-1b first signal in 17+ null cycles); Vahidi named governance statement; Temple Mount Tier-2 accumulation; P-INFO advancing via Pezeshkian public IRGC-takeover warning.",
+    "reference_trends": [
+      {"trend_id": "T1", "net_effect": "advance", "note": "Lebanon ceasefire framework; Pakistan mediator active; Gulf silence calendar-transitioning from Eid to live response window"},
+      {"trend_id": "T2", "net_effect": "advance", "note": "Hezbollah operational drone strike June 2 kills IDF soldier; network alive, not terminal"},
+      {"trend_id": "T3", "net_effect": "advance", "note": "Vahidi governance statement + Pezeshkian public IRGC-takeover warning further validate IRGC-council two-level structure; Rubio T1 Day 96 confirmation holds"},
+      {"trend_id": "T4", "net_effect": "advance", "note": "House WPR passage (4 Republicans) + Lebanon framework via State Dept = deal-faction active at legislative and executive channels; no §5.20 counter-mobilization 9th-plus cycle"},
+      {"trend_id": "T5", "net_effect": "hold", "note": "Hajj final days; Temple Mount Tier-2 accumulation (prayer pages + draft legislation); no Tier-1 fire; single-tradition Jewish activation only, no convergence event"},
+      {"trend_id": "T6", "net_effect": "hold", "note": "BS-9.3 unresolved: May confirmed appearances 1-2 (May 8 Lukashenko dinner + May 9 Victory Day); April partial data (April 24 + April 27 referenced); threshold not confirmed as firing"},
+      {"trend_id": "T7", "net_effect": "hold", "note": "Voice discipline maintained; no substrate-as-agent constructions"},
+      {"trend_id": "T8", "net_effect": "advance", "note": "Knesset dissolution first reading 106-0; Powell amplifier at maximum; WPR passage constrains US Fork A path symbolically, elevates Israeli unilateral pre-emption incentive"},
+      {"trend_id": "T9", "net_effect": "contradict_single", "note": "House WPR passed 215-208 June 3 (four Republicans); disc-ratio 3:10 -> 4:10 (> 1:3 threshold); fires /premortem trend-rigidity review for T9; VALIDATED status holds pending multi-cycle confirmation (Senate blocks; presidential veto certain; T9 falsification requires both chambers + veto-override)"},
+      {"trend_id": "T10", "net_effect": "hold", "note": "Russia inert across cycle; no new signals"},
+      {"trend_id": "T11", "net_effect": "hold", "note": "Lebanon multilateral framework (US+Lebanon+Israel) is multiplex indicator; advancing"},
+      {"trend_id": "T12", "net_effect": "advance", "note": "Reconstitution-speed amplifier operational; Hezbollah active; Qaani Bab al-Mandab dual-chokepoint threat holds; strangulation advancing"}
+    ]
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (Pezeshkian resignation + IRGC takeover warning)", "tier": 3},
+        {"name": "Rubio Senate testimony June 2 (carry-forward)", "tier": 1}
+      ],
+      "finding": "No new Mojtaba visual appearance or second-source death confirmation this cycle. The Pezeshkian resignation drama (submitted May 31; denied publicly June 1) and Pezeshkian's warning that 'key parts of power were now under control of a group of Revolutionary Guard commanders' are indirect corroboration of Mojtaba's incapacitated/nominal status. No new Mojtaba direct written output. The A4 IRGC-council-as-functional-apex reading from Rubio Day 96 holds as the operative baseline; no revision triggered.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Iran International: -50% Iranian opposition single-source on internal-politics claims"
+      ],
+      "conflict_notes": "No conflict. Pezeshkian's public statement about IRGC structural control is his own direct account and carries higher credibility than third-party exile-source framing. T3 source for Mojtaba functional-status inference only; does not rise to trigger threshold. Principal validation (Step 7b): A4 IRGC-council attribution continues 'increasingly validated' — Rubio T1 Day 96 + Vahidi governance statement Day 97 (PROBE-2) + Pezeshkian public warning all point same direction; Vahidi-direct-HEU axis still requires a named MOU-terms statement. Cycle count for A4 'inherited, not validated on HEU-specific axis': 10th-plus consecutive cycle without Vahidi-direct HEU statement; A4 governance-axis now discriminated, HEU-axis still open."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (Vahidi governance statement + Pezeshkian resignation drama)", "tier": 3},
+        {"name": "Pezeshkian public statement June 1 via IRIB/Iran International", "tier": 2}
+      ],
+      "finding": "Vahidi issued a direct named public statement on governance authority: 'In wartime, the IRGC selects leadership, not the president.' Vahidi separately rejected all of Pezeshkian's proposed intelligence minister candidates. Pezeshkian submitted formal resignation to Mojtaba's office May 31 (Iran International T2/T3); appeared June 1 denying resignation but publicly warned 'the structure of state administration had practically deviated from official channels' and 'key parts of power were now under the control of a group of Revolutionary Guard commanders.' Aliabadi silent; Aerospace/Quds divergence null; triangle internal dissent not directly visible.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5-preconditions (partial — governance axis, not MOU-terms axis)",
+        "framework_variable": "A4 IRGC-council-as-functional-apex discriminating evidence",
+        "direction": "up (advancing IRGC-council attribution on governance axis)",
+        "gap_to_full_match": "Vahidi-direct named statement on HEU disposition or MOU terms specifically; governance statement alone does not fire the full BS-1a trigger"
+      },
+      "variable_moved": {
+        "variable": "A4 apex attribution confidence",
+        "prior_value": "Inherited, not validated on HEU-specific axis; governance-axis unconfirmed",
+        "new_value": "Governance-axis now partially discriminated via Vahidi named statement + Pezeshkian public corroboration; HEU-specific axis still unresolved",
+        "driver": "Vahidi: 'In wartime, the IRGC selects leadership, not the president'; Pezeshkian: 'complete IRGC takeover of state administration'"
+      },
+      "discounts_applied": [
+        "Iran International: -50% Iranian opposition source on Pezeshkian-resignation drama",
+        "Vahidi governance statement date uncertain (possibly April; surfaced in June 1 context) — -30% recency confidence"
+      ],
+      "conflict_notes": "Pezeshkian's own public statement is T1-adjacent (president speaking publicly) and harder to discount than third-party sourcing. The Vahidi quote's date is not confirmed as June 2-3; it may be from April when he rejected Pezeshkian's intelligence minister candidates. Applied to the A4 governance-axis reading, it is corroborating regardless of precise date. Principal validation (Step 7b): The Vahidi governance statement IS discriminating evidence for the IRGC-council-as-apex hypothesis — it directly contradicts a 'Pezeshkian-as-functional-executive' reading. Alternative hypothesis: Vahidi may be overstating IRGC authority for domestic political positioning; Pezeshkian's resignation drama may be a factional maneuver, not evidence of true IRGC apex control. Discriminating evidence: Pezeshkian's subsequent public statement explicitly framing IRGC takeover, combined with Rubio T1 Day 96, constitutes multi-source corroboration of the IRGC-council-as-functional-apex reading. Not a 5-cycle flag revision but a positive discriminating signal."
+    },
+    {
+      "probe_id": "PROBE-3",
+      "probe_name": "Bazaari / Bonyad Economic Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (bazaar shutdowns + rial crisis + oil revenue data)", "tier": 3},
+        {"name": "EIA / budget data (oil revenue 5% of budget)", "tier": 1}
+      ],
+      "finding": "Iran International (T3) reported bazaar merchant shutdowns continuing across Iranian cities, with 'bazaar merchants vowed to continue their shutdowns.' The unrest began with rial collapse and dollar surging, broadening to nationwide strikes and demonstrations turning violent in several cities. Oil revenue share of budget fell from 32% (2025-2026) to 5% (2026-2027) — the lowest since the 1960s. This is the first material BS-1b signal after 17-plus null cycles. It is sourced from opposition media (Iran International) and carries the structural discount, but convergence with Pezeshkian's public statement about economic conditions provides partial corroboration.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Tehran Bazaar strike or closure: Strangulation timeline revised; BS-1b activates; BS-15 Iran-side first-mover threshold breached",
+        "framework_variable": "BS-1b Iranian political-economic transmission; BS-15 Iran-side first-mover threshold",
+        "direction": "up (first material signal; strangulation transmission partially visible)",
+        "gap_to_full_match": "Full confirmation requires T1 or multiple T2 sources with named bazaar leadership statements; current sourcing is Iran International T3 single-source with structural discount"
+      },
+      "variable_moved": {
+        "variable": "BS-1b visibility and BS-15 Iran-side first-mover threshold",
+        "prior_value": "BS-1b 10-15% (structurally opaque; 17+ null cycles); BS-15 Iran-side threshold not breached",
+        "new_value": "BS-1b: first material signal surfaced — provisional, M confidence; strangulation transmission partially visible; BS-15 Iran-side threshold: advancing but not fully breached (merchants vowing continuation vs a confirmed full closure)",
+        "driver": "Bazaar merchant shutdowns + rial collapse + oil revenue at 5% of budget (17+ null cycle break)"
+      },
+      "discounts_applied": [
+        "Iran International: -50% Iranian opposition single-source on internal politics",
+        "Scope uncertainty: 'vowed to continue shutdowns' is not a confirmed full Tehran Grand Bazaar closure — additional -30% on scope"
+      ],
+      "conflict_notes": "No direct source conflict but significant source-quality limitation. The oil-revenue budget data (5% share, lowest since 1960s) is structural economic data that corroborates the pressure narrative without requiring Iranian-internal sourcing. The bazaar-shutdown specifics are opposition-sourced and discounted. Net confidence M: provisional signal, not a full BS-1b threshold breach at H confidence. Flag for auditor: first BS-1b signal after 17+ null cycles warrants updating BS-1b status from 'structurally opaque' to 'first provisional signal surfaced; M confidence; follow at monthly cadence with T2 corroboration target.'"
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "OFAC (GL-V expiration May 24 confirmed)", "tier": 1},
+        {"name": "King & Wood, Stephenson Harwood (banking compliance analysis)", "tier": 2}
+      ],
+      "finding": "No OFAC enforcement action against major Chinese financial institutions found as of June 3. GL-V expired May 24 (confirmed); all Hengli-related transactions now fully sanctioned. International banks (Citi China, HSBC China, DBS, Standard Chartered) face a 'genuine penalty tradeoff' between OFAC and MOFCOM blocking order. MOFCOM blocking order (May 2) remains in force. No cascade fired; watch window live through approximately end of June.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Hengli-style OFAC cascade to major Chinese banks: China deal-direction dominant",
+        "framework_variable": "BS-4 Chinese support; T10 Russia-China absorption",
+        "direction": "no change",
+        "gap_to_full_match": "Named OFAC enforcement action against a major Chinese financial institution (Citi China, HSBC China, or comparable)"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict. The conflict-of-laws situation is real and instrumenting genuine penalty tradeoff; the absence of enforcement this cycle is consistent with OFAC allowing a grace window. BS-4 retirement remains deferred pending cascade resolution."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CENTCOM (T1 carry-forward; no new T1 action June 3)", "tier": 1},
+        {"name": "MSC, Al Jazeera (T2 carry-forward on Lian Star / MSC Sariska)", "tier": 2}
+      ],
+      "finding": "No new US strikes or IRGC kinetic actions on June 3. The third kinetic cycle (Lian Star Hellfire → MSC Sariska cruise missile) remains the operative Day 96 baseline. Hezbollah drone strike June 2 killed one Israeli soldier near Beaufort Castle — a Hezbollah-channel action, not a direct US-IRGC kinetic exchange. No USS Eisenhower deployment order. The Lebanon ceasefire framework (US State Dept joint statement) reduces immediate Fork C escalation pressure from the Lebanon theater. CENTCOM posture unchanged.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict. Lebanon ceasefire framework is T1 (State Dept joint statement), highly credible. The Hezbollah drone strike is T2 (IDF confirmed, Al Jazeera reporting); it falls outside the PROBE-7 US-IRGC discriminator but is relevant to T2 (Mosaic-Octopus network alive)."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "IEA (T1, carry-forward June supply disruption characterization)", "tier": 1},
+        {"name": "Commodity price tracking (T2, Brent June 3)", "tier": 2}
+      ],
+      "finding": "Brent crude at ~$96.89 June 3, recovering 0.93% from the ~$91 Day 96 low. Market pricing uncertainty: Lebanon ceasefire framework announced but Iranian MOU response not yet named; third kinetic cycle commercial-vessel modality holds elevated Fork C premium. IEA continues to characterize the conflict as 'the largest supply disruption in the history of the global oil market.' No commercial shipping restoration announcement. No Saudi surge signal. Backwardation structure unchanged.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout below $95: Fork B credibility",
+        "framework_variable": "Fork B credibility signal",
+        "direction": "no change (Brent at ~$97; below $95 threshold not sustained)",
+        "gap_to_full_match": "Sustained below $95 Brent plus commercial restoration announcement"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The $91 Day 96 low was a single-session dip now partially recovered. The lack of sustained sub-$95 Brent means no Fork B structural confirmation this cycle."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "US Department of State joint statement (US-Lebanon-Israel, June 3)", "tier": 1},
+        {"name": "Times of Israel (Knesset dissolution first reading)", "tier": 2},
+        {"name": "Al Jazeera (Knesset dissolution context)", "tier": 2},
+        {"name": "PBS News, CNN (Lebanon ceasefire framework)", "tier": 2}
+      ],
+      "finding": "Two framework-material developments: (1) Lebanon ceasefire framework — US-Lebanon-Israel joint statement (T1, State Dept) produced a conditional framework: 'complete cessation of Hezbollah fire and evacuation of all Hezbollah operatives from the South Litani Sector'; pilot zones for Lebanese Armed Forces exclusive control of all non-state actors; next talks scheduled week of June 22. This is a ceasefire TEXT — the Lebanon clause bridge candidate now has a framework document. (2) Knesset dissolution — committee 9-0 (June 1) + first plenum reading 106-0 (June 3). Coalition collapsed after Netanyahu admitted insufficient votes for Haredi draft exemption; UTJ announced dissolution intent. Elections likely September 2026. Two more readings required for passage.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Lebanon clause bridged (Netanyahu accepts sustainable Lebanon ceasefire) AND Knesset dissolution bill advancing",
+        "framework_variable": "Lebanon clause status + Israeli pre-emption window compression",
+        "direction": "mixed — Lebanon clause partially bridged (text exists; Iran not yet named as satisfied); Knesset dissolution accelerating",
+        "gap_to_full_match": "Lebanon: Iran named acceptance of the June 3 framework as satisfying 'all fronts' condition; full IDF withdrawal from Lebanon still not in the text. Knesset: two more plenary readings required for dissolution bill to pass into law."
+      },
+      "variable_moved": {
+        "variable": "Lebanon clause status",
+        "prior_value": "Contested ceasefire phase (Day 96): IDF continuing past Litani; Hezbollah non-compliant per Israeli delegation",
+        "new_value": "Ceasefire framework text exists (US-Lebanon-Israel T1 joint statement June 3); conditional on Hezbollah compliance and evacuation south of Litani; Iran's 'all fronts' resumption condition not yet named as satisfied; June 22 next talks",
+        "driver": "US State Dept joint statement; trilateral US-Lebanon-Israel framework agreement"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Lebanon framework is T1 (US State Dept joint statement) — no discount. Knesset dissolution T2 multiple outlets — no material conflict. Principal validation (Step 7b) on Netanyahu: The Lebanon framework was produced by the US State Department and Israel (Netanyahu government), meaning Netanyahu agreed to a ceasefire text that creates a path toward the Lebanon clause bridge. However, the text requires Hezbollah compliance — a condition Netanyahu coalition could use to avoid full implementation. The IDF-coalition asymmetry remains: if dissolution reaches caretaker stage, IDF authority (Zamir baseline: 'diplomatic removal acceptable') may supersede Netanyahu coalition's Lebanon-operational-freedom demand. Alternative principal: the Lebanese delegation or the US brokered the framework over Netanyahu's preferred terms; the 'pilot zones' language may be a face-saving construct Netanyahu accepted under US pressure. Discriminating: whether Netanyahu publicly endorses or contests the framework in the next 48 hours."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "NPR (House WPR passage 215-208)", "tier": 2},
+        {"name": "PBS News (House WPR passage)", "tier": 2},
+        {"name": "CNBC (House WPR passage)", "tier": 2},
+        {"name": "US News and World Report (roll call confirmation)", "tier": 2}
+      ],
+      "finding": "The House passed a War Powers Resolution 215-208 on June 3, directing Trump to end hostilities with Iran. Four Republicans voted in favor (Tom Barrett MI, Warren Davidson OH, Brian Fitzpatrick PA, Thomas Massie KY). This is the first time the House has passed a WPR to halt Iran military action in this conflict. Context: June 2 WPR failed 213-214 (three Republicans); June 3 Davidson added, pushing to 215-208. Democrats characterized it as 'mostly symbolic' — the Republican-led Senate will not pass it; Trump would veto. No roll-call detail confirming all Dem attendance.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "House WPR passes (2+ additional GOP defectors on next attempt): T9 challenged; bicameral constraint on Fork A; cross-references BS-5. Also: WPR passes simple majority: privileged resolution acts as Fork A constraint AND Israeli first-mover accelerant simultaneously (BS-15)",
+        "framework_variable": "T9 disc-ratio; Fork A legislative constraint; BS-15 Israeli first-mover accelerant",
+        "direction": "T9 disc-ratio 3:10 → 4:10 (> 1:3 threshold fires /premortem review); Fork A symbolically constrained; Israeli pre-emption incentive elevated",
+        "gap_to_full_match": "Senate passage + presidential signature (or veto-override) required for T9 falsification. House passage alone is a single-cycle discounted-contradicting event."
+      },
+      "variable_moved": {
+        "variable": "T9 Stage-2 hysteresis disc-ratio + Fork A legislative constraint",
+        "prior_value": "T9 disc-ratio 3:10; WPR failing in both chambers; Fork A symbolically unconstrained",
+        "new_value": "T9 disc-ratio 4:10; first House WPR passage in this conflict window; Fork A symbolically constrained at House level; Israeli pre-emption incentive elevated per BS-15 mechanism (WPR constrains US path → unilateral Israeli action relatively less constrained); /premortem T9-trend-rigidity review threshold fires at next /premortem",
+        "driver": "215-208 House passage; four Republican defectors; second consecutive forced vote in two days"
+      },
+      "discounts_applied": [
+        "Senate blocks certain; presidential veto certain — this is a discounted-contradicting cycle for T9 (one chamber; no veto-override path); applied to disc-ratio as discounted count",
+        "Described by Democrats as 'mostly symbolic' — informational weight reduced for T9 falsification but real for discourse/political-pressure dimension"
+      ],
+      "conflict_notes": "No source conflict — four major T2 outlets confirm passage. The key interpretive question: does House passage accelerate a deal-track (pressure on Trump) or accelerate Israeli pre-emption (symbolic US constraint amplifies Israeli 'window closing' perception)? Per BS-15 mechanism, both effects operate simultaneously. The framework prices the Israeli-first-mover-accelerant as the stronger near-term effect given the Knesset dissolution acceleration on the same cycle. A2 principal-validation note: the six-day trajectory (two forced votes; one passing) without White House corroboration of the A2 maximalist-assurance attribution further weakens the A2 reading — Trump's executive is advancing a Lebanon peace framework while the House is passing WPRs, neither consistent with a maximalist-assurance frame."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Araghchi T1 statement on ceasefire frontage", "tier": 1},
+        {"name": "US State Dept (Lebanon framework, indirect MOU relevance)", "tier": 1},
+        {"name": "Al Jazeera, Time (MOU framework background)", "tier": 2}
+      ],
+      "finding": "No named Iranian acceptance of the LOI + 30-day framework or resumption of formal mediator-channel exchanges this cycle. Araghchi's standing T1 statement ('ceasefire on all fronts including Lebanon; its violation is a violation of the ceasefire on all fronts') establishes Iran's public condition. The Lebanon-Israel ceasefire framework (State Dept joint statement June 3) creates a potential bridge: if Iran reads the conditional pilot-zone framework as a path to 'all fronts' halt, it could unlock resumed exchanges. June 22 is the next scheduled Lebanon-Israel talks session; Iran's MOU suspension likely extends through at least June 3-4 pending Lebanon outcome assessment.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian official (Araghchi T1 or Baghaei T1) accepts or rejects letter of intent + 30-day framework in named public statement",
+        "framework_variable": "Fork D' structured-deferral path; Lebanon clause bridge",
+        "direction": "no change (no named Iranian response this cycle)",
+        "gap_to_full_match": "Named Araghchi or Baghaei acceptance of Lebanon framework as satisfying 'all fronts' condition; then named LOI engagement"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict. The Lebanon framework's relationship to the MOU is indirect: Israel-Lebanon talks are a separate track from the Iran-US MOU, but Iran has explicitly linked them. The June 3 framework is a necessary but not sufficient condition for Iranian MOU resumption — Iran also demands a Gaza halt, which is not in the Lebanon framework text."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (Vahidi governance statement + Pezeshkian resignation drama)", "tier": 3},
+        {"name": "Pezeshkian public statement via IRIB/Iran International June 1", "tier": 2},
+        {"name": "US State Dept (Lebanon framework = Trump deal-direction continuing)", "tier": 1}
+      ],
+      "finding": "Vahidi direct named statement: 'In wartime, the IRGC selects leadership, not the president' (date uncertain — April or June context). Pezeshkian submitted formal resignation to Mojtaba's office May 31; publicly denied and warned of 'complete IRGC takeover of state administration' and 'deviation from official channels.' Trump executive continues deal-direction — US State Dept joint Lebanon framework is executive-produced. No Trump A1 oscillation this cycle. No Vahidi-direct statement on HEU or MOU terms.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement (partial — governance axis only); IRGC internal triangle fracture (partial — IRGC-civilian fracture, not intra-IRGC)",
+        "framework_variable": "A4 apex attribution; BS-12 PA-gap; Iran-side ratification architecture",
+        "direction": "advancing on governance axis; HEU-specific axis still unresolved",
+        "gap_to_full_match": "Vahidi-direct named statement specifically on MOU/HEU terms; or intra-IRGC triangle fracture (not IRGC-civilian)"
+      },
+      "variable_moved": {
+        "variable": "A4 apex attribution confidence (governance axis)",
+        "prior_value": "IRGC-council attribution 'increasingly validated' but HEU-specific discriminating signal absent",
+        "new_value": "Governance-axis now partially discriminated by Vahidi named statement + Pezeshkian public corroboration; HEU-specific axis still open; functional apex (Vahidi + IRGC council) validated at governance level",
+        "driver": "Vahidi named statement on wartime IRGC leadership authority; Pezeshkian public IRGC-takeover warning"
+      },
+      "discounts_applied": [
+        "Iran International: -50% Iranian opposition on Pezeshkian resignation details",
+        "Vahidi statement date uncertain; -30% recency confidence"
+      ],
+      "conflict_notes": "Principal validation (Step 7b) for A2 (Netanyahu-relayed Trump maximalist assurance): Now at 9th+ cycle without White House corroboration. Trump's executive produced a US-Lebanon-Israel ceasefire framework on June 3 — this is deal-direction, not maximalist-assurance execution. The A2 attribution is now functionally contradicted by Trump executive action; it has decayed as load-bearing. The framework should flag A2 as effectively archived at next /revise unless new White House corroboration surfaces. Discriminating question from the 5th-cycle forcing question: 'What signal would falsify A2?' — Answer: Trump executive advancing a Lebanon peace framework without acting on the alleged maximalist assurance. That signal has now fired across multiple cycles."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera (Hezbollah drone strike June 2)", "tier": 2},
+        {"name": "IDF spokesperson (confirmation of Hezbollah attack)", "tier": 1}
+      ],
+      "finding": "Hezbollah drone strike killed one Israeli soldier near Beaufort Castle June 2 (IDF confirmed T1; Al Jazeera T2). No Houthi mass launch. No new IRGC kinetic action on June 3. Qaani Bab al-Mandab warning (June 2) held at posture-threat level — no operational deployment to Bab al-Mandab confirmed. T12 reconstitution-speed amplifier continues: no new evidence this cycle but existing clusters (Day 84 US-IC; Day 88 Israeli-IC) remain operative. Iranian capabilities consistent with Slantchev feigning-weakness baseline.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Hezbollah drone strike is independent of the IRGC-direct capability probe but relevant to T2 Mosaic-Octopus: the Lebanese channel is alive and operational even as Lebanon-Israel ceasefire framework was being negotiated. This is the predicted T2 multi-channel behavior — ceasefire talks and kinetic action simultaneous."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "NPR, PBS, CNBC (House WPR passage)", "tier": 2},
+        {"name": "US State Dept (Lebanon ceasefire framework)", "tier": 1},
+        {"name": "Times of Israel (Knesset dissolution)", "tier": 2}
+      ],
+      "finding": "Three dispositional-landscape shifts this cycle: (1) House WPR passage (215-208) establishes the most institutionally anti-war signal in the conflict window — a legislative majority voted to halt hostilities; (2) Trump executive produced a US-Lebanon-Israel ceasefire framework, confirming deal-direction continues at executive level; (3) Knesset dissolution accelerating (first reading 106-0) compresses Netanyahu's pre-caretaker operational authority window. P-AIM: Iran's enrichment-cancellation-as-Phase-2-topic (Rubio Day 96) + no escalation to unlimited demands = limited aims operative. The WPR passage simultaneously constrains the US Fork A path symbolically and elevates Israeli pre-emption incentive (per BS-15: WPR as Fork A constraint AND Israeli first-mover accelerant).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority: acts as Fork A constraint AND Israeli first-mover accelerant simultaneously (BS-15)",
+        "framework_variable": "US dispositional signal; Israeli pre-emption incentive; T8 Powell amplifier",
+        "direction": "WPR constrains US Fork A (symbolic); Powell amplifier at maximum as T8 loading elevated",
+        "gap_to_full_match": "Senate passage required for binding Fork A constraint; House alone is symbolic but real for Israeli decision-maker perception"
+      },
+      "variable_moved": {
+        "variable": "US institutional dispositional signal + Israeli pre-emption incentive",
+        "prior_value": "WPR failing in House; US deal-direction executive; Israeli pre-emption Powell-loading at maximum",
+        "new_value": "House WPR passed — strongest institutional anti-war signal; US executive deal-direction holds (Lebanon framework); Israeli pre-emption window compressed by Knesset dissolution acceleration; Powell amplifier at maximum across all axes",
+        "driver": "Simultaneous: House WPR passage + State Dept Lebanon framework + Knesset dissolution 106-0 first reading"
+      },
+      "discounts_applied": [
+        "WPR 'mostly symbolic' per Democrat characterization; Senate veto certain"
+      ],
+      "conflict_notes": "The WPR passage and the Lebanon ceasefire framework on the same day create an unusual dispositional combination: the legislative branch constrains US military action while the executive branch advances a Lebanon peace framework. Both are consistent with the materialist bargaining prediction: US constraint architecture (T9 + WPR) restricts Fork A operationalization while deal-direction (Fork D') continues under executive control. Israeli decision-makers reading this combination would see: WPR symbolic but real precedent; US executive committed to deal; their own election clock accelerating. Net: T8 Powell amplifier advances."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Synthesis of PROBE-3, PROBE-9, PROBE-10 findings", "tier": 2},
+        {"name": "Iran International (bazaar closures; Pezeshkian resignation drama)", "tier": 3},
+        {"name": "Times of Israel (Knesset dissolution)", "tier": 2},
+        {"name": "NPR, PBS, CNBC (WPR passage)", "tier": 2}
+      ],
+      "finding": "Three first-mover threshold movements on a single cycle — the most complex single-cycle first-mover state in the framework window: (1) Iranian-side: bazaar closures + rial crisis + oil revenue at 5% = BS-1b first material signal in 17+ cycles; Iran-side first-mover threshold advancing (M confidence, discounted); (2) US-side legislative: House WPR passed 215-208; symbolic constraint on Fork A introduced; (3) Israeli-side: Knesset dissolution first reading 106-0, advancing rapidly. Lebanon ceasefire framework (State Dept T1) is a stabilizing signal that partially reduces Fork C pressure but does not resolve the LOI signing decision or the nuclear terms collision. Joint distribution is simultaneously narrowing on multiple axes.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds advancing simultaneously: BS-1b Iran-side; WPR US-side; Knesset Israeli-side",
+        "framework_variable": "BS-15 joint first-mover distribution; Fork resolution probability",
+        "direction": "narrowing from multiple sides simultaneously; risk of cascade if any single threshold fully breaches",
+        "gap_to_full_match": "Full threshold breach requires: Iran-side (confirmed bazaar full closure T1/T2) OR US-side (Senate WPR passage) OR Israeli-side (Knesset dissolution passing all readings AND Israeli pre-emption order)"
+      },
+      "variable_moved": {
+        "variable": "BS-15 joint first-mover architecture",
+        "prior_value": "Three co-equal forks; primary near-term risk Lebanon-clause diplomatic deadlock",
+        "new_value": "Three simultaneous threshold advances; Lebanon clause partially bridged; Iran-side first signal in 17+ cycles; Israeli window compressing via dissolution acceleration; WPR symbolic constraint introduced; Fork D' partial recovery signal (Lebanon framework) competes with Fork A/C pressure (Iran domestic + T8 maximum loading)",
+        "driver": "Single-cycle convergence of bazaar shutdowns + WPR passage + Knesset dissolution 106-0 + Lebanon ceasefire framework"
+      },
+      "discounts_applied": [
+        "Iran bazaar (PROBE-3): M confidence, -50% Iranian opposition source",
+        "WPR (PROBE-10): symbolic; Senate blocks"
+      ],
+      "conflict_notes": "The simultaneous operation of Fork D' recovery (Lebanon framework) and Fork A/C pressure (Iran domestic + Israeli window) is exactly the joint-distribution complexity the framework tracks at BS-15. No single signal is determinative; the joint pattern is what matters. The Lebanon ceasefire framework and the bazaar closures are operating at different timescales: the framework can accelerate LOI signing in days-to-weeks; bazaar closures operate on weeks-to-months timeline. The Knesset dissolution operates on a September-October election timeline. These timescales do not converge in a single forcing event but compound pressure on each actor's decision calculus."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Kremlin.ru (May 8 Lukashenko dinner, May 9 Victory Day parade)", "tier": 1},
+        {"name": "TASS (May 9 foreign leader meetings)", "tier": 2}
+      ],
+      "finding": "May 2026 confirmed Putin public appearances: May 8 (dinner with Belarusian President Lukashenko) and May 9 (Victory Day parade + bilateral meetings with Slovak PM Fico, Malaysian King Sultan Ibrahim, Lao President Thongloun Sisoulith, plus Abkhazia and South Ossetia presidents). If May 8 counts as a 'public appearance,' May = 2 (at threshold, not below). If May 8 is scored as a private dinner, May = 1. Day 96 count was 'May = 1; June = 0.' April data: April 24 and April 27 referenced but full count not confirmed. BS-9.3 threshold (3 consecutive months <2/month) is not confirmed as firing with available data.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-9.3 fires: Putin <2 public appearances/month for 3+ consecutive months",
+        "framework_variable": "BS-9 Russian siloviki cohesion; M3 incapacity cascade probability",
+        "direction": "no change (threshold not confirmed)",
+        "gap_to_full_match": "Confirmed April 2026 full appearance count; June 2026 final count; determination of whether May 8 Lukashenko dinner counts as 'public appearance'"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Day 96 SITREP stated 'May = 1; June = 0; April count unconfirmed.' This sweep found May 8 (Lukashenko dinner) AND May 9 (Victory Day parade). If both count, May = 2, which does NOT meet the <2 threshold. The Day 96 'May = 1' count was apparently based on May 9 Victory Parade only. The May 8 Lukashenko dinner finding changes the May count to 1 or 2 depending on definition. Flag for next PROBE-17: clarify whether private bilateral dinners count as 'public appearances' in the BS-9.3 probe spec. Current assessment: BS-9.3 threshold NOT confirmed as firing; April full count is still the critical variable."
+    },
+    {
+      "probe_id": "PROBE-18",
+      "probe_name": "Eschatological Multi-Tradition Convergence",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Jerusalem Post (Temple Mount prayer pages allowed)", "tier": 2},
+        {"name": "JPost (Knesset legislation on Noble Sanctuary)", "tier": 2}
+      ],
+      "finding": "Tier-2 Jewish-tradition eschatological indicators active: Israeli police allowed prayer pages onto the Temple Mount for the first time in years; Knesset members introduced legislation to force 'the Noble Sanctuary open to Jewish prayer and impose full Israeli control.' No Mahdist invocations in Iranian leadership speeches this cycle. No Hajj incidents in final days (Hajj closing). No ISKP eschatological framing attacks. Single-tradition Jewish activation only — no convergence event. However, the double Tier-2 accumulation (police access relaxation + draft legislation) is advancing toward the Tier-1 threshold.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-16 Tier-2 events: Ben-Gvir announcement of synagogue construction; Knesset legislation formalizing Jewish prayer rights on Temple Mount",
+        "framework_variable": "BS-16 eschatological convergence; T5 PENDING",
+        "direction": "advancing within Tier-2; no Tier-1 fire",
+        "gap_to_full_match": "Tier-1 requires: Knesset legislation PASSING and formalizing Jewish prayer rights (not just introduction); or rabbinical permission for a prayer ceremony (not just pages); or full Israeli control legislation enacted"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Single-tradition activation — no convergence multiplier applicable (convergence requires 3+ traditions)"
+      ],
+      "conflict_notes": "Flag for auditor: the double Tier-2 accumulation (police access + draft legislation in the same cycle, during the Knesset dissolution period) warrants an audit note on whether the BS-16 monitoring frequency should be elevated from monthly to weekly given the advancing legislative environment. The Knesset dissolution may paradoxically create a window for hardline legislation to advance quickly before the new government forms."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Axios (Gulf state leaders 'stunned' by Abraham Accords demand)", "tier": 2},
+        {"name": "NPR, NBC News (expert assessment of Accords demand unrealism)", "tier": 2}
+      ],
+      "finding": "No named MBS, MBZ, or Tamim public response to Trump's Abraham Accords 'mandatory' demand through June 3. Gulf leaders were reportedly 'stunned, with silence on the line' (Axios T2 via unnamed US official); Trump 'joked and asked if they are still there.' Expert assessment (NPR, NBC T3): not realistic for Saudi Arabia or Qatar to sign Accords without a Palestinian state pathway. The Lebanon ceasefire framework (US State Dept June 3) reduces the immediate US-military-action risk that was the primary Gulf brake motivator; Gulf brake pressure temporarily lower as deal-direction advances. No intra-troika divergence. No Pakistan named output post-May 24 departure.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "MBS public rejection of Abraham Accords demand: accommodation pathway fractures; Gulf brake structural-fracture test",
+        "framework_variable": "BS-18 Gulf brake durability; Fork B-multilateral via Gulf pathway",
+        "direction": "no change (continued silence; reading: processing, not refusal-confirmed)",
+        "gap_to_full_match": "Named MBS/Tamim public statement on Abraham Accords demand; or Rubio/State adopting 'mandatory' framing"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Axios 'unnamed US official' on Gulf leaders being 'stunned': -50% anonymous-source discount; sourcing is US-official cluster, not direct Gulf read"
+      ],
+      "conflict_notes": "The Eid government holiday (through May 31) has passed; Gulf states are now in their normal operational rhythm. The continued silence post-Eid is now more informative than during the Hajj+Eid calendar constraint. Two readings remain live: (A) MBS is refusing-in-formation (sincere-ultimatum reading — cannot accept without Palestinian state pathway); (B) MBS is processing the demand as leverage play and preparing a conditional response. The Lebanon ceasefire framework reduces the urgency of the Gulf brake mechanism (the military-action risk was the primary lever); if LOI advances, the Accords demand may be quietly deprioritized. Discriminating: MBS public statement on the Accords demand OR Rubio/State adopting 'mandatory' language."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (Pezeshkian resignation + IRGC takeover warning)", "tier": 3},
+        {"name": "Pezeshkian public statement June 1", "tier": 2}
+      ],
+      "finding": "P-INFO advancing: Pezeshkian's public warning that 'key parts of power were now under control of a group of Revolutionary Guard commanders' and that 'state administration had practically deviated from official channels' is a visible executive-exclusion signal consistent with Paine's information-pathology mechanism — the apex's information environment is being managed by survival-driven IRGC control, not by the elected government channel. P-AIM: Iran's acceptance of enrichment cancellation as Phase 2 topic (Rubio Day 96) + bazaar closures beginning = limited aims operative but strangulation pressure potentially compressing the bargaining range. P-DG: no US targeting of named Iranian principals this cycle. P-OVEX: Hezbollah operational (drone strike June 2) but no PMU or Houthi mass launch; cross-channel self-amputation not confirmed.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "P-INFO fires: accurate-critic purge or named sycophant elevation at apex confirmed",
+        "framework_variable": "L5 PA-gap mechanism; Fearon information-pathology boundary condition",
+        "direction": "advancing (Pezeshkian visible exclusion from apex; IRGC information monopoly partially visible)",
+        "gap_to_full_match": "T2 corroboration of specific purge or advisor-exclusion from Vahidi/IRGC-council apex decision-making; current Pezeshkian warning is at the elected-president level, not the apex advisory level"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Iran International: -50% Iranian opposition on Pezeshkian resignation details"
+      ],
+      "conflict_notes": "The P-INFO signal is suggestive but below trigger threshold: Pezeshkian is the elected president being excluded from IRGC-council apex access; the Paine mechanism specifically targets accurate-advisor exclusion AT the apex level (i.e., within the IRGC council itself, between Vahidi and his senior officers). Pezeshkian being excluded from the apex is consistent with the framework's A4 reading (IRGC council IS the apex; civilian government is structurally excluded). This is P-INFO at the institutional level, not the individual-advisor level. Flag for auditor: consider adding explicit institutional-exclusion indicator to P-INFO probe spec."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-2", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "A4 apex attribution governance-axis discrimination"},
+      {"probe_id": "PROBE-3", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "BS-1b first provisional signal; BS-15 Iran-side threshold advancing"},
+      {"probe_id": "PROBE-6", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-7", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-8", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-9", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Lebanon clause status -> framework text exists; Knesset dissolution -> first reading 106-0"},
+      {"probe_id": "PROBE-10", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "T9 disc-ratio 3:10 -> 4:10 (> 1:3; /premortem flag); Fork A symbolic constraint; Israeli first-mover accelerant elevated"},
+      {"probe_id": "PROBE-12'", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-13", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "A4 governance-axis partially discriminated; A2 attribution effectively archived"},
+      {"probe_id": "PROBE-14", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-15", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "US institutional dispositional signal (WPR); Israeli pre-emption incentive elevated; T8 Powell maximum"},
+      {"probe_id": "PROBE-16", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "BS-15 joint distribution: 3 simultaneous threshold advances; most complex single-cycle first-mover state in window"},
+      {"probe_id": "PROBE-17", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-18", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-21", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null}
+    ],
+    "fired_count": 7,
+    "partial_count": 10,
+    "null_count": 0,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "House WPR passes (2+ additional GOP defectors on next attempt): T9 challenged; bicameral constraint on Fork A; Israeli first-mover accelerant simultaneously",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "T9 disc-ratio log + BS-5 + BS-15",
+        "edit": "T9 disc-ratio increments 3:10 -> 4:10; ratio now > 1:3 threshold — fire /premortem trend-rigidity review for T9 at next /premortem run. T9 VALIDATED status holds (Senate blocks; presidential veto certain; falsification requires both chambers + veto-override); this is a discounted-contradicting cycle, not a demotion. BS-5: add 'June 3 House WPR passage 215-208 (four GOP defectors: Barrett, Davidson, Fitzpatrick, Massie)' as the first House WPR passage in this conflict window. BS-15: WPR passage elevates Israeli first-mover accelerant — US Fork A symbolically constrained increases relative Israeli pre-emption value."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Knesset dissolution bill advancing (committee 9-0 + first reading 106-0): election horizon approaching lock; Netanyahu pre-emption incentive elevating",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-3 Israeli internal politics + T8 Powell amplifier",
+        "edit": "Knesset dissolution advanced from 'preliminary reading only' to 'committee 9-0 (June 1) + first plenary reading 106-0 (June 3).' Coalition collapse driven by Haredi draft exemption vote failure; UTJ announced dissolution intent. Requires two more plenary readings for passage. Election likely September 2026. T8: Powell amplifier advance — Netanyahu's pre-caretaker operational authority window compressing as dissolution accelerates; post-caretaker IDF authority (Zamir baseline) may supersede Netanyahu coalition's Lebanon-operational-freedom demand. Add to BS-3 framework-revision-trigger watch: trigger fires when second plenary reading passes."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Lebanon ceasefire framework text produced (US-Lebanon-Israel T1 joint statement): Lebanon clause bridge candidate operationalized",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§A23 Lebanon clause status + BS-11 + Fork D' tracking",
+        "edit": "Lebanon clause status updated: 'contested ceasefire phase' (Day 96) -> 'conditional ceasefire framework text exists (US-Lebanon-Israel joint statement June 3); Hezbollah compliance and south-Litani evacuation required for implementation; pilot zones for Lebanese Armed Forces agreed; next talks June 22.' Iran's 'all fronts' resumption condition not yet named as satisfied. Fork D' partial recovery signal: if Iran invokes the June 3 framework as satisfying its condition, the MOU suspension lifts and LOI engagement can resume. The Lebanon clause is partially bridged (text exists; not fully operationalized). June 22 talks are the subsequent discriminating event."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Tehran Bazaar strike or closure (first signal): Strangulation timeline advancing; BS-1b activates; BS-15 Iran-side threshold advancing",
+      "source_probe": "PROBE-3",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-1b + BS-15 Iran-side threshold",
+        "edit": "BS-1b status update: first material signal after 17+ null cycles. Iran International T3 reports bazaar merchant shutdowns continuing ('vowed to continue'); nationwide protests and strikes; oil revenue at 5% of budget (lowest since 1960s). Confidence M (single Iran International source, -50% opposition discount, partial-scope uncertainty). Not a confirmed full Tehran Grand Bazaar closure. BS-15 Iran-side first-mover threshold: advancing but not breached (provisional signal; requires T1/T2 corroboration for full activation). Flag for auditor: update BS-1b from 'structurally opaque' to 'first provisional signal surfaced; M confidence; escalate monitoring frequency.' Strangulation timeline compressing."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Vahidi direct named statement (partial — governance axis): IRGC-council apex attribution advancing",
+      "source_probe": "PROBE-2",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "A4 + BS-12 + principal-validation log",
+        "edit": "A4 governance-axis: Vahidi named statement 'In wartime, the IRGC selects leadership, not the president' + Pezeshkian public IRGC-takeover warning provide partial discriminating evidence for IRGC-council-as-functional-apex attribution. Does not resolve the Vahidi-direct-HEU axis. Update A4 at next /revise: 'governance-axis validated by Vahidi named statement (June context, date uncertain) and Pezeshkian public corroboration; HEU-specific axis still requires Vahidi-direct-named MOU/HEU statement.' A2 principal-validation: effectively archived — Trump executive advanced Lebanon framework while A2 maximalist assurance remained uncorroborated (9th+ cycle; discriminating question from 5th-cycle forcing question answered by Trump executive action); update A2 at next /revise to 'historical; no longer load-bearing.'"
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "P-INFO advancing: institutional-exclusion of elected government from apex access visible",
+      "source_probe": "PROBE-21",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "PROBE-21 P-INFO sub-signal spec",
+        "edit": "Add explicit 'institutional-exclusion indicator' to P-INFO probe spec: 'President or elected-government channel publicly excluded from apex decision-making (distinct from individual-advisor removal — this is structural institutional exclusion via IRGC-council access control).' Pezeshkian's public statement is the first visible institutional-exclusion signal of this type. Also note: the Pezeshkian IRGC-takeover warning is a T1-adjacent signal (president speaking publicly) that deserves higher sourcing confidence than generic Iran International opposition framing — apply -25% (not -50%) discount when the account is the subject's own public statement."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+  "gap_log": [],
+  "calibration_check": {
+    "trend_state_question": "SINGLE CYCLE CONTRADICTION (T9): House WPR passed 215-208; T9 disc-ratio 4:10 > 1:3 threshold fires /premortem trend-rigidity review for T9. T9 remains VALIDATED — Senate blocks, veto expected, T9 falsification requires both chambers + veto-override. The disc-ratio threshold requires flagging for /premortem but does NOT warrant demotion on single-cycle evidence per the symmetric-demotion rule (needs 2+ independent cycles of contradicting evidence at the level that reaches falsification, not just one chamber). No other trend-state transitions warranted. T5 PENDING holds (Hajj final days; Temple Mount Tier-2 only). T6 hold (BS-9.3 April/May count ambiguity unresolved).",
+    "thesis_question": "HOLDING. The v4.0 central thesis holds and is confirmed across the single most complex cycle in the framework window. Under joint constraints: the House passed a WPR (T9 constraint architecture operating as predicted); Israel advanced Knesset dissolution (T8 Powell amplifier operating); Iran's bazaar closures surfaced (L3 time-arithmetic + BS-1b operating); the Lebanon ceasefire framework materialized (L4 faction architecture operating through State Dept). No single actor designed this combination. Each outcome is the dominant strategy under its constraint layer. The framework predicted the mechanics; the actors selected. Thesis HOLDING. Multiple converging stress tests do not break the thesis but indicate the 30-day window is at peak forcing-function density: Fork D' partial recovery (Lebanon framework) competes with Fork A/C pressure (Iran domestic strangulation + T8 maximum loading + T9 WPR symbolic constraint elevating Israeli incentive). The most determinative near-term signal remains whether Iran invokes the Lebanon framework as satisfying its 'all fronts' condition to resume MOU exchanges."
+  }
+}
