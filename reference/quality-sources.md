@@ -1,3 +1,21 @@
+## Source-Independence Discipline (added 2026-05-22 via /premortem)
+
+The tier ladder below rates *outlet quality*, not *source independence*. Multi-outlet pickup of the same originating reporter or the same anonymous source cluster is not independent confirmation; it is cluster-laundering. The Day 84 Mojtaba HEU-stays directive was the canonical near-miss: Haaretz lead, Reuters via geo.tv / Al Arabiya / Daily Sabah / Times of Israel — all T2 outlets, all picking up the same "senior Iranian sources" reporting cluster. Five outlets, one source cluster, M confidence at best.
+
+**Provenance rules:**
+
+1. **Originating reporter / outlet identification.** For each multi-source claim, identify the originating reporter and outlet. If all downstream T2 pickups cite the same originating reporter, count as one source for confidence purposes, regardless of outlet count.
+2. **Anonymous-source identity.** "Anonymous senior Iranian sources," "two US officials," "senior Israeli officials" are treated as a single source until at least two outlets independently produce distinct named or distinct-cluster anonymous attribution. Multi-outlet pickup of the same anonymous cluster does not satisfy this.
+3. **Standing discount on anonymous T2 clusters.** Apply -50% confidence on the originating claim regardless of how many outlets pick it up. The discount mitigates partially on (a) two genuinely independent anonymous clusters reporting the same finding, or (b) at least one named-source corroboration.
+4. **Source-cluster log.** Sweeps must record the originating reporter/outlet for each anonymous claim in the `discounts_applied` field. When the same originating cluster appears in 3+ cycles, flag for `/premortem` source-cluster-collapse review.
+5. **Replacement-attribution provisional-from-inception (added 2026-05-27 via /premortem; Mitigation 2).** When a named-principal commitment is retired under rules 1-4 and a replacement attribution is proposed at the same cycle, the replacement is granted **no halo** from the discipline event. Evaluate the replacement against rules 1-4 independently: if it rests on a single originating cluster (one outlet's framing carried across pickups, or one anonymous source cluster, or a single Tier-3 analytical cluster), the replacement enters at **L confidence, provisional from inception**, not at M with default trust. M confidence requires at least one independently-sourced corroborating cluster from a distinct intelligence ecosystem, outlet ecosystem, or named-source layer. Canonical near-miss: the v4.2 A4 re-identification (Mojtaba → IRGC military council) retired the 5-outlets-1-cluster Mojtaba HEU attribution under rule 3 but entered the IRGC-council replacement at M on a single Iran International T3 + WSJ-sourced cluster; the replacement-attribution discipline now requires the IRGC-council attribution to be carried at L until a second-cluster intelligence-ecosystem corroboration arrives. The discipline catches input cluster-laundering; this rule prevents the *substitution* from inheriting halo confidence the discipline never granted.
+
+**Persian-language source priority elevation.** The English-language ladder systematically under-instruments Iranian internal politics. PROBE-3's 14+ consecutive gap cycles is a structural failure surface, not "accept opacity." Where English-language sources are silent on Iranian internal dynamics, attempt Persian-language acquisition via Radio Farda Persian service, IRNA, Tasnim, Fars (read against the grain), and alanchand.com for rial parallel rates before declaring `gap`. Note translation provenance in the finding card.
+
+**Quality-tier coverage for Iranian internal:** Iran International, IranWire, Radio Farda, Persian-language primary sources (IRNA, Tasnim, Fars, alanchand.com), Karim Sadjadpour, Afshon Ostovar. Single-source claims from any one of these still carry -50% discount; cross-source confirmation across exile + diaspora + state-aligned sources required for H confidence.
+
+---
+
 ### 1. Kinetic Strategy & OSINT (Nielsen Lens)
 - **War on the Rocks**: https://warontherocks.com/
 - **Institute for the Study of War (ISW)**: https://www.understandingwar.org/
@@ -9,6 +27,7 @@
 - **Logic of War**: https://www.logicofwar.com/
 - **Mind-War**: https://www.mind-war.com/
 - **The War Zone (The Drive)**: https://www.thedrive.com/the-war-zone/
+- **S.C.M. Paine — Grand Strategy Corpus** — continental/maritime power, war-termination, limited/unlimited aims, information pathology, dictator-miscalculation. Primary nodes: "By Land or by Sea," *Foreign Affairs* Sep/Oct 2025; "Concepts to Navigate the Second Cold War," Federation of Norwegian Industries, May 2026; Noahpinion interview Jan 2024; Dwarkesh lecture series 2025. **Discount rule:** use Paine for *mechanism* (death ground, info pathology, overextension, aim-class); quarantine the democracy/autocracy teleology ("no non-military solution to dictators") — it would hard-code Fork A and suppress Fork D'. See `reference/paine-doctrine-iran-application.md`.
 
 ### 2. Structural Power & Realpolitik (Vexler Lens)
 - **GZero Media (Ian Bremmer)**: https://www.gzeromedia.com/

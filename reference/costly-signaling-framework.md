@@ -256,3 +256,11 @@ These failure modes are why the 30-day MOU must include explicit commitment devi
 7. **The 2026 Iran war timeline reported here reflects events through early May 2026 as of the May 7 cutoff.** Events evolve; recommendations are conditional on the current ceasefire holding and the framework MOU process continuing.
 
 8. **Powell's commitment problem under shifting power may matter more than the framework treats.** If US/Israeli decision-makers believe Iran is weak now and will recover, a "bargain now" preference produces war preference rather than deal preference, even with full information. Watch for Israeli signaling that the window of opportunity is closing.
+
+---
+
+## Cross-Reference: Paine Death-Ground as Boundary Condition
+
+Per `reference/paine-doctrine-iran-application.md` §1: Paine's death-ground concept is the boundary condition where Fearon-Slantchev predictions break. Slantchev (2003): war ends when warfare loses informational content. **The exception:** when a leader personally faces annihilation for backing down, the bargaining range can be *empty* regardless of information revealed — no settlement the adversary will offer beats fighting on for that leader individually. US targeting of named Iranian principals converts a bargaining problem into a personal-survival problem for the apex decision-maker.
+
+**Diagnostic test:** divergence between kinetic-exchange information content (converging, per Slantchev convergence principle) and demand-set trajectory (hardening, per Paine death-ground) is the framework's Fearon-failure indicator. If Iranian official terms harden *after* strikes rather than converging (P-DG2 per Appendix B PROBE-21), signaling theory has stopped predicting termination and Paine's aim-class determination becomes load-bearing. See PROBE-21 for the operational signal set.

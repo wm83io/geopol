@@ -79,6 +79,16 @@ Apply before scoring. When sources conflict, report the conflict explicitly — 
 | Anonymous "sources familiar" (outlet without track record) | −50% confidence |
 | Polymarket / prediction market | signal, not gospel — weight as one analytical source |
 
+### Step 3b — Source-provenance trace (mandatory for every multi-outlet anonymous claim)
+
+Tier ladder rates outlet quality, not source independence. Multi-outlet pickup of one anonymous cluster = one source. Record in `discounts_applied`:
+
+1. **Originating reporter/outlet.** Who broke it; which are wire-pickups.
+2. **Cluster identity.** "Anonymous senior X sources" across 5 outlets = 1 cluster.
+3. **Independence test.** Genuinely distinct anonymous clusters (different sourcing language, different outlet ecosystems) → partial mitigation of -50% discount. Same cluster → full discount applies regardless of outlet count.
+
+Same originating cluster in 3+ cycles without distinct corroboration → flag for `/premortem` source-cluster-collapse review. Canonical near-miss: D84 Mojtaba HEU (5 outlets, 1 cluster).
+
 ### Step 4 — Score the finding
 
 Assign:
@@ -99,39 +109,32 @@ If a probe fires a framework revision trigger: flag immediately, do not defer. R
 Appendix A revision and assign urgency (`immediate` / `next cycle` / `next audit`). The auditor skill
 consumes this via the trigger digest.
 
-### Step 7 — Reference-trend cross-check (MANDATORY for every fired trigger)
+### Step 7 — Reference-trend cross-check (mandatory for every fired trigger)
 
-For every probe that fires (status `fired` or trigger digest entry generated), name which trend in
-`reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply the discipline:
+Name which trend in `reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply:
 
-- **Finding advances a VALIDATED trend:** standard trigger digest entry; no special handling.
-- **Finding holds a VALIDATED trend:** standard trigger digest entry; note the consistency in the
-  finding card's `conflict_notes` field if surprise was high or counter-hypothesis was live.
-- **Finding contradicts a VALIDATED trend on single-cycle evidence:** flag in trigger digest as
-  `urgency: next_audit` regardless of operational urgency; require multi-cycle confirmation before
-  proposing the BS mechanism revision the contradiction would imply. Log the divergence in the
-  finding card's `conflict_notes` with a one-line citation of which trend and which reference
-  source predicted the opposite. Do NOT propose mechanism revisions to Appendix A on the basis
-  of single-cycle contradiction of a VALIDATED trend.
-- **Finding contradicts a VALIDATED trend on multi-cycle evidence (this cycle + at least one prior
-  cycle):** elevate to `urgency: immediate`; propose the trend-state transition (VALIDATED →
-  CONTESTED) in the trigger digest; this becomes an audit-cycle item that may also justify a BS
-  mechanism revision.
-- **Finding closes a PENDING-trend instrumentation gap:** flag in trigger digest for audit
-  promotion of the trend to VALIDATED.
+| Finding type | Action |
+|---|---|
+| Advances VALIDATED | Standard trigger digest entry |
+| Holds VALIDATED | Standard entry; note consistency in `conflict_notes` if counter-hypothesis was live |
+| Contradicts VALIDATED, single-cycle | `urgency: next_audit` regardless of operational urgency; cite trend + reference source in `conflict_notes`; do NOT propose BS revision |
+| Contradicts VALIDATED, multi-cycle (this cycle + ≥1 prior, or 2+ independent clusters in one cycle) | `urgency: immediate`; propose trend-state transition (VALIDATED → CONTESTED) |
+| Closes PENDING-trend instrumentation gap | Flag for audit promotion of trend to VALIDATED |
 
-The rule exists because the Day 77 → Day 83 sequence demonstrated that single-cycle ISW analytical
-evidence (tier-3 single-source) produced a BS-12 "apex-veto" mechanism revision against T3
-Fearon-Slantchev prediction; Day 83 Vahidi silence-break confirmed the trend, not the revision.
-Six cycles of mis-stated PA-gap mechanism resulted. This step blocks the failure mode.
+Canonical failure case the rule prevents: D77 BS-12 "apex-veto" revision against T3 on single-cycle ISW tier-3 evidence; corrected D83. Six cycles of mis-stated PA-gap mechanism resulted.
 
-Add a `reference_trends` array to the sweep JSON's `sweep_metadata` block listing the trends
-relevant to this cycle and the cycle's net effect on each (`advance` / `hold` / `contradict_single`
-/ `contradict_multi` / `close_pending_gap`).
+Add `reference_trends` array to sweep JSON `sweep_metadata` listing relevant trends and net effect (`advance` / `hold` / `contradict_single` / `contradict_multi` / `close_pending_gap`).
 
----
+### Step 7b — Principal-validation cross-check (mandatory for fired triggers involving named principals)
 
-## Probe Rotation and Frequency
+Principal IDs (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin) are inherited from media framing. For each fired trigger attributing a decision to a named principal, record in `conflict_notes`:
+
+1. **Alternative principal hypothesis.** Who else could be deciding? Examples: Mojtaba HEU → SNSC / Ali Khamenei / IRGC vertex; Trump A1 → unmodeled driver (financial exposure, family, classified intel); Netanyahu Penetration → IDF chief Zamir / Mossad.
+2. **Discriminating evidence.** What signal distinguishes the named principal from the alternative? "Behavior consistent with X having decided" = curve-fitting, not validation.
+3. **Confidence note.** No discriminating evidence this cycle → mark as `inherited, not validated this cycle`. 4+ consecutive such cycles on a load-bearing principal → flag `/premortem` wrong-principal review.
+4. **Action-routing on 5th consecutive cycle (added 2026-05-27 via /premortem; Mitigation 1).** When the same principal-validation flag reaches its 5th consecutive cycle without discriminating evidence, the sweep must produce, in the same finding card's `conflict_notes`, an explicit **discriminating-evidence forcing question for the next cycle**: "What signal in the next cycle would falsify the current attribution?" Concrete and named, not "more evidence." The next `/audit` must then stage a synthesis manifest demoting the attribution to provisional, not re-flag for a 6th cycle. "Flagged for /premortem" is not an indefinite holding state; the 5th-cycle threshold converts the flag to a routed action (forcing question this cycle + manifest at next audit). Canonical case: A2 Netanyahu-relay and A4 Vahidi-direct-HEU absence reached this threshold on Day 90 and were staged at `synthesis/staging/v4-3-principal-validation-manifest.md`.
+
+The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent, and it requires routing the absence into structural change once the 5th-cycle threshold trips.
 
 Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
 
@@ -168,6 +171,12 @@ Produce three artifacts after all probes complete. Formats are defined in `probe
 - Do not exceed 5 search calls per probe. If signal is not found, log `gap` and move on.
 - Do not let probe runs become news summaries. Stay keyed to the specific framework variable. If
   unrelated big news surfaces, note it for the auditor and continue.
+- **Do not treat multi-outlet pickup as independent confirmation without provenance.** Cluster-laundering
+  (one originating reporter, multiple downstream pickups) is not multi-source. The discount applies
+  to the originating cluster, regardless of outlet count. See Step 3b.
+- **Do not treat principal identification as settled on inherited framing alone.** When a fired trigger
+  attributes a decision to a named principal, the alternative-principal hypothesis is required in the
+  finding card's conflict_notes. See Step 7b.
 
 ---
 

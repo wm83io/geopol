@@ -85,13 +85,13 @@ Supersedes `day-{N-2}` · {top-2-or-3 vectors with direction, e.g. Decapitation 
 
 Rows: 6-10. One row per dimension that moved this cycle. Direction column uses `NEW`, `↑`, `↓`, `HELD`, `stable`, or specific numeric ranges (e.g. `18-25% → 10-18%`). Driver column ≤ 12 words.
 
-**Cumulative-escalation read.** One line immediately after the table. Carries the Kinetic Escalation Composite plus the dominant non-escalation path. Format:
+**Leading-primitive read.** One line immediately after the table. Carries the two highest-probability primitives by direction (escalation-leading and non-escalation-leading), not a composite. Format:
 
-> Cumulative escalation: X-Y% over 30 days, X-Y% over 12 months. Dominant non-escalation path is {Fork B / Fork D' / other} at Z-W%, {one short qualifier on direction since last cycle}.
+> Leading primitives: Fork A {X-Y% / 30d}, Fork D' {X-Y% / 30d}. Highest-delta this cycle: {fork name} {direction}. None-of-above floor: {Z%}.
 
-The composite is recomputed each SITREP from the then-current synthesis matrix (Fork A primitive + Fork C primitive + conflict-leading tail register entries; Variants A/B absorbed as Fork A trigger paths, not added; Fork D' deferral excluded). It is a communication aid, not an analytical primitive; the analytical text in sections 3, 4, and 7 references primitives, not the composite.
+The Kinetic Escalation Composite is no longer reported in the Executive Summary (added 2026-05-22 via /premortem; composite was becoming the analytical object and obscuring primitive movement). The composite is computed in Section 5 as a footnote line for continuity with prior SITREPs.
 
-No prose section between the cumulative-escalation read and Section 1.
+No prose section between the leading-primitive read and Section 1.
 
 ---
 
@@ -211,17 +211,26 @@ If nothing new meets the threshold, omit this section.
 
 ### Section 5 — Revised Probability Matrix
 
-Table format. Include only rows where probability moved this cycle or where a new outcome was added. Always include a delta column.
+Two matrices, separate cadences (v4.2 split).
+
+**5a. 30-day matrix (cycle-Bayesian; every SITREP).** Deltas only — rows that moved this cycle or new outcomes.
 
 ```
-| Outcome | 30 days | 12 months | vs. last SITREP | Driver |
-|---------|---------|-----------|-----------------|--------|
-| ...     | X-Y%    | X-Y%      | up/down/stable  | one line |
+| Outcome | 30 days | vs. last SITREP | Driver |
 ```
 
-Do not reprint the full matrix unchanged. Deltas only. Ranges, not point estimates.
+**5b. 6/12-month matrix (structural-prior; updates only on trend-state transitions, L1-L5 constraint shifts, or major-version increments — never on operational events).** Reprint unchanged with last-updated date.
 
-If a primitive (Fork A, Fork C, or any conflict-leading tail component) moved this cycle, recompute the Kinetic Escalation Composite and report the new value in the Executive Summary composite line. The composite is derived, not a primitive; do not report a composite delta alone without the underlying primitive delta that drove it.
+```
+| Outcome | 6 months | 12 months | Last updated | Driver |
+```
+
+**Rules:**
+- **15pp range cap.** Wider = undecompose (split row) or hedge (tighten). No widening as epistemic humility.
+- **"None of the above" row mandatory.** Non-zero floor: 5-10% on 30d; 10-15% on 6/12m.
+- **Fork D' decomposition.** If >30% on 30d sustained 4+ cycles, decompose into named variants at next SITREP. "Deferral" is not a primitive at that mass.
+- **Fork D' pre-staging (added 2026-05-27 via /premortem; Mitigation 4).** When the Fork D' midpoint has crossed 30% on 2 of the last 4 cycles (i.e., the decomposition trigger is in approach but not yet fired), the SITREP must include, immediately after the 30-day matrix table, a **Candidate decomposition** sub-block listing 3-5 named Fork D' variants the framework would adopt if the trigger fires next cycle. Format: bulleted list, one line per candidate, each naming (a) the deferral mechanism, (b) the named principal whose selection makes it the operative variant, (c) the discriminating signal that would pick this variant over the others. The candidates are not adopted as the primitive yet; they are pre-thought so that the next firing can adopt rather than improvise under cycle pressure. Once decomposition fires, the adopted variant table replaces the candidate sub-block. Canonical case: Day 90 Fork D' 32% midpoint (3 of 4 cycles above 30%; Day 87 below) approached the trigger; pre-staging would have produced candidates such as (i) LOI signed within 7d with Lebanon clause deferred, (ii) LOI signed with Lebanon clause bridged via post-caretaker Zamir baseline, (iii) LOI deferral via Iranian non-acceptance with talks continuing past 7d, (iv) LOI signed with Lebanon clause unresolved and breaks within 30d, (v) LOI deferral via diplomatic-spoiler collapse into Variant B.
+- **KEC = Section-5 footnote**, never Executive Summary headline. Prefix `[DERIVED]` + construction formula. Never aggregate Fork D' into KEC.
 
 ---
 
@@ -264,60 +273,30 @@ Footer: `*Compiled {date} | Day {N} | Subject to revision as data updates*`
 - Direction arrows in tables: use `↑ ↓ → ←` literals, not ASCII (`->`).
 - En-dash (`–`) only inside probability ranges (`28–38%`) and date ranges (`May 24–29`).
 
-### Methodological discipline (from DELTASITREP, 2026-05)
+### Methodological voice discipline
 
-**This is a correction, not a refinement.** Prior outputs drifted into teleological framing where the constraint architecture itself becomes the subject of choice verbs. This is psychohistory voice and it falsifies the model. The framework is a materialist substrate that imposes constraints and weights decision pathways via Bayesian priors in a game-theoretic setting. Agents under the framework remain choosers. The framework predicts the relative ranking of options under the constraint surface; it does not predict selection. Selection remains an event.
+The framework is a materialist substrate that ranks options under constraints; actors select. Substrate-as-agent voice (the architecture / constraint set / framework / substrate as subject of choice verbs) falsifies the model. The framework does NOT predict selection.
 
-**Forbidden constructions (substrate-as-agent / psychohistory voice):**
+**Forbidden:** "the architecture selected/composed/innovated/closed/opened/chose"; "the constraint set produced/engineered"; "the framework constructs/builds/resolves"; "no principal chose this; X did it instead"; any verb of intention/agency where subject = substrate/architecture/constraint set/framework/system.
 
-- "The architecture selected / composed / innovated / closed / opened / chose..."
-- "The constraint set composed / produced / engineered..."
-- "No principal chose this; X did it instead..."
-- "The framework constructs / builds / resolves..."
-- "The architecture is composing toward..."
-- "What the architecture selected as resolution mechanism..."
-- Any verb of intention or agency whose subject is the substrate, the architecture, the constraint set, the framework, or the system.
+**Required:** "Under constraint X, the relative cost-benefit of pathway Y improves..."; "Constraints compress the choice set; {actor} selects within it"; "Y becomes dominant under joint constraints (A, B, C); selection by {actor} remains contingent"; "Signal cluster X tightens the prior on Y."
 
-**Required constructions (constrained-agent / game-theoretic voice):**
+**"Architecture" as noun is valid** ("alliance architecture," "principal-access architecture"). As subject of intention verb is forbidden.
 
-- "Under constraint X, the relative cost-benefit of pathway Y improves against Z..."
-- "Constraints compress the principal choice set; principals select within it..."
-- "Pathway Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent..."
-- "The framework predicts the ranking of options under the constraint surface; it does not predict selection."
-- "Option Y moves from sub-dominant to dominant when constraint Z binds..."
-- "Signal cluster X tightens the prior that selection of Y is being weighted..."
+**Valid framework verbs:** `reads`, `predicts`, `ranks`, `weights`, `names`, `maps`. Never choice verbs. Watch indirect clauses: "the framework reads as the architecture composing..." smuggles agency back in.
 
-**Distinguishing valid from invalid uses of "architecture":**
-
-- Valid (noun, describing a structure): "the alliance architecture," "the principal-access architecture," "the constraint architecture is reinforced."
-- Invalid (subject of intention verb): "the architecture selected," "the architecture composes," "the architecture innovates exits."
-
-**Valid epistemic verbs whose subject is the framework:** `reads`, `predicts`, `ranks`, `weights`, `names`, `maps`. Never choice verbs.
-
-**Invalid:** "The framework reads as the architecture composing..." (smuggles agency back into the substrate via the indirect clause).
-
-When in doubt: can the sentence be rewritten with the agent (Trump executive, Vahidi, Netanyahu, IDF leadership) as the subject and the constraint as the modifier? If yes, that rewrite is required. The framework names the choice set and its weights; the actor selects.
+**Test:** can the sentence be rewritten with a named actor (Trump, Vahidi, Netanyahu, IDF) as subject and constraint as modifier? If yes, the rewrite is required.
 
 ---
 
 ## Anti-patterns
 
-- Do not rewrite the base synthesis. Annex equals delta.
-- Do not pad Sections 2-4 by repeating Section 1 data.
-- Do not produce probability point estimates. Ranges only.
-- Do not let Section 7 become a news summary. It is forward-looking judgment.
-- Do not omit Section 3 because revisions are uncomfortable. If data broke an assumption, say so.
-- Do not synthesize new probe findings inside the composer. The composer consumes probe output; it does not re-run probes.
-- Do not report the Kinetic Escalation Composite without the underlying primitives. The composite is derived; primitives drive analysis.
-- Do not aggregate Fork D' into the composite. Fork D' is the deferred-kinetic / gray-zone path; aggregating it collapses the framework's most operative distinction.
+**Structure & content.** Don't rewrite the base synthesis (annex = delta). Don't pad Sections 2-4 by repeating Section 1. Don't omit Section 3 because revisions are uncomfortable. Don't let Section 7 become a news summary; it is forward-looking judgment. Don't break the seven-section skeleton. Don't synthesize new probe findings inside the composer.
 
-### Methodological discipline (from DELTASITREP, 2026-05)
+**Format discipline.** Don't generate mermaid for decoration (charts that restate a sentence are noise). Don't over-table (2-row "tables" are sentences with bad formatting; tables start at 3+ rows). Don't move analytical depth into bullets; Operative Judgment stays prose. Don't import the redrafted format on a low-signal day; the compression range is a ceiling, not a floor.
 
-1. Do not generate mermaid for decoration. A chart that only restates a sentence is noise.
-2. Do not over-table. If a finding has 2 properties, write a sentence. Tables start at 3+ rows.
-3. Do not move analytical depth into bullets. Operative Judgment stays prose.
-4. Do not break the seven-section skeleton (Exec → Op → Validation → Revisions → Additions → Probability → Conclusion; Probe Status is integrated where probes ran). Format changes inside sections; section count is fixed.
-5. Do not import the redrafted format wholesale on a low-signal day. If the cycle has minimal movement, the annex can be shorter than 2,000 words. The compression range is a ceiling, not a floor.
-6. **Do not make the substrate the subject of a choice verb.** The architecture does not select, compose, innovate, close paths, or open them. Actors do, under constraints the framework maps. Falling into this voice is the single highest-priority failure mode in this directive; it falsifies the methodological frame.
+**Probability discipline.** Ranges only, never point estimates. 15pp range cap (wider = decompose or tighten). "None of the above" row mandatory with non-zero floor. KEC is a Section-5 footnote, never the Executive Summary headline; report primitives, not the composite alone. Never aggregate Fork D' into KEC. Don't update the 6/12-month matrix on operational events (only on trend transitions, constraint shifts, or major-version increments).
+
+**Voice (highest-priority failure mode).** Don't make the substrate the subject of a choice verb. The architecture does not select/compose/innovate/close/open. Actors do, under constraints the framework maps. See Methodological voice discipline above.
 7. **Do not predict selection.** The framework ranks options under the constraint surface and identifies dominant strategies. It does not say "X will be selected." It says "Y becomes the dominant strategy under joint constraints (A, B, C); selection by {actor} remains contingent and tightens / loosens conditional on signal cluster Z."
 8. **Do not use "convergence" or "cluster" as causal verbs.** Signal clusters tighten priors. They do not cause outcomes. The grammar of probabilistic updating, not the grammar of teleology, governs.
