@@ -1,0 +1,625 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-25",
+    "day_number": 88,
+    "framework_version": "v4.1",
+    "probes_run": ["PROBE-1", "PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-11", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-17", "PROBE-20", "PROBE-21"],
+    "probes_skipped": [
+      "PROBE-3 (monthly; structurally opaque; 17th+ consecutive gap cycle)",
+      "PROBE-18 (monthly; no Tier-1 or Tier-2 eschatological events this cycle)",
+      "PROBE-19 (quarterly; standard skip)"
+    ],
+    "synthesis_anchor": "synthesis-v4-1.md",
+    "reference_trends": [
+      {
+        "trend": "T1",
+        "net_effect": "advance",
+        "note": "8-leader consultation confirmed (Trump called MBS, MBZ, Tamim, Munir, Erdogan, Sisi, Abdullah II, Bahrain king). Abraham Accords demand introduces new constraint on MBS accommodation pathway — single-cycle complication, not T1 contradiction; pivot-capacity complexity not pivot failure. Hajj underway (pilgrims proceed to Mina May 25); no T1 Saudi-Iran principal-level meeting confirmed. Saudi-UAE divergence advancing in T2/T3; no T1 intra-troika split."
+      },
+      {
+        "trend": "T2",
+        "net_effect": "advance",
+        "note": "Kataib Hezbollah leader arrested by US (P-OVEX advancing; PMU network fracturing). Hezbollah 'terminal decline' per Belfer/FP T3. Houthis not touching US vessels (strategic calculus constrained per Stimson T3). ToI May 25: independent intel cluster corroborates reconstitution-faster-than-expected. Network degraded, not collapsed; capability rebuilding confirmed."
+      },
+      {
+        "trend": "T3",
+        "net_effect": "advance",
+        "note": "Ghalibaf (IRGC-adjacent) in Doha with Araghchi + Hemmati: mid-tier principal-on-principal engagement at highest level observed. Iran MFA: 'consensus on many topics; signing not imminent.' Trump 48h test HELD. Two-level pattern most legible yet: apex (IRGC military council operating behind Mojtaba's nominal authority) maintains public opacity; mid-tier (Ghalibaf-Araghchi-Hemmati) directly in Qatar on HEU, Hormuz, frozen funds."
+      },
+      {
+        "trend": "T4",
+        "net_effect": "advance",
+        "note": "Trump defending deal-making against GOP critics (Fox News May 25) — deal-faction solidifying under domestic pressure. No Huckabee/Hegseth/CUFI counter-mobilization for 5th+ consecutive cycle. Abraham Accords demand is Trump-initiated, not maximalist-faction insertion; Rubio not echoing 'mandatory' framing."
+      },
+      {
+        "trend": "T5",
+        "net_effect": "hold",
+        "note": "Hajj underway with 1.5M pilgrims; Iranian pilgrims largely absent; no Tier-1 eschatological events. Hezbollah drones at northern Israel are T2 kinetic, not eschatological framing. PENDING baseline holds."
+      },
+      {
+        "trend": "T6",
+        "net_effect": "hold",
+        "note": "BS-9.3 sub-probe: Putin last confirmed public appearance is May 9 Victory Parade; no appearances found May 10-25. FSO tightened security and reduced Putin's regular locations since March 2026. Shoigu 'destabilizing actor' framing in EU intelligence. Pattern consistent with prior signal cluster; no new sub-probe triggers beyond prior elevation. M1 baseline holds pending counter-evidence. May appearance count approaching concern threshold; flag for next PROBE-17."
+      },
+      {
+        "trend": "T7",
+        "net_effect": "hold",
+        "note": "Voice discipline maintained in analytical output; no substrate-as-agent constructions."
+      },
+      {
+        "trend": "T8",
+        "net_effect": "advance",
+        "note": "Times of Israel May 25 liveblog: 'Intel reports said to indicate Iran rebuilding missile production faster than expected' — second independent cluster corroborating Day 84 CNN T2. Israel assessed as unable to strike Iran without US permission across multiple analytical sources (Al Jazeera, CSIS cross-reference). Lebanon clause is Netanyahu's concrete demand constraining Israeli operations on an active front — T8 Powell mechanism operating precisely as predicted: more credible deal = stronger Netanyahu exclusion and closing-window perception."
+      },
+      {
+        "trend": "T9",
+        "net_effect": "hold",
+        "note": "House in Memorial Day recess; no new WPR floor vote. H.Con.Res.75 (separate resolution) tied 212-212 on May 14 — adds data point confirming majority hovers near 212-215. Progressive caucus weekly introduction strategy documented. GOP floor management blocking demonstrated majority. T9 VALIDATED holds; House returns early June as next structural test."
+      },
+      {
+        "trend": "T10",
+        "net_effect": "hold",
+        "note": "Russia inert on Iran; no Russian participation in Doha talks. China component supply for Iranian reconstitution continues per Day 84 CNN T2 baseline. GL-V expiration (May 24) is next potential OFAC trigger; no new action found."
+      },
+      {
+        "trend": "T11",
+        "net_effect": "hold",
+        "note": "UK/France joint Hormuz mission forming (HMS Dragon deployed; Charles de Gaulle deploying to broader region; UK/France joint military HQ). Multiple Western + Gulf powers coordinating Hormuz-reopening architecture outside US-unilateral framework. Consistent with T11 PENDING multiplex-configuration trajectory. Iran warns 'immediate and decisive response' to extra-regional warship presence."
+      }
+    ]
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Iran International (T3 — IRGC military council access-control; Pezeshkian meeting dispute)", "tier": 3},
+        {"name": "Voice of Emirates / WSJ May 10 report (US report on 60-day absence; incapacitation details)", "tier": 2},
+        {"name": "The National (May 10 — official 'only a fracture' claim)", "tier": 2},
+        {"name": "Euronews (May 7 — Pezeshkian claimed 2.5-hour meeting)", "tier": 2},
+        {"name": "CNN (April 21 — 'nowhere to be seen' structural analysis)", "tier": 2}
+      ],
+      "finding": "Iran International (T3) reports a 'military council' of senior IRGC officers now controls access to Mojtaba Khamenei, blocking President Pezeshkian and other elected-government officials from reaching the center of power and preventing government reports from reaching Mojtaba. Pezeshkian's claimed 2.5-hour in-person meeting (Euronews, May 7) is disputed; Iran International holds the meeting did not occur as described and IRGC officers are managing all principal access. WSJ-sourced US reporting (May 10): prosthetic leg, multiple operations, 'unconscious' or 'incapacitated' characterizations. Official Iranian framing (aide May 10): 'only a fracture' behind ear, ankle issue. Prevailing external assessment: killed or too ill to govern. Day 87+ of continued public absence.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Any change in functional-figurehead role (substantive vs ceremonial); ICG/Vaez characterization updates",
+        "framework_variable": "A4 (Iranian apex consolidation under Vahidi); BS-1a apex visibility; Day 84 Mojtaba HEU-stays directive provenance",
+        "direction": "down — apex visibility revision; IRGC military council operating as de facto apex; Mojtaba nominal/incapacitated",
+        "gap_to_full_match": "Second-source death confirmation or authenticated public visual appearance not available; current signal is incapacitation-consistent but not confirmation-level"
+      },
+      "variable_moved": {
+        "variable": "A4 mechanism; Day 84 Mojtaba HEU-stays directive interpretation",
+        "prior_value": "Mojtaba as nominal apex with weaponized opacity; HEU-stays directive attributed to Mojtaba via multi-T2 anonymous senior Iranian sources (Day 84, M confidence)",
+        "new_value": "IRGC military council as operational apex; Mojtaba nominal/incapacitated. HEU-stays directive was likely IRGC-generated using Mojtaba's nominal authority as a legitimacy shield. A4 should now read: Vahidi + IRGC military council are the functional apex; Mojtaba's authority is the institutional cover. The directive's CONTENT stands (HEU stays = IRGC position); its ATTRIBUTION changes (not Mojtaba decision, IRGC decision).",
+        "driver": "IRGC military council blocking Pezeshkian from Mojtaba access (Iran International T3); Pezeshkian meeting disputed; US reporting on incapacitation severity"
+      },
+      "discounts_applied": [
+        "-50% on Fox News 'IRGC seizes control' framing (sensationalist framing; Iranian opposition-media amplification); core access-control finding corroborated by Iran International T3 + CNN April 21 T2",
+        "-30% on 'unconscious' or 'incapacitated' specific characterizations (WSJ-sourced; single US-intelligence-community cluster; apply -50% single-source classified discount)",
+        "Pezeshkian meeting claim (Euronews T2) rated M-L on contested facts; Iran International denial is T3 with strong Iran internal-politics track record"
+      ],
+      "conflict_notes": "Iranian government 'only a fracture' vs US/Iran International incapacitation reporting: irreconcilable at this cycle; structural opacity holds. The IRGC military council access-control finding, if accurate, is the most significant framework-relevant signal in this probe: it means the Day 84 'HEU-stays directive' attributed to Mojtaba through anonymous senior Iranian sources was almost certainly IRGC-generated, not a Mojtaba personal decision. This does NOT change the directive's operational effect — HEU stays remains the apex position — but changes the discriminating signal: the framework should now watch for VAHIDI-direct named statements on HEU terms rather than anonymous Mojtaba-attributed ones. Step 7b: Alternative principal for HEU-stays directive — IRGC military council / Vahidi, not Mojtaba directly. Mark: 'Mojtaba HEU-stays attribution, now likely misattributed; operational apex is Vahidi + IRGC military council.' Flag for next /premortem: A4 apex-attribution needs systematic review."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "The National (May 25, T2 — Ghalibaf and Araghchi in Doha for talks)", "tier": 2},
+        {"name": "Al Jazeera liveblog (May 24-25, T2 — Iranian delegation dispatched to Qatar)", "tier": 2},
+        {"name": "ZeroHedge relay / InvestingLive (May 25, T3 — Ghalibaf/Araghchi/Hemmati delegation detail)", "tier": 3},
+        {"name": "Soufan Center IntelBrief (May 19, T3 — Kataib Hezbollah leader arrested by US)", "tier": 3}
+      ],
+      "finding": "Ghalibaf (Parliament Speaker; ISW-confirmed IRGC-adjacent deal-faction principal) traveled personally to Doha on May 25 with FM Araghchi and Central Bank Governor Hemmati for talks on 'the most sensitive unresolved issues' — Hormuz, HEU, and frozen funds. This is the first confirmed in-person IRGC-adjacent principal at the negotiating table. Combined with PROBE-1 finding (IRGC military council controlling apex access), Ghalibaf's presence in Qatar likely carries IRGC military council authorization — he is the IRGC-approved deal-track principal, not a Pezeshkian-government emissary. Kataib Hezbollah leader arrested by US (Soufan Center May 19): PMU proxy network fracturing under sustained pressure. Aliabadi (Khatam al-Anbiya) silent across all cycles.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Ghalibaf parliamentary channel direct engagement at principal tier in negotiations; IRGC-adjacent principal physically present in Qatar talks",
+        "framework_variable": "BS-1a Iranian decision architecture; BS-12 PA-gap; T3 Fearon-Slantchev mid-tier negotiator",
+        "direction": "up — IRGC-adjacent principal physically in Qatar negotiations; mid-tier level elevated to highest observed",
+        "gap_to_full_match": "Whether Ghalibaf is IRGC military council-authorized negotiator vs Pezeshkian-faction actor requires clarification; Aliabadi Khatam al-Anbiya still silent"
+      },
+      "variable_moved": {
+        "variable": "Mid-tier Iranian negotiating authority level; proxy network P-OVEX clock",
+        "prior_value": "Araghchi + Munir as mid-tier; Ghalibaf as domestic framing actor not direct negotiator",
+        "new_value": "Ghalibaf physically in Qatar as co-lead negotiator alongside Araghchi; Hemmati present for frozen-funds/sanctions dimension. Highest-level Iranian negotiating delegation to date. Kataib Hezbollah leader arrested — P-OVEX advancing on PMU channel.",
+        "driver": "The National / Al Jazeera T2 confirming Ghalibaf + Araghchi + Hemmati in Doha on May 25"
+      },
+      "discounts_applied": [
+        "ZeroHedge/InvestingLive as T3/T4 relay — use only where corroborated by The National (T2) and Al Jazeera (T2), which they are"
+      ],
+      "conflict_notes": "Ghalibaf's presence in Qatar while IRGC military council blocks Pezeshkian from Mojtaba: compatible readings. Ghalibaf as IRGC-faction negotiator may be authorized by the IRGC military council as the deal-direction principal, while Pezeshkian (elected government) is excluded from the apex loop. This is a more extreme two-level-games reading than previously visible: IRGC-internal two-level dynamics (Vahidi/military council at apex; Ghalibaf as IRGC-approved deal-track negotiator at mid-tier) rather than IRGC-vs-civilian-government two-level dynamics. Step 7b: Alternative principal for Ghalibaf's negotiating mandate — IRGC military council (Vahidi), not Pezeshkian-government. Mark: 'Ghalibaf's mandate likely comes from Vahidi + IRGC military council.' Consistent with T3 two-level pattern but the PRINCIPAL STRUCTURE behind that pattern is now legible as intra-IRGC, not civilian-IRGC."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "OFAC / US Treasury (General License V expiration May 24, 2026 — T1)", "tier": 1},
+        {"name": "MOFCOM blocking order (May 2, T1 — Chinese government formal counter-order)", "tier": 1},
+        {"name": "King & Wood / Squire Patton Boggs (T3 — GL-V expiration analysis)", "tier": 3}
+      ],
+      "finding": "General License V (Hengli Petrochemical wind-down authorization) expired May 24, 2026 — the wind-down period for OFAC's Hengli designation is now closed; all Hengli-related transactions are fully sanctioned without waiver. No new OFAC designations against Chinese entities found this cycle. MOFCOM blocking order (May 2) remains in force, directing Chinese firms to disregard the five OFAC-designated Chinese petrochemical company sanctions. T1-vs-T1 standoff continues. No PLA Taiwan Strait activity (Xi-restraint price holding). No new Chinese public statement on Iran deal architecture. Chinese material support for Iranian reconstitution per Day 84 CNN T2 baseline carries forward.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Hengli-style OFAC cascade to major Chinese banks",
+        "framework_variable": "BS-4 Chinese support calibration; Chinese deal-direction incentive",
+        "direction": "no change on banking-sector cascade; GL-V expiration is a procedural milestone that raises the cost of compliance-window for Chinese entities",
+        "gap_to_full_match": "Hengli cascade to major Chinese banks not confirmed; GL-V expiration increases financial pressure but has not yet triggered new OFAC action or Chinese bank exposure"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "GL-V expiration (May 24) is a pending escalation trigger: if OFAC acts against Chinese financial institutions processing Hengli transactions post-GL-V, the cascade-to-banks threshold approaches. MOFCOM blocking order means Chinese financial institutions face a legal bind (US sanctions vs Chinese law). Watch next cycle for any new OFAC action or Chinese bank compliance disclosure."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CENTCOM (May 23, T1 via Aerotime) — 200+ aircraft/warships; 100 commercial vessels redirected since April 13", "tier": 1},
+        {"name": "The War Zone / USNI News (May 11) — carrier tracker; blockade enforcement", "tier": 2},
+        {"name": "IDNFinancials (USS Eisenhower final preparations off east coast)", "tier": 2},
+        {"name": "WaPo (May 23, T2) — UK/France preparing Hormuz mine-clearing mission", "tier": 2},
+        {"name": "Naval Today (May 11) — HMS Dragon (Type 45) deployed", "tier": 2}
+      ],
+      "finding": "CENTCOM (May 23, T1): 200+ aircraft and warships enforcing Iran blockade; 100 commercial vessels redirected since April 13 maritime blockade began. Two CSGs (Lincoln, Bush) in CENTCOM AOR confirmed; no third CSG deployment. USS Eisenhower in final stage of preparations off east coast — NOT deployed, no deployment order this cycle. HMS Dragon (UK Type 45 destroyer) deployed to Gulf for Hormuz mission (WaPo May 23: 'Britain's navy prepares to clear mines in the Strait of Hormuz while waiting for a peace deal'); UK/France joint military HQ forming; Charles de Gaulle (France) deploying to broader region. Iran (Deputy FM Gharibabadi) warns 'immediate and decisive response' to extra-regional warship presence. No ROE changes; no Dark Eagle deployment; no Special Operations/DOE forward deployment signals.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "USS Eisenhower deployment ORDER; Commercial Hormuz restoration announcement",
+        "framework_variable": "Fork A timeline compression; blockade enforcement; commercial restoration signal",
+        "direction": "no change on US assets; UK/France Hormuz mine-clearing mission is new multilateral architecture not yet constituting commercial restoration",
+        "gap_to_full_match": "Eisenhower deployment order not issued; commercial restoration not announced; UK/France mission is preparation for post-deal mine-clearing, not active commercial reopening"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "UK/France Hormuz mission is the new signal this cycle: mine-clearing preparation while awaiting peace deal is a multilateral architecture that (a) reduces Iran's sole-actor control over reopening by introducing external mine-clearing capacity, and (b) creates a new potential 'immediate and decisive response' trigger if UK/France ships enter Hormuz without a deal. Iran's warning on extra-regional warships is T1-equivalent (Deputy FM named public statement). This is a T11 multiplex-configuration indicator — multiple powers coordinating outside US-unilateral framework. Flag for /audit: UK/France Hormuz mine-clearing mission not currently instrumented in any probe; should be added to PROBE-7 target signal list or as a new Framework-revision trigger."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC (May 24-25, T2) — Brent ~$98; WTI ~$91 on deal-progress signals", "tier": 2},
+        {"name": "AlanChand (May 24) — Iranian rial 1,709,000/USD parallel market", "tier": 4},
+        {"name": "IEA Oil Market Report May 2026 (T1 baseline carry from Day 87)", "tier": 1},
+        {"name": "USNI News — Hormuz commercial traffic ~5% pre-war average (carry)", "tier": 2}
+      ],
+      "finding": "Brent crude fell to approximately $98/bbl (May 24); WTI fell to approximately $91/bbl — CNBC: 'both benchmarks declined ~5%' on optimism that US and Iran could soon reach an agreement. This is a $5-6/bbl drop from the Day 87 ~$103-104 baseline and the first time Brent has fallen below $100 since the Hormuz crisis began. Iranian rial parallel market: 1,709,000 IRR/USD on May 24, a 106,000 IRR appreciation (~5.8%) from the 1,815,000 baseline sustained for 14+ cycles — the first significant rial move in the entire framework window. Brent backwardation ($29/bbl Jul26-Jul27): holds; extreme structural tightness persists. IEA OMR T1 (Day 87 baseline carries): 246 mb consecutive inventory draw; 3.9 mb/d shortfall path absent June Hormuz resumption. No Kharg Island saturation. Commercial traffic ~5% pre-war average.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Brent movement on deal signals approaching below-$100 threshold; Iranian rial parallel rate breaking 14-cycle stasis; deal-premium deflation across asset classes",
+        "framework_variable": "BS-7 energy market structural breaks; L3 time arithmetic; A6 market mispricing",
+        "direction": "down on Brent and WTI (deal-premium deflation); down on rial (appreciation on deal signals) — both consistent with increased Fork D' credibility",
+        "gap_to_full_match": "Brent sustained below $95 would confirm Fork B credibility; commercial restoration (Hapag-Lloyd/Maersk announcement) not yet confirmed"
+      },
+      "variable_moved": {
+        "variable": "Brent crude regime; Iranian rial parallel rate",
+        "prior_value": "Brent ~$103-104 (Day 87); rial 1,815,000/USD (14+ cycle stasis)",
+        "new_value": "Brent ~$98 (May 24); WTI ~$91; rial 1,709,000/USD (May 24). Both responding to deal-progress signals. Rial move breaks the 14-cycle stasis. Brent first below $100 since crisis began.",
+        "driver": "Deal-progress signals: Ghalibaf/Araghchi/Hemmati in Doha; Trump 48h test held and 'proceeding nicely'; market pricing increased Fork D' probability"
+      },
+      "discounts_applied": [
+        "AlanChand T4 on rial rate: best available parallel-market source; treat as indicative, not precise; single-day reading",
+        "CNBC Brent $98 is May 24 close; May 25 confirmed rate not yet in search results — hold at May 24 level"
+      ],
+      "conflict_notes": "Brent $98 / WTI $91 is the first confirmed sub-$100 Brent since the crisis. The rial 1,709,000 from 1,815,000 is a 5.8% appreciation in one session — larger than any prior daily move in this window. Both asset classes moving together in deal-pricing direction confirms the market is reading the Ghalibaf delegation + Trump 48h hold as a genuine Fork D' advance, not noise. The persistent Brent backwardation ($29/bbl) shows structural tightness remains even as spot falls — market is pricing a deal as possible but not locking in; backwardation collapses if deal signs."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Times of Israel liveblog May 25 (T2) — 'Intel reports: Iran rebuilding missile production faster than expected'", "tier": 2},
+        {"name": "Al Jazeera (May 21, T3) — 'Israel pushes for war amid US ceasefire, but its options may be limited'", "tier": 3},
+        {"name": "Jerusalem Post (May 25, T2) — Liberman: deal 'catastrophe'; Netanyahu making Israel 'banana republic'", "tier": 2},
+        {"name": "Times of Israel (May 25, T2) — Golan: Netanyahu 'not functioning'", "tier": 2},
+        {"name": "Knesset (T1) — reservist authority extended to May 31", "tier": 1},
+        {"name": "House of Saud (T3) — Lebanon clause structural analysis", "tier": 3}
+      ],
+      "finding": "Times of Israel May 25 liveblog: 'Intel reports said to indicate Iran rebuilding missile production faster than expected' — second intel cluster independently corroborating Day 84 CNN T2 reconstitution-faster finding (T8 Powell amplifier multi-source confirmed). Multiple sources (Al Jazeera T3, CSIS analytical cross-reference): Israel's options assessed as 'limited without US permission'; Israeli political establishment eager to restart conflict but unable to act unilaterally. Lebanon clause as Netanyahu's operative concrete deal obstacle: MOU draft contains Lebanon ceasefire framework; Netanyahu demands Israel retain 'freedom to operate militarily in Lebanon in response to any threat'; Iran insists on sustainable, lasting ceasefire. This directly constrains Israeli Lebanon operations and is Netanyahu's most load-bearing objection — more concrete than the nuclear provisions. Liberman (Yisrael Beytenu): emerging deal is 'catastrophe'; Netanyahu has let Trump control Iran/Lebanon issues. Golan (Democrats): Netanyahu 'not functioning' as negotiations proceed without Israeli input. Knesset extended reservist authority to May 31 (T1). Haredi draft bill circulating in committee; dissolution bill committee stage NOT yet scheduled. No Israeli unilateral strike. Hezbollah fired explosive drones at northern Israel; IDF intercepted. Iran claimed downed Israeli surveillance drone (May 24); IDF 'not familiar with incident.'",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Israeli pre-emption signal advancing; reconstitution intel second cluster; Israel options limited without US; Lebanon clause as new diplomatic-spoiler vector",
+        "framework_variable": "BS-3 Israeli internal politics; T8 Powell shifting-power; Israeli unilateral pre-emption probability (14-21d pre-caretaker window)",
+        "direction": "mixed — reconstitution intel advancing (up for T8); Israeli options limited (down on unilateral kinetic probability); Lebanon clause (new diplomatic-spoiler vector)",
+        "gap_to_full_match": "No IDF air-refueling tempo escalation or F-35/F-15 forward positioning; Knesset committee stage not yet scheduled for dissolution bill"
+      },
+      "variable_moved": {
+        "variable": "Israeli unilateral pre-emption probability (14-21d, pre-caretaker window); operational spoiler characterization",
+        "prior_value": "32-44% (Day 87) — primarily kinetic spoiler vector",
+        "new_value": "30-43% — marginal downward revision on 'limited without US permission' multi-source assessment. Lebanon clause introduces a diplomatic-spoiler vector that operates inside the US-Iran framework (Netanyahu can block deal by insisting on Lebanon terms Iran rejects) without requiring unilateral IDF action. The primary Israeli spoiler mechanism may now be diplomatic-obstruction-via-Lebanon-clause rather than kinetic first-mover. Reconstitution intel corroboration (T8) partially offsets the downward kinetic revision.",
+        "driver": "Multi-source 'options limited without US' assessment; Lebanon clause as documented concrete demand; no forward-deployment signals"
+      },
+      "discounts_applied": [
+        "'Options limited without US permission' is T3/analytical-outlet assessment — IDF's own posture may differ from external analysts",
+        "Lebanon clause analysis (house-of-saud.com): T3; valuable structural logic but not T1/T2 confirmed",
+        "Liberman and Golan represent opposition framing — useful political signal but not IDF operational posture"
+      ],
+      "conflict_notes": "Israel options 'limited without US permission' vs prior 3-signal pre-emption cluster (F-35I tanks, Zamir targets-ready, postponed strike): not contradictory. The cluster signals strategic intention; the 'options limited' assessment constrains near-term operational execution without US authorization. Lebanon clause is the key new finding: Netanyahu can demand Lebanon freedom-of-action, which Iran rejects, which collapses the deal, which restores the kinetic option without Netanyahu needing to order a unilateral strike. This is a dominant strategy for Netanyahu under joint constraints — use Lebanon clause to block deal diplomatically, then wait for Trump to resume strikes (Variant B: coordinated extraction). Step 7b: IDF-coalition asymmetry on Lebanon clause — IDF (Zamir baseline: 'if uranium removed diplomatically, we have done our part') likely accepts sustainable Lebanon ceasefire; Netanyahu coalition (Smotrich/Ben-Gvir) requires operational freedom. Phase-dependent: pre-caretaker Netanyahu can impose Lebanon clause as deal condition; post-caretaker IDF authority may accept Lebanon terms. 4th+ consecutive cycle of Netanyahu asserting Trump private maximalist endorsement without White House corroboration — flag for next /premortem wrong-principal review."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Congress.gov — H.Con.Res.38 (119th Congress; 213-214 fail history)", "tier": 1},
+        {"name": "PBS NewsHour / NPR (May 22, T2) — House called off WPR vote; Meeks 'we had the votes'", "tier": 2},
+        {"name": "Congresswoman Brown press release (T1) — weekly WPR introduction strategy", "tier": 1},
+        {"name": "House Armed Services Committee Democrats press release (T1) — H.Con.Res.75 vote detail)", "tier": 1}
+      ],
+      "finding": "House in Memorial Day recess until early June; no new WPR floor vote this cycle. Mechanism update: H.Con.Res.75 (separate WPR resolution from H.Con.Res.38) tied 212-212 on May 14 — narrower result than the 213-214 fail previously anchored; House majority oscillates near 212-215 depending on attendance and which resolution is called. Progressive caucus formally introducing new privileged-resolution WPR vehicles every week Congress is in session — ensures a vote-capable resolution is always pending. House returns early June; WPR action expected as first major floor business. Senate 50-47 procedural advance holds; Fetterman confirmed structural holdout. White House: WPR no longer applies (ceasefire framing).",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority on next vote",
+        "framework_variable": "T9 Stage-2 hysteresis; Fork A constitutional constraint; BS-5",
+        "direction": "no change this cycle; mechanism refined (212-212 tie on H.Con.Res.75; weekly introduction strategy)",
+        "gap_to_full_match": "Formal WPR passage requires House floor vote when returned early June; majority demonstrated but blocked by GOP floor scheduling control"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "H.Con.Res.75 tied 212-212 on May 14 vs H.Con.Res.38's 213-214 fail: the 212-212 tie means no passage (tie equals failure); the 213-214 vote means 213 voted FOR passage (failed by one vote). The majority fluctuates near the edge; whichever resolution is scheduled is the live test. When House returns early June, the demonstrated majority (213+) meets only the GOP floor-management obstacle. The weekly introduction strategy ensures no scheduling delay can permanently forestall a vote."
+    },
+    {
+      "probe_id": "PROBE-11",
+      "probe_name": "Russian Settlement Window and Dugin Leading Indicator",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Kremlin.ru (T1 events/president/news — last confirmed public event: May 9 Victory Parade)", "tier": 1},
+        {"name": "iStories / Meduza (T3 — FSO location-reduction confirmation; security tightening since March 2026)", "tier": 3},
+        {"name": "Tablet Magazine (May 4, T3/T4 — coup-risk framing)", "tier": 3}
+      ],
+      "finding": "No Dugin signal found this cycle. Putin's last confirmed public appearance from Kremlin.ru: May 9 Victory Parade (81st anniversary) — no Kremlin-documented public events found May 10-25 in search results. FSO has 'significantly reduced' list of locations Putin regularly visits since March 2026; security council and public-event exposure curtailed (iStories/Meduza T3). Russia inert on Iran across all cycles. No Belousov-Talaei follow-on meetings. No Russian participation in Qatar talks or any current Iran mediation architecture.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Dugin shift toward explicit deterrence; Putin Ukraine settlement push timed to Iran developments",
+        "framework_variable": "BS-6 Russian domestic constraints; BS-9.3 Putin appearance sub-probe",
+        "direction": "no change on settlement/Dugin; BS-9.3 monitoring: May 2026 on track for ≤1 confirmed public appearance",
+        "gap_to_full_match": "Need full May appearance count from Kremlin.ru; no Dugin signal; no Belousov-Talaei"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "-50% on Tablet Magazine 'coup brewing' (T3/T4 framing); EU dossier + FSO-location-reduction pattern from iStories/Meduza is the load-bearing evidence tier"
+      ],
+      "conflict_notes": "BS-9.3 sub-probe watch: May 2026 public appearances — May 9 Victory Parade (1 confirmed); no appearances found May 10-25. If this holds through May 31, May 2026 registers ≤1 formal public appearance. Per the sub-probe threshold: '≥3 consecutive months at <2 appearances/month = BS-9 hard escalation trigger.' April 2026 count uncertain (prior sweep reference: '2 by late April' but not confirmed). Flag for next PROBE-17: compile April + May full Kremlin.ru appearance counts to assess whether the 3-month threshold is approaching."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "The National (May 25, T2) — Ghalibaf + Araghchi + Hemmati in Doha; Hormuz/HEU/frozen funds", "tier": 2},
+        {"name": "CNN live (May 25, T2) — Trump 'proceeding nicely'; deal analysis", "tier": 2},
+        {"name": "Times of Israel / NBC / CNBC (May 25, T2) — Abraham Accords 'mandatory' demand", "tier": 2},
+        {"name": "Axios (May 24, T2) — Abraham Accords demand; Gulf leaders' silence", "tier": 2},
+        {"name": "House of Saud (T3) — Lebanon clause as Netanyahu's operative deal-block demand", "tier": 3},
+        {"name": "Trump Truth Social / public statements (T1) — blockade stays until deal certified and signed", "tier": 1},
+        {"name": "France 24 / Rubio (T2) — 'Iran deal still possible Monday'", "tier": 2}
+      ],
+      "finding": "Iran's highest-level negotiating delegation to date — Ghalibaf (Parliament Speaker; IRGC-adjacent), Araghchi (FM), and Hemmati (Central Bank Governor) — in Doha on May 25 for talks on Hormuz, HEU, and frozen funds. Iran MFA: 'consensus reached on many topics; signing not imminent.' Trump (Truth Social, T1): blockade 'will remain in full force until an agreement is reached, certified, and signed'; Iran talks 'proceeding nicely.' Trump linked Abraham Accords to Iran deal, calling it 'mandatory' for 6+ Muslim nations (Saudi Arabia, Qatar, Pakistan, Turkey, Egypt, Jordan) to sign; Gulf leaders responded with silence (Axios T2). Two new load-bearing deal obstacles this cycle: (1) Lebanon clause — MOU draft contains Lebanon ceasefire framework; Netanyahu demands Israel retain freedom to operate militarily in Lebanon; Iran insists on sustainable ceasefire; (2) Abraham Accords demand — MBS cannot accept without irreversible Palestinian state pathway; MBZ/Tamim positions on Accords uncertain. Rubio (France 24): 'Iran deal still possible Monday' — Rubio not echoing 'mandatory' Accords framing.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Most specific MOU architecture confirmed; Lebanese clause as operative obstacle; Abraham Accords demand as new condition; Iranian principal-tier full delegation in Doha",
+        "framework_variable": "Fork D' structured deferral; Fork B-multilateral via Gulf pathway; BS-11 MOU architecture; BS-18 Gulf brake",
+        "direction": "mixed — Iranian delegation highest-level (up for Fork D'/B); Lebanon clause and Abraham Accords demand (complicating both tracks); blockade-until-certified reinforced (no softening)",
+        "gap_to_full_match": "LOI/MOU text not signed; Iranian T1 named public acceptance not confirmed; Abraham Accords demand unresolved; Lebanon clause not bridged"
+      },
+      "variable_moved": {
+        "variable": "Fork D' structured deferral (30d); Fork B-multilateral via Gulf pathway (30d)",
+        "prior_value": "Fork D' 25-33% (Day 87); Fork B-multilateral 13-20% (Day 87)",
+        "new_value": "Fork D' 28-36% (30d) — Ghalibaf/Araghchi/Hemmati as highest-level Iranian engagement is the strongest deal-direction signal since talks began; Trump 48h held. Fork B-multilateral 11-18% (↓) — Abraham Accords demand introduces structural bind for MBS; MBS accommodation pathway durability reduced.",
+        "driver": "Ghalibaf in Doha (IRGC-adjacent principal in Qatar negotiations for first time); Trump 48h held; WaPo 60-day framework carrying; Lebanon clause + Abraham Accords as new obstacles"
+      },
+      "discounts_applied": [
+        "-25% on WaPo 60-day framework details (Day 87 baseline carry; originating cluster likely one US official)",
+        "House of Saud Lebanon clause analysis: T3; structurally sound but not T1/T2 confirmed",
+        "Abraham Accords 'mandatory' framing: T1-class Trump public statement but may be Slantchev-inverse leverage; Rubio not corroborating 'mandatory'"
+      ],
+      "conflict_notes": "Abraham Accords demand requires two-reading treatment: (A) Sincere Trump demand — MBS (most durable brake actor) faces an ultimatum he cannot publicly accept without Palestinian state pathway; Gulf troika brake architecture under structural strain. (B) Slantchev-inverse feigning — Trump extracting maximum from Gulf partners while preserving the Iran deal core; Gulf leaders' silence-not-rejection is consistent with processing the ask. Rubio's non-echo of 'mandatory' language is a weak discriminating signal favoring (B). Step 7b: Alternative principal for Abraham Accords demand — Kushner (documented Gulf normalization agenda) may have inserted the demand into the call structure. Discriminating evidence: whether Rubio or State Department uses 'mandatory' language in subsequent days. Lebanon clause principal-validation: Netanyahu is asserting the demand; IDF Chief Zamir (who said 'if uranium removed diplomatically, we have done our part') likely does NOT insist on Lebanese operational freedom as a deal condition. The Lebanon clause is Netanyahu's political requirement, not the IDF institutional requirement."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "BusinessToday / CNBC (May 25, T2) — Trump 'proceeding nicely'; Abraham Accords 'mandatory'", "tier": 2},
+        {"name": "Fox News live (May 25, T2) — Trump defending deal against GOP critics", "tier": 2},
+        {"name": "The National (May 25, T2) — Ghalibaf + Araghchi + Hemmati in Doha", "tier": 2},
+        {"name": "Iran MFA / Baghaei (T1 carry from Day 87) — 'viewpoints getting closer'", "tier": 1}
+      ],
+      "finding": "Trump 48-hour durability test HELD: 'in no rush' (May 24) → 'proceeding nicely' (May 25) — deal-direction confirmed sustained through the full 48h window from 'largely negotiated' (May 23). This is the strongest deal-direction hold observed, surviving post-Munir 'mixed messages,' Netanyahu emergency-cabinet maximalist anchoring, and the '48h partial fail' Day 87 read. Trump defended deal-making against GOP critics on Fox News May 25, signaling deal-faction holding under domestic pressure. Ghalibaf/Araghchi/Hemmati in Doha: highest-level Iranian mid-tier PA-gap engagement observable. Trump's Abraham Accords demand ('mandatory' for 6 Muslim nations) is a new variable — Gulf leaders' silence is not a deal-direction abandonment; it opens a parallel negotiation track. Iran side: 'consensus on many topics; not imminent.'",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump statement holding direction beyond 48h without Netanyahu rebroadcast — Penetration mechanism weakening; Fork D'/B durability increasing",
+        "framework_variable": "BS-12 US-side PA-gap; Trump A1 binding direction; Netanyahu Penetration mechanism state",
+        "direction": "up — 48h test HELD; Penetration mechanism active but not reversing Trump public deal-direction",
+        "gap_to_full_match": "Full deal-direction confirmation requires Trump endorsement of specific LOI/MOU terms; Abraham Accords 'mandatory' demand introduces Gulf-brake ambiguity"
+      },
+      "variable_moved": {
+        "variable": "Trump A1 deal-direction durability; Netanyahu Penetration mechanism state",
+        "prior_value": "Penetration mechanism 'active-via-private-channel'; 48h test partial fail at 24h ('in no rush', Day 87)",
+        "new_value": "48h test HELD: Trump 'proceeding nicely' (May 25). Penetration mechanism active but non-reversing on Trump's public deal-direction. Trump defending deal against GOP critics on Fox News suggests deal-faction solidifying. Netanyahu leverage now operating through Lebanon clause (diplomatic-spoiler vector) rather than reversing Trump's public posture. Abraham Accords demand is Trump-initiated complication, distinct from Netanyahu Penetration.",
+        "driver": "Trump 'proceeding nicely' completing the 48h window from 'largely negotiated'; Fox News deal defense against GOP critics; Ghalibaf/Araghchi/Hemmati in Doha simultaneously"
+      },
+      "discounts_applied": [
+        "Trump 'proceeding nicely' assessed at face value for direction-holding test; Abraham Accords insertion reduces confidence that deal-direction is unencumbered",
+        "-50% on Netanyahu-relayed Trump assurances (Day 87 carry; no White House corroboration; 4th+ consecutive cycle)"
+      ],
+      "conflict_notes": "The Trump 48h test holding is the headline finding for this probe. 'Proceeding nicely' after 'in no rush' after 'largely negotiated' — the direction-hold is confirmed but the signal is weaker than a direct deal-endorsement. Abraham Accords demand: structurally ambiguous — (A) sincere expansion of deal conditions (complicates Gulf brake); (B) Slantchev-inverse leverage (Gulf leaders' silence consistent with processing). Fox News defense of deal against GOP critics (not Abraham Accords focused) suggests the deal-direction is more durable than the Accords insertion implies — Trump is defending the deal while simultaneously demanding more from Gulf partners. Resolution: watch Rubio and State Department for 'mandatory' Accords echo vs absence."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Times of Israel liveblog May 25 (T2) — 'Intel reports: Iran rebuilding missile production faster than expected'", "tier": 2},
+        {"name": "Times of Israel May 24 (T2) — Iran claims downed Israeli surveillance drone; IDF 'not familiar with incident'", "tier": 2},
+        {"name": "Stimson Center (T3) — Houthi constraint; organizational collapse risk under US-target action", "tier": 3},
+        {"name": "Soufan Center (May 19, T3) — Kataib Hezbollah leader arrested by US", "tier": 3}
+      ],
+      "finding": "Times of Israel May 25: 'Intel reports said to indicate Iran rebuilding missile production faster than expected' — independently sourced T2 corroboration of Day 84 CNN T2 IC finding. Source clusters appear distinct: CNN T2 was US-IC-sourced; ToI May 25 is Israeli-intel-sourced. Two independent clusters on reconstitution-faster-than-expected crosses M → M-H confidence threshold. Iran claimed (May 24) downing an Israeli surveillance drone over Iranian territory; IDF: 'not familiar with the incident' (IDF also noted 'suspicious aerial target lost contact' — consistent with the claim but unconfirmed). Kataib Hezbollah leader arrested by US (Soufan Center May 19): PMU-network fracturing. Houthis: long-range capability retained but constrained (Stimson T3). No Hezbollah mass-launch. Cyber Stage 3 latent.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source IC assessment of higher-than-estimated Iranian residual inventory (second cluster confirmation); Houthi mass-launch; Cyber Stage 3",
+        "framework_variable": "BS-13 Iranian residual capability; T2 Mosaic-Octopus; T8 Powell amplifier",
+        "direction": "up — second independent cluster on reconstitution-faster corroborates Day 84 CNN T2; drone claim adds sub-threshold kinetic signal",
+        "gap_to_full_match": "No new mass-launch or Stage 3 events; drone claim vs IDF denial unresolved"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "ToI May 25 'intel reports' is T2 relay; if sourcing cluster overlaps Day 84 CNN T2 cluster (US-IC feeds Israeli-IC), apply partial source-dependence discount — but the Israeli-IC vs US-IC distinction suggests partial independence",
+        "Iran surveillance drone downed claim: Iranian government T1 claim but standard discount applies absent IDF confirmation; treat as sub-threshold signal of retained ISR-penetration capability"
+      ],
+      "conflict_notes": "ToI May 25 Israeli-intel-sourced reconstitution report vs CNN T2 Day 84 US-IC-sourced reconstitution report: different source ecosystems (Israeli vs US intelligence communities), same finding. Partial independence confirmed — not same-cluster laundering. This cross-IC corroboration elevates Slantchev feigning-weakness confidence from M to M-H. Iran surveillance drone claim: the IDF's 'lost contact with a suspicious aerial target' framing is consistent with Iran having downed a drone that IDF was tracking but has not confirmed the attribution. Retained ISR penetration during ceasefire window is relevant for the Day 84 target-ID-context-improved finding on the Vahidi decapitation pathway — Iran also has active surveillance of Israeli/US assets."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera (May 21, T3) — 'Israel pushes for war amid US ceasefire, but its options may be limited'", "tier": 3},
+        {"name": "Jerusalem Post (May 25, T2) — Liberman: deal 'catastrophe'; Netanyahu 'banana republic'", "tier": 2},
+        {"name": "Times of Israel (May 25, T2) — Golan: Netanyahu 'not functioning'; Israel excluded from updates", "tier": 2},
+        {"name": "ToI May 25 — reconstitution intel (second cluster)", "tier": 2}
+      ],
+      "finding": "Israel's military options assessed as 'limited without US permission' across multiple analytical sources (Al Jazeera, CSIS analytical cross-reference). US-Israeli dispositional gap at its widest observed: Trump deal-faction 'proceeding nicely' and defending deal against GOP critics; Netanyahu emergency-cabinet framing deal as existential threat. Liberman (Yisrael Beytenu): Israel becoming 'banana republic' under Trump's Iran deal diplomacy; emerging deal is 'catastrophe.' Golan (Democrats): Netanyahu 'not functioning.' Lebanon clause is Netanyahu's operative demand distinguishing his position from US deal-track. Second reconstitution intel cluster (ToI May 25) advances T8 Powell amplifier: the more credible the deal becomes, the more Netanyahu reads window as closing, and the faster reconstitution compounds that perception. Israel excluded from Qatar talks.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "US-Israeli dispositional gap at structural peak; T8 advancing on multi-source reconstitution; Israel options limited without US; Lebanon clause as diplomatic-spoiler vector",
+        "framework_variable": "BS-14 dispositional reading; T8 Powell shifting-power; Israeli spoiler mechanism characterization",
+        "direction": "up on Powell mechanism; down on unilateral kinetic probability (options limited); Lebanon clause introduces diplomatic-spoiler vector that operates inside the US-Iran framework",
+        "gap_to_full_match": "No IDF forward-deployment or air-refueling escalation confirmed"
+      },
+      "variable_moved": {
+        "variable": "T8 Powell shifting-power; Israeli spoiler mechanism characterization",
+        "prior_value": "T8 at maximum loading; Israeli spoiler = primarily kinetic (unilateral or Variant B coordinated)",
+        "new_value": "T8 advances on second reconstitution-intel cluster. Israeli spoiler mechanism now has TWO vectors: (1) kinetic — IDF unilateral or US-Israeli coordinated (constrained by 'options limited without US' assessment); (2) diplomatic — Lebanon clause blocks the deal from inside the US-Iran framework without requiring Israeli military action. The diplomatic-spoiler vector is Netanyahu's dominant strategy under joint constraints: demand Lebanon terms Iran rejects; deal collapses; Trump resumes strikes; Israel participates in Variant B.",
+        "driver": "Multi-source 'options limited' assessment; Lebanon clause as documented operative obstacle; Golan/Liberman confirming Israeli exclusion; second reconstitution cluster"
+      },
+      "discounts_applied": [
+        "'Options limited without US permission' is T3 analytical — IDF posture may differ from external analysts",
+        "Liberman/Golan are opposition politicians — useful signals but not IDF operational posture"
+      ],
+      "conflict_notes": "The IDF-coalition asymmetry on Lebanon clause is the key structural finding: IDF (Zamir baseline) likely accepts sustainable Lebanon ceasefire; Netanyahu coalition (Smotrich/Ben-Gvir) requires operational freedom in Lebanon. Lebanon clause is Netanyahu's tool, not IDF's. If Knesset dissolution passes and caretaker period begins, IDF authority over Lebanon decisions increases — and the IDF may accept Lebanon terms Netanyahu is currently blocking. The Lebanon clause is therefore a pre-caretaker-window diplomatic-spoiler mechanism that Netanyahu must use before losing authority over the decision. Step 7b: Netanyahu is the named principal behind the Lebanon clause demand; alternative — IDF Chief Zamir is NOT the driver here (his baseline explicitly accepts diplomatic resolution). Attribution to Netanyahu as framing agent is high-confidence."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In (Composite)",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Composite of PROBE-1, PROBE-2, PROBE-8, PROBE-9, PROBE-12', PROBE-13, PROBE-14, PROBE-15, PROBE-20 this cycle", "tier": 2}
+      ],
+      "finding": "Joint-distribution update from component probes. Iranian side: Ghalibaf/Araghchi/Hemmati in Doha — highest-level Iranian negotiating delegation ever; 'consensus on many topics; signing not imminent'; IRGC military council controlling apex access (Mojtaba incapacitated/nominal — functional apex is Vahidi + IRGC military council). US side (Trump A1): 48h test HELD ('proceeding nicely' May 25) — strongest deal-direction hold yet; defending against GOP critics. Israeli threshold: kinetic options 'limited without US permission' (multi-source); Lebanon clause as diplomatic-spoiler inside US-Iran framework; no forward-deployment signals; second reconstitution intel cluster advancing T8. WPR threshold: House in recess; returns early June with demonstrated majority. Strangulation: Brent $98, rial 1,709k — deal-pricing deflation active; IEA June assumption deal-contingent. Gulf-brake threshold: Abraham Accords demand introduces new constraint on MBS accommodation pathway.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds shifting; Iranian delegation highest-level ever; Trump 48h held; Israeli kinetic constrained but diplomatic-spoiler via Lebanon clause active; Mojtaba incapacitation changes apex attribution",
+        "framework_variable": "BS-15 first-mover joint distribution; Fork D' vs Israeli diplomatic/kinetic spoiler race condition",
+        "direction": "mixed — Iranian side strongest deal-approach signal yet; US side holding; Israeli kinetic constrained but diplomatic-spoiler active; Gulf brake under new pressure",
+        "gap_to_full_match": "No single actor has breached break-threshold; joint distribution evolving"
+      },
+      "variable_moved": {
+        "variable": "BS-15 first-mover joint distribution characterization; primary near-term risk framing",
+        "prior_value": "Race condition: LOI pace vs Israeli pre-emption (primarily kinetic); Hajj backchannel disrupted; six-actor architecture (Day 87)",
+        "new_value": "Race condition evolving: (a) Iran-side closest to deal-closing ever — Ghalibaf/Araghchi/Hemmati full delegation; (b) Trump deal-direction most durable hold yet; (c) Israeli kinetic threshold constrained by US-veto; Lebanon clause is operative diplomatic-spoiler vector substituting for unilateral kinetic risk; (d) Mojtaba incapacitation changes apex principal — IRGC military council is the functional apex; (e) Abraham Accords demand introduces new Gulf-brake complication. Primary near-term risk: Lebanon clause diplomatic deadlock (Netanyahu can block the deal without ordering a strike); secondary: Abraham Accords demand fracturing Gulf brake MBS pathway.",
+        "driver": "Converging signals: Ghalibaf in Doha + Trump 48h held + Israeli options limited + Lebanon clause + Abraham Accords + Brent $98 deal-pricing"
+      },
+      "discounts_applied": [
+        "All component-probe discounts apply by reference"
+      ],
+      "conflict_notes": "The PROBE-1 Mojtaba incapacitation finding is the most significant structural shift for the joint distribution this cycle: if the IRGC military council is the operational apex, then the discriminating signal for the Iran-side first-mover question is now VAHIDI-direct on HEU terms, not Mojtaba-attributed anonymous signals. The Day 84 HEU-stays directive's content is unaffected (IRGC holds HEU-stays); its attribution changes. The framework should now look for: (1) Vahidi-direct named statement on HEU disposition (would resolve the apex-to-deal-terms question definitively); (2) IRGC military council disbanding or Pezeshkian gaining access to Mojtaba (would suggest incapacitation overstated); (3) Ghalibaf returning from Doha with a named Iranian T1 statement on LOI acceptance/rejection (would resolve the Iranian-side threshold)."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion (BS-9 composite)",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "iStories / Meduza (T3 — EU intelligence dossier carry; FSO location-reduction confirmation)", "tier": 3},
+        {"name": "Kremlin.ru (T1 — events/president/news; May 9 last documented public event)", "tier": 1},
+        {"name": "Recorded Future (T3 — Dyumin succession analysis)", "tier": 3}
+      ],
+      "finding": "BS-9.3 sub-probe: Putin's last confirmed public appearance is May 9 Victory Parade; no Kremlin-documented events found May 10-25. If May ends at ≤1 confirmed public appearance, it approaches the 2/month concern threshold for a third consecutive month (March and April both appear low per prior signals). FSO has 'significantly reduced' Putin's regular locations since March 2026; security council exposure curtailed. BS-9.1: Shoigu characterization as 'destabilizing actor' in EU intelligence framing sustained; criminal prosecution trajectory ongoing; no new formal charges this cycle. BS-9.2: Dyumin succession bid weakened by strained Shoigu relationship (Recorded Future T3); no new portfolio additions found. Russia inert on Iran across all cycles; no Russian participation in Doha talks.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "BS-9.3: Putin <2 appearances/month for 3+ consecutive months; BS-9.1: Shoigu criminal charges formally filed",
+        "framework_variable": "BS-9 Russian siloviki cohesion; T6; M1-M4 succession probabilities",
+        "direction": "BS-9.3 monitoring status: May 2026 on track for ≤1 appearance; approaching but not meeting the 3-month-consecutive threshold",
+        "gap_to_full_match": "BS-9.3 trigger requires 3 consecutive months at <2/month; need April + May full Kremlin.ru counts; Shoigu criminal charges not yet formally filed"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Kremlin.ru may not document all internal meetings as public appearances; threshold uses formal public documented events"
+      ],
+      "conflict_notes": "BS-9.3 watch: compile April 2026 appearance count at next PROBE-17 cycle. If March ≤2 and April ≤2 and May ≤2, that would constitute the 3-month threshold for hard escalation trigger (BS-9.3 fires). Prior sweep data referenced 'April: 2 by late April' — need confirmation of whether 2 or fewer. The convergence of BS-9.1 (Shoigu prosecution trajectory), BS-9.3 (appearance-count concern), and BS-9.4 (Dyumin position uncertain) suggests multi-sub-probe elevation may be approaching but has not yet triggered the joint-fire threshold from Day 77."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Axios (May 24, T2) — Abraham Accords demand; Gulf leaders' silence; Trump joking 'are you still there?'", "tier": 2},
+        {"name": "Times of Israel (May 25, T2) — Abraham Accords 'mandatory'; MBS and Tamim first", "tier": 2},
+        {"name": "The National (May 25, T2) — Trump links Accords to Iran deal", "tier": 2},
+        {"name": "NPR (May 25, T2) — Hajj begins; 1.5 million pilgrims; Iranian pilgrims largely absent", "tier": 2},
+        {"name": "House of Saud (T3) — Lebanon clause; Saudi endorsement of deal; MBS cannot influence Lebanon terms", "tier": 3}
+      ],
+      "finding": "Trump phoned 8 leaders (MBS, MBZ, Tamim, Munir, Erdogan, Sisi, Abdullah II, Bahrain king) and declared joining Abraham Accords should be 'mandatory' for Saudi Arabia, Qatar, Pakistan, Turkey, Egypt, and Jordan as part of the Iran deal. Gulf leaders responded with silence; Trump joked 'are you still there?' (Axios T2). MBS CANNOT join Abraham Accords without an irreversible Palestinian state pathway — this is Saudi Arabia's publicly held normalization condition since the 2023 collapse. This creates a direct structural bind for the MBS accommodation pathway: Trump has introduced a demand that the most durable brake actor cannot publicly accept without domestic and Arab League political cost. No T1 intra-troika public split. Saudi-UAE divergence: Riyadh accommodationist; Abu Dhabi demanding harder security guarantees. Hajj formally begins May 25 (pilgrims proceeding to Mina); 1.5 million total pilgrims; Iranian pilgrims largely absent. No confirmed Saudi-Iran principal-level Hajj meeting. No §5.20 eschatological counter-mobilization (5th+ consecutive cycle).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "MBS accommodation pathway under structural pressure from Abraham Accords demand; Saudi-Iran Hajj principal-level meeting NOT confirmed; intra-troika UAE harder-guarantee demand advancing; Lebanon clause endorsed by Saudi but outside Saudi influence",
+        "framework_variable": "BS-18 Gulf state troika brake; Fork B-multilateral via Gulf pathway; T1 unaligned-middle pivot capacity",
+        "direction": "down on Fork B-multilateral (Abraham Accords demand strains MBS accommodation pathway); down on Hajj-backchannel (no principal-level meeting); intra-troika fragility advancing",
+        "gap_to_full_match": "T1 intra-troika public split not confirmed; Saudi-UAE divergence T2/T3 only; Abraham Accords demand T1-T2 confirmed but MBS response not yet public"
+      },
+      "variable_moved": {
+        "variable": "BS-18 MBS accommodation pathway durability; Fork B-multilateral via Gulf pathway (30d)",
+        "prior_value": "Fork B-multilateral 13-20% (Day 87); MBS accommodation pathway durable on Hajj-backchannel reciprocity logic",
+        "new_value": "Fork B-multilateral 11-18% (↓) — Abraham Accords 'mandatory' demand puts MBS in a bind (cannot accept without Palestinian state path; refusing risks US relationship; accepting violates Arab League position). MBS accommodation logic was premised on Saudi getting something positive (security guarantees, ceasefire) from supporting the brake; now Trump is asking MBS to give something he cannot give (Accords without Palestinian state). The accommodation-reciprocity logic is inverted.",
+        "driver": "Trump's 'mandatory' Abraham Accords demand (T1-T2 confirmed); leaders' silence (Axios T2); MBS Palestinian-state normalization precondition publicly held"
+      },
+      "discounts_applied": [
+        "Abraham Accords 'mandatory' may be Trump Slantchev-inverse leverage, not sincere demand; Gulf leaders' silence (not explicit rejection) consistent with the leverage-play reading",
+        "Saudi-UAE divergence: T2/T3 single-cycle; per framework rule, flagged not promoted to BS revision without multi-cycle confirmation",
+        "Lebanon clause Saudi endorsement via House of Saud T3; structural logic sound but not T1/T2 confirmed"
+      ],
+      "conflict_notes": "Two competing readings of Abraham Accords demand: (A) Sincere Trump demand — Gulf troika brake's most durable actor (MBS) is now under a publicly-difficult ultimatum; this risks unraveling the MBS accommodation pathway and potentially collapsing the Gulf brake mechanism. (B) Trump Slantchev-inverse leverage — demand designed to extract maximum concessions from Gulf partners while preserving the Iran deal core; Gulf leaders' silence (not rejection) consistent with processing. Rubio's non-echo of 'mandatory' language in France 24 ('Iran deal still possible Monday') is weak evidence for reading (B) — Rubio may simply be managing deal-direction messaging separately. Step 7b: Alternative principal for Abraham Accords insertion — Kushner's documented Gulf normalization agenda may have generated the demand; Trump is conveying it. Discriminating evidence: Rubio or State using 'mandatory' language in subsequent days (corroborates sincere demand) vs absence of echo (corroborates Kushner-insertion or Trump-alone framing). Next cycle is the critical test: MBS or Tamim response to the 'mandatory' demand resolves the two readings."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "The National (May 25, T2) — Ghalibaf/Araghchi/Hemmati in Doha; 'consensus on many topics'", "tier": 2},
+        {"name": "Soufan Center (May 19, T3) — Kataib Hezbollah leader arrested by US", "tier": 3},
+        {"name": "Iran International / iStories (T3) — IRGC military council blocking Pezeshkian from Mojtaba", "tier": 3},
+        {"name": "IRIB / Pezeshkian (T1, May 24 carry) — nuclear weapons assurance; limited aims", "tier": 1}
+      ],
+      "finding": "P-AIM: Ghalibaf/Araghchi/Hemmati in Qatar discussing Hormuz, HEU, and frozen funds — demand-set bounded at war-end, sanctions relief, Hormuz management, and nuclear-weapons assurance (no nuclear weapons, not nuclear-program elimination). Pezeshkian T1 carry (May 24): 'ready to assure world Iran not seeking nuclear weapons'; nuclear excluded from MOU scope. Limited aims classification maintained. P-DG: No new US targeting of named Iranian principals. P-DG2: No post-strike demand escalation; not applicable. P-OVEX: Kataib Hezbollah leader arrested by US — significant PMU proxy-network fracturing; P-OVEX clock advancing on the Iraqi channel specifically. P-INFO: IRGC military council blocking Pezeshkian from Mojtaba — this is a P-INFO adjacent signal: information-control around the nominal apex is IRGC-managed; elected government cannot get accurate reports to Mojtaba. The pathology is DOWNWARD filtering (blocking civilian-government input from reaching nominal apex), which differs from Paine's UPWARD sycophancy pattern (accurate-advisor removal at apex level). Sub-threshold P-INFO. P-CHEMO: No US ground-force buildup.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "P-AIM unlimited; P-DG fires; P-DG2 fires",
+        "framework_variable": "Aim-class determination; proxy drawdown clock; information pathology at apex",
+        "direction": "no change — limited aims holding; P-OVEX advancing on PMU channel; P-INFO sub-threshold",
+        "gap_to_full_match": "P-OVEX requires 2+ proxy channels in drawdown simultaneously — Kataib arrest is one channel; Houthi constrained but operational; need cross-channel convergence"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "P-INFO sub-threshold signal analysis: the IRGC military council blocking Pezeshkian from Mojtaba is not the canonical Paine information-pathology pattern (apex filtering out accurate advisors for survival reasons). Instead it is IRGC controlling the nominal apex's information channels — structurally, this makes the IRGC military council the effective apex, and the Paine framework should assess whether VAHIDI (the actual decision-maker within the IRGC military council) is receiving accurate information from IRGC officers. No P-INFO signals on that front. The structural shift from 'Mojtaba as nominal apex with IRGC input' to 'IRGC military council as functional apex with Mojtaba as legitimacy shield' changes which principal the Paine framework should monitor for P-INFO activation."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "A4 mechanism revision: Mojtaba incapacitated/nominal; IRGC military council as operational apex; Day 84 HEU-stays directive reattributed to IRGC military council / Vahidi"},
+      {"probe_id": "PROBE-2",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Ghalibaf physically in Doha as IRGC-adjacent co-lead negotiator (first time at this tier); Kataib Hezbollah leader arrested (P-OVEX advancing)"},
+      {"probe_id": "PROBE-6",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-7",   "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-8",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Brent ~$98; WTI ~$91; rial 1,709k — first sub-$100 Brent since crisis; first significant rial appreciation in 14+ cycles; deal-premium deflation across assets"},
+      {"probe_id": "PROBE-9",   "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Israeli unilateral pre-emption (14-21d) 32-44% → 30-43%; options assessed limited without US; Lebanon clause as new diplomatic-spoiler vector; second reconstitution intel cluster"},
+      {"probe_id": "PROBE-10",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-11",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-12'", "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "Fork D' 25-33% → 28-36%; Fork B-multilateral 13-20% → 11-18%; Abraham Accords demand; Lebanon clause; Ghalibaf/Araghchi/Hemmati in Doha (highest-level Iranian delegation)"},
+      {"probe_id": "PROBE-13",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Trump 48h test HELD ('proceeding nicely'); Penetration mechanism active but non-reversing; deal-direction most durable hold observed"},
+      {"probe_id": "PROBE-14",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-15",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "T8 advancing (second reconstitution cluster); Israel options limited without US; Lebanon clause as diplomatic-spoiler vector; IDF-coalition asymmetry on Lebanon terms"},
+      {"probe_id": "PROBE-16",  "status": "fired",   "confidence": "H", "trigger_fired": true,  "variable_moved": "BS-15 joint distribution: primary near-term risk shifts from Israeli kinetic to Lebanon clause diplomatic-deadlock; Mojtaba incapacitation changes apex attribution; Ghalibaf threshold-approach signal"},
+      {"probe_id": "PROBE-17",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20",  "status": "fired",   "confidence": "M", "trigger_fired": true,  "variable_moved": "Fork B-multilateral 13-20% → 11-18%; Abraham Accords demand strains MBS accommodation pathway; no Saudi-Iran principal-level Hajj meeting confirmed"},
+      {"probe_id": "PROBE-21",  "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": null}
+    ],
+    "fired_count": 9,
+    "partial_count": 7,
+    "null_count": 0,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "PROBE-1: Mojtaba incapacitation escalating; IRGC military council controlling apex access; Pezeshkian meeting disputed; A4 mechanism revision required",
+      "source_probe": "PROBE-1",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "A4 (Iranian apex consolidation under Vahidi); BS-1a apex visibility; Day 84 Mojtaba HEU-stays directive provenance",
+        "edit": "A4 should be revised to read: 'Vahidi + IRGC military council are the functional Iranian apex; Mojtaba Khamenei is incapacitated or nominal, serving as legitimacy shield for IRGC decision-making.' The Day 84 HEU-stays directive attributed to Mojtaba via anonymous senior Iranian sources should be reinterpreted as IRGC-generated, using Mojtaba's nominal authority. This changes the discriminating signal: the framework should now watch for VAHIDI-DIRECT named statements on HEU terms rather than Mojtaba-attributed anonymous signals. BS-1a visibility should be reduced slightly (78-83% → 72-80%) reflecting the Mojtaba-attribution uncertainty; the apex is now legible as Vahidi + IRGC military council but the internal IRGC council dynamics are opaque. Flag for next /premortem: A4 apex-attribution systematic review. Flag: 4th+ consecutive cycle of incapacitation signals without second-source confirmation — approach premortem review on whether framework over-relies on the 'nominal apex with weaponized opacity' framing."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-2: Ghalibaf physically in Doha as IRGC-adjacent principal in negotiations — first time at this tier; highest-level Iranian delegation to date",
+      "source_probe": "PROBE-2",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-1a Iranian decision architecture; BS-12 PA-gap two-level pattern; §4.6 Iranian Strategic Calculation",
+        "edit": "Update mid-tier characterization: Ghalibaf is now physically in the negotiating room (Qatar, May 25), not merely framing domestically. His delegation (with Araghchi + Hemmati) is the most complete Iranian principal-tier delegation in any talks. This is consistent with T3 two-level pattern but elevates the mid-tier engagement to its highest level. The IRGC military council-authorization framing (PROBE-1 cross-ref) means Ghalibaf is operating as IRGC-approved deal-track principal, not as Pezeshkian-government emissary. §4.6 should note: 'Ghalibaf-Araghchi-Hemmati delegation in Qatar May 25; topics: Hormuz, HEU, frozen funds; Iran MFA: consensus on many topics, signing not imminent.' BS-1a: mid-tier visibility further advanced."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-12': Abraham Accords 'mandatory' demand from Trump; Lebanon clause as operative deal obstacle; Ghalibaf/Araghchi/Hemmati full delegation in Doha; Fork D'/B-multilateral probability revisions",
+      "source_probe": "PROBE-12'",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "§5.26 LOI + 30-day framework; §5.25 Gulf State Troika Brake; §8.1 probability matrix; BS-11 MOU architecture; BS-18 Gulf troika",
+        "edit": "Fork D' structured deferral 25-33% → 28-36% (30d) on Ghalibaf/Araghchi/Hemmati full delegation in Qatar (strongest deal-direction signal since talks began) + Trump 48h test HELD. Fork B-multilateral via Gulf pathway 13-20% → 11-18% (30d) on Abraham Accords 'mandatory' demand straining MBS accommodation pathway. Combined Fork B: 21-33% → 19-31%. Add to §5.25 Gulf State Troika Brake: 'Abraham Accords demand (May 25) introduces a new test of the MBS accommodation pathway: Trump demanded 6 Muslim nations join Abraham Accords as part of Iran deal; MBS cannot accept without Palestinian state pathway; Gulf leaders responded with silence; demand unresolved.' Add to §5.26: 'Lebanon clause is Netanyahu's operative demand inside the MOU architecture: Israel demands operational freedom in Lebanon; Iran insists on sustainable ceasefire; this is the binding MOU obstacle as of Day 88.' Two-reading treatment required for Abraham Accords demand (sincere vs Slantchev-inverse leverage)."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-8: Brent ~$98; WTI ~$91; rial 1,709k — first sub-$100 Brent since crisis; first rial appreciation in 14+ cycles; deal-premium deflation across assets",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "§2.1 market snapshot; §3.3 Layer Three time arithmetic; A6 market mispricing",
+        "edit": "Update Brent regime: first confirmed sub-$100 print since Hormuz crisis began; WTI ~$91. Rial 1,709,000/USD on May 24 — breaks the 14-cycle 1,815,000 stasis; first significant parallel-rate appreciation. Both asset classes pricing increased Fork D' credibility. Note: Brent backwardation ($29/bbl Jul26-Jul27) persists despite spot decline — structural tightness and deal-premium are decoupling in the expected direction. A6: market mispricing VALIDATED continues but deal-pricing is activating. The Brent below-$100 threshold is a Fork B credibility signal per PROBE-8 trigger definition; note that it does not yet confirm Fork B (commercial restoration not announced; IEA June assumption still deal-contingent). IEA baseline: 246 mb inventory draw; 3.9 mb/d shortfall absent June resumption — carries forward."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-13: Trump 48h test HELD — strongest deal-direction hold observed; Penetration mechanism active but non-reversing Trump public posture; deal-faction defending against GOP critics",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "A1 (Trump improvisational/oscillating principal); §5.19 Principal-Access Channel Architecture; Netanyahu Penetration mechanism state",
+        "edit": "A1 update: 'largely negotiated' (May 23) → 'in no rush' (May 24) → 'proceeding nicely' (May 25) — 48h test HELD; deal-direction confirmed through the full window. This is the first full 48h hold observed. Penetration mechanism state: ACTIVE-BUT-NON-REVERSING (new sub-state from Day 88): Trump defending deal against GOP critics on Fox News simultaneously with maintaining deal-direction; Netanyahu leverage is now operating through Lebanon clause (diplomatic-spoiler) rather than through reversing Trump's public posture. Abraham Accords demand is Trump's own insertion (not Netanyahu Penetration product); Rubio not echoing 'mandatory.' A2 (Netanyahu penetration): 4th+ cycle of Netanyahu claiming Trump private maximalist endorsement without White House corroboration — flag for /premortem wrong-principal review per established protocol."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-9 + PROBE-15: Israel options limited without US permission; Lebanon clause as diplomatic-spoiler vector; second reconstitution intel cluster; T8 advancing",
+      "source_probe": "PROBE-9",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-3 Israeli internal politics; BS-14 dispositional reading; §5.5 Structural Spoiler Pattern; §8.5 forking paths",
+        "edit": "Revise Israeli spoiler mechanism characterization: two vectors now operative. (1) Kinetic vector: constrained by 'options limited without US permission' multi-source assessment; IDF pre-emption requires US authorization (Variant B: coordinated extraction). (2) Diplomatic vector (NEW): Lebanon clause blocks deal from inside the US-Iran framework; Netanyahu demands Lebanon operational freedom; Iran insists sustainable ceasefire; if deal collapses on Lebanon clause, US may resume strikes with Israeli participation — Variant B without requiring Israel to act first. This is Netanyahu's dominant-strategy vector under joint constraints: use Lebanon clause to block deal diplomatically, then participate in Variant B when Trump resumes. Israeli unilateral (14-21d): 30-43% (↓ from 32-44%). T8 advances on second reconstitution cluster (ToI Israeli-intel T2 independent of CNN US-IC T2). IDF-coalition asymmetry on Lebanon terms: IDF likely accepts Lebanon ceasefire (Zamir baseline); Netanyahu requires operational freedom; phase-dependent on Knesset dissolution passage."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-20: Abraham Accords demand strains MBS accommodation pathway; Hajj no Saudi-Iran principal-level meeting; pending-trend Hajj backchannel mechanism revision",
+      "source_probe": "PROBE-20",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-18 Gulf state troika; pending trend 'Cross-pole Saudi-Iran diplomatic geometry via Hajj backchannel'; Fork B-multilateral probability",
+        "edit": "Two /audit items: (1) BS-18 MBS accommodation pathway: Abraham Accords 'mandatory' demand (T1-T2 confirmed) puts MBS in a structural bind. The accommodation-reciprocity logic was premised on MBS getting positive reciprocity from supporting the brake; now Trump is demanding MBS give something he cannot (Accords without Palestinian state path). Two-reading treatment required: sincere demand (accommodation pathway under structural strain) vs Slantchev-inverse leverage (Gulf leaders' silence suggests processing, not refusing). Flag for next audit: if MBS publicly responds to Accords demand in next 48h, the reading resolves. (2) Pending-trend 'Cross-pole Saudi-Iran diplomatic geometry via Hajj backchannel' — Hajj now underway; Iranian pilgrims largely absent; no Saudi-Iran principal-level meeting confirmed during the Hajj window as of Day 88. The official-to-official channel (Saudi interior minister + Iranian Hajj official meeting May 20) stands; but the Hajj window is not producing the backchannel event required for promotion. Pending-trend should remain pending; promotion criteria require named official Saudi-Iranian meeting at FM level or above during Hajj window — not yet met."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+  "gap_log": [],
+  "calibration_check": {
+    "trend_state_question": "No VALIDATED trend state transitions warranted this single cycle. T1 advances (8-leader consultation; Abraham Accords demand is single-cycle complication, not contradiction of unaligned-middle pivot capacity — the silence from Gulf leaders is not a brake fracture). T2 advances (second reconstitution cluster; Kataib Hezbollah leader arrested advancing P-OVEX). T3 advances (Ghalibaf in Doha as the highest-level two-level pattern confirmation; Trump 48h held). T4 advances (deal-faction defending against GOP critics; no eschatological counter-mobilization for 5th+ consecutive cycle). T8 advances (second reconstitution intel cluster; Israeli options limited; T8 advancing at maximum loading toward multi-cluster VALIDATED+). T9 holds (mechanism confirmed as GOP floor-management dependent; VALIDATED holds). Pending-trend 'Cross-pole Saudi-Iran diplomatic geometry via Hajj backchannel' not yet promoted: Iranian pilgrims largely absent; no Saudi-Iran principal-level meeting confirmed during window; mechanism requires revision. Mojtaba incapacitation finding does not directly trigger a trend-state transition but warrants A4 mechanism revision at next_cycle. Abraham Accords demand does not yet meet contradiction threshold for T1 (single cycle; Gulf leaders' silence is not a brake fracture signal).",
+    "thesis_question": "HOLDING. Day 88 produced the strongest deal-direction signals since talks began — Trump's 48h test held at its maximum durability, and Iran deployed its highest-level negotiating delegation to Qatar. The central thesis prediction (framework ranks options under constraints; named actors select) is confirmed: Ghalibaf/Araghchi/Hemmati in Doha is Trump-track-dominant-strategy selection by the IRGC military council (now legible as the functional apex); Trump defending deal against GOP critics is deal-faction dominant-strategy selection under joint constraints. Two new structural variables emerged this cycle — Abraham Accords demand and Lebanon clause — that the framework had not explicitly modeled. Neither breaks the thesis; both are constraint-layer additions. The Lebanon clause is Netanyahu's dominant strategy under L4 (faction misalignment) and L5 (PA-gap) constraints: block deal diplomatically via Lebanon terms, then participate in coordinated Variant B if deal collapses. The Abraham Accords demand is either a genuine expansion of the deal's scope (complicating Factor B) or a Slantchev-inverse leverage play (consistent with A1 oscillation pattern and Trump's 'everything is negotiable' framing). The Mojtaba incapacitation finding changes the ATTRIBUTION of the Iranian apex, not the CONTENT of the apex position (HEU stays = IRGC position regardless of who named Mojtaba). Five constraint layers operated as predicted across all named actors this cycle. No thesis break."
+  }
+}

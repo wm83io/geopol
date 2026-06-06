@@ -15,13 +15,16 @@ consumed by the SITREP composer and auditor skills.
 
 Load into working context before any probe runs. All paths are relative to the repo root.
 
-1. **Anchor synthesis:** read highest-versioned file in `synthesis/`
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` in full FIRST. The trend
+   state table is the multi-week anchor for this cycle's findings. Each fired trigger this
+   sweep produces must be classified against current trend states at Step 6.
+2. **Anchor synthesis:** read highest-versioned file in `synthesis/`
    Record current probability values and assumption states — probes are deltas against this baseline.
-2. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
+3. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
    This is the authoritative probe spec. Execute only probes listed here.
-3. **Last SITREP:** read highest day-number file in `sitreps/`
+4. **Last SITREP:** read highest day-number file in `sitreps/`
    Establishes current operational baseline.
-4. **Output schema:** read `probes/probe-schema.md`
+5. **Output schema:** read `probes/probe-schema.md`
    and `probes/probe-schema-json.json` — governs output format.
 
 After completing the sweep, write output to `probes/sweeps/sweep-{YYYY-MM-DD}.json` using the Write tool.
@@ -76,6 +79,16 @@ Apply before scoring. When sources conflict, report the conflict explicitly — 
 | Anonymous "sources familiar" (outlet without track record) | −50% confidence |
 | Polymarket / prediction market | signal, not gospel — weight as one analytical source |
 
+### Step 3b — Source-provenance trace (mandatory for every multi-outlet anonymous claim)
+
+Tier ladder rates outlet quality, not source independence. Multi-outlet pickup of one anonymous cluster = one source. Record in `discounts_applied`:
+
+1. **Originating reporter/outlet.** Who broke it; which are wire-pickups.
+2. **Cluster identity.** "Anonymous senior X sources" across 5 outlets = 1 cluster.
+3. **Independence test.** Genuinely distinct anonymous clusters (different sourcing language, different outlet ecosystems) → partial mitigation of -50% discount. Same cluster → full discount applies regardless of outlet count.
+
+Same originating cluster in 3+ cycles without distinct corroboration → flag for `/premortem` source-cluster-collapse review. Canonical near-miss: D84 Mojtaba HEU (5 outlets, 1 cluster).
+
 ### Step 4 — Score the finding
 
 Assign:
@@ -96,9 +109,32 @@ If a probe fires a framework revision trigger: flag immediately, do not defer. R
 Appendix A revision and assign urgency (`immediate` / `next cycle` / `next audit`). The auditor skill
 consumes this via the trigger digest.
 
----
+### Step 7 — Reference-trend cross-check (mandatory for every fired trigger)
 
-## Probe Rotation and Frequency
+Name which trend in `reference/strategic-trends.md` the finding advances, holds, or contradicts. Apply:
+
+| Finding type | Action |
+|---|---|
+| Advances VALIDATED | Standard trigger digest entry |
+| Holds VALIDATED | Standard entry; note consistency in `conflict_notes` if counter-hypothesis was live |
+| Contradicts VALIDATED, single-cycle | `urgency: next_audit` regardless of operational urgency; cite trend + reference source in `conflict_notes`; do NOT propose BS revision |
+| Contradicts VALIDATED, multi-cycle (this cycle + ≥1 prior, or 2+ independent clusters in one cycle) | `urgency: immediate`; propose trend-state transition (VALIDATED → CONTESTED) |
+| Closes PENDING-trend instrumentation gap | Flag for audit promotion of trend to VALIDATED |
+
+Canonical failure case the rule prevents: D77 BS-12 "apex-veto" revision against T3 on single-cycle ISW tier-3 evidence; corrected D83. Six cycles of mis-stated PA-gap mechanism resulted.
+
+Add `reference_trends` array to sweep JSON `sweep_metadata` listing relevant trends and net effect (`advance` / `hold` / `contradict_single` / `contradict_multi` / `close_pending_gap`).
+
+### Step 7b — Principal-validation cross-check (mandatory for fired triggers involving named principals)
+
+Principal IDs (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin) are inherited from media framing. For each fired trigger attributing a decision to a named principal, record in `conflict_notes`:
+
+1. **Alternative principal hypothesis.** Who else could be deciding? Examples: Mojtaba HEU → SNSC / Ali Khamenei / IRGC vertex; Trump A1 → unmodeled driver (financial exposure, family, classified intel); Netanyahu Penetration → IDF chief Zamir / Mossad.
+2. **Discriminating evidence.** What signal distinguishes the named principal from the alternative? "Behavior consistent with X having decided" = curve-fitting, not validation.
+3. **Confidence note.** No discriminating evidence this cycle → mark as `inherited, not validated this cycle`. 4+ consecutive such cycles on a load-bearing principal → flag `/premortem` wrong-principal review.
+4. **Action-routing on 5th consecutive cycle (added 2026-05-27 via /premortem; Mitigation 1).** When the same principal-validation flag reaches its 5th consecutive cycle without discriminating evidence, the sweep must produce, in the same finding card's `conflict_notes`, an explicit **discriminating-evidence forcing question for the next cycle**: "What signal in the next cycle would falsify the current attribution?" Concrete and named, not "more evidence." The next `/audit` must then stage a synthesis manifest demoting the attribution to provisional, not re-flag for a 6th cycle. "Flagged for /premortem" is not an indefinite holding state; the 5th-cycle threshold converts the flag to a routed action (forcing question this cycle + manifest at next audit). Canonical case: A2 Netanyahu-relay and A4 Vahidi-direct-HEU absence reached this threshold on Day 90 and were staged at `synthesis/staging/v4-3-principal-validation-manifest.md`.
+
+The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent, and it requires routing the absence into structural change once the 5th-cycle threshold trips.
 
 Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
 
@@ -135,15 +171,33 @@ Produce three artifacts after all probes complete. Formats are defined in `probe
 - Do not exceed 5 search calls per probe. If signal is not found, log `gap` and move on.
 - Do not let probe runs become news summaries. Stay keyed to the specific framework variable. If
   unrelated big news surfaces, note it for the auditor and continue.
+- **Do not treat multi-outlet pickup as independent confirmation without provenance.** Cluster-laundering
+  (one originating reporter, multiple downstream pickups) is not multi-source. The discount applies
+  to the originating cluster, regardless of outlet count. See Step 3b.
+- **Do not treat principal identification as settled on inherited framing alone.** When a fired trigger
+  attributes a decision to a named principal, the alternative-principal hypothesis is required in the
+  finding card's conflict_notes. See Step 7b.
 
 ---
 
 ## Calibration Check
 
-After all cards are written, ask: does the aggregate probe output suggest the framework's central thesis
-is **holding**, **drifting**, or **breaking**?
+After all cards are written, ask two questions in order:
+
+1. **Trend-state question:** does the aggregate sweep output suggest any trend in
+   `reference/strategic-trends.md` should transition state (VALIDATED ↔ CONTESTED ↔ DISCONFIRMED,
+   or PENDING → VALIDATED)? Single-cycle evidence does not justify transitions; multi-cycle
+   pattern does. If a transition is warranted, flag for the next /audit run, do not enact it
+   inside the sweep.
+2. **Thesis question:** does the aggregate probe output suggest the framework's central thesis
+   is **holding**, **drifting**, or **breaking**?
 
 - **Holding / drifting:** proceed to output artifacts.
 - **Breaking:** do not overwrite the framework from within the runner. Flag the break, produce the
   trigger digest, and escalate to a synthesis revision request. The runner surfaces signal; it does not
   rewrite the framework.
+
+The trend-state question precedes the thesis question because trend states are the multi-week
+anchors against which thesis-level "drift" or "break" claims must be measured. A single-cycle
+break read that contradicts every VALIDATED trend is almost certainly recency bias, not a thesis
+break.

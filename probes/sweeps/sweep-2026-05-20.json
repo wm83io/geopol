@@ -1,0 +1,497 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-20",
+    "day_number": 83,
+    "framework_version": "v4.0",
+    "probes_run": ["PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-20"],
+    "probes_skipped": {
+      "PROBE-1": "bi-weekly; ran Day 81; no new Mojtaba direct visual appearance, but X post corpus (May 19-20 'Third Sacred Defense' / 'jihad'-framed posts per Fox News analyst characterization) is Tier-3 background indicator for PROBE-18; not a Tier-1 BS-16 Mahdist-invocation trigger (Shahnameh/Ferdowsi civilizational frame is distinct from Twelver Mahdist Imam-al-Zaman invocation); no functional-figurehead status change",
+      "PROBE-3": "monthly cadence; 13th consecutive gap cycle; structural opacity holds; rial parallel rate $1,815,000 baseline carry-forward",
+      "PROBE-11": "bi-weekly; ran Day 78 per Day 79 SITREP; no Putin readout this cycle; Russia path ≤5% held",
+      "PROBE-17": "bi-weekly; ran Day 78; no BS-9 sub-probe surface signal Day 82-83; next run ~May 22",
+      "PROBE-18": "monthly background; Mojtaba 'Third Sacred Defense' May 19-20 framing is Tier-3 indicator (civilizational-religious frame using Shahnameh references), NOT Tier-1 Mahdist invocation trigger (no Imam-al-Zaman invocation, no Mahdi-arrival language, no Hujjat-i-asr framing per `eschatology-islam-v1.0.md` definition); analyst-applied 'jihad' label (Fox News, single-analyst tier-3) does not constitute eschatological-tradition activation per `eschatology-intersection-matrix.md` four-characteristic test; logged for PROBE-19 cross-reference",
+      "PROBE-19": "quarterly cadence; no Tier-1 Christian Zionist policy signal; Vance May 19-20 statements fit BS-5/BS-17 disengagement-faction tracking captured in PROBE-13/PROBE-15"
+    },
+    "synthesis_anchor": "synthesis/synthesis-v4-0.md",
+    "notes": "Day 83 priority scope concentrates on the May 20-21 compressed decision window. Five fired triggers this cycle: (1) Vahidi direct named X post (devastating-blows formulation) - the long-monitored apex Iranian-principal silent vertex breaks; (2) Knesset dissolution preliminary vote PASSED 110-0 with Netanyahu absent at security consultations - the Day 82 BS-3 framework-revision trigger fires; (3) UAE official attribution of Barakah drones to IRAQI TERRITORY (not Yemen) - reshapes proxy-network reading and Cooper T1 discount mechanism; (4) Vance new principal-vertex active in PA-gap architecture ('locked and loaded' May 19; 'pretty good spot' May 20) - intra-Republican faction dynamics operationally visible per BS-17; (5) Trump extends 2-3 day window to 'Friday Saturday Sunday early next week' (May 19) - Gulf state troika brake holds, decision window extended approximately to May 22-25. Concurrent: WPR resolution discharged from committee May 19 (Vance day; advances toward 8th vote without yet voting on merits); Brent at $111.28 (May 19), pulled back marginally from above-band position but not into the $102-110 oscillation band; Mojtaba X corpus 'Third Sacred Defense' rhetoric flagged as Tier-3 (NOT Tier-1 Mahdist invocation); Pezeshkian 'dialogue does not mean surrender' (May 19, X) consistent with Day 81 framing. Thesis holding with three required revisions queued: (a) Vahidi statement crystallizes BS-12 Vahidi-shaped PA-gap; (b) Knesset dissolution-trigger activation; (c) UAE Iraqi-territory attribution refines BS-13 proxy-network assessment."
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Fox News liveblog May 20 2026 - 'IRGC commander Vahidi: any further aggression will erupt into flames and transcend every border... devastating blows that will leave you in abject defeat'", "tier": 2, "url": "https://www.foxnews.com/live-news/iran-war-trump-news-strait-hormuz-blockade-ceasefire-tensions-may-20"},
+        {"name": "Iranian President Pezeshkian X post May 19 2026 - 'Dialogue does not mean surrender... will never bow our heads before the enemy'", "tier": 2},
+        {"name": "Hot Air / Reuters digest May 19 2026 - Iran 'new proposal' framed by US media as maximalist; 14-point text content gap with prior US proposal", "tier": 3, "url": "https://hotair.com/ed-morrissey/2026/05/19/reuters-irans-new-proposal-pay-up-and-leave-times-five-n3815077"},
+        {"name": "PROBE-13 source set - Vance May 19-20 statements; Trump window extension to Friday-Sunday", "tier": 2}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Maj. Gen. Ahmad Vahidi (named per Fox News liveblog May 20, attributed to X post) issued direct statement: 'If any further aggression is committed against the soil of Iran, that fire whose promise was previously given and remained confined within the framework of a limited regional war, this time will erupt into flames and transcend every border and domain; you will receive devastating blows that will leave you in abject defeat.' This is the first direct named Vahidi public statement on the conflict captured by the framework's source ladder since the Day 70 audit elevated PROBE-2 watch to the Vahidi-direct-quote signal. The framing is hardline deterrent (capability + intent) not direct deal-rejection or 5-precondition reaffirmation; opposes Israeli/US kinetic resumption but does not address MOU terms substantively. Pezeshkian X post May 19 'dialogue does not mean surrender' parallels Vahidi tone (defiance + non-rejection of dialogue). Apex-mid-tier split structurally preserved: Ghalibaf-Araghchi pro-deal track operative (Pakistan-channel revised text); Vahidi apex now publicly visible as deterrent-hardline-without-explicit-MOU-stance. Aliabadi silent. PROBE-3 13th gap. Note: identification convergence required - the framework's prior characterization (per ISW April 21/May 12, v4.0 §5.23) is of Vahidi as 'apex decision-maker' in the IRGC consolidation; the Fox News byline identifies the same Vahidi as 'IRGC commander'; both refer to Maj. Gen. Ahmad Vahidi (former Defense Minister, post-Twelve-Day-War IRGC apex per ISW). Discount applied: Fox News liveblog single-source on the X-post attribution; -25%.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement on MOU/5 preconditions",
+        "framework_variable": "BS-1a Iranian apex visibility; BS-12 Vahidi-shaped PA-gap; v4.0 §5.23 Vahidi-decapitation pathway",
+        "direction": "BS-1a visibility +15-20pp on apex public speech; BS-12 PA-gap reading: Vahidi's silence-break is hardline-deterrent (not deal-rejection, not deal-endorsement) - apex consents to mid-tier negotiation activity while signaling kinetic-deterrence threshold; Fork B-bilateral durability marginally elevated (apex not vetoing diplomatic activity) but ratification gap on substantive terms unchanged",
+        "gap_to_full_match": "Vahidi statement on specific MOU terms (5 preconditions, sunset clause, HEU disposition) - the current statement addresses kinetic posture not negotiating terms"
+      },
+      "variable_moved": {
+        "variable": "Vahidi public-statement status; BS-1a apex visibility; framework v4.0 §5.23 calibration",
+        "prior_value": "Day 81: Vahidi silent across all SITREP cycles; ISW-analytical apex characterization only; PROBE-2 silent-vertex flagged",
+        "new_value": "Day 83: Vahidi direct X-post statement (Fox News attribution May 20): 'devastating blows' if further aggression; framing is hardline-deterrent-without-MOU-content. BS-1a apex visibility 65-70% (Day 82 baseline) → 75-80%; BS-12 PA-gap: Vahidi apex consents to mid-tier diplomatic activity by silence on terms while publicly signaling kinetic-deterrence in event of strike. v4.0 §5.23 Vahidi-decapitation pathway: target-identification context improved (X-post platform use, audience-cost-binding rhetoric) but no operational-presence-disclosure signal.",
+        "driver": "Fox News liveblog (T2 single-source for the X attribution; T2 baseline outlet); cross-referenced with Pezeshkian X May 19; consistent with Ghalibaf-Araghchi Pakistan-channel revised-text submission Day 81"
+      },
+      "discounts_applied": ["-25% on Fox News liveblog single-source attribution of X post (no direct X URL captured; verification pending)", "-30% on Iranian state media (Tasnim/Iran International) reading of Vahidi position (single-source Iranian internal politics standard rule)"],
+      "conflict_notes": "Vahidi hardline-deterrent framing vs concurrent Pakistan-channel revised-text submission and Pezeshkian non-rejection-of-dialogue: not contradiction; consistent with the two-level-game pattern observed across the cycle (public deterrence + private diplomatic engagement). The framework should not over-weight the deterrence framing as MOU-rejection; the apex signal is bounded to kinetic-pathway threshold, not terms-substantive."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera May 20 2026 - 'Chinese supertankers exit Hormuz as Trump and Vance talk up Iran deal'", "tier": 2, "url": "https://www.aljazeera.com/news/2026/5/20/chinese-supertankers-exit-hormuz-as-trump-vance-talk-up-iran-deal"},
+        {"name": "CNBC May 16 2026 - Trump-Xi Day 2 readout - Xi confirms Hormuz must remain open; no direct mediation activation since", "tier": 2}
+      ],
+      "finding": "Chinese principal-level silence holds since Trump-Xi Day 2 communique (May 15). Al Jazeera May 20 reports Chinese supertankers EXITING Hormuz concurrent with Trump-Vance deal optimism rhetoric - operationally significant maritime-flow signal but ambiguous between (a) commercial pre-positioning ahead of expected deal completion (deal-confidence signal), (b) protective withdrawal anticipating possible kinetic resumption (hedging signal), or (c) routine cargo cycle. No new Xi statement, no Wang Yi-Araghchi readout. Beijing's mediating channel substantively dormant this cycle; Pakistan-channel architecture (Sharif/Munir + Tasnim 14-point text routing) remains the operative Iranian diplomatic conduit. No new OFAC designations of Chinese entities. No Taiwan Strait PLA spike. BeiDou-3/MizarVision sub-components remain structurally opaque. Xi's Day 1 substantive commitments (Hormuz open; no nuclear weapons; no military equipment; offered mediation) remain the operative Chinese principal-level position carried forward from Day 77 baseline.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Trump-Xi summit communique fired (Day 77 PROBE-6 fired H); BeiDou/MizarVision opacity holds; no Taiwan spike; no Hengli-cascade",
+        "framework_variable": "BS-4 Chinese active support calibration; Beijing's mediating role relative to Pakistan-channel architecture",
+        "direction": "Beijing's mediating role dormant this cycle (Pakistan-channel preferred); supertanker exit signal ambiguous; commercial-flow leading indicator at sub-trigger threshold",
+        "gap_to_full_match": "Beijing principal-level intervention on May 20-21 decision window (no Xi-Trump call, no Wang Yi statement); Chinese-bank OFAC cascade; PLA Taiwan spike"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Al Jazeera supertanker-exit framing is mixed-signal; report does not adjudicate between deal-confidence and protective-withdrawal interpretations. Resolution requires Kpler/Vortexa tanker-tracking corroboration not surfaced this cycle."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "null",
+      "confidence": "H",
+      "sources": [
+        {"name": "The War Zone May 11 2026 (carrier tracker) - two CSGs (Lincoln, Bush) in CENTCOM; Ford home as of May 16 (Day 81 baseline)", "tier": 3, "url": "https://www.twz.com/sea/where-are-the-carriers-as-of-may-11-2026-20-warships-including-two-carriers-enforce-iran-blockade"},
+        {"name": "Wikipedia / Atlantic Council carrier-tracker May 2026 - USS Eisenhower completed sea trials April 24; in OFRP training phase; not deployed", "tier": 3},
+        {"name": "Hegseth/Cain prepared-for-assault language per Trump Truth Social May 18 (T1 baseline)", "tier": 1}
+      ],
+      "finding": "No new CENTCOM force-posture change Day 82-83. USS Eisenhower remains in OFRP training phase (East Coast); not deployed; no deployment ORDER signal. Two-CSG posture (Lincoln in Arabian Sea, Bush in Eastern Med/Mediterranean rotation) confirmed H carry from Day 81 War Zone tracker. Ford returned home Norfolk May 16 (Day 81 baseline; correctly identified as CSG-10 departed, not Truman). No new ROE change. No DOE/SOF nuclear-expertise forward deployment signal. No new operation name. Trump Truth Social May 18 (T1): SecDef Hegseth and Joint Chiefs Chairman Cain instructed to 'be prepared to go forward with a full, large scale assault of Iran, on a moment's notice' - posture-language reaffirmed in May 19-20 framing ('locked and loaded' Vance) but no fresh operational signal. The 'scheduled attack' for May 19 was postponed; Gulf-state-brake mechanism holds; Trump extended window to 'Friday Saturday Sunday early next week' (May 19). The standing-attack-readiness state persists under the brake.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "USS Eisenhower deployment ORDER (not fired); 4th-CSG actual deployment (not fired); Dark Eagle deployment (not fired); shoot-to-kill ROE (not fired); DOE/SOF forward (not fired)",
+        "framework_variable": "Layer 1 military physics; force-posture state",
+        "direction": "stable - two-CSG posture H; standing-attack-readiness held under Gulf-state brake; no operational signal change",
+        "gap_to_full_match": "Eisenhower deployment order; any 3rd CSG redeployment to CENTCOM; Dark Eagle deployment; new operation name"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Null cycle on CENTCOM posture signal; the operational change of Day 82-83 was the Gulf-state-brake-driven postponement (PROBE-13/PROBE-20 territory), not force-posture innovation."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC May 19 2026 - 'Oil ticks lower as investors weigh mixed signals from Trump on whether US will resume Iran war'; Brent closed $111.28 (-0.73%)", "tier": 2, "url": "https://www.cnbc.com/2026/05/19/oil-today-brent-wti-iran-trump-hormuz-iea-supply-crude.html"},
+        {"name": "Investing.com / Reuters - 'Oil prices drop from two-week highs after Iranian reports on possible oil sanctions waiver'", "tier": 2, "url": "https://www.investing.com/news/commodities-news/oil-rises-more-than-1-after-drone-attack-on-uae-nuclear-power-plant-4694570"},
+        {"name": "Al Jazeera May 20 - Chinese supertankers exiting Hormuz", "tier": 2},
+        {"name": "US Treasury fresh waiver for already-loaded Russian crude tankers (sanctions-policy spillover)", "tier": 2}
+      ],
+      "finding": "Brent crude closed $111.28 (May 19), down 0.73% intraday on mixed Trump signals - PARTIAL retracement from the prior week's above-band position ($111+ Day 79) but NOT a reversion into the $102-110 A1-oscillation band. The Day 81 sweep's read of ~$102 reflected an intraday intra-cycle move; the May 19 close at $111.28 shows the deal-signal premium-compression did not durably hold. Net: kinetic-resumption-risk premium is reasserting at the cycle's close. Drivers: (1) Trump 'might have to give Iran another big hit' (May 19) and Vance 'locked and loaded' rhetoric - hardline framing reactivated; (2) US oil-sanctions waiver proposal (Tasnim/Bloomberg meta-T2) US-side unconfirmed; Treasury action this cycle was Russian-crude-tanker waiver (distinct policy); (3) Chinese supertanker exit Hormuz May 20 - signal-ambiguous (deal-confidence vs protective hedging). The oscillation band is structurally broken upward; $110-115 is the new operating range with kinetic-risk premium sustained. No commercial-restoration announcement (Hapag-Lloyd/Maersk). Hormuz IRGC physical enforcement maintained (Zolfaghari baseline). Brent through $130 in 60 days: holds at 30-40% range (Day 81 marker) pending May 20-21 window resolution; downside-to-Fork-B-trigger ($95) not approached this cycle.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout above $115 sustained (not fired - $111.28 close); Brent breakout below $95 (not fired); Kharg saturation (not fired); commercial restoration (not fired)",
+        "framework_variable": "Oil-market band-state; kinetic-premium pricing; Fork A/B/D probability pricing",
+        "direction": "stable-elevated - above-band position ($110-115) holds; deal-premium-reversion of Day 81 did not durably hold; kinetic-risk premium reasserting",
+        "gap_to_full_match": "Sustained $115+ for Fork A repricing; $95 break for Fork B credibility; commercial restoration announcement"
+      },
+      "variable_moved": {
+        "variable": "Brent oscillation-band state; deal-premium durability",
+        "prior_value": "Day 81: Brent ~$102 intraday read in deal-signal cluster window; oscillation band partially reasserted",
+        "new_value": "Day 83: Brent $111.28 (May 19 close); above-band position sustained; deal-premium reversal of Day 81 was intraday, not session-close-durable. Operating range $110-115 with kinetic-resumption premium sustained. The structural read: the band ($102-110) that held through pre-Barakah cycles is broken upward; pricing reflects kinetic-risk continuity even under Gulf-state brake.",
+        "driver": "CNBC May 19 close print; Trump 'another big hit' rhetoric; Vance 'locked and loaded'; sanctions-waiver-proposal unconfirmed at US side"
+      },
+      "discounts_applied": [
+        "-25% on intraday-vs-close band-position read (Brent moved in $108-112 range across May 18-20)",
+        "Single-data-aggregator pricing"
+      ],
+      "conflict_notes": "Day 81 sweep noted ~$102 intraday in deal-signal cluster; Day 83 close at $111.28 shows the reversion was not session-durable. The Day 81 reading was correctly flagged as 'partial' but the directional interpretation (band reversion) was over-weighted on intraday movement. Framework lesson: distinguish intraday-deal-signal-spikes from session-close band-position; price the latter."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Haaretz May 20 2026 - 'Israel nears elections as Knesset passes preliminary dissolution bill'", "tier": 2, "url": "https://www.haaretz.com/israel-news/elections/2026-05-20/ty-article/.premium/israel-nears-elections-as-knesset-passes-preliminary-dissolution-bill/0000019e-44ea-d394-addf-fffa83360001"},
+        {"name": "Times of Israel May 20 2026 - 'MKs unanimously advance bill to dissolve Knesset' - 110-0 preliminary passage; 13 separate dissolution bills on plenum agenda", "tier": 2, "url": "https://www.timesofisrael.com/mks-unanimously-advance-bill-to-dissolve-knesset-and-trigger-elections-no-date-set/"},
+        {"name": "Jerusalem Post May 20 2026 - 'Coalition's bill to dissolve Knesset passes preliminary reading amid crisis over haredi draft bill'", "tier": 2, "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-896824"},
+        {"name": "Israel Hayom May 20 2026 - Netanyahu absent at security consultations; election countdown initiated", "tier": 2, "url": "https://www.israelhayom.com/2026/05/20/knesset-dissolution-vote-set-to-kick-off-election-countdown"},
+        {"name": "Fox News May 19 2026 - IDF on 'high alert'; Netanyahu emergency security meeting", "tier": 2, "url": "https://www.foxnews.com/live-news/trump-halts-major-attack-on-iran-strike-nuclear-weapons-program-may-19"}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Knesset preliminary dissolution vote PASSED 110-0 on May 20 (zero opposition). Netanyahu was ABSENT from the chamber, holding security consultations - the most consequential coalition-discipline failure in this conflict's window. Triggering event was the coalition's failure to pass the haredi-draft-exemption bill; Degel HaTorah spiritual leader Dov Lando instructed lawmakers to vote dissolution. The Day 82 Appendix B framework-revision trigger ('Knesset dissolution bill passes') fires; the BS-3 election-horizon-locks-mid-October mechanism is now operative. The Day 81 mechanism Day 79's 'all but assured' forecast is realized. Three additional Knesset readings required for full dissolution; passage of preliminary by unanimous vote effectively forecloses Netanyahu's capacity to delay. Election horizon: September-October 2026 (Haredi parties reportedly pushing September). The IDF-coalition uranium-removal asymmetry mechanism (Day 77 sub-finding: Zamir 'all goals achieved', senior IDF 'diplomatic removal acceptable') is now phase-relevant: post-dissolution caretaker period shifts operational-decision authority toward IDF leadership; pre-caretaker (current state, awaiting subsequent readings) Netanyahu retains operational authority. Netanyahu's absence from the vote is itself a Penetration-mechanism signal: Trump consultations (or strike-readiness consultations per Fox News) outweighed coalition-discipline imperatives. IDF on 'high alert' (Fox News May 19); security cabinet pre-May 18 ran ~5 hours; no Day 82-83 Israeli unilateral strike.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Knesset dissolution bill passes - FIRED (preliminary reading 110-0 on May 20)",
+        "framework_variable": "BS-3 Israeli pre-emption window; Netanyahu spoiler-mechanism duration; IDF-coalition asymmetry phase-state; Powell shifting-power Israeli pre-emption incentive",
+        "direction": "Israeli election horizon locks September-October 2026; Netanyahu pre-emption-incentive structurally elevated (electoral compression on coalition decision-window) until full dissolution; post-dissolution caretaker shifts authority toward IDF leadership (HEU-diplomatic-removal-accepting); pre-caretaker Netanyahu retains operational authority. Net: Fork A Israeli-variant 14-21d probability holds at Day 81 baseline (28-38%) but mechanism timing now phase-dependent on subsequent readings.",
+        "gap_to_full_match": "N/A - FIRED. Full dissolution (three more readings) is mechanical; preliminary unanimous passage forecloses Netanyahu delay capacity. Synthesis revision candidate."
+      },
+      "variable_moved": {
+        "variable": "Knesset dissolution status; Israeli election horizon; BS-3 visibility; phase-state of IDF-coalition decision architecture",
+        "prior_value": "Day 81: preliminary vote 'pending May 20-21'; passage 'all but assured'; Haredi distrust hardening dissolution push (Haaretz Day 81 Dov Lando)",
+        "new_value": "Day 83: preliminary vote PASSED 110-0 unanimously May 20; Netanyahu absent (security consultations); three readings remain mechanically. Election horizon locks September-October 2026 (Haredi pushing September). BS-3 visibility +5pp (55-60% → 60-65%); pre-caretaker period now operative with electoral-compression on coalition decision-window. IDF-coalition uranium-removal asymmetry mechanism enters phase-dependent activation: pre-caretaker Netanyahu retains authority; post-caretaker shifts toward IDF leadership. The trigger-table line 'Israeli election horizon locks ≤mid-Oct; Netanyahu pre-emption incentive structurally elevated' is now operative.",
+        "driver": "Times of Israel / Haaretz / Jerusalem Post / Israel Hayom multi-source T2 confirmation of 110-0 vote; Netanyahu absence at security consultations corroborated"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict. The 110-0 unanimity is the most decisive Knesset signal in the conflict's window; even Netanyahu's own coalition lawmakers voted dissolution (the absent Netanyahu does not count). The structural reading: the haredi-draft crisis is the proximate trigger but the underlying mechanism is coalition-exhaustion-with-Netanyahu after 83 days of war-cabinet decision-making."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Washington Post May 19 2026 - 'Senate advances resolution to block further strikes on Iran'; four Republicans + Democrats discharge from committee; Fetterman lone Democrat NO", "tier": 2, "url": "https://www.washingtonpost.com/politics/2026/05/19/senate-votes-advance-resolution-block-further-strikes-iran/"},
+        {"name": "MSNBC/MS.NOW May 19 2026 - 'Senate approves war powers vote to rein in Trump on Iran'", "tier": 2, "url": "https://www.ms.now/news/senate-approves-war-powers-vote-trump-iran"},
+        {"name": "Common Dreams - Fetterman 'will not budge' baseline (Day 76 7th vote)", "tier": 3}
+      ],
+      "finding": "Senate procedural movement: May 19 Senate voted to ADVANCE the war powers resolution by discharging it from committee. Four Republicans joined Democrats; Fetterman remained the lone Democrat NO. This is a procedural advance, not a passage on merits - the privileged-resolution vote is now scheduled but the underlying 49-50 arithmetic (Fetterman as decisive swing) is unchanged from Day 76 baseline absent further GOP defection or Fetterman pivot. The Day 81 SITREP's reading that postponement temporarily preserved the constitutional window holds: no AUMF; no judicial WPA challenge filed; Stage 2 hysteresis indicators (hostilities-terminated certification, Day 60 WPA deadline passed, operation-rebranding mechanism) continue to accumulate without active forcing function. The Vance May 19-20 statements ('locked and loaded' + 'pretty good spot') are administration-side dispositional signal not constitutional-architecture innovation. FT investigation: no new criminal referral signal. The procedural advance is a soft signal that congressional discipline is incrementally rising as the May 20-21 decision window operates; if Trump executes the scheduled-attack-rescheduling, the on-merits vote post-discharge becomes the operative forcing function rather than a future hypothetical.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority (not fired - procedural advance only, on-merits vote not held); 8th WPR vote scheduling (proceduralized via discharge)",
+        "framework_variable": "BS-5 US domestic; WPR-as-forcing-function; Stage 2 hysteresis accumulation",
+        "direction": "Procedural-architecture advance (committee discharge) without on-merits vote outcome; Fetterman-swing arithmetic unchanged; Stage 2 hysteresis continuing to accumulate under postponement",
+        "gap_to_full_match": "On-merits vote held; Fetterman position confirmed or flipped; passage triggers BS-15 dual-effect (Fork A constraint + Israeli pre-emption accelerant)"
+      },
+      "variable_moved": {
+        "variable": "WPR procedural status; on-merits-vote scheduling",
+        "prior_value": "Day 81: 8th WPR vote not scheduled; baseline 49-50 arithmetic from Day 76 7th vote unchanged",
+        "new_value": "Day 83: Senate discharged the resolution from committee May 19 (four GOP + Dems vs Fetterman NO + remaining GOP); procedural advance positions an on-merits vote. The Fetterman baseline arithmetic holds; the procedural unlocking is incremental institutional pressure on the constitutional architecture absent any operational-vote-passage outcome. WPR-as-forcing-function status: ARMED but not FIRED.",
+        "driver": "WaPo May 19 procedural-advance reporting; MS.NOW corroboration; Fetterman baseline persistent per Common Dreams/Spotlight PA"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Procedural advance is a routine step in the WPR cycle; whether on-merits passage occurs depends on Fetterman's position or further GOP defection. The signal is meaningful for Stage 2 hysteresis-tracking but does not fire the trigger."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "TIME May 19 2026 - 'Trump Cancels Planned Attack on Iran, Citing Serious Negotiations'; Trump extends window: 'two or three days, maybe Friday, Saturday, Sunday, something, maybe early next week'", "tier": 2, "url": "https://time.com/article/2026/05/19/trump-us-iran-israel-war-gulf-states-attack-hormuz/"},
+        {"name": "Vance May 19 2026 (Washington Times) - 'locked and loaded'; Iran faces 'two-way choice'", "tier": 2, "url": "https://www.washingtontimes.com/news/2026/may/19/jd-vance-urges-iran-make-deal-instead-facing-option-b-locked-loaded/"},
+        {"name": "Vance May 20 2026 (Al Jazeera, The Hill) - 'pretty good spot here; lot of back-and-forth, lot of good progress is being made'", "tier": 2, "url": "https://www.aljazeera.com/news/2026/5/20/chinese-supertankers-exit-hormuz-as-trump-vance-talk-up-iran-deal"},
+        {"name": "House of Commons Library May 2026 - Trump 'most points agreed to, but only point that really mattered, nuclear, was not'; Iran FM 'inches away' but criticizes 'maximalist demands'", "tier": 3, "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/"},
+        {"name": "Hot Air / Reuters digest May 19 - Iran 14-point text characterized in US framing as maximalist 'pay up and leave times five'", "tier": 3}
+      ],
+      "finding": "Meta-Negotiation-Regression interruption from Day 81 continues but the substantive-convergence question remains unresolved. Trump (May 19) extended the 2-3 day window to 'Friday, Saturday, Sunday, something, maybe early next week' - the operative deal-or-rescheduling decision now lands approximately May 22-25, expanded from the Day 81 May 20-21 framing. Vance May 19 ('locked and loaded') and May 20 ('pretty good spot'; 'lot of good progress is being made') bracket the deal-direction read for the administration. Sticking point per Trump: 'most points agreed to, but the only point that really mattered, nuclear, was not.' Iran FM (Araghchi, per Commons Library) characterized US position as 'maximalist demands' but agreement 'inches away.' Iranian Pezeshkian X (May 19): 'dialogue does not mean surrender.' Pakistan-channel architecture remains operative; no 5th Oman round announced; mediator architecture: Pakistan-Qatar (trilateral bridge) primary, Oman dormant, Beijing dormant. US oil-sanctions waiver proposal still Tasnim-only on Iran side; US-side unconfirmed (Treasury action May 19 was Russian-crude tanker waiver, distinct policy line). Net: active diplomatic exchange continues; the structural sticking point is nuclear (HEU disposition) per Trump's own framing; the deal-very-close framing is sustained but the substantive gap is the same as Day 81. Window extension is a Gulf-state-brake-mechanism strength signal (brake holds; window extends) but also a no-resolution signal (substantive convergence absent).",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "MOU signed (not fired); sunset clause text-substantive (not fired); 5th Oman round scheduled (not fired - Pakistan-channel only); MOU formally collapses (not fired); Trump distances from Witkoff/Kushner (not fired); Meta-Negotiation-Regression interruption sustained",
+        "framework_variable": "Fork B-bilateral vs Fork D' direction; mediator architecture; nuclear-sticking-point durability",
+        "direction": "active-exchange holds; window extended ~3-5 days; substantive nuclear gap unchanged from Day 81; Fork B-bilateral durability marginally elevated by Vance principal-vertex activation and Trump-window-extension; Fork D' marginally elevated as well by no-resolution-yet within original window",
+        "gap_to_full_match": "Sunset clause text confirmed in negotiating draft; named-principal endorsement of specific MOU terms (Vahidi addresses MOU substantively; Trump endorses specific text); US official confirmation of oil-sanctions waiver"
+      },
+      "variable_moved": {
+        "variable": "Trump deal-window timing; Vance principal-vertex activation; mediator architecture state",
+        "prior_value": "Day 81: 2-3 day window expiring May 20-21; Vance partial-fire only Day 77 baseline; Pakistan-channel active; Beijing dormant",
+        "new_value": "Day 83: Trump window extended (May 19) to 'Friday Saturday Sunday early next week' - operative decision interval approximately May 22-25. Vance ACTIVE principal-vertex on deal-direction (May 19 'locked and loaded' hardline framing + May 20 'pretty good spot' deal-direction framing); the Day 77 partial-fire on Vance now upgrades to ACTIVE. Mediator architecture: Pakistan-Qatar bridge primary; Oman/Beijing dormant. Substantive nuclear gap unchanged. Meta-Negotiation-Regression interruption sustained; convergence absent.",
+        "driver": "TIME May 19 Trump window-extension reporting; Vance May 19 + May 20 statements (WaPo/Washington Times/Al Jazeera); Commons Library May 2026 briefing"
+      },
+      "discounts_applied": [
+        "-30% on Tasnim/Iranian state media single-source content (revised text content gap)",
+        "-50% on US oil-sanctions waiver (US-side unconfirmed; Treasury action this cycle was Russian-crude tanker waiver)",
+        "-25% on 'pretty good spot' framing (Vance public-rhetoric in active deal-window; principal-vertex deal-direction signal subject to A1 oscillation pattern)"
+      ],
+      "conflict_notes": "Vance hardline ('locked and loaded' May 19) vs Vance deal-direction ('pretty good spot' May 20): not contradiction; spans the cycle's mixed-signal range. The framework should price both as Vance principal-vertex activation rather than picking the deal-direction half. The Trump A1 pattern repeats at the Vance level: principal disposition is range-bound around the deal-window decision, not anchored at either pole."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Fox News liveblog May 20 - Vahidi X post 'devastating blows' formulation", "tier": 2, "url": "https://www.foxnews.com/live-news/iran-war-trump-news-strait-hormuz-blockade-ceasefire-tensions-may-20"},
+        {"name": "Pezeshkian X May 19 - 'dialogue does not mean surrender'", "tier": 2},
+        {"name": "TIME May 19 - Trump 2-3 day window extended to Friday-Sunday early next week", "tier": 2},
+        {"name": "Washington Times May 19 + Al Jazeera May 20 - Vance 'locked and loaded' + 'pretty good spot'", "tier": 2},
+        {"name": "Trump Truth Social May 18 (T1 baseline) + Trump 'another big hit' rhetoric May 19", "tier": 1}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Multi-principal-vertex activation cycle: (1) VAHIDI direct named statement (Fox News May 20 X-attribution) - the framework's longest-tracked silent-apex-vertex breaks public silence; framing is kinetic-deterrence ('devastating blows that will leave you in abject defeat') not MOU-substantive (no 5-precondition restatement, no sunset-clause reference). The trigger fires on the silence-break itself per Day 81 PROBE-13 watch-signal. (2) PEZESHKIAN X (May 19) 'dialogue does not mean surrender' parallels the Day 81 Pezeshkian framing - civic-leader publicly defending diplomatic-engagement-as-non-retreat; complementary to Vahidi's deterrent-framing. (3) VANCE upgrade from Day 77 partial-fire to ACTIVE principal-vertex: May 19 'locked and loaded; two-way choice' + May 20 'pretty good spot; good progress' bracket the principal-disposition range. This is the first cycle Vance operates as live principal-vertex on the deal-direction question rather than as silent or marginal figure. (4) TRUMP extends his own deal-window (May 19): 'two or three days, maybe Friday, Saturday, Sunday, something, maybe early next week' - the Gulf-state-brake mechanism holds across extension and Trump A1-oscillation operates within extension framing. (5) Iranian asymmetric PA-gap structure: Vahidi (apex) speaks deterrent-public; Ghalibaf-Araghchi (mid-tier negotiating) operates Pakistan-channel; Pezeshkian (civic-presidential) frames diplomatic-engagement-as-non-retreat - three Iranian vertices in convergent voice on deterrence-with-engagement, against Day 81 read of 'private engagement + public deterrence' two-level pattern. The Vahidi statement is the apex-public-silence-break that the framework has been waiting on; the deliverable-to-the-MOU substantive endorsement gap remains.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement (FIRED); Vance public de-escalation statement (PARTIAL FIRE - Vance is in the deal-direction camp but not 'explicit de-escalation' framing; range-bound rhetoric); Trump statement holding direction beyond 48h (PARTIAL - Trump extended window May 19, but with concurrent 'another big hit' rhetoric; A1 oscillation persists with extension as the structural fact)",
+        "framework_variable": "BS-12 Vahidi-shaped PA-gap; BS-5 Vance trajectory; A1 oscillation pattern; Gulf-state-brake durability via window extension",
+        "direction": "complex - Vahidi-silence-break is the major structural movement (BS-1a visibility +15-20pp; BS-12 mechanism revision: Vahidi consents to mid-tier diplomatic activity by silence on MOU terms while signaling kinetic-deterrence-threshold); Vance ACTIVE on deal-direction as new live principal-vertex; Trump window-extension elevates Fork B-bilateral durability marginally and confirms Gulf-state-brake mechanism is durable across at least one extension cycle (PROBE-20 cross-reference)",
+        "gap_to_full_match": "N/A - Vahidi-silence-break FIRED. Subordinate gaps remain on MOU-substantive Vahidi statement and full-deal-direction Trump statement."
+      },
+      "variable_moved": {
+        "variable": "Vahidi public-statement status; Vance principal-vertex activation; Trump deal-window timing; Pezeshkian framing continuity",
+        "prior_value": "Day 81: Vahidi silent; Vance Day 77 partial-fire only ('progress made in talks'); Trump 2-3 day window expiring May 20-21; Pezeshkian Day 81 'negotiation neither surrender nor retreat'",
+        "new_value": "Day 83: Vahidi PUBLIC via X post (Fox News attribution); Vance ACTIVE deal-direction principal-vertex (May 19 hardline + May 20 deal-direction); Trump window extended to ~May 22-25; Pezeshkian May 19 X continues Day 81 framing. The Iranian apex-silence-break combined with the US Vance-activation are the cycle's two structural movements - the principal-vertex architecture is more saturated than at any prior point in the conflict.",
+        "driver": "Fox News May 20 Vahidi X attribution; Vance May 19 + May 20 multi-source; TIME May 19 Trump window-extension; Pezeshkian May 19 X"
+      },
+      "discounts_applied": [
+        "-25% on Fox News liveblog single-source for Vahidi X post (verification pending)",
+        "-25% on Vance 'pretty good spot' framing (administration-side public-rhetoric in active deal-window)"
+      ],
+      "conflict_notes": "Vahidi 'devastating blows' vs concurrent Pakistan-channel revised-text submission: not contradiction; consistent with two-level-game pattern (public-deterrence + private-engagement). Trump 'another big hit' (May 19) vs Trump window-extension (May 19): operative A1 oscillation pattern - oscillation is the rule, not the exception. Vance 'locked and loaded' (May 19) vs 'pretty good spot' (May 20): same range-bound disposition at vertex level. The framework's reading: principal-vertex activation across multiple actors does not converge on consensus, it surfaces the existing range; the deal-or-strike resolution depends on which principal commits to a specific terms-substantive statement first, not on which framing dominates."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Washington Post May 19 2026 - 'UAE says drones that targeted Barakah nuclear power plant came from Iraqi territory'", "tier": 2, "url": "https://www.washingtonpost.com/world/2026/05/19/iran-us-uae-nuclear-drones-uae-gulf/373dd4e6-538e-11f1-9c40-7a0a12d9e745_story.html"},
+        {"name": "Euronews May 19 2026 - 'UAE says mystery drones targeting nuclear plant came from Iraq'", "tier": 2, "url": "https://www.euronews.com/2026/05/19/uae-says-mystery-drones-targeting-nuclear-plant-came-from-iraq"},
+        {"name": "Times of Israel May 17 2026 - 'Saudi Arabia says 3 drones launched from Iraqi airspace intercepted over kingdom' (concurrent Saudi airspace drone intercept; Iraqi-territory pattern)", "tier": 2},
+        {"name": "Jerusalem Post May 18 (Day 81 baseline) - 'Iran ordered the attack' attribution by JPost sources", "tier": 3}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. UAE OFFICIAL ATTRIBUTION (May 19): Barakah drones originated from IRAQI TERRITORY. This refines and complicates the Day 81 reading: the western-border launch pattern was reasonable inference toward Houthi (Yemen) or Iraqi militia; UAE-confirmed Iraqi territory consolidates the Iraqi-militia (Iranian-Quds-Force-aligned PMU) launch pathway over the Houthi alternative. Concurrent Saudi-airspace drone intercept (3 drones from Iraqi airspace May 17, Times of Israel) corroborates an Iraqi-territory launch corridor active across both Gulf-state targeting cycles. Implications: (a) Cooper Tier-1 SASC claim (May 14, 'Houthis cut off') is more accurate on the Houthi-supply-flow component but the operational-delivery capability traces to Iraqi PMU - a separate Iranian-extended-deterrent-network channel; Cooper's framing should be refined to 'Houthis-supply-cut, Iraqi-PMU-channel-operational' rather than blanket 'proxy connectivity cut.' (b) The Houthi-vs-Iraqi-militia attribution distinction is now operative; Houthi indigenous-manufacturing capability (FP March 2026 baseline) coexists with Iraqi PMU as a parallel Iranian-channel. (c) Iraqi-territory launch into both UAE (Barakah) and Saudi (intercepted) is structurally significant: it implicates Iranian Quds-Force coordination with Iraqi Shia militias - a more direct Iran-attribution pathway than Houthi-autonomous. The framework's BS-13 Iranian-residual-capability assessment elevates: not only is the network active (Day 81 finding) but the channel-architecture is now identified as Iraqi-PMU not Houthi-only. UAE has not formally attributed to Iran directly (territory-of-launch ≠ command-attribution); the operational-attribution gap remains.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian asset repositioning (PARTIAL - channel attribution refined); Houthi mass-launch event (NOT FIRED - Iraqi-PMU rather than Houthi); UAE official attribution of Barakah attack to Iran (PARTIAL - UAE attributed to Iraqi territory, not direct Iran-command)",
+        "framework_variable": "BS-13 Iranian residual capability; channel-architecture (Houthi vs Iraqi PMU); Cooper Tier-1 proxy-connectivity assessment refinement; Layer 2 escalation ladder",
+        "direction": "BS-13 visibility +5pp on channel-architecture refinement; Cooper T1 discount maintains but refined - Houthi-supply-cut more accurate; Iraqi-PMU channel separately operational; Iranian Quds-Force-Iraqi-militia coordination implicated more directly than Houthi-autonomous read",
+        "gap_to_full_match": "UAE direct attribution to Iran (not only Iraqi territory); identification of specific Iraqi PMU faction (KH, AAH, NJBA, others) responsible; second-cycle Gulf-state-infrastructure attack confirming sustained-targeting pattern"
+      },
+      "variable_moved": {
+        "variable": "Barakah attribution; Iranian-extended-deterrent channel architecture; Cooper T1 framing refinement",
+        "prior_value": "Day 81: western-border drone entry; Yemen (Houthi) or Iraqi militia inferred; JPost sources 'Iran ordered'; Cooper T1 'Houthis cut off' discounted to M on operational delivery",
+        "new_value": "Day 83: UAE OFFICIAL attribution - drones from IRAQI TERRITORY (WaPo, Euronews May 19); concurrent Saudi-airspace drone intercept from Iraqi airspace May 17. Iraqi-PMU channel is the operative delivery mechanism for Barakah; Houthi-channel-supply-cut framing is preserved (Cooper accurate on that component); Iranian-Quds-Force-Iraqi-militia coordination implicated more directly than Houthi-autonomous reading. BS-13 visibility 45-55% → 50-60%; channel-architecture: Iraqi-PMU operational, Houthi-supply-cut sustained, Hezbollah dormant, cyber Stage 3 latent. The framework's horizontal-escalation-ladder reading from Day 81 (nuclear-adjacent threshold crossed) is preserved; the channel-attribution refinement does not lower the threshold position.",
+        "driver": "WaPo + Euronews May 19 UAE-official attribution to Iraqi territory; ToI May 17 Saudi-airspace Iraqi-territory drone intercept (corroborating pattern); JPost Day 81 'Iran ordered' (still T3 attribution-by-anonymous-sources discounted -50%)"
+      },
+      "discounts_applied": [
+        "-50% on JPost two-anonymous-sources attribution to Iran-command (held from Day 81)",
+        "-25% on Iraqi-territory-of-launch vs Iran-command-attribution distinction (territory ≠ command)"
+      ],
+      "conflict_notes": "Cooper Tier-1 May 14 ('Houthis cut off from Iran's weapons') vs UAE May 19 attribution to Iraqi territory: not direct conflict; Cooper's framing was Houthi-focused; the Barakah delivery pathway is Iraqi-PMU not Houthi. Resolution: Cooper accurate on Houthi-supply-cut; Iraqi-PMU is a parallel Iranian-channel Cooper did not address. This refines rather than contradicts the Day 81 Cooper-discount; framework should preserve the discount on the broader proxy-connectivity claim while recognizing the Houthi-specific component may hold."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Fox News May 20 - Vahidi 'devastating blows' framing; Mojtaba X 'Third Sacred Defense' framing (analyst-characterized as 'jihad')", "tier": 2},
+        {"name": "Just the News May 20 - 'Mojtaba Khamenei declares victory in Third Sacred Defense of Iran'", "tier": 3, "url": "https://justthenews.com/government/security/mojtaba-khamenei-declares-victory-third-sacred-defense-iran"},
+        {"name": "PressTV May 15 - 'Leader: Epic of third sacred defense proof Shahnameh is Iran's reality' (Shahnameh/Ferdowsi civilizational frame; not Mahdist invocation)", "tier": 3, "url": "https://www.presstv.ir/Detail/2026/05/15/768654/Leader---Epic-of-third-sacred-defense--proof-Shahnameh-is-Iran-s-reality"},
+        {"name": "TIME May 19 Trump 'might have to give Iran another big hit' + Vance May 19 'locked and loaded'", "tier": 2},
+        {"name": "Vance May 20 'pretty good spot' + 'good progress'", "tier": 2},
+        {"name": "Netanyahu absent at security consultations May 20 (IDF on 'high alert' Fox News May 19)", "tier": 2}
+      ],
+      "finding": "Mojtaba X corpus (May 19-20) framing the war as 'Third Sacred Defense' / 'Sacred Defense against the American and Zionist invasion' (analyst-characterized as 'jihad' per Fox News). The framing draws on Shahnameh/Ferdowsi civilizational rhetoric ('Zahhak-likes', Iran-civilization-against-transgressors) and 'Sacred Defense' (Defah-e Moghadas) terminology established during the Iran-Iraq War, NOT Twelver Mahdist invocation (no Imam-al-Zaman language; no Hujjat-i-asr; no Mahdi-arrival framing per `eschatology-islam-v1.0.md` definition). The analyst 'jihad' label is single-source tier-3 interpretation. Per `eschatology-intersection-matrix.md` four-characteristic test: this is Tier-3 background indicator for PROBE-18 monitoring, NOT a Tier-1 BS-16 Mahdist trigger - the explicit non-fire is logged for framework discipline. Vahidi 'devastating blows' rhetoric (PROBE-2/PROBE-13 cross-ref) is hardline-deterrent at maximum. Trump 'another big hit' (May 19) + Vance 'locked and loaded' (May 19) at hardline pole; Vance 'pretty good spot' (May 20) at deal-direction pole - the cycle's US-side dispositional range remains paradox-state per Day 81 read. Netanyahu absent from Knesset dissolution vote (May 20) for 'security consultations' - dispositional signal of Iran-strike-readiness prioritized over coalition-discipline. IDF 'high alert' (Fox News May 19) holds. The Gulf-state-troika dispositional state from Day 81 (deal-seeking, hardened by Barakah; PROBE-20 territory) continues; the Iraqi-territory attribution may modestly compress Gulf-state alarm toward Iraq-channel-specific rather than Iranian-direct framing. No Smotrich/Ben-Gvir regime-nature breakout. No Mojtaba Mahdist-tier-1 invocation. Powell shifting-power mechanism continues to operate: Knesset dissolution passing elevates Israeli pre-emption incentive (electoral compression on coalition decision-window).",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Netanyahu/coalition explicit regime-nature framing (not fired); IRGC explicit regime-change framing (not fired beyond standard rhetoric); Israeli unilateral strike (not fired); BS-16 Tier-1 Mahdist invocation (NOT FIRED - explicit non-fire on Mojtaba 'Third Sacred Defense' framing - this is Shahnameh-civilizational, not Mahdist)",
+        "framework_variable": "BS-14 dispositional reading; A1 oscillation severity; BS-16 Tier-1 monitoring",
+        "direction": "Iranian dispositional reading elevates marginally on Vahidi silence-break (apex commits to deterrent rhetoric); US disposition at paradox-state continues; Mojtaba civilizational framing is Tier-3 background (NOT Tier-1); Powell mechanism continues on Knesset dissolution mid-stream",
+        "gap_to_full_match": "Vahidi MOU-substantive statement (kinetic-pole or deal-pole explicit); Netanyahu/coalition regime-nature breakout; explicit Mahdist invocation by Mojtaba"
+      },
+      "variable_moved": {
+        "variable": "Mojtaba speech-corpus framing (Tier-3 PROBE-18 background); Vahidi dispositional vertex activation; Knesset-passage shifting-power activation",
+        "prior_value": "Day 81: Trump maximum-paradox A1; Mojtaba silent on corpus; Vahidi silent; Powell mechanism active; Israeli operational-prep + diplomacy concurrent",
+        "new_value": "Day 83: Mojtaba 'Third Sacred Defense'/'Shahnameh' civilizational framing across X posts May 19-20 (Tier-3 PROBE-18 background, EXPLICIT NON-FIRE for BS-16 Tier-1); Vahidi 'devastating blows' apex-deterrent vertex activated; Vance ACTIVE on dispositional range (locked-loaded + pretty-good-spot); Knesset dissolution preliminary passes (Powell mechanism strengthens). Iranian-dispositional reading marginal upward on Vahidi vertex; US at paradox-state continues; Gulf-state dispositional (PROBE-20) deal-seeking holds across window-extension.",
+        "driver": "Fox News May 20 Vahidi + Mojtaba; PressTV/Just the News May 15-20 Mojtaba 'Third Sacred Defense'; TIME May 19 Trump 'another big hit'; Vance May 19-20 multi-source; Knesset vote May 20 multi-source"
+      },
+      "discounts_applied": [
+        "-25% on Trump dispositional stability (A1 binding at maximum severity holds; any framing has <48h durability)",
+        "-50% on analyst 'jihad' characterization of Mojtaba 'Third Sacred Defense' framing (single-source tier-3 analytical interpretation; explicit non-fire for BS-16 Tier-1 trigger per `eschatology-islam-v1.0.md` definition - no Imam-al-Zaman, no Mahdi-arrival language, no Hujjat-i-asr framing in source corpus)"
+      ],
+      "conflict_notes": "Mojtaba 'Third Sacred Defense'/'jihad' (Fox News analyst characterization) vs 'Shahnameh civilizational framing' (PressTV May 15 + Just the News May 20 source content): not conflict, distinct levels of analysis. Fox News analyst label is interpretive; the source content draws on Defah-e Moghadas (Iran-Iraq War 'Sacred Defense' tradition) and Ferdowsi Shahnameh (pre-Islamic Persian civilizational epic) - both nationalist-civilizational, not Twelver Mahdist eschatological. The framework non-fires BS-16 Tier-1 on this distinction; future Mojtaba statement on Hujjat-i-asr / Imam-al-Zaman / Mahdi-arrival would fire."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In (Composite)",
+      "status": "fired",
+      "confidence": "M",
+      "sources": ["Synthetic composite from PROBE-2, PROBE-9, PROBE-10, PROBE-12', PROBE-13, PROBE-14, PROBE-20 Day 83 outputs"],
+      "finding": "FRAMEWORK REVISION TRIGGER. Composite first-mover reading: the Day 81 'most compressed decision architecture' framing held but with structural movements at multiple thresholds. US-SIDE THRESHOLD: reached-and-braked (Day 81 baseline); window EXTENDED by Trump May 19 to 'Friday Saturday Sunday early next week' - Gulf-state-brake holds across one extension cycle (BS-18 durability +5pp; mechanism is not strictly 2-3 day expiry-and-trigger). IRANIAN-SIDE THRESHOLD: Vahidi public silence-broken - apex-vertex public statement on kinetic-deterrence is structurally significant for the first-mover question; Ghalibaf-Araghchi diplomatic-track operative via Pakistan-channel; no coalition rupture indicators (BS-1b held; rial baseline carry; no bazaar signal). ISRAELI-SIDE THRESHOLD: Knesset dissolution PRELIMINARY PASSED 110-0 (Day 82 framework-revision trigger fires); Netanyahu absent for 'security consultations' (Penetration-mechanism signal); pre-caretaker period operative; IDF 'high alert' Fox News May 19; no Israeli unilateral strike Day 82-83. WPR-FORCING-FUNCTION: procedural advance (committee discharge May 19) but on-merits vote not held; Fetterman-swing arithmetic unchanged. STRANGULATION: Brent $111.28 above-band sustained; no Kharg saturation; no commercial restoration. NEW ARCHITECTURE ELEMENT: Iraqi-PMU channel for Iranian-extended-deterrent (Barakah attribution UAE-confirmed May 19) is structurally significant - Iranian operational-delivery channel architecture clarified (Iraqi-PMU operative, Houthi-supply-cut sustained); the channel-architecture refinement affects first-mover signal-reading on Iranian-side (Iran can demonstrate kinetic threshold via Iraqi-PMU without firing Houthi mass-launch). COMPOSITE: the architecture is at maximum compression with extended-but-not-expanded window; the Knesset-passage trigger fires; the Vahidi silence-break fires; Iraqi-PMU channel-architecture refinement fires; the composite reading is 'three fires + Gulf-brake-extension' rather than 'window expiration + binary resolution.' The question 'which actor breaks first' has not resolved within the window; the window has extended; principal-vertex activation has saturated; the joint-distribution-of-thresholds remains operative.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds approaching simultaneously (PROBE-16 trigger logic: 'multiple thresholds breached in parallel → cascade risk; Fork C miscalculation probability ↑'); Knesset-dissolution-trigger fires; Vahidi-silence-break fires; UAE-Iraqi-territory attribution refines BS-13 channel-architecture",
+        "framework_variable": "BS-15 first-mover architecture; joint-distribution-of-thresholds; Fork C miscalculation risk; five-actor architecture (Day 81) extended to six-actor with Iraqi-PMU channel-attribution",
+        "direction": "complex - three threshold-fires (Knesset, Vahidi, Iraqi attribution) without binary fork-resolution; Gulf-state-brake durable across one extension cycle (BS-18 +5pp); Fork A operationalization compressed under extended brake but standing-attack-readiness sustained; Fork B-bilateral substantive-convergence absent (nuclear sticking-point unchanged); Fork D' marginally elevated by window-extension-without-resolution",
+        "gap_to_full_match": "N/A - FIRED. Framework convergence pending within extended window (~May 22-25)."
+      },
+      "variable_moved": {
+        "variable": "US-side execution-readiness state; Gulf-state-brake durability; Iranian apex-vertex public-state; Israeli electoral-compression-state; channel-architecture refinement",
+        "prior_value": "Day 81: US threshold REACHED-and-BRAKED; Gulf-state-brake mechanism inserted; joint decision window 2-3 days (May 20-21) × Knesset vote × Hajj; five-actor architecture",
+        "new_value": "Day 83: US threshold held under EXTENDED brake (Trump May 19 window-extension to ~May 22-25); Vahidi-silence-break adds Iranian apex public-vertex; Knesset preliminary dissolution PASSED 110-0 (Day 82 trigger fires; pre-caretaker period operative; IDF-coalition asymmetry mechanism activates on subsequent readings); Iraqi-PMU channel-attribution refines BS-13 (Houthi-supply-cut + Iraqi-PMU-operational dual-channel read). Six-actor architecture: Iran, US, Israel, Gulf state troika (BS-18), Pakistan mediator (BS-11), Iraqi-PMU-channel (BS-13 attribution). Vance ACTIVE principal-vertex on deal-direction (PROBE-13). The joint-distribution-of-thresholds has multiple cell-fires without binary resolution; the operational reading is 'principal-vertex saturation with extended Gulf-state brake' rather than 'window expiration triggers fork resolution.'",
+        "driver": "PROBE-9 Knesset-passage; PROBE-2/PROBE-13 Vahidi-silence-break; PROBE-14 UAE-Iraqi-territory attribution; PROBE-20 Gulf-state-brake-extension; PROBE-12' window-extension; PROBE-13 Vance-activation"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict in composite. The Day 83 reading sustains the Day 81 'compressed decision architecture' framing but the binary-resolution-within-window prediction was over-weighted; the actual pattern is 'principal-vertex saturation under extended brake' which is structurally different from 'imminent fork resolution.' Framework lesson: window-extensions are mechanism-state signals (brake durability), not resolution-failures; Fork D' marginally elevated as the window-extension itself becomes the operative state rather than the window-closure event."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "TIME May 19 - Trump credits 'Great Leaders and Allies' (MBS, MBZ, Tamim) for postponement; Gulf states stress 'positive momentum' in Pakistan-led mediation; Trump extends window to Friday-Sunday early next week", "tier": 2},
+        {"name": "CBS News May 18 - Trump confirms hold at Gulf request; SecDef Hegseth/Joint Chiefs Cain instructed 'be prepared to go forward with a full, large scale assault on a moment's notice'", "tier": 2},
+        {"name": "CNN May 19 - 'How Trump backed off on resuming Iran attacks - for now'", "tier": 2, "url": "https://www.cnn.com/2026/05/19/politics/trump-iran-decision-gulf-states"},
+        {"name": "WaPo May 19 - UAE-official attribution: Barakah drones from Iraqi territory (NOT formal Iran-command attribution); UAE solidarity within Gulf-state framework holds", "tier": 2},
+        {"name": "Al Jazeera May 18 - 'From Gulf states perspective, Hormuz reopening and Iran's missile programme are core issues' (Gulf-state-priority distinct from US nuclear-focus)", "tier": 2}
+      ],
+      "finding": "Gulf-state troika brake mechanism HOLDS across one extension cycle. Trump (May 19) extended the 2-3 day window to 'Friday Saturday Sunday early next week' - the brake is durable beyond the original 2-3 day framing. Per Gulf-state messaging through Trump: 'positive momentum' in Pakistan-led mediation; deal 'will be made.' No public MBS, MBZ, or Tamim divergence; no intra-troika split signal. UAE-official attribution of Barakah drones to Iraqi territory (WaPo May 19) is structurally significant for BS-18: UAE did NOT escalate to direct Iran-command attribution despite being the Barakah target; the territory-not-command framing preserves UAE's diplomatic positioning within the troika brake mechanism rather than forcing Gulf-state hardening against Iran. No formal Qatar mediation-role announcement (Qatar continues dual role: Gulf brake actor via Emir Tamim + US-Israel diplomatic bridge via PM Mohammed bin Abdulrahman Al Thani). No formal Saudi-Iran principal-level meeting announcement (Hajj May 24-29 window approaches). No other unaligned-middle state (Turkey, India, Indonesia) joining mediation. Pakistan-channel architecture remains operative; Pakistan-Saudi-UAE-Qatar collective architecture sustained. From Gulf-state perspective: Hormuz reopening + Iran missile-programme are core issues (distinct from US nuclear-focus per Al Jazeera May 18) - Gulf-state-priority is regional-security-of-shipping-and-airspace, not US-priority-anti-proliferation; this priority-divergence is an unmodeled BS-18 dimension. Counter-vector mobilization: no public US §5.20 eschatological-coalition statement counter to Gulf-state brake; Smotrich/Ben-Gvir no public response; Israeli right-wing coalition operationally constrained by Knesset-dissolution stress. Brake-decay signals: no Trump expiration-of-patience statement; window-extension structurally INVERTS the expected decay pattern.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "MBS/MBZ public statement supporting US military action (not fired - holding deal-direction); Qatar formal mediation role announced (not fired - dual-role continues); Saudi-Iran principal-level meeting (not fired - Hajj window approaches); UAE official attribution to Iran (PARTIAL - UAE attributed to Iraqi territory, not direct Iran-command); intra-troika split (not fired); second appeal recurring (PARTIAL - Trump-Gulf window-extension implies sustained engagement); counter-coalition mobilization (not fired); brake-decay (not fired - window extended)",
+        "framework_variable": "BS-18 Gulf-state troika brake durability; mediator architecture state; UAE-Iran attribution-management; Hajj-backchannel window approach",
+        "direction": "BS-18 brake DURABILITY +5pp on one extension cycle (mechanism is not strictly one-off); UAE-attribution-management (territory-not-command) preserves Gulf-state brake mechanism rather than escalating; mediator architecture stable Pakistan-Qatar-bridge primary; no counter-coalition mobilization; no decay-signal",
+        "gap_to_full_match": "Formal Qatar mediation announcement; Saudi-Iran principal-level meeting during Hajj; UAE formal Iran-command attribution; intra-troika split; recurring second-appeal cycle"
+      },
+      "variable_moved": {
+        "variable": "Gulf-state brake-mechanism durability; UAE-attribution-management; Hajj-backchannel approach",
+        "prior_value": "Day 82 (BS-18 baseline): visibility 25-35%; brake mechanism one-off observation Day 81; decay-threshold unspecified; UAE attribution pending",
+        "new_value": "Day 83: brake DURABLE across one extension cycle (Trump May 19 window-extension to Friday-Sunday early next week); UAE attribution managed (territory-Iraqi, not command-Iran) - structurally preserves brake; no intra-troika split; no counter-coalition mobilization; Gulf-state priority (Hormuz + missiles) distinct from US-priority (nuclear) - unmodeled dimension surfaces. BS-18 visibility 25-35% → 30-40%; framework-risk holds CRITICAL pending brake-decay observation or Hajj-window resolution.",
+        "driver": "TIME May 19 Trump window-extension; CNN May 19 'how Trump backed off'; WaPo May 19 UAE-Iraqi-territory attribution; Al Jazeera May 18 Gulf-state-priority framing"
+      },
+      "discounts_applied": [
+        "-25% on Gulf-state public-rhetoric framing through Trump-attribution (Trump-attributed Gulf-state messaging vs Gulf-state direct statements)"
+      ],
+      "conflict_notes": "Trump 'another big hit' + 'locked and loaded' (Vance) hardline framing vs Gulf-state-brake extension: not contradiction; A1 oscillation operates within Gulf-state-brake mechanism rather than against it. The Gulf-state brake is a constraint on Trump's executive choice-set, not a substitute for Trump's underlying disposition; the brake-mechanism's durability across one extension cycle is significant for framework calibration."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-2", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Vahidi direct named statement; BS-1a apex visibility +15-20pp; BS-12 PA-gap reading refined"},
+      {"probe_id": "PROBE-6", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Chinese supertankers exit Hormuz (ambiguous); Beijing mediating channel dormant; Pakistan-channel primary"},
+      {"probe_id": "PROBE-7", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-8", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Brent $111.28 close above-band sustained; Day 81 reversal was intraday only; oscillation-band broken upward"},
+      {"probe_id": "PROBE-9", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Knesset dissolution preliminary PASSED 110-0; Netanyahu absent; election horizon Sep-Oct 2026; BS-3 visibility +5pp"},
+      {"probe_id": "PROBE-10", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "WPR committee-discharge May 19; procedural advance not on-merits; Fetterman arithmetic unchanged"},
+      {"probe_id": "PROBE-12'", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Trump window extended to ~May 22-25; Vance ACTIVE principal-vertex on deal-direction; nuclear gap unchanged"},
+      {"probe_id": "PROBE-13", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Vahidi silence-broken (apex public-vertex); Vance ACTIVE deal-direction vertex; Trump window-extended; principal-vertex saturation"},
+      {"probe_id": "PROBE-14", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "UAE official attribution: Iraqi territory (not Yemen/not command-Iran); Iraqi-PMU channel-architecture; Cooper T1 refined"},
+      {"probe_id": "PROBE-15", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Vahidi apex deterrent-vertex; Mojtaba 'Third Sacred Defense' Tier-3 (EXPLICIT non-fire BS-16 Tier-1); Powell mechanism on Knesset-passage"},
+      {"probe_id": "PROBE-16", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "three threshold-fires under extended Gulf-brake; principal-vertex saturation; Iraqi-PMU channel adds 6th actor to architecture"},
+      {"probe_id": "PROBE-20", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Gulf-brake DURABLE across one extension cycle; UAE attribution-management preserves brake; Gulf-priority distinct from US-priority"}
+    ],
+    "fired_count": 5,
+    "partial_count": 6,
+    "null_count": 1,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "PROBE-2 / PROBE-13 IMMEDIATE: Vahidi direct named statement on X post (Fox News attribution May 20) - the framework's longest-monitored silent apex-vertex breaks public silence",
+      "source_probe": "PROBE-2, PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 5.23 Vahidi-decapitation pathway; Section 5 Layer 4 Faction Misalignment / PA-gap; BS-1a Iranian decision architecture; BS-12 Vahidi-shaped PA-gap",
+        "edit": "Add to §5.23: Vahidi direct X-post May 20 (Fox News attribution, T2): 'devastating blows that will leave you in abject defeat' if any further aggression. Framing is kinetic-deterrence not MOU-substantive (no 5-precondition restatement, no sunset-clause reference). BS-1a apex visibility 65-70% → 75-80%. BS-12 PA-gap mechanism revision: Vahidi apex consents to mid-tier diplomatic activity by silence on MOU terms while publicly signaling kinetic-deterrence threshold; the asymmetric PA-gap is now characterized as 'apex public-deterrent + mid-tier private-negotiator' rather than 'apex-veto-against-mid-tier.' v4.0 §5.23 decapitation pathway: target-identification context improved (X-post platform use, audience-cost-binding rhetoric pattern). Probability matrix: Fork B-bilateral marginally elevated on apex-non-rejection of diplomatic activity; full Fork-B durability reassessment pending Vahidi MOU-substantive statement."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-9 IMMEDIATE: Knesset dissolution preliminary vote PASSED 110-0 May 20 - the Day 82 Appendix B framework-revision trigger fires",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 3.4 Layer Four / BS-3 Israeli internal politics; Section 5.20 eschatological-coalition driver interaction with Israeli electoral-compression; probability matrix Israeli unilateral pre-emption 14-21d",
+        "edit": "Update BS-3: Knesset dissolution preliminary vote PASSED 110-0 May 20; Netanyahu absent at security consultations. Election horizon locks September-October 2026 (Haredi pushing September). Three readings remain mechanically; unanimous preliminary passage forecloses Netanyahu delay capacity. Phase-state architecture: pre-caretaker (current; subsequent readings pending) Netanyahu retains operational authority; post-caretaker authority shifts toward IDF leadership (HEU-diplomatic-removal-accepting per Day 77 Zamir baseline). Netanyahu's absence from the vote is itself a Penetration-mechanism signal: Trump consultations or strike-readiness consultations outweighed coalition-discipline imperatives. Israeli unilateral strike 14-21d probability holds at 28-38% with phase-state dependence: pre-caretaker period elevates Netanyahu spoiler probability under electoral-compression; post-caretaker shifts toward IDF leadership's diplomatic-acceptable threshold. Powell shifting-power mechanism activates on electoral compression."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-14 IMMEDIATE: UAE official attribution of Barakah drones to IRAQI TERRITORY (WaPo, Euronews May 19) - channel-architecture refinement; concurrent Saudi-airspace drone intercept from Iraqi airspace May 17 corroborates pattern",
+      "source_probe": "PROBE-14",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 3.2 Layer Two asymmetric-conflict logic; Section 3.5 Layer Five proxy-connectivity constraint; Cooper T1 testimony assessment note",
+        "edit": "Refine §3.2: Iranian-extended-deterrent channel-architecture has IRAQI-PMU OPERATIVE as primary delivery channel for Gulf-state-infrastructure targeting; Houthi-supply-cut framing (Cooper T1 May 14) holds on supply-component; Iraqi-PMU channel is a parallel Iranian-channel Cooper did not address. Update §3.5: Iranian-Quds-Force-Iraqi-militia coordination implicated more directly than Houthi-autonomous reading; the channel-distinction matters for first-mover signal-reading (Iran can demonstrate kinetic-threshold via Iraqi-PMU without firing Houthi mass-launch). Cooper Tier-1 discount maintained on broader proxy-connectivity claim; refined as 'Houthi-supply-cut accurate, Iraqi-PMU-operational parallel channel.' BS-13 visibility 45-55% → 50-60%. Layer 2 escalation ladder: nuclear-adjacent threshold position from Day 81 preserved; channel-attribution refinement does not lower threshold."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-13 / PROBE-16 IMMEDIATE: Trump deal-window EXTENDED to 'Friday Saturday Sunday early next week' (May 19) - Gulf-state-troika brake DURABLE across one extension cycle",
+      "source_probe": "PROBE-13, PROBE-16, PROBE-20",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 3.3 Layer Three time arithmetic; Section 5.25 Gulf State Troika Brake Mechanism; BS-18 Gulf state troika; BS-15 first-mover architecture",
+        "edit": "Update §5.25: Gulf-state troika brake mechanism DURABLE across one extension cycle. Original 2-3 day framing (May 20-21) extended by Trump May 19 to 'Friday Saturday Sunday early next week' (~May 22-25). Brake is not strictly one-off; mechanism withstands at least one extension under sustained Pakistan-mediation 'positive momentum' framing. BS-18 visibility 25-35% → 30-40%. Update Layer Three: operative forcing function is now Trump's extended window ~May 22-25, with Hajj (May 24-29) overlapping. Joint decision window: Knesset-dissolution-subsequent-readings × Trump extended window × Hajj overlap. The window-extension structurally inverts the expected decay pattern; the brake mechanism's durability is itself the cycle's structural signal. BS-15 first-mover architecture: six-actor (Iran, US, Israel, Gulf troika, Pakistan mediator, Iraqi-PMU channel-attribution per PROBE-14). The joint-distribution-of-thresholds has multiple cell-fires without binary fork-resolution."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "PROBE-13 NEXT CYCLE: Vance principal-vertex UPGRADE from Day 77 partial-fire to ACTIVE deal-direction vertex; intra-Republican faction dynamics operationally visible per BS-17",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-5 US domestic / Vance succession architecture; BS-17 Christian Zionist disaggregation; PA-gap principal-access architecture",
+        "edit": "Update BS-5: Vance ACTIVE on deal-direction across May 19-20 (Washington Times 'locked and loaded; two-way choice' + Al Jazeera/The Hill 'pretty good spot; good progress'). The Day 77 partial-fire upgrades to ACTIVE principal-vertex on the deal-direction question. Faction-architecture: deal-faction (Vance, Bessent baseline, Trump-A1-oscillating) substantively visible against accelerationist-veto path (Hegseth standing-prepared, §5.20 eschatological-coalition latent). Update BS-17: intra-Republican fracture dynamics now have operational evidence in the principal-access-channel architecture; the disengagement-vs-maximalist faction dynamic operates within the Gulf-state-brake mechanism interaction (Vance deal-direction framing aligns with Gulf-state-brake; §5.20 eschatological-coalition latent during brake-extension)."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-10 NEXT CYCLE: WPR resolution discharged from committee May 19 (procedural advance); Fetterman-swing arithmetic unchanged; on-merits vote pending",
+      "source_probe": "PROBE-10",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-5 US domestic / WPR-as-forcing-function; BS-15 first-mover architecture WPR component",
+        "edit": "Update BS-5: Senate discharged the war-powers resolution from committee May 19 (four GOP + Dems vs Fetterman NO + remaining GOP); procedural advance positions an on-merits vote. The Fetterman baseline arithmetic (49-50 against; Fetterman decisive) holds; the procedural unlocking is incremental institutional pressure on the constitutional architecture absent any operational-vote-passage outcome. WPR-as-forcing-function status: ARMED but not FIRED. Stage 2 hysteresis indicators continue to accumulate under Trump-window-extension."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "PROBE-15 NEXT AUDIT: Mojtaba 'Third Sacred Defense' speech corpus framing - Tier-3 PROBE-18 background; EXPLICIT NON-FIRE for BS-16 Tier-1 (Shahnameh-civilizational, NOT Twelver Mahdist invocation per `eschatology-islam-v1.0.md` definition)",
+      "source_probe": "PROBE-15, PROBE-18 cross-reference",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-16 Eschatological multi-tradition convergence; PROBE-18 monitoring note",
+        "edit": "Update PROBE-18 monitoring note: Mojtaba X corpus May 19-20 'Third Sacred Defense' / 'Sacred Defense against American and Zionist invasion' framing is Tier-3 background indicator (Mojtaba speech-corpus Mahdist-invocation frequency directive). EXPLICIT NON-FIRE for BS-16 Tier-1 (Mojtaba public Mahdist invocation in major speech): the source content draws on Defah-e Moghadas (Iran-Iraq War 'Sacred Defense' tradition) and Ferdowsi Shahnameh ('Zahhak-likes' framing; pre-Islamic Persian civilizational epic), NOT Twelver Mahdist eschatological tradition (no Imam-al-Zaman, no Hujjat-i-asr, no Mahdi-arrival language per `eschatology-islam-v1.0.md` definition). Analyst 'jihad' characterization (Fox News, single-source tier-3 interpretation) does not constitute eschatological-tradition activation per `eschatology-intersection-matrix.md` four-characteristic test. Framework discipline preserved by explicit non-fire log."
+      },
+      "urgency": "next_audit"
+    },
+    {
+      "appendix_b_row": "PROBE-8 NEXT CYCLE: Brent above-band sustained ($111.28 close May 19); Day 81 reversal was intraday only; oscillation-band broken upward",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 2.2 Market Snapshot; Section 8 Probability Matrix oil-scenario probabilities",
+        "edit": "Update market snapshot: Brent closed $111.28 May 19, above the $102-110 A1-oscillation band; the Day 81 sweep's read of ~$102 intraday cluster did not session-close-durably reassert the band. Operating range is now $110-115 with kinetic-resumption premium sustained. Brent-through-$130-in-60-days: holds at 30-40% (Day 81 marker) pending May 20-25 extended window resolution; downside-to-Fork-B-trigger ($95) not approached. Framework lesson: distinguish intraday-deal-signal-spikes from session-close band-position; price the latter."
+      },
+      "urgency": "next_cycle"
+    }
+  ],
+  "gap_log": [
+    {
+      "probe_id": "PROBE-3",
+      "gap_description": "Bazaari/Bonyad economic signals - 13th consecutive gap cycle; rial parallel baseline carry-forward ($1,815,000); Persian-language primary source ladder remains aspirational",
+      "consecutive_gap_cycles": 13,
+      "sources_tried": ["Tier 3-4 (IranWire, Iran International, BBC Persian, Radio Farda)", "Bonbast/alanchand.com not accessible"],
+      "sources_not_tried": ["Persian-language primary source ingestion (structurally not available)"],
+      "recommendation": "accept_structural_opacity"
+    },
+    {
+      "probe_id": "PROBE-6",
+      "gap_description": "Chinese principal-level intervention silent since Trump-Xi Day 2 communique May 15; Chinese supertanker exit Hormuz May 20 signal-ambiguous; Pakistan-channel preferred over Beijing-channel this cycle",
+      "consecutive_gap_cycles": 1,
+      "sources_tried": ["Tier 2-3 surface scan; Al Jazeera supertanker reporting; CNBC summit-readout baseline"],
+      "sources_not_tried": ["Kpler/Vortexa tanker-tracking corroboration of supertanker-exit interpretation; Wang Yi-Araghchi readout (not surfaced); BeiDou-3 sub-components opaque"],
+      "recommendation": "change_frequency"
+    }
+  ],
+  "calibration_check": {
+    "thesis_status": "holding with structural elaboration on extended-brake mechanism and principal-vertex saturation",
+    "assessment": "Central thesis holding. The materialist bargaining model continues to rank options under constraint surface; the Day 83 cycle adds three structural movements: (a) the Gulf-state troika brake mechanism is DURABLE across at least one extension cycle (not strictly one-off; the brake's decay-threshold is further out than the Day 81 original 2-3 day framing suggested); (b) the Vahidi apex-silence-break crystallizes the Iranian PA-gap as 'apex public-deterrent + mid-tier private-negotiator' two-level pattern rather than 'apex-veto-against-mid-tier' which was the BS-12 mechanism-revision read at Day 77; the apex consents to mid-tier negotiation activity by silence on substantive terms while publicly signaling kinetic-deterrence threshold; (c) the UAE-Iraqi-territory attribution refines BS-13 channel-architecture - Houthi-supply-cut framing (Cooper T1) holds on supply-component but Iraqi-PMU is a parallel Iranian-channel that Cooper's framing did not address. The materialist bargaining model correctly predicts that the Gulf-state-brake-mechanism's emergence-and-extension is the joint equilibrium of constrained choices (Iranian deterrence-signal activating Gulf-state economic-exposure activating Gulf-leader appeals activating Trump A1-oscillation) rather than designed-by-any-actor; the framework predicts the ranking, not the selection. The selection this cycle was 'Trump extends brake' rather than 'Trump expires brake into execution' - the ranking-prediction held; the selection was at the deal-direction pole of the ranked options.",
+    "dominant_uncertainty": "Whether the extended window (~May 22-25) produces (a) substantive nuclear-gap convergence (Fork B-bilateral durability ↑), (b) further window-extension under sustained Gulf-state-brake (Fork D' extends), (c) Trump A1-oscillation back to execution after no-convergence (Fork A resumption), or (d) Israeli unilateral pre-emption under electoral-compression after Knesset-dissolution subsequent readings (Israeli variant ↑). The Vahidi MOU-substantive statement remains the most-consequential single signal; absent that, the Iranian-side ratification gap is not closed even with apex-silence-broken on deterrence-framing. The second dominant uncertainty: whether the Iraqi-PMU channel-architecture refinement produces second-cycle Gulf-state-infrastructure attack (sustained-targeting pattern would fire BS-13 escalation-ladder revision; absent recurrence the Day 81 nuclear-adjacent threshold is single-event).",
+    "next_cycle_priority": [
+      "MAY 22-25 WATCH: Trump extended window resolution - any US named-official confirmation of deal terms or attack rescheduling",
+      "Vahidi MOU-substantive statement (5 preconditions, sunset clause, HEU disposition) - the most-consequential single signal for PA-gap resolution beyond Day 83 silence-break",
+      "Knesset dissolution subsequent readings (1st, 2nd, 3rd) - mechanical passage forecloses Netanyahu delay; pre-caretaker-to-caretaker phase transition affects IDF-coalition-asymmetry mechanism timing",
+      "Iraqi-PMU channel-architecture: second Gulf-state-infrastructure attack (Houthi or Iraqi-launch) would confirm sustained-targeting pattern; specific Iraqi PMU faction attribution (KH, AAH, NJBA)",
+      "Vance subsequent statements - whether deal-direction or hardline framing dominates; principal-vertex range stability",
+      "Saudi-Iran direct or Hajj-window principal-level meeting (May 24-29 Hajj approaches) - Saudi-Iran backchannel formalization would fire BS-18 trigger",
+      "WPR on-merits vote post committee-discharge - Fetterman position confirmation or flip",
+      "US official confirmation or denial of Iran oil sanctions waiver (currently Tasnim-only, US-side Treasury action this cycle was Russian-crude tanker waiver, distinct policy line)",
+      "Eisenhower deployment order; UAE formal Iran-command attribution of Barakah; Mojtaba explicit Mahdist invocation (Tier-1 BS-16); IDF unilateral strike order"
+    ]
+  }
+}

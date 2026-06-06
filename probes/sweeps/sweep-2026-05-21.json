@@ -1,0 +1,464 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-21",
+    "day_number": 84,
+    "framework_version": "v4.0",
+    "probes_run": ["PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-17", "PROBE-20"],
+    "probes_skipped": {
+      "PROBE-1": "bi-weekly; last ran Day 81 (May 18); next run ~Day 86 (May 28); no Tier-1 Mojtaba visual-appearance or death-confirmation trigger",
+      "PROBE-3": "monthly cadence; 14th consecutive gap cycle; structural opacity holds; rial parallel rate $1,815,000 carry",
+      "PROBE-11": "bi-weekly; last ran Day 78 (May 15); Day 83 notes flagged 'next run ~May 22'; running tomorrow",
+      "PROBE-18": "monthly background; no Tier-1 eschatological trigger this cycle; Hajj backchannel captured under PROBE-20; no Mahdist Tier-1 invocation observed",
+      "PROBE-19": "quarterly cadence; Trump-Netanyahu divergence and Vance/deal-faction dynamics captured under PROBE-13/PROBE-15"
+    },
+    "synthesis_anchor": "synthesis/synthesis-v4-0.md",
+    "reference_trends": [
+      {"trend": "T1_tripolar_unaligned_middle", "effect": "advance", "basis": "Pakistan Army Chief Munir principal-level visit to Tehran confirms Pakistan channel operating at principal tier; Saudi-UAE structural divergence reveals unaligned-middle actors exercising autonomous pivot capacity in competing directions (MBS accommodation vs MBZ confrontation) — both actors exercising autonomous agency per T1 prediction, complexity confirmed"},
+      {"trend": "T2_mosaic_octopus_deterrent", "effect": "advance", "basis": "CNN T2 multi-source: Iran has restarted drone production during ceasefire; 50% drone capability intact; full reconstitution in 6 months; multi-channel deterrent actively rebuilding, not residual; Russian and Chinese material support confirmed as contributing factors"},
+      {"trend": "T3_fearon_slantchev_apex_deterrent", "effect": "hold", "basis": "Mojtaba HEU-must-stay directive (public apex maximalism on HEU export) coexists with Munir active mediation track (private mid-tier diplomatic engagement); two-level pattern holds: apex reserves maximalist public floor while mid-tier explores bargaining range; consistent with T3 prediction"},
+      {"trend": "T4_eschatological_coalition_disaggregation", "effect": "advance", "basis": "Trump-Netanyahu tense hour-long call with Trump actively resisting Netanyahu's push for military resumption; deal-faction (Trump+Rubio+Vance) overriding maximalist faction this cycle; no Huckabee/CUFI/Hegseth counter-mobilization visible; T4 intra-coalition variance operationally active"},
+      {"trend": "T5_multi_tradition_convergence", "effect": "hold", "basis": "Hajj window opened May 24; ~30,000 Iranian pilgrims on Saudi soil via Iraqi overland route; Saudi interior minister met Iranian Hajj head May 20; backchannel active but no Tier-1 trigger events fired; T5 remains PENDING"},
+      {"trend": "T6_russian_siloviki_succession", "effect": "hold", "basis": "No new BS-9 sub-probe fires this cycle; EU intelligence May 4 report already captured at Day 77 elevation; Shoigu criminal charges not filed; Dyumin footprint no new signals; M1 managed-transit baseline holds"},
+      {"trend": "T7_materialist_bargaining_methodology", "effect": "hold", "basis": "Voice discipline maintained in this sweep; actors (Trump executive, Mojtaba apex, Netanyahu, Munir, MBS) are subjects of choice verbs; constraints (Gulf brake, WPR tightening, reconstitution faster than expected, HEU sticking point) are modifiers on choice sets; framework ranks, actors select"}
+    ],
+    "notes": "Day 84 cycle concentrates on five operational nodes: (1) Mojtaba HEU-must-stay directive (multi-T2, apex position on core US demand); (2) 'Letter of intent' 30-day framework concept (new deal architecture described by Trump to Netanyahu per CNN/Axios); (3) Iranian military reconstitution faster than expected (CNN T2 multi-source: 50% drone capability intact, production resumed during ceasefire); (4) Trump-Netanyahu tense call (divergence active: Trump resisting Israeli push for military resumption); (5) House WPR failed 213-214 narrowly with 3 GOP defectors. Secondary: Pakistan Munir principal-level Tehran visit; Saudi-UAE structural fissure documented; Hajj backchannel active; Senate on-merits WPR vote expected. The day's most consequential finding is the structural collision between Trump's stated deal basis ('we will get the HEU out') and Mojtaba's reported directive (HEU stays). The 'letter of intent' concept may be designed to defer this collision rather than resolve it. Thesis: HOLDING."
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Reuters via multiple outlets (geo.tv, Al Arabiya, Daily Sabah) - Mojtaba HEU directive attributed to 'senior Iranian sources'", "tier": 2},
+        {"name": "NBC News - Iran-US talks update May 21 2026", "tier": 2}
+      ],
+      "finding": "No new direct IRGC-vertex statements this cycle (Vahidi, Aliabadi, Hassanzadeh, Jafari, Ghalibaf). Day 83 Vahidi 'devastating blows' statement remains the most recent direct apex-IRGC speech. Ghalibaf-Araghchi pro-deal track continues operative via Pakistan-channel mediation (Munir in Tehran Day 84); no new Ghalibaf X post or Sobh-e No editorial captured. Mojtaba Khamenei HEU directive (see PROBE-13) is apex-nominal-figurehead-level, not IRGC-factional-vertex; captured under PROBE-13. Aliabadi silent.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Null status this cycle; IRGC-specific factional voices (Vahidi direct, Aliabadi, Hassanzadeh new) not surfaced. The apex-level Mojtaba HEU directive is structurally consistent with the Day 83 BS-1a apex-split characterization: apex signals public maximalism on HEU while mid-tier Ghalibaf-Araghchi diplomacy continues. No internal IRGC triangle fracture signal."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN T2 multi-source US officials - 'Iran rebuilding military industrial base faster than expected' (May 21 2026)", "tier": 2},
+        {"name": "US News reporting CNN findings", "tier": 2}
+      ],
+      "finding": "CNN (T2, two US officials) reports China has continued to provide components during the conflict 'that can be used to build missiles,' cited as one factor in Iran's faster-than-expected military reconstitution. Characterization is material-support (components), not command-and-control or satellite-intelligence-transfer level. No new Xi-level policy signal, BeiDou-3 operational disclosure, or OFAC cascade to Chinese banking sector. Taiwan Strait no spike. The Chinese component-supply finding advances BS-4's sub-component on MizarVision/missile-components; the Xi-principal-level posture is unchanged from Day 83 (Biden summit commitment device held).",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Increased Chinese operational support post-summit: role from passive accumulator to active calibrator",
+        "framework_variable": "BS-4 Chinese active support sub-component on material supply",
+        "direction": "up — component-supply confirmed active during conflict period",
+        "gap_to_full_match": "Gap: this is material-component supply (consistent with prior baseline); a 'full match' trigger would require active command-and-control transfer or escalated satellite intelligence provision"
+      },
+      "variable_moved": {
+        "variable": "BS-4 Chinese support — sub-component on missile/drone component supply",
+        "prior_value": "Day 83: BeiDou/MizarVision structural opacity null multiple cycles",
+        "new_value": "Day 84: CNN T2 confirms Chinese components flowing during conflict; one factor in faster reconstitution; not a new Xi-level policy shift",
+        "driver": "CNN multi-source US officials on Iranian military reconstitution report"
+      },
+      "discounts_applied": ["CNN single-report attribution; corroborated by multi-outlet pickup but same source cluster"],
+      "conflict_notes": "No source conflict. Chinese component supply during conflict is consistent with the Day 77 Xi summit commitment-device baseline (Xi pledged no military equipment, which was interpreted as no weapons system transfers; components for manufacturing may fall in a different category in Chinese diplomatic framing). Not a contradiction of the Day 77 'Xi delivered' read; is additional granularity on what continues versus what was explicitly pledged."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "null",
+      "confidence": "H",
+      "sources": [
+        {"name": "IDNFinancials - USS Eisenhower 'final stage of preparations' (May 13 baseline, carried forward)", "tier": 2},
+        {"name": "The War Zone / USNI News May 11 carrier deployment tracker (carried forward)", "tier": 2},
+        {"name": "CNN/Axios: Trump-Netanyahu call description, including 'Operation Sledgehammer' planned name for suspended attack", "tier": 2}
+      ],
+      "finding": "USS Eisenhower remains in OFRP training posture on East Coast; no deployment order issued. Two-CSG (Lincoln + Bush) baseline from Day 83 held; no new CSG deployment or withdrawal. No ROE change, Dark Eagle deployment, or CENTCOM munitions-resupply hearing signal. Operationally significant: Trump-Netanyahu call reporting (CNN/Axios) names the planned operation as 'Operation Sledgehammer' — the pre-planned attack that was suspended May 19. This is a new-operation-name signal under BS-10 resurrection criteria and the BS-5/PROBE-10 'resumed-operations trigger' watch list. The operation was named but NOT executed; execution remains suspended under the Gulf-state brake and deal-window extension.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "CENTCOM strikes resumed under new operation name",
+        "framework_variable": "Stage 2 hysteresis / new operation name pre-positioned but not executed",
+        "direction": "no change — name pre-positioned; execution suspended",
+        "gap_to_full_match": "Gap: execution order not issued; 'Operation Sledgehammer' was named but halted by Gulf brake before launch"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Operation Sledgehammer naming is a partial signal: new operation name ready (which is a Stage 2 hysteresis / resumed-operations indicator per BS-5/BS-10 tracking) but not executed. Framework note: the two-CSG posture has been consistent across Day 81-84; Eisenhower non-deployment under active deal-window is a restraint signal consistent with the Gulf-state brake mechanism operating."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Capital.com crude oil forecast May 19 2026 - Hormuz closure context", "tier": 3},
+        {"name": "EIA May 2026 STEO - Brent $106/b forecast for May-June 2026", "tier": 1},
+        {"name": "Al Jazeera oil price reporting May 2026 - WTI 3% recovery to ~$101", "tier": 2},
+        {"name": "Day 83 SITREP baseline: Brent $111.28 close May 19 (CNBC T2)", "tier": 2}
+      ],
+      "finding": "WTI crude recovered approximately 3% to above $101/barrel on May 21 (Thursday) after approximately 6% drop over the two prior sessions; Brent implied approximately $104-107 range given typical spread. EIA May 2026 STEO projects Brent around $106/b for May and June under assumption of effectively-closed Hormuz through late May with slow reopening early June. The Day 83 $111.28 Brent close appears to have been a session-high influenced by 'another big hit' Trump rhetoric; the subsequent pull-back reflects mixed deal-progress signals (Munir in Tehran; 'letter of intent' concept) against war-risk premium. No commercial restoration announcement (Hapag-Lloyd/Maersk-equivalent). No Kharg Island saturation event. EIA global inventory drawdown: -8.5M b/d in Q2 2026 — physical tightness sustained.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": {
+        "variable": "Brent crude operating range",
+        "prior_value": "Day 83: $111.28 close (band-break held above $102-110 oscillation range)",
+        "new_value": "Day 84: pulled back toward $104-107; EIA projects $106/b for May-June; deal-progress signals vs sustained physical tightness; no commercial restoration; oscillation band widened with deal-progress pulls and kinetic-risk pushes",
+        "driver": "Deal-progress signals (Munir in Tehran; 'letter of intent' concept; Rubio 'some progress') competing with sustained Hormuz physical closure and war-risk premium"
+      },
+      "discounts_applied": ["EIA STEO is T1 institutional forecast, not real-time price; WTI/Brent spread estimation implicit"],
+      "conflict_notes": "Price action Day 84 is consistent with market pricing mixed deal-vs-war signals. The Day 83 $111.28 close was driven by Trump's 'another big hit' rhetoric; Day 84 recovery toward $101-107 reflects 'borderline' deal framing and Munir visit. No structural divergence between sources; minor spread-estimation uncertainty."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "partial",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNN - 'Trump and Netanyahu diverge on Iran war's future in tense phone call' (May 20 2026)", "tier": 2},
+        {"name": "Axios - 'New Iran peace proposal triggers tense Trump-Netanyahu call' (May 20 2026)", "tier": 2},
+        {"name": "Times of Israel / Haaretz - Knesset preliminary dissolution 110-0 (May 20 2026; carried from Day 83)", "tier": 2},
+        {"name": "The National - Israeli MPs vote to dissolve Knesset preliminary reading", "tier": 2}
+      ],
+      "finding": "Trump-Netanyahu call (CNN/Axios, US official, May 20): hour-long conversation; Netanyahu pushed for military resumption against Trump's deal-track; Netanyahu told Trump delaying attacks 'was a mistake'; Trump told Netanyahu mediators working on 'letter of intent' + 30-day framework. Trump's side: halted Operation Sledgehammer 'at request of Gulf allies.' The Netanyahu-Trump divergence is now publicly documentable at principal level — the Penetration mechanism is active but being explicitly resisted by Trump on the deal track, reversing the Day 83 reading that Penetration decayed on non-contact. Knesset subsequent dissolution readings: three remain mechanically after the 110-0 preliminary; no reading scheduled through Day 84. IDF-coalition uranium-removal asymmetry mechanism operates: no Israeli unilateral strike Day 84.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Netanyahu/coalition explicit pushback on deal-direction; Netanyahu spoiler-window evaluation against Trump deal-direction",
+        "framework_variable": "BS-3 Israeli internal politics — Netanyahu-Trump divergence; Penetration mechanism direction; Israeli pre-emption incentive under 'closing window' perception",
+        "direction": "up — Israeli pre-emption pressure increasing; Netanyahu explicitly pushing for military resumption; Trump resisting; Powell mechanism: as Trump deal-direction holds, Israeli pre-emption incentive rises per shifting-power logic",
+        "gap_to_full_match": "Gap: no Israeli unilateral strike; no IDF chief public break with Netanyahu; Knesset final dissolution reading not yet passed"
+      },
+      "variable_moved": {
+        "variable": "Netanyahu-Trump Penetration mechanism direction; Israeli pre-emption probability",
+        "prior_value": "Day 83: Netanyahu absent at Knesset vote for security consultations; Penetration mechanism active but direction unclear; 28-38% Israeli unilateral 14-21d",
+        "new_value": "Day 84: Netanyahu explicitly pushed for military resumption in hour-long call; Trump explicitly resisted and described deal architecture; Penetration mechanism active in counter-direction to deal track; Israeli pre-emption incentive rising per Powell mechanism as Trump deal-direction holds. Probability held at 28-38% (pre-caretaker window; subsequent Knesset readings pending)",
+        "driver": "CNN T2 US official on Trump-Netanyahu call content"
+      },
+      "discounts_applied": ["CNN single-source (US official); Axios corroborates same call; no Israeli official sourcing on call content"],
+      "conflict_notes": "CNN and Axios are consistent on the tense-divergence framing. Day 83 read Netanyahu's security-consultations absence as Penetration-mechanism-active; Day 84 confirms the content: Netanyahu is pushing for resumption, not deal. No conflict between sources. The IDF-coalition uranium-removal asymmetry sub-finding (Zamir accepts diplomatic HEU removal; Netanyahu demands physical dismantlement) remains operative — the Trump 'letter of intent' (defer nuclear issue to 30-day period) may appeal to IDF more than to Netanyahu/coalition."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "partial",
+      "confidence": "H",
+      "sources": [
+        {"name": "NBC News - 'House effort to end Trump's war with Iran fails by one vote' (May 21 2026)", "tier": 2},
+        {"name": "Philadelphia Inquirer / US News - House WPR vote May 21 2026", "tier": 2},
+        {"name": "Spectrum News - House expected to take Iran war vote (May 21 2026)", "tier": 2},
+        {"name": "CBS News - Senate advances resolution for first time after 4 Republicans defect", "tier": 2},
+        {"name": "Washington Post - Senate advances to curb Trump's Iran war powers (May 19 2026)", "tier": 2}
+      ],
+      "finding": "House WPR vote (H.Con.Res.38): failed 213-214 (or 212-212 per one source; conflicting count at 1-vote margin), the third House attempt. Three Republicans crossed (Massie, Fitzpatrick, Barrett) — more than any prior House vote. This is the narrowest House margin yet. Senate: the May 19 50-47 committee-discharge vote (four GOP defectors: Collins, Murkowski, Paul, Cassidy; three absent: Cornyn, Tuberville, Tillis; Fetterman sole Dem NO) was the discharge; the on-merits final Senate vote expected Thursday but Republican leaders project a block with full attendance. Stage 2 hysteresis indicators continue accumulating: 'hostilities terminated' certification, Day 60+ WPA deadline passed, operation-rebranding ('Sledgehammer') pre-positioned but not executed, no judicial WPA challenge filed.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "WPR passes simple majority on next vote / House and Senate advancing",
+        "framework_variable": "BS-5 US domestic constitutional erosion trajectory; Stage 2 hysteresis lock-in path",
+        "direction": "no change on passage — failed again; but trajectory indicators: three House GOP defectors (most ever), four Senate GOP defectors (most ever), both chambers closer to threshold than any prior cycle",
+        "gap_to_full_match": "Gap: WPR did not pass in House (failed by 1 vote); Senate on-merits vote likely blocked at full attendance. Gap to full trigger: Fetterman flip (Senate) OR two more House Republicans (to reach 215+ majority)"
+      },
+      "variable_moved": {
+        "variable": "WPR passage trajectory / Stage 2 hysteresis lock-in pace",
+        "prior_value": "Day 83: Senate committee-discharge 50-47; Fetterman-swing mechanism dominant on Senate floor vote; House vote not yet held",
+        "new_value": "Day 84: House failed 213-214 (1-vote margin; 3 GOP defectors); Senate discharge completed; Cassidy joins Collins/Murkowski/Paul as Senate GOP defectors (4 total). Mechanism revised: the WPR is closer to passage in BOTH chambers simultaneously than any prior cycle; the operative constraint on passage is Senate full-attendance (Cornyn/Tuberville/Tillis) + Fetterman (Senate) and 2 additional House Republicans",
+        "driver": "NBC News, CBS News, Philadelphia Inquirer multi-source on House and Senate votes"
+      },
+      "discounts_applied": ["House vote count conflicting between sources (212-212 vs 213-214); 1-vote margin confirmed but precise count uncertain"],
+      "conflict_notes": "CBS News Senate headline says 'first time' advancing, which is technically correct on the discharge procedure. The on-merits Senate vote is the live test — if all Republicans present and Fetterman holds NO, the resolution fails ~50-51 (VP tiebreaker). Rand Paul's defection is ideologically durable (libertarian foreign policy); Collins/Murkowski are institutionalist pattern defectors; Cassidy is a newer defector. The pattern suggests WPR passage probability is rising on 30-day horizon if Cornyn/Tuberville/Tillis sustain absences or more defect."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN - 'Trump and Netanyahu diverge on Iran war's future in tense phone call' (May 20 2026) — 'letter of intent' architecture description", "tier": 2},
+        {"name": "Axios - 'New Iran peace proposal triggers tense Trump-Netanyahu call' (May 20 2026)", "tier": 2},
+        {"name": "Al Jazeera - 'Iran reviews US proposal to end war as Pakistan steps up mediation efforts' (May 21 2026)", "tier": 2},
+        {"name": "Pakistan Today / Cyprus Mail - 'Pakistan steps up diplomatic bid to get US-Iran peace talks on track' (May 21 2026)", "tier": 2},
+        {"name": "Reuters via NBC News - Munir traveling to Tehran Thursday (May 21)", "tier": 2}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Trump described to Netanyahu a new deal architecture: mediators working on a 'letter of intent' that both the US and Iran would sign to 'formally end the war' and 'launch a 30-day period of negotiations on issues like Iran's nuclear program and opening of the Strait of Hormuz' (CNN T2 US official). This is structurally distinct from both the 5-round Oman MOU process and simple ceasefire extension: it is a pre-MOU framework agreement that defers the nuclear sub-issues (including HEU disposition) into a structured 30-day negotiation period. Pakistan Army Chief Asim Munir traveled to Tehran on Thursday for 'talks and consultations' with Iranian authorities — elevating the Pakistan mediation channel from agent-level to principal-level (Army Chief is the de facto state principal in Pakistan's foreign security policy). Trump: talks 'right on the borderline'; Secretary Rubio: 'some progress.' Iranian position: 'reduced the gaps to some extent' (anonymous Iranian source, apply -50% discount).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "5th Oman round scheduled with technical negotiators / Meta-Negotiation Regression interrupted; new deal architecture substantive",
+        "framework_variable": "BS-11 MOU architecture and focal point coordination; Fork D' structured deferral vs Fork B indicator",
+        "direction": "'Letter of intent' + 30-day framework = new deal architecture that could be either: (a) Fork D' structured deferral (defer HEU dispute; freeze war while negotiating); or (b) Fork B-multilateral development (Gulf-backed formal end-of-war framework); direction ambiguous pending Iranian response",
+        "gap_to_full_match": "Gap: 'letter of intent' is Trump's description to Netanyahu, not a confirmed text in Iranian hands; Iranian formal acceptance of this architecture not confirmed; Munir visit outcome unknown"
+      },
+      "variable_moved": {
+        "variable": "BS-11 MOU architecture — deal structure concept; Fork D' vs Fork B probability split",
+        "prior_value": "Day 83: Iran's revised 14-point text via Pakistan active; Trump window extended to ~May 22-25; Oman dormant; Beijing dormant; 5th round Rome May 23 baseline held",
+        "new_value": "Day 84: 'Letter of intent' + 30-day framework concept described by Trump to Netanyahu (CNN/Axios T2); Munir in Tehran at principal-level; this architecture bypasses the 5th-round-Rome MOU-text format and proposes a shorter-timeline formal-end-of-war + deferred nuclear negotiation structure. Fork D' elevated: structured deferral is now a named deal mechanism. Fork B-bilateral: marginally impacted by HEU-stays directive (PROBE-13); Fork B-multilateral: marginally elevated if letter-of-intent binds the Gulf-pathway framework",
+        "driver": "CNN/Axios Trump-Netanyahu call reporting; Reuters/Pakistan Today Munir in Tehran"
+      },
+      "discounts_applied": ["-25% on 'letter of intent' specific architecture (CNN single-source US official; Axios corroborates call framing but letter-of-intent detail is CNN-only)", "-50% on 'reduced gaps' characterization (anonymous Iranian source)"],
+      "conflict_notes": "The 'letter of intent' concept is introduced into the framework through Trump's description to Netanyahu, not from an Iranian-side confirmation or mediator public statement. This creates a one-sided visibility risk: Trump may be describing his own desired outcome rather than an agreed framework. However, the Munir Tehran visit the same day is consistent with active mediation on a new deal architecture. Monitor: Iranian official reaction to 'letter of intent' framing; any Araghchi or Munir public characterization of the framework concept."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Haaretz - 'Mojtaba Khamenei says enriched uranium must stay in Iran, senior Iranian sources say' (May 21 2026)", "tier": 2},
+        {"name": "Reuters via geo.tv, Al Arabiya English, Daily Sabah - multiple T2 outlets picking up same Iranian-sources report", "tier": 2},
+        {"name": "Times of Israel - 'Iranian sources say regime has decided to keep highly enriched uranium in Iran, defying Trump' (May 21 2026)", "tier": 2},
+        {"name": "Kathmandu Post / Haaretz - 'Supreme Leader says enriched uranium must stay in Iran' (May 21 2026)", "tier": 2},
+        {"name": "CNN - Trump-Netanyahu tense call; Trump described deal architecture to Netanyahu (May 20 2026)", "tier": 2},
+        {"name": "Axios - Trump-Netanyahu call; Trump halted Operation Sledgehammer at Gulf allies' request", "tier": 2}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER — TWO COMPONENTS. Component 1 (Mojtaba HEU directive): Multiple T2 outlets (Haaretz, Reuters via multiple, ToI, Daily Sabah) report that Supreme Leader Mojtaba Khamenei issued a directive that near-weapons-grade enriched uranium must not be sent abroad; 'the consensus within the establishment is that the stockpile of enriched uranium should not leave the country' (senior Iranian source). Israeli officials told Reuters that Trump assured Israel HEU would leave Iran under any deal. This creates a documented principal-position collision: Trump's stated deal basis ('we will get the highly enriched uranium') vs Mojtaba's apex directive (HEU stays). If the Mojtaba directive holds, it forecloses Fork B-bilateral as currently framed by the US. Component 2 (Trump-Netanyahu tense call): Trump actively resisted Netanyahu's push for military resumption; Trump described 'letter of intent' + 30-day framework as the active deal architecture. Trump A1 oscillation: deal-direction holding under Gulf-brake + Pakistan-mediation conditions but 'borderline' framing signals instability.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi/Iranian apex direct statement on MOU/5-preconditions; Iranian named-principal hardening; Trump statement holding direction beyond 48h without Netanyahu rebroadcast",
+        "framework_variable": "BS-12 PA-gap mechanism — Iran-side apex position on HEU (core US demand); Trump A1 direction; fork B-bilateral durability",
+        "direction": "BS-12 Iran-side: apex HEU position hardened — Mojtaba directive is the apex's first documented named position on a specific MOU element (not deterrence-general like Vahidi; directly relevant to deal terms). Trump A1: deal-direction holding (positive for Fork B) but 'borderline' framing signals A1 oscillation proximity to threshold. Net: Fork B-bilateral probability down on HEU collision; Fork D' up on 'letter of intent' / structured-deferral possibility",
+        "gap_to_full_match": "Gap: Mojtaba directive is 'senior Iranian sources' (anonymous, multi-T2) not a direct named public statement; confidence M not H. A direct Mojtaba public speech on HEU would fire H trigger. The directive's effect on Munir-mediated text content is unknown."
+      },
+      "variable_moved": {
+        "variable": "BS-12 Iran-side apex position on HEU; Fork B-bilateral probability",
+        "prior_value": "Day 83: BS-12 PA-gap mechanism = 'apex public-deterrent + mid-tier private-negotiator'; Vahidi silence-break on kinetic threshold; Mojtaba apex position on specific deal terms opaque",
+        "new_value": "Day 84: Mojtaba apex directive on HEU (anonymous T2 multi-source): HEU must stay in Iran. This fills a BS-12 opacity at the specific-deal-terms level. The apex position on HEU is now documentable at M confidence. Fork B-bilateral: 12-20% → 10-16% (HEU collision with Trump's stated requirement narrows the bilateral-deal path unless the 'letter of intent' defers HEU to 30-day negotiation). BS-1a apex visibility: +3-5pp on HEU-specific position documented (now 78-83%).",
+        "driver": "Multi-T2 reporting on Mojtaba HEU directive (Haaretz lead; Reuters via multiple outlets; anonymous Iranian sources)"
+      },
+      "discounts_applied": ["-50% on anonymous 'senior Iranian sources' characterization of Mojtaba directive (single-source Iranian internal politics standard rule partially mitigated by multi-outlet T2 pickup)", "Trump-Netanyahu call: -25% on deal-architecture description (CNN single-source US official; Axios partial corroboration)"],
+      "conflict_notes": "Structural tension: Mojtaba HEU-stays directive vs Munir in Tehran active mediation. These are not necessarily contradictory in the two-level game frame (apex signals public maximalism; mid-tier continues private negotiation; the 'letter of intent' defers HEU to 30-day period rather than resolving it in the LOI). However, if Trump insists on HEU-out as a pre-condition for signing the letter of intent, the two positions are irreconcilable without a face-saving bridging mechanism. The 'letter of intent' architecture may be specifically designed to defer this collision."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "CNN - 'Iran rebuilding military industrial base faster than expected, already producing drones, according to US intel' (May 21 2026)", "tier": 2},
+        {"name": "Times of Israel - 'Iran said recovering military abilities faster than expected, producing drones again' (May 21 2026)", "tier": 2},
+        {"name": "US News / Political Wire / multiple outlets - picking up CNN report (May 21 2026)", "tier": 2},
+        {"name": "Multiple US officials (unnamed) quoted in CNN report", "tier": 1}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. CNN (T2, two US officials) reports: (1) Iran has already restarted drone production during the six-week ceasefire; (2) military reconstitution is proceeding 'much faster than initially estimated'; (3) 'The Iranians have exceeded all timelines the IC had for reconstitution' (US official direct quote); (4) could fully reconstitute drone attack capability in as soon as six months; (5) roughly 50% of drone capabilities still exist; (6) large percentage of coastal defense cruise missiles intact; (7) factors: Russian and Chinese material support + US-Israeli strikes less effective than estimated. The report directly confirms Slantchev feigning-weakness at H confidence (multi-source US IC assessment, not Israeli intelligence single-source): Iran was not exhausted by the Twelve-Day War + Day 67 exchanges; it retained substantial capability and is actively rebuilding. The Day 83 Barakah-via-Iraqi-PMU attribution is now corroborated as operationally plausible given 50% drone capability retained.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source IC assessment of higher-than-estimated Iranian residual inventory: Slantchev feigning weakness re-confirmed at higher confidence",
+        "framework_variable": "BS-13 Iranian residual capability; Slantchev feigning-weakness; Fork A intensity assessment if MOU collapses",
+        "direction": "up — Iranian residual capability higher than prior IC estimates; reconstitution actively proceeding; direct implication: any Fork A resumption faces more capable adversary than Day 67 post-strike assessment; Iranian deterrent credibility elevated",
+        "gap_to_full_match": "Full trigger matched: multi-source US IC assessment on residual inventory. No gap. Note: the 6-month full reconstitution estimate creates a Layer 3 time-arithmetic implication — Iranian incentive to reach a deal before reconstitution completes vs Israeli/US incentive to strike before reconstitution makes it more costly."
+      },
+      "variable_moved": {
+        "variable": "BS-13 Iranian residual capability / Slantchev feigning-weakness confidence; Fork A intensity prior",
+        "prior_value": "Day 83: BS-13 visibility 50-60%; Slantchev feigning-weakness confirmed H multi-cycle (Day 76-77); Iraqi-PMU Barakah demonstration as evidence of extended-deterrent active; 50% drone capability noted but not IC-confirmed",
+        "new_value": "Day 84: BS-13 visibility 55-65% (+5pp); Slantchev feigning-weakness now confirmed at H by US IC (two officials) via T2 outlet. Reconstitution faster than expected = Israeli pre-emption window narrowing per Powell mechanism (the more capability Iran recovers, the more costly any future strike). BS-13 framework-risk: HIGH (held); the 'feigning weakness' was not just a diplomatic posture but an operational reality — Iran retained and is actively rebuilding military industrial base. Fork A intensity prior revised up: any kinetic resumption under a more-reconstituted Iranian military would produce higher US/Israeli costs than prior cycle.",
+        "driver": "CNN T2 multi-source US IC officials; consistent with multi-cycle Slantchev confirmation"
+      },
+      "discounts_applied": ["US intelligence official characterizations discounted -10% for institutional framing bias; CNN single report but multi-outlet T2 pickup with no contradictory source"],
+      "conflict_notes": "No source conflict. The Day 82 BS-13 audit note (Barakah crossed nuclear-adjacent threshold; operational delivery capacity vs supply-cut framing) is corroborated by the reconstitution report: the framework should NOT have over-discounted the Cooper SASC claim — Cooper's specific claim about 'Houthis cut off' may be accurate on supply-flow while the 50% drone-capability-retained finding explains continued operational delivery via indigenous manufacturing (per FP March 2026 baseline) and residual stocks. Consistent."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN - Trump-Netanyahu tense phone call; dispositional divergence (May 20 2026)", "tier": 2},
+        {"name": "Axios - Trump-Netanyahu call on Iran peace plan (May 20 2026)", "tier": 2},
+        {"name": "Haaretz / Reuters - Mojtaba HEU-stays directive (May 21 2026)", "tier": 2}
+      ],
+      "finding": "Trump dispositional read: deal-direction holding ('borderline' framing implies proximity to both outcomes; 'worth giving diplomacy a few days if it saves lives'). Netanyahu dispositional read: explicitly pushing for military resumption, framing delay as a mistake — maximum dispositional distance from Trump on Iran this cycle. Mojtaba dispositional read: HEU-must-stay directive is apex public maximalism on a specific deal sub-issue; not a full 'regime nature' dispositional hardening but substantively constrains the deal space. No Tier-1 Mahdist invocation. Powell shifting-power mechanism: as Trump holds deal-direction AND Iranian reconstitution-faster-than-expected finding surfaces (PROBE-14), the 'window closing' perception for Israeli decision-makers intensifies — each day that passes allows Iranian capability recovery. The dispositional asymmetry (Netanyahu maximum, Trump deal-leaning, Iran apex maximalist on HEU) is the dominant structural tension.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "US/Israeli 'window closing' pieces multiply: preventive-war preference dominates",
+        "framework_variable": "BS-14 dispositional reading — US-Israeli divergence; Powell mechanism; Israeli pre-emption incentive",
+        "direction": "US-Israeli divergence widening (Trump-Netanyahu tense call documents explicit disagreement); Powell mechanism activating more acutely (Trump deal-direction + faster reconstitution = stronger 'window closing' signal for Netanyahu)",
+        "gap_to_full_match": "Gap: no Israeli unilateral strike; no Israeli defense minister public statement on 'window closing'; no FDD/JINSA/INSS preventive-war piece cluster this cycle"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No PROBE-18 Tier-1 trigger fire. Mojtaba's 'Third Sacred Defense' speech corpus from Day 83 remains the background indicator; no new eschatological-tradition invocation Day 84. The Mojtaba HEU directive (PROBE-13) is a deal-terms position, not an eschatological statement; correctly captured under PROBE-13 rather than PROBE-15/PROBE-18."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNN - Trump-Netanyahu tense call; 'letter of intent' + 30-day framework (May 20 2026)", "tier": 2},
+        {"name": "Haaretz/Reuters - Mojtaba HEU-stays directive (May 21 2026)", "tier": 2},
+        {"name": "NBC News - House WPR failed 213-214 (May 21 2026)", "tier": 2},
+        {"name": "Pakistan Today/Cyprus Mail - Munir in Tehran (May 21 2026)", "tier": 2}
+      ],
+      "finding": "The Day 84 joint-distribution-of-thresholds shows: (1) Iranian coalition rupture: Mojtaba HEU directive is apex HARDENING, not rupture — Iran-side first-mover threshold more distant; (2) Trump A1-binding threshold: deal-direction holding under 'borderline' framing; explicitly resisting Netanyahu, proposing 'letter of intent'; threshold not breached; (3) Israeli operational: Netanyahu explicitly pushed for military resumption, was resisted; faster-reconstitution finding (PROBE-14) intensifies 'window closing' incentive; threshold APPROACHING; (4) WPR: House failed 213-214 (1 vote); armed not fired; (5) Strangulation transmission: no Bazaar closure, no Kharg event, no product-scarcity riots. The 'letter of intent' concept is the only new mechanism that could resolve the first-mover question: if Iran and US both sign the LOI (end-of-war + 30-day negotiation), the first-mover race is effectively suspended for 30 days. The LOI functions as a jointly-agreed pause mechanism rather than a resolution of the underlying Fork A-vs-Fork B contest.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds breached in parallel: cascade risk",
+        "framework_variable": "BS-15 first-mover joint distribution; six-actor architecture; 'letter of intent' as suspension mechanism",
+        "direction": "Joint-distribution complexity maintained at CRITICAL; Israeli first-mover threshold approaching most acutely; 'letter of intent' is a potential pause mechanism not a resolution",
+        "gap_to_full_match": "Gap: no single first-mover threshold has been decisively breached Day 84 (House WPR failed; no Israeli strike; Mojtaba directive is hardening not rupture; Trump holding deal direction). Trigger fires on accumulation pattern, not single breach."
+      },
+      "variable_moved": {
+        "variable": "BS-15 first-mover joint distribution complexity; 'letter of intent' as new resolution/suspension mechanism",
+        "prior_value": "Day 83: five threshold approaches tracked; six-actor architecture; Trump extended window ~May 22-25; Knesset compression tightening Netanyahu decision window",
+        "new_value": "Day 84: Threshold status: Iranian-side hardening (Mojtaba HEU); Israeli-side approaching most acutely (Netanyahu-Trump divergence + faster reconstitution); Trump holding deal-direction; WPR near-miss; 'letter of intent' as new potential suspension mechanism. If LOI is accepted, first-mover race pauses 30 days. If LOI fails (Mojtaba HEU directive incompatible with Trump's LOI framing OR Netanyahu pre-empts during LOI negotiation), the race resumes at compressed timeline. The LOI is the most operative new variable in the BS-15 joint distribution.",
+        "driver": "Composite across PROBE-9, PROBE-12', PROBE-13, PROBE-14 findings"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The 'letter of intent' is described by Trump to Netanyahu, not by an Iranian principal. Iranian acceptance is unknown. The structural question: can the LOI bridge the Mojtaba HEU-stays directive and Trump's stated HEU-out requirement? If the LOI simply says 'we will negotiate HEU over 30 days' without pre-committing to HEU-out, it may be acceptable to Mojtaba's apex direction. If Trump requires HEU-out as a condition for signing the LOI, it fails before it starts."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion (BS-9 composite)",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "iStories / EU intelligence agency report (May 4 2026; previously captured at Day 77 elevation)", "tier": 2},
+        {"name": "The Week India - Shoigu coup-planning report (May 6 2026)", "tier": 3},
+        {"name": "Recorded Future - Dyumin potential successor analysis (prior cycle)", "tier": 3}
+      ],
+      "finding": "No new BS-9 sub-probe fires this cycle. The May 4 EU intelligence report (iStories/OCCRP) was already captured as S3 in the Day 77 BS-9 elevation signal cluster. Shoigu status: no formal criminal charges filed against Shoigu directly (BS-9.1 threshold not breached); earlier reports of coup-planning association are analytical characterization, not new criminal-proceeding signal. Dyumin: no new portfolio additions or State Council activity documented this cycle. Putin public appearances: no monthly count available for May this cycle; prior pattern held. Kovalchuk/Tikhonova/Dmitriev: no RDIF/Innopraktika new signal. Kadyrov: no incapacity signal. M1 managed-transit baseline (55-65%) holds. Russia path ≤5% in Iran 2026 forks unchanged.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The wave of May 4-14 Shoigu/coup/Putin-isolation reporting appears to be a sustained analytical cluster rather than new operational triggers this specific cycle. The sub-probe architecture (BS-9.1 through BS-9.5) requires observable-signal firing (charges filed; appearance count crosses threshold; RDIF mandate expansion) — none of those fire Day 84. The analytical commentary (Recorded Future, The Week India, Robert Lansing Institute) is T3 and consistent with the existing BS-9 signal cluster but does not add new observable evidence."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "NBC News - 'How Little Sparta UAE shocked the Gulf by going its own way on oil' (May 2026)", "tier": 2},
+        {"name": "Soufan Center IntelBrief May 14 - 'Iran War Widens Gulf State Fissures'", "tier": 3},
+        {"name": "Chatham House - 'How the Iran war is reshaping Saudi strategy' (May 2026)", "tier": 3},
+        {"name": "Jerusalem Post - 'UAE tried to coordinate with Saudi Arabia, Qatar to strike Iran during recent war'", "tier": 2},
+        {"name": "CSIS - 'A New Rift in the Gulf, and Only the Gulf Can Solve It'", "tier": 3},
+        {"name": "Arab News - Saudi interior minister meets Iranian Hajj officials in Jeddah (May 20 2026)", "tier": 2},
+        {"name": "House of Saud / CNN - Trump halted Operation Sledgehammer at Gulf allies' request (May 19-21 2026)", "tier": 2}
+      ],
+      "finding": "STRUCTURAL FISSURE DOCUMENTED, PUBLIC UNIFIED FRONT MAINTAINED. Saudi-UAE structural divergence confirmed across multiple analytical and T2 sources: MBZ requested coordinated Gulf military strike on Iran during the war (early phase); MBS refused and rebuffed; UAE exited OPEC May 1 (partly to weaken Iran economically, also a blow to Saudi). The ideological split is documented: MBS = accommodation and compromise; MBZ = military confrontation to stabilize the region permanently. This divergence predates the Day 82 'Gulf troika brake' and was operative DURING the Day 81 strike-halting event. Simultaneously: Trump told Netanyahu that he halted Operation Sledgehammer 'at request of allies in the Gulf, including Qatar, Saudi Arabia and UAE' — consistent with the public-unified-front framing. Saudi-Iran Hajj backchannel: Saudi interior minister met Iranian Hajj head in Jeddah May 20; ~30,000 Iranian pilgrims arriving via Iraqi overland convoy (Karbala → Arar crossing); backchannel operative ahead of Hajj May 24-29.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Intra-troika split: MBS, MBZ, or Tamim publicly diverging from joint position",
+        "framework_variable": "BS-18 Gulf state troika brake mechanism durability; Saudi-UAE structural fissure below the public-unified-front surface",
+        "direction": "Partial trigger: the structural Saudi-UAE divergence (MBZ wanted to strike Iran; MBS refused) fires a historical-pattern version of the intra-troika-split trigger. The split is structural, not a new acute Day 84 public divergence. The public 'unified front' on the Day 81 brake mechanism is maintained in Trump-Netanyahu call framing. Brake mechanism durability: the structural divergence means the 'troika' was never monolithic; Saudi accommodation logic and UAE confrontation logic are producing the same output (brake) for different reasons on the Day 81-84 cycle.",
+        "gap_to_full_match": "Gap: no ACUTE public divergence Day 84 (MBS, MBZ, or Tamim have not publicly broken with each other on Day 84 specifically). The trigger fires at 'structural historical' level, not 'acute Day-84' level. Full trigger requires a new Day-84+ public divergence statement."
+      },
+      "variable_moved": {
+        "variable": "BS-18 Gulf troika brake mechanism — coherence assessment; brake durability under Saudi-UAE structural divergence",
+        "prior_value": "Day 83: brake durable across one extension; BS-18 visibility 30-40%; troika read as structurally coherent in public framing",
+        "new_value": "Day 84: troika brake mechanism is a COALITION OF DIFFERENT INTERESTS (MBS accommodation + MBZ shock-at-Barakah exposure + Tamim diplomatic-bridge), not ideological alignment. MBZ's underlying preference was military action against Iran (MBS refused); the troika's unified brake output on May 19-21 is produced by different causal pathways. Saudi-Iran Hajj backchannel (MBS pathway) and UAE-Barakah-exposure (MBZ pathway) are producing the same 'brake' output but the decay triggers differ: MBS pathway decays if Iran fails to reciprocate Saudi accommodation gestures; MBZ pathway decays if another Gulf-infrastructure attack occurs. Brake mechanism durability re-assessed as: durable on MBS accommodation logic (Saudi-Iran Hajj backchannel operative); FRAGILE on MBZ exposure logic (another Barakah-class attack triggers UAE hardening). BS-18 visibility held at 30-40%; framework-risk elevated on intra-troika structural complexity.",
+        "driver": "NBC News/Soufan Center/Chatham House on Saudi-UAE divergence; Arab News/House of Saud on Hajj backchannel and Gulf-brake framing"
+      },
+      "discounts_applied": ["Soufan Center / Chatham House are T3 analytical; corroborated by T2 NBC News and Arab News reporting", "Saudi-UAE strike-coordination story (Jerusalem Post): T2 but citing 'report' without named official sourcing; apply -25%"],
+      "conflict_notes": "The 'unified Gulf troika' framing used in Day 82-83 requires refinement: the three actors have different threat perceptions and strategic preferences. The brake mechanism is robust enough to have halted Operation Sledgehammer (May 19) but the internal coherence is lower than the Day 82 characterization implied. Qatar's role (as US-Israel diplomatic bridge + troika member) is distinct from both MBS accommodation and MBZ confrontation logics; Tamim's positioning is the least documented of the three. The BS-18 framework risk: UAE could defect from the brake if hit by another infrastructure attack (Barakah logic), while Saudi would likely maintain the brake under accommodation logic. This creates an asymmetric decay profile."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-2", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-6", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "BS-4 Chinese components sub-component confirmed active"},
+      {"probe_id": "PROBE-7", "status": "null", "confidence": "H", "trigger_fired": false, "variable_moved": "Operation Sledgehammer name noted; not executed"},
+      {"probe_id": "PROBE-8", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Brent ~$104-107 range; pulled back from $111+ May 19 close"},
+      {"probe_id": "PROBE-9", "status": "partial", "confidence": "H", "trigger_fired": true, "variable_moved": "Netanyahu-Trump explicit divergence; Penetration mechanism counter-direction"},
+      {"probe_id": "PROBE-10", "status": "partial", "confidence": "H", "trigger_fired": true, "variable_moved": "House WPR failed 213-214 (1-vote margin; 3 GOP defectors); Stage 2 hysteresis accumulates"},
+      {"probe_id": "PROBE-12'", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "'Letter of intent' + 30-day framework new deal architecture; Munir Tehran principal-level"},
+      {"probe_id": "PROBE-13", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Mojtaba HEU-must-stay directive; Fork B-bilateral 12-20% → 10-16%; BS-1a apex visibility +3-5pp"},
+      {"probe_id": "PROBE-14", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "BS-13 visibility 50-60% → 55-65%; Slantchev feigning-weakness confirmed H via US IC; reconstitution faster than expected"},
+      {"probe_id": "PROBE-15", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "US-Israeli dispositional divergence widening; Powell mechanism intensifying"},
+      {"probe_id": "PROBE-16", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "'Letter of intent' as joint-distribution suspension mechanism; Israeli threshold approaching most acutely"},
+      {"probe_id": "PROBE-17", "status": "null", "confidence": "M", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20", "status": "partial", "confidence": "M", "trigger_fired": true, "variable_moved": "Saudi-UAE structural divergence documented; brake is coalition of different interests; Hajj backchannel active"}
+    ],
+    "fired_count": 5,
+    "partial_count": 5,
+    "null_count": 3,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "Iranian apex directive on HEU: Mojtaba orders enriched uranium must stay in Iran (multi-T2 anonymous Iranian sources)",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-12 Principal-Level Ratification Capacity; BS-1a Iranian Decision Architecture; BS-11 MOU Architecture",
+        "edit": "BS-12 Iran-side PA-gap: add Mojtaba HEU-must-stay directive as first documented apex position on a specific MOU element (distinct from Vahidi kinetic-deterrence which addressed posture not terms). The apex position on HEU is now at M confidence: HEU stays in Iran. This directly contradicts Trump's stated deal basis. The 'letter of intent' + 30-day framework may be designed to defer this collision. Fork B-bilateral: 12-20% → 10-16% (30d). BS-1a apex visibility: 78-83% (+3-5pp). BS-11: add 'letter of intent' + 30-day framework as new deal architecture concept to the focal-point structure map; note the HEU-deferral function of this architecture."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "'Letter of intent' + 30-day negotiation framework: new deal architecture described by Trump to Netanyahu",
+      "source_probe": "PROBE-12'",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-11 MOU Architecture and Schelling Focal Point Coordination; Fork probability matrix",
+        "edit": "BS-11: add 'letter of intent' + 30-day framework as new sub-structure: a pre-MOU framework agreement that formally ends the war and launches a defined negotiation period on nuclear program and Hormuz. This is distinct from the 5-round Rome MOU process and from simple ceasefire extension. It functions as a structured Fork D' variant (defer nuclear sub-issues; freeze the war via named commitment). If accepted, it would fire the 'Meta-Negotiation Regression interrupted' and potentially the 'sunset-clause moves from leak-floated to text-substantive' triggers. Iranian acceptance unknown. Fork D' (structured deferral): ↑ to 25-33% (30d). Add 'LOI architecture' as a named sub-variant between Fork B and Fork D'."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Pakistani mediator at principal level: Army Chief Munir travels to Tehran for talks",
+      "source_probe": "PROBE-12'",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-11 mediator architecture; BS-15 first-mover architecture",
+        "edit": "BS-11: Pakistan channel elevation confirmed at principal-tier (Army Chief = de facto state principal in Pakistan foreign-security policy). Oman dormant; Beijing dormant Day 84. Pakistan is now primary mediator at highest-accessible tier. The 'letter of intent' concept being mediated by Munir elevates the channel's structural significance. Trigger partially fires: 'Pakistan formal mediator status (named, not implicit)' — condition met if Munir visit produces a named mediation output; monitor for official characterization of Munir visit."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Iranian military reconstitution faster than expected; drone production resumed during ceasefire; US IC 'exceeded all timelines'",
+      "source_probe": "PROBE-14",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-13 Iranian Residual Capability / Feigned Weakness; Fork A intensity prior",
+        "edit": "BS-13: Slantchev feigning-weakness confirmed at H by US IC (multi-source T2, two officials). Reconstitution faster than expected on all timelines. 50% drone capability retained. Coastal defense cruise missiles largely intact. Russian and Chinese material support contributing. Implication: (1) Fork A resumption would face a more reconstituted adversary than post-Twelve-Day-War assessment assumed; Fork A intensity (escalation risk and cost) revised up; (2) Layer 3 time-arithmetic implication: 6-month full reconstitution creates a competing incentive structure — Iran gains bargaining leverage as capability recovers; Israel/US feel increasing urgency to resolve or strike before full reconstitution; (3) BS-13 visibility 55-65% (+5pp); (4) Powell mechanism: faster reconstitution strengthens Israeli 'window closing' perception — Israeli pre-emption incentive elevated on new evidence beyond just Trump deal-direction."
+      },
+      "urgency": "next_audit"
+    },
+    {
+      "appendix_b_row": "Trump-Netanyahu tense call; Netanyahu pushes for military resumption; Trump resists",
+      "source_probe": "PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-3 Israeli internal politics; BS-12 PA-gap; BS-5 US domestic faction architecture",
+        "edit": "BS-12: Netanyahu Penetration mechanism is ACTIVE and being RESISTED by Trump on the deal track. Prior characterization: Penetration mechanism decays in 24-48h absent renewed contact. Day 84 update: contact renewed (hour-long call); Trump explicitly counter-pushed Netanyahu's military-resumption argument by describing 'letter of intent' architecture. Mechanism is active-but-resistant rather than active-and-penetrating. BS-3: Israeli pre-emption pressure documented at principal-level — Netanyahu-Trump divergence is explicit, substantive, and documented via multi-outlet T2. BS-5: deal-faction (Trump) explicitly overriding accelerationist-pressure (Netanyahu) this cycle; consistent with T4 (US faction disaggregation) advancing."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "House WPR failed 213-214; three GOP defectors; most-narrow House margin; Senate WPR on-merits vote expected",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-5 US domestic; Stage 2 hysteresis trajectory",
+        "edit": "BS-5: WPR mechanism revised. House: third attempt failed 213-214 (1 vote), with three GOP defectors (Massie, Fitzpatrick, Barrett) — more than any prior House vote. Senate: discharged 50-47; four GOP defectors (Collins, Murkowski, Paul, Cassidy); on-merits vote likely fails at full-attendance (VP tiebreaker). Mechanism: House WPR threshold is now 2 additional Republican votes OR Dem near-universal + no R absences. Senate threshold: still Fetterman pivot OR 3 more GOP defectors. 'Operation Sledgehammer' (named planned-attack) was pre-positioned but not executed — Stage 2 hysteresis accumulation: resumed-operations mechanism was named and ready, then suspended by Gulf brake. The Stage 2 hysteresis lock-in trajectory now involves both the ceasefire-architecture dimension AND the renewed-operations-naming dimension."
+      },
+      "urgency": "next_cycle"
+    },
+    {
+      "appendix_b_row": "Saudi-UAE structural divergence on Iran strategy; intra-troika split documented historically",
+      "source_probe": "PROBE-20",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-18 Gulf state troika / unaligned-middle pivot capacity; brake mechanism durability",
+        "edit": "BS-18: troika brake mechanism re-characterized as a 'coalition of different interests' rather than ideologically-aligned bloc. MBS (accommodation logic) and MBZ (confrontation-now-deterred-by-Barakah logic) are producing the same brake output for different reasons, with different decay triggers. Saudi-UAE structural divergence (MBZ sought joint Gulf military strike; MBS refused; UAE exited OPEC) is documented across multiple T2-T3 sources. Brake durability: ASYMMETRIC — Saudi brake (MBS accommodation + Hajj-backchannel) is more durable than UAE brake (MBZ exposure-driven, fragile to second Barakah-class attack). INTRA-TROIKA SPLIT trigger fires at historical-structural level; does not fire at acute-Day-84 level. Saudi-Iran Hajj backchannel operative: Saudi interior minister met Iranian Hajj head May 20; ~30,000 Iranian pilgrims on Saudi soil. BS-18 framework-risk: elevated on intra-troika structural complexity; brake mechanism more fragile than Day 82 initial characterization."
+      },
+      "urgency": "next_audit"
+    }
+  ],
+  "gap_log": [
+    {
+      "probe_id": "PROBE-3",
+      "gap_description": "Bazaari/Bonyad economic signals: Tehran Grand Bazaar, rial parallel rate, bonyad public statements remain structurally inaccessible via English-language source ladder",
+      "consecutive_gap_cycles": 14,
+      "sources_tried": ["IranWire", "Iran International", "BBC Persian (English)", "Radio Farda", "Reuters Tehran"],
+      "sources_not_tried": ["Persian-language direct sources; alanchand.com for rial rate (requires direct access)"],
+      "recommendation": "accept_structural_opacity"
+    }
+  ],
+  "calibration_check": {
+    "trend_state_question": "No trend-state transitions warranted by single-cycle evidence. T2 (Mosaic-Octopus) advances but is already VALIDATED. T4 (US eschatological disaggregation) advances; Trump-Netanyahu explicit divergence is new operational evidence. Both are VALIDATED trends advancing further; no state changes. T5 (multi-tradition convergence) remains PENDING: Hajj backchannel active but no Tier-1 fires. No trends should transition VALIDATED → CONTESTED or PENDING → VALIDATED on Day 84 evidence alone. Note for next /audit: the faster-reconstitution finding (PROBE-14) should prompt a review of whether the Powell-mechanism-amplification through reconstitution-speed creates a new pending trend candidate ('reconstitution timeline as Israeli pre-emption incentive amplifier').",
+    "thesis_question": "HOLDING with structural elaboration. The materialist bargaining model predicts dominant strategies under joint constraints; it does not predict selection. Day 84 evidence: the 'letter of intent' architecture (new deal mechanism) is the joint-constraint system's current dominant option under Trump's choice set — Gulf brake holds, Netanyahu pressure resisted, WPR procedurally advancing, Iranian reconstitution accelerating all make the LOI approach the relatively highest-ranked option for Trump at this cycle's decision point. Trump selected deal-window-extension again (consistent with Day 83 selection). The Mojtaba HEU directive and faster-reconstitution finding are constraint-tightening events that do not yet break the thesis but narrow the Fork B-bilateral path and widen the Fork D'-structured-deferral path. The LOI concept is analytically the most important new variable: if accepted, it produces a structured Fork D' that could run 30+ days; if rejected by Mojtaba's HEU directive incompatibility with Trump's LOI framing, the constraint set pushes toward Fork A re-activation within 24-48h of Trump's deal-window expiration."
+  }
+}

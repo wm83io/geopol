@@ -15,17 +15,23 @@ what does the current framework think it cannot see, versus what recent probe da
 
 Load into working context. All paths are relative to the repo root.
 
-1. **Anchor synthesis:** read highest-versioned file in `synthesis/`
-2. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` in full FIRST. The audit
+   is responsible for trend-state maintenance: promoting PENDING trends to VALIDATED on threshold,
+   logging drift events, and closing reference-to-operational instrumentation gaps. The trend
+   table is the audit's anchor; without it, the audit is reactive to the most recent SITREP.
+2. **Anchor synthesis:** read highest-versioned file in `synthesis/`
+3. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
    This is the document this skill modifies. Read it in full before proposing any change.
-3. **Last 2-3 probe sweeps:** read most recent files in `probes/sweeps/`
-   in chronological order. Without 2+ cycles to compare, defer the audit.
-4. **Last 2-3 SITREPs:** read most recent files in `sitreps/`
+4. **Last 2-3 probe sweeps:** read most recent files in `probes/sweeps/`
+   in chronological order. Without 2+ cycles to compare, defer the audit. Each sweep's
+   `reference_trends` field is a primary input for trend-state updates.
+5. **Last 2-3 SITREPs:** read most recent files in `sitreps/`
    in chronological order.
 
 After producing the audit delta, write the patched Appendix B back to
 `appendix/appendix-b-blind-spots.md` using the Edit or Write tool.
-Confirm write succeeded. Git history tracks versions — no need to rename the file.
+Confirm write succeeded. If trend states changed, also patch `reference/strategic-trends.md`
+in the same audit cycle. Git history tracks versions — no need to rename the file.
 
 ---
 
@@ -88,6 +94,43 @@ scores moved, directives should usually move with them:
 | Visibility rose | Can dial back — only if structural factors stable |
 | Risk rose | Tighten "what changes the framework" criteria |
 | Priority changed | Reorder the directive list |
+
+### Step 5b — Trend-state maintenance (MANDATORY)
+
+The audit owns trend-state maintenance. Walk every active trend in `reference/strategic-trends.md`:
+
+1. **Aggregate sweep cross-checks:** read the `reference_trends` field of each sweep since last
+   audit. Count `advance`, `hold`, `contradict_single`, `contradict_multi`, `close_pending_gap`
+   per trend.
+2. **State transition rules:**
+   - PENDING → VALIDATED: 2+ cycles of `advance` evidence OR 1 cycle with 2+ independent source
+     clusters.
+   - VALIDATED → CONTESTED: 2+ cycles of `contradict_multi` evidence OR a structural reference
+     revision that adds a new prediction the trend did not previously make.
+   - CONTESTED → VALIDATED: 2+ cycles of `advance` evidence resolving the prior contradiction.
+   - CONTESTED → DISCONFIRMED: 3+ cycles of sustained contradiction without resolution.
+   - Any → state-unchanged: when evidence is mixed or insufficient.
+3. **Drift event logging:** every `contradict_single` event across the cycles is a candidate drift
+   event. If a BS mechanism revision was made in operational layer (Appendix B or SITREP Section 3)
+   that contradicts a VALIDATED trend, log the drift event in `strategic-trends.md` with:
+   trend involved, operational divergence description, reference prediction over-ridden,
+   resolution (if resolved) or pending-confirmation status, methodology lesson, cost in cycles.
+4. **Pending-candidate promotion:** the pending-candidate table at the bottom of
+   `strategic-trends.md` is the audit's responsibility. Promote candidates that meet 2-cycle
+   threshold; retire candidates that have not surfaced operational evidence in 4+ cycles.
+5. **Reference-to-operational instrumentation gap check:** for each active trend, confirm the
+   coverage matrix entry. If a trend lacks BS or PROBE instrumentation, this is a Step 6
+   candidate (new BS or new PROBE directive). The Day 82 BS-18 promotion was the canonical case;
+   the trend tracker prevents future cases from emerging as reactive promotions after operational
+   evidence forces them.
+6. **Methodology check (T7 maintenance):** scan the SITREPs since last audit for substrate-as-agent
+   voice slips. T7 (materialist bargaining model holds against teleological substrate voice) is
+   the only trend that fails as drift rather than as falsification; voice-discipline violations
+   in SITREP prose are T7 drift events. Log violations and any corrections issued in the trend
+   tracker's drift log.
+
+Trend-state maintenance is not optional. The audit's deliverable to `strategic-trends.md` is a
+required artifact alongside the patched Appendix B.
 
 ### Step 6 — Promote BS and PROBE candidates from archived staging manifests
 
@@ -154,18 +197,23 @@ The summary table is the audit's executive summary. Update it last, after the pe
 
 ## Output Artifacts
 
-Produce four:
+Produce five:
 
 1. **Audit summary** — three to five sentences stating what changed structurally since last audit. Frame
-   at the level of the framework's epistemics, not individual data points.
+   at the level of the framework's epistemics, not individual data points. Cite trend-state changes
+   explicitly.
 2. **Per-BS deltas** — for each BS that moved, before/after state with one-line justification. Skip BSs
    with no movement.
 3. **New BSs added** — full BS entries with initial visibility/risk/priority scores and standing probe
    directives.
 4. **Retired BSs** — list with retirement rationale.
+5. **Trend-state patch** — every state transition, every drift event logged, every pending-candidate
+   promotion or retirement, every instrumentation-gap-closure recommendation. Applied to
+   `reference/strategic-trends.md` as part of the same audit commit (use `command: audit -
+   {one-line}` commit message format per CLAUDE.md, with co-mention of the trend-tracker patch).
 
-These artifacts are the patch. The user applies them to Appendix B, or asks this skill to produce a
-refreshed full document.
+These artifacts are the patch. The user applies them to Appendix B AND `reference/strategic-trends.md`,
+or asks this skill to produce refreshed full documents.
 
 ---
 
@@ -185,15 +233,25 @@ refreshed full document.
 
 ## Calibration Check
 
-The framework's central thesis: emergent behavior from misalignment produces outcomes nobody chose. Apply
-to the audit itself. Three known structural biases:
+The framework's central thesis (per v4.0 / Appendix C): the framework ranks options under a
+constraint surface; agents select; the substrate is materialist not teleological. Apply to the
+audit itself. Four known structural biases:
 
 - **Western source bias:** the source ladder is heavier on US/UK/Israeli reporting than
   Iranian/Russian/Chinese. Iranian internal BSs will systematically be darker than Western ones.
   Acknowledge, do not pretend symmetry.
-- **Recency bias:** the most recent probe cycle dominates audit perception. Weight cumulative patterns
-  over single-cycle signals.
+- **Recency bias (CANONICAL FAILURE MODE):** the most recent probe cycle dominates audit
+  perception. Weight cumulative patterns over single-cycle signals. The Day 77 → Day 83 BS-12
+  "apex-veto" over-read is the documented instance; T3 Fearon-Slantchev prediction was
+  over-ridden on single-cycle ISW analytical evidence, mis-stating the PA-gap mechanism for six
+  cycles until Day 83's Vahidi silence-break confirmed the trend baseline. The trend tracker
+  (`reference/strategic-trends.md`) exists to block this; the audit must consult it before
+  declaring any BS mechanism revision.
 - **Confirmation bias:** if the framework predicted X and we are looking for X, we will find X. Audit
   specifically for what would *contradict* current assumptions, not just confirm them.
+- **Reactivity bias:** the audit risks responding to the latest SITREP rather than to the
+  multi-cycle reference baseline. The trend table is the corrective; audit it FIRST in pre-flight
+  to anchor before reading SITREPs.
 
-Note any of these that bit this cycle in the audit summary.
+Note any of these that bit this cycle in the audit summary. Specifically, name any recency-bias
+or reactivity-bias instance the trend-cross-check surfaced.

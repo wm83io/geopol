@@ -1,0 +1,444 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-05-18",
+    "day_number": 81,
+    "framework_version": "v4.0",
+    "probes_run": ["PROBE-2", "PROBE-6", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16"],
+    "probes_skipped": {
+      "PROBE-1": "bi-weekly; no Mojtaba visual appearance or death-confirmation signal; functional-figurehead status unchanged from Day 77 baseline",
+      "PROBE-3": "monthly cadence; 12th consecutive gap cycle; structural opacity holds",
+      "PROBE-11": "bi-weekly; ran Day 78 per Day 79 record; no new Putin-Trump readout; Russia settlement window unchanged",
+      "PROBE-17": "bi-weekly; ran Day 78 per Day 79 record; no BS-9 sub-probe trigger fires detected in surface scan; next run ~May 22",
+      "PROBE-18": "monthly background cadence; Barakah nuclear plant drone strike (May 17) is a Tier-2 PROBE-18 candidate but does not appear on the Tier-1 synthesis-revision list (not Temple Mount, not Mahdist invocation, not caliphate declaration); flagged as Tier-2 event in PROBE-14 finding and trigger digest; formal PROBE-18 ad-hoc sweep warranted if attribution confirmed as Iran-ordered and framing shifts to eschatological",
+      "PROBE-19": "quarterly cadence; no Tier-1 Christian Zionist policy signal"
+    },
+    "synthesis_anchor": "synthesis/synthesis-v4-0.md",
+    "notes": "Day 81 priority scope: (1) Trump 'scheduled attack for tomorrow' (May 19) called off at Gulf state troika request — highest operationalization of US kinetic action since ceasefire; (2) Barakah nuclear plant drone strike May 17 — first attack on UAE nuclear-adjacent infrastructure; directly challenges Cooper Tier-1 proxy-connectivity claim; (3) Netanyahu-Trump call May 17 — breaks 7-day Penetration-mechanism dormancy; trilateral call adds Qatar PM; (4) Iran submits revised 14-point text via Pakistan + US proposes temporary oil sanctions waiver; (5) Knesset dissolution preliminary vote expected May 20-21 (not yet occurred); (6) Brent pullback from $111+ band-break to ~$102 on deal-signal cluster. Multiple triggers fired this cycle; thesis holding with structural elaboration required on Gulf state troika brake mechanism."
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "cycle": "2026-05-18",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera — 'Drone strike sparks fire at UAE's Barakah nuclear power plant' May 17 2026", "tier": 2},
+        {"name": "The National (UAE) — 'UAE investigates source of drones after treacherous terrorist attack on Barakah plant' May 17 2026", "tier": 2},
+        {"name": "Jerusalem Post — 'Drone attack on UAE nuclear plant intended to send message to Emiratis; in any case it's Iran who ordered the attack' two sources May 18 2026", "tier": 3},
+        {"name": "Fox News / SANA — 'IRGC spokesperson Zolfaghari: all US military bases in southern Persian Gulf will be deactivated; in past 24 hours IRGC Navy did not allow any vessel to pass through Strait of Hormuz' May 17 2026", "tier": 2},
+        {"name": "Tasnim News Agency — 'Iran submits revised 14-point text via Pakistan' May 18 2026", "tier": 3},
+        {"name": "Xinhua — 'Iran hands over new 14-point peace proposal to Pakistani mediator' May 18 2026", "tier": 3}
+      ],
+      "finding": "Barakah nuclear plant drone strike May 17: three drones entered UAE from western border; two intercepted by UAE air defenses; one struck electrical generator outside inner perimeter. No radiation leak; one reactor on emergency diesel generators per IAEA. No party officially claimed responsibility; UAE investigating. JPost (two unnamed sources, −50% discount): 'In any case, it's Iran who ordered the attack.' IRGC spokesperson Zolfaghari (Tier-2 equivalent, named): 'All US military bases in the southern Persian Gulf will be deactivated'; 'In the past 24 hours the IRGC Navy did not allow any vessel to pass through the Strait of Hormuz.' The Zolfaghari threat is the most aggressive IRGC named-principal statement of the cycle. No Vahidi direct statement. Aliabadi silent. Iran's revised 14-point text submitted via Pakistan (Tasnim/Xinhua T3 corroborated) indicates Ghalibaf-Araghchi diplomatic track still operative. CRITICAL: Barakah attack directly contradicts Cooper Tier-1 Senate testimony (May 14): 'Hamas, Hezbollah, and Houthis are all cut off from Iran's weapons and support.' The western-border drone entry points to Houthi (Yemen) or Iraqi militia launch. Either Cooper's assessment is outdated (8 days elapsed) or the Houthi indigenous-manufacturing capability (documented by FP March 2026: airframe/warhead local assembly, guidance/propulsion still Iran-supplied) is not fully severed. Cooper discount warranted on proxy-connectivity claim.",
+      "trigger_match": "partial",
+      "trigger_detail": {
+        "appendix_b_row": "Vahidi direct named statement (not fired); Cooper proxy-connectivity Tier-1 claim challenged by Barakah attack (PROBE-14 cross-reference); horizontal escalation to nuclear-adjacent Gulf infrastructure (new threshold)",
+        "framework_variable": "BS-13 Iranian residual capability; BS-8 IRGC factional posture; Layer 2 asymmetric-conflict calibration",
+        "direction": "up — proxy capability demonstration despite Cooper T1 claim; IRGC escalation posture (Zolfaghari); but simultaneous diplomatic track (revised 14-point text) maintains Ghalibaf-Araghchi agency",
+        "gap_to_full_match": "Vahidi direct named statement. Official attribution of Barakah attack with sourcing above T3. Confirmation Cooper assessment outdated vs proxy connectivity genuinely severed but Houthi acting autonomously."
+      },
+      "discounts_applied": [
+        "-50% on JPost attribution sourcing (two unnamed sources)",
+        "-50% on IRGC Zolfaghari 'all bases deactivated' — threat statement, not operational order"
+      ],
+      "conflict_notes": "Cooper Tier-1 testimony (May 14): 'Houthis cut off from Iran's weapons and support.' Barakah attack (May 17): drones from western border, pattern consistent with Houthi or Iraqi militia origin. Direct conflict at confidence level: Cooper's T1 claim is the strongest sourcing; Barakah attack is the operational contradiction. Resolution options: (a) Cooper was accurate on May 14 but Houthi capability was already indigenous (pre-existing manufacturing); (b) Cooper overstated the severance; (c) Iranian support was partially reconstituted in 8 days. Framework: apply −25% confidence on Cooper proxy-connectivity claim; treat Houthi/Iraqi militia as partially intact Iranian extended deterrent pending attribution confirmation."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "cycle": "2026-05-18",
+      "status": "null",
+      "confidence": "M",
+      "sources": [
+        {"name": "Trump-Xi summit Day 2 reporting (May 15) — trade/energy deal focus; no new Iran content", "tier": 2}
+      ],
+      "finding": "No new China-Iran or China-US-Iran signal Day 80-81. Trump-Xi summit concluded May 15 with trade and energy deals (200 Boeing aircraft, expanded Chinese oil purchases); no new Iran-specific content on Day 2. Xi's Day 1 substantive commitment (Hormuz must remain open; Iran cannot have nuclear weapon; no military equipment; offered mediation) remains the operative Chinese principal-level position. No Taiwan Strait spike. No new OFAC Chinese-entity designations in this cycle. BeiDou-3/MizarVision sub-components remain opaque. Chinese co-mediation role continues at Day 77 baseline. Note: Iran's BRICS appeal (Day 79) and revised 14-point text via Pakistan rather than China-channel suggests Beijing is not the current active mediating channel for this round.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Null cycle on China signals."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "cycle": "2026-05-18",
+      "status": "partial",
+      "confidence": "H",
+      "sources": [
+        {"name": "The War Zone — 'Where Are The Carriers As Of May 17, 2026: Ford Is Finally Home' May 17 2026", "tier": 3},
+        {"name": "CNN Politics — 'USS Gerald R. Ford: US aircraft carrier returns home after record deployment including Iran war' May 16 2026", "tier": 2},
+        {"name": "The War Zone — 'Where Are The Carriers As Of May 3, 2026: Ford Finally Heads Home' (confirms Ford was CENTCOM CSG-10 that departed)", "tier": 3},
+        {"name": "CNBC — 'Trump says he's postponing scheduled attack of Iran tomorrow at Middle East leaders request' May 18 2026", "tier": 2}
+      ],
+      "finding": "USS Gerald R. Ford confirmed home at Norfolk as of May 16-17 per War Zone (T3, authoritative fleet tracker) and CNN (T2). Ford completed a record 326-day deployment including Operation Epic Fury / Absolute Resolve, transited Suez northbound May 1, and returned home May 16. This resolves the Day 79 CENTCOM synthesis error: the Day 79 synthesis flagged 'Truman (CSG-10)' as the departing CSG but the departing carrier was the Ford. Synthesis three-CSG baseline was Lincoln + Bush + Ford, not Lincoln + Bush + Truman. Two-CSG posture (Lincoln + Bush) confirmed with H confidence across War Zone fleet tracker (authoritative). No Eisenhower deployment order. No ROE change. No new operation name. No DOE/SOF nuclear-expertise forward deployment signal. STRUCTURAL: Trump announcing a 'scheduled attack for tomorrow' (May 18 Truth Social) and then postponing it confirms that US kinetic resumption had moved from planning to execution-ready stage — military machinery was further advanced than Day 79 synthesis priced. The postponement at Gulf state request does not change the underlying operational readiness.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "USS Eisenhower deployment ORDER (not fired); two-CSG confirmation closes Day 79 open flag",
+        "framework_variable": "CENTCOM force posture; synthesis three-CSG baseline correction; Layer 1 military physics",
+        "direction": "stable — two-CSG now confirmed H (was provisional M Day 79); synthesis baseline error corrected (Ford not Truman); Eisenhower non-deployment holds restraint signal",
+        "gap_to_full_match": "Eisenhower deployment order. Any new carrier deployment to CENTCOM."
+      },
+      "variable_moved": {
+        "variable": "CENTCOM carrier posture; departing-carrier identity",
+        "prior_value": "Day 79: TWO-CSG provisional M (War Zone May 11 single-source); Truman incorrectly identified as CSG-10 departing",
+        "new_value": "Day 81: TWO-CSG confirmed H (War Zone May 17 + CNN May 16). Ford (not Truman) was CSG-10 that departed. Ford home as of May 16. Synthesis v4.0 §1.2 and §3.1 require correction: 'Truman (CSG-10) scheduled for RCOH' should read 'Ford (CSG-10) completed deployment and returned home May 16.' Eisenhower non-deployment restraint signal marginally elevated given two-CSG (vs three-CSG) baseline.",
+        "driver": "War Zone May 17 fleet tracker; CNN Ford return home report"
+      },
+      "discounts_applied": ["-10% on War Zone (reliable specialist outlet, not T2 outlet); CNN T2 corroborating Ford return independently"],
+      "conflict_notes": "Day 79 synthesis incorrectly named Truman as CSG-10; Day 81 confirms Ford as the CSG-10 that departed CENTCOM. No source conflict at Day 81; Day 79 synthesis error is a record-keeping correction. Truman RCOH scheduled June 2026 per 19FortyFive (Day 79 source) may be independent of CENTCOM deployment — Truman may never have been in CENTCOM AOR in this conflict window."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "cycle": "2026-05-18",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "TradingEconomics / CNBC — Brent crude May 18 2026: eased toward $102 after initial move above $111", "tier": 2},
+        {"name": "Bloomberg — 'Iranian Media Said US Offered Interim Waiver on Oil Sanctions' May 18 2026", "tier": 2},
+        {"name": "Tasnim News Agency — 'US accepts waiver of Iran oil sanctions in new text' May 18 2026", "tier": 3},
+        {"name": "CNBC — 'Trump says he's postponing scheduled attack of Iran tomorrow' May 18 2026", "tier": 2},
+        {"name": "Fox News — 'IRGC Zolfaghari: IRGC Navy did not allow any vessel to pass through Strait of Hormuz in past 24 hours' May 17 2026", "tier": 2}
+      ],
+      "finding": "Brent reversed from Day 79 band-break ($111.04 intraday May 15) to approximately $102 range on May 18 as two deal-signal drivers hit simultaneously: (1) Trump announcing postponement of 'scheduled attack for tomorrow' (May 19) — kinetic-resumption premium partially reversed; (2) Iranian media (Tasnim) reporting US proposed temporary oil sanctions waiver, corroborated by Bloomberg meta-reporting (Bloomberg reporting that Tasnim reported; US has not confirmed). Brent returned to within the $102-110 A1-oscillation band from the top. Concurrent physical-tightness driver: Zolfaghari (IRGC spokesperson) stated IRGC Navy 'did not allow any vessel to pass through the Strait of Hormuz in the past 24 hours' — Hormuz enforcement language hardening even as diplomatic signals soften. Two-track Hormuz equilibrium: Iranian-language Hormuz enforcement concurrent with deal signal is structurally complex. Hapag-Lloyd/Maersk commercial restoration: not announced. Brent scenario interpretation: $102 pullback from above-band position is a partial normalization toward deal premium; not yet at $95 Fork B credibility trigger; remains in upper portion of the A1-oscillation band.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Brent breakout above $115 (Fork A repricing — not fired); Brent breakout below $95 (Fork B credibility — not fired); commercial restoration (Hapag-Lloyd/Maersk — not fired); A1-oscillation band regime",
+        "framework_variable": "PROBE-8 oil market structural signal; Fork A/B probability pricing",
+        "direction": "down from Day 79 position (band break reversed; deal premium rising); not at Fork B trigger threshold; within oscillation band",
+        "gap_to_full_match": "Brent sustained below $95 for Fork B credibility trigger. Commercial restoration (Hapag-Lloyd/Maersk) for off-ramp confirmation. US official confirmation of oil sanctions waiver (currently Tasnim-only)."
+      },
+      "variable_moved": {
+        "variable": "Brent band position; kinetic-escalation premium; deal-probability pricing",
+        "prior_value": "Day 79: Brent $111.04 intraday; above the $102-110 A1-oscillation band; Fork A repricing signal active",
+        "new_value": "Day 81: Brent ~$102; returned to within band; kinetic premium partially reversed on Trump attack postponement + US oil sanctions waiver proposal (Iranian media only; US unconfirmed). Market re-pricing: deal probability elevated vs Day 79; Fork A repricing premium partially given back. Note: Hormuz physical enforcement continues (Zolfaghari statement); underlying supply constraint unchanged. Brent through $130 in 60 days revised: 35-45% (Day 79) → 30-42% (provisional, pending confirmed deal progress or further escalation).",
+        "driver": "Trump attack postponement (CNBC T2); US oil sanctions waiver proposal (Tasnim T3; Bloomberg meta-T2); Hormuz enforcement continuation (Zolfaghari T2)"
+      },
+      "discounts_applied": [
+        "-50% on US oil sanctions waiver proposal — Iranian semi-official Tasnim source only; US has not confirmed; Bloomberg reports Tasnim reporting, not independent corroboration",
+        "-25% on Brent specific price ($102) — single data-source aggregator reading; directional move confirmed across multiple outlets"
+      ],
+      "conflict_notes": "Zolfaghari (IRGC) asserting Hormuz fully closed vs oil price easing on deal signals — these are not contradictory. Market is pricing deal probability (attack postponed; text submitted; waiver proposed) while physical closure continues. The conflict is between the diplomatic signal layer and the physical-constraint layer — structurally this is the Fearon-mechanism playing out: signals of deal ease the premium while the coercive physical state persists."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "cycle": "2026-05-18",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Haaretz — 'Haredi parties don't believe Netanyahu's promises over draft-dodge bill' May 18 2026", "tier": 2},
+        {"name": "Times of Israel liveblog — May 18 2026: preliminary vote expected May 20-21; JNS on dissolution bill filing", "tier": 2},
+        {"name": "ITV News — 'Trump tells Iran clock is ticking after phone call with Netanyahu' May 17 2026", "tier": 2},
+        {"name": "Times of Israel — 'Netanyahu speaks with Trump amid reports Israel US preparing Iran strikes; Netanyahu convenes security cabinet' May 17 2026", "tier": 2},
+        {"name": "White House official X — 'President Trump hosts trilateral phone call with Netanyahu and Qatar PM Mohammed bin Abdulrahman Al Thani' May 17 2026", "tier": 1}
+      ],
+      "finding": "Knesset dissolution preliminary vote NOT occurred as of May 18. Expected vote date: May 20 or 21 (JNS/ToI T2). Coalition filed bill May 13; four plenum readings required. Haredi parties (Degel HaTorah — spiritual leader Dov Lando) expressing distrust of Netanyahu's promises on draft-exemption bill (Haaretz May 18 T2); this is the internal coalition stress driver of the dissolution push. If the haredi bloc votes dissolution, passage is 'all but assured' (Day 79 ToI baseline holds). Netanyahu-Trump phone call May 17 confirmed (ITV, ToI T2; ~30 minutes, focused on 'possibility of renewing fighting in Iran'). Netanyahu convened security cabinet May 17 — meeting about renewed Iran strikes per Israeli media. White House official X post (T1): Trump hosted trilateral call with Netanyahu AND Qatar PM Mohammed bin Abdulrahman Al Thani — Qatar is operating simultaneously as (a) Gulf state persuader asking Trump to hold attack (Emir Tamim was among the three Gulf leaders) and (b) trilateral diplomatic bridge between US and Israel. Netanyahu statement: 'our eyes are also open; prepared for any scenario.' No documented Israeli strike Day 80-81. Israeli pre-emption threshold: consistent with Day 79 baseline but Netanyahu engaged in de-escalation diplomacy (trilateral call) concurrently with 'prepared for any scenario' framing.",
+      "trigger_match": "partial",
+      "trigger_detail": {
+        "appendix_b_row": "Knesset dissolution bill passes (preliminary vote not yet occurred — pending May 20-21)",
+        "framework_variable": "BS-3 Israeli pre-emption window; Netanyahu spoiler mechanism; PA-gap penetration mechanism",
+        "direction": "up (dissolution advancing); Netanyahu-Penetration mechanism reactivated after 7-day gap; trilateral Qatar bridge architecture novel",
+        "gap_to_full_match": "Knesset dissolution bill passes preliminary vote (May 20-21 trigger date)."
+      },
+      "variable_moved": {
+        "variable": "Netanyahu-Penetration mechanism status; Knesset dissolution timeline; Israeli diplomatic posture",
+        "prior_value": "Day 79: 7-day Netanyahu-Trump contact gap (longest dormancy since Day 74); Knesset dissolution vote 'week of May 18' (pending); IDF Sulfur-and-Fire exercise + JPost 'could resume next week'",
+        "new_value": "Day 81: Netanyahu-Trump call May 17 (T1 White House + T2 ITV/ToI) — Penetration mechanism REACTIVATED. 7-day dormancy broken. Call focused on Iran strike resumption, not deal-direction. Trilateral Trump + Netanyahu + Qatar PM (T1) — Qatar brokering US-Israel-Gulf alignment. Netanyahu 'prepared for any scenario' but engaging diplomatically. Knesset dissolution preliminary vote expected May 20-21; passage triggers BS-3 election-horizon trigger. Haredi distrust of Netanyahu = coalition stress signal; increases dissolution probability. No Israeli strike Day 80-81: Trump postponement of scheduled attack reduces Israeli unilateral-strike urgency in 48h window.",
+        "driver": "White House T1 trilateral call; ITV/ToI Netanyahu-Trump call; Haaretz haredi distrust; ToI dissolution vote timeline"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "Netanyahu 'prepared for any scenario' (security cabinet May 17) vs Netanyahu on trilateral call with Qatar PM (conciliation framing) — consistent; Netanyahu is managing multiple channels simultaneously. The trilateral call architecture suggests Qatar is the operational diplomatic bridge; Netanyahu participating in the structure is not de-escalation, it is tactical engagement."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "cycle": "2026-05-18",
+      "status": "null",
+      "confidence": "H",
+      "sources": [
+        {"name": "HCR Letters from an American — May 17-18 2026", "tier": 3},
+        {"name": "Lawfare / Axios congressional tracking — no 8th WPR vote scheduled", "tier": 2}
+      ],
+      "finding": "No new WPR Senate vote scheduled. 7th vote baseline (49-50 against; Fetterman decisive) unchanged. The Trump 'scheduled attack for tomorrow' announcement (May 18) is structurally significant for PROBE-10: if the attack had been conducted without new AUMF, Stage 2 hysteresis lock-in would have completed (resumed-operations-without-new-authorization precedent). The postponement temporarily preserves the constitutional constraint window. No new Republican defection signal. No judicial WPA challenge filed. Stage 2 hysteresis indicators accumulating: 'hostilities terminated' certification, Day 60 WPA deadline passed, operation-rebranding mechanism operative. Fetterman mechanism unchanged.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "No conflict. Null probe. Structural note logged for SITREP: attack postponement temporarily preserves constitutional window; resumption without new AUMF remains the baseline risk if postponement expires."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger Tracking",
+      "cycle": "2026-05-18",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Tasnim News Agency — 'Iran submits revised 14-point text via Pakistan; focused on negotiations to end war and confidence-building measures' May 18 2026", "tier": 3},
+        {"name": "Xinhua — 'Iran hands over new 14-point peace proposal to Pakistani mediator' May 18 2026", "tier": 3},
+        {"name": "The Media Line — 'Iran submits revised 14-point ceasefire plan; US may waive oil sanctions' May 18 2026", "tier": 3},
+        {"name": "Bloomberg — 'Iranian Media Said US Offered Interim Waiver on Oil Sanctions' May 18 2026", "tier": 2},
+        {"name": "Times of Israel liveblog — 'Trump claims Gulf allies requested he hold Iran attack for 2-3 days because deal very close' May 18 2026", "tier": 2},
+        {"name": "Al Jazeera — 'What we know about Iran's response to the latest US ceasefire proposal' May 8 2026", "tier": 2}
+      ],
+      "finding": "Iran submitted revised 14-point text to Pakistani mediator May 18 (Tasnim T3 + Xinhua T3; no direct US-side confirmation). The revised text is described as focused on 'negotiations to end the war and confidence-building measures by the American side' — structurally more conciliatory framing than prior rejection-of-'totally-unacceptable' US proposal. Key Iranian revision in revised text: HEU to be 'diluted and rest transferred to a third country' (modifying prior demand structure); enrichment suspension shorter than 20-year US moratorium; 30-day timeline focal point retained. US reportedly proposed temporary oil sanctions waiver (Tasnim; Bloomberg meta-reporting; US unconfirmed). Trump told Gulf leaders deal is 'very close' as justification for 2-3 day postponement (ToI T2). Pakistan mediating this round (not Oman); Pakistan channel is newly active. No Oman FM 2026 post-war round announcement. The Meta-Negotiation Regression pattern is interrupted: active diplomatic exchange is occurring (revised text submitted; waiver proposed; 2-3 day window framed as deal-productive). This does not confirm Fork B is operative; it confirms the negotiating mechanism is active within a compressed window.",
+      "trigger_match": "partial",
+      "trigger_detail": {
+        "appendix_b_row": "5th Oman round scheduled with technical negotiators (not fired — Pakistan channel, not Oman); sunset clause text confirmed in negotiating draft (not confirmed); Meta-Negotiation Regression interrupted (partially — active exchange occurring)",
+        "framework_variable": "Fork B vs Fork D' direction; Meta-Negotiation Regression vs active negotiation; mediator architecture (Pakistan elevated)",
+        "direction": "up (toward Fork B) — Iranian revised text submitted; deal framed as 'very close' by Trump; oil sanctions waiver proposed; Pakistan channel active; but Vahidi ratification gap unchanged and no confirmed US or Iranian principal endorsement of specific terms",
+        "gap_to_full_match": "US official confirmation of oil sanctions waiver. Named-principal endorsement of specific MOU terms (Vahidi or Trump direct). Formal Oman FM or State Dept announcement of next round."
+      },
+      "variable_moved": {
+        "variable": "Meta-Negotiation Regression status; mediator architecture; Fork B active-exchange probability",
+        "prior_value": "Day 79: Meta-Regression operative default; no 2026 post-war round scheduled; Hajj next focal point; Iran Araghchi BRICS hardening",
+        "new_value": "Day 81: Active diplomatic exchange occurring within Trump's 2-3 day postponement window. Iran revised text submitted via Pakistan. US oil sanctions waiver proposed (Iranian media only; M-L confidence). Meta-Regression pattern interrupted by compressed deal activity. Pakistan elevated as active mediator (not Oman this round). The 2-3 day window (ending approximately May 20-21) is the operative deal window; if no agreement by then, Trump postponement expires and Fork A machinery reactivates. Hajj (May 24-29) remains structural focal point beyond this immediate window.",
+        "driver": "Tasnim/Xinhua revised text reports; ToI 'deal very close' Trump framing; Bloomberg US waiver meta-report"
+      },
+      "discounts_applied": [
+        "-30% on Tasnim and Xinhua (Iranian semi-official and Chinese state; both have framing incentives; treat as directional signal, not verified content)",
+        "-50% on US oil sanctions waiver (Tasnim-sourced; US unconfirmed)",
+        "-25% on 'deal very close' framing (Trump statement relayed through ToI interpretation of Gulf leader messaging)"
+      ],
+      "conflict_notes": "Tasnim (pro-deal framing) vs Araghchi Day 79 BRICS hardening ('no trust in Americans') — two days apart; Araghchi public hardening may be for domestic audience while Pakistan channel operates privately. The public-vs-private channel divergence is a recurring feature of the Iranian negotiating track. Weight private channel activity (Pakistan-mediated revised text) more than public framing in Araghchi's BRICS speech."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap Tracking)",
+      "cycle": "2026-05-18",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Trump Truth Social — 'scheduled attack of Iran for tomorrow postponed at request of Qatar, Saudi Arabia, UAE leaders; deal would be very acceptable' May 18 2026", "tier": 1},
+        {"name": "CNBC — 'Trump says he's postponing scheduled attack of Iran tomorrow at Middle East leaders' request' May 18 2026", "tier": 2},
+        {"name": "Washington Post — 'Trump says he's called off an attack on Iran to give talks more time' May 18 2026", "tier": 2},
+        {"name": "White House official X — trilateral call Trump + Netanyahu + Qatar PM Mohammed bin Abdulrahman Al Thani May 17 2026", "tier": 1},
+        {"name": "ITV News — 'Trump tells Iran clock is ticking after phone call with Netanyahu' May 17 2026", "tier": 2},
+        {"name": "Times of Israel — 'Trump claims Gulf allies requested he hold Iran attack for 2-3 days because deal very close' May 18 2026", "tier": 2},
+        {"name": "ABC News — 'Iran better get moving FAST and make a peace deal, Trump says' May 18 2026", "tier": 2},
+        {"name": "Newsweek — 'Why Donald Trump Delayed a Planned Military Attack on Iran' May 18 2026", "tier": 2}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Trump announced on Truth Social (Tier 1) May 18 that a military attack on Iran scheduled for 'tomorrow' (May 19) was postponed at the request of three Gulf leaders: Emir of Qatar Tamim bin Hamad Al Thani, Saudi Crown Prince Mohammed bin Salman, and UAE President Mohammed bin Zayed Al Nahyan. Trump stated: leaders believed 'a deal would be made that would be very acceptable to the US and its allies'; Trump warned military is prepared for 'full large-scale assault of Iran' if acceptable deal not reached. This is the highest operationalization of US kinetic action confirmed since the ceasefire: a specific date was set for military resumption, then postponed under Gulf state pressure. Trump's 48h framing has compressed to a 2-3 day deal window (per ToI T2 interpretation of Gulf leader messaging). White House (T1): trilateral call Trump + Netanyahu + Qatar PM Abdulrahman Al Thani May 17 — Qatar simultaneously brokering the Gulf state holdoff (Emir Tamim) and the US-Israel diplomatic architecture (PM Abdulrahman in trilateral with Netanyahu). Netanyahu-Trump call May 17 (ITV, ToI T2): breaks 7-day Penetration-mechanism dormancy; call focused on 'possibility of renewing fighting in Iran'; Trump briefed Netanyahu on China visit. Trump concurrent statements: 'clock is ticking'; 'won't be anything left of them if they don't get moving FAST'; 'Iranians should be afraid'; simultaneously: 'Iran still wants a deal'; 'deal very close' (per Gulf leaders). A1 oscillation at maximum severity: simultaneous attack-scheduling (hardline), attack postponement (deal-leaning), hardline rhetoric ('annihilation'), and deal-optimism ('very close'). Iranian PA-gap: no Vahidi direct statement; Ghalibaf-Araghchi track active (revised 14-point text submitted). NEW STRUCTURAL VARIABLE: Gulf state troika (Saudi/UAE/Qatar) functioning as direct brake on US military decision-making — not modeled in existing PA-gap framework. This is the first documented case of Gulf state leaders directly intervening in the US military decision cycle for Iran kinetics.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple triggers: (1) Trump attack-scheduling = US Fork A execution-ready (highest operationalization to date); (2) Gulf state troika brake = new unmodeled constraint mechanism; (3) 2-3 day decision window = specific fork-selection timeline; (4) Netanyahu-Penetration mechanism reactivated (7-day dormancy broken)",
+        "framework_variable": "Layer 4 principal-access-channel architecture; Layer 5 PA-gap; Fork A operationalization state; BS-15 first-mover architecture",
+        "direction": "complex — Fork A operationalization CONFIRMED at execution-ready stage (attack scheduled); simultaneously Fork B-multilateral gaining traction via Gulf state brake and Iranian revised text; net effect: both Fork A and Fork B probabilities have structural anchors; decision window compressed to 2-3 days",
+        "gap_to_full_match": "N/A — FIRED. Synthesis revision candidate."
+      },
+      "variable_moved": {
+        "variable": "US Fork A operationalization state; Gulf state troika constraint; Netanyahu-Penetration mechanism; A1 oscillation severity",
+        "prior_value": "Day 79: Trump hardline ('deal or annihilate'); attack not scheduled; Netanyahu-Penetration dormant 7 days; Fork A 28-38% 30d",
+        "new_value": "Day 81: Attack scheduled for May 19 then postponed — US Fork A was at execution-ready state, not just 'operationalizing.' Gulf state troika (Saudi/UAE/Qatar) introduced as new unmodeled constraint variable that directly halted US military action. Netanyahu-Penetration reactivated (7-day dormancy broken; trilateral Qatar-bridge added). 2-3 day window = deal-or-military decision by approximately May 20-21. Fork A probability for 30d: maintained or marginally reduced (attack postponed; deal window active) but the underlying execution-ready state is structural — attack can be rescheduled if deal fails. Fork B-multilateral probability: elevated from Day 79 baseline (Gulf state troika as new multilateral mechanism; Iranian revised text; deal framed as 'very close'). Proposed synthesis revision: add Gulf state troika as §5.25 mechanism — third-party Gulf state constraint on US military decision, operating independently of Israeli alliance coordination and Chinese co-mediation.",
+        "driver": "Trump Truth Social (T1); White House trilateral call X post (T1); CNBC/WaPo corroboration (T2)"
+      },
+      "discounts_applied": [
+        "-0% on Trump Truth Social announcement (T1, self-disclosure, multi-source corroborated)",
+        "-25% on '2-3 day window' framing (Trump paraphrase of Gulf leader messaging; not a formal deadline)"
+      ],
+      "conflict_notes": "Trump 'annihilation' rhetoric (hardline) vs Trump postponing attack (deal-leaning) in the same 24h arc. This is not a contradiction; it is A1 oscillation at maximum severity. The constraint architecture explanation: Gulf state pressure (new variable) is the operative brake; it does not eliminate Trump's underlying hardline disposition, it delays its expression. The 2-3 day window is the interval in which either deal signal arrives and Trump accepts the brake outcome, or no deal signal arrives and Trump reactivates the military decision. Structural: the Gulf state brake mechanism is the first external (non-US, non-Israeli, non-Iranian) direct constraint on US military timing. This is a new Layer 4 variable."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "cycle": "2026-05-18",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera — 'Drone strike sparks fire at UAE's Barakah nuclear power plant' May 17 2026", "tier": 2},
+        {"name": "Washington Post — 'Drone strikes UAE nuclear plant as US and Iran signal they are prepared to resume war' May 17 2026", "tier": 2},
+        {"name": "Bloomberg — 'How Attack on UAE Shows Nuclear Plants Vulnerability in War' May 18 2026", "tier": 2},
+        {"name": "The National (UAE) — UAE air defense intercepted three UAVs from western border; one struck generator outside inner perimeter May 17 2026", "tier": 2},
+        {"name": "Fortune — 'First time Barakah attacked since Iran war started' May 17 2026", "tier": 2},
+        {"name": "IAEA statement — incident forced one reactor to rely on emergency diesel generators; radiation normal", "tier": 1},
+        {"name": "Fox News / SANA — 'IRGC Zolfaghari: IRGC Navy did not allow any vessel to pass through Strait of Hormuz in past 24 hours' May 17 2026", "tier": 2},
+        {"name": "Foreign Policy — 'Iran's Proxies in Lebanon, Iraq, and Yemen Are Out for Themselves' March 2026 (Houthi indigenous manufacturing baseline)", "tier": 3}
+      ],
+      "finding": "FRAMEWORK REVISION TRIGGER. Barakah nuclear power plant (UAE, Al Dhafra, Abu Dhabi) drone attack May 17: three UAVs entered UAE from western border; two intercepted by UAE air defenses; one struck electrical generator outside inner perimeter; no radiation leak (IAEA T1 confirmation); one reactor on emergency diesel generators. IAEA statement confirmed (T1). No official attribution; UAE investigating. Western border entry points to Yemen (Houthi) or Iraqi militia origin. JPost sources (−50% discount): 'In any case, it's Iran who ordered the attack.' This is the first confirmed attack on UAE nuclear-adjacent infrastructure since the war began. The attack directly contradicts Cooper Tier-1 SASC testimony (May 14): 'Hamas, Hezbollah, and the Houthis are all cut off from Iran's weapons and support.' Reconciliation options: (a) Houthis have indigenous drone manufacturing capability (FP March 2026: local airframe/warhead assembly, guidance/propulsion still Iran-supplied) — not fully severed from Iranian supply chains; (b) Cooper's assessment was outdated within 8 days; (c) Iraqi militia (not Houthi) as launch platform, operating via Iran's Quds Force. All three scenarios indicate Iranian proxy network has residual capability not captured by Cooper's 'cut off' framing. Cooper Tier-1 claim discounted to M confidence on proxy connectivity. IRGC Zolfaghari Hormuz enforcement statement concurrent: maximalist Hormuz enforcement language ('did not allow any vessel') maintained while diplomatic exchange (revised text) occurs. Slantchev feigning-weakness: Barakah attack is an active use case of Iranian extended deterrent network, not merely residual inventory. First nuclear-adjacent infrastructure targeting by Iranian proxy network: new threshold crossed in the graduated escalation ladder.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Named-source IC assessment of higher-than-estimated Iranian residual inventory; Iranian asset repositioning accelerates; Houthi mass-launch event during MOU window (partial — single drone attack on nuclear-adjacent infrastructure, not mass-launch)",
+        "framework_variable": "BS-13 Iranian residual capability; Layer 2 asymmetric-conflict logic; Cooper Tier-1 proxy-connectivity assessment",
+        "direction": "up — Iranian extended-deterrent network active; Cooper T1 proxy claim discounted; nuclear-adjacent targeting threshold crossed; graduated escalation ladder ascending",
+        "gap_to_full_match": "Official attribution of Barakah attack (UAE government statement or multi-source intelligence confirmation). Houthi mass-launch event (larger demonstration). Hezbollah missile readiness signal. Cyber Stage 3 activation."
+      },
+      "variable_moved": {
+        "variable": "Iranian proxy network capability assessment; Cooper Tier-1 proxy-connectivity confidence; escalation ladder position",
+        "prior_value": "Day 79: 30/33 Hormuz missile sites multi-T2 corroborated; launcher repositioning beyond PSM range (T3); Slantchev confirmed H; Cooper T1 'cut off' claim at face value; no Houthi mass-launch",
+        "new_value": "Day 81: Barakah drone attack (May 17) demonstrates Iranian proxy network can reach UAE nuclear-adjacent infrastructure. Cooper T1 'cut off' claim discounted to M confidence; Houthi/Iraqi militia retain delivery capability via either indigenous manufacturing or Iranian supply. New threshold crossed: nuclear-adjacent infrastructure targeted. Graduated escalation ladder: Day 70 PM (three-destroyer attack) → Day 81 (Barakah nuclear plant perimeter). The escalation vector is calibrated (generator outside inner perimeter; no radiation) — characteristic Slantchev feigning-weakness signal: demonstrate capability without triggering maximum response. Synthesis §3.2 Layer Two (asymmetric-conflict logic) requires update: horizontal escalation to Gulf nuclear infrastructure is a new demonstrated capability, not a theoretical threat.",
+        "driver": "Al Jazeera/WaPo/Bloomberg T2 Barakah reporting; IAEA T1 confirmation; FP indigenous Houthi manufacturing baseline; Cooper T1 contradiction"
+      },
+      "discounts_applied": [
+        "-50% on JPost attribution (two unnamed sources)",
+        "-25% on Cooper T1 proxy-connectivity claim post-Barakah (Tier-1 source but operationally contradicted; apply uncertainty discount)"
+      ],
+      "conflict_notes": "Cooper T1 (May 14): Houthis 'cut off from Iran's weapons and support.' Barakah attack (May 17): western-border drone launch consistent with Houthi origin. Cooper is authoritative but may be describing weapons-supply flow rather than operational capability — Houthi indigenous manufacturing (FP T3 baseline) provides capacity without continuous resupply. The gap between 'cut off from weapons supply' and 'cut off from operational capability' is analytically material; Cooper's framing may conflate the two."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "cycle": "2026-05-18",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "ABC News — 'Iran better get moving FAST; Trump says' May 18 2026", "tier": 2},
+        {"name": "CNBC — 'Trump postponing scheduled attack; military prepared for full large-scale assault if deal not reached' May 18 2026", "tier": 2},
+        {"name": "Times of Israel — 'US Iran said closing in on framework for permanent deal as Trump renews bomb threats' May 18 2026", "tier": 2},
+        {"name": "Times of Israel — 'Netanyahu convenes security cabinet; prepared for any scenario' May 17 2026", "tier": 2},
+        {"name": "SANA / Fox News — 'IRGC Zolfaghari: all US bases in southern Gulf will be deactivated' May 17 2026", "tier": 2}
+      ],
+      "finding": "Trump dispositional state: maximum paradox. 'Won't be anything left of them if they don't get moving FAST' simultaneously with attack postponement framed as 'deal very close.' Trump's dispositional reading of Iran: both annihilatory ('nothing left') and open ('Iranians should be afraid' AND 'Iran still wants a deal'). This is A1 oscillation at its most extreme documented arc — not two readings separated by 48 hours but simultaneous contradictory frames in the same decision cycle. The Gulf state brake provides the structural explanation: Trump's dispositional preference may be hardline but external constraint (Gulf leaders' appeal + deal-proximity framing) produced postponement. Trump's decision-moment state: postponement = deal-leaning in this 48h window; 2-3 day clock = expiration back to hardline if no deal arrives. Netanyahu dispositional state: 'our eyes are also open; prepared for any scenario' — cautious formulation; engaging in trilateral diplomacy; not explicitly endorsing Trump postponement or pushing for immediate strike. IDF posture: Sulfur-and-Fire exercise (Day 79) + Zamir 'on high alert' framing persists; no update Day 80-81. IRGC dispositional reading: Zolfaghari 'all US bases will be deactivated' — maximum threat posture maintained even during diplomatic exchange. Iran's public stance: hardline threat + private diplomatic engagement = classic two-level game (Putnam). ToI: 'US and Iran closing in on framework for permanent deal as Trump renews bomb threats' — captures the paradox structurally. Gulf state troika dispositional reading: deal-seeking; Barakah attack on UAE infrastructure hardened their desire for diplomatic resolution over military escalation (being on the receiving end of Iranian deterrence signal motivates mediation, not counter-escalation).",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Netanyahu explicit regime-nature framing (not fired); Israeli unilateral strike (not fired); IRGC explicit regime-change framing (not fired)",
+        "framework_variable": "BS-14 dispositional reading; Powell shifting-power mechanism; A1 binding severity",
+        "direction": "up (Fork A dispositional hardening maintained); simultaneously up on Fork B (deal-proximity framing); net: maximum paradox state; Gulf state dispositional reading introduces new de-escalatory actor",
+        "gap_to_full_match": "Netanyahu or IRGC explicit dispositional break. Trump direct named endorsement of specific MOU terms (not just 'deal very close' attribution through Gulf leaders)."
+      },
+      "variable_moved": {
+        "variable": "Trump dispositional state; Gulf state troika as new de-escalatory actor; Israeli disposition",
+        "prior_value": "Day 79: Trump hardline pivot operative without Netanyahu rebroadcast; 'Sulfur and Fire' IDF exercise + JPost 'could resume next week'",
+        "new_value": "Day 81: Attack scheduled then postponed — Trump A1 maximum-paradox state. Gulf state troika dispositional shift: Barakah attack hardened Gulf state preference for negotiated resolution; they are now active brake on US military action. Netanyahu: cautious diplomat-warrior framing; not driving escalation in this 48h window. IRGC: maximum threat posture maintained. Structural: three de-escalatory actors now in play (Gulf states, Pakistan mediator, Qatar diplomatic bridge) vs Day 79's single de-escalatory track (Hajj backchannel). De-escalatory architecture has deepened while kinetic signals have also intensified.",
+        "driver": "CNBC/WaPo Trump postponement reporting; ABC Trump 'get moving FAST'; Zolfaghari threat statement; ToI 'closing in on deal' framing"
+      },
+      "discounts_applied": [
+        "-25% on Trump dispositional stability in any direction (A1 binding confirmed at maximum severity; any framing has 48h or less durability)"
+      ],
+      "conflict_notes": "ToI 'closing in on framework' vs simultaneous Trump 'bomb threats' — the title captures the paradox accurately. No source conflict; multiple sources describe the same paradox from different angles."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In (Composite)",
+      "cycle": "2026-05-18",
+      "status": "fired",
+      "confidence": "M",
+      "sources": ["Synthetic composite from PROBE-2, PROBE-7, PROBE-8, PROBE-9, PROBE-10, PROBE-12', PROBE-13, PROBE-14, PROBE-15 Day 81 outputs"],
+      "finding": "FRAMEWORK REVISION TRIGGER. Multiple first-mover thresholds reached simultaneously, producing the most compressed decision architecture the framework has seen. US-SIDE THRESHOLD: Operationally REACHED then PULLED BACK. Trump scheduled military strike for May 19; announced postponement May 18 at Gulf state request. The threshold was crossed (execution-ready state confirmed) and then reversed by external Gulf state constraint — the first documented case of Gulf states directly halting a US military action in this conflict. The 2-3 day window creates a formal expiration: absent deal signal by approximately May 20-21, execution-ready state can be reinstated. IRANIAN-SIDE THRESHOLD: Not breached; Ghalibaf-Araghchi track still diplomatic (revised text submitted); Vahidi silent. Strangulation threshold not reached (no Bazaar closure, rial stable). ISRAELI-SIDE THRESHOLD: Netanyahu in security cabinet + trilateral with Qatar PM; not driving independent pre-emption in this window; Knesset dissolution vote pending May 20-21. WPR-FORCING-FUNCTION: unchanged; attack postponement preserves constitutional window temporarily. STRANGULATION: Brent pulled back to $102 (deal signal softening kinetic premium); no Kharg saturation. NEW ARCHITECTURE ELEMENT: Gulf state troika (Saudi/UAE/Qatar) inserted as fourth structural actor in the first-mover decision space — not a principal in the Iran war framework, but an effective veto-by-appeal on US military timing. Their insertion directly interacted with the PROBE-14 finding: Barakah attack on UAE motivated UAE (and Saudi/Qatar solidarity) to appeal to Trump. Iranian deterrence signal (Barakah) paradoxically produced de-escalatory pressure on the US-Gulf side. Composite: the architecture is at maximum compression. The joint decision window (2-3 day Trump hold + Knesset dissolution vote May 20-21 + Hajj May 24-29) creates three concurrent forcing functions within a 7-day window. The first-mover question has partially resolved: the US moved (scheduled attack) and was braked; Iran responded (Barakah + revised text); Israel is holding (trilateral diplomacy); Gulf states are the new brake. What fires next — deal confirmation or military resumption — determines which fork actualizes.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "US-side first-mover threshold breached (attack scheduled = execution-ready); multiple thresholds approaching simultaneously (per PROBE-16 trigger logic: 'multiple thresholds breached in parallel → cascade risk; Fork C miscalculation probability ↑')",
+        "framework_variable": "BS-15 first-mover architecture; joint distribution of break-thresholds; dominant fork selection",
+        "direction": "complex — US threshold reached-and-braked; Iranian revised text submitted (diplomatic); Israeli holding; Gulf state troika as new brake mechanism; 2-3 day window compresses the decision architecture to the shortest focal-point interval the framework has seen",
+        "gap_to_full_match": "N/A — FIRED. Framework convergence imminent within 2-3 day window."
+      },
+      "variable_moved": {
+        "variable": "US-side execution-ready threshold status; Gulf state troika as new structural actor; joint decision window compression",
+        "prior_value": "Day 79: Four first-mover pathways identified but no threshold definitively breached; Hajj (May 24-29) next focal point; Israeli graduation 'most advanced'; Trump postponement not yet occurring",
+        "new_value": "Day 81: US threshold REACHED and BRAKED (attack scheduled then postponed). Gulf state troika inserted as operative brake mechanism. Joint decision window: 2-3 days (Trump self-imposed holdoff) × Knesset vote (May 20-21) × Hajj (May 24-29). Fork C miscalculation risk elevated: multiple simultaneous threshold approaches with Barakah nuclear-adjacent attack adding accident-pathway risk. Revised first-mover architecture: five actors now in play — Iran, US, Israel, Gulf state troika, Pakistan mediator. The first-mover question has partially collapsed: the US was the first-mover (attack scheduled) and was braked externally. If the 2-3 day window expires without deal, US re-activates as first-mover. If deal is reached in window, Fork B-multilateral (Gulf state brokered) is the operative path.",
+        "driver": "PROBE-13 (attack scheduled/postponed); PROBE-14 (Barakah = Iranian deterrence signal activating Gulf state brake); PROBE-12' (revised text + active negotiation); PROBE-9 (Knesset vote May 20-21)"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "No source conflict in composite. The Barakah → Gulf state brake → Trump postponement → Iranian revised text causal chain is internally consistent and multi-source corroborated. The paradox is structural, not a source artifact."
+    }
+  ],
+  "sweep_summary_table": [
+    {"probe": "PROBE-2", "probe_name": "IRGC Factional", "status": "partial", "confidence": "M", "trigger_fired": "partial — Barakah attack challenges Cooper T1 proxy-connectivity claim; Zolfaghari IRGC threat statement; Ghalibaf-Araghchi track still diplomatic (revised text); Vahidi still silent", "variable_moved": "Cooper T1 proxy-connectivity discounted to M; Iranian extended-deterrent network demonstrated active; new nuclear-adjacent threshold crossed"},
+    {"probe": "PROBE-6", "probe_name": "Chinese Support", "status": "null", "confidence": "M", "trigger_fired": "no", "variable_moved": "none — Xi summit Day 1 delivery holds as operative Chinese position; Day 2 trade-only; no new Iran content"},
+    {"probe": "PROBE-7", "probe_name": "CENTCOM Posture", "status": "partial", "confidence": "H", "trigger_fired": "no — Eisenhower not deployed; Ford home confirms two-CSG", "variable_moved": "Ford (not Truman) confirmed as departed CSG-10; two-CSG Lincoln + Bush confirmed H; synthesis §1.2 and §3.1 require Truman → Ford correction"},
+    {"probe": "PROBE-8", "probe_name": "Oil Markets", "status": "fired", "confidence": "M", "trigger_fired": "yes — band reversal from above-$110 break to ~$102 on deal signals (attack postponement + oil waiver proposal); directional reversal not yet at Fork B trigger threshold", "variable_moved": "Brent reversed into oscillation band from above; deal-probability pricing elevated; Brent-$130-in-60-days revised 35-45% → 30-42% provisional"},
+    {"probe": "PROBE-9", "probe_name": "Israeli Internal", "status": "partial", "confidence": "M", "trigger_fired": "no — Knesset vote pending May 20-21; trigger not yet fired", "variable_moved": "Netanyahu-Penetration reactivated (7-day dormancy broken); trilateral Trump+Netanyahu+Qatar PM (T1); Haredi coalition stress; dissolution vote timing confirmed"},
+    {"probe": "PROBE-10", "probe_name": "War Powers/Constitutional", "status": "null", "confidence": "H", "trigger_fired": "no", "variable_moved": "none — attack postponement preserves constitutional window temporarily; Stage 2 hysteresis accumulating"},
+    {"probe": "PROBE-12'", "probe_name": "MOU Framework", "status": "partial", "confidence": "M", "trigger_fired": "partial — Iran revised text submitted via Pakistan; US oil waiver proposed (Tasnim; unconfirmed); active diplomatic exchange interrupting Meta-Regression pattern", "variable_moved": "Pakistan elevated as active mediating channel; Meta-Regression interrupted by active exchange; 2-3 day window as operative deal window"},
+    {"probe": "PROBE-13", "probe_name": "PA-Gap / Ratification", "status": "fired", "confidence": "H", "trigger_fired": "yes — MULTIPLE: (1) attack scheduled for May 19 = US Fork A execution-ready confirmed; (2) Gulf state troika brake = new unmodeled constraint variable; (3) Netanyahu-Penetration reactivated; (4) 2-3 day decision window formally framed", "variable_moved": "Gulf state troika as new Layer 4 constraint variable; Fork A execution-ready state confirmed then braked; Fork B-multilateral via Gulf state mechanism elevated; decision window May 20-21"},
+    {"probe": "PROBE-14", "probe_name": "Iranian Residual Capability", "status": "fired", "confidence": "M", "trigger_fired": "yes — Barakah nuclear plant drone attack demonstrates Iranian proxy capability to reach UAE nuclear-adjacent infrastructure; first nuclear-adjacent attack since war began; directly contradicts Cooper T1 proxy-connectivity claim", "variable_moved": "Cooper proxy-connectivity T1 discounted to M; nuclear-adjacent threshold crossed; Houthi/Iraqi militia delivery capability confirmed as residual; graduated escalation ladder ascends"},
+    {"probe": "PROBE-15", "probe_name": "Dispositional Reading", "status": "partial", "confidence": "M", "trigger_fired": "no", "variable_moved": "Gulf state troika dispositional shift (deal-seeking, hardened by Barakah); Trump maximum-paradox A1 state; IRGC maximum threat posture concurrent with diplomatic track"},
+    {"probe": "PROBE-16", "probe_name": "First-Mover Composite", "status": "fired", "confidence": "M", "trigger_fired": "yes — US-side threshold REACHED (attack scheduled) then BRAKED (Gulf state intervention); multiple thresholds approaching simultaneously; joint decision window compressed to 2-3 days; Fork C cascade risk elevated", "variable_moved": "First-mover architecture: five actors (Iran, US, Israel, Gulf troika, Pakistan); US moved then braked; decision window May 20-21 × Knesset vote × Hajj; Fork B-multilateral via Gulf state mechanism is new operative path"}
+  ],
+  "trigger_digest": [
+    {
+      "trigger": "PROBE-13 IMMEDIATE: Trump 'scheduled attack' postponed — US Fork A was at execution-ready state (scheduled for May 19); Gulf state troika (Saudi/UAE/Qatar) directly intervened to halt military action; new unmodeled constraint mechanism; 2-3 day decision window formally created",
+      "source_probe": "PROBE-13, PROBE-16",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 5 Structural Dynamics (new §5.25 — Gulf State Troika Brake Mechanism); Section 3.4 Layer Four Faction Misalignment / Principal-Access-Channel Architecture; Section 8 Probability Matrix",
+        "edit": "Add §5.25 Gulf State Troika Brake Mechanism: Saudi/UAE/Qatar leaders (MBS, MBZ, Tamim) directly intervened in US military decision cycle on May 18, requesting 2-3 day postponement of attack scheduled for May 19. First confirmed case of Gulf state leaders halting a US military action timing in this conflict. The mechanism operates via: (a) Gulf state economic exposure to conflict (UAE's Barakah attack + oil-price political pressure on MBS/Tamim); (b) direct principal-level appeal to Trump A1 oscillation; (c) deal-optimism framing ('very close') that provides Trump cover for postponement. The brake is temporary (Trump's own 2-3 day framing) and conditional on deal progress. It is the first functional Fork B-multilateral mechanism in the Gulf state dimension; prior multilateral mechanisms were E3/IAEA and Beijing. Probability matrix: Fork B-multilateral (Gulf state pathway) elevated to 8-15% 30d (from sub-5% prior); combined Fork B 20-30% 30d (from 15-23%); Fork A 30d compressed 3-5pp on active brake mechanism; Fork D' marginally elevated if deal window expires without resolution."
+      },
+      "urgency": "immediate — synthesis revision candidate; §5.25 and probability matrix update warranted at next /revise"
+    },
+    {
+      "trigger": "PROBE-14 IMMEDIATE: Barakah nuclear plant drone attack — Iranian proxy capability demonstrated to reach UAE nuclear-adjacent infrastructure; Cooper Tier-1 proxy-connectivity assessment directly contradicted; new escalation threshold crossed",
+      "source_probe": "PROBE-14, PROBE-2",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 3.2 Layer Two Asymmetric-Conflict Logic; Section 3.5 Layer Five (proxy-connectivity constraint on Iranian horizontal escalation); Cooper testimony assessment note",
+        "edit": "Add to §3.2: Iranian extended-deterrent network demonstrated horizontal escalation to UAE nuclear-adjacent infrastructure (Barakah, May 17). Western-border drone origin (Yemen/Iraqi militia) demonstrates Houthi or Iraqi proxy capability not fully severed despite Cooper T1 claim. Layer 2 calibration: Iranian horizontal escalation ladder now includes nuclear-adjacent targeting as demonstrated tier — one step below direct attack on nuclear reactor (which IAEA safety norms and existential deterrence constrain). Cooper Tier-1 'cut off' assessment: apply −25% confidence discount; treat Houthi/Iraqi militia as retaining delivery capability via indigenous manufacturing and partial Iranian supply persistence. Update §1.4 Lebanon/Proxy Fronts: Houthi restraint from mass-launch should not be interpreted as capability severance. The Barakah attack is calibrated — generator outside inner perimeter, two of three drones intercepted — characteristic Slantchev feigning-weakness demonstration: capability signal without triggering maximum response."
+      },
+      "urgency": "immediate — Cooper T1 discount is operative for next SITREP; §3.2 escalation ladder update for next /revise"
+    },
+    {
+      "trigger": "PROBE-13 / PROBE-16 IMMEDIATE: 2-3 day decision window (May 20-21) — deal-or-military decision horizon is the most compressed focal-point the framework has seen; Knesset dissolution vote coincides; synthesis revision candidate on resolution",
+      "source_probe": "PROBE-13, PROBE-16, PROBE-9",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 3.3 Layer Three Time Arithmetic; Section 7 Forking Paths; BS-15 First-Mover Architecture",
+        "edit": "Update Layer Three time arithmetic: the operative forcing function is no longer Hajj (May 24-29) as primary but Trump's self-imposed 2-3 day holdoff expiring approximately May 20-21. If no deal signal by then, attack can be rescheduled. Knesset dissolution vote (May 20-21) coincides: passage compresses Netanyahu's decision-maker window and shifts authority toward IDF leadership during caretaker period. The joint window May 20-21 is the highest-density decision node the framework has identified. Immediate SITREP implication: WATCH signals for this window — any US-side confirmation of deal terms; any Vahidi or named IRGC statement; any Knesset vote outcome; any Israeli operational signal; any Trump Truth Social post-window framing."
+      },
+      "urgency": "immediate — decision window active now; consume in next SITREP"
+    },
+    {
+      "trigger": "PROBE-7 NEXT CYCLE: Ford (not Truman) confirmed as departed CSG-10; synthesis §1.2 and §3.1 factual error requires correction",
+      "source_probe": "PROBE-7",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "Section 1.2 Current Operational Posture; Section 3.1 Layer One Military Physics",
+        "edit": "Correct 'Truman (CSG-10) scheduled to begin RCOH June 2026; likely departing CENTCOM' to 'Ford (CSG-10) completed record 326-day deployment including Iran war; returned home to Norfolk May 16. Truman RCOH reference is incorrect carrier identification.' Two-CSG posture (Lincoln + Bush) already established in v4.0 as provisional; Day 81 confirms H confidence. Eisenhower non-deployment restraint signal unchanged. Synthesis correction is factual, not structural — does not change any probability estimate."
+      },
+      "urgency": "next cycle — factual correction for next /revise; not operationally urgent"
+    },
+    {
+      "trigger": "PROBE-8 NEXT CYCLE: Brent band reversal — Day 79 band-break ($111+) reversed to ~$102 on deal-signal cluster (attack postponement + oil waiver proposal); Brent-through-$130 probability revised",
+      "source_probe": "PROBE-8",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 2.2 Market Snapshot; Section 8 Probability Matrix (Brent scenario probabilities)",
+        "edit": "Brent returned to $102 (within the $102-110 oscillation band) from above-band position ($111+) on Trump attack postponement + US oil sanctions waiver proposal (M-L confidence on waiver). Market is pricing deal probability above Day 79 baseline. Brent-through-$130-in-60-days: revise from 35-45% (Day 79) to 30-40% provisionally. Note: if deal framework collapses after 2-3 day window, Brent would spike back above $110+ rapidly. The band reversal is sensitive to the May 20-21 window outcome."
+      },
+      "urgency": "next cycle — SITREP market update; probability revision at next /revise pending May 20-21 outcome"
+    },
+    {
+      "trigger": "PROBE-9 NEXT CYCLE: Knesset dissolution preliminary vote May 20-21 — framework revision trigger pending; if passes, Israeli election horizon locks ≤mid-October and Netanyahu pre-emption incentive structurally elevated per Appendix B trigger table",
+      "source_probe": "PROBE-9",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "Section 3.4 Layer Four / BS-3 Israeli Internal Politics; Section 8 Israeli unilateral pre-emption probability",
+        "edit": "Per Appendix B framework revision trigger table: 'Knesset dissolution bill passes → Israeli election horizon locks ≤mid-October; Netanyahu spoiler-window narrows.' IDF-coalition asymmetry mechanism activates: pre-dissolution, coalition retains operational authority; post-dissolution caretaker period shifts authority toward IDF leadership. IDF leadership position (would accept diplomatic uranium removal) diverges from Netanyahu-coalition position (insists on physical dismantlement). Monitor vote outcome Day 82-83; revision at next /revise cycle after passage confirmation."
+      },
+      "urgency": "next cycle — vote pending May 20-21; trigger fires on passage; immediate revision if passed"
+    }
+  ],
+  "gap_log": [
+    {
+      "probe_id": "PROBE-3",
+      "gap_note": "Bazaari / Bonyad economic signals — 12th consecutive gap cycle",
+      "cycles_dark": 12,
+      "sources_tried": "Tier 3-4 (IranWire, Iran International, BBC Persian, Radio Farda); Bonbast/alanchand.com not accessible in this cycle",
+      "sources_not_yet_tried": "Persian-language primary source ingestion (structurally not available)",
+      "recommendation": "Maintain structural-opacity designation. Monthly cadence. 12-cycle dark = framework risk explicit and documented. No escalation action; Persian-language primary source ingestion remains aspirational. Rial parallel baseline ($1,815,000 stable, Day 79) carried forward without update."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "gap_note": "Chinese support calibration — null cycle; no new China-Iran or China-US-Iran signal Day 80-81",
+      "cycles_dark": 1,
+      "sources_tried": "Tier 1-3 surface scan; Xi summit Day 2 reporting; no new China developments",
+      "sources_not_yet_tried": "BeiDou-3 / MizarVision sub-components (structurally opaque multiple cycles)",
+      "recommendation": "Null cycle, not gap. Xi Day 1 delivery (May 14) remains operative Chinese position. Return to weekly cadence next cycle."
+    }
+  ],
+  "calibration_check": {
+    "thesis_status": "holding with structural elaboration required",
+    "assessment": "Central thesis holding. The materialist bargaining model correctly predicted that constraint architecture would compose toward a kinetic option when all other paths were blocked — the US literally scheduled a military strike. The thesis also predicted that actors do not design outcomes but select within constraint surfaces: no actor designed the Gulf state troika brake mechanism; it emerged from Iranian deterrence signaling (Barakah) activating Gulf state economic exposure, which activated Gulf leader appeals to Trump A1 oscillation, which produced postponement. The framework did not model Gulf states as an operative brake on US military timing — this is the cycle's structural elaboration requirement. The five constraint layers hold: Layer 1 (military physics) bounded the scheduled strike to a discrete kinetic option, not sustained campaign; Layer 2 (asymmetric logic) produced the Barakah calibrated demonstration; Layer 3 (time arithmetic) compressed the decision window to 2-3 days; Layer 4 (faction misalignment) explains Gulf state troika as a parallel principal-access channel; Layer 5 (PA-gap) explains why Vahidi's silence and the Iranian revised-text submission coexist. The thesis does not break.",
+    "dominant_uncertainty": "Whether the 2-3 day Trump holdoff (expiring approximately May 20-21) produces a confirmed deal framework or expires without resolution, triggering military resumption. This is the highest-acuity decision node the framework has seen. The second dominant uncertainty: Knesset dissolution vote (May 20-21) coincidence — passage restructures the Israeli decision-architecture at the worst possible timing from a Fork B-durability perspective. The third: whether Cooper's proxy-connectivity assessment was accurate and the Barakah attack represents autonomous Houthi capability vs. Iranian coordination — determines how to recalibrate Layer 2.",
+    "next_cycle_priority": [
+      "MAY 20-21 WATCH: Trump 2-3 day holdoff expiration — any US named-official confirmation of deal terms or attack rescheduling",
+      "MAY 20-21 WATCH: Knesset dissolution preliminary vote outcome — passage triggers BS-3 framework revision trigger immediately",
+      "Vahidi direct named statement on MOU/5 preconditions — most consequential single signal for PA-gap resolution",
+      "CENTCOM / DOD named official confirmation or denial of scheduled attack / operational order — Tier-1 corroboration of Day 81 PROBE-13 findings",
+      "Barakah attribution official determination — UAE government or multi-source intelligence statement attributing to Iran/Houthi/Iraqi militia",
+      "Iran US oil sanctions waiver — US official confirmation or denial (currently Tasnim-only; M-L confidence)",
+      "Any Iranian named-principal (Araghchi, Ghalibaf, Vahidi) statement on revised 14-point text or deal terms",
+      "Eisenhower deployment order — if deal fails and military action resumes, watch for this as primary Force-posture indicator"
+    ]
+  }
+}

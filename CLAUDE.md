@@ -53,9 +53,10 @@ density over prose length. No hedging.
 ## Repo Orientation
 
 ```
-synthesis/                    Base framework. Versioned synthesis-vX-Y.md. Current: v3-0.
+synthesis/                    Base framework. Current operative: synthesis-v4-1.md (+ -external.md).
 synthesis/staging/            Pre-revision change manifests. Consumed by /revise.
 synthesis/staging/archive/    Manifests already incorporated into a synthesis version.
+synthesis/archive/            Historical synthesis versions (v1 through v4-0). Not read operationally; git preserves.
 sitreps/                      Daily annexes. day-N.md or day-N-am.md / day-N-pm.md.
 probes/sweeps/                JSON probe sweep outputs. sweep-YYYY-MM-DD.json.
 probes/probe-schema.md        Probe output contract. Markdown spec.
@@ -81,60 +82,52 @@ INDEX.md                      File manifest for external readers.
 analytical task. Methodology evolves; new reference docs land here and existing ones get patched.
 Stale internal models of methodology produce analysis inconsistent with the current framework.
 
-**Current reference layer (Day 77).** Two tiers:
+**Current reference layer (Day 85).** Two tiers:
 
 ### Core (every-task read)
 
 | File | Purpose |
 |---|---|
+| `strategic-trends.md` | **Trend baseline anchor.** Long-term thesis vectors with VALIDATED/CONTESTED/DISCONFIRMED/PENDING state. Cross-checked at every slash command. Read FIRST; every operational finding must be classified against current trend states |
 | `costly-signaling-framework.md` | Fearon-Slantchev theoretical apparatus |
 | `quality-sources.md` | Tiered source ladder (authoritative on conflict) |
-| `tripolar-realignment-whitepaper.md` | Structural-reordering thesis |
-| `mosaic-and-octopus-doctrine-whitepaper.md` | Iranian deterrence/posture doctrine |
+| `summaries/tripolar-realignment-summary.md` | Structural-reordering thesis (distilled). Full whitepaper is trigger-read |
+| `summaries/mosaic-octopus-summary.md` | Iranian / Israeli doctrine (distilled). Full whitepaper is trigger-read |
 | `god-and-the-machine.md` | US eschatological-coalition apparatus (BS-16 source) |
 | `tools/stage-1-forecasting.md` | Stage 1 analytical tools |
 | `tools/stage-2-hysteresis.md` | Stage 2 hysteresis tools |
 | `tools/stage-3-phase-transition.md` | Stage 3 phase-transition tools |
 
+**Appendix C methodology** (`appendix/appendix-c-methodology.md`) is the synthesis-level authority on the framework's methodological provenance (Fearon, Powell, Putnam, Jervis, Pierson, Engels/Cox/Polanyi/Kindleberger, Schelling, McAdam-Tarrow-Tilly). Read on synthesis revisions and whenever voice discipline is in question. Cross-cutting voice rule: the framework predicts dominant strategies under joint constraints; it does not predict selection. Substrate-as-agent voice is a falsification of the model. T7 in `strategic-trends.md` tracks methodology-discipline state.
+
 ### Trigger-read (consulted on activation)
 
-| File | Purpose | Activation condition |
-|---|---|---|
-| `eschatology-judaism-v1.0.md` | Jewish eschatological streams; Temple Mount; Christian Zionist alliance | Temple Mount activity; Israeli religious-bloc policy; US Christian Zionist policy vector |
-| `eschatology-islam-v1.0.md` | Sunni/Shia traditions; Mahdism; Axis status; post-Assad Syria | Mojtaba Mahdist invocation; Saudi religious posture; Iraqi/Najaf succession; HTS-Damascus theological signaling; jihadi-Salafi attack with eschatological framing |
-| `eschatology-intersection-matrix.md` | Convergence nodes (Al-Aqsa, Sham, Mecca, Khorasan); mirror-image coalitions; cross-tradition multipliers | Any two-or-more-tradition convergence event; framework constraint-layer revision touching religious-coalition variables |
-| `russia-pole-architecture.md` | Russia-adjacent pole veto-player map; succession candidate roster; military/nuclear posture architecture; diplomatic geometry | Any §9.3 revision; any BS-9.x probe fires; any SITREP touching Russia pole dynamics; any tripolar realignment discussion. Source probe: `probes/structural/2026-05-14-bs9-russia-succession.md` |
+| File | Activation condition |
+|---|---|
+| `eschatology-judaism-v1.0.md` | Temple Mount activity; Israeli religious-bloc policy; US Christian Zionist policy vector |
+| `eschatology-islam-v1.0.md` | Mahdist invocation; Saudi religious posture; Najaf succession; HTS theological signaling; jihadi-Salafi attack with eschatological framing |
+| `eschatology-intersection-matrix.md` | 2+ tradition convergence event; constraint-layer revision touching religious-coalition variables |
+| `russia-pole-architecture.md` | §9.3 revision; any BS-9.x fire; SITREP touching Russia pole; tripolar realignment discussion |
+| `tripolar-realignment-whitepaper.md` | Major-version synthesis touching §5/§6 structural-trends architecture; pole-architecture revisions; Trajectory-C trigger events; deep prose work on aggregation theory or polycrisis. Summary covers operational reads |
+| `mosaic-and-octopus-doctrine-whitepaper.md` | Doctrinal-revision events; faction-level decision-making analysis (Quds/Aerospace/Artesh divergence); post-conflict doctrinal-trajectory work; BS-15 first-mover deep resolution. Summary covers operational reads |
+| `oil-price-geostrategy.md` | Brent/WTI as geostrategic variable. Oil-price mechanics, actor transmission table, S/O/T prediction framework (Colgan petro-aggression, Kilian decomposition, Hamilton approval mechanism). Activate on: Brent >$90 or <$65; SPR draw rate; Brent-WTI spread; Urals price; Chinese SPR drawdown; ECB path; OPEC+ signaling; Lloyd's Hormuz insurance; shadow-fleet volume; tanker AIS |
+| `paine-doctrine-iran-application.md` | Death-ground / war-termination mechanics (Paine). Activate on: US targeting of named Iranian principals (P-DG); Iranian terms hardening post-strike (P-DG2); PA-gap information-pathology signals — purges near apex, accurate-advisor removal (P-INFO); proxy network drawdown (P-OVEX); US strategy shift from peripheral to ground-force commitment (P-CHEMO); aim-class determination (limited vs unlimited Iranian demands, P-AIM) |
 
 ### Reference probe cadence
 
-- **Every task (Core tier):** list `reference/` Core files. Diff against last touch via
-  `git log -1 --format=%H reference/`. Read new or modified Core files in full before drafting.
-- **Every task (Trigger-read tier):** scan activation conditions in the Trigger-read table.
-  If the current task touches any condition, read the corresponding file before drafting.
-  Otherwise, skip. Default skip; cost of false-negative is captured by the instrumentation check.
-- **Weekly floor:** read every Core file once per week even if untouched. Compounding small
-  updates miss the modified-since threshold but still drift methodology. Trigger-read files
-  read on a monthly floor unless activation conditions fire.
-- **On confusion:** if a finding does not map cleanly to existing analytical lenses, re-read
-  `reference/` (both tiers) before inventing a new lens. The lens probably exists.
-- **Reference-to-operational instrumentation check:** when synthesis is revised, verify that
-  every reference-layer mechanism (both tiers) has a corresponding probe or blind spot in the
-  operational layer. Gaps are scope-expansion items. (BS-16 eschatological coalition is the
-  canonical case: apparatus existed in `god-and-the-machine.md`; operational layer did not
-  probe it until v3.1. The Day-77 eschatology expansion now adds BS-New-1 and BS-New-2 against
-  the three trigger-read files; both queued in `appendix/staging/bs-additions-2026-05-14.md`
-  for next `/audit`.)
+- **Trend baseline FIRST.** Read `reference/strategic-trends.md` (scan summary table; read changed trend entries in full). Every finding names the trend it advances, holds, or contradicts. Single-cycle contradiction of a VALIDATED trend is flagged, never promoted to BS revision; multi-cycle confirmation required (2+ cycles or 2+ independent source clusters in one cycle).
+- **Core tier.** Diff via `git log -1 --format=%H reference/`. Read new or modified Core files in full before drafting.
+- **Trigger-read tier.** Scan activation conditions; read only if current task touches any. Default skip.
+- **Weekly floor.** Every Core file read once per week even if untouched. Trigger-read monthly floor.
+- **On confusion.** Re-read `reference/` before inventing a new lens. The lens probably exists.
+- **Reference-to-operational check (at /revise and /audit).** Every reference mechanism must have a probe, a blind spot, AND a trend entry. Gaps are scope-expansion items, not reactive promotions after a forcing event.
+- **Drift discipline.** Operational contradictions of VALIDATED trends are noise absent multi-cycle confirmation. Drift events log to `strategic-trends.md`. Canonical failure: Day 77 BS-12 apex-veto over-read against T3, corrected Day 83.
 
 ---
 
-## Central Thesis (v3.0)
+## Central Thesis (v4.0)
 
-> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the
-> international system. Five constraint layers operate prior to faction decision-making:
-> military physics, asymmetric-conflict logic, time arithmetic, faction misalignment, and the
-> principal-agent gap. Faction misalignment determines style and timing within these constraints;
-> it does not determine the trajectory. The reordering nobody is choosing is the architecture
-> choosing for them.
+> The Iran 2026 conflict is a trigger event accelerating a tripolar reordering of the international system. The framework operates as a materialist bargaining model: five layers of material substrate (military physics, asymmetric-conflict logic, time arithmetic, faction misalignment, and the principal-agent gap) condition each principal's decision set; faction misalignment and PA-gap dynamics determine form and timing within those sets; Bayesian updates on correlated signal clusters tighten or loosen priors on which option becomes the dominant strategy for each principal at each cycle. Nobody designs the reordering. It is the joint equilibrium of constrained choices when no actor controls the constraint surface. The framework ranks options under the surface; the actors select.
 
 Do not quietly revise. If data breaks the thesis, flag explicitly, argue in Version Notes and
 Executive Summary, increment major version via `/revise`.
@@ -155,37 +148,18 @@ Executive Summary, increment major version via `/revise`.
 
 ## Probability Discipline
 
-- **Primitives:** Forks A, B, C, D'; Variants A/B; tail-register entries. Calibrated against
-  evidence.
-- **Derived:** Composites (e.g. Kinetic Escalation Composite) are functions of primitives. They
-  carry an explicit "DERIVED" label and their construction formula. They sit alongside the
-  primitive matrix, never instead of it.
-- **Ranges only.** No point estimates.
-- Probability ranges that creep wider over time = less analytical work, not more epistemic
-  humility. Tighten or justify.
-- Fork D' (deferral / gray zone) is **never** aggregated into a kinetic-escalation composite.
-  Collapsing it loses the framework's most operative distinction.
+- **Primitives:** Forks A, B, C, D'; Variants A/B; tail-register entries. Calibrated against evidence. Ranges only; no point estimates.
+- **Composites (KEC etc.):** functions of primitives with explicit `[DERIVED]` label + formula. Section-5 footnote, never Executive Summary headline; primitives lead.
+- **Range cap:** 15pp max width. Wider = undecomposed (split) or hedge (tighten). No widening as epistemic humility.
+- **"None of the above" row:** mandatory in every matrix; non-zero floor (5-10% on 30d; 10-15% on 6/12m).
+- **Fork D' decomposition:** if >30% on 30d matrix sustained 4+ cycles, decompose at next SITREP. Never aggregate Fork D' into KEC.
+- **Two matrices, two cadences:** 30d cycle-Bayesian (every SITREP); 6/12m structural-prior (only on trend transitions, constraint shifts, or major-version increments). Cycle-level updates miscalibrate long horizons.
 
 ---
 
-## Source Quality Ladder (abridged)
+## Source Quality
 
-`reference/quality-sources.md` is authoritative; this is operational shorthand.
-
-- **T1:** Government statements, CENTCOM, named-official direct quotes, Kremlin readouts,
-  Treasury/OFAC, court filings.
-- **T2:** FT, Reuters, AP, WaPo, NYT, Bloomberg, NBC/ABC with named sources; WSJ Faucon-tier.
-- **T3:** ISW, ICG, IISS, Brookings, RAND (analytical); Al-Monitor, Middle East Eye, Iran Wire.
-- **T4:** Aggregators, wire summaries, unattributed regional outlets. Use only when T1-T3 absent.
-
-**Discounts:**
-- Trump statements near-zero unless corroborated by T2 named-source reporting or tape action.
-- Distinguish tape action from statement in market references.
-- When sources conflict, adjudicate. Do not average. State which source and why.
-
-**Priority analytical sources:** ISW (operational); ICG/Vaez (Iranian internal); HCR Letters
-from an American (US political, daily); logicofwar.com, mind-war.com, foreignaffairs.com,
-foreignpolicy.com (structural framing).
+Authoritative: `reference/quality-sources.md` (full ladder, provenance discipline, source-cluster rules). Operational shorthand: T1 = gov/CENTCOM/named-official direct + court filings + Kremlin readouts; T2 = FT/Reuters/AP/NYT/WaPo/Bloomberg/NBC named-source; T3 = ISW/ICG/IISS/Brookings/Lawfare analytical; T4 = aggregators (use only when T1-T3 absent). Discount Trump statements near-zero without tape action or T2 corroboration. Adjudicate conflicts; never average. Multi-outlet pickup of one anonymous cluster is **one** source; see Source-Independence Discipline.
 
 ---
 
@@ -201,6 +175,7 @@ their content here.
 | `/revise` | Synthesis version-up (Opus task) | `synthesis/synthesis-vX-Y.md` + `-external.md` |
 | `/audit` | Blind-spot inventory refresh | Patch to `appendix/appendix-b-blind-spots.md` |
 | `/blog` | External (blog-publishable) transform | `synthesis-vX-Y-external.md` |
+| `/premortem` | Monthly adversarial-review against framework discipline | `premortems/premortem-YYYY-MM-DD.md` |
 
 Slash command files are operational interface; they update when procedure changes, independent
 of synthesis version. Read the relevant command file before invoking. If a procedural rule in
@@ -209,23 +184,9 @@ conflict for reconciliation.
 
 ---
 
-## Manifest Handling (v3.1 active)
+## Manifest Handling
 
-`synthesis/staging/` currently holds:
-
-- `v3-1-change-manifest.md` (Day 74 baseline revisions)
-- `v3-1-scope-expansion-manifest.md` (Day 76 scope expansions)
-- `v3-2-russia-pole-revision-manifest.md` (2026-05-14 §9.3 Russia-pole patch; staged,
-  not yet activated)
-
-Both v3-1 manifests are consumed together at v3.1 activation. When manifests conflict,
-scope-expansion framing wins on structure; sibling-manifest findings populate as instances.
-After successful synthesis write, `git mv` both to `synthesis/staging/archive/`. Never delete;
-archive preserves the provenance chain.
-
-v3-2 manifest activates independently of the v3.1 manifests. Do not consume it at v3.1
-activation unless a concurrent /revise is also absorbing v3-2 scope. Default: hold for
-v3.2 or activate early if BS-9.1 or BS-9.3 fires.
+`ls synthesis/staging/` at every `/revise` pre-flight; each manifest carries its own activation conditions (read the file). When sibling manifests conflict, scope-expansion framing wins on structure; sibling findings populate as instances. After successful synthesis write, `git mv` consumed manifests to `synthesis/staging/archive/`. Never delete; archive preserves the provenance chain.
 
 ---
 
@@ -275,27 +236,19 @@ Conventions:
 
 ## Anti-patterns
 
-**Analytical:**
-- Do not rewrite the synthesis when a SITREP annex fits. Events are annex material; architecture
-  changes are synthesis material.
-- Do not silently drop broken assumptions. Mark revised with rationale.
-- Do not quietly revise the central thesis. Flag, argue, increment version.
-- Do not average conflicting sources. Adjudicate.
-- Do not let probability ranges creep wider as a hedge.
-- Do not produce synthesis longer than prior version without justification.
-- Do not invent a new analytical lens before re-reading `reference/`.
-- Do not aggregate Fork D' into a kinetic-escalation composite.
-- Do not report a derived composite without the underlying primitives.
-- Do not let derived composites become analytical objects. They are headlines, not drivers.
+**Architecture vs annex.** Events → annex; architecture changes → synthesis. Don't rewrite the synthesis when a SITREP fits. Don't quietly revise the central thesis; flag, argue, increment version via `/revise`. Don't produce a synthesis longer than the prior without justification. Don't invent a new lens before re-reading `reference/`.
 
-**Operational:**
-- Do not skip the `reference/` probe at task start. Methodology drift is silent.
-- Do not skip the staging directory check at `/revise` pre-flight.
-- Do not leave consumed manifests in `synthesis/staging/` after a successful synthesis write.
-- Do not produce only one output from `/revise`. Internal and external are both the deliverable.
-- Do not duplicate slash command content in chat output. Reference the command, do the work.
-- Do not modify `.claude/commands/*` and synthesis content in the same commit. Procedure and
-  content evolve independently.
+**Probability & composite discipline.** Don't average conflicting sources; adjudicate. Don't widen ranges as hedging (15pp cap). Don't aggregate Fork D' into KEC. Don't report a composite without primitives; don't let composites become drivers.
+
+**Trend & reference discipline.** Don't revise a BS mechanism against a VALIDATED trend on single-cycle evidence; multi-cycle confirmation required (2+ cycles or 2+ independent source clusters). Don't let recency bias override reference-apparatus predictions. Don't let VALIDATED trends become commitment bias: demotion is symmetric with promotion, and the 30-day decay clause auto-demotes trends without re-verifying signal. See `reference/strategic-trends.md` Trend State Transition Symmetry. Canonical failure: Day 77 BS-12 apex-veto over-read against T3, corrected Day 83.
+
+**Voice discipline.** Don't use substrate-as-agent voice. Forbidden subjects of choice verbs: "the architecture," "the constraint set," "the framework" (with intention-verbs), "the substrate." Required: named actors as subjects; constraints as modifiers. The framework predicts dominant strategies under joint constraints; it does not predict selection. T7 tracks this.
+
+**Source discipline.** Don't silently drop broken assumptions; mark revised with rationale. Don't treat multi-outlet anonymous pickup as independent confirmation; cluster-laundering is one source. The -50% anonymous-source discount applies to the originating cluster regardless of outlet count. See `reference/quality-sources.md` Source-Independence Discipline. Canonical near-miss: Day 84 Mojtaba HEU (5 outlets, 1 cluster).
+
+**Principal discipline.** Don't treat principal identification as settled on inherited media framing. Every fired trigger that attributes a decision to a named principal requires an alternative-hypothesis and a discriminating-evidence note. "Behavior consistent with X having decided" is curve-fitting, not validation. After 4+ cycles without discriminating evidence on a load-bearing principal, flag for `/premortem`. See `.claude/commands/sweep.md` Step 7b.
+
+**Operational hygiene.** Don't skip the `reference/` probe at task start (silent drift). Don't skip the staging directory check at `/revise` pre-flight. Don't leave consumed manifests in `synthesis/staging/`. Don't produce only one output from `/revise`; internal + external both. Don't duplicate slash command content in chat. Don't bundle `.claude/commands/*` and synthesis content in one commit (procedure and content evolve independently).
 
 ---
 
@@ -304,11 +257,13 @@ Conventions:
 | Version | Date | Key Change |
 |---|---|---|
 | v1.0 | Mar 2026 | Initial constraint-architecture model |
-| v2.0 | Apr 2026 | Three constraint layers; faction misalignment as Layer 4 |
+| v2.0 | Apr 2026 | Three constraint layers; L4 faction misalignment |
 | v2.5 | Apr 2026 | Legal/procedural exit innovation |
-| v2.6 | May 4 2026 | Operational-doctrine level innovation; Fork A leading |
-| v3.0 | May 8 2026 | Fearon-Slantchev integrated; Fork B leading; Layer 5 PA-gap |
-| v3.1 | pending | Trump-Xi trigger; Netanyahu Principal-Penetration; eschatological-coalition; HEU physical-state; multilateral E3/IAEA; Kinetic Escalation Composite |
+| v2.6 | May 4 2026 | Operational-doctrine innovation; Fork A leading |
+| v3.0 | May 8 2026 | Fearon-Slantchev integrated; Fork B leading; L5 PA-gap |
+| v3.1 | pending | Trump-Xi trigger; Netanyahu Penetration; eschatological coalition; HEU physical-state; E3/IAEA multilateral; KEC |
+| v4.0 | staged 2026-05-18 | Methodology correction: substrate-as-agent retired; materialist bargaining + Bayesian updates; appendix-c-methodology.md |
+| v4.2 | staged 2026-05-22 | `/premortem` discipline correction: symmetric trend demotion + 30d decay; source-cluster provenance check; principal-validation probe; 15pp range cap; None-of-above row; Fork D' decomposition; 30d vs 6/12m matrix split; KEC demoted to footnote |
 
 ---
 
@@ -317,8 +272,8 @@ Conventions:
 1. `/sweep` → `probes/sweeps/sweep-YYYY-MM-DD.json`
 2. `/sitrep` → `sitreps/day-N.md` (consumes the day's sweep)
 3. `/audit` → patch `appendix/appendix-b-blind-spots.md` (monthly or on trigger)
-4. `/revise` → `synthesis/synthesis-vX-Y.md` + external (on framework rotation, 5+ annex
-   accumulation, or staging-manifest trigger condition met)
-5. `/blog` → external transform (paired with `/revise`, or standalone for republication)
+4. `/revise` → trend-driven (trend state transition, pending-trend promotion, reference apparatus change, instrumentation gap closure, or staged manifest). Annex count is **not** a trigger. See `.claude/commands/revise.md`.
+5. `/blog` → external transform (paired with `/revise`, or standalone)
+6. `/premortem` → monthly floor on 1st; on-trigger after major-version increment or drift event; skip if last run within 14d unless manual override.
 
 Target: 0800 ET daily SITREP.
