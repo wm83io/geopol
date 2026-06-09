@@ -1,0 +1,471 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-08",
+    "day_number": 102,
+    "framework_version": "v4.2",
+    "probes_run": [
+      "PROBE-1", "PROBE-2", "PROBE-3", "PROBE-6", "PROBE-7", "PROBE-8",
+      "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15",
+      "PROBE-16", "PROBE-17", "PROBE-18", "PROBE-20", "PROBE-21"
+    ],
+    "synthesis_anchor": "synthesis-v4-2.md",
+    "notes": "17 probes; 5 fired; 8 partial; 4 null; 0 gap. Covers Days 101-102 (June 7-8, 2026). Major signals: (1) Iran-Israel direct ballistic-missile exchange June 7 — IDF struck Beirut Dahieh (first Beirut strike since ceasefire renewed); Khatam al-Anbiya HQ (General Abollahi) stated Beirut strike 'crossed all red lines'; Iran launched 20+ ballistic missiles in 7 barrages at northern/central/southern Israel; both sides halted under Trump pressure; (2) Senate WPR failed 47-53 on-merits vote — Fetterman voted with Republicans; Rand Paul for; T9 VALIDATED confirmed; (3) Pakistan mediation intensified — Interior Minister Naqvi delivered 'special letter' from Army Chief Munir AND PM Sharif to Supreme Leader Mojtaba Khamenei (meeting Araghchi June 7); second Naqvi visit in less than a week; (4) Iran temporarily suspended talks June 1 (state media: CNBC/NBC) citing Lebanon violations; resumed via Pakistan channel; 'messages continue'; (5) US disabled tanker M/T Marivex in Gulf of Oman June 8 (blockade enforcement; 7th non-compliant vessel); (6) June 7: US-CENTCOM Hormuz axis quiet — no new US strikes inside Iran; no drone intercepts reported; (7) Brent crude bounced $92-95 → $94-97 on June 8; (8) Netanyahu coordinated with Trump BEFORE Beirut strike (behavioral change from Day 100 open defiance).",
+    "reference_trends": [
+      {"trend_id": "T1", "net_effect": "hold", "note": "Gulf brake: no new MBS/MBZ/Tamim statements post-Day 100 Kuwait condemnation; Saudi backchannel (Bin Farhan-Araghchi) still operative per T3 analysis; Pakistan-channel advancing at highest tier; no brake fracture or intra-troika split confirmed. Decay check: T1 last confirmed advance Day 100; within 30-day window."},
+      {"trend_id": "T2", "net_effect": "advance", "note": "Iran launched 20+ ballistic missiles at Israel (Khatam al-Anbiya HQ, June 7) after Beirut strike while simultaneously maintaining Pakistan/Araghchi diplomatic track — multi-channel calibration across direct-strike and negotiation axes; halted under Trump pressure without abandoning deterrent posture. Mosaic-Octopus: demonstrate capability, preserve deal optionality."},
+      {"trend_id": "T3", "net_effect": "advance", "note": "Two-level structure advances on new axis: Khatam al-Anbiya HQ (apex deterrent floor, named-general statement) set 'red line' on Beirut/Lebanon; Pakistan/Araghchi (mid-tier) continued in Tehran same day with message delivery to Mojtaba. Apex deterrent floor — Beirut = red line; mid-tier = deal track still open. T3 two-level pattern now visible on the Iran-Israel axis in addition to US-Iran Hormuz axis."},
+      {"trend_id": "T4", "net_effect": "advance", "note": "Trump halted both Israel and Iran June 7 after their direct exchange — deal-faction exercising constraint on BOTH sides simultaneously; Netanyahu coordinated with Trump before Beirut strike (vs Day 100 open defiance); no §5.20 eschatological-coalition counter-mobilization. Deal-faction now demonstrably managing Iran-Israel axis, not only US-Iran axis."},
+      {"trend_id": "T5", "net_effect": "hold", "note": "No Tier-1 or Tier-2 eschatological events June 7-8; Temple Mount background accumulation continues; T5 PENDING holds."},
+      {"trend_id": "T6", "net_effect": "hold", "note": "No new Russia signals June 7-8; SPIEF June 5 carry-forward; April count still unresolved; BS-9.3 monitoring continues."},
+      {"trend_id": "T7", "net_effect": "hold", "note": "Voice discipline maintained; no substrate-as-agent constructions in analytical output."},
+      {"trend_id": "T8", "net_effect": "advance", "note": "Powell amplifier active but operating under Trump constraint: Netanyahu struck Beirut (Powell pre-emption logic active — closing window) but COORDINATED with Trump before striking (vs Day 100 defiance); Trump then halted both sides. Powell mechanism is loading; Trump executive constraint is preventing it from firing as unilateral pre-emption in this cycle. Deal-direction holding = window continues to close for Netanyahu = Powell amplifier compounding. T12 advance (20+ missiles at Israel) compounds Powell amplifier from capability-recovery axis."},
+      {"trend_id": "T9", "net_effect": "advance", "note": "Senate WPR on-merits vote failed 47-53 (Fetterman voted with Republicans; Paul voted for). T9 VALIDATED framework prediction confirmed: executive path holds absent Fetterman pivot. Disc-ratio: does NOT increment (Senate failure = supporting T9; disc-ratio stays 4:10). Stage-2 hysteresis: White House Chadha precedent (concurrent-resolution unconstitutional) now combined with on-merits Senate defeat — legal architecture deepening. House early-June WPR test: status unclear; House did not pass on-merits vote this cycle (Senate was first). /premortem flag outstanding from Day 97 — re-evaluation at next /audit given T9 confirmation cycle."},
+      {"trend_id": "T10", "net_effect": "hold", "note": "Russia inert; PENDING holds."},
+      {"trend_id": "T11", "net_effect": "hold", "note": "Lebanon multilateral dimension continued to collapse practically; no new multiplex indicators this cycle. PENDING holds."},
+      {"trend_id": "T12", "net_effect": "advance", "note": "Iran launched 20+ ballistic missiles at Israel June 7 in 7 barrages — the largest single-session missile barrage at Israel in this conflict window. Sustained offensive ballistic-missile capability against Israeli territory demonstrated through use, on top of Day 100 7-missile barrage at Kuwait/Bahrain. Reconstitution-speed amplifier: Iran is demonstrating multi-axis offensive capacity (GCC + Israel) during the ceasefire window."}
+    ]
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "probe_name": "Mojtaba Khamenei Status",
+      "status": "null",
+      "confidence": "L",
+      "sources": [
+        {"name": "Geo.tv / Express Tribune (Naqvi 'special letter' addressed to Supreme Leader Mojtaba Khamenei; June 8 T2)", "tier": 2}
+      ],
+      "finding": "No new Mojtaba visual appearance or second-source death confirmation June 7-8. The Pakistan mediation visit (Naqvi delivering message from Munir + PM Sharif to Mojtaba) confirms Mojtaba remains the nominal apex addressee for diplomatic communications. Message delivery channel: through Araghchi/FM, not direct; consistent with IRGC-council legitimacy-shield reading. No functional Mojtaba active-engagement signal.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Principal validation (Step 7b): A4 governance-axis (IRGC council functional apex; Mojtaba nominal) continues validated. Pakistan addressing message to Mojtaba by name confirms the nominal-apex convention persists in external diplomatic framing; Mohsen Rezaei (Khamenei advisor) confirming $24B demand via regional media is a mid-tier communication consistent with IRGC-council authority, not Mojtaba personal authorization. Vahidi HEU-axis: 7th+ consecutive cycle without named Vahidi HEU statement. No forcing question required (5th-cycle threshold was met Day 90; governance-axis positively discriminated since; HEU-axis remains the binding open sub-item for next /audit staging)."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "probe_name": "IRGC Factional Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Al Jazeera (Khatam al-Anbiya HQ statement; June 7 T2)", "tier": 2},
+        {"name": "The National News (Iran attacks Israel; Khatam al-Anbiya; Abollahi named statement; June 7 T2)", "tier": 2},
+        {"name": "Middle East Eye (Iran fires missiles; IRGC Khatam al-Anbiya warning; June 7 T2)", "tier": 2}
+      ],
+      "finding": "Khatam al-Anbiya Central Headquarters (IRGC joint military command; distinct from the Khatam al-Anbiya economic conglomerate commanded by Aliabadi) issued a named public statement June 7. General Ali Abollahi, head of Khatam al-Anbiya command, stated Israel struck 'crossed all red lines' with Dahieh strike and warned of 'more crushing and regretful blows.' Khatam al-Anbiya HQ then announced the halt of strikes. This is the first cycle with a named Khatam al-Anbiya military-HQ commander speaking publicly in this conflict window. No Vahidi direct named statement on HEU or MOU terms. Aliabadi (economic conglomerate) silent across all cycles.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Named IRGC commanders beyond official line — partial match (new vertex but not the apex or HEU-axis signal required for full trigger)",
+        "framework_variable": "BS-8 IRGC factional structure; BS-1a apex visibility",
+        "direction": "partial advance — new named IRGC military-command public statement; Khatam al-Anbiya HQ now publicly active on Lebanon axis",
+        "gap_to_full_match": "Full trigger requires Vahidi direct HEU/MOU statement OR Aliabadi economic-conglomerate signal OR Aerospace-Quds divergence"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Khatam al-Anbiya HQ vs Aliabadi economic conglomerate: these are distinct entities; the military HQ statement does not fill the BS-1b Aliabadi-capital-movement gap",
+        "Abollahi named statement is a T2 multi-outlet fact; no discount applied on the public statement itself"
+      ],
+      "conflict_notes": "Important disambiguation: BS-8 and BS-1b refer to Aliabadi's Khatam al-Anbiya Construction Company (economic conglomerate, IRGC parastatals). The Khatam al-Anbiya Central Headquarters is the IRGC's joint military command — separate entity, same name. Abollahi's named statement from the military HQ expands BS-8 IRGC-vertex visibility on the Iran-Israel kinetic axis, but does not close the Aliabadi-capital-movement gap in BS-1b. Alternative principal hypothesis: Is the Khatam al-Anbiya HQ statement Vahidi-authorized or independent military judgment? Discriminating evidence: statement came concurrent with Iran's missile launch decision, which requires apex authorization; framing is consistent with IRGC-council pre-authorized response doctrine rather than unilateral military judgment. Attribution: IRGC council authorized; Abollahi executed and communicated."
+    },
+    {
+      "probe_id": "PROBE-3",
+      "probe_name": "Bazaari / Bonyad Economic Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Trading Economics (USD/IRR rate June 4: 1,375,205 — data quality note below)", "tier": 4},
+        {"name": "Fortune (Brent/oil price context; structural economic pressure)", "tier": 3},
+        {"name": "Iran International (Day 97 carry-forward bazaar closures; no new June 7-8 T1/T2 signal)", "tier": 3}
+      ],
+      "finding": "No new T1/T2 bazaar closure or Bonyad public statement June 7-8. Day 97 first BS-1b transmission signal (bazaar closures, rial pressure) carries forward at M confidence without upgrade. Structural economic pressure confirmed (oil revenue 5% of budget, 65.8% YoY inflation documented through prior cycles). Rial data: Trading Economics reported USD/IRR at 1,375,205 on June 4 — likely a denomination or official-vs-parallel-rate discrepancy; prior parallel-market baseline (bonbast.com) showed ~1,700,000-1,800,000 range at Day 88; data quality insufficient for framework scoring. Two consecutive cycles (Day 97 + Day 100 + Day 102) at M confidence without T1/T2 upgrade — per PROBE-3 protocol, recommend frequency escalation at next /audit.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Trading Economics rial rate: denomination/source confusion likely; parallel-market rate from bonbast.com preferred; T4 data quality — do not score",
+        "Iran International bazaar signal: -50% single-source opposition; Day 97 carry-forward, not new cycle signal"
+      ],
+      "conflict_notes": "Data quality note: The USD/IRR rate of 1,375,205 on June 4 (Trading Economics) may represent a different rate series from the bonbast.com parallel-market rate used in prior cycles. Reconciling 1,375,205 IRR with the Day 88 parallel rate of ~1,709,000 Tomans/USD is not straightforward: if 1,375,205 is in Rials (not Tomans), dividing by 10 gives ~137,521 Tomans, which would represent a massive rial strengthening inconsistent with structural economic reporting. Source-ladder ambiguity prevents confident rial-rate scoring this cycle."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "probe_name": "Chinese Support Calibration",
+      "status": "null",
+      "confidence": "L",
+      "sources": [
+        {"name": "General search — no GL-V/Hengli cascade signal June 7-8", "tier": 4}
+      ],
+      "finding": "No OFAC action against major Chinese financial institutions post-GL-V (Hengli wind-down) expiration May 24. BS-4 retirement window (30 days post-GL-V = through June 23) continues without cascade event. No new BeiDou-3/MizarVision/PLA Taiwan Strait signals. China-Iran sub-component: prior cycles confirmed Chinese components in reconstitution; no new cycle signal.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "BS-4 retirement criterion: 30 days post-GL-V expiration absent cascade = retire. June 23 is the retirement-eligible date if no cascade fires. One more cycle without cascade. Note: China absent from Iran-Israel diplomatic crisis June 7-8 — Pakistan-channel dominant, China inert, consistent with T10 (China-pole junior absorption: Russia and China both absent from active mediation)."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "probe_name": "CENTCOM Operational Posture and Munitions",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CENTCOM official release (M/T Marivex disabled; June 8 T1)", "tier": 1},
+        {"name": "Stars and Stripes / The Hill / Washington Times (tanker disabling; June 8 T2)", "tier": 2},
+        {"name": "GlobalSecurity.org Day 101 update (US-CENTCOM Hormuz axis quiet June 7; no new drone intercepts)", "tier": 3}
+      ],
+      "finding": "US-CENTCOM Hormuz axis: quiet June 7 (no new drone intercepts, no new strikes inside Iran). June 8: US disabled the Palau-flagged tanker M/T Marivex in the Gulf of Oman after the vessel attempted to transit to an Iranian port in violation of the blockade. An F/A-18 Super Hornet from USS Abraham Lincoln fired a precision munition into the ship's engineering and steering spaces. CENTCOM has now disabled 7 non-compliant vessels, redirected 134 compliant ships, and allowed 42 humanitarian vessels since April 13. Blockade enforcement intensifying. USS Eisenhower: no deployment order reported. No new operation name; no ROE shift to offensive; PROBE-7 self-defense-vs-resumed-operations discriminator: tanker-disabling is blockade enforcement (not inside Iran; not reactive to a specific provocation; distinct category from the self-defense framework). No Fork C or Fork A trigger.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Blockade enforcement tightening — distinct from self-defense or resumed operations; strangulation signal",
+        "framework_variable": "Blockade enforcement tempo; strangulation timeline",
+        "direction": "partial advance — blockade enforcement tightening (7 vessels disabled); no new US strikes inside Iran",
+        "gap_to_full_match": "Full trigger requires USS Eisenhower deployment order OR new US operation name OR US strikes inside Iran beyond self-defense"
+      },
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The tanker-disabling action is categorically different from the PROBE-7 self-defense-vs-resumed-operations discriminator framework, which addresses CENTCOM strikes inside Iranian territory. Tanker disabling in Gulf of Oman international waters is blockade enforcement — it advances the strangulation timeline (L3 cost accumulation) but does not constitute Fork C or Fork A kinetic escalation. Iran-Israel direct exchange (20+ missiles at Israel June 7) is on a separate axis — covered under PROBE-9 and PROBE-14."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "probe_name": "Oil Market Structural Signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Fortune / Trading Economics (Brent $94.48-$97.15 on June 8; +1.49-4% from June 5-6)", "tier": 2},
+        {"name": "IEA / Fortune (structural inventory draws; backwardation holds)", "tier": 3}
+      ],
+      "finding": "Brent crude bounced from $92-95 (June 5-6) to $94.48-$97.15 on June 8 (+1.5-4%), attributed to Iran-Israel direct exchange June 7 and resumption of geopolitical risk pricing after two-session decline. Backwardation elevated. No Kharg saturation event. No commercial shipping restoration. Brent remains below the $115 Fork A repricing threshold and the $100 signal level. Market is pricing the Iran-Israel exchange as escalatory but not conflict-resolution-breaking — consistent with the Trump-mediated halt.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Brent bouncing on Iran-Israel exchange day (June 7) but still below pre-Day 88 levels. Market is not pricing the Iran-Israel direct exchange as Fork A onset (which would drive Brent above $115). The $94-97 range is consistent with market treating this as escalation-within-ceasefire-framework (Fork C accumulation) rather than new campaign launch. No Kharg event; strangulation timeline advancing through blockade enforcement rather than Kharg-step-function."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "probe_name": "Israeli Internal Political Fractures",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Times of Israel (IDF struck Beirut Dahieh June 7; Netanyahu informed Trump before strike; T2)", "tier": 2},
+        {"name": "NPR / Jerusalem Post (IDF Dahieh strike; Hezbollah rockets to Israel preceded; T2)", "tier": 2},
+        {"name": "Times of Israel / Al Jazeera (Iran fired 20+ missiles at Israel; both halted after Trump pressure; T2)", "tier": 2},
+        {"name": "Times of Israel (Knesset dissolution advancing through readings; election date pending insertion; T2)", "tier": 2}
+      ],
+      "finding": "June 7: IDF struck Beirut's Dahieh district after Hezbollah fired rockets at northern Israel; two killed, 11 wounded; Netanyahu's office confirmed the strike. Significant behavioral change from Day 100: Netanyahu INFORMED Trump before the Beirut strike (vs Day 100's open defiance). Iran responded with 20+ ballistic missiles in 7 barrages at northern/central/southern Israel — the largest single-session Iranian missile launch at Israel in this conflict window. Trump pressured both sides to halt; both Israel and Iran publicly confirmed halting under Trump pressure. Knesset dissolution: advancing through readings (2nd and 3rd readings pending; election date September 8 - October 20 to be inserted prior to final readings).",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Lebanon clause — confirmed blocking at two levels (Hezbollah non-compliance + IDF continued strikes); Israeli pre-emption escalation on Lebanon axis; Powell mechanism active",
+        "framework_variable": "Lebanon clause status; Israeli pre-emption variant; T8 Powell amplifier; T4 deal-faction constraint",
+        "direction": "mixed — Lebanon triple-block deepening (IDF struck Beirut, Hezbollah struck Israel); but Trump-mediated halt suggests executive deal-direction managing Iran-Israel axis; behavioral change in Netanyahu coordination with Trump",
+        "gap_to_full_match": "Full match on Lebanon clause blocking; partial match on Israeli pre-emption (now constrained by Trump-Netanyahu coordination pattern, less purely unilateral than Day 100)"
+      },
+      "variable_moved": {
+        "variable": "Netanyahu spoiler modality",
+        "prior_value": "Active-defiant — Netanyahu defied Trump on Lebanon, denied ceasefire, ordered continued IDF operations Day 100",
+        "new_value": "Active-coordinated — Netanyahu informed Trump before Beirut strike; struck and then halted under Trump pressure; routing decision to Trump framework rather than acting unilaterally",
+        "driver": "Netanyahu coordination before Beirut strike (vs Day 100 surprise defiance); Trump-mediated halt successful June 7"
+      },
+      "discounts_applied": [
+        "Trump public statements on Iran deal: near-zero without tape action; operative tape is Netanyahu coordination pattern and Trump-mediated halt",
+        "-50% discount: Netanyahu's pre-strike Trump notification sourced from Times of Israel unnamed Israeli official; direction corroborated by subsequent Trump-mediated halt behavior"
+      ],
+      "conflict_notes": "Principal validation (Step 7b): Netanyahu's decision to strike Beirut attributed to Netanyahu himself (office announcement confirmed). Discriminating evidence this cycle: Netanyahu's coordination with Trump before striking (vs Day 100 defiance) is behaviorally significant. Alternative hypothesis: Did Trump implicitly authorize the Beirut strike by not objecting when notified? Discriminating evidence: Trump subsequently pressured both sides to halt — suggests notification was not pre-authorization. The behavioral change (coordinating before striking vs defying after) suggests Netanyahu adjusting his spoiler strategy toward one that preserves the Trump relationship, consistent with BS-3 IDF-coalition asymmetry (IDF-command accepts diplomatic removal; Netanyahu needs US permission for any future direct Iran strike). Iran-Israel halt framing: both sides cited Trump pressure — this is the first time Iran has publicly cited Trump as the brake on Iranian military action, relevant for T4 (deal-faction) analysis."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "probe_name": "War Powers and Constitutional Erosion",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "The Hill / CBS News (Senate WPR failed 47-53 on-merits; Fetterman voted with Republicans; T2 multi-outlet)", "tier": 2},
+        {"name": "WHYY / Philadelphia Inquirer (Fetterman and McCormick voted against; T2)", "tier": 2},
+        {"name": "Senate Democratic Leadership (Schumer statement post-vote; T1 adjacent)", "tier": 2}
+      ],
+      "finding": "Senate war powers resolution on Iran failed 47-53 on the on-merits vote announced by Schumer as 'imminent' at Day 100. Fetterman voted with Republicans (against); Rand Paul voted for. This is the on-merits Senate defeat the framework predicted as the most likely outcome under T9 VALIDATED: the disc-ratio does NOT increment (Senate failure = T9 supporting cycle, not contradicting). Stage-2 hysteresis architecture: Senate on-merits defeat combined with the White House Chadha precedent (concurrent-resolution unconstitutionality claim) deepens the legal foundation for executive war-powers bypass. No Federal court WPA challenge. T9 VALIDATED confirmed.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Senate WPR on-merits vote failed — T9 VALIDATED prediction confirmed; Stage-2 hysteresis architecture advancing",
+        "framework_variable": "T9 Stage-2 hysteresis lock-in state; BS-5 US domestic war powers",
+        "direction": "T9 advance — Senate failure = supporting cycle for T9; disc-ratio holds 4:10; Stage-2 architecture deepening",
+        "gap_to_full_match": "Full match on T9 validation; no disc-ratio increment; House WPR not separately voted this cycle"
+      },
+      "variable_moved": {
+        "variable": "T9 disc-ratio and Senate WPR state",
+        "prior_value": "4:10 disc-ratio; Senate discharge 50-47; on-merits vote pending",
+        "new_value": "4:10 disc-ratio held; Senate on-merits vote failed 47-53; T9 VALIDATED confirmed; /premortem flag outstanding for re-evaluation at next /audit given T9 confirmation cycle",
+        "driver": "Fetterman voted with Republicans; T9 predicted Senate fails at full attendance without Fetterman pivot"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "The Senate 47-53 defeat is well-sourced at T2 multi-outlet (The Hill, CBS News, WHYY, Philadelphia Inquirer). No source conflict on vote count. White House Chadha precedent: legally contested (1983 INS v. Chadha addressed statutory legislative vetoes; concurrent resolutions are different; legal scholars dispute direct applicability) but operationally significant — the executive is building the legal case that even a Senate-passed WPR would be unenforceable as a concurrent resolution. This is Stage-2 hysteresis architecture deepening: legal claim + Senate defeat together make judicial challenge harder and constitutional-crisis escalation path less linear. /premortem flag: the Day 97 flag on T9 disc-ratio (4:10) can be partially released given T9 is now advancing on its own prediction — but the trend-rigidity review remains warranted at next /audit to assess whether the 30-day decay clause needs to be applied to T9 given the confirmed Senate vote."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "probe_name": "MOU Framework and Resumed-Operations Trigger",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC / NBC News (Iran suspends negotiations June 1; vows to completely block Hormuz; T2 multi-outlet)", "tier": 2},
+        {"name": "CNN (Trump insists talks continue after Iran suspended; June 1 T2)", "tier": 2},
+        {"name": "Geo.tv / Express Tribune / Arab News (Naqvi special letter to Mojtaba; June 7-8 T2 multi-outlet)", "tier": 2},
+        {"name": "Pakistan Today / CGTN (Naqvi in Tehran; PM Sharif and Munir message; June 8 T2)", "tier": 2},
+        {"name": "Mohsen Rezaei advisor to Khamenei via regional media (deal hinges on $24B frozen assets)", "tier": 3}
+      ],
+      "finding": "Iran formally suspended negotiations with the US via state media June 1 (CNBC T2: 'Iran stops negotiations with U.S., vows to completely block Strait of Hormuz'; NBC News T2: 'Tehran suspends talks with U.S. over Israeli attacks in Lebanon'). Suspension framed as response to Lebanon ceasefire violations (Israeli attacks on Lebanon). Trump immediately countered (CNN, June 1): insists talks continue. Pakistan mediation responded to the suspension: Interior Minister Naqvi delivered a 'special letter' from Army Chief Munir and PM Sharif to Supreme Leader Mojtaba Khamenei on June 7-8 (second Naqvi visit in less than a week). Araghchi met Naqvi. Iranian advisor Mohsen Rezaei confirmed deal hinges on $24B frozen assets. 'Messages continue' framing from Day 100 holds. LOI architecture: no signed agreement; draft exchange still in amendment cycle.",
+      "trigger_match": false,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian state media suspension of negotiations — partial trigger (suspension announced; talks resumed; not a 'principal-level rejection' that meets the framework-revision-trigger threshold)",
+        "framework_variable": "LOI/MOU architecture status; Fork D' lower bound; BS-11 mediator architecture",
+        "direction": "mixed — suspension announced (negative) and resumed (partially positive); Pakistan mediation at highest tier (positive); Lebanon triple-block unresolved (negative); net: Fork D' lower bound under continued pressure",
+        "gap_to_full_match": "Full trigger (named-Iranian-principal rejection of LOI framework) not met; Araghchi 'messages continue' framing is NOT a full rejection"
+      },
+      "variable_moved": null,
+      "discounts_applied": [
+        "Iranian state media suspension announcement: -30% on finality (state media, read against grain; Trump immediately denied; resumption follows)",
+        "Mohsen Rezaei $24B figure: T3 analytical; directionally corroborated; discount on precision"
+      ],
+      "conflict_notes": "The June 1 Iran-suspension-and-resumption pattern is consistent with Iran using diplomatic suspension as a coercive signaling mechanism rather than a hard withdrawal: suspension announced day of (Lebanon ceasefire violations), Pakistan channel activated within days, Naqvi in Tehran June 7. This is a managed tactical suspension, not a strategic exit. Fork D' implication: the suspension-resumption pattern is consistent with Iran preserving deal optionality (limited-aims reading under PROBE-21/P-AIM) while signaling red lines on Lebanon. Pakistan mediation elevation — Naqvi delivering message from BOTH Army Chief and PM simultaneously — is the highest-tier Pakistani diplomatic signal in this conflict window. The message addressed to Mojtaba (nominal apex) through Araghchi (mid-tier) is consistent with A4 IRGC-council legitimacy-shield structure. BS-11 mediator architecture: Pakistan channel most active; Oman dormant; Beijing dormant; Qatar bridge-role unclear post-Lebanon-collapse."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "probe_name": "Principal-Level Ratification Signals (Asymmetric PA-Gap)",
+      "status": "fired",
+      "confidence": "M",
+      "sources": [
+        {"name": "Times of Israel (Israel and Iran halting attacks after Trump pressure; June 7 T2)", "tier": 2},
+        {"name": "CNN (Trump insists talks continue after Iran suspended; June 1 T2)", "tier": 2},
+        {"name": "Axios (Israel strikes Lebanon Beirut; Iran response risk; Trump pressure; June 7 T2)", "tier": 2},
+        {"name": "Time (Trump says 'one way or another'; June 2 T2)", "tier": 2}
+      ],
+      "finding": "Trump exercised executive authority across two concurrent diplomatic-military axes June 7: (1) pressured Israel to halt Beirut strikes — both Israel and Iran publicly cited Trump pressure in halting their June 7 exchange; (2) maintained deal-direction despite Iran's June 1 suspension announcement. A1 oscillation state: deal-leaning held 4+ days post-Lebanon-collapse (Day 100) through the Iran-Israel direct exchange (Day 101), maintaining deal-direction without abandonment — the longest sustained post-crisis deal-direction hold in this conflict window. Netanyahu-Trump coordination: Netanyahu INFORMED Trump before Beirut strike (behavioral change from Day 100 open defiance), then halted under Trump pressure. Trump calling Netanyahu expletive Day 100 may have produced the behavioral shift.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Trump holding direction beyond 48h without Netanyahu rebroadcast; T4 deal-faction at maximum; Trump managing Iran-Israel axis directly",
+        "framework_variable": "A1 oscillation state; BS-12 US-side PA-gap; T4 eschatological-coalition disaggregation",
+        "direction": "T4 advance — deal-faction managing BOTH Iran-US and Iran-Israel axes simultaneously; Netanyahu now coordinating rather than defying; Iranian halt citing Trump = Iran acknowledges US executive deal-direction",
+        "gap_to_full_match": "Full match on T4 advance; full match on A1 sustained deal-direction; partial on Fork B durability (no signed LOI)"
+      },
+      "variable_moved": {
+        "variable": "A1 oscillation state",
+        "prior_value": "Deal-leaning; strained by Lebanon collapse; sent MOU draft back with amendments; no decision taken",
+        "new_value": "Deal-leaning; sustained through Iran-Israel direct exchange (4+ days post-Lebanon-collapse without abandonment); Trump managing Iran-Israel axis directly alongside US-Iran axis",
+        "driver": "Trump halted both Israel and Iran June 7; both sides publicly cited Trump pressure; Iran suspended talks June 1 and resumed via Pakistan channel within days — consistent with Iran recognizing Trump deal-direction as operative"
+      },
+      "discounts_applied": [
+        "Iran halt citing Trump: PressTV-framed; read against grain; corroborated by Times of Israel Israeli-side confirmation — direction confirmed at M",
+        "Netanyahu Beirut coordination with Trump: -50% unnamed Israeli official sourcing; behavioral evidence (subsequent halt) partially validates"
+      ],
+      "conflict_notes": "Principal validation (Step 7b) — Trump: both Israel and Iran citing Trump pressure as the brake on their June 7 exchange is multi-outlet (Times of Israel, Axios, Al Jazeera, NPR). Trump as the effective deal-direction enforcer on the Iran-Israel axis is newly documented this cycle. Alternative principal hypothesis: Rubio/Vance channeling deal-faction constraint? Discriminating evidence: both Iran and Israel specifically cited Trump (not State or NSA) in their halt announcements. Attribution: Trump confirmed as the relevant principal on both axes. Iran-side PA-gap: 'messages continue' through Pakistan channel = mid-tier still functioning; apex IRGC council still sending Khatam al-Anbiya deterrent-floor signals = two-level structure intact. US-side PA-gap: Trump maintaining deal-direction while Netanyahu adjusts to coordinated-spoiler modality = US oscillation constrained by deal-direction holding."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "probe_name": "Iranian Residual Capability / Feigned Weakness",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Al Jazeera (Iran fires missiles at Israel; 20+ missiles; 7 barrages; June 7 T2)", "tier": 2},
+        {"name": "The National News (Iran attacks Israel with missiles and drones; Khatam al-Anbiya; June 7 T2)", "tier": 2},
+        {"name": "Khatam al-Anbiya HQ statement (General Abollahi named; missiles launched and then halted; June 7 T1 adjacent)", "tier": 1}
+      ],
+      "finding": "Iran launched 20+ ballistic missiles and drones in 7 barrages at northern, central, and southern Israel on June 7, following the IDF Beirut Dahieh strike. This is the largest single-session Iranian missile launch at Israel in this conflict window — exceeding the Day 100 7-missile barrage at Kuwait/Bahrain. The attack demonstrates multi-axis offensive ballistic-missile capacity: Iran can conduct sustained ballistic-missile barrages at GCC states AND at Israel simultaneously during the ceasefire period. T12 (reconstitution-speed Powell amplifier) advance through use on the Israel axis: Iran is demonstrating continued production and stockpile capacity beyond the ceasefire IC estimates. Khatam al-Anbiya HQ halted the attack on its own terms (not forced cessation), after Trump pressure — Iran maintains the decision to stop as its own.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Iranian residual capability confirmed through use; T12 reconstitution-speed advance on Israel axis",
+        "framework_variable": "T12 (reconstitution-speed Powell amplifier); BS-13 visibility; Israeli pre-emption incentive",
+        "direction": "advance — 20+ missiles at Israel (largest Israel-directed barrage this conflict window); T12 operating on Israel axis independently from GCC axis",
+        "gap_to_full_match": "Full match — T12 demonstrated through use on Israel axis; sustained multi-axis capability"
+      },
+      "variable_moved": {
+        "variable": "T12 reconstitution-speed amplifier — Israel-axis dimension",
+        "prior_value": "VALIDATED; demonstrated through use on GCC axis (Day 90 mine-laying/launches; Day 100 7-missile barrage at Kuwait/Bahrain)",
+        "new_value": "VALIDATED; further advanced through use — Iran now demonstrates sustained offensive ballistic-missile capability on the Israel axis (20+ missiles); Powell amplifier operating independently on both GCC and Israel axes simultaneously",
+        "driver": "20+ ballistic missiles in 7 barrages at northern/central/southern Israel June 7; Khatam al-Anbiya HQ confirms ordered halt (framing: Iran retains decision authority on timing)"
+      },
+      "discounts_applied": [
+        "IRGC 'decision to halt on own terms' framing: self-serving; Trump-pressure halt is the corroborated mechanism; -30% on Iran's framing of the halt as independent; factual launch count confirmed T2 multi-outlet"
+      ],
+      "conflict_notes": "Israeli air defenses intercepted most missiles; casualty count not confirmed in T1/T2 this cycle. The T12 implication is directional regardless of intercept effectiveness: Iran sustained 7 barrages (sufficient production, launch infrastructure, and command coherence to conduct multi-wave attacks at a foreign capital). Israeli pre-emption incentive (T8): Iran demonstrating Israeli-territory ballistic-missile capability during the ceasefire compresses Netanyahu's decision window independently of the deal-credibility axis — every day Iran improves its Israel-strike capability raises the future strike cost. This is the T12 standalone amplifier operating: pre-emption incentive rising not because the deal is more credible (T8) but because Iran is demonstrating improved capability (T12). Principal validation (Step 7b): Decision to launch 20+ missiles attributed to IRGC command (Khatam al-Anbiya HQ / General Abollahi). Alternative hypothesis: was this Vahidi-direct or council-collective? Discriminating evidence: Khatam al-Anbiya HQ (military command structure, separate from Vahidi's IRGC organizational role) issued the statement — implies council-level authorization through military command chain. Attribution: IRGC council via Khatam al-Anbiya HQ."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "probe_name": "Mutual Dispositional Reading and Power-Shift Perception",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "Times of Israel (Israel and Iran halt attacks after Trump pressure; both cite Trump; T2)", "tier": 2},
+        {"name": "Axios (Israel strikes Lebanon after Hezbollah rockets; Iran response risk; T2)", "tier": 2}
+      ],
+      "finding": "Trump-Netanyahu dispositional relationship: Netanyahu coordinated with Trump before Beirut strike (partial constraint on Israeli unilateral action). Iran-Trump dispositional relationship: Iran halted under Trump pressure and publicly cited Trump — first confirmed cycle where Iran publicly acknowledged Trump's constraint on Iranian military action. Iranian dispositional reading: attack was framed as retaliation for 'crossing all red lines' (Lebanon/Beirut), not as war-resumption signal — Iran still distinguishing between Lebanon-axis defense (deterrent floor) and US-Iran Hormuz axis (deal track). No new Israeli operational graduation signals (no air-refueling tempo, no F-35/F-15 forward-positioning reports). T8 Powell at maximum loading but Trump executive now demonstrably managing both axes.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Iran's decision to cite Trump in its halt announcement is analytically significant: it acknowledges Trump's constraining role on the Iran-Israel axis. This is consistent with Iran's limited-aims framing (PROBE-21/P-AIM) — Iran wants the deal, not escalation to full war. The Khatam al-Anbiya halt statement (framing the halt as Iran's own decision) and the simultaneous citation of Trump pressure represent Iran managing both deterrence signaling (strong, independent) and deal-track signaling (responsive to Trump) in the same event. No source conflict; no Israeli operational graduation signals this cycle."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "probe_name": "First-Mover Architecture Under Asymmetric Lock-In",
+      "status": "fired",
+      "confidence": "H",
+      "sources": [
+        {"name": "Cross-probe composite: PROBE-9, PROBE-10, PROBE-12', PROBE-13, PROBE-14", "tier": 2}
+      ],
+      "finding": "Multiple first-mover thresholds advanced this cycle without any single threshold breaching: (1) Iran-side: BS-1b M-confidence signal carries; Iranian suspension-resumption pattern confirms deal optionality preserved but strangulation pressure accumulating; (2) Trump A1: deal-direction held 4+ days through Iran-Israel direct exchange — longest sustained post-crisis hold; but confronted with active multi-axis pressure; (3) Israeli threshold: Netanyahu coordination with Trump before Beirut strike suggests constraint on unilateral action; but 20+ Iranian missiles at Israel reinforces Israeli pre-emption urgency (T8 + T12 compound); (4) WPR: Senate failed 47-53 = no Fork A foreclosure; Stage-2 lock-in deepening; (5) Strangulation: Brent $94-97; no Kharg event; 7 non-compliant vessels disabled (blockade enforcement tightening). New dimension this cycle: Iran-Israel direct exchange adds a second kinetic axis to the first-mover joint distribution — the accident surface now spans US-Iran Hormuz AND Iran-Israel direct missile exchange, with Trump managing both.",
+      "trigger_match": true,
+      "trigger_detail": {
+        "appendix_b_row": "Multiple thresholds advancing in parallel; new Iran-Israel direct kinetic axis adds accident surface; Trump managing both axes",
+        "framework_variable": "BS-15 joint first-mover distribution; Fork C; Fork D'; accident surface",
+        "direction": "Fork C stable (Iran-Israel axis adds surface; Trump-mediated halt offsets acute escalation); Fork D' lower bound slightly stabilizing (Pakistan mediation active)",
+        "gap_to_full_match": "Full match on cascade-risk multiple-threshold signal; no single threshold breached at operational level"
+      },
+      "variable_moved": {
+        "variable": "BS-15 joint first-mover architecture",
+        "prior_value": "Five-actor architecture (Iran, US, Israel, Gulf troika, Hezbollah); accident surface on US-Iran Hormuz axis + Lebanon-ceasefire axis",
+        "new_value": "Five-actor architecture with new Iran-Israel direct-exchange dimension; accident surface now spans three axes: US-Iran Hormuz, Lebanon-ceasefire, Iran-Israel direct ballistic-missile; Trump managing all three simultaneously",
+        "driver": "Iran launched 20+ missiles at Israel June 7 and halted under Trump pressure; opens Iran-Israel direct kinetic axis as independent accident surface, not dependent on US intermediation"
+      },
+      "discounts_applied": [],
+      "conflict_notes": "PROBE-16 is synthetic. The key structural finding is that the Iran-Israel direct exchange (not mediated by the US-CENTCOM Hormuz framework) creates a new accident pathway: Iran could fire at Israel in response to future Israeli Lebanon strikes WITHOUT it triggering the PROBE-7 self-defense discriminator (which covers US-CENTCOM inside Iran). The Trump-mediated halt June 7 demonstrates executive constraint is operative, but it also demonstrates Iran will launch under sufficient provocation (Lebanon/Beirut red line). The joint distribution complexity has increased: the accident surface now includes a direct Iran-Israel military exchange that does not require a US decision point on the Hormuz axis. This is the most significant structural change to the first-mover architecture this cycle."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "probe_name": "Russian Siloviki Cohesion (BS-9 Composite)",
+      "status": "null",
+      "confidence": "L",
+      "sources": [
+        {"name": "EADaily / Kremlin.ru (SPIEF June 5 carry-forward; no new Russia signals June 7-8)", "tier": 1}
+      ],
+      "finding": "No new Russian siloviki signals June 7-8. SPIEF June 5 remains the operative June confirmation (carry-forward). April count: still unresolved — prior sweeps reference April 24 and April 27 as potential Putin appearances; if confirmed, April ≥2, which means BS-9.3 cannot fire for any April-May-June sequence regardless of other months. BS-9 sub-probes: no new movement (Shoigu charges, Dyumin, Kadyrov all null this cycle). Russia entirely absent from Iran-Israel mediation and June 7-8 diplomatic activity.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "Russia's absence from the Iran-Israel exchange and the Pakistan-mediated Iran-US track is structurally consistent with T10 (China-pole absorption: Russia absent from active Iran mediation). No new BS-9 sub-probe signals to report. April count resolution is the binding analytical gap for BS-9.3 — recommend Kremlin.ru April calendar retrieval at next cycle."
+    },
+    {
+      "probe_id": "PROBE-18",
+      "probe_name": "Eschatological Multi-Tradition Convergence",
+      "status": "null",
+      "confidence": "L",
+      "sources": [
+        {"name": "General search — no Tier-1 or Tier-2 eschatological events June 7-8", "tier": 4}
+      ],
+      "finding": "No Tier-1 or Tier-2 eschatological events surfaced June 7-8. Temple Mount background accumulation continues; Hajj period closed. T5 PENDING holds. Monthly background cadence; no ad-hoc sweep needed.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [],
+      "conflict_notes": "The Beirut/Lebanon axis of the conflict is theologically charged (Dahieh as Hezbollah stronghold; Twelver framing of Lebanon as sacred front), but no Mahdist invocation or explicit multi-tradition convergence event surfaced this cycle."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "probe_name": "Gulf State Troika and Unaligned-Middle Pivot Capacity",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "House of Saud T3 analysis (Saudi backchannel: Bin Farhan-Araghchi phone line; Iranian strikes on Saudi territory June 3 preliminary reports)", "tier": 3},
+        {"name": "House of Saud / Chatham House (MBS-Macron call May 31; maritime navigation security)", "tier": 3},
+        {"name": "No T1/T2 new MBS/MBZ/Tamim statements confirmed June 7-8 beyond Day 100 baseline", "tier": 4}
+      ],
+      "finding": "No new T1/T2 MBS/MBZ/Tamim public statements June 7-8. Gulf troika publicly silent on the Iran-Israel direct exchange June 7. T3 analysis (House of Saud, T3 discount applied): Saudi backchannel reportedly still operative (Bin Farhan-Araghchi phone line); MBS-Macron call May 31 on maritime navigation suggests Saudi managing Hormuz issue bilaterally rather than publicly. T3 preliminary reports of 'fresh Iranian strikes on Saudi territory June 3' could not be independently confirmed; single-source T3 analysis claim — heavy discount applied (-70%); not scored as BS-18 decay signal. Gulf troika reaction to Iran-Israel exchange: no public joint statement as of June 8. BS-18 MBS accommodation pathway: single-cycle decay signal from Day 100 (Kuwait condemnation) continues without escalation or fracture.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "House of Saud T3 analysis: not a primary source; T3 specialist analysis blog; -50% discount on all findings",
+        "Iranian strikes on Saudi territory June 3: T3 single-source preliminary report; -70% discount; not scored without T1/T2 corroboration",
+        "Gulf troika silence on Iran-Israel exchange: could indicate processing, coordination, or genuine disengagement — cannot distinguish"
+      ],
+      "conflict_notes": "The Gulf troika's silence on the Iran-Israel direct exchange (vs active response to Day 100 Kuwait/Bahrain attacks) is analytically interesting: GCC states were directly targeted at Day 100 (MBS 'any measures' language); Israel is not GCC. The silence may reflect GCC states seeing the Iran-Israel exchange as outside their primary security perimeter — consistent with the 'any measures they take' framing being Kuwait/Bahrain-specific, not an open-ended anti-Iran position. BS-18 brake mechanism: no fracture signal; no new intra-troika split. The June 22 Lebanon talks window remains the next discriminating event for Saudi backchannel status. Pakistan's Naqvi in Tehran (June 7) is the active unaligned-middle mediation signal this cycle — Gulf troika is relatively dormant compared to Day 97-100 levels."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "probe_name": "Paine Death-Ground / War-Termination Aim-Class",
+      "status": "partial",
+      "confidence": "M",
+      "sources": [
+        {"name": "CNBC / NBC News (Iran suspends negotiations; Hormuz total closure threat; June 1 T2)", "tier": 2},
+        {"name": "Al Jazeera / The National (Iran missiles at Israel; Khatam al-Anbiya warning; June 7 T2)", "tier": 2},
+        {"name": "Euronews / National Security News (Vahidi IRGC information monopoly; Pezeshkian blocked; carry-forward)", "tier": 3}
+      ],
+      "finding": "P-AIM: Iranian demand-set still bounded in limited-aims range ($24B frozen assets + Lebanon all-fronts + Hormuz sovereignty); June 1 suspension cited Lebanon violations, NOT order-revisionist demands. Iran's Hormuz 'complete closure' threat in June 1 state media is an escalation signal, not an unlimited-aims marker (Hormuz closure is a bargaining instrument, not a demand for US expulsion from Gulf). P-INFO: Vahidi IRGC information monopoly continues (Pezeshkian blocked from intelligence appointments; carry-forward). P-DG: No US targeting of named Iranian principals June 7-8 (Khatam al-Anbiya HQ statement warns against 'supporters' = abstract, not named-principal threat). P-DG2: Iran's demand set did not escalate after June 7 exchange — Iran halted, consistent with limited-aims preservation of deal optionality; NO demand hardening post-strike. P-OVEX: Iran demonstrating sustained proxy + direct capability; no self-amputation signals; Hezbollah still active. P-CHEMO: US strike modality remains air/naval/blockade enforcement; no ground-force buildup.",
+      "trigger_match": false,
+      "trigger_detail": null,
+      "variable_moved": null,
+      "discounts_applied": [
+        "Iranian state media 'complete Hormuz closure' threat: read against grain; -30% confidence; direction (escalation signal) consistent with bargaining leverage, not unlimited aims"
+      ],
+      "conflict_notes": "The June 7 Iran-Israel exchange does NOT fire P-DG2 (limited-to-unlimited feedback loop): Iran launched, then halted under Trump pressure and returned to 'messages continue' posture, rather than escalating demands. This is consistent with P-AIM limited-aims: Iran is demonstrating deterrent capacity (Beirut red line) without converting to unlimited-aims posture. The P-INFO signal (IRGC information monopoly) continues advancing at T3 confidence, consistent with Paine's qualitative prediction that survival-driven information monopoly degrades apex decision quality — Vahidi blocking Pezeshkian appointments is structural L5 PA-gap manufacture. No Paine death-ground triggers fired; framework remains in background-monitoring state."
+    }
+  ],
+  "sweep_summary": {
+    "rows": [
+      {"probe_id": "PROBE-1", "status": "null", "confidence": "L", "trigger_fired": false, "variable_moved": "Pakistan message addressed to Mojtaba (nominal apex); no visual/death confirmation"},
+      {"probe_id": "PROBE-2", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Khatam al-Anbiya HQ General Abollahi named public statement (new IRGC vertex); Aliabadi construction conglomerate still silent; no Vahidi HEU signal"},
+      {"probe_id": "PROBE-3", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Day 97 signal carries; no T1/T2 upgrade; rial rate data quality issue"},
+      {"probe_id": "PROBE-6", "status": "null", "confidence": "L", "trigger_fired": false, "variable_moved": "BS-4 retirement window continues through June 23"},
+      {"probe_id": "PROBE-7", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Hormuz axis quiet June 7; tanker M/T Marivex disabled June 8 (blockade enforcement; 7th vessel); no strikes inside Iran"},
+      {"probe_id": "PROBE-8", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Brent $94-97 June 8 (bounced from $92-95); no Kharg event; no restoration"},
+      {"probe_id": "PROBE-9", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Israel struck Beirut Dahieh June 7; Iran launched 20+ missiles at Israel; Trump halted both; Netanyahu coordinated with Trump before strike (behavioral change); Lebanon triple-block deepening"},
+      {"probe_id": "PROBE-10", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "Senate WPR failed 47-53 (Fetterman with Republicans); T9 VALIDATED confirmed; disc-ratio 4:10 held; Stage-2 hysteresis advancing"},
+      {"probe_id": "PROBE-12'", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Iran suspended talks June 1 (temporary); Pakistan Naqvi delivered special letter from Munir+Sharif to Mojtaba June 7; 'messages continue'; LOI not signed"},
+      {"probe_id": "PROBE-13", "status": "fired", "confidence": "M", "trigger_fired": true, "variable_moved": "Trump halted both Israel and Iran June 7; deal-direction held 4+ days post-Lebanon-collapse; A1 sustained deal-direction confirmed; T4 advance"},
+      {"probe_id": "PROBE-14", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "20+ ballistic missiles at Israel (largest Israel-directed barrage); T12 advance on Israel axis; multi-axis offensive capability demonstrated"},
+      {"probe_id": "PROBE-15", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Netanyahu coordinating with Trump before Beirut strike; Iran publicly cites Trump pressure in halting attack; T8 at maximum but executive-constrained"},
+      {"probe_id": "PROBE-16", "status": "fired", "confidence": "H", "trigger_fired": true, "variable_moved": "New Iran-Israel direct kinetic axis adds third accident surface; BS-15 joint distribution complexity increases; Trump managing all three axes; no single threshold breached operationally"},
+      {"probe_id": "PROBE-17", "status": "null", "confidence": "L", "trigger_fired": false, "variable_moved": "SPIEF June 5 carry-forward; April count unresolved; Russia absent from Iran-Israel mediation"},
+      {"probe_id": "PROBE-18", "status": "null", "confidence": "L", "trigger_fired": false, "variable_moved": null},
+      {"probe_id": "PROBE-20", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "Gulf troika silent on Iran-Israel exchange; Saudi backchannel reportedly operative (T3); no fracture signal; Pakistan dominant unaligned-middle actor this cycle"},
+      {"probe_id": "PROBE-21", "status": "partial", "confidence": "M", "trigger_fired": false, "variable_moved": "P-AIM limited-aims holds (no demand escalation post-June 7 exchange); P-INFO advancing; P-DG2 NOT fired (Iran halted without demand hardening)"}
+    ],
+    "fired_count": 5,
+    "partial_count": 8,
+    "null_count": 4,
+    "gap_count": 0
+  },
+  "trigger_digest": [
+    {
+      "appendix_b_row": "Iran-Israel direct ballistic-missile exchange (20+ missiles; Khatam al-Anbiya HQ named statement); T12 advance on Israel axis; new accident surface",
+      "source_probe": "PROBE-9 + PROBE-14",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-13 Iranian residual capability; BS-15 first-mover architecture; T12",
+        "edit": "T12 advance through use on Israel axis — Iran launched 20+ ballistic missiles in 7 barrages at northern/central/southern Israel June 7 (Khatam al-Anbiya HQ, General Abollahi named statement). Largest Israel-directed Iranian missile barrage in this conflict window. Multi-axis capability confirmed: Day 100 GCC axis (7 missiles at Kuwait/Bahrain) + Day 101 Israel axis (20+ missiles at Israel) = Iran sustaining offensive ballistic-missile production and launch operations on two distinct target axes simultaneously during the ceasefire period. BS-15 architecture update: accident surface now spans three axes (US-Iran Hormuz; Lebanon-ceasefire; Iran-Israel direct exchange). Iran-Israel axis does not pass through the PROBE-7 self-defense-vs-resumed-operations discriminator (which covers US-CENTCOM inside Iran); it is a parallel accident pathway that Trump managed directly June 7. BS-13: visibility on Iran's Israel-facing ballistic-missile capacity increases. Trend cross-check: T2 ADVANCE (multi-channel deterrent operating on Israel axis; Mosaic-Octopus multi-axis calibration); T12 ADVANCE (Israel axis demonstrated); T3 ADVANCE (Khatam al-Anbiya = apex deterrent floor on Israel-facing axis; Pakistan/Araghchi = mid-tier deal track same day — two-level structure on two axes simultaneously)."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Senate WPR failed 47-53 on-merits — T9 VALIDATED prediction confirmed; disc-ratio holds 4:10; Stage-2 hysteresis advancing",
+      "source_probe": "PROBE-10",
+      "confidence": "H",
+      "proposed_revision": {
+        "section": "BS-5 US domestic; T9 Stage-2 hysteresis lock-in state",
+        "edit": "T9 VALIDATED confirmed: Senate on-merits WPR vote failed 47-53 (Fetterman with Republicans; Paul for). T9 predicted outcome: executive path holds absent Fetterman pivot. Disc-ratio: does NOT increment (Senate failure is a T9 supporting cycle; disc-ratio stays 4:10). Stage-2 hysteresis update: White House Chadha precedent (concurrent-resolution unconstitutionality claim) + Senate on-merits defeat = the two-layer legal architecture for executive war-powers bypass is deepening. Without Fetterman flip AND 3+ additional GOP defectors (Senate) or 2+ additional GOP defectors (House), the T9 path holds. /premortem flag (outstanding from Day 97) should be re-evaluated at next /audit: T9 is now demonstrating confirming cycles rather than contested ones; the premortem flag was triggered by the 4:10 disc-ratio approaching rigidity threshold, but the Senate defeat adds a new supporting cycle. Trend cross-check: T9 ADVANCE (framework prediction confirmed; Stage-2 architecture deepening)."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Trump halted both Israel and Iran June 7; deal-direction held 4+ days through direct Iran-Israel exchange; Netanyahu coordinating with Trump before Lebanon strikes (behavioral change)",
+      "source_probe": "PROBE-13",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-12 US-side PA-gap; A1 oscillation state; T4 eschatological-coalition disaggregation; BS-3 Netanyahu spoiler modality",
+        "edit": "A1 oscillation update: Trump held deal-direction through Iran-Israel direct exchange (4+ days post-Lebanon-collapse Day 100 without abandonment) — longest sustained post-crisis deal-direction hold in this conflict window. Trump halted both Israel and Iran June 7; both publicly cited Trump pressure. T4 advance: deal-faction (Trump) now managing Iran-US, Israel-US, and Iran-Israel axes simultaneously. BS-3 Netanyahu spoiler modality update: on Day 100, Netanyahu defied Trump on Lebanon (open defiance — ordered strikes, denied ceasefire announcement). On Day 101, Netanyahu INFORMED Trump before Beirut strike, then halted under Trump pressure. This behavioral change suggests Netanyahu adjusting to coordinated-spoiler modality (seeks US coverage for Lebanon actions) rather than unilateral-spoiler modality (acts and presents Trump with fait accompli). Implication: the Israeli unilateral pre-emption (Variant B) path is slightly more constrained this cycle; the coordinated-strikes path (Variant A — through US permission) remains open. Israeli pre-emption probability (32-45%): holds, but the unilateral vs coordinated distribution shifts slightly toward the coordinated route. Trend cross-check: T4 ADVANCE (deal-faction managing multi-axis; Netanyahu behavioral adjustment = less autonomous spoiler); T8 ADVANCE (Powell mechanism loading — Netanyahu still pursuing Beirut axis = deal moving = window closing = pre-emption incentive rising, but now routed through Trump coordination)."
+      },
+      "urgency": "immediate"
+    },
+    {
+      "appendix_b_row": "Iran suspended talks June 1 (temporary); Pakistan Naqvi special letter to Mojtaba June 7; 'messages continue'; LOI impasse continues",
+      "source_probe": "PROBE-12'",
+      "confidence": "M",
+      "proposed_revision": {
+        "section": "BS-11 MOU architecture; Fork D' LOI architecture status; Pakistan mediator track",
+        "edit": "Iran formal suspension of negotiations (CNBC T2: 'Iran stops negotiations with US, vows to completely block Hormuz'; NBC News T2: 'Tehran suspends talks over Israeli attacks in Lebanon'; June 1) followed by resumption via Pakistan channel. Pattern: suspension is a coercive signaling instrument (Lebanon red line), not a strategic withdrawal (messages resumed, Pakistan channel activated within days). This is consistent with P-AIM limited-aims (PROBE-21): Iran uses suspension as bargaining tool while preserving deal optionality. Pakistan mediation at highest tier: Naqvi delivered 'special letter' from BOTH Army Chief Munir AND PM Sharif to Supreme Leader Mojtaba Khamenei June 7-8 (T2 multi-outlet: Geo.tv, CGTN, Arab News, Express Tribune, Pakistan Today, Middle East Monitor). Second Naqvi visit in less than a week. Iranian advisor Mohsen Rezaei confirmed deal hinges on $24B frozen assets (T3). BS-11 mediator architecture: Pakistan channel now most active at highest tier; Oman dormant; Beijing dormant; Qatar bridge-role unclear post-Lebanon-collapse. Araghchi 'messages continue' framing from Day 100 holds — LOI architecture alive but unsigned; Lebanon clause still triple-blocked."
+      },
+      "urgency": "next_cycle"
+    }
+  ],
+  "gap_log": [],
+  "calibration_check": {
+    "trend_state_question": "No trend-state transitions warranted this cycle. T9 VALIDATED strongly confirmed by Senate vote; disc-ratio holds 4:10. T1 decay check: last confirmed advance Day 100 (within 30-day window; not at decay risk). T12 further advances. No single-cycle evidence contradicting any VALIDATED trend. Note for next /audit: T9 /premortem flag from Day 97 should be re-evaluated — T9 is now on confirming cycle streak, not rigidity-risk trajectory. The 30-day decay clause review: all VALIDATED trends last confirmed within 14 days; no decay trigger.",
+    "thesis_question": "HOLDING. Day 101-102 are the clearest illustration to date of the central thesis materialist prediction: Iran, Israel, and the US each executed their dominant strategy under constraint simultaneously — Iran launched at Israel (Khatam al-Anbiya deterrent floor; apex deterrent minimum on Beirut red line), Netanyahu struck Beirut while informing Trump (spoiler strategy within US-permission-seeking constraint), Trump halted both while maintaining deal-direction (deal-faction constraint on executive oscillation). Nobody designed the configuration. The accident surface expanded (new Iran-Israel axis) while all three actors simultaneously preserved optionality. Pakistan mediation at highest tier advancing confirms the unaligned-middle thesis (T1). Senate WPR failure confirms Stage-2 architecture (T9). T12 advance confirms reconstitution-speed amplifier (independent of deal-credibility axis). Framework thesis: HOLDING with deepening structural confirmation across all five constraint layers."
+  }
+}
