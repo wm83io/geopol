@@ -269,6 +269,17 @@ Two matrices, separate cadences (v4.2 split).
 - **Range-width justification.** When a fork's range width changes vs. the prior cycle (not just its
   level), the Driver column states why in one clause (evidence density rose/fell, decomposition,
   source-cluster resolution). Width changes without a stated driver are hedging.
+- **Overlap forces a re-cut, not width (added 2026-06-11 via /premortem; Day 105 Mitigation 2).**
+  When two primitives are declared partially overlapping or their boundary "less resolvable" this
+  cycle (e.g., a Fork A/Fork C convergence as the self-defense-vs-resumed-operations discriminator
+  degrades), the cycle must NOT widen one primitive toward the other. A declared overlap is an
+  undecomposed boundary: either (a) re-cut the forks at the new operational reality, or (b) report a
+  named joint cell ("Fork A/C convergence, X-Y%") alongside the two primitives. Mirror the PROBE-7
+  two-axis nominal/operational register in the matrix: when the operational axis says one fork and
+  the nominal axis says another, that is a convergence cell, not range width on either fork.
+  Absorbing an overlap as width is the width-as-hedge failure the 15pp cap exists to prevent.
+  Canonical case: Day 105 Fork C widened to 12pp citing "Fork A/C boundary less resolvable"; under
+  this rule that cycle reports a convergence cell instead.
 - **"None of the above" row mandatory.** Non-zero floor: 5-10% on 30d; 10-15% on 6/12m.
 - **Fork D' decomposition.** If >30% on 30d sustained 4+ cycles, decompose into named variants at next SITREP. "Deferral" is not a primitive at that mass.
 - **Fork D' pre-staging (added 2026-05-27 via /premortem; Mitigation 4).** When the Fork D' midpoint has crossed 30% on 2 of the last 4 cycles (i.e., the decomposition trigger is in approach but not yet fired), the SITREP must include, immediately after the 30-day matrix table, a **Candidate decomposition** sub-block listing 3-5 named Fork D' variants the framework would adopt if the trigger fires next cycle. Format: bulleted list, one line per candidate, each naming (a) the deferral mechanism, (b) the named principal whose selection makes it the operative variant, (c) the discriminating signal that would pick this variant over the others. The candidates are not adopted as the primitive yet; they are pre-thought so that the next firing can adopt rather than improvise under cycle pressure. Once decomposition fires, the adopted variant table replaces the candidate sub-block. Canonical case: Day 90 Fork D' 32% midpoint (3 of 4 cycles above 30%; Day 87 below) approached the trigger; pre-staging would have produced candidates such as (i) LOI signed within 7d with Lebanon clause deferred, (ii) LOI signed with Lebanon clause bridged via post-caretaker Zamir baseline, (iii) LOI deferral via Iranian non-acceptance with talks continuing past 7d, (iv) LOI signed with Lebanon clause unresolved and breaks within 30d, (v) LOI deferral via diplomatic-spoiler collapse into Variant B.
