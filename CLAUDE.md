@@ -53,7 +53,7 @@ density over prose length. No hedging.
 ## Repo Orientation
 
 ```
-synthesis/                    Base framework. Current operative: synthesis-v4-1.md (+ -external.md).
+synthesis/                    Base framework. Current operative: highest version per Resolve "latest" below (v4-2 as of Day 105; + -external.md).
 synthesis/staging/            Pre-revision change manifests. Consumed by /revise.
 synthesis/staging/archive/    Manifests already incorporated into a synthesis version.
 synthesis/archive/            Historical synthesis versions (v1 through v4-0). Not read operationally; git preserves.
@@ -62,6 +62,7 @@ probes/sweeps/                JSON probe sweep outputs. sweep-YYYY-MM-DD.json.
 probes/probe-schema.md        Probe output contract. Markdown spec.
 probes/probe-schema-json.json JSON schema.
 appendix/                     appendix-b-blind-spots.md. Patched in-place; git tracks versions.
+calibration/                  prediction-ledger.md (resolution discipline + scorecard; maintained by /sitrep, consumed by /audit and /premortem) + methodology assessments.
 reference/                    Theoretical apparatus, source ladders, methodology. See below.
 reference/tools/              Stage 1/2/3 analytical tool catalogs.
 skills/v1, v2, v2-git         Legacy and current skill specifications.
@@ -154,6 +155,7 @@ Executive Summary, increment major version via `/revise`.
 - **"None of the above" row:** mandatory in every matrix; non-zero floor (5-10% on 30d; 10-15% on 6/12m).
 - **Fork D' decomposition:** if >30% on 30d matrix sustained 4+ cycles, decompose at next SITREP. Never aggregate Fork D' into KEC.
 - **Two matrices, two cadences:** 30d cycle-Bayesian (every SITREP); 6/12m structural-prior (only on trend transitions, constraint shifts, or major-version increments). Cycle-level updates miscalibrate long horizons.
+- **Predictions resolve.** Every SITREP signals-list entry and month-end 30d matrix snapshot is a ledger row in `calibration/prediction-ledger.md`; due rows resolve in the next SITREP's Section 2 (Prediction Resolution). Fired signals apply their pre-committed move or justify the hold; surprises (unlisted major movers) log to the Surprise register; misses route to /audit Source C. See `.claude/commands/sitrep.md`.
 
 ---
 
@@ -222,6 +224,7 @@ Commit each deliverable as its own commit. Message format:
 - `probe: sweep YYYY-MM-DD - {trigger count} triggers`
 - `synthesis: v{N} - {minor|major} - {one-line rationale}`
 - `appendix: blind-spot audit - {N} adds, {N} retires`
+- `calibration: {one-line change}` (ledger upkeep rides with its SITREP commit; standalone for assessments/backfills)
 - `command: {command-name} - {one-line change}`
 - `reference: {filename} - {one-line change}`
 
@@ -270,7 +273,7 @@ Conventions:
 ## Daily Cadence
 
 1. `/sweep` → `probes/sweeps/sweep-YYYY-MM-DD.json`
-2. `/sitrep` → `sitreps/day-N.md` (consumes the day's sweep)
+2. `/sitrep` → `sitreps/day-N.md` (consumes the day's sweep; resolves due prediction-ledger rows in Section 2; appends new signal rows post-write)
 3. `/audit` → patch `appendix/appendix-b-blind-spots.md` (monthly or on trigger)
 4. `/revise` → trend-driven (trend state transition, pending-trend promotion, reference apparatus change, instrumentation gap closure, or staged manifest). Annex count is **not** a trigger. See `.claude/commands/revise.md`.
 5. `/blog` → external transform (paired with `/revise`, or standalone)
