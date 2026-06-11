@@ -30,8 +30,29 @@ Load in order. All paths relative to the repo root.
 4. **Last 30 days of sweeps:** read JSON files in `probes/sweeps/` from the prior 30 days. Look for source-cluster patterns (same outlet repeatedly originating "multi-source" claims), confidence inflation (M → H without new sourcing), trigger-firing concentration on a small number of probes.
 5. **Appendix B:** read `appendix/appendix-b-blind-spots.md`. Note any blind spot that has not fired in 30+ days.
 6. **Prior pre-mortems:** `ls premortems/ 2>/dev/null | sort | tail -3`. Read the last three. Look for recurring failure-mode hypotheses; if the same hypothesis appears in 2+ prior pre-mortems without mitigation traction, escalate.
+7. **Prediction ledger:** read `calibration/prediction-ledger.md` Scorecard, Surprise register, and rows resolved since the last pre-mortem.
 
 Output directory: `premortems/`. Create if absent. Filename: `premortem-YYYY-MM-DD.md`.
+
+---
+
+## Retrospective (mandatory; precedes the diagnostic)
+
+The pre-mortem imagines failure forward; this section scores it backward. Two parts, ≤400 of the
+2,500-word budget, placed immediately after the mitigation-manifest table in the output file:
+
+1. **Prior pre-mortem scored.** For each failure mode in the previous pre-mortem: `occurred` /
+   `partial` / `did-not-occur` / `unobservable`, one line of evidence each. For each approved
+   mitigation: did it get applied, and did it bind (cite a cycle where the rule changed behavior,
+   or state that no test case arose). A mitigation approved but never applied is itself a finding;
+   2+ consecutive no-traction scores on the same mitigation escalate per pre-flight item 6.
+2. **Ledger lookback.** From rows resolved since the last pre-mortem: surprises mapped to the five
+   failure-mode categories; any matrix-followed `n` (discipline breach); any second-expiry
+   instrumentation failures; signal-quality check (count of signals too vague to resolve; vague
+   signals inflate apparent coverage and are the Goodhart surface of the resolution discipline).
+
+Retrospective findings feed the diagnostic's "Evidence in current outputs" lines. A failure mode
+that the retrospective shows already occurring is `high` likelihood by default.
 
 ---
 
