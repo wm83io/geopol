@@ -29,15 +29,15 @@
 
 | Metric | Count |
 |---|---|
-| Signal rows logged | 41 |
-| Resolved fired (full + partial) | 12 (8 full, 4 partial) |
-| Resolved did-not-fire | 14 |
+| Signal rows logged | 45 |
+| Resolved fired (full + partial) | 15 (11 full, 4 partial) |
+| Resolved did-not-fire | 13 |
 | Expired-unresolved | 2 |
 | Superseded | 1 |
-| Open (carried into Day 103+) | 12 |
+| Open (carried into Day 103+) | 14 |
 | Surprises (unlisted major movers) | 5 |
-| **Watchlist coverage** | **12 / 17 major movers pre-listed (~71%; N below interpretation floor)** |
-| **Matrix-followed** | **y: 7, partial: 3, n.a.: 2, n: 0 (10/10 scoreable followed)** |
+| **Watchlist coverage** | **15 / 20 major movers pre-listed (3 in 4; N below interpretation floor)** |
+| **Matrix-followed** | **y: 9, partial: 4, n.a.: 2, n: 0 (13/13 scoreable followed)** |
 | Fork snapshots logged | 2 (both pending expiry) |
 | Fork snapshots scored | 0 |
 
@@ -127,4 +127,4 @@ Sub-horizon watch: Israeli pre-emption 14-21d windows from Days 84-102 all close
 | P84-06 | 84 | signal | Second Barakah-class Gulf infrastructure attack + UAE attribution | 102 | did-not-fire | As stated, never; adjacent events arrived via different vectors (see S5, P97-03 lineage) | n.a. |
 | P84-02 | 84 | signal | Munir public characterization of Tehran meetings as accepted-in-principle | 85 | superseded | Reformulated as travel/non-travel signal (P85-01) after Day 85 cancellation | n.a. |
 
-*Backfill notes.* (1) Rows carried verbatim across multiple SITREPs are logged once from first appearance; 41 unique rows compress ~110 list entries. (2) Day 89, 91-92, 94, 98-99, 101 had no SITREP; windows bridge per supersede chain. (3) The two `n.a.`-heavy blocks are healthy: most did-not-fire rows pre-committed moves only on the fire branch.
+*Backfill notes.* (1) Rows carried verbatim across multiple SITREPs are logged once from first appearance; 45 unique rows compress ~110 list entries. (2) Day 89, 91-92, 94, 98-99, 101 had no SITREP; windows bridge per supersede chain. (3) The two `n.a.`-heavy blocks are healthy: most did-not-fire rows pre-committed moves only on the fire branch.
