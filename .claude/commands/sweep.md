@@ -4,8 +4,9 @@ description: Execute the Iran 2026 probe cycle against Appendix B and write a sw
 
 # Iran 2026 — Probe Runner
 
-Executes the weekly probe cycle against Appendix B's blind-spot inventory. Produces structured output
-consumed by the SITREP composer and auditor skills.
+Executes the probe cycle against Appendix B's blind-spot inventory. Produces structured output
+consumed by the SITREP composer and auditor skills. Probe scope per cycle is governed by the tier
+model below; not every probe runs every cycle.
 
 **Output schema:** `probes/probe-schema.md` — read before writing any finding card.
 
@@ -15,13 +16,19 @@ consumed by the SITREP composer and auditor skills.
 
 Load into working context before any probe runs. All paths are relative to the repo root.
 
-1. **Strategic trends baseline:** read `reference/strategic-trends.md` in full FIRST. The trend
-   state table is the multi-week anchor for this cycle's findings. Each fired trigger this
-   sweep produces must be classified against current trend states at Step 6.
+1. **Strategic trends baseline:** read `reference/strategic-trends.md` FIRST. Read the summary
+   table in full; read in full only the trend entries changed since the last sweep
+   (`git diff <last-sweep-commit>..HEAD -- reference/strategic-trends.md`). Weekly full-read floor
+   per CLAUDE.md. Each fired trigger this sweep produces must be classified against current trend
+   states at Step 6.
 2. **Anchor synthesis:** read highest-versioned file in `synthesis/`
    Record current probability values and assumption states — probes are deltas against this baseline.
-3. **Appendix B:** read `appendix/appendix-b-blind-spots.md`
-   This is the authoritative probe spec. Execute only probes listed here.
+   Full re-read on version change; otherwise the probability-matrix and assumption sections suffice
+   (weekly full-read floor).
+3. **Appendix B:** read the state tables (Confidence Architecture Summary, tier table once the
+   audit adds one) plus the full directive entry for each probe in scope this cycle.
+   `appendix/appendix-b-blind-spots.md` is the authoritative probe spec; execute only probes
+   listed there. Full re-read at the weekly floor or when the last `/audit` postdates the last sweep.
 4. **Last SITREP:** read highest day-number file in `sitreps/`
    Establishes current operational baseline.
 5. **Output schema:** read `probes/probe-schema.md`
@@ -133,19 +140,47 @@ Principal IDs (Mojtaba, Trump, Netanyahu, Vahidi, MBS, Munir, Xi, Putin) are inh
 2. **Discriminating evidence.** What signal distinguishes the named principal from the alternative? "Behavior consistent with X having decided" = curve-fitting, not validation.
 3. **Confidence note.** No discriminating evidence this cycle → mark as `inherited, not validated this cycle`. 4+ consecutive such cycles on a load-bearing principal → flag `/premortem` wrong-principal review.
 4. **Action-routing on 5th consecutive cycle (added 2026-05-27 via /premortem; Mitigation 1).** When the same principal-validation flag reaches its 5th consecutive cycle without discriminating evidence, the sweep must produce, in the same finding card's `conflict_notes`, an explicit **discriminating-evidence forcing question for the next cycle**: "What signal in the next cycle would falsify the current attribution?" Concrete and named, not "more evidence." The next `/audit` must then stage a synthesis manifest demoting the attribution to provisional, not re-flag for a 6th cycle. "Flagged for /premortem" is not an indefinite holding state; the 5th-cycle threshold converts the flag to a routed action (forcing question this cycle + manifest at next audit). Canonical case: A2 Netanyahu-relay and A4 Vahidi-direct-HEU absence reached this threshold on Day 90 and were staged at `synthesis/staging/v4-3-principal-validation-manifest.md`.
+5. **Forcing question persists through the provisional window (added 2026-06-11 via /premortem; Day 105 Mitigation 4).** Demotion to provisional is not the end of the obligation; it carries a clock (A4/A2 demote to opaque/inherited within 6 cycles of v4.3 absent discriminating evidence). For the entire duration of that provisional window, **every** sweep touching the provisional principal must restate the named discriminating-evidence forcing question in `conflict_notes`; "provisional" is not a new indefinite holding state any more than "flagged" was. Each provisional cycle states what would resolve the candidate set *this* cycle. Where the principal's decisions span multiple escalation surfaces, name the axis-level discriminator explicitly. Canonical case: the A4 GCC-axis attribution. Apex public claim/ownership of the GCC-base strikes (apex-directed; narrows toward council/command) vs apex silence with Aerospace-Force-only attribution (delegated rules of engagement; leaves the apex a black box). The escalation-control reading (whether a US-KIA-triggering strike is apex-intended or agent-autonomous) is load-bearing on Fork A entry probability, so the provisional principal cannot be parked.
 
-The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent, and it requires routing the absence into structural change once the 5th-cycle threshold trips.
+The step does not require resolving the principal question every cycle; it requires not pretending it is settled when discriminating evidence is absent, and it requires routing the absence into structural change once the 5th-cycle threshold trips and through the provisional window thereafter.
 
-Probe specs live in Appendix B. Do not maintain parallel definitions here. Frequency overrides:
+Probe specs live in Appendix B. Do not maintain parallel definitions here.
 
-| Probe | Default | Override |
+### Probe cadence tiers (added 2026-06-11; replaces the static frequency table)
+
+Tier assignments are owned by `/audit` (Step 5c) and recorded against each directive in Appendix B.
+Until the next audit writes them there, the interim assignments below govern.
+
+| Tier | Cadence | Membership rule |
 |---|---|---|
-| PROBE-1 through PROBE-8 | Weekly | — |
-| PROBE-9 (Israeli internal) | Bi-weekly | — |
-| PROBE-10 (WPA/constitutional) | Weekly through June 1, then monthly | — |
-| PROBE-4 (London attribution) | Weekly first 3 weeks, then monthly if no confirmation | — |
+| D (daily) | Every sweep | Default. Mandatory for probes attached to CRITICAL-priority BSs and any probe that fired within the last 3 cycles |
+| E (event-triggered) | Only when its activation condition is met | Probes whose target signal is a discrete event, not a flow. Activation condition stated per directive |
+| M (monthly) | First sweep of the calendar month, plus on activation | Structurally opaque or long-horizon probes |
 
-If a trigger event fires on a skip week, run the probe regardless.
+Operating rules:
+
+- **Auto-upshift.** Any fire, or any external signal touching a probe's target, runs it this cycle
+  and holds it at Tier D for 3 cycles. Upshift requires no approval.
+- **Downshift is audit-only.** The sweep never downshifts. 10+ consecutive cycles without a fire is
+  the audit's downshift threshold (Step 5c), never crossed for CRITICAL-BS probes below Tier E.
+- **Monthly floor for everything.** No probe goes unrun longer than a calendar month.
+- **Skipped probes stay visible.** List every skipped probe in `sweep_metadata.probes_skipped`
+  (probe id, tier, one-clause reason). Absence of a card must be distinguishable from a null.
+  This extends sweep metadata per the `reference_trends` precedent; the probe-schema contract
+  files are not modified.
+- **Canonical probe IDs.** Use the exact ID spelling in Appendix B. The PROBE-12' /
+  PROBE-12-prime / PROBE-12p fragmentation in historical sweeps breaks fire-rate computation;
+  do not add variants.
+
+Interim assignments (verified fire rates over 19 sweeps, May 11 - June 8):
+
+| Probe | Tier | Basis / activation condition |
+|---|---|---|
+| PROBE-11 (Russian settlement) | M | 0 fires / 5 runs; BS-9 sub-probes carry the Russia surface |
+| PROBE-17 (Russian siloviki) | M | 0 fires / 11 runs; activation: any BS-9.1-9.5 signal; BS-9.3 Putin count checked at the monthly run |
+| PROBE-18 (Eschatological) | E | 0 fires / 5 runs; activation conditions are the eschatology trigger-read conditions in CLAUDE.md reference table |
+| PROBE-21 (Paine death-ground) | D, flagged | 0 fires / 11 partials: fire bar unreachable or misdefined; threshold recalibration at next /audit, cadence unchanged until then |
+| All others | D | Fire rates 17-88%; no downshift case |
 
 ---
 

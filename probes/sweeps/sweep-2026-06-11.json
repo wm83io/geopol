@@ -1,0 +1,330 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-11",
+    "day_number": 105,
+    "framework_version": "v4.2",
+    "synthesis_anchor": "synthesis-v4-2.md",
+    "probes_run": ["PROBE-1","PROBE-2","PROBE-3","PROBE-6","PROBE-7","PROBE-8","PROBE-9","PROBE-10","PROBE-12'","PROBE-13","PROBE-14","PROBE-15","PROBE-16","PROBE-17","PROBE-19","PROBE-20","PROBE-21"],
+    "probes_skipped": [
+      {"probe_id": "PROBE-11", "tier": "M", "reason": "ran June 3; next monthly run July 1"},
+      {"probe_id": "PROBE-18", "tier": "E", "reason": "no eschatological activation condition met this cycle"}
+    ],
+    "summary": {
+      "fired": 8,
+      "partial": 8,
+      "null": 1,
+      "gap": 0
+    },
+    "reference_trends": [
+      {"trend": "T1", "effect": "hold", "note": "Fearon private-info gap holds; A1 oscillation consistent with unresolved information asymmetry"},
+      {"trend": "T2", "effect": "advance", "note": "Iran-GCC US-base multiaxis strike June 9 advances proxy-leverage multi-axis doctrine"},
+      {"trend": "T3", "effect": "hold", "note": "Apex-deterrent floor holds; no principal targeting; CENTCOM self-defense framing maintains it"},
+      {"trend": "T4", "effect": "hold", "note": "Oman Araghchi track alive; no collapse signal"},
+      {"trend": "T5", "effect": "hold", "note": "No new Knesset coalition event beyond June 2 reading"},
+      {"trend": "T6", "effect": "hold", "note": "BS-9.3 not triggered; 60 public events April+May; 28-day decay threshold approaching — flag for next audit"},
+      {"trend": "T7", "effect": "hold", "note": "Voice discipline maintained; no substrate-as-agent violations detected"},
+      {"trend": "T8", "effect": "advance", "note": "Knesset dissolution 1st reading 106-0; Trump 'on your own' warning; Powell shift-cost for Israel rising"},
+      {"trend": "T9", "effect": "hold", "note": "No new WPR vote; June 9-10 CENTCOM strikes self-defense framing unchallenged"},
+      {"trend": "T10", "effect": "hold", "note": "No KSA normalization movement; MBS quiet"},
+      {"trend": "T11", "effect": "hold", "note": "No Xi public signal on Iran deal architecture"},
+      {"trend": "T12", "effect": "advance", "note": "70% missiles retained, 90% underground storage operational, 30/33 Hormuz sites restored, solid-fuel imports confirmed"}
+    ],
+    "calibration": {
+      "trend_state_question": "No transitions warranted on single-cycle evidence. T6 flagged for 30-day decay audit at next /audit (28 days elapsed since last validation, May 14). T8 and T12 accumulating advance signals — multi-cycle confirmation check due at next /audit for CONTESTED consideration. T1 reading-swing risk elevated given A1 oscillation amplitude.",
+      "thesis_question": "DRIFTING. Fork C cascade risk and Fork A accumulation both advancing. Fork D' lower bound deteriorating. Central thesis (materialist bargaining; no actor controls constraint surface) holds structurally. Drifting toward Fork C/Fork A dominant-strategy resolution within the thesis, not outside it.",
+      "proposed_matrix_revisions_30d": {
+        "Fork_A": {"prior": "18-28%", "proposed": "20-30%", "direction": "up", "rationale": "CENTCOM strikes June 9-10 + Iranian GCC multi-axis response; Trump bridge/power threat; A1 hawkish posture holding 24h arc"},
+        "Fork_B_combined": {"prior": "15-24%", "proposed": "11-19%", "direction": "down", "rationale": "Iran FM ceasefire 'meaningless'; HEU+Hormuz impasse deepening; Oman counteroffer tabled but no convergence signal"},
+        "Fork_C": {"prior": "30-39%", "proposed": "32-41%", "direction": "up", "rationale": "4th accident surface (Iran-GCC US-bases) confirmed; 24h A1 oscillation; structural impasse + active kinetics = cascade conditions"},
+        "Fork_D_prime": {"prior": "21-29%", "proposed": "17-25%", "direction": "down", "rationale": "Iran FM apex maximalism on ceasefire architecture; structural impasse LOI deepening"},
+        "None_of_above": {"prior": "5%", "proposed": "5%", "direction": "no change", "rationale": "Floor maintained per probability discipline"},
+        "KEC_derived": {"prior": "50-68%", "proposed": "52-71%", "direction": "up", "note": "[DERIVED] Fork A + Fork C + tail. For footnote use only; primitives lead."}
+      },
+      "note_6_12m_matrix": "No 6/12m structural-prior update this cycle. No trend state transition, no constraint shift, no major-version increment. 6/12m matrix unchanged from v4.2."
+    }
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "target": "Iranian apex access — Mojtaba/A4 functional apex channel; external-actor triangulation",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["Iran International", "Reuters", "BBC Persian", "Times of Israel"],
+      "discounts_applied": ["Pakistan Araghchi channel: mid-tier diplomatic routing (T3 sourcing); no Mojtaba response confirmed; single-outlet inference"],
+      "finding": "Pakistan PM Shehbaz Sharif letter routed through FM Araghchi June 8-9 (Iran International); no Mojtaba response or visual; no apex-level engagement with Pakistan mediation channel. A4 two-level structure holds: elected-government access channel functioning for mid-tier diplomacy; apex remains opaque to external actors.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T1 hold"],
+      "conflict_notes": "A4 provisional per v4-3-principal-validation-manifest.md (S2). Alternative principal: SNSC staff / Khamenei personal office / Aerospace Force command. Discriminating evidence this cycle: none. 7th+ consecutive cycle without Mojtaba visual or apex-access signal. Attribution: inherited, not validated this cycle. Principal-validation: carries forward provisional status."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "target": "Vahidi HEU disposition statement — direct named attribution for A4 discrimination",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Critical Threats (AEI)", "Iran International", "Reuters", "Al-Monitor"],
+      "discounts_applied": ["IRGC-affiliated media inference: -50% on IRGC-origin indirect; Critical Threats T3 analytical"],
+      "finding": "No Vahidi-direct named statement on HEU disposition this cycle (6th consecutive absent cycle). Critical Threats June 1 IRGC-affiliated media inference that suspension order originated from IRGC channel (T3 analytical) — not Vahidi direct. Iran maintains 'HEU stays' posture confirmed via Araghchi FM channel June 9 (T1 direct FM statement), but attribution below the FM is opaque.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T1 hold", "T4 hold"],
+      "conflict_notes": "A4 provisional per manifest S2. Vahidi-direct named statement is the primary discriminating evidence. 6th consecutive absence. Principal-validation: no update; provisional carries. Alternative: Khamenei personal staff retaining HEU-disposition authority directly, with Vahidi as implementer rather than decision node. Discriminating evidence: Vahidi press conference with direct attribution, or second-cluster corroboration of council structure independent of Iran International."
+    },
+    {
+      "probe_id": "PROBE-3",
+      "target": "Iranian domestic economy — rial rate, bazaar stress, regime revenue",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["Bonbast.com", "Reuters", "Iran International", "Al-Monitor economy desk"],
+      "discounts_applied": ["Parallel-market rates: single source (Bonbast); -20% on representativeness"],
+      "finding": "USD/IRR parallel rate 1,790,000 June 11 (Bonbast), up from Day 88 trough 1,709,000 but below 20%/week threshold. No bazaar closure reports. No reported tax-revenue collapse. Depreciation trend continues but below acute-stress threshold. Bazaar structurally opaque: no T1-T2 bazaar-strike signals this cycle.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 hold"],
+      "conflict_notes": "Bazaar-closure signal remains the primary trigger criterion; absent again this cycle. Rial depreciation within tolerable range per BS-3 definition. Regime revenue: no new OFAC designations touching oil receipts this cycle."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "target": "Secondary sanctions — GL-V cascade; Chinese bank exposure; SWIFT corridor degradation",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["Reuters", "Bloomberg", "FT", "Treasury/OFAC public actions"],
+      "discounts_applied": ["Bessent letters: single-outlet claim, no Treasury confirmation; -30%"],
+      "finding": "GL-V cascade window: 18/30 days elapsed as of June 11. NFRA (Chinese banking regulator) warning to major banks on Iran exposure reported (Reuters June 9, T2). Bessent letters to 2 unnamed Chinese banks reported (Bloomberg June 10, T2 single-source — cluster provenance unverified). No major Chinese bank formally designated. No SWIFT corridor cut reported.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 hold"],
+      "conflict_notes": "GL-V trigger requires formal designation or confirmed SWIFT cut; neither confirmed this cycle. NFRA warning and Bessent letters are precursor signals, not trigger-level events. Cluster provenance on Bessent letters: Bloomberg June 10 single-source anonymous; no wire pickup confirming distinct cluster. Apply -50% to Bessent letters."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "target": "Self-defense vs resumed operations discriminator — CENTCOM strike classification",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["CENTCOM official release", "Reuters", "AP", "WSJ", "NYT"],
+      "discounts_applied": [],
+      "finding": "June 8: US Apache helicopter downed by Iranian forces near Al-Tanf corridor (CENTCOM T1). June 9-10: CENTCOM struck 3 Iranian military positions in Syria/Iraq in stated self-defense response (CENTCOM T1 readout — named 'self-defense' explicitly, no new operation name). Iran GCC retaliation: ballistic/drone strikes on Bahrain, Kuwait, Jordan US bases June 9-10 — all intercepted, no US casualties reported (Reuters, AP T2). Trump June 9: 'final throes of the negotiation' — hawkish/optimistic hybrid. Trump June 10: 'we will bomb the bridge and the power' — highest-amplitude hawkish posture post-ceasefire. Iran FM Araghchi June 10: 'ceasefire has become practically meaningless'; 'foreign forces should leave the region.' PROBE-7 self-defense discriminator criteria: (a) CENTCOM self-defense framing — holds; (b) reactive to named incident (Apache) — holds; (c) no new operation name — holds; (d) proportionality window (within 48h, 3 targets) — holds; (e) deal-direction non-reversing — STRAINED (Trump bridge/power threat June 10 is highest-amplitude non-deal posture; Iran FM apex hardening). Discriminator verdict: Fork C self-defense arc, not Fork A resumed operations. But criterion-e strain is significant; one more Trump escalatory statement without deal movement = potential reclassification.",
+      "trigger_match": "Fork C cascade risk up; Fork A accumulation up; new 4th accident surface (Iran-GCC US-base strikes)",
+      "direction": "up",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork C ↑ (30-39% → 32-41%); Fork A ↑ (18-28% → 20-30%). Appendix B: flag 4th accident surface for BS-16 update at next /audit. PROBE-7 criterion-e strain log for Day 106 SITREP.",
+      "reference_trends": ["T2 advance — multi-axis proxy doctrine demonstrated at GCC base layer", "T3 hold — apex-deterrent floor not broken (no principal targeting)", "T12 advance — Iranian reconstitution enabling multi-axis strike"],
+      "conflict_notes": "Principal attribution: CENTCOM strikes attributed to SecDef/CENTCOM commander chain, not Trump direct. Trump statements concurrent but not the command authority. Iranian GCC strikes: attributed to IRGC Aerospace Force (CENTCOM characterization) — consistent with A4 provisional (IRGC channel). No discriminating evidence on whether apex approved GCC expansion or Aerospace acted with delegated authority. Alternative: Aerospace Force acting with pre-delegated rules of engagement, not apex instruction — materially different for escalation-control reading."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "target": "Oil/Hormuz — Brent price, Kharg Island, commercial traffic, Lloyd's insurance",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Reuters markets", "S&P Global Platts", "Bloomberg energy", "Lloyd's"],
+      "discounts_applied": [],
+      "finding": "Brent crude $93.50/bbl June 11 (Reuters). $29 backwardation holds (6-month strip). No Kharg Island incident. No commercial tanker interdiction reported. No Lloyd's Hormuz insurance suspension. Iranian naval exercise in Persian Gulf June 9 (IRGC announcement) — deterrence signaling, no commercial impact. Trigger threshold (Kharg event or Lloyd's suspension) not reached.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 hold — Hormuz deterrence functional without commercial closure"],
+      "conflict_notes": "Brent at $93.50 is within elevated-but-below-acute range per oil-price-geostrategy.md parameters. No trigger-read activation (Brent not >$90 breached to a sustained level requiring activation; intraday touch is monitoring, not activation). Iranian naval exercise: signaling consistent with Hormuz deterrence posture, not operational escalation."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "target": "Israeli internal — Knesset dissolution, coalition dynamics, Netanyahu legal exposure, unilateral timeline",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Haaretz", "Times of Israel", "Channel 12", "Jerusalem Post", "Reuters"],
+      "discounts_applied": [],
+      "finding": "Knesset dissolution 1st reading passed 106-0 June 2 (Haaretz T1-equivalent Knesset record). 2nd and 3rd readings pending; legal window for election: September 8 - October 20, 2026. Trump 'on your own' warning to Netanyahu June 9 (Reuters T2, multiple named-source corroboration). Netanyahu coalition holding as of June 11: Ben-Gvir and Smotrich maintaining support despite Trump pressure. Lebanon operations deepening: IDF expanded ground incursion reported June 10 (Times of Israel). No new Netanyahu indictment developments this cycle.",
+      "trigger_match": "T8 Powell shifting-power advance; A23 Netanyahu spoiler modality active-coordinated advancing; Knesset dissolution advancing",
+      "direction": "up",
+      "urgency": "next_cycle",
+      "proposed_revision": "30d matrix: Israeli unilateral window consideration elevated given election timeline pressure. T8 advancing — flag for multi-cycle confirmation at next /audit for CONTESTED consideration. A23 spoiler: Lebanon expansion + Knesset dissolution = coordinated timeline management reading.",
+      "reference_trends": ["T8 advance — Knesset dissolution + Trump pressure = shifting-power dynamic accelerating", "T5 hold — no new normalization movement"],
+      "conflict_notes": "A23 Netanyahu principal attribution: spoiler modality inferred from Knesset timing + Lebanon escalation + Trump friction. Alternative principal: Knesset dissolution driven by Haredi draft coalition dynamics independent of Iran strategy; Lebanon expansion by IDF operational-command with Netanyahu passive. Discriminating evidence: Netanyahu public statement explicitly linking Lebanon escalation to Iran deal timing, or IDF chief public contradiction of Netanyahu Lebanon framing. Neither arrived this cycle. Inherited, not validated."
+    },
+    {
+      "probe_id": "PROBE-10",
+      "target": "US domestic political constraints — WPR, Congressional challenge, public opinion",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Reuters", "WaPo", "Politico", "Congressional records"],
+      "discounts_applied": [],
+      "finding": "No new WPR vote or resolution this cycle. June 9-10 CENTCOM self-defense strikes proceeded without Congressional challenge (Reuters). T9 VALIDATED confirmed: Congress has not mounted sustained WPR challenge to Iran operations. Trump approval: no new polling this cycle. Republican caucus: no public dissent on Iran strikes.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T9 hold — Congressional non-intervention posture holds"],
+      "conflict_notes": "WPR constraint remains structurally weak as predicted. Self-defense framing insulates CENTCOM strikes from WPR exposure. No counter-hypothesis activated."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "target": "Diplomacy track — deal architecture, LOI status, Oman channel, E3/IAEA",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Reuters", "AP", "Axios", "FT", "Al-Monitor"],
+      "discounts_applied": ["Axios May 28 deal-ready claim: single-reporter scoop, no named source; -30% on formulation detail"],
+      "finding": "Timeline reconstruction: May 28 Axios scoop (deal ready, pending Trump approval) → May 31 Trump personal edits (HEU full removal + Hormuz access clause) → June 1 Iran suspended negotiations in response → June 7-8 Iran-Israel kinetic exchange → June 9 Iran rejected current proposal in full; Oman presented counteroffer (Reuters T2) → June 10 Iran FM Araghchi: 'ceasefire has become practically meaningless.' Oman channel technically alive (counteroffer tabled) but structural impasse deepened: Iran LOI ceiling (no full HEU removal, no Hormuz clause) directly contradicts Trump May 31 edits. No E3/IAEA engagement this cycle.",
+      "trigger_match": "Fork D' lower bound pushed down; structural impasse on LOI architecture deepening; Fork B combined declining",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork D' ↓ (21-29% → 17-25%); Fork B combined ↓ (15-24% → 11-19%). Oman counteroffer keeps track alive in theory but impasse on core terms is structural, not tactical.",
+      "reference_trends": ["T4 hold — Oman track alive but degraded; not collapsed", "T1 hold — private-information gap on Trump's actual red lines widening (HEU+Hormuz edits vs. Araghchi 'near-signed' prior read)"],
+      "conflict_notes": "A2 provisional per v4-3-principal-validation-manifest.md (S1). Netanyahu-relay claim that Trump committed to 'full dismantlement / all HEU removed' now partially confirmed by Trump May 31 personal edits — but these are edits to a proposal, not a signed commitment. A2 discriminating evidence: not yet met (no White House readout using the exact language). May 31 edits move A2 from 'unconfirmed relay' toward 'partially consistent' but do not resolve the provisional status. Source: Axios single-reporter; -30% on formulation detail. Alternative: Trump edits were opening-position bargaining, not actual red line — would mean A2 mechanism mischaracterized. Discriminating evidence needed: Trump public statement or named NSC source confirming these as non-negotiable terms."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "target": "A1 Trump principal state — oscillation pattern, decision-moment read, hawkish vs. deal posture",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Reuters", "AP", "WaPo", "NYT", "Truth Social monitoring"],
+      "discounts_applied": ["Trump statements: near-zero without tape action per CLAUDE.md; scored for oscillation-pattern signal, not commitment signal"],
+      "finding": "June 9: Trump 'final throes of the negotiation' (optimistic-deal framing concurrent with Apache incident) → June 10: Trump 'we will bomb the bridge and the power' (highest-amplitude hawkish posture post-ceasefire). 24-hour arc is highest-amplitude A1 oscillation recorded since ceasefire. Iran FM Araghchi June 10: 'ceasefire practically meaningless'; 'foreign forces should leave region' (T1 direct). This cycle's A1 state at close: hawkish (bridge/power threat). Oscillation pattern: 8th documented oscillation arc since Day 88; no observable attractor toward either deal-close or resumed-ops.",
+      "trigger_match": "Fork A accumulation up; Fork D' declining; A1 oscillation at peak amplitude",
+      "direction": "up",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork A ↑; Fork D' ↓ per PROBE-12'. SITREP Section 3 to characterize bridge/power threat vs. 'final throes' arc as primary A1 datum this cycle.",
+      "reference_trends": ["T1 hold — private-info gap driving oscillation; consistent with Fearon incomplete-information framework"],
+      "conflict_notes": "A1 principal attribution: Trump public statements near-zero informational value on commitment. Oscillation pattern is informative; individual statement is not. Alternative: bridge/power threat was negotiating pressure, not actual targeting directive — consistent with prior pattern (Day 88 'bombing campaign' threat preceded ceasefire). Discriminating evidence: SecDef/CENTCOM targeting orders, not statements. Iran FM Araghchi hardening (T1) is the higher-quality datum; suggests Iranian apex read Trump June 10 posture as unserious or pressure-tactic — 'practically meaningless' is a verdict on the negotiating architecture, not panic."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "target": "Iranian reconstitution speed — T12 state; missile retention, underground storage, import channels",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["ISW", "IISS", "The War Zone", "Reuters", "Times of Israel (Israeli IC)"],
+      "discounts_applied": ["Israeli IC data on reconstitution: -50% single-cluster; used as one signal"],
+      "finding": "70% of pre-conflict missile inventory retained (ISW June 8 assessment, T3). 90% underground storage operational (IISS June 9 brief, T3). 30 of 33 Hormuz targeting sites restored (War Zone June 10, T3 defense-operational). Solid-fuel imports from China confirmed via Kpler tanker tracking (T4 — Kpler is authoritative data). June 9 GCC multi-axis strike (Bahrain, Kuwait, Jordan) demonstrates operational reach across 3 separate base clusters — confirmation of reconstitution hypothesis. T12 reconstitution-speed amplifier: ADVANCING multi-cycle.",
+      "trigger_match": "T12 advance multi-cycle; BS-13 IDF-strike-degradation-overestimate visibility up ~5pp",
+      "direction": "up",
+      "urgency": "next_cycle",
+      "proposed_revision": "T12 advancing 2nd cycle with 2+ independent source clusters (ISW + IISS + operational demonstration). Flag for CONTESTED consideration at next /audit. BS-13 visibility: update from ~60% to ~65% at next audit.",
+      "reference_trends": ["T12 advance — reconstitution faster than IDF initial degradation assessment; multi-cycle multi-source"],
+      "conflict_notes": "Israeli IC reconstitution data: -50% single cluster applied. ISW + IISS are independent T3 clusters (different institutional sourcing). Kpler tanker data is T4 but independent (trade data, not intelligence). 3+ independent signals this cycle — strongest T12 evidence base to date. GCC multi-axis strike is operational demonstration, not inference."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "target": "Dispositional asymmetry — Weisiger framework; Iranian hardening vs. US deal-willingness",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Reuters", "AP", "FT", "Al-Monitor"],
+      "discounts_applied": [],
+      "finding": "Trump bridge/power threat = highest-amplitude hawkish posture (US side). Iran FM 'ceasefire practically meaningless' + 'foreign forces should leave' = apex maximalism on ceasefire architecture (Iranian side). Weisiger dispositional asymmetry: both principals hardening simultaneously in public posture. Structural condition for miscalculation cascade at peak level this cycle. Neither side's public posture credibly signals deal-close willingness; private channel (Oman) technically alive but LOI impasse is structural.",
+      "trigger_match": "T8 advance — shifting-power dynamic at maximum observable tension",
+      "direction": "up",
+      "urgency": "next_cycle",
+      "proposed_revision": "Flag T8 for CONTESTED consideration at next /audit alongside PROBE-9 advance signal. Weisiger asymmetry at peak is a leading indicator for Fork C escalation, not a direct trigger.",
+      "reference_trends": ["T8 advance — dispositional asymmetry peak consistent with Powell shifting-power race condition"],
+      "conflict_notes": "Weisiger dispositional asymmetry reads public posture, not private. Oman counteroffer June 9 is private-channel signal in opposite direction (Iran still engaged). Public = domestic-audience management; private = actual bargaining. Do not read public hardening as private-track collapse. Distinguish audience-cost signaling from revealed preference."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "target": "Accident surfaces — new escalation pathways beyond existing BS-15 architecture",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Reuters", "AP", "CENTCOM", "Al Jazeera"],
+      "discounts_applied": [],
+      "finding": "4th accident surface confirmed this cycle: Iranian GCC-linked ballistic/drone strikes on US bases in Bahrain, Kuwait, Jordan (June 9-10) — all intercepted, no US casualties. Prior Day 102 synthesis recognized 3 accident surfaces: (1) Iran-US direct exchange, (2) Iran-Israel exchange, (3) proxy/third-party incidents. GCC base strikes are a 4th surface previously not architecturally distinguished: Iran attacking US bases hosted by non-belligerent Gulf states. This surface has distinct escalation logic: GCC states bear collateral-risk and may trigger their own response calculus (Article 5 equivalent logic via US defense commitments to host nations).",
+      "trigger_match": "BS-15 architecture expansion; Fork C cascade risk elevated",
+      "direction": "up",
+      "urgency": "next_cycle",
+      "proposed_revision": "BS-15 finding card to list 4 accident surfaces at next /audit. SITREP to note GCC-base surface as new Day 105 recognition. Fork C ↑ per PROBE-7.",
+      "reference_trends": ["T2 advance — multi-axis proxy doctrine now demonstrated at GCC base layer"],
+      "conflict_notes": "All GCC base strikes intercepted this cycle — no casualties. Demonstrates capability and willingness, not yet kinetic consequence. Escalation pathway: if one GCC-base strike penetrates intercept, host-nation political calculus changes immediately. UAE/Bahrain have US defense agreements — this surface has host-nation actors beyond the primary bilateral frame."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "target": "Russian siloviki dynamics — BS-9.3 Putin-ally public-event frequency, T6 state",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Meduza", "iStories", "Reuters", "The Insider"],
+      "discounts_applied": ["Meduza: exile source; apply -20% on regime-internal claims vs. observable event counts (event counts are less sensitive to exile discount)"],
+      "finding": "Meduza June 9 analysis: 60+ documented public appearances by Putin-adjacent siloviki in April+May combined (confirmed count). BS-9.3 threshold (<2/month) not triggered. T6 siloviki-fragmentation trend holds VALIDATED. 28-day decay audit threshold approaching: last full T6 re-validation was May 14; June 11 = 28 days elapsed (threshold is 30 days per framework decay clause). Flag for next sweep or audit: T6 re-verify required by June 14 at latest.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T6 hold — but decay threshold approaching; flag for Day 106-107 re-validation"],
+      "conflict_notes": "Auto-upshift rationale: Day 102 SITREP flagged BS-9.3 April count as unresolved — this constitutes external signal touching probe target per auto-upshift rule. Running PROBE-17 as D this cycle. BS-9.3 now resolved for April+May: NOT triggered. Return to M cadence next cycle absent new BS-9 signal."
+    },
+    {
+      "probe_id": "PROBE-19",
+      "target": "Eschatological coalition — CUFI, Vance, Huckabee; Temple Mount; Mahdist invocation",
+      "status": "null",
+      "confidence": "L",
+      "sources_consulted": ["Reuters", "AP", "Haaretz", "Al-Monitor"],
+      "discounts_applied": [],
+      "finding": "No Tier-1 or Tier-2 eschatological activation signal this cycle. Vance, CUFI, Huckabee silent on Iran. No Temple Mount incident. No Mahdist invocation in Iranian or Hezbollah communications reviewed. Null: no signal surfaced.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": [],
+      "conflict_notes": "Null means no signal surfaced, not status quo confirmed. PROBE-19 cadence: D by 'all others: D' interim rule despite 'quarterly background' frequency in Appendix B — sweep command cadence governs until next /audit re-assigns. No activation this cycle."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "target": "Gulf state troika — BS-18 unaligned-middle pivot capacity; UAE/Saudi/Qatar signals",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Reuters", "FT", "Al-Monitor Gulf desk", "Gulf News"],
+      "discounts_applied": ["UAE ambassador quote: single-outlet T3-tier regional outlet; -20%"],
+      "finding": "UAE ambassador to US called publicly for 'conclusive outcome' to Iran conflict and did not oppose ground-invasion framing (Gulf News June 10, T3 regional). MBZ-pathway: no joint troika brake-appeal this cycle; UAE moving toward tolerate-escalation posture. Saudi (MBS): quiet — no statement endorsing or opposing escalation. Qatar: Oman parallel track; maintaining mediator posture. BS-18 CRITICAL reading: MBZ-pathway decay advancing; troika brake-capacity eroding. Gulf states absorbing GCC base strikes without formal protest to Iran.",
+      "trigger_match": "BS-18 MBZ-pathway decay advancing; T1 reading-swing risk elevated (if UAE shifts to pro-escalation, framework T1 private-info gap widens)",
+      "direction": "up",
+      "urgency": "next_audit",
+      "proposed_revision": "Next /audit: BS-18 MBZ-pathway decay rate assess; consider CONTESTED promotion for BS-18 assumption. T1 reading-swing risk note in SITREP.",
+      "reference_trends": ["T10 hold — no KSA normalization movement, but MBZ drift is a T10-adjacent signal worth tracking"],
+      "conflict_notes": "UAE ambassador quote: single T3-outlet; -20% applied. Principal attribution: MBZ decision vs. ambassador freelancing. Discriminating evidence: MBZ direct statement or MBZ-channel communication to US administration. Not arrived. Inherited, not validated. Alternative: UAE ambassador statement is pre-authorized MBZ signaling to US administration via public channel — standard Gulf communication modality. If so, T1-quality signal in T3 packaging."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "target": "Paine death-ground framework — P-DG, P-DG2, P-AIM, P-INFO signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Reuters", "AP", "CENTCOM", "Al-Monitor", "Iran International"],
+      "discounts_applied": [],
+      "finding": "P-DG (death-ground trigger: US targeting of named Iranian principals): NOT fired. No named Iranian principal targeted June 9-10 — CENTCOM strikes hit military positions, not individual commanders. P-DG2 (terms hardening post-strike): CANDIDATE — Iran FM 'ceasefire practically meaningless' + 'foreign forces should leave' post-June 9-10 strikes meets directional criterion but is FM-channel, not apex hardening. Flag, not fire. P-AIM (aim-class): LIMITED AIMS maintained — no Iranian demand for regime change of GCC states, no maximalist territorial demand; HEU retention + Hormuz access = limited aims within Paine framework. P-INFO (accurate-advisor removal): No purge signal this cycle. Oman track alive = information channel preserved. Paine death-ground: not triggered this cycle.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 hold — apex-deterrent floor not broken"],
+      "conflict_notes": "PROBE-21 fire-bar note: 0 fires in 11+ cycles of partials. P-DG requires principal targeting; P-DG2 requires apex hardening post-strike (FM channel is below apex per two-level structure). Bar may be correctly set or may be unreachable at current targeting posture. Flag for /audit threshold recalibration per sweep cadence note."
+    }
+  ],
+  "trigger_digest": [
+    {
+      "probe_id": "PROBE-7",
+      "trigger": "Fork C cascade risk up; 4th accident surface (Iran-GCC US-base strikes) confirmed",
+      "urgency": "immediate",
+      "proposed_action": "30d matrix: Fork C 30-39% → 32-41%; Fork A 18-28% → 20-30%. SITREP Section 3 to note criterion-e strain on PROBE-7 discriminator."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "trigger": "LOI structural impasse deepening; Fork D' lower bound deteriorating; Fork B combined declining",
+      "urgency": "immediate",
+      "proposed_action": "30d matrix: Fork D' 21-29% → 17-25%; Fork B combined 15-24% → 11-19%. SITREP to note Oman track technically alive but structurally impassed."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "trigger": "A1 oscillation at peak amplitude; fork accumulation signal",
+      "urgency": "immediate",
+      "proposed_action": "SITREP Section 3: characterize Trump 'final throes' (June 9) → 'bridge/power' (June 10) as highest-amplitude A1 arc post-ceasefire. No matrix change beyond PROBE-7 and PROBE-12' revisions."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "trigger": "T8 Powell shifting-power advance; A23 spoiler modality advancing; Israeli unilateral window narrowing via election clock",
+      "urgency": "next_cycle",
+      "proposed_action": "SITREP to note Knesset dissolution 2nd/3rd readings pending; election window Sep 8 - Oct 20. T8 flag for /audit CONTESTED consideration (2nd advance cycle)."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "trigger": "T12 reconstitution-speed advance multi-cycle; 3+ independent source clusters; operational demonstration (GCC multi-axis)",
+      "urgency": "next_cycle",
+      "proposed_action": "T12 flag for /audit CONTESTED consideration (multi-cycle, multi-source). BS-13 visibility update to ~65% at next audit."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "trigger": "4th accident surface identified: Iran-GCC US-base strikes; BS-15 architecture expansion required",
+      "urgency": "next_cycle",
+      "proposed_action": "Next /audit: BS-15 update to list 4 accident surfaces. SITREP Day 105 to note GCC-base surface as new architectural recognition."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "trigger": "BS-18 MBZ-pathway decay advancing; UAE public posture shifting toward tolerate-escalation",
+      "urgency": "next_audit",
+      "proposed_action": "Next /audit: BS-18 MBZ-pathway decay rate assess; consider CONTESTED promotion. T1 reading-swing risk note in SITREP."
+    }
+  ],
+  "gap_log": []
+}

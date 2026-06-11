@@ -27,6 +27,9 @@ Load into working context. All paths are relative to the repo root.
    `reference_trends` field is a primary input for trend-state updates.
 5. **Last 2-3 SITREPs:** read most recent files in `sitreps/`
    in chronological order.
+6. **Prediction ledger:** read `calibration/prediction-ledger.md` Scorecard, Surprise register,
+   and every row resolved `did-not-fire`, `expired-unresolved`, or surprise-logged since the last
+   audit. Primary input for Source C and Step 5c.
 
 After producing the audit delta, write the patched Appendix B back to
 `appendix/appendix-b-blind-spots.md` using the Edit or Write tool.
@@ -132,6 +135,32 @@ The audit owns trend-state maintenance. Walk every active trend in `reference/st
 Trend-state maintenance is not optional. The audit's deliverable to `strategic-trends.md` is a
 required artifact alongside the patched Appendix B.
 
+### Step 5c — Probe portfolio review (MANDATORY)
+
+The audit owns probe cadence. Walk the portfolio against measured yield:
+
+1. **Fire-rate table.** Compute per-probe status counts over the trailing 12+ sweeps (parse
+   `probes/sweeps/*.json` finding cards; statuses fired/partial/null/gap). Normalize probe-ID
+   variants before counting. Include the table in the audit summary.
+2. **Tier assignment.** Record a tier (D / E / M, per the sweep.md tier model) against every
+   directive in Appendix B. Downshift candidates: 10+ consecutive cycles without a fire AND
+   attached BS not CRITICAL. Upshift: any fire-rate recovery or risk elevation. Tier E directives
+   must state their activation condition explicitly.
+3. **Threshold sanity.** A probe with sustained partials and zero fires (10+ cycles) has a
+   miscalibrated fire bar or an inadequate source ladder; redefine the fired/partial boundary in
+   the directive or expand the ladder. PROBE-21 is the standing case.
+4. **Ceiling.** Hard ceiling: 25 active directives. Exceeding it forces retirement or merger of
+   the lowest-yield probes before any addition. Growth without retirement is the documented
+   failure pattern (13 directives Day 74 → 21+ Day 102, zero retirements since Day 76).
+5. **Ledger escalations.** Action every `expired-unresolved` ledger row at its second consecutive
+   expiry: source-ladder reconstruction, reformulation, or explicit structural-opacity marking.
+
+**One-time directive (first audit after 2026-06-11).** Restructure Appendix B for diff-reads:
+move the Confidence Architecture Summary and the new probe tier table to the top of the file as a
+state header; move the accreted per-day audit-note chronicle below the BS inventory. Delete
+nothing; git preserves. Add a probe-ID normalization note (canonical spellings). This enables the
+sweep/sitrep diff-read pre-flight.
+
 ### Step 6 — Promote BS and PROBE candidates from archived staging manifests
 
 If a synthesis-revision manifest in `synthesis/staging/archive/` introduced BS or PROBE candidates not yet promoted to operational status in Appendix B, evaluate at this audit:
@@ -165,9 +194,12 @@ see to validate, and whether we are seeing it. Anything we would need but cannot
 
 ### Source C — Recent miscalls
 
-If the framework predicted X and Y happened, the gap between them often points at a blind spot. Walk
-recent SITREP probability matrices: any variable that moved sharply in an unexpected direction is a
-candidate for blind-spot diagnosis. The miscall itself is information about what we were not seeing.
+If the framework predicted X and Y happened, the gap between them often points at a blind spot. The
+systematic input is `calibration/prediction-ledger.md`: the Surprise register (major movers no
+watchlist carried), heavy did-not-fire clusters, and expired-unresolved rows are each candidates
+for blind-spot diagnosis. Supplement by walking recent SITREP matrices for sharp unexpected moves.
+The miscall itself is information about what we were not seeing; the Days 84-102 backfill pattern
+(all five surprises escalation-side, three of them new-vector classes) is the canonical example.
 
 ---
 

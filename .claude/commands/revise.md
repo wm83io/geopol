@@ -167,6 +167,26 @@ in the Version Notes that does not move the 6/12m structural prior must explain 
 expectation is that constraint-layer revisions either move the structural prior or have a stated
 reason for not doing so; held without reasoning is not an acceptable default.
 
+### Sustained-within-state-advance secondary gate (added 2026-06-11 via /premortem; Day 105 Mitigation 3)
+
+The Mitigation-5 rule (above) requires reasoning when a trend-*transition* fires. It has a failure
+surface of its own: a sustained multi-cycle escalation can occur entirely through VALIDATED trends
+advancing *within state* (no transition), so the transition-only update gate never trips and the
+structural prior freezes through a real regime change. Insulation metastasizes into staleness. The
+canonical case: T2/T8/T12 advanced 8/8 cycles Days 90-105 while the 30d Fork C ran to 35-47% and the
+6m Fork C held at 16-22% (~2x gap) because no transition was enacted.
+
+**Secondary gate:** when the trends anchoring a given fork have logged a **same-direction
+within-state advance on 4+ consecutive cycles** in `reference/strategic-trends.md` (even absent any
+state transition), the next revision MUST re-evaluate that fork's 6/12-month structural prior and
+state the outcome in the §8.1b Version Notes (moved, with magnitude; or held, with reasoning per the
+Mitigation-5 forms). The 4-consecutive-advance count is a structural-shift proxy that the
+transition-only gate misses. This does not weaken the two-matrix discipline against cycle noise: a
+single advance, or mixed-direction advances, does not trip it; only a sustained one-directional
+within-state run does. **Immediate application:** T2/T8/T12 are already past the 4-cycle threshold as
+of v4.3; the next revision must re-evaluate the Fork A / Fork C 6/12m priors (currently v4.1 Day-84
+baseline) rather than carry them again.
+
 After producing both outputs:
 - Write internal synthesis to `synthesis/synthesis-v{X-Y}.md`
 - Write blog version to `synthesis/synthesis-v{X-Y}-external.md`

@@ -20,6 +20,88 @@ The framework's analytical power is bounded by what it cannot see. This appendix
 
 The directives are not news-monitoring tasks. They are targeted intelligence probes aimed at specific signals that would either validate or break key framework assumptions. Each probe should be run once per week minimum, more frequently if adjacent data suggests movement.
 
+---
+
+## State Header (Day 105 comprehensive audit)
+
+*First audit after 2026-06-11; per the /audit one-time directive this state header (live Confidence Architecture Summary + Probe Tier Table + probe-ID normalization note) sits at the top for diff-read pre-flight. The accreted per-day audit-note chronicle follows below under "Audit Note Chronicle"; the BS inventory and standing directives are the operational body. Nothing deleted; git preserves prior layout.*
+
+### Confidence Architecture Summary (Day 105)
+
+| Blind Spot | Visibility | Framework Risk | Priority | Δ vs Day 90 |
+|---|---|---|---|---|
+| BS-1a Iranian decision architecture | 72-80% | High | High | held; A4 DEMOTED to provisional (v4-3); D93 Vahidi-named deal-track statement = partial progress on silent vertex (not HEU); P84-07 13+ cycles open |
+| BS-1b Iranian political-economic transmission | 10-15% (structurally opaque) | High-Critical | **Critical** | held; ~20+ dark cycles; rial 1,790,000 (-53%) is external war-cost pricing, not internal-transmission signal |
+| BS-3 Israeli internal politics | 68-73% | High | High | +3pp; Knesset dissolution 1st reading 106-0 (D97); Netanyahu modal shift defiant→coordinated→"on your own"; election Sep 8-Oct 20 |
+| BS-4 Chinese active support | 60-65% | Med | Med | held; retirement deferred to **June 23** (GL-V cascade window; NFRA partial loan-freeze vs MOFCOM blocking order, no banking cascade); PROBE-6 downshifted |
+| BS-5 US domestic | 70-80% / 5-15% | Med-High | Med-High | +5pp political; bicameral WPR test COMPLETE (House passed 215-208 / Senate rejected 47-53; executive won); constitutional-crisis probability DROPS; CPI 4.2% energy-transmission added as domestic-pressure variable |
+| BS-6 Russian domestic constraints | 30-35% | Med-High | Med-High | held; Russia inert all cycles |
+| BS-7 Energy markets | 45-55% | High+ | High | +~7pp; Kharg struck (PROBE-8 fired, first oil-infrastructure hit); two-track Hormuz equilibrium COLLAPSED into IRGC formal closure; Goldman $100+/H2, $120 Q3; Lloyd's war-risk recalc |
+| BS-8 IRGC factional structure | 55-60% | Med-High | High | held; D105 two-axis function confirmed (Hormuz via IRGC channel / GCC retaliation via Aerospace Force, simultaneous); Aliabadi silent |
+| BS-9 Russian siloviki cohesion and succession | 35-40% | Med-High | High | +~5pp; **BS-9.3 RESOLVED** (Meduza 60+ events Apr+May; threshold not reached; P90-04 did-not-fire; P90-04a resolved-late, instrumentation gap closed); T6 decay reset; re-verify July 1 |
+| BS-11 MOU architecture and focal points | 70-75% | High | High | held; LOI Hormuz clause HARDENED from negotiating item to staked sovereign position (D105); Iran rejected proposal June 9; Oman counteroffer outstanding |
+| BS-12 Principal-level ratification (asymmetric PA-gap) | 53-63% | High | High | +3pp; A1 statement-to-action gap COMPRESSED (48-72h → same-day/12-24h); new A1 sub-state "hawkish-with-same-day-execution" |
+| BS-13 Iranian residual capability | 65-73% | High | High | +5pp; Slantchev feigning-weakness extensively USE-confirmed (Kuwait ballistic, MSC Sariska cruise missile, 20+ at Israel; D105 70% missiles / 90% underground / 30-33 Hormuz / solid-fuel imports) |
+| BS-14 Dispositional reading & power-shift perception | 55-60% | High | High | held; US-Israeli dispositional divergence at peak (Trump expletive D100; "on your own" D105); both-sides maximalist; Weisiger asymmetry at peak |
+| BS-15 First-mover under asymmetric lock-in | 40-50% | Critical | **Critical** | held; PROBE-16 fired 14/14; 4th accident surface (Iran-GCC US-base); **PROBE-7 discriminator collapse RAISES joint-distribution opacity** (the Fork C/Fork A boundary degraded) |
+| BS-16 Eschatological multi-tradition convergence | 20-30% | Critical | **Critical** | held; no Tier-1 fire; Temple Mount Tier-2 accumulation (prayer pages + draft legislation) approaching the named Tier-1 trigger (Knesset prayer-rights law) |
+| BS-17 Christian Zionist US policy vector | 40-45% | High | High | held; deal-faction overrode maximalist 10+ consecutive cycles; Huckabee restraint-relay D90 (deal-protective use of maximalist figure) |
+| BS-18 Gulf state troika / unaligned-middle | 40-50% | Critical | **Critical** | +5pp; brake tested repeatedly, held but scope-bounded (no Lebanon coverage) and MBZ-pathway decay (UAE pro-escalation drift D105, PROBE-20 fired); MBS Palestinian-state-first; P102-09 open |
+
+**Critical BSs: 4 (BS-1b, BS-15, BS-16, BS-18).** Held from Day 82. Day 105: 0 adds, 0 retires (BS-4 retirement deferred to June 23). No new BS from Sources A/B/C this cycle; the prediction-ledger 5-surprise coverage gap is routed to /premortem + a /sitrep watchlist-construction directive rather than promoted to a BS (it is a forecasting-process gap, not a world-state dark area; candidate if it recurs).
+
+### Probe Tier Table (Day 105; trailing 14 sweeps Days 83-105)
+
+Tiers: **D** = default core cadence (weekly/daily); **M** = monthly/periodic; **E** = event-conditional (run only on activation condition, stated explicitly).
+
+| Probe | Serves | Tier | Fire / Partial / Null (14) | Disposition |
+|---|---|---|---|---|
+| PROBE-1 | BS-1a | D (bi-weekly) | 2 / 5 / 2 | hold |
+| PROBE-2 | BS-8, BS-1a | D | 5 / 8 / 1 | hold |
+| PROBE-3 | BS-1b | M | 1 / 3 / 0 | structurally opaque; monthly |
+| PROBE-6 | BS-4 | **E (downshift from M)** | 0 / 10 / 4 | 14 cycles no fire, BS-4 not critical; activation: OFAC action against a Chinese FI OR Hengli cascade. Tied to BS-4 June-23 retirement |
+| PROBE-7 | BS-13, CENTCOM posture | D | 6 / 5 / 3 | **RECALIBRATED Day 105** (binary self-defense discriminator retired; two-axis nominal/operational score) |
+| PROBE-8 | BS-7 | D | 6 / 8 / 0 | hold; Kharg fired D105 |
+| PROBE-9 | BS-3 | D | 11 / 2 / 1 | hold; highest-fire Israeli probe |
+| PROBE-10 | BS-5 | **M (downshift from D)** | 6 / 8 / 0 | bicameral WPR test complete (executive won); activation: Federal court WPA filing OR veto-override-capable majority |
+| PROBE-11 | BS-6 | M (bi-weekly) | 0 / 3 / 1 | hold; Russia inert |
+| PROBE-12' | BS-11 | D | 11 / 3 / 0 | hold |
+| PROBE-13 | BS-12 | D | 13 / 1 / 0 | hold; near-max fire |
+| PROBE-14 | BS-13 | D | 9 / 4 / 1 | hold |
+| PROBE-15 | BS-14 | D | 9 / 5 / 0 | hold |
+| PROBE-16 | BS-15 | D | 14 / 0 / 0 | hold; composite, fires every cycle |
+| PROBE-17 | BS-9 (composite) | M (bi-weekly) | 0 / 9 / 2 | hold; BS-9.3 resolved D105; T6 decay re-verify July 1 |
+| PROBE-18 | BS-16 | E | 0 / 1 / 4 | event-only; activation: any Tier-1/Tier-2 eschatological event |
+| PROBE-19 | BS-17 | E (quarterly) | 0 / 0 / 1 | event-only; activation: intra-Republican Israel split / Project Esther milestone |
+| PROBE-20 | BS-18 | D | 8 / 6 / 0 | hold |
+| PROBE-21 | BS-12, Paine death-ground | D | 0 / 12 / 0 | **THRESHOLD-SANITY case** (12 partials, 0 fires); fired-bar clarified Day 105 (see directive). D105 P-DG2 candidate (post-strike demand-hardening + Hormuz staking) is the closest approach yet; flag next-cycle |
+
+Active directives: 19 (+ BS-9.1-9.5 sub-probes under PROBE-17). Under the 25-directive ceiling; no forced retirement. Growth-without-retirement remains the watched failure pattern; two downshifts this cycle (PROBE-6, PROBE-10).
+
+**Probe-ID normalization note (canonical spellings).** Use exactly: PROBE-1, PROBE-2, PROBE-3, PROBE-6, PROBE-7, PROBE-8, PROBE-9, PROBE-10, PROBE-11, **PROBE-12'** (retains the prime; some sweeps write "PROBE-12" — normalize to the prime), PROBE-13, PROBE-14, PROBE-15, PROBE-16, PROBE-17, PROBE-18, PROBE-19, PROBE-20, PROBE-21. PROBE-4 retired Day 76 (folded to BS-2 retirement); PROBE-5 never issued. Sub-probes are BS-9.1 through BS-9.5 (not "PROBE-9.x"). When counting fire-rates, fold "fired (upgraded)" and "fired (post-sweep)" into "fired."
+
+---
+
+## Audit Note Chronicle
+
+*Historical per-day audit notes (Day 70 through Day 105). Newest substantive comprehensive audit is Day 105 (see below); the Day 90 and earlier notes are retained for provenance. Per the Day 105 one-time restructuring directive these belong below the BS inventory; physical relocation of the pre-Day-105 blocks is staged (the live state is the header above). Read the Day 105 note for current disposition.*
+
+**Day 105 comprehensive audit note.** First comprehensive audit since Day 88 (+8 cycles; Day 90 was a +1 micro-audit). Triggered by the Day 105 SITREP's explicit mandate to recalibrate PROBE-7, plus accumulated structural movement across Days 93-105. Five epistemic movements:
+
+1. *PROBE-7 self-defense discriminator collapsed and was recalibrated.* The Day 90 binary discriminator (self-defense vs resumed-operations) failed because it had no scale/proportionality gate: 49 Tomahawks within 40 miles of Tehran plus Kharg Island can satisfy "self-defense framed, reactive, no new operation name" while being operationally Fork A by scale and target-class. The binary is retired and replaced by a two-axis score (nominal axis: framing/operation-name/ROE-doc; operational axis: scale, target-class, proportionality-to-provocation). "Pressure-while-talking" (Fork C nominal / Fork A operational) is now an explicit middle register where both forks are elevated and overlapping. See the recalibrated PROBE-7 directive.
+
+2. *BS-9.3 resolved; instrumentation gap closed.* Meduza confirmed 60+ Putin public events April+May combined; the <2/month-for-3-months threshold was not reached (P90-04 did-not-fire; P90-04a resolved-late before the second /audit escalation). T6 decay clock reset to Day 105 (re-verifying signal present). The only standing instrumentation escalation candidate is P87-03 (IEA Hormuz-shortfall data, expired-unresolved Day 102, first expiry); watch for a second expiry.
+
+3. *Oil dimension activated (BS-7).* Kharg Island struck (first oil-infrastructure hit; PROBE-8 fired) and the IRGC formally closed Hormuz, collapsing the two-track equilibrium BS-7 had tracked into a single formal-closure posture. BS-7 +~7pp; framework risk High+ held (Goldman $120 Q3 worst case; Kharg saturation pathway now live). PROBE-8 target signals extended (formal-closure status; Lloyd's war-risk; transit-enforcement-against-US-vessel as a deal-terminal trigger).
+
+4. *Bicameral war-powers test resolved for the executive (BS-5, T9).* House passed 215-208 (D97); Senate rejected on-merits 47-53 (D102); no challenge to the D105 49-Tomahawk expansion. The legislative-constraint path is exhausted at current alignment; constitutional-crisis probability drops. T9 disc-ratio reached 4:10 (>1:3) on the House passage and is routed to /premortem for a commitment-bias review; NOT demoted (the on-merits Senate failure is countervailing supporting evidence). BS-5 +5pp political; CPI 4.2% energy-transmission added as an independent domestic-pressure variable.
+
+5. *Capability use-confirmation and apex-attribution discipline.* BS-13 +5pp (Slantchev feigning-weakness extensively use-confirmed across Kuwait/Sariska/Israel strikes). BS-12 +3pp (A1 statement-to-action gap compressed to same-day). A4 (and A2) DEMOTED to provisional in synthesis v4-3 on principal-validation grounds; BS-1a held (the demotion correctly marks the apex attribution as inherited-not-validated; D93 Vahidi-named deal-track statement is partial progress on the silent vertex but not on HEU, P84-07).
+
+Source C systematic finding: the prediction ledger logs 5 surprises (Days 84-102), ALL escalation-side, 3 of them new-vector classes (Hormuz toll, Lebanon clause, Iran-Israel direct axis). The watchlists over-index on resolution-side discriminators (LOI-acceptance variants appear on every list) and under-index on adversary option-generation. Routed to /premortem and instituted as a /sitrep watchlist-construction directive: every "Signals That Force Immediate Revision" list must carry at least one adversary-new-vector branch (a novel escalation modality not yet observed), not only resolution-side discriminators. Not promoted to a new BS (it is a forecasting-process gap, not a world-state dark area); candidate if it recurs.
+
+Trend actions (applied to `reference/strategic-trends.md`): 0 promotions, 0 demotions; T6 decay reset; T9 disc-ratio breach routed to /premortem; T3 single-cycle CONTESTED flag logged (near-Tehran strikes, not promoted); two drift-log entries (T9, T3); pending candidates updated (Hajj-backchannel official-level channel persists below FM bar; intra-troika asymmetric decay accumulating on UAE drift, no named split). Critical-BS count 4 held. No voice-discipline (T7) drift across the 8 cycles.
+
 **Day 88 audit note:** Trigger-cadence audit (on-trigger, not monthly floor) consuming four cycles (Day 85-88) since the Day 84 audit, the v4.2 synthesis discipline-correction increment, and the A4 apex re-identification. Four structural epistemic movements:
 
 1. *A4 apex RE-IDENTIFIED (principal-validation discipline, first synthesis-scope application).* Day 88 Iran International (T3) reports an IRGC military council of senior officers controls all access to Mojtaba Khamenei, blocking President Pezeshkian. The functional Iranian apex is re-read as Vahidi + the IRGC council; Mojtaba is incapacitated or nominal (legitimacy shield). The Day 84 HEU-stays directive is reattributed to IRGC origination: content unaffected (HEU stays is the IRGC position), principal corrected. This is the failure mode the v4.2 principal-validation discipline (manifest S7) was built to catch — a named-principal commitment inherited from multi-outlet anonymous framing (the 5-outlets-1-cluster near-miss), carried at M confidence, re-validated against discriminating evidence and corrected on the first cycle producing it. BS-1a visibility -5pp (78-83% → 72-80%): legibility gained on WHICH body decides, lost on the prior Mojtaba-as-apex commitment; IRGC-council internals dark; discriminating signal now Vahidi-direct named statement on HEU. Logged as a drift event in `reference/strategic-trends.md` (distinct from the D77 BS-12 single-cycle over-read: here the error was inherited-framing over-commitment).
@@ -58,7 +140,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ## Blind Spot Inventory
 
-### BS-1a: Iranian Decision Architecture — HIGH (Day 88: A4 apex RE-IDENTIFIED — IRGC military council functional apex; Mojtaba incapacitated/nominal; visibility -5pp on attribution correction)
+### BS-1a: Iranian Decision Architecture — HIGH (Day 88: A4 apex RE-IDENTIFIED — IRGC military council functional apex; Mojtaba incapacitated/nominal; visibility -5pp on attribution correction | Day 105: 72-80% held; A4 (and A2) DEMOTED to provisional in synthesis v4-3 on principal-validation grounds — the demotion correctly marks the apex attribution as inherited-not-validated; D93 Vahidi-named deal-track statement is partial progress on the silent vertex but P84-07 HEU-axis discriminator absent 13+ cycles)
 
 **What we can't see:**
 
@@ -94,7 +176,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-3: Israeli Internal Politics — HIGH (visibility upgraded Day 84; Knesset preliminary dissolution FIRED Day 83; Netanyahu-Trump divergence documented Day 84)
+### BS-3: Israeli Internal Politics — HIGH (visibility upgraded Day 84; Knesset preliminary dissolution FIRED Day 83; Netanyahu-Trump divergence documented Day 84 | Day 105: 65-70% → 68-73% +3pp; Knesset dissolution 1st reading 106-0 D97; Netanyahu modal shift defiant→coordinated→"on your own"; election Sep 8-Oct 20)
 
 **What we can't see:**
 
@@ -111,7 +193,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-4: Chinese Active Support Calibration — MED (Day 84 sub-component re-activation; near-retirement deferred one more cycle)
+### BS-4: Chinese Active Support Calibration — MED (Day 84 sub-component re-activation; near-retirement deferred one more cycle | Day 105: retirement deferred to JUNE 23 — GL-V Hengli cascade window still open; NFRA partial loan-freeze vs MOFCOM blocking order, no banking cascade confirmed; retire June 23 absent an OFAC action against a Chinese FI. PROBE-6 downshifted to event-conditional, 0 fires / 14 cycles)
 
 **What we can't see:**
 
@@ -129,7 +211,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-5: US Domestic Military and Political Fractures — MED-HIGH (Day 84 WPR near-passage in both chambers; Vance ACTIVE; Stage-2 hysteresis lock-in promoted to T9 VALIDATED)
+### BS-5: US Domestic Military and Political Fractures — MED-HIGH (Day 84 WPR near-passage in both chambers; Vance ACTIVE; Stage-2 hysteresis lock-in promoted to T9 VALIDATED | Day 105: 65-75% → 70-80% +5pp political; bicameral WPR test COMPLETE — House passed 215-208 D97 / Senate rejected 47-53 D102, executive won; no challenge to D105 49-Tomahawk expansion; constitutional-crisis probability DROPS; CPI 4.2% energy-transmission added as domestic-pressure variable)
 
 **What we can't see:**
 
@@ -162,7 +244,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-7: Energy Market Structural Breaks — HIGH (visibility upgraded Day 76)
+### BS-7: Energy Market Structural Breaks — HIGH+ (visibility upgraded Day 76 | Day 105: 35-50% → 45-55% +~7pp; Kharg Island struck — first oil-infrastructure hit, PROBE-8 fired; two-track Hormuz equilibrium COLLAPSED into IRGC formal closure to all vessels; Goldman $100+/H2, $120 Q3 worst case; Lloyd's war-risk recalc; Brent contained $92-94 because de facto blockade pre-priced)
 
 **What we can't see:**
 
@@ -180,7 +262,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-8: IRGC Factional Structure — MED-HIGH (Day 83 Vahidi silence-break logged; sub-finding captured at BS-1a)
+### BS-8: IRGC Factional Structure — MED-HIGH (Day 83 Vahidi silence-break logged; sub-finding captured at BS-1a | Day 105: 55-60% held; two-axis IRGC function confirmed — Hormuz formal closure via IRGC channel + GCC base retaliation via Aerospace Force operating simultaneously across two independent escalation axes; Aliabadi/Khatam al-Anbiya still silent)
 
 **What we can't see:**
 
@@ -196,7 +278,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-9: Russian Siloviki Cohesion and Succession Architecture — HIGH (ELEVATED Day 77 from unmodeled placeholder)
+### BS-9: Russian Siloviki Cohesion and Succession Architecture — HIGH (ELEVATED Day 77 from unmodeled placeholder | Day 105: 30-40% → 35-40%; BS-9.3 RESOLVED — Meduza 60+ Putin events Apr+May, <2/month-3-month threshold NOT reached, P90-04 did-not-fire, P90-04a instrumentation gap resolved-late; T6 decay clock reset; re-verify July 1)
 
 *Status: Active monitoring with five sub-probes. Source: structural probe at `probes/structural/2026-05-14-bs9-russia-succession.md`. Reference node: `reference/russia-pole-architecture.md`.*
 
@@ -242,7 +324,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-11: MOU Architecture and Schelling Focal Point Coordination — HIGH (Day 84: LOI + 30-day framework architecture surfaces; Pakistan channel formally at principal tier via Munir)
+### BS-11: MOU Architecture and Schelling Focal Point Coordination — HIGH (Day 84: LOI + 30-day framework architecture surfaces; Pakistan channel formally at principal tier via Munir | Day 105: 70-75% held; LOI Hormuz clause HARDENED from negotiating item to staked sovereign-security position — IRGC formal closure makes any Hormuz-access concession require a public retraction of a formal military declaration, raising the prestige cost beyond what bilateral terms supply; Iran rejected proposal June 9; Oman counteroffer outstanding)
 
 **What we can't see:**
 
@@ -259,7 +341,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-12: Principal-Level Ratification Capacity (Asymmetric PA-Gap) — HIGH (Day 84: two-axis apex visibility — Vahidi-shaped on kinetic posture, Mojtaba-shaped on deal terms)
+### BS-12: Principal-Level Ratification Capacity (Asymmetric PA-Gap) — HIGH (Day 84: two-axis apex visibility — Vahidi-shaped on kinetic posture, Mojtaba-shaped on deal terms | Day 105: 50-60% → 53-63% +3pp; A1 statement-to-action gap COMPRESSED 48-72h → same-day/12-24h, new A1 sub-state "hawkish-with-same-day-execution"; D93 Vahidi-named deal-track statement partial-resolves the silent vertex, HEU-axis P84-07 still open)
 
 **What we can't see:**
 
@@ -275,7 +357,7 @@ Critical-BS count post-audit: BS-1b, BS-15, BS-16, BS-18 (4 critical; held). No 
 
 ---
 
-### BS-13: Iranian Residual Capability / Feigned Weakness — HIGH (Day 84: Slantchev feigning-weakness graduates from multi-cycle-analytical to US-IC-confirmed at H)
+### BS-13: Iranian Residual Capability / Feigned Weakness — HIGH (Day 84: Slantchev feigning-weakness graduates from multi-cycle-analytical to US-IC-confirmed at H | Day 105: 60-68% → 65-73% +5pp; feigning-weakness extensively USE-confirmed — Kuwait ballistic strike D93, MSC Sariska cruise missile D96, 20+ missiles at Israel D102, D105 70% missiles retained / 90% underground storage / 30-33 Hormuz sites / solid-fuel imports)
 
 **What we can't see:**
 
@@ -309,7 +391,7 @@ Per Weisiger (2013): commitment-problem wars driven by dispositional readings pr
 
 ---
 
-### BS-15: First-Mover Architecture Under Asymmetric Lock-In — CRITICAL (Day 84: LOI as suspension mechanism; six-actor architecture with Munir at principal tier)
+### BS-15: First-Mover Architecture Under Asymmetric Lock-In — CRITICAL (Day 84: LOI as suspension mechanism; six-actor architecture with Munir at principal tier | Day 105: 40-50% held; PROBE-16 fired 14/14; 4th accident surface added (Iran-GCC US-base exchange) on top of the D102 Iran-Israel direct axis; the PROBE-7 discriminator collapse RAISES joint-distribution opacity — the Fork C/Fork A boundary that helped rank pathways has degraded, so visibility holds rather than rises despite more data)
 
 **What we can't see:**
 
@@ -398,7 +480,7 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 
 ---
 
-### BS-18: Gulf State Troika / Unaligned-Middle Pivot Capacity — CRITICAL (Day 84: re-characterized as coalition of different interests with asymmetric decay profile)
+### BS-18: Gulf State Troika / Unaligned-Middle Pivot Capacity — CRITICAL (Day 84: re-characterized as coalition of different interests with asymmetric decay profile | Day 105: 35-45% → 40-50% +5pp; brake tested repeatedly, held but SCOPE-BOUNDED — does not cover Israeli Lebanon ops D96 — and MBZ-pathway decay via UAE pro-escalation drift D105, PROBE-20 fired; MBS Palestinian-state-first D93; P102-09 Saudi-support-for-US-action open)
 
 *Source: Day 81 §5.25 synthesis addition (Gulf State Troika Brake Mechanism), promoted per Day 82 reference-to-operational instrumentation check. Reference linkage: `reference/tripolar-realignment-whitepaper.md` §3.1 (tripolar plus structurally-significant-unaligned middle), §3.3 (US-pole internal contradiction), §5.1 (Saudi Red Sea pivot capex commitments).*
 
@@ -535,6 +617,18 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 
 **Self-defense-vs-resumed-operations discriminator (NEW Day 90).** The Day 90 CENTCOM strikes sat precisely on the boundary between ceasefire-edge attrition and campaign resumption. The discriminator: a strike is scored as a Fork C inadvertent-escalation signal (matrix nudge, not reset) when ALL hold: (a) CENTCOM frames it as self-defense; (b) it is reactive to a specific named Iranian provocation; (c) no new operation name; (d) no ROE shift to offensive; (e) the US executive holds deal-direction concurrently. It is scored as a Fork A resumption (matrix reset) when ANY fail, especially a new operation name or an offensive-ROE shift. This blocks the recency-bias misread of self-defense strikes as a campaign restart while preserving the trigger for genuine resumption.
 
+**Discriminator RECALIBRATION (Day 105; binary retired).** The Day 90 binary collapsed on June 11: 49 Tomahawks within 40 miles of Tehran plus Kharg Island satisfied "(a) self-defense framing, (b) reactive, (c) no new operation name" while being operationally Fork A by scale and target-class. The binary had no scale/proportionality gate, so a full-resumption-scale strike could score Fork C on the checklist. The Day 105 SITREP applied a relabeled (d) proportionality and (e) deal-direction-non-reversing and found both broken; the audit ratifies that the binary checklist is no longer operationally reliable and replaces it with a **two-axis score**:
+
+- **NOMINAL axis** (the Day 90 criteria, retained as the *framing* register): self-defense framing; reactive to a named provocation; no new operation name; no ROE-document shift to offensive; executive holds deal-direction.
+- **OPERATIONAL axis** (NEW; the missing gate): strike *scale* relative to the provocation (proportionality); *target-class* (radar/ADA/boats = low; C2/depots = mid; **oil infrastructure / capital environs / nuclear sites = high**); sustained vs one-off.
+
+Scoring:
+- **Fork C (matrix nudge, not reset):** nominal axis all-hold AND operational axis low/mid target-class AND roughly proportionate. (The Day 90 Bandar Abbas SAM / mine-laying-boat strikes.)
+- **"Pressure-while-talking" convergence register (NEW; both forks elevated and overlapping):** nominal axis holds (no new operation name) BUT operational axis crosses to high target-class or gross disproportionality. This is the Day 105 state: Fork C nominal / Fork A operational. Score BOTH Fork C and Fork A as elevated; do not collapse to one.
+- **Fork A confirmed (matrix reset):** ANY hard trigger fires — a new operation name; OR US KIA; OR Iranian Hormuz-enforcement strike on a US vessel; OR confirmed nuclear-site targeting; OR US ground-force commitment (P-CHEMO). These are the unambiguous Fork A entries regardless of framing.
+
+The convergence register is the analytical product, not noise: it captures "escalation-toward-deal" (maximum operational pressure under nominal deal-framing). Retire the expectation that the discriminator returns a single fork during pressure-while-talking; report the two-axis pair until a hard trigger resolves it.
+
 **What changes the framework:**
 - Eisenhower deployment order: Fork A timeline compresses; BS-15 US-side first-mover threshold breached.
 - US strikes inside Iran under a NEW operation name or offensive ROE shift: self-defense framing breaks; resumed-operations trigger fires; probability matrix reset (distinct from self-defense strikes per the Day 90 discriminator).
@@ -564,8 +658,11 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 - IEA emergency meetings.
 - Commercial restoration (Hapag-Lloyd/Maersk) as off-ramp signal.
 - Product scarcity onset in South Africa, India, Thailand, Taiwan (Goldman 4-6 week window).
+- **Hormuz formal-closure status (NEW Day 105):** IRGC formal closure to all vessels declared June 11 (transit = targeting), collapsing the two-track equilibrium. Track: Lloyd's war-risk premium recalculation; whether the closure is enforced against a transiting vessel; any face-saving retraction mechanism in a deal text. **Oil-infrastructure targeting (NEW Day 105):** Kharg Island struck June 11 (first hit; PROBE-8 fired). Track Kharg saturation/operability, follow-on terminal strikes (Kharg handles the bulk of Iranian crude exports), and the Goldman $100/$120 forward-curve thresholds.
 
 **What changes the framework:**
+- Hormuz formal-closure enforced against a US vessel: Fork A hard trigger (matrix reset; same pathway as US KIA per recalibrated PROBE-7); deal track terminal.
+- Brent close above $100 sustained: Goldman threshold scenario active; oil-price-geostrategy trigger-read activated; US domestic-pressure inflection.
 - Backwardation steepening beyond ~$10 spread: physical scarcity confirmed.
 - Brent breakout above $115: Fork A repricing.
 - Brent breakout below $95: Fork B credibility.
@@ -903,6 +1000,8 @@ Secondary dimension: structural decline of Christian Zionist political potency p
 
 **Frequency:** Weekly baseline; elevated to daily on any P-DG signal (US targeting of named Iranian principals). Reference: `reference/paine-doctrine-iran-application.md` §5.
 
+**Threshold sanity (Day 105; 12 partials / 0 fires across the trailing 14 sweeps).** PROBE-21 is the portfolio's standing miscalibration case. The partials are honest, not a broken bar: the death-ground triggers require named-principal targeting (P-DG) or confirmed post-strike demand-hardening (P-DG2), neither of which occurred until Day 105 approached them. **Fired-bar clarified:** P-DG fires on a *confirmed strike against a named Iranian principal* (not strikes near the capital — proximity is a P-DG *approach*, scored partial). P-DG2 fires on *T2-confirmed post-strike escalation of the Iranian demand-set with explicit post-strike causal framing*. **Day 105 P-DG2 candidate (closest approach yet, scored partial pending confirmation):** Iranian terms hardened post-strike — FM "ceasefire meaningless," proposal rejected June 9, and the Hormuz formal-closure staking — immediately after the 49-Tomahawk package and near-Tehran targeting. If the next cycle confirms the demand-hardening is causally post-strike at T2, P-DG2 fires (Paine limited-to-unlimited inversion; Fork B 5-10pp down, Fork A/C 3-7pp up; synthesis revision candidate). This also arms the T3 second-cycle CONTESTED check. Hold weekly→daily on the near-Tehran approach.
+
 **Target signal:**
 
 - **P-AIM (aim-class determination):** Iranian official demand-set bounded at sanctions-relief-plus-deterrence (limited) vs escalating to order-revisionist terms (unlimited). Watch specifically for drift triggered by the death-ground dynamic itself: targeting may push a limited actor toward unlimited resistance as the bargaining range closes. Source tier: T1 (Araghchi/Ghalibaf/Vahidi direct), T3 (ICG/Vaez).
@@ -995,7 +1094,9 @@ The following events, if confirmed by two or more independent sources, require i
 
 ---
 
-## Confidence Architecture Summary (Day 90)
+## Confidence Architecture Summary (Day 90) — SUPERSEDED
+
+*SUPERSEDED by the live Confidence Architecture Summary (Day 105) in the State Header at the top of this file. Retained below for provenance; do not read for current scores. Per the Day 105 one-time restructuring directive the live summary now sits at the top for diff-read pre-flight.*
 
 | Blind Spot | Visibility | Framework Risk | Priority |
 |---|---|---|---|
@@ -1109,6 +1210,7 @@ The variable BS-10 tracked (operation-rename to escalate, with WPA reset archite
 
 ---
 
+*Day 105 audit revisions (comprehensive; +8 cycles since Day 90 micro-audit, first comprehensive since Day 88): 0 adds; 0 retires (BS-4 retirement deferred to June 23 on GL-V cascade window). 7 BS visibility deltas (BS-3 +3pp, BS-5 +5pp, BS-7 +~7pp, BS-9 +~5pp, BS-12 +3pp, BS-13 +5pp, BS-18 +5pp); BS-1a A4/A2 demoted-to-provisional note (v4-3); BS-4/8/11/15 framework-risk/mechanism notes. **PROBE-7 self-defense discriminator RECALIBRATED** (binary retired; two-axis nominal/operational score with explicit "pressure-while-talking" convergence register; mandated by Day 105 SITREP Section 3). PROBE-21 fired-bar clarified (threshold-sanity case; D105 P-DG2 candidate). PROBE-8 Hormuz-formal-closure + oil-infrastructure target signals added. Two probe tier downshifts (PROBE-6 → E, PROBE-10 → M). One-time restructuring: State Header (live Confidence Architecture Summary Day 105 + Probe Tier Table + probe-ID normalization note) added at top; Day 90 summary marked superseded; Audit Note Chronicle section header added (physical relocation of pre-Day-105 blocks staged). Trend patch to `reference/strategic-trends.md`: 0 promotions/demotions, T6 decay reset, T9 disc-ratio 4:10 routed to /premortem, T3 single-cycle CONTESTED flag, two drift-log entries, pending-candidate updates. Critical-BS count 4 held (BS-1b, BS-15, BS-16, BS-18). No T7 voice drift across 8 cycles. Source-C finding (5-surprise escalation-side coverage gap) routed to /premortem + /sitrep watchlist-construction directive.*
 *Day 90 audit revisions (trigger-cadence micro-audit, +1 cycle since Day 88): 0 adds; 0 retires; 0 visibility/risk score movements (single-cycle discipline). PROBE-7 self-defense-vs-resumed-operations discriminator added + new framework-revision-trigger row (CENTCOM May 25-26 self-defense strikes inside Iran scored Fork C, not Fork A resumption). Notes appended to BS-1a (Mojtaba written-not-visual statement reinforces A4), BS-13 (capability use-confirmed; T12 demonstrated), BS-18 (recency-correction: MBS Accords silence calendar-structural, not strain), BS-4 (retirement deferred on live post-GL-V cascade window). A2 and A4 principal-validation flags at 5th-cycle /premortem threshold. No trend-state transitions; no new drift events; critical-BS count 4 held.*
 *Day 88 audit revisions: 0 adds; 0 retires; T12 reconstitution-speed Powell amplifier promoted PENDING→VALIDATED (reference/strategic-trends.md); A4 apex re-identified (IRGC military council functional apex; Mojtaba incapacitated/nominal; HEU directive reattributed) with drift event logged; BS-1a -5pp (78-83%→72-80%), BS-11 +5pp (65-70%→70-75%), BS-13 +5pp (55-65%→60-68%); 3 directive additions (PROBE-7 UK/France Hormuz mission; PROBE-9 Lebanon clause; PROBE-20 Abraham Accords demand); BS-4 retirement deferred again on GL-V cascade watch; Hajj-backchannel candidate revised to official-level criterion; T9 disc-ratio incremented (D85 WPR de facto majority, not demoted); critical-BS count 4 held (BS-1b, BS-15, BS-16, BS-18).*
 
