@@ -1,0 +1,290 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-14",
+    "day_number": 108,
+    "framework_version": "v4.3",
+    "synthesis_anchor": "synthesis-v4-3.md",
+    "probes_run": ["PROBE-1","PROBE-2","PROBE-6","PROBE-7","PROBE-8","PROBE-9","PROBE-12'","PROBE-13","PROBE-14","PROBE-15","PROBE-16","PROBE-17","PROBE-19","PROBE-20","PROBE-21"],
+    "probes_skipped": [
+      {"probe_id": "PROBE-3", "tier": "M", "reason": "structurally opaque; ran June 11; monthly floor satisfied; rial/$24B-release relevant but internal-transmission still dark"},
+      {"probe_id": "PROBE-10", "tier": "M", "reason": "downshifted; activation (Federal court WPA filing OR veto-override-capable majority) not met; no new WPR vote; deal-convergence cycle"},
+      {"probe_id": "PROBE-11", "tier": "M", "reason": "ran June 3; next monthly run July 1; Russia absent from deal architecture"},
+      {"probe_id": "PROBE-18", "tier": "E", "reason": "no Tier-1/Tier-2 eschatological activation condition met this cycle; Temple Mount accumulation unchanged"}
+    ],
+    "summary": {
+      "fired": 5,
+      "partial": 9,
+      "null": 1,
+      "gap": 0
+    },
+    "reference_trends": [
+      {"trend": "T1", "effect": "advance", "note": "Multi-mediator unaligned-middle architecture delivering: Qatari negotiators to Tehran June 14 to finalize; Oman/Pakistan channels active. Unaligned-middle pivot capacity producing the settlement, not just braking strikes"},
+      {"trend": "T2", "effect": "hold", "note": "Hormuz drone demonstration June 13 (all downed) = deterrent-as-bargaining-leverage; multi-axis capability retained as the deal chip (Iran reopens Hormuz within 30d in the 14-point draft)"},
+      {"trend": "T3", "effect": "advance", "note": "Two-level structure reinforced: Araghchi mid-tier negotiates the 14-point draft / remote signing while apex floor stays in reserve (hardliner criticism, Hormuz 'pressure continues'). Day 105 CONTESTED flag second-cycle check did NOT fire (no near-Tehran round, no principal targeting; de-escalation reasserts the floor); recommend flag STAND-DOWN at /audit"},
+      {"trend": "T4", "effect": "advance", "note": "Deal-faction (Trump/Bessent/Vance) drove the settlement over maximalist; no eschatological/maximalist counter-mobilization (PROBE-19 null). Day 105 single-cycle T4 strain (Hormuz closure vs deal-faction) REVERSED; recommend strain stand-down at /audit"},
+      {"trend": "T5", "effect": "hold", "note": "No Tier-1 eschatological fire; Temple Mount Tier-2 accumulation unchanged"},
+      {"trend": "T6", "effect": "hold", "note": "Meduza June 9: 60 Putin public events Apr+May (~30/mo), 22% below prior-year but far above the <2/mo BS-9.3 threshold. June-14 decay-audit threshold SATISFIED with re-verifying signal; decay clock reset"},
+      {"trend": "T7", "effect": "hold", "note": "Voice discipline maintained; no substrate-as-agent constructions"},
+      {"trend": "T8", "effect": "advance", "note": "Deal credibility surged (Bessent 'days'; Trump 'within days'); Powell window-closing pressure on Israel at maximum theoretical loading. No Israeli pre-emption this cycle; mechanism predicts rising incentive, watch. Reinforced, not contested"},
+      {"trend": "T9", "effect": "hold", "note": "No new WPR challenge; deal, if signed, would resolve via executive path. Disc-ratio breach review still at /premortem"},
+      {"trend": "T10", "effect": "hold", "note": "Russia absent from deal; China the pressured/consulted pole (Bessent 'Economic Fury' letters; NFRA loan pause; June 10 Treasury 9-entity procurement action, no bank designation, no cascade). T10 PENDING; China-junior datapoints accrete"},
+      {"trend": "T11", "effect": "hold", "note": "Multiplex mediator architecture (Qatar/Oman/Pakistan) delivering a settlement; deal de-escalates the global-energy-order stress (Brent <$86.50). PENDING"},
+      {"trend": "T12", "effect": "hold", "note": "No new reconstitution cluster this cycle; June 13 Hormuz drones (downed) demonstrate retained capability as leverage; deal would freeze/limit. Holds VALIDATED, no advance signal"}
+    ],
+    "calibration": {
+      "trend_state_question": "No transitions warranted on single-cycle evidence. Two Day 105 single-cycle flags should be STOOD DOWN at next /audit: (a) T3 CONTESTED flag — its armed second-cycle trigger (a second near-Tehran/nuclear-site round OR confirmed principal targeting) did NOT fire; de-escalation reasserts the apex-deterrent floor, so the 2-cycle threshold is not met and the flag clears; (b) T4 single-cycle strain (Hormuz-closure-vs-deal-faction) reversed as the deal-faction reasserted. T8 deal-credibility advance is REINFORCING (not CONTESTED): the Day 105 'CONTESTED-vs-reinforced' question resolves reinforced. SYNTHESIS-MECHANISM reading-swing flag: synthesis v4.3 §5.26 claimed the Hormuz formal closure 'hardened from negotiable to staked sovereign position'; within 3 days Araghchi reframed to 'service fees under negotiation' and the draft commits Iran to reopen Hormuz in 30d. The 'staked' read is a candidate escalation-peak over-read; the disciplined reading is that the June-11 closure was a Slantchev brinkmanship move, not a staked position. Flag for /audit; do NOT enact a structural reversal in the sweep (canonical D77 lesson: single-cycle reversal of a fresh synthesis claim is not multi-cycle confirmation).",
+      "thesis_question": "HOLDING. The central thesis (materialist bargaining; no actor controls the constraint surface; framework ranks options, actors select) is reinforced, not broken, by the Day 105->108 whipsaw. The 49-Tomahawk/Hormuz-closure peak (Day 105) followed by deal-wording-agreed (Day 108) is exactly the escalate-to-extract-terms-then-converge oscillation the Fearon/Slantchev bargaining model predicts. The Day 105 operational reading (Fork C/A lead) was a single-cycle escalation-peak read; this cycle re-converges toward Fork D'/Fork B. Reading-swing risk is explicitly logged: the framework's operational reading swung hard in 3 days while the thesis held; weight the deal-revival but retain meaningful Fork A/C residual for snap-back (deal is agreed-in-wording, NOT signed; high reversal base rate this conflict).",
+      "proposed_matrix_revisions_30d": {
+        "Fork_C": {"prior": "35-47%", "proposed": "24-34%", "direction": "down", "rationale": "De-escalation: deal wording agreed June 12-13; Qatari finalization shuttle; no new CENTCOM strike package since June 11; oil -4% on deal pricing. Cascade conditions ease but four accident surfaces remain live until ceasefire signs"},
+        "Fork_A": {"prior": "22-34%", "proposed": "15-25%", "direction": "down", "rationale": "No NEW operation name (Epic Fury pre-existing; PROBE-7 nominal axis holds); zero new US KIA; deal convergence. Israeli-pre-emption sub-path keeps Fork A from collapsing (T8 window-closing pressure rises as deal nears)"},
+        "Fork_D_prime": {"prior": "12-20%", "proposed": "15-23%", "direction": "up", "rationale": "Structured LOI/MoU path active and imminent (14-point draft; remote-signing mechanism); some deal-mass migrates upward to Fork B as the path moves from deferral toward settlement"},
+        "Fork_B_combined": {"prior": "8-13%", "proposed": "20-30%", "direction": "up", "rationale": "Deal wording agreed (Iran International/RFERL/MEMRI-tier T2-T3); Bessent 'days/weekend/Monday'; Trump 'great deal/within days'; Araghchi 'sign remotely'; 14-point draft (Hormuz reopen 30d, lift blockade+oil sanctions, $24B release). Capped below a higher band by reversal risk: agreed-in-wording != signed; Trump-statement discount; hardliner criticism; deal 'fails to prevent bomb' = US/Israeli ratification risk"},
+        "None_of_above": {"prior": "5%", "proposed": "5%", "direction": "no change", "rationale": "Mandatory non-zero floor held"},
+        "KEC_derived": {"prior": "57-81%", "proposed": "39-59%", "direction": "down", "note": "[DERIVED] Fork A + Fork C + tail (<2%). For footnote use only; primitives lead. Sharp drop tracks the de-escalation rotation"}
+      },
+      "note_6_12m_matrix": "No 6/12m structural-prior update this cycle. No enacted trend-state transition, no L1-L5 constraint-layer shift, no major-version increment. NOTE: a SIGNED ceasefire/MoU would be a structural event triggering /revise and a 6/12m re-base; the draft is not yet signed. 6/12m matrix unchanged from v4.1/v4.2; staleness acknowledged (now stale in BOTH directions across two cycles: Day 105 escalation peak and Day 108 deal revival both exceed the structural prior's range)."
+    }
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-1",
+      "target": "Iranian apex access — Mojtaba/A4 functional-apex channel; external-actor triangulation; apex ownership of the deal",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["Britannica 2026 Iran war", "CFR Global Conflict Tracker", "ms.now deal analysis", "Iran International", "RFERL"],
+      "discounts_applied": ["Mainstream 'Mojtaba supreme leader, more radical than father' framing: media-inherited principal attribution, -50% as inherited-not-validated"],
+      "finding": "Mainstream framing now names Mojtaba Khamenei as supreme leader (Ali Khamenei killed Feb 28) and 'more radical than his father.' This sits in tension with an advancing deal track: a deal-track settlement implies apex CONSENT to negotiation, which the 'more radical/hardline blocking' framing does not predict. No Mojtaba public visual confirmed this cycle. The reported 'sign remotely' modality (Araghchi) is itself a discriminator: remote signing lets the apex avoid public ownership, consistent with the IRGC-council/diffuse/incapacitated-Mojtaba reading rather than a functional public apex.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance"],
+      "conflict_notes": "A4 PROVISIONAL (v4-3 manifest S2; cycle 1 of the 6-cycle provisional window; demotes to structurally-opaque if no discriminating evidence by ~Day 123). Candidate set {IRGC military council; Aerospace Force command; supreme-leader-office staff; diffuse Vahidi-led}. Step 7b.5 forcing question (provisional window, axis-level): does the apex PUBLICLY OWN the deal/MoU (named Mojtaba OR Vahidi statement claiming the terms = apex-directed; narrows the set) vs apex silence with FM-only/remote signing (delegated/opaque; apex stays a black box)? This cycle: remote-signing modality leans AGAINST a functional public apex (partial discriminating signal). Next-cycle discriminator: a Mojtaba/Vahidi named public statement owning or repudiating the deal terms. 8th+ consecutive cycle without Mojtaba visual. Inherited, not validated this cycle."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "target": "Vahidi HEU disposition statement — direct named attribution for A4 discrimination (P84-07)",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["Iran International", "ms.now", "Arab Center DC", "Reuters"],
+      "discounts_applied": ["IRGC-origin inference: -50% on indirect attribution"],
+      "finding": "No Vahidi-direct named statement on HEU disposition this cycle (7th consecutive absent cycle; P84-07 carried). The 14-point draft reportedly restricts future talks to nuclear and sanctions and analysts assess it does NOT achieve full HEU removal/dismantlement (Iran retains capability). The HEU disposition is thus being settled at the FM/draft level with apex attribution still opaque; no named principal owns the HEU concession publicly.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance", "T4 advance"],
+      "conflict_notes": "A4 provisional (manifest S2). Vahidi-direct HEU statement remains the named primary discriminating evidence; 7th absence. The draft's failure to require full HEU removal cuts AGAINST the maximalist apex framing and is consistent with a pragmatic mid-tier/council settlement. Alternative: SL-office staff retaining HEU-disposition authority directly with Vahidi as implementer. Discriminating evidence needed: Vahidi press conference with direct HEU attribution, or second-cluster corroboration of the council structure independent of Iran International."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "target": "Secondary sanctions — GL-V Hengli cascade; Chinese-bank exposure; BS-4 June-23 retirement window",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["US Treasury press releases", "Bloomberg", "CNBC", "Reuters", "Yahoo Finance"],
+      "discounts_applied": ["Bessent China-bank-letters: single-cluster, no formal designation; -50%"],
+      "finding": "June 10 Treasury sanctioned nine individuals/entities for Iranian military weapons procurement ('Economic Fury' track) — procurement networks, NOT Chinese financial institutions. Bessent's two-Chinese-bank warning letters remain warnings (no designation). China's NFRA continues pausing NEW loans to US-sanctioned refiners (Hengli) without calling in existing credit. No major Chinese bank formally designated; no SWIFT-corridor cut. GL-V Hengli-to-banks cascade NOT triggered.",
+      "trigger_match": "partial",
+      "direction": "no change",
+      "reference_trends": ["T10 hold"],
+      "conflict_notes": "Ran under auto-upshift (June 10 Treasury action touches the China-Iran nexus; BS-4 retirement window closes June 23). BS-4 retirement remains on track: activation (OFAC action against a Chinese FI OR confirmed Hengli banking cascade) still not met; if no Chinese-FI action by June 23, retire. China-managing-without-cascade pattern holds (T10-adjacent: Beijing absorbs compliance cost, no rupture). A pending deal lifting Iranian oil sanctions would moot much of the GL-V cascade question — note for /audit."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "target": "CENTCOM posture two-axis discriminator (recalibrated Day 105) — nominal framing vs operational scale",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM releases", "Times of Israel", "Gulf News", "globalsecurity.org Iran War Daily", "Critical Threats June 13"],
+      "discounts_applied": [],
+      "finding": "Nominal axis: unchanged — operations remain under the pre-existing Operation Epic Fury + the formalized naval blockade (Day 57 as of June 9); NO new operation name declared for the June re-escalation; framing stays self-defense/blockade-enforcement. CENTCOM chief 'will not stop' rhetoric persists but with no new large strike package reported June 12-14 comparable to the June-11 49-Tomahawk round. Operational axis: DE-ESCALATED toward defensive intercepts — June 13 CENTCOM downed all Iranian one-way attack drones aimed at commercial shipping, transit unimpeded; no new offensive package. The dominant vector this cycle is deal-convergence, not escalation. The Day 105 'pressure-while-talking / Fork A-operational' middle register relaxes toward Fork C-nominal/lower.",
+      "trigger_match": "Fork C and Fork A both ease; deal-convergence dominates; PROBE-7 two-axis read returns to low-operational/nominal-self-defense",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork C 35-47% -> 24-34%; Fork A 22-34% -> 15-25%. PROBE-7 two-axis recalibration (Day 105) is functioning: it correctly separates nominal framing (unchanged) from operational scale (de-escalated), avoiding a false Fork-A read on the standing 'will not stop' rhetoric.",
+      "reference_trends": ["T3 advance — apex-deterrent floor reasserted; near-Tehran-round second-cycle CONTESTED trigger did NOT fire", "T2 hold"],
+      "conflict_notes": "Principal attribution: CENTCOM defensive intercepts attributed to CENTCOM/SecDef chain; Trump deal-claims concurrent but near-zero commitment value. Fork A activation watch (new operation name OR US KIA) remains UNFIRED. 'Will not stop' is standing blockade-enforcement rhetoric, not a new-operation declaration; do not over-read it as Fork A. Snap-back risk: a deal collapse re-arms the June-11 escalation pattern within one cycle."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "target": "Oil/Hormuz — Brent price, Kharg, commercial traffic, Lloyd's insurance, formal-closure status",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["TradingEconomics Brent", "Al Jazeera economy", "EIA June STEO", "Reuters markets", "Mehr News (via market reporting)"],
+      "discounts_applied": [],
+      "finding": "Brent fell more than 4% to below $86.50/bbl on June 13 — lowest since early March — on US-Iran peace-agreement hopes; a sharp reversal from $92-94 at Day 105. The 14-point draft commits Iran to reopen the Strait of Hormuz within 30 days and to lifting oil sanctions and the naval blockade. The June-11 IRGC FORMAL closure declaration is being walked back: Araghchi reframed Iran's posture from 'closed to all vessels / transit = targeting' to 'pressure continues' plus 'service fees under negotiation' (no legal basis for tolls). June 13 Iranian drone attacks on commercial shipping were all downed; transit unimpeded. EIA June-9 STEO ($105 avg Jun-Jul assuming closure) is now superseded by deal pricing.",
+      "trigger_match": "Deal-pricing reversal; Hormuz formal-closure UNWINDING; Fork D'/Fork B up, Fork C/Fork A down",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: contributes to Fork B 8-13% -> 20-30% and Fork D' 12-20% -> 15-23%; Fork C/A down per PROBE-7. SYNTHESIS FLAG: v4.3 §5.26 'Hormuz hardened from negotiable to staked sovereign position' is contradicted within 3 days (reframe to 'service fees'/reopen-in-30d). Route to /audit as a candidate escalation-peak over-read; the disciplined reading is June-11 closure = Slantchev brinkmanship, not a staked position.",
+      "reference_trends": ["T2 hold — Hormuz deterrent used as bargaining leverage then traded in the draft", "T11 hold — energy-order stress easing on deal pricing"],
+      "conflict_notes": "No source conflict on the price move. Backwardation likely easing (deal would collapse the curve); confirm next cycle. PROBE-8 Goldman/$100-threshold scenario is OFF the table this cycle (Brent dropping, not rising). Reversal risk symmetric: a deal collapse re-prices Hormuz-closure risk immediately."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "target": "Israeli internal — Knesset dissolution, coalition dynamics, Netanyahu posture, unilateral timeline vs a US-Iran deal",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Times of Israel", "Haaretz", "Axios (via Iran International)", "Yahoo opinion (Israeli-aligned)", "ms.now"],
+      "discounts_applied": [],
+      "finding": "No new Knesset dissolution reading June 12-14 (1st reading 106-0 was June 2/Day 97; 2nd/3rd pending; election window Sep 8-Oct 20). Trump told Netanyahu he expects to finalize the deal 'within days' (Axios). Israeli-aligned criticism intensified that the emerging deal fails Trump's stated war goals and lacks missile limits / does not permanently prevent an Iranian bomb. Lebanon operations continue (carry). No Israeli pre-emption signal this cycle.",
+      "trigger_match": "T8 Powell window-closing pressure rising as deal credibility surges; A23 spoiler latent (diplomatic criticism, no kinetic move)",
+      "direction": "up",
+      "urgency": "next_cycle",
+      "proposed_revision": "Israeli-pre-emption sub-path (Fork A variant) HELD at elevated 32-45% within the pre-caretaker window despite composite Fork A down: a near-signing deal is the maximal Powell 'window closing' trigger. Flag for /audit: T8 reinforced (not contested). Watch a unilateral Israeli strike as the highest-probability deal-spoiler over the next 1-2 cycles.",
+      "reference_trends": ["T8 advance — deal credibility is the Powell driver; pre-emption incentive at maximum", "T4 advance — Israeli maximalist criticism did NOT trigger a US maximalist counter-mobilization"],
+      "conflict_notes": "A23 Netanyahu spoiler attribution: diplomatic-criticism modality this cycle, inferred. Alternative principal: Israeli-aligned commentary (yahoo opinion) is analyst/columnist, not Netanyahu-direct; do not read columnist criticism as a Netanyahu decision. Discriminating evidence: Netanyahu public statement rejecting the draft, or an IDF strike-readiness signal. Neither arrived. Inherited, not validated. The single most important near-term deal risk: Powell predicts Israel's pre-emption incentive PEAKS exactly as the deal nears signature."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "target": "Diplomacy track — deal architecture, LOI/MoU status, Oman/Qatar channels, E3/IAEA",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Iran International liveblog", "RFERL", "Axios", "ms.now", "Mehr News (via reporting)", "Critical Threats June 13"],
+      "discounts_applied": ["Trump 'great deal' claim: near-zero commitment value without signed text; scored as corroborating-context only", "Axios 'within days' relay: single-reporter, -30% on timing precision"],
+      "finding": "Sharp reversal of the Day-105 collapse read. June 12-13: US and Iran AGREED THE WORDING of a deal to end the war; Qatari negotiators flew to Tehran June 14 to finalize. Bessent: a deal could come 'in the next few days... this weekend or Monday.' Araghchi: the agreement 'would be signed remotely by both sides and then formally announced.' Iranian state media (Mehr) outlined a 14-point draft: ceasefire across all fronts; reopen Hormuz within 30 days; lift the naval blockade and oil sanctions; release $24B in blocked funds; restrict future talks to nuclear and sanctions. Trump asserted a 'great deal' and that 'Tehran would not obtain nuclear weapons.' Analysts assess the draft does NOT meet the original war goals (no permanent bomb-prevention; Iran offered a better deal pre-war). No E3/IAEA engagement this cycle.",
+      "trigger_match": "Fork B combined up sharply; Fork D' up; deal moves from structurally-impassed (Day 105) to wording-agreed/finalization-imminent",
+      "direction": "up",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork B combined 8-13% -> 20-30%; Fork D' 12-20% -> 15-23%; Fork C/A down per PROBE-7. CAP the Fork B move below a higher band: agreed-in-wording != signed; the conflict has a high near-deal-failure base rate (Trump 'near-signed' Day 100 -> never signed; P102-01 did-not-fire). Retain meaningful Fork A/C residual for snap-back.",
+      "reference_trends": ["T1 advance — Qatar/Oman/Pakistan unaligned-middle architecture delivering the settlement", "T3 advance — mid-tier (Araghchi) negotiates while apex floor reserved"],
+      "conflict_notes": "A2 PROVISIONAL (v4-3 manifest S1; cycle 1 of 6-cycle provisional window). Step 7b.5 forcing question restate: White House readout using 'full dismantlement / all HEU removed' language = Trump-committed (Penetration mechanism intensity validated); continued absence + a draft that RETAINS Iranian capability = Netanyahu-coalition-projected (demote toward inherited). This cycle CUTS AGAINST A2: the draft fails full dismantlement (analyst consensus), contradicting the Netanyahu-relayed maximalist commitment — supports the demotion. Discriminating evidence for next cycle: signed text + the actual HEU clause."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "target": "A1 Trump principal state — oscillation pattern, decision-moment read, hawkish vs deal posture",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Reuters", "Axios", "Iran International", "ms.now", "CBS (via reporting)"],
+      "discounts_applied": ["Trump statements: near-zero commitment value per CLAUDE.md; scored for oscillation-pattern signal only"],
+      "finding": "A1 arc continued its highest-amplitude post-ceasefire swing: June 11 'Tehran will pay the price' (hawkish max + same-day 49-Tomahawk tape) -> June 12-13 'great deal,' 'Tehran would not obtain nuclear weapons,' told Netanyahu finalize 'within days.' 9th documented oscillation arc since Day 88; still no observable attractor. KEY DISCIPLINE POINT: this cycle the deal track is corroborated BEYOND Trump rhetoric — Bessent ('days'), Araghchi ('sign remotely'), and the Qatari finalization shuttle are the higher-quality data; A1's deal-claim is consistent with a real underlying track for once, but the commitment value of the Trump statement itself remains near-zero.",
+      "trigger_match": "A1 oscillation at peak amplitude; deal-leaning at cycle close; supports Fork B/D' up",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "No independent matrix move beyond PROBE-12'/PROBE-7/PROBE-8. SITREP Section 3 to characterize the June 11 'pay the price' -> June 12-13 'great deal' swing as the sharpest single-arc reversal of the conflict, and to note the rare alignment of A1 deal-rhetoric with corroborated track movement.",
+      "reference_trends": ["T1 hold — Fearon private-info gap driving oscillation; consistent with incomplete-information bargaining"],
+      "conflict_notes": "A1 attribution: individual statement near-zero value; oscillation pattern is the informative object. Alternative: 'pay the price' was terminal bargaining pressure that EXTRACTED the deal-wording concession (escalate-to-extract, then converge) — the Slantchev brinkmanship reading, which the Day-105->108 sequence fits cleanly. Discriminating evidence on commitment: signed text, not statements."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "target": "Iranian reconstitution speed — T12 state; missile retention, underground storage, import channels",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["ISW/Critical Threats June 13", "Reuters", "The War Zone"],
+      "discounts_applied": [],
+      "finding": "No new reconstitution-assessment cluster this cycle (Day 105 carried: 70% missiles retained, 90% underground storage, 30/33 Hormuz sites, Kpler solid-fuel imports). The June 13 Hormuz one-way-drone attacks on commercial shipping (all downed) demonstrate retained offensive capability deployed as bargaining leverage rather than for attrition. A signed deal would freeze/limit reconstitution and reframe T12 as a frozen rather than compounding driver.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T12 hold"],
+      "conflict_notes": "T12 holds VALIDATED with no advance signal this cycle (no new IC/IISS cluster). Capability use-confirmed continues (drone demonstration) but at leverage scale, not campaign scale. If the deal signs with verifiable limits, flag T12 for a state re-assessment (capability-recovery driver neutralized) at /revise."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "target": "Dispositional asymmetry — Weisiger framework; Iranian hardening vs US deal-willingness",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Reuters", "Iran International", "ms.now", "Arab Center DC"],
+      "discounts_applied": [],
+      "finding": "Sharp reversal from the Day-105 both-sides-maximalist peak. Both principals converged toward deal posture this cycle: US (Bessent 'days'; Trump 'great deal') and Iran (Araghchi 'sign remotely'; Hormuz reframed to 'service fees'). Weisiger dispositional asymmetry DOWN from peak. Residual friction is intra-side, not inter-side: Iranian hardliners criticize the memorandum; Israeli-aligned voices criticize the draft's weakness — both are domestic-ratification friction, not principal-to-principal hardening.",
+      "trigger_match": "Dispositional asymmetry easing; miscalculation-cascade structural condition relaxing from Day-105 peak",
+      "direction": "down",
+      "urgency": "next_cycle",
+      "proposed_revision": "Supports Fork C down (PROBE-7). The leading near-term Fork-C/Fork-A risk migrates from principal-disposition to RATIFICATION friction (Iranian hardliner bloc; Israeli pre-emption) — the two-level-game ratification constraint (A13) is now the binding deal risk, not dispositional asymmetry.",
+      "reference_trends": ["T3 advance — apex floor reserved while mid-tier converges", "T8 advance — Israeli ratification/pre-emption is the residual asymmetry"],
+      "conflict_notes": "Weisiger reads public posture. The public convergence is genuine (corroborated across US+Iran channels), unlike Day-105 public divergence. Distinguish ratification friction (real, two-level) from principal hardening (eased). Do not read hardliner criticism as apex repudiation absent a named apex statement."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "target": "Accident surfaces / first-mover under asymmetric lock-in (BS-15)",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM", "globalsecurity.org Iran War Daily", "Reuters", "Al Jazeera"],
+      "discounts_applied": [],
+      "finding": "The four accident surfaces (§5.28) carry, but activity de-escalated: Surface 1 (US-Iran Hormuz) saw the June 13 drone-vs-commercial-shipping incident, all downed, zero US KIA, transit unimpeded. No new surface opened. A pending ceasefire-across-all-fronts would close Surfaces 2-4 (Lebanon, Iran-Israel direct, Iran-GCC base) if signed. The zero-KIA intercept pattern held through this cycle (cross-surface binding sub-constraint intact).",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T2 hold"],
+      "conflict_notes": "PROBE-16 has fired every cycle as a composite; scored partial this cycle because the dominant move is de-escalation and no NEW surface or first-mover event occurred. First-mover joint-distribution opacity persists until a ceasefire formally closes the surfaces. Snap-back: surfaces re-activate immediately on a deal collapse."
+    },
+    {
+      "probe_id": "PROBE-17",
+      "target": "Russian siloviki dynamics — BS-9.3 Putin public-event frequency; T6 decay re-verification (due June 14)",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Meduza June 9", "vlast.is", "kremlin.ru events", "The Insider"],
+      "discounts_applied": ["Meduza exile source: -20% on regime-internal interpretation; event counts less discount-sensitive"],
+      "finding": "T6 30-day decay re-verification (due June 14) SATISFIED. Meduza June 9: Putin took part in 60 public events in April+May (vs 55 Jan-Mar), ~30/month — far above the BS-9.3 <2/month threshold; described as image-shoring amid declining approval; 22% fewer events than the same period last year; near-zero regional travel (security). BS-9.3 NOT triggered; T6 holds VALIDATED; decay clock reset to Day 108.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T6 hold — re-verifying signal present; decay clock reset"],
+      "conflict_notes": "Same Meduza data as the Day-105 resolution, used here to satisfy the June-14 decay-audit threshold with a fresh-enough re-verifying signal (no contradicting datum). Return PROBE-17 to M cadence next cycle absent new BS-9 signal; next T6 re-verify ~July 8. The 22%-below-prior-year count is a soft watch item (not a fragmentation signal at current absolute level)."
+    },
+    {
+      "probe_id": "PROBE-19",
+      "target": "Eschatological coalition — CUFI, Vance, Huckabee; intra-GOP Israel split; Temple Mount; Mahdist invocation",
+      "status": "null",
+      "confidence": "L",
+      "sources_consulted": ["Reuters", "Haaretz", "ms.now", "Yahoo opinion"],
+      "discounts_applied": [],
+      "finding": "No Tier-1/Tier-2 eschatological activation. Despite Israeli-aligned criticism of the draft (missile limits; bomb-prevention failure), no CUFI/Huckabee/Hegseth maximalist counter-mobilization against the deal materialized; no Temple Mount incident; no Mahdist invocation. The criticism is strategic/policy register, not eschatological-coalition mobilization.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T4 advance — deal-faction held; no maximalist counter-mobilization on a near-signing deal (7th+ cycle PROBE-19 null)", "T5 hold"],
+      "conflict_notes": "Null = no signal surfaced, not status-quo-confirmed. Ran (rather than skipped on E-tier) because a near-signing deal failing the war's stated goals is the strongest possible activation context for the maximalist faction; its non-activation is itself a strong T4 datapoint. The absence of an eschatological/maximalist veto on a capability-retaining deal is the cleanest T4 confirmation of the conflict window."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "target": "Gulf state troika — BS-18 unaligned-middle pivot capacity; UAE/Saudi/Qatar signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["RFERL", "Travel And Tour World", "Wikipedia 2026 Iran war reactions", "Al-Monitor Gulf desk"],
+      "discounts_applied": [],
+      "finding": "Gulf posture this cycle is deal-damage-control / de-escalation: Qatar at the finalization tier (negotiators to Tehran June 14); Gulf states broadly engaging Iran via mediation, backchannel, and economic-risk management to protect energy infrastructure and Hormuz stability. No new Gulf endorsement of US military action; Iran's standing UAE-complicity allegation and compensation demand carry but did not escalate. The Day-105 'UAE drift toward tolerate-escalation' read is NOT reinforced this cycle — deal optimism pulls Gulf posture back toward the brake/de-escalation pole.",
+      "trigger_match": "BS-18 brake/de-escalation pole reasserts; Day-105 MBZ-pathway-decay read NOT reinforced (reading-swing risk)",
+      "direction": "no change",
+      "reference_trends": ["T1 advance — Qatar at finalization tier; Gulf de-escalation capacity active", "T10 hold"],
+      "conflict_notes": "READING-SWING FLAG: Day-105 PROBE-20 read UAE ambassador drift as MBZ-pathway decay/tolerate-escalation; this cycle deal-convergence pulls Gulf posture back to the brake pole. Neither cycle changes BS-18 state; the operational implication swung. Log against the intra-troika-asymmetric-decay candidate (no named MBS-MBZ split either cycle). Principal: Qatar mediation = state-level (high confidence); UAE/Saudi positions inferred from posture, not named-principal statements this cycle."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "target": "Paine death-ground framework — P-DG, P-DG2, P-AIM, P-INFO, P-OVEX signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM", "Critical Threats June 13", "Iran International", "ms.now"],
+      "discounts_applied": [],
+      "finding": "P-DG (US targeting of named Iranian principals): NOT fired (no principal targeting; June activity de-escalated to drone intercepts). P-DG2 (terms hardening post-strike): the Day-105 candidate DISSIPATES — Iran SOFTENED this cycle (deal wording agreed; Hormuz reframed from closure to 'service fees'/reopen-30d), the opposite of death-ground demand-hardening. P-AIM: limited aims confirmed and now textually bounded (14-point draft: nuclear+sanctions+Hormuz+funds; no regime-change/territorial demand). P-INFO: Oman/Qatar channels open = information pathway preserved (no advisor-purge signal). P-OVEX: deal would reverse proxy-overextension. Death-ground dynamics NOT triggered; the cycle moved toward war-termination-by-negotiation, the Paine off-ramp.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance — apex-deterrent floor reserved while limited-aims bargaining converges"],
+      "conflict_notes": "PROBE-21 fire-bar note: 13th partial, 0 fires. The Day-105 P-DG2 candidate (post-strike demand-hardening + Hormuz staking) RESOLVED downward this cycle — vindicates the Day-105 'flag, not fire' call and is direct evidence the fire-bar is correctly set, not merely unreachable: when the precondition (apex hardening) reversed, the probe correctly did not fire. Carry the threshold-recalibration question to /audit but with this cycle as evidence the bar discriminates."
+    }
+  ],
+  "trigger_digest": [
+    {
+      "probe_id": "PROBE-12'",
+      "trigger": "Deal wording agreed June 12-13; Qatari finalization shuttle to Tehran June 14; 14-point draft; Fork B/D' up, Fork C/A down",
+      "urgency": "immediate",
+      "proposed_action": "30d matrix: Fork B combined 8-13% -> 20-30%; Fork D' 12-20% -> 15-23%; Fork C 35-47% -> 24-34%; Fork A 22-34% -> 15-25%. SITREP to lead with the deal-revival reversal of the Day-105 collapse read; flag agreed-in-wording != signed and the high near-deal-failure base rate."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "trigger": "Hormuz formal-closure UNWINDING (Araghchi 'service fees'/reopen-30d); Brent -4% to <$86.50 on deal pricing",
+      "urgency": "immediate",
+      "proposed_action": "Route to /audit: synthesis v4.3 §5.26 'Hormuz hardened to staked sovereign position' contradicted within 3 days; candidate escalation-peak over-read; disciplined reading = June-11 closure was Slantchev brinkmanship. Do not enact structural reversal in-sweep (single-cycle, D77 lesson)."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "trigger": "CENTCOM two-axis discriminator de-escalates (nominal unchanged / operational down to intercepts); no new operation name; Fork A activation watch unfired",
+      "urgency": "immediate",
+      "proposed_action": "Confirm Fork C/A down per matrix; note the recalibrated PROBE-7 (Day 105) correctly avoided a false Fork-A read on standing 'will not stop' blockade rhetoric."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "trigger": "T8 Powell pre-emption pressure at maximum as deal nears signature; Israeli pre-emption is the top near-term deal-spoiler",
+      "urgency": "next_cycle",
+      "proposed_action": "Hold Israeli-pre-emption Fork-A variant at 32-45% within the pre-caretaker window despite composite Fork A down. /audit: T8 reinforced (resolves the Day-105 CONTESTED-vs-reinforced question = reinforced)."
+    },
+    {
+      "probe_id": "PROBE-3-trend-stand-down",
+      "trigger": "Day-105 single-cycle flags second-cycle check: T3 CONTESTED trigger did NOT fire; T4 strain reversed",
+      "urgency": "next_audit",
+      "proposed_action": "/audit: STAND DOWN the T3 CONTESTED flag (armed second-cycle trigger - second near-Tehran round OR principal targeting - did not fire; de-escalation reasserts the floor) and the T4 single-cycle strain (deal-faction reasserted). Symmetric-discipline application; both flags correctly held-not-promoted at Day 105."
+    }
+  ],
+  "gap_log": []
+}
