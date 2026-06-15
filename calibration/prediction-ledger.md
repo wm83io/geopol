@@ -25,23 +25,23 @@
 
 ---
 
-## Scorecard (updated through Day 108)
+## Scorecard (updated through Day 109)
 
 | Metric | Count |
 |---|---|
-| Signal rows logged | 54 |
-| Resolved fired (full + partial) | 16 (12 full, 4 partial) |
-| Resolved did-not-fire | 17 (+2 Day 108: P105-04, P102-08) |
+| Signal rows logged | 57 |
+| Resolved fired (full + partial) | 17 (13 full, 4 partial) |
+| Resolved did-not-fire | 18 (+1 Day 109: P108-01) |
 | Expired-unresolved | 1 (P90-04a resolved-late Day 105) |
 | Superseded | 1 |
-| Open (carried into Day 109+) | 18 |
+| Open (carried into Day 110+) | 19 |
 | Surprises (unlisted major movers) | 5 |
-| **Watchlist coverage** | **16 / 21 major movers pre-listed (Day 108 P105-03 = first diplomatic-vector hit; N below interpretation floor)** |
-| **Matrix-followed** | **y: 11, partial: 4, n.a.: 2, n: 0 (15/15 scoreable followed)** |
+| **Watchlist coverage** | **17 / 22 major movers pre-listed (Day 109 P93-01 signature = second consecutive diplomatic-vector hit; N below interpretation floor)** |
+| **Matrix-followed** | **y: 12, partial: 4, n.a.: 3, n: 0 (16/16 scoreable followed)** |
 | Fork snapshots logged | 2 (both pending expiry) |
 | Fork snapshots scored | 0 |
 
-Reading (provisional, small N): process discipline is strong (no fired signal saw its pre-committed move silently ignored); the weak coverage edge improved this cycle (Day 108 P105-03 deal-wording fired as pre-listed, the first major mover hit on the diplomatic vector the surprise register flagged). Instrumentation persistence remains the open weakness (Vahidi-direct HEU discriminator carried 14+ cycles unresolved; BS-9.3 resolved Day 105).
+Reading (provisional, small N): process discipline is strong (no fired signal saw its pre-committed move silently ignored); the weak coverage edge improved for a second cycle (Day 108 P105-03 deal-wording and Day 109 P93-01 signature both fired as pre-listed, two consecutive major-mover hits on the diplomatic vector the surprise register had flagged as weak). Instrumentation persistence remains the open weakness (Vahidi-direct HEU discriminator carried 15+ cycles unresolved; apex-ownership discriminator P108-02 now carried into the post-signature window).
 
 ---
 
@@ -63,24 +63,25 @@ Pattern: all five surprises are escalation-side and three are new-vector classes
 
 | ID | Logged | Carried-to | Type | Claim | Pre-committed move | Resolve-by |
 |---|---|---|---|---|---|---|
-| P84-07 | 84 | 108 | signal | Vahidi direct named statement on HEU disposition | A4 HEU-axis resolved; synthesis revision candidate | standing; 14+ cycles open; A4 provisional window (v4-3) |
-| P87-01 | 87 | 108 | signal | White House readout using "full dismantlement" / "all HEU removed" | Confirms Netanyahu Penetration relay at principal level | standing; Day 108 MoU defers HEU, evidence accumulating against A2 |
-| P85-02 | 85 | 108 | signal | Israeli unilateral strike on Iranian nuclear/military site | Fork D' and Fork B collapse; mass into Fork A | standing tail-watch; top deal-spoiler during signing window |
-| P86-03 | 86 | 108 | signal | IDF air-refueling tempo / F-35-F-15 forward-positioning escalation | Israeli pre-emption rhetorical → operational; Variant B reprices toward 38-50% | standing |
-| P93-01 | 93 | 108 | signal | Trump signs 60-day MOU / LOI | Fork D' activates; 60-day clock; A2 demoted | AT CUSP; final text agreed Day 108, signing scheduled June 15; resolve next 1-2 cycles |
-| P93-04 | 93 | 108 | signal | US KIA in any kinetic exchange | Fork C resolves into Fork A entry; deal track collapses; matrix resets | standing; did-not-fire D108 (zero new KIA) |
-| P97-02 | 97 | 108 | signal | Tehran Grand Bazaar full closure confirmed T1/T2 | BS-1b activates; BS-15 Iran-side threshold breached | open; provisional signal only |
-| P100-09 | 100 | 108 | signal | Hezbollah accepts South Litani withdrawal framework | Lebanon triple-block partially resolves; Fork D' lower bound recovers toward 26-34% | open; all-fronts ceasefire in MoU adjacent |
-| P102-02 | 102 | 108 | signal | Second Iran-Israel direct exchange without successful Trump halt | Fork C → 34-44%; deal-direction breaking; synthesis revision required | next Lebanese provocation cycle; did-not-fire D108 (Beirut strike was IDF-Hezbollah) |
-| P102-03 | 102 | 108 | signal | Netanyahu coalition fracture (far-right resignation) | Caretaker accelerates; Lebanon clause → Zamir authority; Fork D' recovery conditional | open |
-| P102-09 | 102 | 108 | signal | Saudi public support for US military action | BS-18 fractures; Fork A re-elevates; Fork B-multilateral collapses | standing |
-| P105-01 | 105 | 108 | signal | CENTCOM names a new operation (any name abandoning self-defense framing) | Fork A ACTIVATED; Fork A 22-34% → 40-55%; Fork D' < 5%; deal track terminal | standing; did-not-fire D108 (Epic Fury pre-existing) |
-| P105-02 | 105 | 108 | signal | Iran enforces Hormuz formal closure against US naval escort (fires on US vessel) | Same as US KIA pathway; Fork C → Fork A; matrix resets | standing; did-not-fire D108 (drones at commercial shipping, downed) |
-| P105-05 | 105 | 108 | signal | Brent >$100/bbl sustained (close, not intraday touch) | Oil-price-geostrategy trigger-read activated; domestic US pressure inflection | standing; did-not-fire D108 (Brent fell to <$86.50) |
-| P108-01 | 108 | - | signal | MoU signing slips past June 17 without Iranian acceptance | Fork D' reverts toward 20-28%; snap-back; P102-08-class watch | June 17 |
-| P108-02 | 108 | - | signal | Iranian apex (Mojtaba or Vahidi) named public statement owning or repudiating the MoU | A4 apex-identity discriminator resolves; synthesis revision candidate | next 1-2 cycles |
-| P108-03 | 108 | - | signal | Missile-program-limit clause enters the 60-day-talks text | New Fork D' collision class (adversary-new-vector); reprices post-signing deferral path | first 1-2 cycles of talks window |
-| P108-04 | 108 | - | signal | Brent closes back above $92 on a signing failure | Deal-pricing reversal confirms snap-back | standing |
+| P84-07 | 84 | 109 | signal | Vahidi direct named statement on HEU disposition | A4 HEU-axis resolved; synthesis revision candidate | standing; 15+ cycles open; A4 provisional window (v4-3) |
+| P87-01 | 87 | 109 | signal | White House readout using "full dismantlement" / "all HEU removed" | Confirms Netanyahu Penetration relay at principal level | standing; D109 signed text leaves 440kg HEU, evidence-against A2 |
+| P85-02 | 85 | 109 | signal | Israeli unilateral strike on Iranian nuclear/military site | Fork D' and Fork B collapse; mass into Fork A | standing tail-watch; did-not-fire D109 (Israel withheld at signature); top deal-spoiler in 60-day window |
+| P86-03 | 86 | 109 | signal | IDF air-refueling tempo / F-35-F-15 forward-positioning escalation | Israeli pre-emption rhetorical → operational; Variant B reprices toward 38-50% | standing |
+| P93-04 | 93 | 109 | signal | US KIA in any kinetic exchange | Fork C resolves into Fork A entry; deal track collapses; matrix resets | standing; did-not-fire D109 (zero new KIA) |
+| P97-02 | 97 | 109 | signal | Tehran Grand Bazaar full closure confirmed T1/T2 | BS-1b activates; BS-15 Iran-side threshold breached | open; provisional signal only |
+| P100-09 | 100 | 109 | signal | Hezbollah accepts South Litani withdrawal framework | Lebanon triple-block partially resolves; Fork D' lower bound recovers toward 26-34% | open; MoU "all-fronts" claim vs Israel "not bound" on Lebanon |
+| P102-02 | 102 | 109 | signal | Second Iran-Israel direct exchange without successful Trump halt | Fork C → 22-32%; deal-direction breaking; synthesis revision required | next Lebanese provocation cycle; did-not-fire D109 (no Iran-Israel direct exchange) |
+| P102-03 | 102 | 109 | signal | Netanyahu coalition fracture (far-right resignation) | Caretaker accelerates; Lebanon clause → Zamir authority; Fork D' recovery conditional | open; watch rising (opposition "absolute failure" attacks, no resignation D109) |
+| P102-09 | 102 | 109 | signal | Saudi public support for US military action | BS-18 fractures; Fork A re-elevates; Fork B-multilateral collapses | standing; inverse D109 (Gulf backing the deal) |
+| P105-01 | 105 | 109 | signal | CENTCOM names a new operation (any name abandoning self-defense framing) | Fork A ACTIVATED; Fork A 22-34% → 40-55%; Fork D' < 5%; deal track terminal | standing; did-not-fire D109 (blockade lifted, no new op) |
+| P105-02 | 105 | 109 | signal | Iran enforces Hormuz formal closure against US naval escort (fires on US vessel) | Same as US KIA pathway; Fork C → Fork A; matrix resets | standing; did-not-fire D109 (Hormuz reopening in signed text) |
+| P105-05 | 105 | 109 | signal | Brent >$100/bbl sustained (close, not intraday touch) | Oil-price-geostrategy trigger-read activated; domestic US pressure inflection | standing; did-not-fire D109 (Brent $83.17) |
+| P108-02 | 108 | 109 | signal | Iranian apex (Mojtaba or Vahidi) named public statement owning or repudiating the MoU | A4 apex-identity discriminator resolves; synthesis revision candidate | next 1-2 cycles; did-not-fire D109 (Ghalibaf mid-tier signed; Mojtaba indirect repost only); narrows A4 to delegated/opaque |
+| P108-03 | 108 | 109 | signal | Missile-program-limit clause enters the 60-day-talks text | New Fork D' collision class (adversary-new-vector); reprices post-signing deferral path | first 1-2 cycles of talks window |
+| P108-04 | 108 | 109 | signal | Brent closes back above $92 on a signing/ceremony failure | Deal-pricing reversal confirms snap-back | standing |
+| P109-01 | 109 | - | signal | MoU formal ceremony executes June 20 (Geneva) | Fork D'-i confirmed operative; P93-01 close-out adjacent; talks-window clock starts | June 20 |
+| P109-02 | 109 | - | signal | Ceremony slips OR Iranian hardliner bloc forces apex repudiation before June 20 | Fork D' reverts toward 30-40%; snap-back; Fork C re-arms | June 20 |
+| P109-03 | 109 | - | signal | HEU down-blend verification dispute (Iran refuses IAEA access OR rejects named US "active role") | New Fork D' collision class (adversary-new-vector); reprices D'-v upward | first 1-2 cycles of talks window |
 
 (Standing rows P85-02, P86-03, P93-04, P97-02, P100-09, P102-09, P105-01, P105-02, P105-05, P108-04 subsume verbatim re-listings in future SITREPs; resolve once, at event or framework retirement.)
 
@@ -99,6 +100,8 @@ Sub-horizon watch: Israeli pre-emption 14-21d windows from Days 84-102 all close
 
 | ID | Logged | Type | Claim (terse) | Resolved | Outcome | Evidence | Matrix-followed |
 |---|---|---|---|---|---|---|---|
+| P93-01 | 93 | signal | Trump signs 60-day MOU / LOI | 109 | fired | MoU digitally signed June 15 (Trump+Vance / Ghalibaf); blockade lift + Hormuz reopen 30d + 60-day talks; ceremony June 20 | y: Fork D' 34-46 → 50-64 applied; decomposed to D'-i/D'-v variant table; A2 demotion supported |
+| P108-01 | 108 | signal | MoU signing slips past June 17 without Iranian acceptance | 109 | did-not-fire | Signature occurred June 15, ahead of the window; inverse of the slip condition | n.a. |
 | P105-03 | 105 | signal | Araghchi favorable engagement on Oman counteroffer post-strikes | 108 | fired | "Sign remotely"; agreed 60-day MoU final text (Sharif June 12); exceeded floor-preservation | y: LOI text moved, upward-revision condition met; Fork D' 12-20 → 34-46 applied |
 | P105-04 | 105 | signal | CENTCOM strike round explicitly targeting Iranian nuclear sites | 108 | did-not-fire | De-escalation cycle; no nuclear-site strike; "next cycle" window closed | n.a. |
 | P102-08 | 102 | signal | Iran hard exit from talks (SNSC/Araghchi T1 refusing Pakistan channel) | 108 | did-not-fire | Strongly inverse: Iran engaged, agreed 60-day MoU final text via Pakistan/Qatar channel | n.a. |
