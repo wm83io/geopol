@@ -185,8 +185,10 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 - [`synthesis/synthesis-v4-2.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/synthesis/synthesis-v4-2.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/synthesis/synthesis-v4-2.md)
 - [`synthesis/synthesis-v4-3-external.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/synthesis/synthesis-v4-3-external.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/synthesis/synthesis-v4-3-external.md)
 - [`synthesis/synthesis-v4-3.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/synthesis/synthesis-v4-3.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/synthesis/synthesis-v4-3.md)
+- [`synthesis/synthesis-v4-4-external.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/synthesis/synthesis-v4-4-external.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/synthesis/synthesis-v4-4-external.md)
+- [`synthesis/synthesis-v4-4.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/synthesis/synthesis-v4-4.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/synthesis/synthesis-v4-4.md)
 
 ---
 
-*Total tracked files: 123*
+*Total tracked files: 125*
 *Branch: `sitrep/day-109`*
