@@ -1,0 +1,274 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-15",
+    "day_number": 109,
+    "framework_version": "v4.3",
+    "synthesis_anchor": "synthesis-v4-3.md",
+    "probes_run": ["PROBE-1","PROBE-2","PROBE-6","PROBE-7","PROBE-8","PROBE-9","PROBE-12'","PROBE-13","PROBE-14","PROBE-15","PROBE-16","PROBE-20","PROBE-21"],
+    "probes_skipped": [
+      {"probe_id": "PROBE-3", "tier": "M", "reason": "structurally opaque; ran June 11; monthly floor satisfied; $24B-release figure disputed (Vance: not in texts) but internal transmission still dark"},
+      {"probe_id": "PROBE-10", "tier": "M", "reason": "downshifted; activation (Federal court WPA filing OR veto-override majority) not met; the MoU is an executive instrument, no WPR vote, no court action"},
+      {"probe_id": "PROBE-11", "tier": "M", "reason": "ran June 3; next monthly run July 1; Russia entirely absent from the signed-deal architecture"},
+      {"probe_id": "PROBE-17", "tier": "M", "reason": "ran June 14; T6 decay re-verify satisfied on Meduza 60-event count; next re-verify ~July 8; no new BS-9 signal"},
+      {"probe_id": "PROBE-18", "tier": "E", "reason": "no Tier-1/Tier-2 eschatological activation condition met; Temple Mount accumulation unchanged"},
+      {"probe_id": "PROBE-19", "tier": "E", "reason": "no intra-GOP Israel split / Project Esther / Temple Mount Tier-1 activation; the maximalist faction did NOT counter-mobilize against the signed deal (T4 datapoint captured via PROBE-9)"}
+    ],
+    "summary": {
+      "fired": 6,
+      "partial": 7,
+      "null": 0,
+      "gap": 0
+    },
+    "reference_trends": [
+      {"trend": "T1", "effect": "advance", "note": "Unaligned-middle mediator architecture (Pakistan/Sharif-Munir lead; Qatar finalization shuttle; Oman venue) delivered a SIGNED settlement, not just a brake. 'Islamabad Declaration' framing; G7 Macron invited Qatar/UAE/Egypt to the Mideast session. Pivot capacity produced the instrument. Strongest single-cycle T1 confirmation of the window"},
+      {"trend": "T2", "effect": "hold", "note": "Multi-axis capability (440kg HEU retained; missiles retained) traded as the deal chip and now frozen pending the 60-day down-blend talks; deterrent-as-bargaining-leverage realized then banked. Hold (frozen, no advance)"},
+      {"trend": "T3", "effect": "advance", "note": "Textbook two-level signature: mid-tier Ghalibaf (Parliament Speaker, pro-deal) signed FOR Iran while the apex did NOT publicly own the terms; Mojtaba's only signal was a reposted March unity message ('refrain from focusing on weaknesses') pushing back on hardliners. Apex floor reserved; mid-tier executes. Day 105 CONTESTED flag second-cycle stand-down CONFIRMED (de-escalation + signature; no near-Tehran round, no principal targeting). Recommend T3 flag STAND-DOWN at /audit"},
+      {"trend": "T4", "effect": "advance", "note": "Deal-faction (Trump/Vance) signed the MoU over maximalist objection; Netanyahu DECLINED to criticize ('main goals achieved'); no eschatological/CUFI counter-mobilization on a signed capability-retaining deal. Day 105 single-cycle T4 strain REVERSED. Recommend strain stand-down at /audit"},
+      {"trend": "T5", "effect": "hold", "note": "No Tier-1 eschatological fire; no maximalist religious mobilization against the signed deal; Temple Mount accumulation unchanged. PENDING"},
+      {"trend": "T6", "effect": "hold", "note": "PROBE-17 ran June 14; decay re-verify satisfied (Meduza 60 events Apr+May); Russia absent from the deal. No new signal this cycle; next re-verify ~July 8"},
+      {"trend": "T7", "effect": "hold", "note": "Voice discipline maintained; the framework ranked the deferral, the principals selected (Ghalibaf signed, Netanyahu reserved). No substrate-as-agent constructions"},
+      {"trend": "T8", "effect": "advance_watch", "note": "Powell pre-emption incentive at THEORETICAL MAXIMUM (a signed deferral instrument that leaves 440kg HEU in Tehran is the canonical window-closing configuration) YET Israel WITHHELD a strike on Iran at the single most-predicted moment (signature), choosing instead to reserve freedom of action and concentrate on the Lebanon axis (Katz: IDF stays in Lebanon/Syria/Gaza; 'full force' if Iran strikes). Mechanism reinforced (incentive high), but the highest-probability deal-spoiler did not fire at signature; selection by Netanyahu was restraint-plus-reserved-option. NOT a contradiction (T8 predicts incentive, the actor selects). Reading refinement flagged: the Israeli-pre-emption spoiler is a 60-day-WINDOW risk, not a signature-moment risk; watch for reading-swing if next cycle re-frames the spoiler timing again"},
+      {"trend": "T9", "effect": "hold", "note": "The MoU is an executive instrument; no Congressional ratification, no WPR challenge, no court action. Stage-2 executive-path lock-in intact. Disc-ratio breach review still at /premortem"},
+      {"trend": "T10", "effect": "hold", "note": "Russia absent from the signed deal entirely; China the consulted/pressured pole (no new OFAC Chinese-FI action this cycle; deal would lift Iranian oil sanctions, mooting the GL-V cascade). T10 PENDING; China-junior datapoints accrete"},
+      {"trend": "T11", "effect": "hold", "note": "Multiplex mediator architecture (Pakistan/Qatar/Oman + G7 Mideast session) delivered a settlement; global-energy-order stress easing (Brent $83.17, -4.7%, lowest since early March). PENDING; multiplex-with-tripolar reading consistent"},
+      {"trend": "T12", "effect": "hold", "note": "No new reconstitution cluster; the retained capability (HEU/missiles) is now frozen pending the 60-day down-blend talks. If the down-blend executes with IAEA verification, flag T12 for state re-assessment (capability-recovery driver neutralized) at /revise. Holds VALIDATED, no advance"}
+    ],
+    "calibration": {
+      "trend_state_question": "No transitions warranted. Two Day 105 single-cycle flags should be STOOD DOWN at next /audit, now on second-cycle confirmation: (a) T3 CONTESTED flag — its armed second-cycle trigger (a second near-Tehran/nuclear-site round OR confirmed principal targeting) did NOT fire across Days 108-109; de-escalation and signature reassert the apex-deterrent floor; (b) T4 single-cycle strain reversed and stays reversed (deal-faction signed over maximalist). T8 carries an advance_watch nuance, NOT a CONTESTED flag: the pre-emption incentive reached theoretical maximum while Israel withheld the strike at signature; this is consistent with T8 (incentive predicted, actor selects) and is logged as a reading-refinement watch (spoiler is a 60-day-window risk, not a signature-moment risk), not a trend contradiction. SYNTHESIS-MECHANISM reading-swing flag CARRIES and STRENGTHENS: synthesis v4.3 §5.26 claimed the June-11 Hormuz formal closure 'hardened from negotiable to staked sovereign position'; the signed MoU lifts the blockade and reopens Hormuz within 30 days, fully unwinding the 'staked' read within four days. This is now a TWO-cycle pattern (Day 108 reframe + Day 109 signature) confirming the disciplined reading: the June-11 closure was a Slantchev brinkmanship move within the bargaining range, not a staked position. Route to /audit for the §5.26 mechanism correction at /revise; the signed reversal meets the multi-cycle bar that the Day 108 single-cycle flag did not.",
+      "thesis_question": "HOLDING, strongly reinforced. The central thesis (materialist bargaining; no actor controls the constraint surface; framework ranks options, actors select) is vindicated by the completed escalate-to-extract-then-settle sequence: the June-11 49-Tomahawk/Hormuz-closure peak resolved into a digitally signed 60-day deferral MoU by June 15. Under joint cost constraints (US domestic CPI 4.2% + gasoline; Iranian strangulation under blockade; deal-faction bounded by the US-KIA threshold; Iranian apex bounded by hardliner ratification but managing it) both principals selected the deferral each prefers to the alternative. CLASSIFICATION DISCIPLINE: the signed instrument is Fork D' (structured deferral), NOT Fork B (comprehensive settlement) — the 440kg HEU stockpile STAYS in Tehran during the 60-day talks (down-blend/destruction is a GOAL of the window, not a term of the signed MoU); Hormuz/blockade/funds are the first-phase deliverables; the nuclear file is deferred. Fork D'-i is now the operative variant; D'-vi (signing slip) is MOOT. Residual risk migrates entirely into the 60-day window (D'-v: Israeli spoiler or pressure-while-talking breaks deal-direction; the Lebanon axis Israel explicitly reserved is the live new-vector). Retain meaningful Fork A/C residual: Israel reserved freedom of action and a 60-day window has real breakdown surfaces.",
+      "proposed_matrix_revisions_30d": {
+        "Fork_D_prime": {"prior": "34-46%", "proposed": "50-64%", "direction": "up", "rationale": "MoU DIGITALLY SIGNED June 15 (Trump+Vance / Ghalibaf; CBS/NBC/NPR/Axios); formal ceremony scheduled Friday June 20 (Switzerland/Geneva); ceasefire on all fronts; Hormuz reopen within 30d; naval blockade lifted; HEU 440kg deferred to 60-day talks. The canonical Fork D' object (structured deferral LOI/MoU) is now executed. P93-01 FIRES. Decompose to the variant table next cycle (D'-i operative; D'-v primary residual; D'-vi moot). Width 14pp on 60-day-window breakdown dispersion"},
+        "Fork_C": {"prior": "18-28%", "proposed": "12-20%", "direction": "down", "rationale": "Signature de-escalates; blockade lifted; CENTCOM Bahrain maritime-coordination mechanism restoring Hormuz navigation; ceasefire all fronts. Cascade surfaces close except the reserved Israeli Lebanon axis; ~20,000 seafarers / ~2,000 vessels stranded and mine-clearing are residual accident surfaces until traffic normalizes"},
+        "Fork_A_composite": {"prior": "13-22%", "proposed": "10-18%", "direction": "down", "rationale": "No new operation; blockade being lifted; zero new US KIA; signed ceasefire. Israeli-pre-emption sub-path within the 60-day window keeps Fork A off the floor (Israel reserved freedom of action), but Israel WITHHELD a strike at signature"},
+        "Fork_A_israeli_preemption_subpath": {"prior": "32-45%", "proposed": "28-40%", "direction": "down", "rationale": "Within the 60-day window. Netanyahu declined to criticize the deal and claimed war goals achieved; no strike at the maximal-incentive signature moment. T8 incentive remains high (deferral leaves 440kg HEU) so the sub-path stays elevated, but observed restraint-plus-reserved-option at signature trims the top of the band; the spoiler is now a window risk, not an imminent-signature risk"},
+        "Fork_A_us_vahidi_decapitation": {"prior": "5-12%", "proposed": "4-10%", "direction": "down", "rationale": "No principal-targeting signal; de-escalation and signature"},
+        "Fork_B_combined": {"prior": "10-16%", "proposed": "8-14%", "direction": "down", "rationale": "The signed instrument is explicitly Fork D' deferral, not B; Fork B is now the 60-day-talks-success path (comprehensive settlement with verified HEU down-blend). Nuclear deferred caps B modestly below D'"},
+        "None_of_above": {"prior": "5%", "proposed": "5%", "direction": "no change", "rationale": "Mandatory non-zero floor held"},
+        "KEC_derived": {"prior": "31-52%", "proposed": "22-40%", "direction": "down", "note": "[DERIVED] Fork A 10-18% + Fork C 12-20% + tail (<2%). Footnote use only; primitives lead. Continues the de-escalation rotation; signature banks the deferral"}
+      },
+      "note_6_12m_matrix": "No in-sweep 6/12m structural-prior update (the sweep does not move the structural prior). BUT a SIGNED MoU is a structural event that triggers /revise and a 6/12m re-base; this is now ARMED, not hypothetical (Day 108 flagged 'a signed MoU would trigger /revise'; the signature occurred). The 6/12m matrix (last based v4.1/v4.2, Day 84/88) is acutely stale and bidirectionally so (Day 105 escalation peak and Day 109 signed deferral both exceed the prior's ranges). Recommend /revise this cycle: re-base the 6/12m matrix on the signed-deferral structural state and re-validate all trend states at the increment."
+    }
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-12'",
+      "target": "Diplomacy track — deal architecture, LOI/MoU status, Oman/Qatar/Pakistan channels, E3/IAEA",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["CBS News live updates", "NBC News", "NPR", "PBS NewsHour", "CNN G7 liveblog", "Axios", "i24NEWS", "TechTimes (440kg)", "Bloomingbit"],
+      "discounts_applied": ["Trump 'great deal' framing: near-zero commitment value; superseded this cycle by the actual digital signature (action, not statement)", "$24B figure: Vance states it 'doesn't appear in any of the texts' vs IRGC claim of half-before-talks — disputed, flagged not scored"],
+      "finding": "The 60-day MoU was DIGITALLY SIGNED June 15: Trump and VP Vance signed for the US; Parliament Speaker Mohammad-Bagher Ghalibaf signed for Iran (Vance led the US delegation, Ghalibaf the Iranian). A formal signing ceremony is scheduled Friday June 20 (Switzerland/Geneva). Terms (CBS/NBC/NPR/i24/Pakistan 'Islamabad Declaration'): permanent ceasefire on all fronts incl. Lebanon (per Iran FM); Strait of Hormuz reopens within 30 days; US naval blockade lifted; 60-day technical talks on the nuclear file. CRITICAL CLASSIFICATION: Iran's 440kg 60%-HEU stockpile STAYS in Tehran during the 60-day talks (TechTimes/Bloomberg); HEU destruction/down-blend with the IAEA is a GOAL of the window, not a signed term. $24B frozen-funds release disputed (Vance: not in texts; US: none until compliance; IRGC: half before talks). No E3 role; IAEA slated for the nuclear talks. Trump announced the deal at the G7 summit.",
+      "trigger_match": "P93-01 FIRES — Trump signs the 60-day MOU/LOI; Fork D' activates; 60-day clock starts. Fork D' surges to clear lead; Fork C/A down",
+      "direction": "up",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: Fork D' 34-46% -> 50-64%; Fork C 18-28% -> 12-20%; Fork A composite 13-22% -> 10-18%; Fork B 10-16% -> 8-14%. Decompose Fork D' to the variant table next cycle (D'-i operative; D'-v primary residual; D'-vi moot). The signed instrument is Fork D' (deferral), NOT Fork B (comprehensive) — HEU deferred is the discriminator. STRUCTURAL: signed MoU triggers /revise + 6/12m re-base (armed).",
+      "reference_trends": ["T1 advance — Pakistan/Qatar/Oman delivered a signed settlement", "T3 advance — mid-tier Ghalibaf signs while apex floor reserved", "T8 advance_watch — deferral leaves 440kg HEU, maximal Powell loading"],
+      "conflict_notes": "A2 PROVISIONAL (v4-3 manifest S1; cycle 2 of the 6-cycle window). Step 7b.5 forcing question restate: a White House readout using 'full dismantlement / all HEU removed' language = Trump-committed (Penetration mechanism validated); the SIGNED text leaving 440kg HEU in Tehran for 60-day talks = Netanyahu-coalition-projected (demote toward inherited). THIS CYCLE CUTS AGAINST A2: the signed deal defers rather than removes HEU, contradicting the relayed 'full dismantlement' maximalist commitment — supports demotion. Discriminating evidence next cycle: the actual HEU clause text at the June 20 ceremony, and whether a US readout claims dismantlement the text does not contain."
+    },
+    {
+      "probe_id": "PROBE-1",
+      "target": "Iranian apex access — Mojtaba/A4 functional-apex channel; apex ownership of the signed deal",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CBS News", "Al Jazeera", "CNN ('regime likely to have final say')", "Jerusalem Post/Telegraph", "Reuters via i24", "Wikipedia Ghalibaf"],
+      "discounts_applied": ["Mojtaba 'reposted March message' interpretation: single-source-interpretation of an indirect social-media signal, -50% as inferred-not-direct", "'Mojtaba supreme leader, more radical' mainstream framing: inherited principal attribution, -50%"],
+      "finding": "Discriminating signal on apex ownership: the Iranian SIGNATORY was mid-tier Ghalibaf (Parliament Speaker, pro-deal faction), NOT Mojtaba or Vahidi. The apex did NOT publicly own or sign the terms. Mojtaba's only attributable signal was a social-media REPOST of a March message urging media to 'seriously refrain from focusing on weaknesses' — read as indirect apex pushback on hardliner rally critics, i.e. consent-to-negotiate without public ownership. CNN: 'the regime is likely to have final say' over hardliner dissent. No Mojtaba visual this cycle (8th+ consecutive absence). The remote/delegated signing modality is itself the discriminator: it lets the apex avoid public ownership.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance"],
+      "conflict_notes": "A4 PROVISIONAL (v4-3 manifest S2; cycle 2 of 6; demotes to structurally-opaque ~Day 123 absent discriminating evidence). Candidate set {IRGC military council; Aerospace Force command; SL-office staff; diffuse Vahidi-led}. Step 7b.5 forcing question (provisional window, axis-level) RESOLVES PARTIALLY THIS CYCLE toward DELEGATED/opaque: apex did NOT publicly own the deal (no Mojtaba/Vahidi signature or named statement claiming the terms as apex-directed); mid-tier Ghalibaf signed under apex tolerance; the only apex signal was an indirect repost. This narrows the set toward 'apex consents but does not own; delegated/diffuse council executes' and AGAINST a functional public apex. Next-cycle discriminator: a Mojtaba/Vahidi named public statement owning or repudiating the SIGNED terms, OR a Mojtaba visual at/around the June 20 ceremony. Inherited-but-now-partially-discriminated this cycle."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "target": "Vahidi HEU disposition statement — direct named attribution for A4 discrimination (P84-07)",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["TechTimes (440kg)", "Bloomberg", "Al Jazeera", "Reuters via i24"],
+      "discounts_applied": ["IRGC-origin inference on the HEU position: -50% on indirect attribution"],
+      "finding": "No Vahidi-direct named statement on HEU disposition (8th consecutive absent cycle; P84-07 carried). The signed MoU leaves the 440kg 60%-HEU stockpile in Tehran during the 60-day talks; the HEU concession (down-blend/destroy with IAEA) is being negotiated at the mid-tier/draft level with apex attribution still opaque. Ghalibaf, not Vahidi, signed. No named principal publicly owns the HEU concession.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance"],
+      "conflict_notes": "A4 provisional (manifest S2). Vahidi-direct HEU statement remains the named primary discriminating evidence; 8th absence. The signed deal deferring (not removing) HEU is consistent with a pragmatic mid-tier/council settlement under reserved apex floor, NOT maximalist apex direction. Discriminating evidence still needed: Vahidi press conference with direct HEU attribution, or second-cluster corroboration of the council structure independent of Iran International. The June-20 ceremony is the next opportunity for a named-principal HEU statement."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "target": "Israeli internal — Knesset dissolution, Netanyahu posture, unilateral pre-emption vs the signed US-Iran deal",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Times of Israel liveblog June 15", "Fox News", "PBS NewsHour", "Haaretz (via ToI)", "i24NEWS"],
+      "discounts_applied": [],
+      "finding": "Israel STOOD DOWN at signature: Netanyahu DECLINED to criticize the MoU, said he did not know its exact details, and claimed the war's main goals were achieved — while explicitly 'not limiting myself' on preventing an Iranian bomb or on freedom of action against Hezbollah. Defense Minister Katz: the IDF will remain in the security zones in Lebanon, Syria, and Gaza with no time limit, Israel is NOT bound by the deal on Lebanon, and 'if Iran strikes, it will be hit with full force.' NO Israeli pre-emption strike on Iran this cycle, at the single most-predicted (signature) moment. Domestic backlash: opposition castigated Netanyahu's 'absolute failure'; Israeli public anger reported. No new Knesset dissolution reading (1st reading 106-0 was June 2; 2nd/3rd pending; window Sep 8-Oct 20).",
+      "trigger_match": "T8 Powell window-closing pressure at theoretical maximum on a signed deferral leaving 440kg HEU; Israel reserved freedom of action but WITHHELD the strike; Lebanon axis is the reserved live spoiler",
+      "direction": "down",
+      "urgency": "next_cycle",
+      "proposed_revision": "Israeli-pre-emption sub-path (Fork A variant) 32-45% -> 28-40% within the 60-day window: incentive maximal (deferral leaves HEU) so the path stays elevated, but observed restraint-plus-reserved-option at signature trims the top of the band; the spoiler is a 60-day-WINDOW risk, not a signature-moment risk. /audit: T8 advance_watch (incentive-maximal / action-withheld; selection by Netanyahu). Lebanon axis is the live adversary-new-vector.",
+      "reference_trends": ["T8 advance_watch — deal credibility/deferral is the Powell driver; pre-emption incentive at maximum, action withheld at signature", "T4 advance — Israeli maximalist criticism did NOT trigger a US maximalist counter-mobilization; Netanyahu declined to criticize"],
+      "conflict_notes": "A23 Netanyahu spoiler attribution: this cycle the modality is reserved-freedom-of-action plus Lebanon-axis concentration (Katz named), NOT a strike on Iran. Alternative principal: Katz statements are MoD-direct (named, high confidence); the Lebanon-stay policy is Netanyahu+Katz jointly named. Discriminating evidence that would fire the Iran-pre-emption path: an IDF strike-readiness signal or a Netanyahu statement rejecting the signed text. Neither arrived; Israel chose the Lebanon surface. The T8 reading-refinement: do not re-frame the spoiler timing each cycle (signature-moment in Day 108 read, window-risk in Day 109 read) without flagging the swing — logged here to pre-empt a reading-swing accrual."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "target": "Oil/Hormuz — Brent price, formal-closure status, blockade, Lloyd's insurance, transit",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["NBC News markets", "CNBC", "TradingEconomics Brent", "i24NEWS (blockade lift)", "PBS"],
+      "discounts_applied": [],
+      "finding": "Brent closed down 4.7% to $83.17/bbl June 15 — lowest since early March — on the signed deal reopening Hormuz and lifting the US blockade. Trump declared the Strait open and the naval blockade lifted immediately; a CENTCOM maritime-coordination mechanism in Bahrain is working with commercial operators to restore navigation, est. ~30 days to normal given mine-clearing. The June-11 IRGC FORMAL closure is fully unwound: the signed MoU reopens Hormuz within 30 days and lifts the blockade. ~20,000 seafarers on ~2,000 vessels remain stranded pending clearance (residual cost). Traders caution the floor under prices is questionable given idled fields and damaged facilities.",
+      "trigger_match": "Deal-pricing confirmed at signature; Hormuz formal-closure fully UNWOUND (blockade lifted in the signed text); Fork D' up, Fork C/A down",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "30d matrix: contributes to Fork D' up, Fork C/A down per PROBE-12'/PROBE-7. SYNTHESIS FLAG STRENGTHENS to MULTI-CYCLE: v4.3 §5.26 'Hormuz hardened from negotiable to staked sovereign position' is now contradicted across two cycles (Day 108 'service fees' reframe + Day 109 signed blockade-lift/reopen). The disciplined reading is confirmed: June-11 closure = Slantchev brinkmanship within the bargaining range, not a staked position. Route to /revise for the §5.26 mechanism correction (multi-cycle bar now met).",
+      "reference_trends": ["T2 hold — Hormuz deterrent used as leverage then traded in the signed text", "T11 hold — energy-order stress easing on the settlement"],
+      "conflict_notes": "No source conflict on the price move. PROBE-8 Goldman/$100-threshold scenario is OFF the table this cycle. Reversal risk now lower (signed, not just agreed) but not zero: a 60-day-window breakdown re-prices Hormuz risk; mine-clearing and field-restart frictions cap the downside. Backwardation collapse expected; confirm next cycle."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "target": "CENTCOM posture two-axis discriminator — nominal framing vs operational scale; blockade status",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["i24NEWS", "globalsecurity.org Iran War Daily (Day 107)", "Wikipedia 2026 US naval blockade of Iran", "ABC News liveblog", "PBS"],
+      "discounts_applied": [],
+      "finding": "Both axes de-escalate to termination: Trump declared the Strait of Hormuz open and the US naval blockade LIFTED immediately; CENTCOM's Bahrain maritime-coordination mechanism is restoring commercial navigation (est. ~30 days w/ mine-clearing). The signed MoU declares a permanent ceasefire on all fronts. CENTCOM's cumulative blockade ledger closes at 8 vessels disabled, 134 diverted, 42 humanitarian passages. No new operation name; the Epic Fury / blockade-enforcement posture is being wound down rather than rebranded. The Day-105 'pressure-while-talking' middle register fully relaxes.",
+      "trigger_match": "CENTCOM posture terminates (blockade lifted; ceasefire all fronts); Fork A activation watch (new operation OR US KIA) UNFIRED; Fork C/A down",
+      "direction": "down",
+      "urgency": "immediate",
+      "proposed_revision": "Confirm Fork C 18-28% -> 12-20% and Fork A composite 13-22% -> 10-18%. The recalibrated two-axis PROBE-7 (Day 105) correctly tracked the full arc from peak (49 Tomahawks, near-Tehran) to termination (blockade lift) without a false read at either end.",
+      "reference_trends": ["T3 advance — apex-deterrent floor reserved through de-escalation", "T2 hold"],
+      "conflict_notes": "Principal attribution: blockade-lift declaration is Trump/CENTCOM chain (named); the maritime-coordination mechanism is CENTCOM-operational. Snap-back risk: a 60-day-window breakdown re-arms the June-11 pattern, but a signed ceasefire raises the re-escalation bar above the Day-105 standing-blockade baseline. Residual: ~2,000 stranded vessels and mine-clearing keep Surface 1 (Hormuz) physically live until traffic normalizes."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "target": "A1 Trump principal state — oscillation pattern, decision-moment read, statement-to-action gap",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["CBS News", "NBC News", "Axios (via reporting)", "Inquirer/AP G7", "CNN G7 liveblog"],
+      "discounts_applied": ["Trump statements: near-zero commitment value per CLAUDE.md; this cycle the SIGNATURE (action) supersedes the statement"],
+      "finding": "A1's deal-leaning swing converted to ACTION this cycle: Trump (with Vance) digitally signed the MoU and announced the deal at the G7 summit ('arrived looking for momentum after announcing a deal to end the Iran war'). The June-11 'pay the price' -> June-15 signed-deal arc is the sharpest A1 reversal of the conflict, and unlike the Day-100 'near-signed' claim it CONVERTED to a signature. DISCIPLINE POINT: this is the rare cycle where the Trump statement and the underlying track align AND produce a verifiable instrument (signature + corroboration by Vance/Ghalibaf/Pakistan/Qatar), so the commitment value is realized in the action, not the rhetoric. 9th-plus documented oscillation arc; the attractor this arc was deal-signature.",
+      "trigger_match": "A1 oscillation resolves to signed deal; supports Fork D' surge (P93-01)",
+      "direction": "up",
+      "urgency": "immediate",
+      "proposed_revision": "No independent matrix move beyond PROBE-12'. SITREP Section 3 to characterize the June-11 'pay the price' -> June-15 signature as the conflict's sharpest single-arc reversal CONVERTED to action, and the first cycle where A1 deal-rhetoric is vindicated by a verifiable instrument rather than discounted.",
+      "reference_trends": ["T1 hold — Fearon private-info bargaining; the escalate-to-extract-then-settle arc closes"],
+      "conflict_notes": "A1 attribution: the individual statements remain near-zero value; the SIGNATURE is the informative object this cycle (action, not statement). Alternative reading: 'pay the price' was terminal bargaining pressure that extracted the concession (escalate-to-extract-then-converge, Slantchev) — the Day-105->109 sequence fits this cleanly. Commitment now evidenced by the signed text; the residual A1 risk is repudiation/reversal inside the 60-day window."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "target": "Dispositional asymmetry — Weisiger framework; Iranian hardening vs US deal-willingness; ratification",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News", "Al Jazeera", "CNN", "Jerusalem Post/Telegraph", "i24NEWS"],
+      "discounts_applied": [],
+      "finding": "Inter-side dispositional asymmetry RESOLVED at signature: both principals converged to a signed instrument (US: Trump/Vance signed; Iran: Ghalibaf signed; Hormuz reframed from closure to reopen-30d). Residual friction is entirely INTRA-side ratification, now the binding deal risk: Iranian hardliners held demonstrations targeting Ghalibaf and Araghchi, an IRGC-close paper (Javan) accused rally speakers of sowing 'schism' against Khamenei's line, while the apex (Mojtaba repost) pushed unity behind the deal and CNN assessed 'the regime is likely to have final say.' On the Israeli side, opposition castigated Netanyahu ('absolute failure') and ministers reserved freedom of action. Two-level ratification (A13), not principal-to-principal hardening, is the live Fork-C/Fork-A driver.",
+      "trigger_match": "Dispositional asymmetry resolved at signature; the binding risk migrates fully to two-level ratification (Iranian hardliner bloc; Israeli reservations)",
+      "direction": "down",
+      "urgency": "next_cycle",
+      "proposed_revision": "Supports Fork C down (PROBE-7/8). The leading near-term residual risk is RATIFICATION friction within the 60-day window (Iranian hardliner backlash + Israeli reserved option), not dispositional asymmetry. A13 two-level ratification is the binding constraint; apex management of hardliner dissent (Mojtaba unity repost; 'regime has final say') is the key Iranian-side variable to watch.",
+      "reference_trends": ["T3 advance — apex floor reserved/managing dissent while mid-tier signs", "T8 advance_watch — Israeli reservation is the residual asymmetry"],
+      "conflict_notes": "Weisiger reads public posture; the convergence to signature is corroborated across US+Iran channels (unlike Day-105 divergence). Distinguish ratification friction (real, two-level, both sides) from principal hardening (resolved). Do NOT read hardliner demonstrations as apex repudiation absent a named apex statement; the apex signal this cycle was pro-unity (Mojtaba repost), not repudiation."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "target": "Iranian reconstitution speed — T12 state; HEU/missile retention; the deal's effect on the recovery driver",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["TechTimes (440kg)", "globalsecurity.org Day 107", "Reuters via i24"],
+      "discounts_applied": [],
+      "finding": "No new reconstitution-assessment cluster this cycle. The signed MoU FREEZES the capability question into the 60-day window: 440kg 60%-HEU stays in Tehran but with an agreed direction to down-blend/destroy with IAEA during the talks; missile/drone capability retained but the ceasefire halts attrition use. T12's capability-recovery driver shifts from compounding (each ceasefire day raised reconstitution) toward FROZEN-pending-verification. If the down-blend executes with IAEA monitoring, the driver is neutralized.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T12 hold"],
+      "conflict_notes": "T12 holds VALIDATED, no advance signal (no new IC/IISS cluster). The signed deal is the first event that could convert T12 from a compounding to a frozen/declining driver — but only on VERIFIED down-blend, which is a 60-day-talks outcome, not a signed term. Flag T12 for a state re-assessment at /revise IF the talks produce verifiable HEU limits. Until then capability retained is the deal collateral, not a neutralized driver."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "target": "Accident surfaces / first-mover under asymmetric lock-in (BS-15)",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["i24NEWS", "globalsecurity.org Day 107", "CENTCOM/PBS", "Times of Israel"],
+      "discounts_applied": [],
+      "finding": "The signed ceasefire-on-all-fronts closes most accident surfaces IF it holds: Surface 1 (US-Iran Hormuz) winds down on blockade-lift (residual: ~2,000 stranded vessels + mine-clearing keep it physically live ~30d); Surfaces 3-4 (Iran-Israel direct, Iran-GCC base) close under the all-fronts ceasefire. BUT Surface 2 (Israel-Lebanon) is EXPLICITLY RESERVED by Israel (Katz: IDF stays in Lebanon 'without time limit'; not bound by the deal on Lebanon), keeping the highest-probability re-entanglement surface open. Zero new US KIA; no new surface opened.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T2 hold", "T8 advance_watch — Lebanon as the reserved surface"],
+      "conflict_notes": "PROBE-16 scored partial (not fired) because the dominant move is surface-closure via signature, not a first-mover event. The reserved Lebanon surface is the live adversary-new-vector and the primary 60-day-window re-escalation path (Israel exercises freedom there rather than on Iran). Snap-back: a Lebanon-axis escalation that drags Iran back in (P102-02 class) re-opens Surfaces 3-4 within one cycle."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "target": "Gulf state troika — BS-18 unaligned-middle pivot capacity; Qatar/Saudi/UAE signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Al Jazeera (Qatar welcome)", "RFERL (Macron/G7)", "Inquirer/AP G7", "Gulf News GCC", "CNBC"],
+      "discounts_applied": [],
+      "finding": "Gulf posture is settlement-backing / de-escalation: Qatar welcomed the deal 'on addressing the outstanding issues... including freedom of navigation in the Strait of Hormuz' and ran the finalization shuttle to Tehran (June 14); the GCC's standing position that Hormuz must reopen under a permanent arrangement is satisfied by the signed text. At the G7, Macron invited Qatar, the UAE, and Egypt to the June-15 Middle East session. The Day-105 'UAE drift toward tolerate-escalation' read is NOT reinforced for a second consecutive cycle — deal-backing pulls Gulf posture firmly to the brake/endorsement pole. Watch item flagged by analysts: whether Saudi Arabia and the UAE send Cabinet-level representatives is the signal of broad regional backing.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T1 advance — Qatar at finalization tier; unaligned-middle delivered the settlement", "T10 hold"],
+      "conflict_notes": "READING-SWING RESOLUTION: the Day-105 PROBE-20 read (UAE ambassador drift = MBZ-pathway decay/tolerate-escalation) is NOT reinforced across Days 108-109; deal-convergence pulls Gulf posture back to the brake/endorsement pole both cycles. The intra-troika-asymmetric-decay candidate stays below the promotion bar (no named MBS-MBZ split). Principal: Qatar mediation = state-level named (high confidence); Saudi/UAE positions inferred from posture and the cabinet-rep watch (not named-principal statements this cycle)."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "target": "Paine death-ground framework — P-DG, P-DG2, P-AIM, P-INFO, P-OVEX signals",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM/PBS", "globalsecurity.org Day 107", "CBS News", "Al Jazeera"],
+      "discounts_applied": [],
+      "finding": "The cycle realized the Paine OFF-RAMP (war-termination-by-negotiation): a signed ceasefire on all fronts, Hormuz reopening, blockade lift. P-DG (US targeting of named Iranian principals): NOT fired (de-escalation; no principal targeting). P-DG2 (post-strike demand-hardening): the Day-105 candidate is fully dissipated — Iran SOFTENED through to signature, the opposite of death-ground hardening. P-AIM: limited aims confirmed and textually bounded (nuclear+sanctions+Hormuz+funds; no regime-change/territorial demand). P-INFO: Oman/Qatar/Pakistan channels delivered a signed instrument = information pathway intact, no advisor-purge signal. P-OVEX: the deal reverses proxy-overextension. Death-ground dynamics NOT triggered.",
+      "trigger_match": null,
+      "direction": "no change",
+      "reference_trends": ["T3 advance — apex-deterrent floor reserved while limited-aims bargaining settles"],
+      "conflict_notes": "PROBE-21 fire-bar note: 14th partial, 0 fires. The cycle is direct evidence the fire-bar discriminates correctly: the framework's predicted Paine outcome here is the negotiated off-ramp, and the probe correctly reads non-fire of death-ground dynamics rather than forcing a fire. Carry the threshold-recalibration question to /audit, but the Day-105->109 sequence (P-DG2 candidate raised then resolved downward to a signed off-ramp) is evidence the bar tracks the mechanism, not that it is unreachable."
+    },
+    {
+      "probe_id": "PROBE-6",
+      "target": "Secondary sanctions — GL-V Hengli cascade; Chinese-bank exposure; BS-4 June-23 retirement window",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["US Treasury (no new release)", "CNBC", "Reuters via i24", "Al Jazeera"],
+      "discounts_applied": ["Deal-pending sanctions-relief framing: forward-looking, not yet executed; scored as context"],
+      "finding": "No new OFAC action against a Chinese financial institution this cycle; no Hengli-to-banks cascade. The signed MoU commits to lifting Iranian oil sanctions (within the first phase / 30-day window per the draft), which would MOOT much of the GL-V cascade question. China remains the consulted/pressured pole, absorbing compliance cost without rupture; no SWIFT-corridor cut, no major Chinese-bank designation.",
+      "trigger_match": "partial",
+      "direction": "no change",
+      "reference_trends": ["T10 hold"],
+      "conflict_notes": "Ran under auto-upshift carry (June-10 Treasury 9-entity action; 3-cycle Tier-D hold) with BS-4 retirement window closing June 23. BS-4 retirement remains ON TRACK: activation (OFAC action against a Chinese FI OR confirmed Hengli banking cascade) still not met; the signed deal lifting Iranian oil sanctions would remove the cascade pathway entirely. Recommend /audit retire BS-4 at the June-23 window absent a Chinese-FI action; the China-managing-without-cascade pattern (T10-adjacent) held through the entire blockade. Note: a sanctions-relief instrument changes the BS-4 question from 'cascade risk' to 'relief-implementation monitoring' — flag for /audit re-scoping."
+    }
+  ],
+  "trigger_digest": [
+    {
+      "probe_id": "PROBE-12'",
+      "trigger": "P93-01 FIRES — 60-day MoU DIGITALLY SIGNED June 15 (Trump+Vance / Ghalibaf); ceasefire all fronts; Hormuz reopen 30d; blockade lifted; HEU 440kg deferred to 60-day talks. Fork D' activates",
+      "urgency": "immediate",
+      "proposed_action": "30d matrix: Fork D' 34-46% -> 50-64%; Fork C 18-28% -> 12-20%; Fork A composite 13-22% -> 10-18%; Fork B 10-16% -> 8-14%. Decompose Fork D' to the variant table (D'-i operative; D'-v primary residual; D'-vi moot). Classify the signed instrument as Fork D' (deferral), NOT Fork B (HEU deferred is the discriminator). STRUCTURAL: the signed MoU is the armed /revise + 6/12m re-base trigger flagged Day 108; recommend /revise this cycle."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "trigger": "Hormuz formal-closure FULLY UNWOUND in the signed text (blockade lifted; reopen 30d); Brent -4.7% to $83.17; §5.26 'staked sovereign position' contradicted across TWO cycles",
+      "urgency": "immediate",
+      "proposed_action": "Route to /revise: synthesis v4.3 §5.26 'Hormuz hardened to staked sovereign position' is now multi-cycle contradicted (Day 108 reframe + Day 109 signed blockade-lift). The multi-cycle bar that the Day-108 single-cycle flag did not meet is now met; correct the §5.26 mechanism to Slantchev brinkmanship-within-range at the increment."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "trigger": "T8 Powell pre-emption incentive at theoretical maximum on a signed deferral leaving 440kg HEU, YET Israel withheld a strike at signature and reserved freedom of action; Lebanon axis reserved as the live spoiler",
+      "urgency": "next_cycle",
+      "proposed_action": "Israeli-pre-emption Fork-A variant 32-45% -> 28-40% within the 60-day window. /audit: log T8 as advance_watch (incentive-maximal / action-withheld; selection by Netanyahu), NOT CONTESTED; and pre-empt a reading-swing by fixing the spoiler framing as a 60-day-WINDOW risk rather than re-deciding the timing each cycle. Add the Lebanon axis as the required adversary-new-vector branch on the SITREP watchlist."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "trigger": "CENTCOM posture terminates — naval blockade LIFTED; ceasefire all fronts; no new operation; Fork A activation watch unfired",
+      "urgency": "immediate",
+      "proposed_action": "Confirm Fork C/A down per matrix. Note the recalibrated two-axis PROBE-7 (Day 105) tracked the full arc peak-to-termination without a false read at either end; candidate to fold the blockade-status sub-signal into the standing directive at /audit (blockade now lifting)."
+    },
+    {
+      "probe_id": "PROBE-trend-stand-down",
+      "trigger": "Day-105 single-cycle flags, second-cycle confirmation: T3 CONTESTED trigger did NOT fire (Days 108-109); T4 strain reversed and stays reversed",
+      "urgency": "next_audit",
+      "proposed_action": "/audit: STAND DOWN the T3 CONTESTED flag (armed second-cycle trigger absent; de-escalation + signature reassert the apex-deterrent floor) and the T4 single-cycle strain (deal-faction signed over maximalist). Symmetric-discipline application; both correctly held-not-promoted at Day 105."
+    },
+    {
+      "probe_id": "PROBE-revise-trigger",
+      "trigger": "SIGNED MoU = structural event; 6/12m structural-prior matrix acutely and bidirectionally stale (Day 105 peak + Day 109 deferral both exceed v4.1/v4.2 ranges)",
+      "urgency": "immediate",
+      "proposed_action": "Recommend /revise this cycle: re-base the 6/12m matrix on the signed-deferral structural state; re-validate all trend states at the increment; absorb the §5.26 Hormuz-mechanism correction; adopt the Fork D' variant table; carry the A2/A4 provisional-window clocks."
+    }
+  ],
+  "gap_log": []
+}
