@@ -121,6 +121,7 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 - [`sitreps/day-102.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-102.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-102.md)
 - [`sitreps/day-105.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-105.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-105.md)
 - [`sitreps/day-108.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-108.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-108.md)
+- [`sitreps/day-109.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-109.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-109.md)
 - [`sitreps/day-62.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-62.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-62.md)
 - [`sitreps/day-63.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-63.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-63.md)
 - [`sitreps/day-64.md`](https://raw.githubusercontent.com/wm83io/geopol/sitrep/day-109/sitreps/day-64.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/sitrep/day-109/sitreps/day-64.md)
@@ -187,5 +188,5 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 
 ---
 
-*Total tracked files: 122*
+*Total tracked files: 123*
 *Branch: `sitrep/day-109`*
