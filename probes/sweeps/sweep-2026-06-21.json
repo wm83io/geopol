@@ -1,0 +1,287 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-21",
+    "day_number": 115,
+    "framework_version": "v4.4",
+    "synthesis_anchor": "synthesis-v4-4.md",
+    "span_note": "First sweep since Day 110 (June 16); covers the June 16-21 span. Four high-event days with no intervening SITREP: signature (June 17), scrapped Geneva ceremony, Hormuz reclosure (June 20), talks convening (June 21). Day numbering: June 21 = Day 115 (Day N = June[N-94]).",
+    "probes_run": ["PROBE-1", "PROBE-2", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-20", "PROBE-21"],
+    "probes_skipped": [
+      {"probe_id": "PROBE-3", "tier": "M", "reason": "structurally opaque; monthly floor satisfied (~June 11); rial parallel ~1,790,000/USD carries; internal transmission dark even under the Hormuz-reclosure oil shock"},
+      {"probe_id": "PROBE-6", "tier": "E", "reason": "no OFAC action against a Chinese FI, no Hengli cascade; China the consulted pole, not active; activation unmet. BS-4 June-23 retirement window still open (2 days out)"},
+      {"probe_id": "PROBE-10", "tier": "M/E", "reason": "MoU is an executive instrument; no Federal-court WPA filing, no veto-override majority this cycle. NOTE for /audit: Trump's explicit threat of new military action ('take over the strait', 'hit Iran very hard again') re-arms the war-powers question; flag if a filing or floor action follows"},
+      {"probe_id": "PROBE-11", "tier": "M", "reason": "Russia inert/absent from the entire deal and Hormuz track; monthly; no activation"},
+      {"probe_id": "PROBE-17", "tier": "M", "reason": "Russia siloviki composite; T6 decay re-verify due ~July 1; no BS-9.x signal; monthly floor not yet due"},
+      {"probe_id": "PROBE-18", "tier": "E", "reason": "no Tier-1/Tier-2 eschatological event; Temple Mount accumulation unchanged; no activation"},
+      {"probe_id": "PROBE-19", "tier": "E", "reason": "Graham ('diplomacy will fail', advocates US strait control) vs Vance/Kushner/Witkoff deal-faction leading the Bürgenstock talks is intra-Republican Iran-policy daylight, not a Project Esther milestone or a formal Israel-policy split; activation unmet. NOTE for /audit: the hawkish-vs-deal daylight widened this cycle; candidate if a named figure breaks with the deal"}
+    ],
+    "summary": {"fired": 8, "partial": 4, "null": 0, "gap": 0},
+    "reference_trends": [
+      {"trend": "T1", "effect": "hold", "note": "Gulf at relief/endorsement pole; the deal is 'a huge relief' to the Gulf six. UAE most hawkish (Sultan Al Jaber/ADNOC: strait 'not open, needs to be open unconditionally'; UAE estimates full Hormuz flows not before 2027); Kuwait urges Iran + proxies to cease; Qatar 'initial step'. Gulf hedging via non-aggression pacts with Iran. No named intra-troika split. The UAE Hormuz-unconditional posture is a fresh datapoint for the intra-troika asymmetric-decay candidate (MBZ pathway more exposed) but is not a named MBS-MBZ divergence. Holds within VALIDATED"},
+      {"trend": "T2", "effect": "advance", "note": "Iran's 'hard response' to the Lebanon-ceasefire breach materialized as the asymmetric Hormuz-closure announcement (June 20), not a direct missile exchange: the Mosaic-Octopus multi-channel reserved deterrent operating exactly as modeled (one channel reserved/exercised as leverage while the deal track proceeds). The IRGC warned commercial vessels away; the Hezbollah/Lebanon channel is also still held in reserve (Khatam al-Anbiya threat carries)"},
+      {"trend": "T3", "effect": "advance", "note": "First apex signal owning the MoU: a message attributed to Mojtaba Khamenei states he had 'a different view in principle' but APPROVED the MoU after SNSC/Pezeshkian assurances on Iran's rights and 'Axis of Resistance' interests. Two-level structure confirmed and partially resolved: apex reserves the floor (reservation) and ratifies via the council (SNSC/Pezeshkian). The Iranian president-level signature (Trump-Pezeshkian, June 17) elevates the ratification chain above the prior mid-tier (Ghalibaf) framing. Attribution discount applies (attributed message, not authenticated apex-direct video), so this is partial closure of the P108-02 discriminator, not full"},
+      {"trend": "T4", "effect": "hold", "note": "Trump flipped to coercive rhetoric ('won’t have a country', 'may take over the strait and collect tolls', 'hit Iran very hard again') but the coercion is deal-PROTECTIVE in aim (pressuring Iran to stop Hezbollah from derailing the signed deal; pressuring Israel to hold the Hezbollah ceasefire). Vance + Kushner + Witkoff (deal-faction) lead the Bürgenstock talks; Graham hawkish but no coalition split. Deal-faction still operationally dominant. Holds within VALIDATED (no eschatological counter-mobilization; intra-coalition daylight widened but not a fracture)"},
+      {"trend": "T8", "effect": "advance_watch", "note": "Israel continued Lebanon operations despite the June 19 Israel-Hezbollah ceasefire (16+ killed in Lebanon June 20-21; Hezbollah 50+ projectiles); US IC assesses Israel will likely keep attacking Hezbollah. Pre-emption incentive remains maximal (HEU deferred) and the actor continues to channel it to Lebanon, not an Iran-nuclear strike. The Day-109/110 reading-refinement (spoiler-as-Lebanon-window-risk) holds a third cycle. Hold within VALIDATED"},
+      {"trend": "T9", "effect": "hold", "note": "MoU remains an executive instrument; no WPR challenge, court action, or ratification this cycle. Trump's unilateral strait-seizure / 'hit hard again' threats are extreme executive-action claims that, if acted on, would re-test the war-powers path; this cycle they are rhetoric. Executive-path lock-in holds; disc-ratio 4:10 breach still at /premortem"},
+      {"trend": "T12", "effect": "hold", "note": "No fresh reconstitution cluster this cycle; the standing US-IC baseline (faster-than-IC-timelines; ~2,000 MRBMs; solid-fuel rebuild; Chinese material) carries, not re-sourced. Capability frozen pending the down-blend talks now convening"}
+    ],
+    "calibration": {
+      "trend_state_question": "No transitions warranted. T3 ADVANCES strongly (first apex MoU-ownership signal via the attributed Mojtaba approval-with-reservation message; two-level structure confirmed and the long-open apex-ownership discriminator partially closed) but the attribution discount keeps it short of a state change and short of resolving the A4 principal question. T2 advances (Hormuz-closure as asymmetric reserved-channel deterrent). T1/T4/T9/T12 hold within VALIDATED; T8 advance_watch holds a third cycle. No VALIDATED trend contradicted on single- or multi-cycle evidence. The Hormuz reclosure REVERSES the Day-110 'permanently toll free / Hormuz traded in the text' operational read within three days of signature; this is an operational-implication reversal on BS-7/BS-11, NOT a T-level contradiction (no trend predicted the Hormuz term was permanently settled; v4.4 §5.30 explicitly carried Hormuz as a residual collision surface). Logged as a within-architecture reading update, flagged for /audit BS-7/BS-11 state note (term reverted from settled to contested-leverage). No /audit trend flag generated.",
+      "thesis_question": "HOLDING, reinforced. The v4.4 materialist-bargaining thesis and the §5.30 collision-class architecture predicted exactly this: a signed deferral whose residual surfaces (Surface 1 Hormuz, Surface 2 Lebanon) re-activate inside the 60-day window as each principal selects pressure-while-talking. One cycle past signature BOTH residual surfaces are live simultaneously: Iran re-closed Hormuz (asymmetric leverage tied to its Lebanon-binding interpretation), Israel kept striking Hezbollah past the June 19 ceasefire, Trump threatened to seize the strait and hit Iran while his deal-faction convened the technical talks, and CENTCOM denied the closure ('traffic continues to flow'). The framework ranked the deferral and named both spoiler vectors; Iran's command, Netanyahu, and Trump are selecting within that surface, each contingently, and the talks still convened. Pressure-while-talking is now bilateral (Iran closes the strait it just agreed to open; the US threatens to seize it) — the textbook two-level game on a deliberately thin instrument. This is confirmation of the signed-deferral-with-residual-collision structure, not drift. The analytical problem remains inside the 60-day window as predicted; it did not relocate or break.",
+      "proposed_matrix_revisions_30d": {
+        "Fork_D_prime_composite": {
+          "prior": "50-64%",
+          "proposed": "48-62%",
+          "direction": "down (internal recomposition; mass shifts hard D'-i -> D'-v)",
+          "rationale": "Signature durable (Trump-Pezeshkian, June 17) and the technical talks convened June 21 (Vance/Kushner/Witkoff + Araghchi/Ghalibaf) — the deal remains the modal outcome. But the simultaneous Hormuz reclosure + sustained Lebanon fighting + Trump strait-seizure/'hit hard' threats trim the composite slightly and shift its internal mass decisively to the stalls variant. SITREP call"
+        },
+        "Fork_D_prime_i_operative": {
+          "prior": "32-44%",
+          "proposed": "28-40%",
+          "direction": "down",
+          "rationale": "The clean-operative deferral path is damaged: Iran re-closed the very strait the MoU required open toll-free for 60 days, three days after signature; the Hormuz-binding/Lebanon-binding interpretation disputes went from textual to kinetic-adjacent; Trump threatens to take over the strait. Talks convening is the offsetting positive holding the floor under D'-i"
+        },
+        "Fork_D_prime_v_signed_but_stalls": {
+          "prior": "16-24%",
+          "proposed": "20-28%",
+          "direction": "up",
+          "rationale": "Now arguably the leading variant: the deal is signed but immediately contested on two surfaces, with talks proceeding under maximal friction and an active Hormuz-closure standoff. Pressure-while-talking on BOTH sides (Iran re-closes; US threatens seizure) is the definition of signed-but-stalls. US IC pessimism on Iranian nuclear concessions reinforces"
+        },
+        "Fork_C": {
+          "prior": "14-22%",
+          "proposed": "16-26%",
+          "direction": "up",
+          "rationale": "Surface 1 (Hormuz) is RE-ARMED alongside the still-hot Surface 2 (Lebanon). The Iran-announced closure vs CENTCOM 'traffic continues to flow' denial is a live accident surface: a US/allied vessel transiting a strait the IRGC declared closed, or an IRGC interdiction attempt, routes here unless a US-KIA sub-condition fires (then Fork A). Two live residual surfaces, not one"
+        },
+        "Fork_A_composite": {
+          "prior": "10-18%",
+          "proposed": "10-18%",
+          "direction": "no change (US-resumption sub-path elevated within composite; Hormuz-enforcement trigger armed)",
+          "rationale": "Trump rhetoric is discounted near-zero absent tape action; no US strike, zero new US KIA, no new CENTCOM operation this cycle. Composite holds. But the US-resumption sub-path is now elevated within the band: a Hormuz transit-enforcement clash (CENTCOM challenging the closure) is the new primary Fork A/C trigger alongside the Israeli-Lebanon-response path. Israeli pre-emption sub-path holds 28-40% within the window (channeled to Lebanon)"
+        },
+        "Fork_B_combined": {
+          "prior": "8-14%",
+          "proposed": "8-14%",
+          "direction": "no change",
+          "rationale": "Talks convening keeps the comprehensive-settlement path alive (Waltz: 'laser focused on nuclear verification'), but US-IC pessimism on Iranian nuclear concessions and the Hormuz/Lebanon friction cap B below D'. Nuclear deferred holds"
+        },
+        "None_of_above": {
+          "prior": "5%",
+          "proposed": "5%",
+          "direction": "no change",
+          "rationale": "Mandatory non-zero floor held"
+        },
+        "KEC_derived": {
+          "prior": "24-42%",
+          "proposed": "26-44%",
+          "direction": "up",
+          "note": "[DERIVED] Fork A 10-18% + Fork C 16-26% + tail (<2%). Footnote use only; primitives lead. Up-tick tracks the Fork C re-arm on the second live residual surface (Hormuz)"
+        }
+      },
+      "note_6_12m_matrix": "No 6/12m structural-prior update. The 6/12m matrix was re-based at v4.4 (Day 109) and reflects the signed-deferral structural state. The Hormuz reclosure and the Lebanon-ceasefire breakdown are annex-level activations of the v4.4 §5.30 collision-class surfaces (Surface 1 Hormuz, Surface 2 Lebanon), not a constraint-layer change; they do not trigger /revise this cycle. WATCH: if Iran sustains the closure AND CENTCOM moves to enforce transit (kinetic), that crosses from within-architecture activation to a Fork A/C structural-prior event and would trigger /revise. Single weekend-announcement cycle is below that bar."
+    }
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-12'",
+      "target": "Diplomacy track (BS-11) — MoU status/modality, ceremony, talks opening, Hormuz/Lebanon binding interpretation, signatories, channels",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Al Jazeera (presidents sign deal; electronic signature)", "NPR (preliminary US-Iran agreement)", "The Hill (immediate effect)", "CSIS State of Play", "CBS News live (Bürgenstock talks June 21)", "PBS NewsHour"],
+      "discounts_applied": ["Frozen-assets / sanctions figures still disputed across Iranian vs US framings; not scored", "Trump 'great deal' / 'peace' framing near-zero; the signed instrument, the signatories, and the convened talks are the data"],
+      "finding": "The signature is DURABLE but the modality changed: the MoU was signed electronically June 17 by Trump and President PEZESHKIAN, with Trump signing a physical copy at Versailles with Macron after the G7 — the planned June 19 Geneva/Bürgenstock ceremony was scrapped (P109-01 resolves: no formal ceremony; signature confirmed). NOTE/CORRECTION: the Iranian signatory at instrument level is the president (Pezeshkian, SNSC chair), elevating the ratification chain above the Day-110 'Ghalibaf (mid-tier) signed' framing. The 60-day technical talks CONVENED June 21 at the Bürgenstock Resort: Vance + Kushner + Witkoff met Araghchi + Ghalibaf directly (rare face-to-face); Vance claimed 'great progress' toward 'a full regional ceasefire'; Ambassador Waltz framed the approach as 'laser focused on nuclear verification, not trust'. The MoU's Hormuz-open-toll-free-60-days and Lebanon-cessation terms are now both in live dispute, with Iran enforcing its interpretation via the Hormuz reclosure.",
+      "trigger_match": "yes — P109-01 resolves (signature durable, ceremony modality changed to electronic/physical-copy; no Geneva event). Talks-open is a Fork D'-i support; the Hormuz/Lebanon interpretation disputes escalating to action feed Fork D'-v. No new fork-activation trigger by itself",
+      "direction": "no change (composite); supports the D'-i -> D'-v internal shift",
+      "urgency": "next cycle",
+      "proposed_revision": "Operational: record that the June 19 ceremony did NOT occur (electronic signature June 17 + Trump physical copy at Versailles); correct the Iranian signatory to president-level (Pezeshkian). Matrix: talks-convening holds the D'-i floor; the interpretation disputes (now kinetic via Hormuz) are D'-v inputs folded into the PROBE-8 / PROBE-9 repricing",
+      "reference_trends": ["T1 hold — Pakistan/Qatar/Oman/G7 mediator stack intact; Macron hosted the signing", "T3 advance — president-level (Pezeshkian/SNSC) signature; apex approval-with-reservation surfaced (see PROBE-1)"],
+      "conflict_notes": "The ceremony-to-electronic-signature downgrade is itself two-level-game evidence: a deliberately low-ceremony, thin instrument lets each side manage domestic ratification (Iranian hardliner backlash; Israeli non-binding claim). Discriminating signal next cycle: whether the convened talks produce an agreed Hormuz-status text that resolves the closure dispute, or whether the closure hardens into a deal-terminal break."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "target": "Energy market structural breaks (BS-7) — Brent, Hormuz status, closure/reopening, war-risk pricing",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Wikipedia 2026 Strait of Hormuz crisis (June 20 closure)", "CNBC (Brent June 19; talks postponement)", "OilPrice.com (Goldman $100+ on sustained closure; IEA deficit revision)", "TradingEconomics (Brent)", "RFE/RL (commercial traffic surge post-deal)", "House of Commons Library briefing"],
+      "discounts_applied": ["Stale 'Brent ~$106 May/June' aggregate figure not scored against the fresh June-19 close; the $80.57 print is the most recent dated data", "Closure announced Saturday June 20 on a market-closed weekend; the war-risk re-pricing has NOT yet printed (next test is the Monday June 22 open) — reported as a re-armed risk, not a realized spike"],
+      "finding": "TWO-TRACK Hormuz status reasserted. June 20 (2:23pm) Iran announced RECLOSURE of the Strait of Hormuz, citing the Israeli Lebanon offensive as an MoU violation; the IRGC warned commercial vessels away. June 20 (10:01am) CENTCOM countered: 'Iran does not control the Strait of Hormuz. Traffic continues to flow,' and said forces were monitoring. This REVERSES the Day-110 'permanently toll free / Hormuz traded in the text' read within three days of signature — Iran re-weaponized the strait as leverage tied to its Lebanon-binding interpretation. Brent last printed ~$80.57 (June 19 Friday close, down ~8% on the week on the June 19 Israel-Hezbollah ceasefire). The weekend closure announcement re-arms the war-risk premium for the Monday open; Goldman: a sustained month of closure means $100+ Brent through 2026; UAE/ADNOC says full Hormuz flows will not resume before 2027 even with a deal; ~20+ uncleared mines remain a hard floor under any decline.",
+      "trigger_match": "yes — Hormuz reclosure re-arms BS-7; the two-track (announced-closed vs CENTCOM traffic-flows) is a live Fork C accident surface and a deal-stress input (Fork D'-v). P108-04 (Brent >$92 on deal failure) is the armed reversal trigger; not yet fired (last print $80.57, weekend)",
+      "direction": "up (war-risk premium re-arming; Brent upside risk into the Monday open); the closure itself supports Fork C / Fork D'-v",
+      "urgency": "next cycle",
+      "proposed_revision": "BS-7/BS-11 state note: the Hormuz term REVERTED from 'settled/traded-in-text' (v4.4 §5.26) to 'contested-leverage' on the June-20 reclosure. Matrix: feeds the Fork C re-arm; watch P108-04 (Brent >$92) at the Monday June-22 open as the snap-back confirmer",
+      "reference_trends": ["T2 advance — Hormuz closure as asymmetric reserved-channel deterrent leverage", "T9 hold — Hormuz regime was traded in the executive instrument and is now being contested within it"],
+      "conflict_notes": "The reclosure directly contradicts the Day-110 PROBE-8 'permanently toll free — Iran conceded the toll claim in the signed text' read. Resolution: not a trend contradiction (no trend predicted permanence; §5.30 carried Hormuz as a residual surface) but a clean operational-reading reversal on BS-7/BS-11, logged for /audit. The CENTCOM 'traffic continues to flow' denial caps the price spike and keeps the closure at the announcement (not yet physical-interdiction) stage; the discriminating next-cycle signal is whether a vessel is actually interdicted or whether traffic visibly continues."
+    },
+    {
+      "probe_id": "PROBE-1",
+      "target": "Iranian apex / decision architecture (BS-1a) — Mojtaba/Pezeshkian/SNSC, MoU ownership",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Iran International (Khamenei MoU message; 'top-secret objections' revealed on state TV; -50% exile)", "The Hill (Iran declares victory; hardliners push tougher terms)", "Al Jazeera (factions on the deal)", "Yahoo/AP (why both could struggle to keep it)"],
+      "discounts_applied": ["Iran International -50% (exile/opposition outlet)", "The Khamenei message is ATTRIBUTED (relayed), not an authenticated apex-direct video/text — treated as M, not H", "Single-source Iranian internal-politics claims -70% where uncorroborated"],
+      "finding": "FIRST apex signal owning the MoU. A message attributed to Mojtaba Khamenei states he held 'a different view in principle' on the MoU but APPROVED it after receiving assurances from the SNSC and its chairman, President Pezeshkian, that Iran's rights and the 'Axis of Resistance' interests would be safeguarded. Tehran is divided over what the message meant: hardline media (Paydari/Kayhan) argue the leader's views were not fully reflected and that a hardliner revealed 'top-secret' Khamenei objections on state TV (June 20); the regime-survival camp reads it as conditional ratification and is 'closing ranks'. Hardliner protests carried death-chants against Araghchi and Ghalibaf. CRITICAL: this partially closes the long-open apex-ownership discriminator (P108-02) — the apex did signal approval-with-reservation — but the modality (attributed message, approval contingent on SNSC/Pezeshkian assurances) points to the SNSC/president as the functional deal-decision node, with Mojtaba ratifying. Still no authenticated apex-direct statement; no Vahidi-direct HEU statement (P84-07, 10th consecutive absence).",
+      "trigger_match": "partial — P108-02 (apex named statement owning/repudiating the MoU) FIRES PARTIAL: apex approval-with-reservation surfaced via attributed message; resolves the ownership question toward 'approved-conditionally' but the attribution discount and the SNSC-assurance contingency keep the principal-locus question (Mojtaba vs SNSC/Pezeshkian) open",
+      "direction": "no change (matrix); supports D'-i durability (apex ratified) while the reservation supports D'-v fragility",
+      "urgency": "next cycle",
+      "proposed_revision": "BS-1a state note: apex MoU-ownership signal surfaced (Mojtaba attributed approval-with-reservation, conditioned on SNSC/Pezeshkian assurances). P108-02 logged partial-fire. A4 principal-locus narrows toward SNSC/Pezeshkian-as-functional-decider with Mojtaba-as-ratifying-shield, consistent with the diffuse/delegated reading",
+      "reference_trends": ["T3 advance — apex reserves the floor (reservation) and ratifies via the council (SNSC); two-level structure confirmed and partially resolved"],
+      "conflict_notes": "Principal-validation (A4, PROVISIONAL, cycle 4 of the ~6-cycle window, demote ~Day 123). Alternative principal hypotheses for the MoU decision: (a) Mojtaba-direct (apex owns it) vs (b) SNSC/Pezeshkian functional decision with Mojtaba ratifying vs (c) IRGC-council. Discriminating signal THIS cycle: the attributed message's own content — approval 'after assurances from the SNSC and its chairman Pezeshkian' — actively points to (b), the council/president as decider, NOT to Mojtaba originating the decision. Step 7b.5 forcing-question restate for the provisional window: the signal that would resolve the candidate set is an AUTHENTICATED apex-direct statement (video/signed text) independently owning or repudiating a specific MoU term (Hormuz, HEU) without routing through SNSC framing; the attributed-relay modality is exactly the diffuse/delegated pattern. Carried at M; the partial P108-02 fire is progress on ownership but not on principal-locus. Continue toward demotion at window close absent an authenticated apex-direct term-level statement."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "target": "A1 Trump principal disposition (BS-12) — statement-to-action gap, deal vs coercive rhetoric",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live (June 21 Trump 'won’t have a country' / 'may take over the strait' / 'hit Iran very hard again')", "Fox News (via CBS, strait-seizure/tolls)", "NBC News (Trump asked Israel for Hezbollah ceasefire)", "NPR (Trump urged Israel, Hezbollah to hold fire)"],
+      "discounts_applied": ["Trump statements scored near-zero on literal content per discipline; the data is the POSTURE-FLIP context (signed deal + convened talks + same-day coercive threats), not the threats in isolation"],
+      "finding": "A1 FLIPPED from the Day-110 deal-protective attractor to coercive-maximalist rhetoric, while the deal-faction simultaneously convened the talks. June 21: Trump warned Iran 'won’t have a country' if it closes the strait, said the US 'may take over the strait' and collect tolls (inverting the Iran-toll framing the framework tracked), and threatened to 'hit Iran very hard again' if Iran doesn’t immediately stop Hezbollah. The aim is deal-PROTECTIVE coercion: the threats are pressure on Iran (over the Hormuz closure) and Israel (Trump asked both to hold the Hezbollah ceasefire) to keep the signed instrument from collapsing on its two residual surfaces. Statement-to-action gap stays COMPRESSED (same-day: coercive threats + talks convening + no actual strike). This is the US side now running pressure-while-talking, mirroring Iran's closure-while-negotiating.",
+      "trigger_match": "yes (pattern; sub-state) — A1 'hawkish-with-same-day-execution' sub-state (BS-12 Day-105) re-confirmed, now in a coercive-deal-protective register; no fork move beyond arming the Fork A US-resumption sub-path (rhetoric, no action)",
+      "direction": "no change (composite); coercive rhetoric arms the Fork A US-resumption sub-path but is discounted absent action",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; A1 coercive-deal-protective posture is a mixed input (the threats pressure Iran toward compliance = D'-i support; the strait-seizure threat is a Fork A US-resumption arming signal, discounted). Watch for tape action: any actual US transit-enforcement or strike converts the rhetoric to a Fork A trigger",
+      "reference_trends": ["T4 hold — deal-faction executive using coercion to protect the deal, not abandoning it; Vance/Kushner/Witkoff lead talks", "T3 hold — US-side public maximalism on the end-state (Hormuz/nuclear) while protecting the deferral mechanism"],
+      "conflict_notes": "No principal-validation issue: A1 attribution to Trump is direct (named, on-tape, multi-outlet). The 'take over the strait and collect tolls' line is the US-side analog of public maximalism on a term while the deal-faction works the deferral; consistent with the deal-protective read, not a contradiction. Discriminating signal: whether Trump's threats are followed by any CENTCOM transit-enforcement action (converts to Fork A) or remain rhetoric paired with proceeding talks (deal-protective coercion)."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "target": "Israeli internal politics / operational posture (BS-3) — Lebanon axis, Hezbollah ceasefire, Trump-Netanyahu divergence",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["NBC News (Israel-Hezbollah June 19 ceasefire; Vance trip; US IC expects continued Israeli strikes)", "CBS News live (June 20-21 Lebanon fighting; 16+ killed; 50+ Hezbollah projectiles)", "NPR (Trump urged Israel/Hezbollah to hold fire)", "CNN (June 7-8 ceasefire falters baseline)"],
+      "discounts_applied": ["Trump's public pressure on Netanyahu scored on the documented multi-outlet action context, not as near-zero rhetoric"],
+      "finding": "The Lebanon spoiler stayed hot through a nominal ceasefire. Israel and Hezbollah agreed a ceasefire June 19 (Trump asked Israel to agree, after the escalation threatened the talks), but fighting CONTINUED June 20-21: Israeli strikes killed at least 16 in Lebanon; Hezbollah fired 50+ projectiles at Israeli forces. US spy agencies assess Israel will likely keep attacking Hezbollah, potentially jeopardizing the deal. The Iranian 'hard response' to the Lebanon-ceasefire breach materialized as the Hormuz closure (asymmetric), not a new direct Iran-Israel missile exchange. Earlier in the window Vance had cancelled his trip over the Lebanon escalation; that reversed (he is now leading the Bürgenstock talks). No Israeli strike on Iran this cycle; the pre-emption incentive remains channeled to Lebanon.",
+      "trigger_match": "partial / firing-adjacent — no Iran-nuclear-site strike (P85-02 unfired); the Lebanon ceasefire-breach + continued fighting keeps Surface 2 hot and is the proximate cause Iran cites for the Hormuz reclosure. P102-02 (second Iran-Israel direct exchange without successful Trump halt) remains firing-adjacent, not fired (Iran routed its response through Hormuz, not a direct strike)",
+      "direction": "up (Fork D'-v, Fork C via the Lebanon-axis re-entanglement driving the Hormuz response)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the Lebanon ceasefire breakdown is the upstream cause of the Hormuz reclosure (PROBE-8) and feeds the Fork C / Fork D'-v repricing. Continue P102-02 at elevated watch",
+      "reference_trends": ["T8 advance_watch — pre-emption channeled to Lebanon, third cycle; Israel ignores the ceasefire it nominally accepted", "T4 hold — Trump pressuring Israel to hold the Hezbollah ceasefire"],
+      "conflict_notes": "A2 (Netanyahu Principal-Access Channel) PROVISIONAL, cycle 4 of the ~6-cycle window (demote ~Day 123). Step 7b.5 forcing-question restate: the discriminating signal that resolves the candidate set is a White House readout claiming maximalist terms the signed text does not contain (= Penetration-relay validated) vs the executive openly diverging from Netanyahu and tolerating a HEU-deferring deal (= relay inherited, demote). THIS CYCLE CUTS HARD AGAINST A2 again: Trump pressuring Netanyahu to hold the Hezbollah ceasefire and threatening Iran to protect a deal Netanyahu's conduct is jeopardizing is the opposite of a penetrated executive relaying Israeli maximalism. Supports demotion at the window close absent a contradicting readout."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "target": "First-mover architecture under asymmetric lock-in (BS-15) — accident-surface / snap-back race",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live (Hormuz closure vs CENTCOM denial; Lebanon fighting)", "Wikipedia 2026 Strait of Hormuz crisis", "NBC News (US IC expects continued Israeli strikes)"],
+      "discounts_applied": [],
+      "finding": "The snap-back race now runs on TWO live residual surfaces simultaneously, where Day 110 had one. Surface 1 (Hormuz) RE-ARMED: Iran announced closure / IRGC warned vessels away vs CENTCOM 'traffic continues to flow' — a transit-enforcement clash (a US/allied vessel running a strait Iran declared closed, or an IRGC interdiction) routes to Fork C unless a US-KIA sub-condition fires (then Fork A). Surface 2 (Lebanon) still hot (ceasefire breached; 16+ killed). Surfaces 3 (Iran-Israel direct) and 4 (Iran-GCC) quiet this cycle. The two-surface configuration raises the joint accident probability and the deal-breakdown pathway (Iran has tied continued talks to the Lebanon ceasefire and is enforcing the Hormuz term it just signed).",
+      "trigger_match": "yes — Surface-1 (Hormuz) re-armed alongside Surface-2 (Lebanon); the Fork C / Fork D'-v boundary is live on both, and the Hormuz transit-enforcement clash is now a co-primary first-mover trigger with the Lebanon-response path",
+      "direction": "up (Fork C; Fork D'-v)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move beyond the PROBE-8 / PROBE-9 repricing; flag the Hormuz transit-enforcement clash AND the Lebanon-response path as co-primary deal-spoilers over the next two cycles. A transit-enforcement action against a US vessel is the deal-terminal trigger (Day-105 PROBE-8 flag) that converts Fork C to Fork A",
+      "reference_trends": ["T8 advance_watch", "T2 advance — Hormuz channel exercised as reserved deterrent"],
+      "conflict_notes": "The Fork C-vs-Fork A boundary on the Hormuz surface depends on whether an IRGC interdiction produces a US KIA, and on the CENTCOM enforcement posture (currently 'monitoring', not interdicting). Joint-distribution opacity at this boundary persists (BS-15 known limitation), now doubled across two surfaces. Principal-validation note: whether an Iranian Hormuz interdiction would be apex-intended or IRGC-command-autonomous mirrors the PROBE-2 Lebanon question — the apex approved the MoU with reservation, leaving the closure-enforcement decision plausibly at the IRGC-command level."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "target": "IRGC factional structure (BS-8) + Iranian decision architecture (BS-1a) — Khatam al-Anbiya / IRGC vertices, Hormuz closure, HEU statements",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live (IRGC warns vessels; Hormuz closure announcement)", "Wikipedia 2026 Strait of Hormuz crisis (IRGC)", "Al Jazeera (Iran military command on Lebanon)"],
+      "discounts_applied": ["Iranian state-military statements read for posture, not literal intent; -50% on classified internal-decision content"],
+      "finding": "The IRGC is the operational vertex executing the Hormuz reclosure: it announced the June-20 closure citing the MoU violation and warned commercial vessels away from the strait, pairing the Khatam al-Anbiya Lebanon 'hard response' threat (carried from June 16) with an asymmetric maritime action. The two-axis IRGC function (Hormuz via the IRGC maritime channel; Lebanon deterrence via the joint command + FM) confirmed Day 105 is operating again: the military reserves and exercises the deterrent floor while the deal track (Pezeshkian/Araghchi/Ghalibaf) negotiates. Vahidi-direct HEU statement again ABSENT (P84-07, 10th consecutive cycle).",
+      "trigger_match": "yes (factional-signal) — IRGC executing the Hormuz-closure deterrent; feeds Fork C / Fork D'-v via the Surface-1 re-arm; no HEU-axis movement",
+      "direction": "up (Hormuz-axis escalation risk via PROBE-8 / PROBE-16 repricing)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the IRGC Hormuz closure is an input to the Fork C re-arm. BS-8 state note: the IRGC maritime channel is the active vertex on the Hormuz-closure axis this cycle (Khatam al-Anbiya remains the Lebanon-axis voice)",
+      "reference_trends": ["T2 advance — Hormuz channel exercised as reserved deterrent leverage", "T3 hold — two-level: military vertex reserves/exercises the floor, deal track negotiates"],
+      "conflict_notes": "Principal-validation (A4): the Hormuz closure is announced through the IRGC/military with the apex having approved the MoU only with reservation (PROBE-1). Alternative hypotheses for who ordered the closure: (a) apex-directed (Mojtaba/SNSC sanction the closure as enforcement of the MoU's Lebanon clause) vs (b) IRGC-command-autonomous (delegated maritime ROE). Discriminating signal: an SNSC/apex public claim of the closure decision vs IRGC-only attribution. THIS CYCLE: IRGC-announced, with the apex on record approving the MoU (which requires the strait OPEN) — the closure cuts against the apex's own ratified instrument, leaning toward delegated/diffuse command autonomy or an SNSC-sanctioned interpretation-enforcement. The escalation-control reading (whether a Hormuz interdiction would be apex-intended or command-autonomous) is load-bearing on the Fork C-vs-Fork A boundary; inherited, not validated this cycle."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "target": "Mutual dispositional reading / power-shift perception (BS-14) — Trump-Netanyahu, Trump-Iran, Powell mechanism",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["NBC News (Trump-Israel Hezbollah ceasefire ask; US IC)", "CBS News live (Trump coercive threats)", "NPR (Trump urged fire-hold)"],
+      "discounts_applied": [],
+      "finding": "Two dispositional splits now operate at once. (1) Trump-Netanyahu: Trump reads Israel's continued Lebanon strikes as reckless and deal-threatening and pressed both sides to a Hezbollah ceasefire; Israel treats the US deal as non-binding and kept striking. (2) Trump-Iran: Trump reads Iran's Hormuz reclosure as a casus belli ('won’t have a country', 'may take over the strait'), while Iran reads continued Israeli Lebanon ops as the US failing to deliver its side. The Powell mechanism operates as modeled — each actor reads its window and exercises its reserved option (Israel: Lebanon strikes; Iran: Hormuz closure) while the US deal-direction holds the talks open.",
+      "trigger_match": "yes — dispositional divergence at principal level confirmed on both the Trump-Netanyahu and Trump-Iran axes; feeds the two-surface spoiler repricing",
+      "direction": "up (Fork D'-v / Fork C via dispositional divergence on two axes)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the dual dispositional divergence is folded into the PROBE-8 / PROBE-9 repricing",
+      "reference_trends": ["T8 advance_watch — Powell loop visible on the Lebanon axis", "T4 hold — US-Israel coalition not monolithic"],
+      "conflict_notes": "The divergences are consistent with T8 (incentive predicted; actor selects) and T4 (coalition not monolithic). No contradiction. The new Trump-Iran coercive axis is the US side reading the power-shift (Iran's Hormuz leverage) and signaling a willingness to escalate, consistent with the Weisiger dispositional-asymmetry framing at peak."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "target": "CENTCOM posture / residual capability (BS-13) — two-axis nominal/operational de-escalation score",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live (CENTCOM 'Iran does not control the strait'; monitoring)", "Wikipedia 2026 Strait of Hormuz crisis", "NBC News"],
+      "discounts_applied": [],
+      "finding": "CENTCOM posture firmed off the Day-110 wind-down on the nominal axis while staying short of operational re-escalation. Nominal: CENTCOM publicly countered the Iranian closure ('Iran does not control the Strait of Hormuz. Traffic continues to flow') and said forces are monitoring — a posture-assertion, not a posture-termination, but with NO new operation name and NO transit-enforcement action ordered. Operational: zero new US KIA; no interdiction; no strike. The two-axis read is now the 'pressure-while-talking' middle register the Day-105 recalibration anticipated — nominal firming (contesting the closure) with operational restraint (monitoring, not enforcing) — paired with Trump's strait-seizure rhetoric above it.",
+      "trigger_match": "yes — the nominal axis firms (CENTCOM contests the closure) while the operational axis holds restraint; the middle register is live. Fork A activation watch (new operation OR US KIA) unfired, but the Hormuz transit-enforcement decision is the proximate Fork A/C trigger",
+      "direction": "no change (operational); nominal firming arms the Fork A/C Hormuz surface",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the CENTCOM closure-contestation is folded into the PROBE-8 / PROBE-16 Hormuz re-arm. Watch: a CENTCOM transit-enforcement order (escort/interdiction) is the operational-axis trigger that converts the middle register to Fork A",
+      "reference_trends": ["T9 hold — Hormuz regime traded in the executive instrument, now contested", "T2 hold"],
+      "conflict_notes": "The recalibrated two-axis PROBE-7 reads a divergence this cycle (nominal firming / operational restraint), the intended 'pressure-while-talking' middle register, vs the clean de-escalation end it read at Day 110. No principal issue. The discriminating signal is whether CENTCOM moves from 'monitoring' to active transit-enforcement."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "target": "Gulf state troika / unaligned-middle pivot capacity (BS-18) — brake durability, intra-troika decay, deal-shaping, Hormuz exposure",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Wikipedia 2026 Strait of Hormuz crisis (Gulf reactions)", "CSIS State of Play", "RFE/RL (commercial traffic surge post-deal)", "House of Commons Library briefing", "CFR (deal reopens strait)"],
+      "discounts_applied": ["UAE ADNOC executive statement (Al Jaber) read as a state-oil-company posture proxy, not a head-of-state position"],
+      "finding": "The Gulf channel holds at the relief/endorsement pole, with asymmetry. The deal is 'a huge relief' to the Gulf six (they bore the brunt of Iranian attacks and economic disruption). UAE is the most hawkish: Sultan Al Jaber/ADNOC said the strait 'is not open and needs to be open unconditionally' and the UAE estimates full Hormuz flows will not resume before 2027 even with a deal; the UAE also called for a plan to address Iran's ballistic missiles and nuclear program. Kuwait urged Iran and its 'proxies, militias and armed groups' to cease all hostilities against Gulf states; Qatar called the ceasefire 'an initial step'. Broader Gulf hedging via non-aggression pacts with Iran is forecast, with concern the US 'empowered Iran'. No named intra-troika split on a decision point this cycle.",
+      "trigger_match": "no — brake/endorsement holds; no named split; the UAE Hormuz-unconditional + missile-plan posture is a fresh MBZ-pathway-hawkish datapoint for the asymmetric-decay candidate but not a named MBS-MBZ divergence",
+      "direction": "no change",
+      "urgency": "next cycle",
+      "proposed_revision": "None; T1 holds. Update the intra-troika asymmetric-decay candidate with the UAE Hormuz-unconditional / missile-plan posture (MBZ pathway more exposed and more hawkish on the Hormuz reclosure); promote only on a named MBS-MBZ split",
+      "reference_trends": ["T1 hold — Gulf at relief/endorsement pole; UAE hawkish on Hormuz; no named split; hedging via non-aggression pacts is unaligned-middle pivot capacity"],
+      "conflict_notes": "Intra-troika asymmetric-decay pending candidate: the UAE's 'unconditional open' demand and missile-plan call, against the Hormuz reclosure, is the sharpest MBZ-pathway-hawkish datapoint yet, but it is a Hormuz-policy posture, not a named divergence from MBS on a specific decision. Hold; promote on a named split or a UAE-infrastructure second-attack test. The 'US empowered Iran' Gulf concern is the post-deal exposure thread carried from Day 110."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "target": "Iranian residual capability / feigned weakness (BS-13) — reconstitution rate, T12 amplifier",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["CNN (reconstitution baseline, not re-sourced)", "JINSA (missile/drone threat baseline)"],
+      "discounts_applied": ["No fresh reconstitution datapoint this cycle; the standing baseline is reaffirmed, not re-sourced (-confidence)"],
+      "finding": "No new reconstitution datapoint this cycle. The standing US-IC baseline holds (Iran reconstituting faster than IC timelines; ~2,000 MRBMs near prewar; solid-propellant facilities under reconstruction; documented Chinese material; projected 8,000+ missiles within two years). The Hormuz reclosure demonstrates capability USE (the maritime/IRGC channel) rather than reconstitution-rate evidence; capability remains effectively frozen at the bargaining table pending the down-blend talks now convening.",
+      "trigger_match": "no — T12 holds; no fresh cluster",
+      "direction": "no change",
+      "urgency": "next cycle",
+      "proposed_revision": "None; T12 VALIDATED holds on the prior clusters",
+      "reference_trends": ["T12 hold — amplifier real but no fresh signal; capability frozen pending down-blend"],
+      "conflict_notes": "The reconstitution amplifier (T12) and the Israeli pre-emption incentive (T8) both remain loaded; the actor channeled the incentive to Lebanon and the Iranian response to Hormuz this cycle rather than an Iran-nuclear strike, consistent with both trends (incentive predicted; actor selects)."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "target": "Paine death-ground / war-termination mechanics (BS-12) — P-DG/P-DG2/P-AIM/P-INFO",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live", "The Hill (Iran declares victory)", "Yahoo/AP (both could struggle to keep the deal)"],
+      "discounts_applied": [],
+      "finding": "No death-ground dynamic this cycle. The off-ramp is signed (MoU June 17) though now contested on two surfaces; no US targeting of named Iranian principals (P-DG unfired). Iranian terms did not harden into death-ground maximalism — Iran 'declared victory' and is at the bargaining table, using the Hormuz closure as reversible leverage tied to a specific MoU-interpretation demand (Israel stop in Lebanon), not as an irreversible war-resumption. Trump's 'won’t have a country' coercion is bargaining maximalism, not a death-ground inversion. No P-INFO purge/sycophant signal at the apex (the Mojtaba approval-with-reservation message is a managed-ratification signal, the opposite of an information-pathology purge).",
+      "trigger_match": "no — the 12+ partials / 0 fires pattern continues; the Hormuz reclosure is reversible bargaining leverage, not death-ground hardening",
+      "direction": "no change",
+      "urgency": "next audit",
+      "proposed_revision": "None. The fired-bar recalibration remains a next-/audit item; the probe's persistent 0-fire rate through a signed-then-contested off-ramp reinforces that the fire-bar may be structurally unreachable outside an open kinetic-resumption phase",
+      "reference_trends": ["T3 hold — apex-deterrent floor with a signed (contested) off-ramp; apex ratified with reservation"],
+      "conflict_notes": "No principal-targeting; A20 PA-gap death-ground risk dormant. The probe's persistent 0-fire rate is a fire-bar question for /audit, not a world-state gap. The closest death-ground-adjacent signal (Trump strait-seizure / 'hit hard' threats) is coercive bargaining, not a war-termination death-ground dynamic."
+    }
+  ],
+  "trigger_digest": [
+    {
+      "probe_id": "PROBE-8 / PROBE-2 / PROBE-16 / PROBE-7",
+      "trigger": "Hormuz RECLOSURE (Surface 1 re-armed) one cycle post-signature. June 20 Iran announced closure of the Strait of Hormuz citing the Israeli Lebanon offensive as an MoU violation; the IRGC warned commercial vessels away. CENTCOM countered 'Iran does not control the Strait of Hormuz. Traffic continues to flow' and is monitoring. This reverses the Day-110 'permanently toll free / Hormuz traded in the text' read within three days of signature and re-arms the Hormuz accident surface alongside the still-hot Lebanon surface.",
+      "urgency": "next cycle",
+      "proposed_action": "30d matrix: shift Fork D' mass internally D'-i 32-44% -> 28-40%, D'-v 16-24% -> 20-28%; Fork C 14-22% -> 16-26%; Fork A composite HOLD 10-18% (US-resumption sub-path elevated within band on the Hormuz-enforcement trigger; rhetoric discounted absent action). KEC 24-42% -> 26-44%. NO architecture change and NO /revise: Hormuz is a named v4.4 §5.30 residual collision surface (Surface 1). BS-7/BS-11 state note: Hormuz term reverted from settled to contested-leverage. WATCH P108-04 (Brent >$92) at the Monday June-22 open; WATCH a CENTCOM transit-enforcement order as the Fork C->Fork A converter."
+    },
+    {
+      "probe_id": "PROBE-1",
+      "trigger": "FIRST apex MoU-ownership signal (P108-02 partial-fire). A message attributed to Mojtaba Khamenei: 'a different view in principle' but APPROVED the MoU after SNSC/Pezeshkian assurances on Iran's rights and the 'Axis of Resistance'. Tehran divided on its meaning; a hardliner revealed 'top-secret' Khamenei objections on state TV (June 20).",
+      "urgency": "next cycle",
+      "proposed_action": "Log P108-02 as PARTIAL-FIRE (apex approval-with-reservation surfaced; attribution discount applies). BS-1a state note: apex ratified the MoU conditionally via the SNSC; A4 principal-locus narrows toward SNSC/Pezeshkian-as-functional-decider with Mojtaba-as-ratifying-shield. A4 provisional clock runs (cycle 4 of ~6; demote ~Day 123). The discriminating signal remains an AUTHENTICATED apex-direct term-level statement not routed through SNSC framing."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "trigger": "Signature modality change + talks convened. The MoU was signed electronically June 17 by Trump and President PEZESHKIAN (Trump physical copy at Versailles with Macron post-G7); the June 19 Geneva ceremony did NOT occur (P109-01 resolves: signature durable, no ceremony). The 60-day technical talks CONVENED June 21 at Bürgenstock (Vance/Kushner/Witkoff + Araghchi/Ghalibaf).",
+      "urgency": "next cycle",
+      "proposed_action": "Operational correction: no June-19 ceremony (electronic signature June 17); Iranian signatory is president-level (Pezeshkian), not mid-tier Ghalibaf. Resolve P109-01 (signature confirmed; ceremony modality changed). Talks-convening holds the Fork D'-i floor against the Hormuz/Lebanon D'-v pressure. Discriminating signal: whether the talks produce a Hormuz-status text resolving the closure dispute."
+    }
+  ],
+  "gap_log": []
+}
