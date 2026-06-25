@@ -1,0 +1,305 @@
+{
+  "sweep_metadata": {
+    "cycle_date": "2026-06-25",
+    "day_number": 119,
+    "framework_version": "v4.4",
+    "synthesis_anchor": "synthesis-v4-4.md",
+    "span_note": "First sweep since Day 115 (June 21); covers the June 22-25 span. Day numbering: June 25 = Day 119 (Day N = June[N-94]). The cycle's defining movers: (1) the June-20 Hormuz reclosure proved DECLARATORY/unenforced and inverted into de-escalation (Iran MFA contradicted the IRGC; CENTCOM record traffic; Brent FADED to ~$73-75); (2) the US Senate passed an Iran War Powers Resolution 50-48 on June 23 (first WPR to clear BOTH chambers), tripping the T9 reachable-CONTESTED trigger armed Day 105; (3) the IAEA-verification collision fired (Vance-vs-Iran public contradiction over inspector re-admission). Source caveat: the scenario's web footprint is partly contaminated by 2025 12-Day-War material and mixed-reliability tracker/aggregator sites; tier discounts applied and noted per card. The oil de-pricing (T2 Bloomberg/Fortune/Gulf News) and the Senate WPR vote (T2 CNN/NPR/Al Jazeera) are well-corroborated.",
+    "probes_run": ["PROBE-1", "PROBE-2", "PROBE-7", "PROBE-8", "PROBE-9", "PROBE-10", "PROBE-12'", "PROBE-13", "PROBE-14", "PROBE-15", "PROBE-16", "PROBE-20", "PROBE-21"],
+    "probes_skipped": [
+      {"probe_id": "PROBE-3", "tier": "M", "reason": "structurally opaque; monthly floor satisfied ~June 11, not due. Rial: official CBI ~1,375,050/USD (June 24, TradingEconomics) is not the parallel rate; confirmed Bonbast parallel print UNREACHABLE this window (fetch blocked); prior ~1,790,000 parallel anchor carries unverified. Internal-transmission dark even under the oil swing"},
+      {"probe_id": "PROBE-6", "tier": "E", "reason": "no OFAC action against a Chinese FI; China praised the deal (consulted pole). Activation unmet. NOTE for /audit: the BS-4 pre-committed June-23 retirement date has now PASSED with no OFAC FI action and the MoU's oil-sanctions relief mooting the Hengli cascade; BS-4 retirement is now due (sweep does not retire BSs — /audit action)"},
+      {"probe_id": "PROBE-11", "tier": "M", "reason": "Russia inert/absent from the deal and Hormuz track; last active role the April-7 UNSC veto; monthly; no activation"},
+      {"probe_id": "PROBE-17", "tier": "M", "reason": "Russia siloviki composite; T6 decay re-verify due ~July 1 (not yet); no BS-9.x signal; monthly floor not yet due"},
+      {"probe_id": "PROBE-18", "tier": "E", "reason": "no Tier-1/Tier-2 eschatological event; Temple Mount accumulation unchanged; no activation"},
+      {"probe_id": "PROBE-19", "tier": "E", "reason": "activation is intra-Republican ISRAEL-policy split / Project Esther milestone. The 4-GOP WPR cross (Cassidy, Collins, Paul, Murkowski) + Graham strait-seizure advocacy is intra-Republican IRAN-STRAIT/war-powers daylight, scored under PROBE-10/BS-5 and T9, NOT an Israel-policy split or Esther milestone. Activation unmet; NOTE for /audit: intra-GOP daylight widened materially this cycle"}
+    ],
+    "summary": {"fired": 8, "partial": 5, "null": 0, "gap": 0},
+    "reference_trends": [
+      {"trend": "T9", "effect": "contradict_multi", "note": "REACHABLE-CONTESTED TRIGGER (b) MET. The US Senate passed an Iran War Powers Resolution 50-48 on June 23 (T2 CNN/NPR/Al Jazeera; 4 GOP crossed: Cassidy, Collins, Paul, Murkowski; Fetterman D voted no). This is the FIRST WPR to clear both chambers (House passed earlier ~June 3, the 215-208 logged D97). Per the Day-105 /premortem-armed reachable trigger, T9 moves VALIDATED -> CONTESTED on EITHER a Federal court granting standing OR a SECOND single-chamber on-merits passage of a WPR; the Senate June-23 passage IS that second single-chamber on-merits passage (House was first). Propose VALIDATED -> CONTESTED at the next /audit, urgency immediate. COUNTERVAILING (operational prediction still holds): the resolution is non-binding, was not transmitted to the White House, carries no veto-override margin (50-48 vs 67 needed), and Trump dismissed it ('I will get it done, one way or the other'); no Federal-court WPA standing granted. The full falsification bar (both chambers + veto-override, or a court accepting standing) is NOT met, so this is CONTESTED, not DISCONFIRMED, and the executive-path lock-in operationally holds. The disc-ratio breach (4:10, already at /premortem) increments. This is the Day-105 reachable-trigger mechanism working as designed: the trend is now testable rather than self-certified"},
+      {"trend": "T2", "effect": "hold", "note": "The June-20 Hormuz closure was brandished as the reserved maritime channel then held REVERSIBLE and unenforced: IRGC/Khatam al-Anbiya declared it, Iran's Foreign Ministry (Baghaei) publicly contradicted it (armed forces ensuring safe commercial passage per the MoU), and traffic kept flowing. The multi-channel deterrent demonstrated the channel as leverage without converting it to enforcement, consistent with the Slantchev brandish-then-trade pattern. The civil-military split is a managed-signal datapoint, not a channel collapse. Holds within VALIDATED"},
+      {"trend": "T3", "effect": "hold", "note": "No authenticated apex-direct statement this cycle (Mojtaba unseen/unheard since Feb 28; the June-18 relayed message stands; P84-07 Vahidi-HEU absent 11th cycle; P115-03 unmet). Hardliner Nabavian (June 23) claims Mojtaba 'repeatedly objected' and set conditions absent from the MoU, CONTESTING the Day-115 attributed-approval signal via relay. The Hormuz closure was IRGC-attributed with NO apex/SNSC ownership claim, cutting against the very MoU the apex conditionally approved -> the two-level structure holds (apex ratifies the deal; military reserves/brandishes the floor) and the A4 principal-locus narrows further toward delegated/diffuse / IRGC-command-autonomous. Holds within VALIDATED"},
+      {"trend": "T1", "effect": "hold", "note": "Gulf disposition shifted from Day-115 'relief' toward ALARM: CNN (June 24, T2) 'Trump's Gulf allies fear his Iran agreement is a disastrous turning point' (the deal grants Iran a formal Hormuz oversight role alongside Oman + maritime service fees; Gulf push toll-free freedom of navigation; deal fails to address Iran missiles/proxies). UAE agreed to unlock billions in frozen Iranian assets (Reuters relay) -- a tactical-accommodation datapoint on the MBZ pathway, opposite-signed to the Day-115 UAE-hawkish read. No in-window NAMED MBS-MBZ divergence on a specific decision. Gulf alarm + hedging (non-aggression-pact path) is autonomous pivot capacity. Holds within VALIDATED"},
+      {"trend": "T4", "effect": "hold", "note": "Deal-faction (Vance/Kushner/Witkoff) led the Bürgenstock talks to a 60-day roadmap; Vance is the public face on verification ('Iranians agreed to invite IAEA inspectors'). Graham hawkish (strait-seizure-by-force advocacy) and 4 GOP crossed on the WPR -- intra-Republican daylight on Iran war-powers WIDENED, but the deal-faction remains operationally dominant and no eschatological counter-mobilization fired. Holds within VALIDATED"},
+      {"trend": "T8", "effect": "hold", "note": "Pre-emption incentive remains maximal (HEU deferred) but channeled to Lebanon, which moved toward TALKS this cycle (5th-round Israel-Lebanon political+military track scheduled June 23-25; ceasefire held into talks rather than collapsing into open war). No Israeli strike on Iranian nuclear sites; no direct Iran-Israel exchange. Ben Gvir/Smotrich rejected the deal ('does not bind us') but no far-right resignation; coalition strained, intact. The actor continues to NOT spend the incentive on an Iran-nuclear strike. Hold within VALIDATED (easing on the Lebanon axis); window-fit caveat on the talks-schedule sourcing (aggregator)"},
+      {"trend": "T12", "effect": "hold", "note": "No fresh reconstitution cluster this cycle; the standing US-IC baseline (faster-than-IC-timelines; ~half missile launchers intact; ~400kg 60% HEU survived; full drone reconstitution ~6 months) carries, not re-sourced. Capability frozen-pending-verification at the table"}
+    ],
+    "calibration": {
+      "trend_state_question": "ONE transition flagged for /audit: T9 (Stage-2 hysteresis lock-in) VALIDATED -> CONTESTED, urgency immediate, on the Day-105-armed reachable trigger (b): the Senate June-23 50-48 WPR passage is the second single-chamber on-merits passage (House was first). The sweep FLAGS, does not enact. The operational executive-path prediction still holds (non-binding, not transmitted, no veto-override, Trump-dismissed; no court standing), so this is CONTESTED (testable), not DISCONFIRMED (falsified). All other trends hold within state: T2/T3/T4/T8/T12 hold; T1 holds with a relief->alarm disposition shift (no named split). NO VALIDATED trend other than T9 contradicted. DISCIPLINE NOTE (BS-7/BS-11 oscillation, NOT a trend reading-swing): the Hormuz operational sub-read has now reversed THREE consecutive cycles -- D110 'settled/traded-in-text' -> D115 'contested-leverage re-arm' (Fork C up 16-26) -> D119 'declaratory/unenforced, de-escalating' (Fork C back down). No trend predicted Hormuz-term permanence (so no T2/T9 contradiction), but the Day-115 Fork C re-arm now reads as a mild over-reaction to an unenforced declaration; the disciplined withholding of the Fork-A reset at D115 was correct, the Fork-C level-bump was recency-leaning. Logged for /audit BS-7/BS-11 state note and as a candidate /premortem watch item (is the Hormuz sub-read tracking each headline?).",
+      "thesis_question": "HOLDING. The v4.4 thin-instrument-defers-collisions thesis is confirmed a cycle further in: the Day-115 Hormuz collision proved REVERSIBLE and declaratory (unenforced, MFA-contradicted, oil de-priced -- exactly the Slantchev brandish-then-trade reading, not a staked sovereign position), and the NEXT named §5.30 collision (HEU down-blend verification) surfaced precisely where the synthesis ranked it: Vance asserts Iran agreed to re-admit IAEA inspectors, Iran's ambassador publicly denies, IAEA still has zero access to the four declared enrichment sites. The 60-day window is producing the predicted collision sequence one surface at a time, each so far resolving reversibly while the signature and the talks-clock hold. The one genuinely NEW structural pressure is domestic-US (the bicameral WPR passage), which the framework's T9 reachable-CONTESTED trigger was pre-built to catch -- and it caught it. No relocation of the analytical problem, no thesis break; the binding question stays inside the 60-day window and is now jointly: (a) does the verification fracture (D'-v driver) harden, and (b) does the bicameral WPR mature into an enforceable constraint (it has not).",
+      "proposed_matrix_revisions_30d": {
+        "Fork_D_prime_composite": {
+          "prior": "48-62%",
+          "proposed": "50-64%",
+          "direction": "up (mass recovered FROM Fork C; internal split tilts further to D'-v on the verification fracture)",
+          "rationale": "Both residual accident surfaces cooled toward talks: Hormuz proved declaratory/unenforced (oil de-priced to ~$73-75), and the Lebanon axis moved into a 5th-round talks track. Signature durable; the Bürgenstock round produced a 60-day roadmap to a binding treaty. The composite recovers the cycle's Fork-C de-arm. SITREP call"
+        },
+        "Fork_D_prime_i_operative": {
+          "prior": "28-40%",
+          "proposed": "30-42%",
+          "direction": "up",
+          "rationale": "The clean-operative path recovers: the Hormuz closure that damaged it at D115 collapsed into unenforced declaration with traffic flowing at record volume; the 60-day roadmap and the Lebanon-talks track support the operative deferral"
+        },
+        "Fork_D_prime_v_signed_but_stalls": {
+          "prior": "20-28%",
+          "proposed": "22-30%",
+          "direction": "up",
+          "rationale": "Remains the leading variant and firms on the IAEA-verification fracture: a principal-level US-Iran public contradiction (Vance: 'agreed to invite inspectors' vs Iran's ambassador's explicit denial; inspections deferred to a post-sanctions-relief stage; zero current IAEA access). This is the §5.30 HEU down-blend collision class going live -- the textbook signed-but-stalls driver -- now compounded by the bicameral WPR domestic-friction overhang"
+        },
+        "Fork_C": {
+          "prior": "16-26%",
+          "proposed": "14-22%",
+          "direction": "down",
+          "rationale": "De-arm. The Hormuz accident surface that re-armed at D115 reverted: closure unenforced, Iran MFA contradicting the IRGC, CENTCOM record traffic, no interdiction, zero KIA, oil falling not spiking. Lebanon moved to a talks track. The two-surface live configuration of D115 collapses back toward one cooling surface (the verification dispute is a deal-stress / D'-v input, not a kinetic accident surface)"
+        },
+        "Fork_A_composite": {
+          "prior": "10-18%",
+          "proposed": "10-18%",
+          "direction": "no change (US-resumption sub-path DE-elevates within band; Israeli pre-emption sub-path holds)",
+          "rationale": "No US strike, no new CENTCOM operation, zero KIA; Trump's strait-seizure / 'hit hard again' threats stayed rhetoric (Graham's seizure-by-force is explicitly conditional on deal failure). The D115-elevated US-resumption sub-path de-elevates within the band on the Hormuz de-escalation AND the bicameral-WPR domestic-cost overhang. Israeli pre-emption sub-path holds 28-40% within the window (channeled to Lebanon, now in talks)"
+        },
+        "Fork_B_combined": {
+          "prior": "8-14%",
+          "proposed": "8-14%",
+          "direction": "no change",
+          "rationale": "The 60-day roadmap to a binding treaty keeps the comprehensive-settlement path alive, but the IAEA-verification fracture (and US-IC pessimism on Iranian nuclear concessions) caps B below D'. Nuclear deferred holds"
+        },
+        "None_of_above": {
+          "prior": "5%",
+          "proposed": "5%",
+          "direction": "no change",
+          "rationale": "Mandatory non-zero floor held"
+        },
+        "KEC_derived": {
+          "prior": "26-44%",
+          "proposed": "24-42%",
+          "direction": "down",
+          "note": "[DERIVED] Fork A 10-18% + Fork C 14-22% + tail (<2%). Footnote use only; primitives lead. Down-tick tracks the Fork C de-arm as the Hormuz surface de-escalated"
+        }
+      },
+      "note_6_12m_matrix": "No 6/12m structural-prior update from the sweep. The Hormuz de-escalation and Lebanon-talks track are annex-level activations/reversals of the v4.4 §5.28/§5.30 surfaces, not constraint-layer shifts. HOWEVER: if the next /audit ENACTS the T9 VALIDATED -> CONTESTED transition, that is a trend-state transition (the primary /revise trigger) and the 6/12m Fork A / structural-prior re-base assumptions resting on T9 executive-path lock-in must be re-evaluated at /revise. Flagged. The bicameral WPR passage alone, non-binding and Trump-dismissed, is below the /revise bar this cycle; a Federal court granting WPA standing OR a veto-override-capable majority would cross it."
+    }
+  },
+  "finding_cards": [
+    {
+      "probe_id": "PROBE-10",
+      "target": "US domestic war-powers / constitutional constraint (BS-5) — WPR votes, court WPA filings, executive-path lock-in (T9)",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["CNN (Senate WPR 50-48, June 23)", "NPR (June 23)", "Al Jazeera (June 23-24)", "Trump Truth Social (named, 'Four Republican Losers... I will get it done, one way or the other')"],
+      "discounts_applied": ["Trump Truth Social reaction scored for posture, not literal content", "No -50% needed: the vote count and roll are multi-outlet T2 with a named tally"],
+      "finding": "The US Senate passed an Iran War Powers Resolution 50-48 on June 23, directing the President to remove US forces from hostilities with Iran. Four Republicans crossed (Cassidy, Collins, Paul, Murkowski); Fetterman (D) voted no. This is the FIRST WPR to clear BOTH chambers (the House passed earlier ~June 3, the 215-208 logged as D97). The resolution is NON-BINDING, was not transmitted to the White House, and carries no veto-override margin (50-48 vs 67). Trump dismissed it on Truth Social. No Federal-court WPA standing was granted this cycle. This is a probe UPSHIFT: PROBE-10 was at Tier M/E (downshifted Day 105 after the bicameral test 'completed' for the executive); the Senate passage is an external signal touching its target, so it runs this cycle and holds at Tier D for 3 cycles per the auto-upshift rule.",
+      "trigger_match": "yes — T9 reachable-CONTESTED trigger (b) MET. Per the Day-105 /premortem-armed rule, T9 moves VALIDATED -> CONTESTED on a SECOND single-chamber on-merits passage of a WPR; the House (June 3) was the first, the Senate (June 23) is the second. Propose VALIDATED -> CONTESTED at the next /audit, urgency IMMEDIATE. NOT DISCONFIRMED: the full falsification bar (both chambers + veto-override, or a court accepting standing) is unmet; non-binding + Trump-dismissed means the operational executive-path prediction still holds",
+      "direction": "qualitative — T9 trend-state flag VALIDATED -> CONTESTED (for /audit); 30d matrix no direct move (executive path operationally intact; folds into the Fork A US-resumption-sub-path de-elevation as a domestic-cost overhang)",
+      "urgency": "immediate",
+      "proposed_revision": "Trend tracker: flag T9 VALIDATED -> CONTESTED for the next /audit (reachable trigger b met); increment the disc-ratio (already 4:10, at /premortem). BS-5 state note: bicameral WPR test now has a both-chambers on-merits passage (House June 3 / Senate June 23 50-48), non-binding, executive path operationally holds. /revise watch: if /audit enacts CONTESTED, re-evaluate the 6/12m structural priors resting on T9 lock-in. Standing watch: Federal-court WPA standing OR a veto-override-capable majority crosses to DISCONFIRMED / full falsification",
+      "reference_trends": ["T9 contradict_multi — reachable CONTESTED trigger (b) met (second single-chamber on-merits passage); propose transition at /audit; operational executive-path prediction holds (non-binding, Trump-dismissed)"],
+      "conflict_notes": "No principal-validation issue (named roll-call vote, multi-outlet). The analytical tension is internal to the trend rule: the reachable-CONTESTED trigger is met (procedurally demands the flag) while T9's structural prediction (no ENFORCEABLE WPA constraint absent bicameral-plus-veto or a court) operationally holds. This is exactly the case the Day-105 reachable trigger was built for: it demotes to CONTESTED short of full falsification to make the trend testable rather than self-certifying. The 4-GOP cross is also intra-Republican Iran-policy daylight (T4 context) but is scored here, not under PROBE-19 (which is Israel-policy/Esther-scoped)."
+    },
+    {
+      "probe_id": "PROBE-8",
+      "target": "Energy market structural breaks (BS-7) — Brent, Hormuz status, closure/reopening, war-risk pricing",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Bloomberg ('Brent erases wartime gains as Hormuz reopening boosts supply', June 24-25)", "Fortune (Brent ~$75.57, June 24)", "Gulf News (Brent -4%, 'Middle East risk premium fades')", "TradingEconomics / Investing.com (Brent ~$72.64-73.72, June 25)", "CENTCOM via reporting (55 ships / 17M bbl transited June 20)", "Hormuz Strait Monitor / OpsCon trackers (T4)"],
+      "discounts_applied": ["Tracker/aggregator items (Hormuz Strait Monitor, IMO-evacuation, Denmark-escort) held at T4 pending T1/T2 confirmation", "The June-20 'closure' announcement scored as declaratory: contradicted same-window by Iran's own MFA and by transit data"],
+      "finding": "The Hormuz war-risk premium FADED rather than repriced up, inverting the Day-115 expectation. Brent fell to ~$73-75 by June 24 (Fortune $75.57; June-25 futures ~$72.64-73.72), down ~4% and roughly -36-40% from the wartime peak, lowest since late February; Bloomberg: 'Brent erases wartime gains as Hormuz reopening boosts supply.' The June-20 IRGC closure declaration was NOT operationally sustained: CENTCOM reported the waterway never closed (55 merchant ships / 17M+ barrels transited June 20, a record), traffic kept flowing June 21-25, the Iranian-ports blockade was lifted June 18 (Adm. Cooper), and no confirmed interdiction or fire on a US/allied vessel surfaced. P108-04 (Brent >$92) and P105-05 (Brent >$100 sustained) did-NOT-fire decisively; the tape priced de-escalation and re-supply, not closure. This REVERSES the Day-115 'contested-leverage re-arm' read within one cycle: the closure was reversible brandishing, not a staked position.",
+      "trigger_match": "yes — BS-7 de-escalation: the Hormuz surface that re-armed at D115 reverted to declaratory/unenforced with oil falling. Drives the Fork C de-arm (16-26 -> 14-22) and supports the Fork D'-i recovery. P108-04 / P105-05 resolve did-not-fire",
+      "direction": "down (war-risk premium; Fork C). Brent ~$73-75 and falling; closure unpriced because unenforced",
+      "urgency": "next cycle",
+      "proposed_revision": "BS-7/BS-11 state note: the Hormuz term reverts AGAIN, from D115 'contested-leverage' to 'declaratory/unenforced — de-escalating' (THIRD consecutive oscillation: D110 settled -> D115 re-arm -> D119 declaratory-collapse). Matrix: Fork C 16-26 -> 14-22; D'-i 28-40 -> 30-42. Resolve P108-04 / P105-05 did-not-fire. Log the oscillation for /audit (recency-bias watch on the Hormuz sub-read)",
+      "reference_trends": ["T2 hold — Hormuz channel brandished as reserved leverage then held reversible/unenforced (brandish-then-trade)", "T9 hold — Hormuz regime traded in the executive instrument; the closure/reopening dispute runs inside it"],
+      "conflict_notes": "Direct contradiction between the IRGC closure declaration (June 20) and (a) Iran's own Foreign Ministry (Baghaei: armed forces ensuring safe passage), (b) CENTCOM transit data, (c) the oil tape. Resolution: the transit data + Iran-MFA contradiction + falling Brent are the stronger, multi-source signal; the IRGC declaration is posture. Not a trend contradiction (no trend predicted Hormuz permanence; §5.30 carried it as a residual surface). The D115 Fork-C level-bump on an unenforced declaration reads in hindsight as recency-leaning; the disciplined withholding of the Fork-A reset at D115 was correct."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "target": "Diplomacy track (BS-11) — talks progress, collision classes (HEU/IAEA verification, missile clause, Lebanon carve-out), signatories, channels",
+      "status": "fired",
+      "confidence": "H",
+      "sources_consulted": ["Al Jazeera ('Key outcomes', June 22; Iran ambassador denial)", "Fox News Digital (round concluded June 22, 60-day roadmap)", "Geneva Solutions (T3, Grossi not met)", "Institute for Science / ISIS (T3, zero IAEA access to four declared sites)", "CFR / Soufan Center / Arab Center DC (T3, 14-point MoU text excludes missiles)"],
+      "discounts_applied": ["swissinfo / STL.news roadmap detail held at T4 pending T2 confirmation; the roadmap and the IAEA-dispute are corroborated by Al Jazeera T2", "Vance 'great progress' framing scored for the verification-claim content, not the optimism"],
+      "finding": "The first high-level Bürgenstock round concluded early June 22 (~18-hour session) and produced a 60-day roadmap to convert the MoU into a binding treaty plus maritime safeguards, moving to a technical phase. The LOAD-BEARING development is the §5.30 HEU down-blend / IAEA-verification collision class going LIVE as a principal-level public contradiction: VP Vance stated 'The Iranians have agreed to invite IAEA inspectors back'; Iran's ambassador PUBLICLY DENIED any such agreement, said inspections belong to a later stage after sanctions waivers/asset-unfreezing, and confirmed Iran's team did not meet IAEA DG Grossi at Bürgenstock. IAEA retains ZERO access to the four declared enrichment facilities. The missile-program-limit clause is confirmed EXCLUDED from the 14-point MoU text (deferred to final negotiations, not a precondition; P108-03 did-not-fire). No walkout/breakdown; the talks proceed with verification as the central disputed item.",
+      "trigger_match": "yes — P109-03 (HEU down-blend verification dispute) FIRES: Iran refuses/disputes the named US 'active role' / IAEA re-admission. The §5.30 HEU collision class is live; reprices Fork D'-v upward. P108-03 (missile-limit clause enters text) did-not-fire (confirmed excluded). Talks-roadmap holds the Fork D'-i floor",
+      "direction": "up (Fork D'-v on the verification fracture); Fork D'-i floor held by the roadmap",
+      "urgency": "next cycle",
+      "proposed_revision": "Log P109-03 fired. Matrix: D'-v 20-28 -> 22-30. BS-11 state note: 60-day roadmap to a binding treaty agreed June 22; the HEU/IAEA-verification collision is the live fracture (Vance-vs-Iran public contradiction; zero current IAEA access). Discriminating signal next cycle: whether the technical rounds produce an agreed IAEA-access text or the verification dispute hardens into a deal-terminal break",
+      "reference_trends": ["T4 hold — deal-faction (Vance) leading the verification track", "T3 hold — Iranian apex/ratification chain via the council; verification deferred to a post-sanctions-relief stage by the Iranian side"],
+      "conflict_notes": "The Vance-vs-Iran-ambassador contradiction over IAEA re-admission is itself two-level-game evidence: each side narrates the same thin instrument to its own ratification audience (US: verification secured; Iran: nothing conceded pre-relief). The frozen-assets / sanctions sequencing is the Iranian-side leverage anchor (UAE asset-unlock, PROBE-20, is the counterpart). Discriminating signal: an agreed, published IAEA-access protocol vs a sustained access denial."
+    },
+    {
+      "probe_id": "PROBE-2",
+      "target": "IRGC factional structure (BS-8) + Iranian decision architecture (BS-1a) — Khatam al-Anbiya / IRGC vertices, Hormuz closure authority, HEU statements",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["The National (June 21, IRGC says Hormuz shut; shipping data contradicts)", "Euronews / Business Standard (IRGC-only attribution)", "Iran MFA spokesman Baghaei (named, contradicting the closure)"],
+      "discounts_applied": ["-50% on classified internal-decision content (who actually ordered the closure)", "Iranian state-military statements read for posture, not literal intent"],
+      "finding": "The Hormuz reclosure was announced June 20 by the IRGC / Khatam al-Anbiya with NO SNSC or apex ownership claim, and was then PUBLICLY CONTRADICTED by Iran's Foreign Ministry spokesman Esmail Baghaei, who said the armed forces were ensuring safe commercial passage per the June-18 MoU — an open civil-military split inside Tehran. The IRGC maritime channel thus brandished the deterrent (warnings, mine/targeting language) while the diplomatic apparatus and the transit data both negated enforcement. The closure cuts against the very MoU the apex conditionally approved, pointing to delegated/diffuse maritime ROE or an intra-regime hardline signal rather than apex-directed enforcement. Vahidi-direct HEU statement again ABSENT (P84-07, 11th consecutive cycle).",
+      "trigger_match": "yes (factional-signal) — IRGC/MFA split surfaced; no apex fingerprint on the closure; feeds the Fork C de-arm (declaratory, unenforced) rather than an escalation. No HEU-axis movement",
+      "direction": "down (Hormuz-axis escalation risk; the closure is unenforced and intra-regime-contested)",
+      "urgency": "next cycle",
+      "proposed_revision": "BS-8 state note: the IRGC maritime channel is the brandishing vertex on Hormuz, but the FM publicly countermanded the closure framing — the civil-military split is the cycle's new BS-8 datapoint. The escalation-control reading (apex-intended vs IRGC-command-autonomous) tilts toward command-autonomous/declaratory",
+      "reference_trends": ["T2 hold — reserved channel brandished then held reversible", "T3 hold — military reserves/brandishes the floor; the deal track (Pezeshkian/Araghchi) negotiates; apex does not own the closure"],
+      "conflict_notes": "Principal-validation (A4 / GCC-axis discriminator per Step 7b.5 Mitigation 4): who ordered the closure? (a) apex/SNSC-directed (enforcement of the MoU's Lebanon clause) vs (b) IRGC-command-autonomous (delegated maritime ROE) vs (c) intra-regime hardline signal against the deal. THIS CYCLE the discriminator cuts hard toward (b)/(c): IRGC-only attribution, the Foreign Ministry PUBLICLY contradicting it, no apex/SNSC claim, and the closure running AGAINST the apex's own ratified instrument. The escalation-control reading (a Hormuz interdiction would be command-autonomous, not apex-intended) is load-bearing on the Fork C-vs-Fork A boundary and de-escalatory this cycle: an unenforced, intra-regime-contested closure signals LOW apex escalation intent. Inherited-not-validated on the principal; the apex-direct discriminator (P115-03) remains the resolver."
+    },
+    {
+      "probe_id": "PROBE-1",
+      "target": "Iranian apex / decision architecture (BS-1a) — Mojtaba/Pezeshkian/SNSC, MoU ownership, authenticated apex-direct discriminator (P115-03)",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Times of Israel / NBC / CBS (Mojtaba not seen/heard since Feb 28)", "Iran International (June 23, T2 exile -50%, Nabavian: Mojtaba 'repeatedly objected'; Paydari parliamentary disruption)", "Al Jazeera (background, Khamenei HEU directive)"],
+      "discounts_applied": ["Iran International -50% (exile/opposition outlet)", "Single-source Iranian internal-politics claims -70% where uncorroborated", "The June-18 Mojtaba message remains an ATTRIBUTED relay, not authenticated apex-direct"],
+      "finding": "No authenticated apex-direct statement this cycle. Mojtaba Khamenei has not been seen or heard directly since inheriting the position after Ali Khamenei's Feb-28 death; the only apex signal remains the June-18 relayed message ('a different view in principle' but approved). This cycle the Day-115 attributed-approval is actively CONTESTED via relay: hardliner Nabavian (June 23) claims Mojtaba 'repeatedly objected' and set conditions absent from the MoU. The apex POSITION is thus disputed through intermediaries rather than owned directly, reinforcing the principal-locus-unresolved / delegated-diffuse reading. Hardliner backlash against Araghchi/Ghalibaf is escalating (Paydari Front parliamentary disruption; an MP planning a protest over the closed parliament; earlier-window death-chants) but is single-exile-cluster heavy. P115-03 (authenticated apex-direct term-level statement) UNMET; P84-07 (Vahidi-direct HEU) absent (11th).",
+      "trigger_match": "partial — no new apex-ownership signal and no authenticated apex-direct; the Day-115 P108-02 partial is now contested by hardliner relay. Below matrix-movement threshold; material to the BS-1a state note and the A4 provisional trajectory",
+      "direction": "no change (matrix); A4 principal-locus narrows further toward delegated/diffuse/unresolved",
+      "urgency": "next cycle",
+      "proposed_revision": "BS-1a state note: the attributed apex approval is contested via relay (Nabavian); no authenticated apex-direct; P115-03 remains the live discriminator. A4 provisional clock at cycle 5 of the ~6-cycle window (demote ~Day 123): absent an authenticated apex-direct statement in the next 1-2 cycles, the next /audit must STAGE the A4 demotion-to-structurally-opaque manifest, not re-flag",
+      "reference_trends": ["T3 hold — two-level structure holds (apex ratifies via the council, does not publicly own terms); apex-locus unresolved, narrowing toward delegated/diffuse"],
+      "conflict_notes": "Principal-validation (A4, PROVISIONAL, cycle 5 of the ~6-cycle window; demote ~Day 123). Step 7b.5 forcing-question RESTATE (mandatory through the provisional window): the signal that would resolve the candidate set {Mojtaba-direct vs SNSC/Pezeshkian-functional vs IRGC-council} is an AUTHENTICATED apex-direct statement (video/voice/signed text) independently owning or repudiating a specific MoU term (HEU or Hormuz) WITHOUT routing through SNSC/relay framing. Axis-level (GCC/Hormuz) discriminator (Mitigation 4): apex public claim/ownership of the Hormuz closure (apex-directed) vs IRGC-only attribution with FM countermand (delegated/diffuse). THIS CYCLE the evidence is all on the delegated/diffuse side (Mojtaba unseen since Feb 28; the approval contested by relay; the closure IRGC-attributed and FM-countermanded). Per Step 7b.5 + Mitigation 1, this is a routed action, NOT an indefinite flag: continue to demotion at window close absent an authenticated apex-direct term-level statement."
+    },
+    {
+      "probe_id": "PROBE-9",
+      "target": "Israeli internal politics / operational posture (BS-3) — Lebanon axis, Hezbollah ceasefire, Trump-Netanyahu divergence, Iran-strike preparation",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["Al Jazeera / Wikipedia ('2026 Israel-Lebanon peace talks', 5th round scheduled June 23-25; T4 aggregator on the schedule)", "Times of Israel (Ben Gvir/Smotrich reject deal; 'won't be bound'; T3-Israeli)", "CBS/CNN (earlier-window Lebanon fighting baseline)"],
+      "discounts_applied": ["Talks-schedule item held at T4 (aggregator) pending T1/T2 confirmation", "'Strike' timelines disputed/contaminated by 2025 12-Day-War web material; not scored"],
+      "finding": "The Lebanon spoiler moved toward DE-ESCALATION this cycle: a 5th round of Israel-Lebanon talks (political + military tracks) was scheduled across June 23-25, implying the June-19 ceasefire held into a talks track rather than collapsing into open war (sourcing is aggregator-level; no T1/T2 in-window hold-vs-rebreak confirmation surfaced). No Israeli strike on Iranian nuclear sites; no direct Iranian missile response drawn. Ben Gvir and Smotrich publicly rejected the MoU ('Trump's agreement does not bind us'; 'we are not partners') but NO far-right resignation occurred; the coalition is strained, intact. Israeli ministers restated reactive deterrent language ('won't be bound'; 'hit with full force' if Iran strikes), not an in-window pre-emption-prep signal. The pre-emption incentive remains channeled to Lebanon and is cooling toward talks.",
+      "trigger_match": "partial — no Iran-nuclear-site strike (P85-02 unfired); no direct Iran-Israel exchange (P102-02 did-not-fire, off elevated watch as the axis cools); no coalition resignation (P102-03 unfired). The Lebanon-axis de-escalation removes the upstream pressure that drove the D115 Hormuz response",
+      "direction": "down (Lebanon-axis accident risk; supports the Fork C de-arm)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the Lebanon-talks track is an input to the Fork C de-arm (PROBE-8/PROBE-16). Continue P102-02 at standing watch (cooling); BS-3 state note: ceasefire held into a 5th-round talks track (aggregator-sourced; seek T1/T2 confirmation next cycle)",
+      "reference_trends": ["T8 hold/easing — pre-emption incentive maximal but channeled to Lebanon, now moving to talks; no Iran-nuclear strike", "T4 hold — Ben Gvir/Smotrich reject the deal but the deal-faction and the ceasefire hold"],
+      "conflict_notes": "A2 (Netanyahu Principal-Access Channel) PROVISIONAL, cycle 5 of the ~6-cycle window (demote ~Day 123). Step 7b.5 forcing-question RESTATE: the discriminating signal is a White House readout claiming maximalist terms the signed text does NOT contain (= Penetration-relay validated) vs the executive openly diverging from Netanyahu and tolerating a HEU-deferring deal (= relay inherited, demote). THIS CYCLE cuts AGAIN against A2: the MoU excludes Iran's missiles and leaves the HEU stockpile, Vance is pushing IAEA re-admission (verification, not 'full dismantlement'), and Trump pressured Israel to hold the Hezbollah ceasefire — the opposite of a penetrated executive relaying Israeli maximalism (P87-01 evidence-against, 5th cycle). Supports staging the A2 demotion at the next /audit. Window-fit caveat: the Lebanon-talks sourcing is aggregator-level and should be re-confirmed."
+    },
+    {
+      "probe_id": "PROBE-7",
+      "target": "CENTCOM posture / residual capability (BS-13) — two-axis nominal/operational de-escalation score, transit-enforcement",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM via reporting (record Hormuz transit June 20; blockade lifted June 18, Adm. Brad Cooper)", "VP Vance (named, 'the straits really are open')", "shipping trackers (traffic flowing June 21-25)"],
+      "discounts_applied": ["IMO-evacuation / Denmark-escort tracker items held at T4 pending confirmation"],
+      "finding": "CENTCOM posture is firmly on the OPERATIONAL de-escalation axis: the Iranian-ports blockade was lifted June 18 (Adm. Cooper), commercial traffic flowed at record volume through the 'closed' strait (55 ships / 17M+ bbl June 20), and Vance publicly asserted 'the straits really are open.' No new operation name, no transit-enforcement/interdiction order, no strike, zero new US KIA. Unlike Day 115 (nominal firming via the 'traffic continues to flow' contestation), this cycle CENTCOM did not need to firm the nominal axis because the closure simply did not materialize as enforcement and Iran's own MFA negated it. The 'pressure-while-talking' middle register of D115 resolved DOWN this cycle: nominal and operational axes both de-escalatory.",
+      "trigger_match": "yes — both axes de-escalatory; the Fork A activation watch (new operation OR US KIA) unfired; the Hormuz transit-enforcement trigger did not arm (no enforcement needed, traffic flowing). Supports the Fork C de-arm",
+      "direction": "down (de-escalation on both axes)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; folds into the PROBE-8/PROBE-16 Hormuz de-arm. PROBE-7 two-axis score reads clean de-escalation this cycle (vs the D115 middle register), confirming the recalibration tracks both ends without a false read",
+      "reference_trends": ["T9 hold — Hormuz regime traded in the executive instrument; CENTCOM enforcing nothing", "T2 hold"],
+      "conflict_notes": "The recalibrated two-axis PROBE-7 reads clean de-escalation this cycle, vs the D115 pressure-while-talking middle register and the D105 escalation peak — the full arc tracked without a false read at any end (carry the validation note to /audit for tier confirmation). No principal issue."
+    },
+    {
+      "probe_id": "PROBE-16",
+      "target": "First-mover architecture under asymmetric lock-in (BS-15) — accident-surface / snap-back race",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CENTCOM transit data / shipping trackers (Hormuz traffic flowing)", "Al Jazeera / Wikipedia (Lebanon talks scheduled June 23-25)", "Iran MFA Baghaei (closure countermand)"],
+      "discounts_applied": [],
+      "finding": "The two-surface live configuration of Day 115 collapsed back toward cooling this cycle. Surface 1 (Hormuz) DE-ARMED: the closure was declaratory/unenforced (Iran MFA countermand + record transit + falling oil), removing the transit-enforcement accident path. Surface 2 (Lebanon) moved toward a talks track (5th round June 23-25), cooling the ceasefire-breach accident path. Surfaces 3 (Iran-Israel direct) and 4 (Iran-GCC) quiet. The joint accident probability falls from the D115 two-live-surface peak; the Fork C-vs-Fork A boundary is no longer actively pressured on either surface this cycle. The residual binding question shifts from accident-surface (kinetic) to verification-fracture (deal-stress / D'-v).",
+      "trigger_match": "yes — both residual accident surfaces cooled; the Fork C / Fork D'-v boundary de-arms on Hormuz and Lebanon. The Hormuz transit-enforcement clash did not arm (no enforcement)",
+      "direction": "down (Fork C)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move beyond the PROBE-8/PROBE-9 de-arm; flag that the cycle's residual pressure migrated from the kinetic accident surfaces to the IAEA-verification fracture (a D'-v input, not a first-mover accident surface)",
+      "reference_trends": ["T8 hold/easing", "T2 hold — channel brandished then held reversible"],
+      "conflict_notes": "Joint-distribution opacity at the Fork C/Fork A boundary (BS-15 known limitation) is LESS pressured this cycle because neither surface produced an enforcement event. The D115-noted doubling across two surfaces reverses. Principal-validation note (mirrors PROBE-2): an Iranian Hormuz interdiction would plausibly be IRGC-command-autonomous (the closure was IRGC-attributed, FM-countermanded, apex-unowned), which is de-escalatory for apex escalation-intent this cycle."
+    },
+    {
+      "probe_id": "PROBE-13",
+      "target": "A1 Trump principal disposition (BS-12) — statement-to-action gap, deal vs coercive rhetoric",
+      "status": "fired",
+      "confidence": "M",
+      "sources_consulted": ["CBS News live (Trump 'hit Iran very hard again' rhetoric ~June 21)", "CNN (June 21)", "Sen. Graham (named, strait-seizure-by-force conditional on deal failure)", "Trump Truth Social (WPR dismissal, June 23)"],
+      "discounts_applied": ["Trump statements scored near-zero on literal content; the data is the statement-to-action GAP and the posture context"],
+      "finding": "A1 rhetoric stayed RHETORIC this cycle: no tape action, no executive order, no new strike, no transit-enforcement followed the Day-21 'take over the strait' / 'hit Iran very hard again' threats. Graham's 'if this deal fails, President Trump is going to take the Strait of Hormuz over by force' is explicitly conditional and future-tense. The deal-faction simultaneously ran the Bürgenstock talks to a 60-day roadmap. Trump's only in-window action was a Truth Social dismissal of the Senate WPR ('Four Republican Losers... I will get it done, one way or the other') — a domestic-posture, not a kinetic, move. The statement-to-action gap stays compressed-but-unconverted: maximal rhetoric, zero kinetic follow-through, talks proceeding.",
+      "trigger_match": "yes (pattern; sub-state) — A1 'hawkish-with-no-execution' deal-protective sub-state re-confirmed; the strait-seizure threat remains a discounted Fork A US-resumption arming signal, de-elevated this cycle as Hormuz de-escalated and the WPR added domestic cost. No fork move",
+      "direction": "no change (composite); the US-resumption sub-path de-elevates within the Fork A band",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; A1 deal-protective coercion holds. Watch for tape action (any CENTCOM transit-enforcement or strike converts the rhetoric to a Fork A trigger). The WPR dismissal is a BS-5/T9 input (PROBE-10), not a matrix mover",
+      "reference_trends": ["T4 hold — deal-faction executive using coercion to protect the deal; Vance leading talks", "T3 hold — US-side public maximalism on the end-state while protecting the deferral mechanism"],
+      "conflict_notes": "No principal-validation issue (A1 attribution to Trump is named, on-tape, multi-outlet). The cycle's discriminating test of the deal-protective read passed: the threats were paired with proceeding talks and zero kinetic action, and Trump's WPR-dismissal frames continued executive freedom of action rather than a strike decision."
+    },
+    {
+      "probe_id": "PROBE-15",
+      "target": "Mutual dispositional reading / power-shift perception (BS-14) — Trump-Netanyahu, Trump-Iran, Powell mechanism",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["Times of Israel (Ben Gvir/Smotrich 'not bound')", "CNN (June 24, Gulf 'disastrous turning point')", "CBS/CNN (Trump-Iran rhetoric baseline)"],
+      "discounts_applied": [],
+      "finding": "The dual dispositional splits of Day 115 persist but cooled. (1) Trump-Iran: the coercive axis eased as the Hormuz closure proved unenforced and oil fell — Trump's casus-belli framing lost its triggering event this cycle. (2) Trump-Netanyahu / Israel: Israel continues to treat the US deal as non-binding (Ben Gvir/Smotrich 'does not bind us'), but the Lebanon axis moved to talks rather than a fresh provocation. The Powell mechanism still operates (each actor reads its window and holds its reserved option) but no actor exercised a reserved option kinetically this cycle. The dispositional divergence is real and standing, not acute.",
+      "trigger_match": "partial — dispositional divergence persists on both axes but cooled; below matrix-movement threshold this cycle (no kinetic exercise of a reserved option)",
+      "direction": "no change (the divergence is standing, not escalating this cycle)",
+      "urgency": "next cycle",
+      "proposed_revision": "No standalone matrix move; the dual divergence is a standing BS-14 condition. Watch for re-acute on any fresh Lebanon provocation or a Hormuz enforcement event",
+      "reference_trends": ["T8 hold — Powell loop present but not exercised kinetically this cycle", "T4 hold — coalition not monolithic (Ben Gvir/Smotrich reject; deal-faction holds)"],
+      "conflict_notes": "Consistent with T8 (incentive predicted; actor selects — and selected restraint/talks this cycle) and T4 (coalition not monolithic). No contradiction. The Trump-Iran coercive axis is event-contingent (it needs a Hormuz/Lebanon trigger to be acute); with both surfaces cooling, it de-elevated."
+    },
+    {
+      "probe_id": "PROBE-20",
+      "target": "Gulf state troika / unaligned-middle pivot capacity (BS-18) — brake durability, intra-troika decay, deal-shaping, Hormuz exposure",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CNN (June 24, T2, 'Trump's Gulf allies fear his Iran agreement is a disastrous turning point')", "Reuters via relay (UAE unlocks billions in frozen Iranian assets)", "Soufan Center / FT / MEE (background MBS-MBZ pathway divergence, pre-window)"],
+      "discounts_applied": ["MBS-MBZ named-divergence sourcing is pre-window (May 14 Soufan); not scored as in-window", "UAE asset-unlock held at T2-underlying/T4-relay"],
+      "finding": "Gulf disposition shifted from the Day-115 'relief' pole toward ALARM. CNN (June 24, in-window): Gulf allies fear the deal is a 'disastrous turning point' — it grants Tehran a formal Hormuz oversight role alongside Oman plus maritime service fees, while the Gulf wants toll-free freedom of navigation, and it fails to address Iran's missiles and proxies. In a counter-signed accommodation move, the UAE agreed to unlock billions in frozen Iranian assets (a tactical shift on the MBZ pathway, opposite to the D115 UAE-hawkish-on-Hormuz read). No in-window NAMED MBS-MBZ divergence on a specific decision; no in-window Saudi-Iran FM meeting. The brake/endorsement function holds with the disposition souring on the deal's terms; hedging (non-aggression-pact path) continues.",
+      "trigger_match": "no — brake holds; no named intra-troika split; the relief->alarm shift and the UAE asset-unlock are fresh disposition datapoints (MBZ pathway now BOTH alarmed on terms AND accommodating on assets) but not a named MBS-MBZ divergence on a decision point",
+      "direction": "no change (matrix); Gulf disposition souring on deal terms",
+      "urgency": "next cycle",
+      "proposed_revision": "None; T1 holds. Update the intra-troika asymmetric-decay candidate: the UAE pathway shows BOTH a Hormuz/missile-hawkish posture (D115) AND a frozen-asset-unlock accommodation (D119) — internally complex, still no named split. Promote only on a named MBS-MBZ split or a UAE-infrastructure second-attack test",
+      "reference_trends": ["T1 hold — Gulf at the brake/endorsement pole; disposition souring (relief->alarm) on the deal's Iran-Hormuz-oversight terms; hedging + asset-unlock are autonomous pivot capacity"],
+      "conflict_notes": "Intra-troika asymmetric-decay pending candidate: the MBZ pathway now carries two opposite-signed in-window datapoints across two cycles (D115 Hormuz-unconditional-hawkish; D119 frozen-asset-unlock accommodation), which is pathway COMPLEXITY, not a named divergence from MBS. Hold; promote on a named split. The 'disastrous turning point' alarm is the post-deal Gulf-exposure thread (the deal 'empowered Iran') carried and sharpened from Day 115."
+    },
+    {
+      "probe_id": "PROBE-14",
+      "target": "Iranian residual capability / feigned weakness (BS-13) — reconstitution rate, T12 amplifier",
+      "status": "partial",
+      "confidence": "L",
+      "sources_consulted": ["CNN (May 21 reconstitution baseline, not re-sourced)", "Israeli IC assessment (~400kg 60% HEU survived, background)"],
+      "discounts_applied": ["No fresh reconstitution datapoint in the June 22-25 window; standing baseline reaffirmed, not re-sourced (-confidence)"],
+      "finding": "No new reconstitution datapoint this cycle. The standing US-IC / Israeli-IC baseline carries (Iran rebuilding faster than IC timelines; ~half of missile launchers intact; full drone reconstitution possible in ~6 months; ~400kg of 60% HEU survived). Capability remains frozen-pending-verification at the table; the 60-day roadmap and the IAEA-access dispute (PROBE-12') are the operative variables on the stockpile, not fresh reconstitution-rate evidence.",
+      "trigger_match": "no — T12 holds; no fresh cluster",
+      "direction": "no change",
+      "urgency": "next cycle",
+      "proposed_revision": "None; T12 VALIDATED holds on the prior clusters",
+      "reference_trends": ["T12 hold — amplifier real but no fresh signal; capability frozen pending the down-blend/verification talks"],
+      "conflict_notes": "The reconstitution amplifier (T12) and the Israeli pre-emption incentive (T8) both remain loaded; the actor channeled the incentive to Lebanon (now talks) and did not strike Iran's nuclear sites this cycle, consistent with both trends (incentive predicted; actor selects restraint)."
+    },
+    {
+      "probe_id": "PROBE-21",
+      "target": "Paine death-ground / war-termination mechanics (BS-12) — P-DG/P-DG2/P-AIM/P-INFO",
+      "status": "partial",
+      "confidence": "M",
+      "sources_consulted": ["CNN (Gulf alarm)", "Al Jazeera (talks roadmap)", "Iran International (hardliner backlash)"],
+      "discounts_applied": [],
+      "finding": "No death-ground dynamic this cycle. The off-ramp is signed and the talks produced a 60-day roadmap; the Hormuz closure proved reversible leverage (declaratory, unenforced), not irreversible war-resumption. No US targeting of named Iranian principals (P-DG unfired). Iranian terms did not harden into death-ground maximalism — Iran is at the table sequencing sanctions-relief ahead of IAEA access (bargaining, not death-ground). Trump's strait-seizure / 'hit hard' rhetoric is coercive bargaining, not a death-ground inversion. No P-INFO purge/sycophant signal; the apex-position contestation is managed-ratification friction (hardliner relay), the opposite of an information-pathology purge.",
+      "trigger_match": "no — the partials/0-fires pattern continues; the cycle's de-escalation reinforces that the fire-bar is structurally unreachable outside an open kinetic-resumption phase",
+      "direction": "no change",
+      "urgency": "next audit",
+      "proposed_revision": "None. The fired-bar recalibration remains a next-/audit item; a signed-then-de-escalating off-ramp produces another 0-fire, reinforcing that the bar may be structurally unreachable in a deferral/de-escalation phase (carry the redefinition to /audit)",
+      "reference_trends": ["T3 hold — apex-deterrent floor with a signed off-ramp; apex ratified (contested via relay)"],
+      "conflict_notes": "No principal-targeting; A20 PA-gap death-ground risk dormant. The probe's persistent 0-fire rate is a fire-bar question for /audit, not a world-state gap. The closest death-ground-adjacent signal (Trump strait-seizure rhetoric) is coercive bargaining that did not convert to action."
+    }
+  ],
+  "trigger_digest": [
+    {
+      "probe_id": "PROBE-10",
+      "trigger": "US Senate passed an Iran War Powers Resolution 50-48 on June 23 (4 GOP crossed: Cassidy, Collins, Paul, Murkowski; Fetterman D no). FIRST WPR to clear BOTH chambers (House passed ~June 3, the 215-208 logged D97). Non-binding, not transmitted to the White House, no veto-override margin, Trump dismissed it; no Federal-court WPA standing.",
+      "urgency": "immediate",
+      "proposed_action": "TREND TRANSITION FLAG for the next /audit: T9 (Stage-2 hysteresis lock-in) VALIDATED -> CONTESTED on the Day-105-armed reachable trigger (b) — the Senate June-23 passage is the SECOND single-chamber on-merits passage (House first). The sweep FLAGS, does not enact. NOT DISCONFIRMED: full falsification (both chambers + veto-override, or court standing) unmet; the executive-path prediction operationally holds (non-binding, Trump-dismissed). Increment the disc-ratio (4:10, already at /premortem). UPSHIFT PROBE-10 to Tier D for 3 cycles (auto-upshift on external signal touching its target). /revise watch: if /audit enacts CONTESTED, re-evaluate the 6/12m structural priors resting on T9 lock-in. Standing: a Federal court granting WPA standing OR a veto-override-capable majority crosses to full falsification."
+    },
+    {
+      "probe_id": "PROBE-8 / PROBE-2 / PROBE-7 / PROBE-16",
+      "trigger": "Hormuz reclosure proved DECLARATORY / unenforced and INVERTED to de-escalation one cycle after the D115 re-arm. Iran's Foreign Ministry (Baghaei) publicly contradicted the IRGC closure; CENTCOM reported record transit (55 ships / 17M bbl June 20); the ports blockade was lifted June 18; Brent FADED to ~$73-75 (Bloomberg: 'erases wartime gains as Hormuz reopening boosts supply'); no interdiction, no new operation, zero KIA.",
+      "urgency": "next cycle",
+      "proposed_action": "30d matrix: Fork C 16-26 -> 14-22 (de-arm); Fork D'-i 28-40 -> 30-42; Fork D' composite 48-62 -> 50-64; KEC 26-44 -> 24-42. Fork A composite HOLD 10-18 (US-resumption sub-path DE-elevates). Resolve P108-04 (Brent >$92) and P105-05 (Brent >$100 sustained) did-not-fire; P105-02 enforcement sub-condition did-not-fire (closure unenforced). BS-7/BS-11 state note: Hormuz term reverts to 'declaratory/unenforced — de-escalating' (THIRD consecutive oscillation D110->D115->D119); log for /audit recency-bias watch. No /revise: within-architecture §5.28/§5.30 activation."
+    },
+    {
+      "probe_id": "PROBE-12'",
+      "trigger": "IAEA-verification collision (§5.30 HEU down-blend class) went LIVE as a principal-level public contradiction: VP Vance asserted 'the Iranians have agreed to invite IAEA inspectors back'; Iran's ambassador PUBLICLY DENIED any such agreement, deferring inspections to a post-sanctions-relief stage; IAEA retains zero access to the four declared enrichment sites. The Bürgenstock round (concluded June 22, ~18h) produced a 60-day roadmap to a binding treaty + maritime safeguards. Missile-limit clause confirmed EXCLUDED from the 14-point MoU text.",
+      "urgency": "next cycle",
+      "proposed_action": "Log P109-03 (HEU down-blend verification dispute) FIRED; P108-03 (missile-limit clause enters text) did-not-fire (confirmed excluded/deferred). 30d matrix: Fork D'-v 20-28 -> 22-30 (verification fracture is the live stall driver). BS-11 state note: 60-day roadmap to a binding treaty; verification is the central disputed item (Vance-vs-Iran contradiction; zero current IAEA access). Discriminating signal next cycle: an agreed/published IAEA-access protocol vs a sustained access denial hardening to deal-terminal."
+    }
+  ],
+  "gap_log": [],
+  "principal_validation_window": {
+    "A4_Iranian_apex": {"state": "provisional", "cycle": "5 of ~6", "demote_target": "~Day 123 (structurally-opaque)", "forcing_question": "Authenticated apex-direct statement (video/voice/signed) owning or repudiating a specific MoU term (HEU or Hormuz) WITHOUT routing through SNSC/relay framing. Axis-level (Hormuz) discriminator: apex/SNSC public ownership of the closure (apex-directed) vs IRGC-only attribution with FM countermand (delegated/diffuse).", "this_cycle": "All evidence on the delegated/diffuse side: Mojtaba unseen since Feb 28; the June-18 approval contested via hardliner relay (Nabavian); the Hormuz closure IRGC-attributed and FM-countermanded, apex-unowned. Routed action per Step 7b.5 + Mitigation 1: next /audit must STAGE the demotion manifest, not re-flag."},
+    "A2_Netanyahu_penetration": {"state": "provisional", "cycle": "5 of ~6", "demote_target": "~Day 123 (inherited)", "forcing_question": "White House readout claiming maximalist terms the signed text does NOT contain (= Penetration-relay validated) vs executive openly diverging from Netanyahu and tolerating a HEU-deferring deal (= relay inherited, demote).", "this_cycle": "Cuts against A2 (5th cycle, P87-01 evidence-against): MoU excludes missiles + leaves HEU; Vance pushes IAEA re-admission (verification, not full dismantlement); Trump pressured Israel to hold the Hezbollah ceasefire. Supports staging demotion at the next /audit."}
+  }
+}
