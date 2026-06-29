@@ -280,6 +280,18 @@ Two matrices, separate cadences (v4.2 split).
   Absorbing an overlap as width is the width-as-hedge failure the 15pp cap exists to prevent.
   Canonical case: Day 105 Fork C widened to 12pp citing "Fork A/C boundary less resolvable"; under
   this rule that cycle reports a convergence cell instead.
+- **Primitive oscillation forces a standing floor (added 2026-06-29 via /premortem; Day 123 Failure 1).**
+  The multi-cycle-confirmation, symmetric-demotion, disc-ratio, and reading-swing rules discipline the
+  *trend* layer against recency bias; they have no analog at the *probability-primitive* layer, where
+  the SITREP re-cuts the 30d matrix every cycle by mandate. When a primitive's level reverses direction
+  on 3+ of the last 5 cycles **without a structural driver** (a constraint-layer L1-L5 shift or a trend
+  state transition), the cycle must NOT re-zero or re-spike it on the latest operational headline.
+  Instead, state and hold a **standing floor** for that primitive, the persistent-live-surface base
+  rate; single-cycle events move the band *within* the floor, not through it. Log the oscillation in
+  the SITREP Section-3 trend cross-check and route it to /audit and /premortem (the trend-layer
+  reading-swing counter's fork-layer twin). Canonical case: the BS-7/BS-11 Fork C sub-read oscillated
+  four cycles (D110 settled -> D115 re-arm 16-26 -> D119 de-arm 14-22 -> D123 live-exchange 18-28);
+  under this rule Fork C carries a stated standing floor and is not zeroed on a quiet cycle.
 - **"None of the above" row mandatory.** Non-zero floor: 5-10% on 30d; 10-15% on 6/12m.
 - **Fork D' decomposition.** If >30% on 30d sustained 4+ cycles, decompose into named variants at next SITREP. "Deferral" is not a primitive at that mass.
 - **Fork D' pre-staging (added 2026-05-27 via /premortem; Mitigation 4).** When the Fork D' midpoint has crossed 30% on 2 of the last 4 cycles (i.e., the decomposition trigger is in approach but not yet fired), the SITREP must include, immediately after the 30-day matrix table, a **Candidate decomposition** sub-block listing 3-5 named Fork D' variants the framework would adopt if the trigger fires next cycle. Format: bulleted list, one line per candidate, each naming (a) the deferral mechanism, (b) the named principal whose selection makes it the operative variant, (c) the discriminating signal that would pick this variant over the others. The candidates are not adopted as the primitive yet; they are pre-thought so that the next firing can adopt rather than improvise under cycle pressure. Once decomposition fires, the adopted variant table replaces the candidate sub-block. Canonical case: Day 90 Fork D' 32% midpoint (3 of 4 cycles above 30%; Day 87 below) approached the trigger; pre-staging would have produced candidates such as (i) LOI signed within 7d with Lebanon clause deferred, (ii) LOI signed with Lebanon clause bridged via post-caretaker Zamir baseline, (iii) LOI deferral via Iranian non-acceptance with talks continuing past 7d, (iv) LOI signed with Lebanon clause unresolved and breaks within 30d, (v) LOI deferral via diplomatic-spoiler collapse into Variant B.
