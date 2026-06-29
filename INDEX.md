@@ -58,6 +58,7 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 - [`premortems/INDEX.md`](https://raw.githubusercontent.com/wm83io/geopol/main/premortems/INDEX.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/main/premortems/INDEX.md)
 - [`premortems/premortem-2026-05-27.md`](https://raw.githubusercontent.com/wm83io/geopol/main/premortems/premortem-2026-05-27.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/main/premortems/premortem-2026-05-27.md)
 - [`premortems/premortem-2026-06-11.md`](https://raw.githubusercontent.com/wm83io/geopol/main/premortems/premortem-2026-06-11.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/main/premortems/premortem-2026-06-11.md)
+- [`premortems/premortem-2026-06-29.md`](https://raw.githubusercontent.com/wm83io/geopol/main/premortems/premortem-2026-06-29.md) | [view on GitHub](https://github.com/wm83io/geopol/blob/main/premortems/premortem-2026-06-29.md)
 
 ## `probes/`
 
@@ -201,5 +202,5 @@ Each path below is linked to its raw URL. Grouped by top-level directory.
 
 ---
 
-*Total tracked files: 136*
+*Total tracked files: 137*
 *Branch: `main`*
