@@ -177,15 +177,24 @@ canonical case: T2/T8/T12 advanced 8/8 cycles Days 90-105 while the 30d Fork C r
 6m Fork C held at 16-22% (~2x gap) because no transition was enacted.
 
 **Secondary gate:** when the trends anchoring a given fork have logged a **same-direction
-within-state advance on 4+ consecutive cycles** in `reference/strategic-trends.md` (even absent any
+within-state movement on 4+ consecutive cycles** in `reference/strategic-trends.md` (even absent any
 state transition), the next revision MUST re-evaluate that fork's 6/12-month structural prior and
 state the outcome in the §8.1b Version Notes (moved, with magnitude; or held, with reasoning per the
-Mitigation-5 forms). The 4-consecutive-advance count is a structural-shift proxy that the
+Mitigation-5 forms). The 4-consecutive-cycle count is a structural-shift proxy that the
 transition-only gate misses. This does not weaken the two-matrix discipline against cycle noise: a
-single advance, or mixed-direction advances, does not trip it; only a sustained one-directional
-within-state run does. **Immediate application:** T2/T8/T12 are already past the 4-cycle threshold as
-of v4.3; the next revision must re-evaluate the Fork A / Fork C 6/12m priors (currently v4.1 Day-84
-baseline) rather than carry them again.
+single move, or mixed-direction moves, does not trip it; only a sustained one-directional
+within-state run does.
+
+**The gate is SYMMETRIC (added 2026-06-29 via /premortem; Day 123 Failure 3).** "Movement" means
+same-direction within-state *advance OR ease/hold-against-the-prior-driver*, not advance only. The
+advance-only reading catches stale-LOW priors (drivers advancing while the prior is frozen low, the
+Day-105 case) but is blind to stale-HIGH priors (a prior set on "sustained advance" while its
+anchoring trends ease or hold for 4+ cycles). Both are insulation-into-staleness. Canonical case: the
+6/12m Fork A prior (set v4.4 on "sustained T8/T12 advance") carried while T8 eased to a Lebanon
+talks/framework track and T12 held (no fresh reconstitution cluster) across Days 110-123; the
+advance-only gate could not fire on that easing, so the elevated prior went unexamined. **Immediate
+application:** the next revision must re-evaluate the 6/12m Fork A prior against the T8-easing /
+T12-holding run rather than carry the v4.4 baseline again.
 
 After producing both outputs:
 - Write internal synthesis to `synthesis/synthesis-v{X-Y}.md`
